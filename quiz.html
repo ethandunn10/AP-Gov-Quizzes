@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz — AP Gov Practice Quizzes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">AP Gov Practice Quizzes</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="past-quizzes.html">Past Quizzes</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Shown while the quiz data file is loading. -->
+    <p id="loading" class="status-message">Loading quiz…</p>
+
+    <!-- Shown if the ?week= id in the URL doesn't match a known quiz. -->
+    <div id="error-state" class="card hidden">
+      <p>We couldn't find that quiz.</p>
+      <a class="btn-secondary" href="index.html">← Back to all quizzes</a>
+    </div>
+
+    <!-- The in-progress quiz: one question at a time. -->
+    <section id="quiz-app" class="card hidden">
+      <h2 id="quiz-topic-heading" class="quiz-topic-heading"></h2>
+      <p id="progress-text" class="progress-text"></p>
+      <p id="question-text" class="question-text"></p>
+      <ul id="options-list" class="options-list"></ul>
+      <div id="feedback-box" class="feedback-box hidden">
+        <span id="feedback-title" class="feedback-title"></span>
+        <span id="feedback-explanation"></span>
+      </div>
+      <button id="next-button" class="btn-primary hidden" type="button">Next</button>
+    </section>
+
+    <!-- The results screen, shown after the last question. -->
+    <section id="results" class="card hidden">
+      <div class="score-summary">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120" aria-hidden="true">
+            <defs>
+              <linearGradient id="score-ring-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#2563eb" />
+                <stop offset="100%" stop-color="#7c3aed" />
+              </linearGradient>
+            </defs>
+            <circle class="score-ring-bg" cx="60" cy="60" r="52" />
+            <circle id="score-ring-fill" class="score-ring-fill" cx="60" cy="60" r="52" />
+          </svg>
+          <div class="score-ring-text">
+            <span id="score-percent" class="score-percent"></span>
+          </div>
+        </div>
+        <div id="score-fraction" class="score-fraction"></div>
+      </div>
+
+      <div id="missed-section" class="missed-list">
+        <h3>Questions you missed</h3>
+        <div id="missed-items"></div>
+      </div>
+
+      <div class="results-actions">
+        <button id="retry-button" class="btn-primary" type="button">Retry this quiz</button>
+        <a class="btn-secondary" href="index.html">Back to all quizzes</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    Free study aid, not official course material.
+    <a href="about.html">Read more</a>.
+  </footer>
+
+  <!-- Quiz registry, so we can look up the topic name for this week's id. -->
+  <script src="quizzes/index.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>

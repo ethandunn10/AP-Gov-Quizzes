@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AP Gov Practice Quizzes</title>
+  <meta
+    name="description"
+    content="Free weekly AP US Government practice quizzes, made by a student for students."
+  />
+
+  <!-- Google Font (Inter). Preconnect hints speed up the font request. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">AP Gov Practice Quizzes</a>
+      <nav>
+        <a href="past-quizzes.html">Past Quizzes</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="intro">
+      One short multiple-choice quiz per week, matching whatever our AP US
+      Government class covered that week.
+    </p>
+
+    <!-- quizzes/index.js + js/homepage.js fill this in. -->
+    <div id="current-quiz"></div>
+  </main>
+
+  <footer class="page-footer">
+    Free study aid, not official course material.
+    <a href="about.html">Read more</a>.
+  </footer>
+
+  <!-- Data first, then the script that reads it. -->
+  <script src="quizzes/index.js"></script>
+  <script src="js/homepage.js"></script>
+</body>
+</html>

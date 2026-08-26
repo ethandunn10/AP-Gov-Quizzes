@@ -1,0 +1,438 @@
+/* ==========================================================================
+   AP Gov Practice Quizzes — stylesheet
+   Mobile-first: base rules below target small screens, then the single
+   @media query near the bottom adds a bit of breathing room on larger ones.
+   ========================================================================== */
+
+/* ---- Design tokens -------------------------------------------------- */
+:root {
+  --color-bg: #f6f5fc;
+  --color-surface: #ffffff;
+  --color-text: #1e1b2e;
+  --color-muted: #675f7d;
+  --color-border: #e3ddf5;
+
+  --color-primary: #6d28d9;
+  --color-primary-dark: #5b21b6;
+  --color-secondary: #2563eb;
+  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  --gradient-primary-hover: linear-gradient(135deg, #1d4ed8 0%, #5b21b6 100%);
+
+  --color-correct-bg: #e6f7ec;
+  --color-correct-text: #1e7d3c;
+  --color-correct-border: #34a853;
+
+  --color-incorrect-bg: #fdecea;
+  --color-incorrect-text: #c5221f;
+  --color-incorrect-border: #ea4335;
+
+  --radius: 10px;
+  --max-width: 640px;
+  --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* ---- Reset / base ----------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+  margin: 0 0 0.5em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+/* ---- Layout ------------------------------------------------------------ */
+.page-header {
+  background: var(--gradient-primary);
+  padding: 1rem 1.25rem;
+}
+
+.page-header .header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-header nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.page-header nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.page-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2rem;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+/* ---- Homepage: quiz list ------------------------------------------- */
+.intro {
+  color: var(--color-muted);
+  margin-bottom: 1.5rem;
+}
+
+.quiz-card {
+  display: block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.quiz-card:hover,
+.quiz-card:focus-visible {
+  border-color: var(--color-primary);
+}
+
+/* This week's quiz, shown at the top of the homepage. */
+.quiz-card-featured {
+  background: var(--gradient-primary);
+  border: none;
+  padding: 1.4rem 1.25rem;
+}
+
+.quiz-card-featured .quiz-date,
+.quiz-card-featured .quiz-cta {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.quiz-card-featured .quiz-topic {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.quiz-card .quiz-date {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 0.15rem;
+}
+
+.quiz-card .quiz-topic {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.quiz-card .quiz-cta {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.empty-state {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* ---- Quiz page: shared card look ------------------------------------ */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ---- Quiz page: in-progress state ------------------------------------ */
+.quiz-topic-heading {
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.progress-text {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.options-list {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.option-button {
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  font-size: 0.98rem;
+  padding: 0.8rem 1rem;
+  min-height: 48px; /* comfortable tap target on phones */
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.option-button:hover:not(:disabled) {
+  border-color: var(--color-primary);
+}
+
+.option-button:disabled {
+  cursor: default;
+}
+
+/* Feedback states, applied after an answer is picked */
+.option-button.correct {
+  background: var(--color-correct-bg);
+  border-color: var(--color-correct-border);
+  color: var(--color-correct-text);
+  font-weight: 600;
+}
+
+.option-button.incorrect {
+  background: var(--color-incorrect-bg);
+  border-color: var(--color-incorrect-border);
+  color: var(--color-incorrect-text);
+  font-weight: 600;
+}
+
+.feedback-box {
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.feedback-box.correct {
+  background: var(--color-correct-bg);
+  color: var(--color-correct-text);
+}
+
+.feedback-box.incorrect {
+  background: var(--color-incorrect-bg);
+  color: var(--color-incorrect-text);
+}
+
+.feedback-box .feedback-title {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* ---- Buttons ----------------------------------------------------------- */
+.btn-primary {
+  display: inline-block;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  min-height: 48px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--gradient-primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--gradient-primary-hover);
+}
+
+.btn-secondary {
+  display: inline-block;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.1rem;
+  min-height: 44px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ---- Quiz page: results screen --------------------------------------- */
+.score-summary {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Circular progress ring showing the score visually. The fill circle's
+   stroke-dasharray/offset are set in JS based on the score percentage --
+   see js/quiz.js (SCORE_RING_CIRCUMFERENCE matches r=52 below). */
+.score-ring-wrap {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 0.5rem;
+}
+
+.score-ring {
+  width: 100%;
+  height: 100%;
+  /* Rotate so the fill starts at the top of the circle instead of the right. */
+  transform: rotate(-90deg);
+}
+
+.score-ring-bg {
+  fill: none;
+  stroke: var(--color-border);
+  stroke-width: 10;
+}
+
+.score-ring-fill {
+  fill: none;
+  stroke: url(#score-ring-gradient);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.6s ease;
+}
+
+.score-ring-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-summary .score-percent {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.score-summary .score-fraction {
+  color: var(--color-muted);
+}
+
+.missed-list h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.missed-item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.missed-item .missed-question {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.missed-item .missed-answer-line {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.missed-item .your-answer {
+  color: var(--color-incorrect-text);
+}
+
+.missed-item .correct-answer {
+  color: var(--color-correct-text);
+}
+
+.missed-item .missed-explanation {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-top: 0.4rem;
+}
+
+.results-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* ---- Loading / error states -------------------------------------------- */
+.status-message {
+  color: var(--color-muted);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* ---- About page --------------------------------------------------------- */
+.about-content h2 {
+  font-size: 1.05rem;
+  margin-top: 1.5rem;
+}
+
+.disclaimer {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+/* ---- Slightly roomier layout on larger screens ------------------------- */
+@media (min-width: 700px) {
+  main {
+    padding-top: 2.5rem;
+  }
+
+  .score-summary .score-percent {
+    font-size: 3rem;
+  }
+}

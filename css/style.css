@@ -113,6 +113,35 @@ main {
   margin-bottom: 1.5rem;
 }
 
+/* Homepage-only layout: content column plus a side note. Stacked on
+   mobile; becomes a real sidebar at the 700px breakpoint below. */
+.home-content {
+  min-width: 0;
+}
+
+.home-sidebar {
+  margin-top: 1.5rem;
+}
+
+.mastery-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.mastery-note::before {
+  content: "💡";
+  flex-shrink: 0;
+}
+
 .quiz-card {
   display: block;
   background: var(--color-surface);
@@ -360,6 +389,26 @@ main {
   color: var(--color-muted);
 }
 
+.mastery-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: #f2edfc;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.mastery-note::before {
+  content: "💡";
+  flex-shrink: 0;
+}
+
 .missed-list h3 {
   font-size: 1rem;
   margin-bottom: 0.75rem;
@@ -434,5 +483,23 @@ main {
 
   .score-summary .score-percent {
     font-size: 3rem;
+  }
+
+  .home-layout {
+    max-width: calc(var(--max-width) + 260px);
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .home-content {
+    max-width: var(--max-width);
+    flex: 1;
+  }
+
+  .home-sidebar {
+    width: 220px;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
   }
 }

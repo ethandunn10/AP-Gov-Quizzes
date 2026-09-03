@@ -42,6 +42,7 @@
   //   { question, options: [...4 shuffled strings], correctIndex, explanation }
   let questions = [];
   let currentIndex = 0;
+  let currentWeekId = null; // set in init(), used to tag logged attempts
   let score = 0;
   let missed = []; // { question, yourAnswer, correctAnswer, explanation }
   let answered = false; // true once the student has picked an option this question
@@ -192,6 +193,12 @@
       });
     }
 
+    // Log this completed attempt anonymously (no login) so we can count
+    // real distinct users later, not just raw quiz-attempt clicks.
+    if (window.APGovTracking) {
+      window.APGovTracking.logAttempt(currentWeekId, score, questions.length);
+    }
+
     showOnly(resultsEl);
   }
 
@@ -209,6 +216,7 @@
   function init() {
     const params = new URLSearchParams(window.location.search);
     const weekId = params.get("week");
+    currentWeekId = weekId;
     const quizInfo = (window.QUIZ_LIST || []).find((q) => q.id === weekId);
 
     if (!weekId || !quizInfo) {

@@ -20,7 +20,6 @@
       <a class="site-title" href="index.html">AP Gov Practice Quizzes</a>
       <nav>
         <a href="index.html">Home</a>
-        <a href="past-quizzes.html">Past Quizzes</a>
         <a href="about.html">About</a>
       </nav>
     </div>
@@ -91,8 +90,12 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/tracking.js"></script>
 
-  <!-- Quiz registry, so we can look up the topic name for this week's id. -->
+  <!-- Local per-browser progress tracking (lesson scores, unit-quiz missed questions). -->
+  <script src="js/progress.js"></script>
+
+  <!-- Quiz + unit registries, so we can look up topic/unit info by id. -->
   <script src="quizzes/index.js"></script>
+  <script src="quizzes/units.js"></script>
   <script src="js/quiz.js"></script>
 </body>
 </html>

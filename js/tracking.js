@@ -12,8 +12,16 @@
 
   // supabase-js UMD build exposes a global `supabase` object with
   // .createClient -- loaded via the CDN <script> tag in quiz.html, before
-  // this file.
-  const client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  // this file. If that CDN script is blocked (ad blocker, offline, etc.),
+  // `window.supabase` won't exist -- fall back to a no-op client so the
+  // rest of the site (which depends on window.APGovTracking existing)
+  // keeps working.
+  let client = null;
+  try {
+    client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  } catch (err) {
+    console.error("Usage tracking unavailable (Supabase client failed to load):", err);
+  }
 
   function getAnonId() {
     let anonId = localStorage.getItem("anonId");
@@ -26,6 +34,7 @@
 
   // Call this once a quiz is finished. weekId is like "week-1".
   async function logAttempt(weekId, score, total) {
+    if (!client) return;
     const anonId = getAnonId();
     try {
       await client.from("Attempts").insert({

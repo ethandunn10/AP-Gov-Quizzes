@@ -201,6 +201,69 @@ main {
   font-style: italic;
 }
 
+/* ---- "You might want to review X again" recommendation banner -------- */
+.recommendation-note {
+  background: #f2edfc;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-secondary);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.recommendation-note a {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* ---- Landing screen (landing.html): the unit picker ------------------- */
+.landing-layout {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1.25rem;
+}
+
+.landing-card {
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.landing-heading {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.landing-unit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.landing-unit-button {
+  width: 100%;
+  text-align: center;
+}
+
+.landing-skip {
+  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem;
+  min-height: 0;
+}
+
+/* ---- Unit page (unit.html): lesson list ------------------------------- */
+#lesson-list {
+  margin-bottom: 1rem;
+}
+
+.whole-unit-button {
+  display: block;
+}
+
 /* ---- Quiz page: shared card look ------------------------------------ */
 .card {
   background: var(--color-surface);

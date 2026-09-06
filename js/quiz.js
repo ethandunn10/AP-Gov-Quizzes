@@ -1,14 +1,30 @@
 // js/quiz.js
-// Drives quiz.html for every week -- this file never changes when a new
-// week's quiz is added. It:
-//   1. Reads ?week=<id> from the URL.
-//   2. Looks up that id in window.QUIZ_LIST (from quizzes/index.js) to
-//      get the topic name.
-//   3. Dynamically loads quizzes/<id>.js, which defines window.QUIZ_QUESTIONS.
+// Drives quiz.html for every lesson and unit -- this file never changes
+// when a new week's quiz or unit is added. Three URL shapes it handles:
+//   ?week=<id>                 legacy full-length quiz, every question in
+//                               that lesson (unchanged original behavior --
+//                               still reachable by a direct link)
+//   ?week=<id>&mode=lesson     10 random questions from just that lesson
+//   ?unit=<id>&mode=unit       10 questions pooled from every lesson in
+//                               that unit, weighted toward previously
+//                               missed questions (see js/progress.js)
+//
+// In every case it:
+//   1. Reads the URL params above.
+//   2. Looks up topic/unit info in window.QUIZ_LIST / window.UNITS (from
+//      quizzes/index.js / quizzes/units.js) for the heading.
+//   3. Dynamically loads the relevant quizzes/<id>.js file(s), which
+//      define window.QUIZ_QUESTIONS.
 //   4. Shuffles the questions and each question's options.
-//   5. Walks the student through one question at a time, then shows results.
+//   5. Walks the student through one question at a time, then shows
+//      results and records progress (js/progress.js) + usage tracking
+//      (js/tracking.js).
 
 (function () {
+  const LESSON_QUIZ_LENGTH = 10;
+  const UNIT_QUIZ_LENGTH = 10;
+  const UNIT_REVIEW_SLOTS = 5; // of UNIT_QUIZ_LENGTH, at most this many are previously-missed questions
+
   // ---- Element references -------------------------------------------
   const loadingEl = document.getElementById("loading");
   const errorEl = document.getElementById("error-state");
@@ -39,13 +55,20 @@
   // ---- Quiz state -------------------------------------------------------
   // `questions` holds the shuffled question set for the current attempt.
   // Each entry looks like:
-  //   { question, options: [...4 shuffled strings], correctIndex, explanation }
+  //   { id, question, options: [...4 shuffled strings], correctIndex, explanation }
   let questions = [];
   let currentIndex = 0;
-  let currentWeekId = null; // set in init(), used to tag logged attempts
   let score = 0;
   let missed = []; // { question, yourAnswer, correctAnswer, explanation }
+  let attemptResults = []; // { id, correct } for every question this attempt
   let answered = false; // true once the student has picked an option this question
+
+  // Set once in init(): "legacy" (full lesson, no cap), "lesson" (10Q,
+  // single lesson), or "unit" (10Q, pooled across a unit's lessons).
+  let mode = "legacy";
+  let currentWeekId = null; // set for "legacy" and "lesson" modes
+  let currentUnitId = null; // set for "unit" mode
+  let rawPool = []; // full question pool to draw this attempt's set from
 
   // ---- Helpers ------------------------------------------------------------
   function showOnly(elementToShow) {
@@ -74,11 +97,38 @@
     const shuffledOptions = shuffle(optionObjects);
 
     return {
+      id: originalQuestion.id,
       question: originalQuestion.question,
       explanation: originalQuestion.explanation,
       options: shuffledOptions.map((o) => o.text),
       correctIndex: shuffledOptions.findIndex((o) => o.isCorrect),
     };
+  }
+
+  // Picks this attempt's question set out of rawPool, based on `mode`.
+  // Re-run on every retake so lesson/unit quizzes draw a fresh set each
+  // time, not just a fresh shuffle of a fixed set.
+  function selectAttemptQuestions() {
+    if (mode === "lesson") {
+      return shuffle(rawPool).slice(0, Math.min(LESSON_QUIZ_LENGTH, rawPool.length));
+    }
+
+    if (mode === "unit") {
+      const missedIds = new Set(window.APGovProgress.getUnitMissedIds(currentUnitId));
+      const missedPool = rawPool.filter((q) => missedIds.has(q.id));
+      const reviewCount = Math.min(missedPool.length, UNIT_REVIEW_SLOTS);
+      const reviewPicks = shuffle(missedPool).slice(0, reviewCount);
+
+      const reviewPickIds = new Set(reviewPicks.map((q) => q.id));
+      const remainingPool = rawPool.filter((q) => !reviewPickIds.has(q.id));
+      const freshCount = Math.min(UNIT_QUIZ_LENGTH - reviewPicks.length, remainingPool.length);
+      const freshPicks = shuffle(remainingPool).slice(0, freshCount);
+
+      return shuffle(reviewPicks.concat(freshPicks));
+    }
+
+    // "legacy": every question in the lesson, unchanged original behavior.
+    return rawPool;
   }
 
   // ---- Rendering ------------------------------------------------------
@@ -127,6 +177,8 @@
     feedbackBoxEl.classList.toggle("incorrect", !isCorrect);
     feedbackTitleEl.textContent = isCorrect ? "Correct!" : "Incorrect.";
     feedbackExplanationEl.textContent = q.explanation;
+
+    attemptResults.push({ id: q.id, correct: isCorrect });
 
     if (isCorrect) {
       score++;
@@ -196,54 +248,98 @@
     // Log this completed attempt anonymously (no login) so we can count
     // real distinct users later, not just raw quiz-attempt clicks.
     if (window.APGovTracking) {
-      window.APGovTracking.logAttempt(currentWeekId, score, questions.length);
+      window.APGovTracking.logAttempt(currentWeekId || currentUnitId, score, questions.length);
+    }
+
+    // Score history (per lesson, and per whole-unit quiz) drives the "you
+    // might want to retake X again" recommendation -- only the single
+    // lowest-scoring quiz is ever recommended. Per-question missed
+    // tracking (unit mode only) separately drives which questions get
+    // mixed back into future whole-unit quizzes.
+    if (window.APGovProgress) {
+      if (mode === "unit") {
+        window.APGovProgress.recordUnitAttempt(currentUnitId, attemptResults);
+        window.APGovProgress.recordUnitScore(currentUnitId, score, questions.length);
+      } else {
+        window.APGovProgress.recordLessonScore(currentWeekId, score, questions.length);
+      }
     }
 
     showOnly(resultsEl);
   }
 
   // ---- Starting / restarting the quiz ------------------------------------
-  function startQuiz(rawQuestions) {
-    questions = shuffle(rawQuestions).map(shuffleQuestion);
+  function startQuiz() {
+    questions = shuffle(selectAttemptQuestions()).map(shuffleQuestion);
     currentIndex = 0;
     score = 0;
     missed = [];
+    attemptResults = [];
     showOnly(quizAppEl);
     renderQuestion();
   }
 
-  // ---- Boot: figure out which week to load, then load it -----------------
-  function init() {
+  // Loads quizzes/<lessonId>.js and returns its question array. Uses a
+  // plain <script> tag (rather than fetch()) so the site also works when
+  // opened directly from disk (file://), not just when served over http.
+  function loadLessonQuestions(lessonId) {
+    return new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = `quizzes/${lessonId}.js`;
+      script.onload = () => {
+        const loaded = window.QUIZ_QUESTIONS || [];
+        resolve(loaded.slice()); // copy now -- the next script overwrites window.QUIZ_QUESTIONS
+      };
+      script.onerror = reject;
+      document.body.appendChild(script);
+    });
+  }
+
+  // ---- Boot: figure out what to load, then load it -----------------------
+  async function init() {
     const params = new URLSearchParams(window.location.search);
     const weekId = params.get("week");
-    currentWeekId = weekId;
-    const quizInfo = (window.QUIZ_LIST || []).find((q) => q.id === weekId);
+    const unitId = params.get("unit");
+    mode = params.get("mode") === "lesson" || params.get("mode") === "unit" ? params.get("mode") : "legacy";
 
-    if (!weekId || !quizInfo) {
-      showOnly(errorEl);
-      return;
-    }
+    try {
+      if (mode === "unit") {
+        const unitInfo = (window.UNITS || []).find((u) => u.id === unitId);
+        if (!unitInfo) {
+          showOnly(errorEl);
+          return;
+        }
+        currentUnitId = unitId;
+        topicHeadingEl.textContent = `${unitInfo.name}: Whole Unit Quiz`;
 
-    topicHeadingEl.textContent = quizInfo.topic;
+        const pools = [];
+        for (const lessonId of unitInfo.lessons) {
+          pools.push(await loadLessonQuestions(lessonId));
+        }
+        rawPool = pools.flat();
+      } else {
+        const quizInfo = (window.QUIZ_LIST || []).find((q) => q.id === weekId);
+        if (!weekId || !quizInfo) {
+          showOnly(errorEl);
+          return;
+        }
+        currentWeekId = weekId;
+        topicHeadingEl.textContent = quizInfo.topic;
+        rawPool = await loadLessonQuestions(weekId);
+      }
 
-    // Load this week's question data as a plain <script> tag (rather than
-    // fetch()), so the site also works when opened directly from disk
-    // (file://) and not just when served over http.
-    const script = document.createElement("script");
-    script.src = `quizzes/${weekId}.js`;
-    script.onload = () => {
-      if (!window.QUIZ_QUESTIONS || window.QUIZ_QUESTIONS.length === 0) {
+      if (rawPool.length === 0) {
         showOnly(errorEl);
         return;
       }
-      startQuiz(window.QUIZ_QUESTIONS);
-    };
-    script.onerror = () => showOnly(errorEl);
-    document.body.appendChild(script);
+      startQuiz();
+    } catch (err) {
+      showOnly(errorEl);
+    }
   }
 
   nextButtonEl.addEventListener("click", goToNextQuestion);
-  retryButtonEl.addEventListener("click", () => startQuiz(window.QUIZ_QUESTIONS));
+  retryButtonEl.addEventListener("click", startQuiz);
 
   init();
 })();

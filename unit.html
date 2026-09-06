@@ -3,13 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AP Gov Practice Quizzes</title>
-  <meta
-    name="description"
-    content="Free weekly AP US Government practice quizzes, made by a student for students."
-  />
+  <title>Unit — AP Gov Practice Quizzes</title>
+  <meta name="description" content="Pick a lesson to quiz yourself on, or take a quiz covering the whole unit." />
 
-  <!-- Google Font (Inter). Preconnect hints speed up the font request. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -24,28 +20,36 @@
     <div class="header-inner">
       <a class="site-title" href="index.html">AP Gov Practice Quizzes</a>
       <nav>
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
       </nav>
     </div>
   </header>
 
-  <main class="home-layout">
-    <div class="home-content">
-      <p class="intro">Unit 1 is live now -- pick a lesson below and start quizzing.</p>
+  <main>
+    <!-- Shown while quizzes/units.js + quizzes/index.js are being read. -->
+    <p id="loading" class="status-message">Loading unit…</p>
 
-      <!-- js/progress.js + js/recommendations.js fill this in when a lesson needs review. -->
-      <div id="recommendations" class="hidden"></div>
-
-      <h2>Units</h2>
-      <!-- quizzes/units.js + js/homepage.js fill this in. -->
-      <div id="units-list"></div>
+    <!-- Shown if the ?unit= id in the URL doesn't match a known unit. -->
+    <div id="error-state" class="card hidden">
+      <p>We couldn't find that unit.</p>
+      <a class="btn-secondary" href="index.html">← Back to home</a>
     </div>
 
-    <aside class="home-sidebar">
-      <div class="mastery-note">
-        We recommend retaking the quiz until you get a 90% to ensure you have mastered the topics.
-      </div>
-    </aside>
+    <div id="unit-content" class="hidden">
+      <h1 id="unit-heading"></h1>
+
+      <!-- js/recommendations.js fills this in when a lesson in this unit is flagged. -->
+      <div id="recommendations" class="hidden"></div>
+
+      <!-- js/unit.js fills this in: one card per lesson. -->
+      <div id="lesson-list"></div>
+
+      <a id="whole-unit-button" class="quiz-card quiz-card-featured whole-unit-button" href="#">
+        <span class="quiz-topic">Take a quiz on the whole unit</span>
+        <span class="quiz-cta">10 random questions from any lesson →</span>
+      </a>
+    </div>
   </main>
 
   <footer class="page-footer">
@@ -58,10 +62,9 @@
   <script src="js/tracking.js"></script>
   <script src="js/progress.js"></script>
 
-  <!-- Data first, then the scripts that read it. -->
   <script src="quizzes/index.js"></script>
   <script src="quizzes/units.js"></script>
   <script src="js/recommendations.js"></script>
-  <script src="js/homepage.js"></script>
+  <script src="js/unit.js"></script>
 </body>
 </html>

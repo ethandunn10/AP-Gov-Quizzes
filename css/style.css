@@ -6,17 +6,17 @@
 
 /* ---- Design tokens -------------------------------------------------- */
 :root {
-  --color-bg: #f6f5fc;
+  --color-bg: #f7f5f0;
   --color-surface: #ffffff;
-  --color-text: #1e1b2e;
-  --color-muted: #675f7d;
-  --color-border: #e3ddf5;
+  --color-text: #1a1a1a;
+  --color-muted: #6f6a5e;
+  --color-border: #e3ddd0;
 
-  --color-primary: #6d28d9;
-  --color-primary-dark: #5b21b6;
-  --color-secondary: #2563eb;
-  --gradient-primary: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
-  --gradient-primary-hover: linear-gradient(135deg, #1d4ed8 0%, #5b21b6 100%);
+  --color-primary: #c9962c;
+  --color-primary-dark: #a67a1f;
+  --color-secondary: #3a3a3a;
+  --gradient-primary: linear-gradient(135deg, #1a1a1a 0%, #3a3a3a 100%);
+  --gradient-primary-hover: linear-gradient(135deg, #000000 0%, #2a2a2a 100%);
 
   --color-correct-bg: #e6f7ec;
   --color-correct-text: #1e7d3c;
@@ -74,10 +74,22 @@ a {
 }
 
 .site-title {
-  font-size: 1.1rem;
-  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
   text-decoration: none;
   color: #ffffff;
+}
+
+.site-tagline {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-primary);
 }
 
 .page-header nav a {
@@ -203,7 +215,7 @@ main {
 
 /* ---- "You might want to review X again" recommendation banner -------- */
 .recommendation-note {
-  background: #f2edfc;
+  background: #f7f1e3;
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-secondary);
   border-radius: var(--radius);
@@ -456,7 +468,7 @@ main {
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
-  background: #f2edfc;
+  background: #f7f1e3;
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-primary);
   border-radius: var(--radius);

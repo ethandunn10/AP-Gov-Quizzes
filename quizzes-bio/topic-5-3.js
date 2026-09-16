@@ -5,14 +5,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.3-1",
     question: "According to Mendel's law of segregation, during gamete formation:",
-    options: ["The two alleles for a gene stay together and are inherited as a single unit", "The two alleles for a gene separate, so each gamete receives only one allele for that gene", "All alleles for every gene combine into one gamete", "Alleles are destroyed during meiosis"],
+    options: ["The two alleles stay together in one gamete", "The two alleles separate into gametes", "All alleles for every gene enter one gamete", "Alleles are destroyed during meiosis"],
     correctIndex: 1,
     explanation: "The law of segregation states that the two alleles an individual carries for a gene separate during meiosis, so each gamete ends up with only one of the two alleles."
   },
   {
     id: "5.3-2",
     question: "Mendel's law of independent assortment states that genes for different traits:",
-    options: ["Are always inherited together as a single linked unit", "Are sorted into gametes independently of one another (for genes on different chromosomes)", "Cannot be inherited separately under any circumstances", "Only apply to dominant traits"],
+    options: ["Are always inherited together as one unit", "Are sorted into gametes independently", "Cannot be inherited separately ever", "Only apply to dominant traits"],
     correctIndex: 1,
     explanation: "Independent assortment describes how alleles of genes located on different chromosomes segregate into gametes independently of each other, an idea reflecting the random orientation of different homologous pairs during meiosis I."
   },
@@ -33,14 +33,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.3-5",
     question: "An organism's genotype refers to its:",
-    options: ["Observable physical traits", "Specific genetic makeup (allele combination) for a given trait", "Location in an ecosystem", "Behavior patterns"],
+    options: ["Observable physical traits", "Its combination of alleles", "Location in its ecosystem", "Typical behavior patterns"],
     correctIndex: 1,
     explanation: "Genotype refers to the specific alleles an organism carries for a given gene (e.g., AA, Aa, or aa), while phenotype refers to the observable trait that results."
   },
   {
     id: "5.3-6",
     question: "A test cross is used to determine:",
-    options: ["Whether an organism displaying a dominant phenotype is homozygous dominant or heterozygous", "The exact location of a gene on a chromosome", "Whether crossing over has occurred", "The total number of chromosomes in an organism"],
+    options: ["Whether a dominant phenotype is heterozygous", "The exact location of a gene on a chromosome", "Whether crossing over has occurred", "The total number of chromosomes present"],
     correctIndex: 0,
     explanation: "By crossing an individual of unknown genotype (but showing the dominant phenotype) with a homozygous recessive individual, the resulting offspring ratios reveal whether the original individual was homozygous dominant or heterozygous."
   },
@@ -54,21 +54,21 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.3-8",
     question: "A Punnett square is a tool used to:",
-    options: ["Directly observe chromosomes under a microscope", "Predict the probable genotypes and phenotypes of offspring from a genetic cross", "Measure the exact age of an organism", "Sequence an organism's entire genome"],
+    options: ["Directly observe chromosomes with a microscope", "Predict likely offspring genotypes", "Measure the exact age of an organism", "Sequence an organism's entire genome"],
     correctIndex: 1,
     explanation: "Punnett squares provide a visual method to predict the possible allele combinations (genotypes) and resulting phenotypes among offspring of a genetic cross, based on the parents' genotypes."
   },
   {
     id: "5.3-9",
     question: "Complete dominance, as originally described by Mendel, means that in a heterozygote:",
-    options: ["Both alleles are expressed equally, creating a blended phenotype", "One allele (dominant) completely masks the expression of the other (recessive) allele in the phenotype", "Neither allele is expressed", "The recessive allele is always expressed instead of the dominant one"],
+    options: ["Both alleles are expressed as a blend", "The dominant allele masks the recessive", "Neither allele is expressed at all", "The recessive allele is expressed instead"],
     correctIndex: 1,
     explanation: "Under complete dominance, a heterozygote displays the same phenotype as a homozygous dominant individual, because the dominant allele fully masks the effect of the recessive allele."
   },
   {
     id: "5.3-10",
     question: "Why did Mendel's choice of the garden pea plant make his experiments particularly successful in revealing basic inheritance patterns?",
-    options: ["Pea plants have extremely complex, blended traits that are hard to categorize", "Pea plants have easily observable, discrete traits (such as flower color or seed shape) and can be precisely cross- or self-pollinated", "Pea plants cannot reproduce sexually", "Pea plants only have one chromosome"],
+    options: ["Pea traits are blended and hard to categorize", "Peas show discrete, easily crossed traits", "Pea plants cannot reproduce sexually", "Pea plants have only one chromosome"],
     correctIndex: 1,
     explanation: "Garden peas have clearly distinguishable, discrete traits (e.g., purple vs. white flowers) and Mendel could carefully control pollination, allowing him to track inheritance patterns precisely across generations."
   },

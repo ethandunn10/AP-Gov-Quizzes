@@ -5,7 +5,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.4-1",
     question: "The overall equation for photosynthesis shows that carbon dioxide and water are converted into:",
-    options: ["Glucose and oxygen, using light energy", "ATP and carbon dioxide", "Only oxygen with no organic products", "Nitrogen and glucose"],
+    options: ["Glucose and oxygen, from light", "ATP and carbon dioxide gas only", "Only oxygen with no organic products", "Nitrogen gas and glucose only"],
     correctIndex: 0,
     explanation: "Photosynthesis uses light energy to convert CO2 and water into glucose (a stored energy source) and oxygen as a byproduct: 6CO2 + 6H2O + light → C6H12O6 + 6O2."
   },
@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.4-3",
     question: "The Calvin cycle (light-independent reactions) takes place in the:",
-    options: ["Thylakoid membrane", "Stroma of the chloroplast", "Mitochondrial matrix", "Nucleus"],
+    options: ["Thylakoid membrane", "The chloroplast stroma", "Mitochondrial matrix", "The cell nucleus"],
     correctIndex: 1,
     explanation: "The Calvin cycle, which fixes CO2 into organic sugar using ATP and NADPH, occurs in the stroma, the fluid-filled space surrounding the thylakoids inside the chloroplast."
   },
@@ -33,28 +33,28 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.4-5",
     question: "ATP and NADPH produced during the light-dependent reactions are used in the Calvin cycle to:",
-    options: ["Split water molecules", "Provide the energy and reducing power needed to fix CO2 into organic sugar molecules (like G3P)", "Directly produce oxygen gas", "Break down glucose for energy"],
+    options: ["Split water molecules in the thylakoid", "Supply energy to fix CO2 into sugar", "Directly produce oxygen gas", "Break down glucose for energy"],
     correctIndex: 1,
     explanation: "ATP provides energy and NADPH provides electrons (reducing power) that the Calvin cycle uses to convert fixed carbon dioxide into organic molecules like glyceraldehyde-3-phosphate (G3P), which can be used to build glucose."
   },
   {
     id: "3.4-6",
     question: "The enzyme RuBisCO plays a central role in the Calvin cycle by:",
-    options: ["Splitting water molecules in photosystem II", "Catalyzing the fixation of atmospheric CO2 onto RuBP, the first step of carbon fixation", "Producing ATP directly from sunlight", "Transporting electrons in the electron transport chain"],
+    options: ["Splitting water molecules in photosystem II", "Fixing atmospheric CO2 onto RuBP", "Producing ATP directly from sunlight", "Transporting electrons in the transport chain"],
     correctIndex: 1,
     explanation: "RuBisCO catalyzes the attachment (fixation) of CO2 to the 5-carbon molecule RuBP, initiating the Calvin cycle's conversion of inorganic carbon into organic molecules."
   },
   {
     id: "3.4-7",
     question: "Photosystem II and photosystem I work together in the light-dependent reactions primarily to:",
-    options: ["Directly produce glucose without any further steps", "Absorb light energy and pass energized electrons along an electron transport chain, ultimately producing ATP and NADPH", "Break down organic molecules for energy", "Fix carbon dioxide into sugar"],
+    options: ["Directly produce glucose with no further steps", "Energize electrons to make ATP and NADPH", "Break down organic molecules for energy", "Fix carbon dioxide into sugars"],
     correctIndex: 1,
     explanation: "The two photosystems absorb light energy to energize electrons, which pass through electron transport chains, driving ATP synthesis (via chemiosmosis) and ultimately reducing NADP+ to NADPH."
   },
   {
     id: "3.4-8",
     question: "If a plant is placed in complete darkness, which part of photosynthesis would stop almost immediately?",
-    options: ["Only the Calvin cycle, while the light reactions continue normally", "The light-dependent reactions, which would then halt ATP and NADPH production needed for the Calvin cycle", "Neither process is affected by light", "Only cellular respiration would stop"],
+    options: ["Only the Calvin cycle, not the light reactions", "The light-dependent reactions would halt", "Neither process is affected by light", "Only cellular respiration would stop"],
     correctIndex: 1,
     explanation: "Without light, the light-dependent reactions cannot proceed, which quickly depletes the ATP and NADPH supply needed to power the Calvin cycle, indirectly halting carbon fixation as well."
   },
@@ -68,7 +68,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.4-10",
     question: "Photorespiration, which can reduce photosynthetic efficiency, occurs when RuBisCO binds:",
-    options: ["Glucose instead of CO2", "Oxygen instead of carbon dioxide, especially under hot, dry conditions when stomata close", "Water instead of CO2", "ATP instead of RuBP"],
+    options: ["Glucose instead of carbon dioxide", "Oxygen instead of carbon dioxide", "Water instead of carbon dioxide", "ATP instead of RuBP molecules"],
     correctIndex: 1,
     explanation: "Under hot, dry conditions, plants close their stomata to conserve water, which lowers internal CO2 and raises O2 levels, causing RuBisCO to bind O2 instead of CO2 in a wasteful process called photorespiration."
   },

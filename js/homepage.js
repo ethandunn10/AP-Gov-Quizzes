@@ -9,12 +9,13 @@
 // Adding a third subject needs no changes here: js/subjects.js builds the
 // list, this file just renders whatever is in it.
 //
-// Depends on the subject data files, js/subjects.js, and js/progress.js
-// being loaded first.
+// Depends on the subject data files, js/subjects.js, js/progress.js,
+// js/exam-dates.js and js/exam-banner.js being loaded first.
 
 (function () {
   const unitsListContainer = document.getElementById("units-list");
   const recommendationsContainer = document.getElementById("recommendations");
+  const examCountdownContainer = document.getElementById("exam-countdown");
   const introEl = document.getElementById("intro");
   const listHeadingEl = document.getElementById("list-heading");
   const backLinkEl = document.getElementById("back-link");
@@ -96,6 +97,14 @@
   } else {
     // No ?subject= (or an id we don't recognise) -- show the picker.
     renderSubjectPicker(subjects);
+  }
+
+  // Exam countdown + weak spot. On the subject picker there's no subject in
+  // the URL, so it falls back to the default subject in js/exam-dates.js.
+  if (window.AllAPExamBanner) {
+    const bannerSubject =
+      subject || window.AllAPSubjects.get(window.AllAPExamDates.DEFAULT_SUBJECT_ID);
+    window.AllAPExamBanner.render(examCountdownContainer, bannerSubject);
   }
 
   if (window.APGovRecommendations) {

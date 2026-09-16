@@ -12,7 +12,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.2-2",
     question: "Carbon is central to biological molecules mainly because it:",
-    options: ["It is the most abundant element in the universe", "It forms four covalent bonds, enabling diversity", "It reacts violently with liquid water", "It cannot form bonds with other carbons"],
+    options: ["It is the most abundant element on Earth", "It forms four stable covalent bonds", "It reacts violently with liquid water", "It cannot form bonds with other carbons"],
     correctIndex: 1,
     explanation: "Carbon's four valence electrons let it form up to four stable covalent bonds, including chains and rings with other carbons, enabling the vast diversity of organic molecules."
   },
@@ -40,7 +40,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.2-6",
     question: "Why can radioactive isotopes be used to trace molecules through a biological pathway?",
-    options: ["They alter the labeled molecule's chemistry", "They emit detectable radiation but behave normally", "They are invariably toxic to living cells", "They cannot be built into organic molecules"],
+    options: ["They alter the labeled molecule's chemistry", "They emit radiation but behave normally", "They are invariably toxic to living cells", "They cannot be built into organic molecules"],
     correctIndex: 1,
     explanation: "Radioactive isotopes have the same chemical properties as their stable counterparts, so they can be incorporated into molecules and tracked via their radioactive emissions."
   },
@@ -61,7 +61,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.2-9",
     question: "The number of electrons in an atom's outermost (valence) shell primarily determines its:",
-    options: ["Its overall atomic mass", "Its reactivity and bonding behavior", "Its number of nuclear neutrons", "Its tendency to be radioactive"],
+    options: ["Its overall atomic mass", "Its chemical reactivity", "Its number of nuclear neutrons", "Its tendency to be radioactive"],
     correctIndex: 1,
     explanation: "Valence electrons participate in chemical bonding, so the number of electrons in the outer shell determines how an atom will interact and bond with other atoms."
   },

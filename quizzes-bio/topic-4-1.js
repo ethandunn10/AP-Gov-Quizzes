@@ -5,21 +5,21 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.1-1",
     question: "Cells communicate with distant cells in the body primarily through:",
-    options: ["Direct cytoplasmic connections only", "Chemical signals, such as hormones, that travel through the bloodstream or extracellular fluid", "Physical movement of the entire cell", "Electrical current through the air"],
+    options: ["Direct cytoplasmic connections only", "Chemical signals in the bloodstream", "Physical movement of the entire cell", "Electrical current through the air"],
     correctIndex: 1,
     explanation: "Long-distance cell communication (endocrine signaling) typically relies on chemical signals like hormones that travel through the bloodstream to reach target cells elsewhere in the body."
   },
   {
     id: "4.1-2",
     question: "Gap junctions in animal cells allow for direct cell-to-cell communication by:",
-    options: ["Releasing hormones into the bloodstream", "Forming channels that directly connect the cytoplasm of adjacent cells, allowing small molecules and ions to pass through", "Requiring signals to travel long distances", "Only working between plant cells"],
+    options: ["Releasing hormones into the bloodstream", "Forming channels between adjacent cytoplasms", "Requiring signals to travel long distances", "Functioning only between plant cells"],
     correctIndex: 1,
     explanation: "Gap junctions are protein channels that directly connect the cytoplasm of neighboring cells, allowing ions and small molecules to pass directly between them without crossing the extracellular space."
   },
   {
     id: "4.1-3",
     question: "Plasmodesmata serve a similar function to gap junctions but are found in:",
-    options: ["Animal cells", "Plant cells, connecting adjacent cells through the cell wall", "Bacterial cells only", "Fungal cells exclusively"],
+    options: ["Animal muscle cells only", "Plant cells, via the cell wall", "Bacterial cells, through pili", "Fungal cells exclusively"],
     correctIndex: 1,
     explanation: "Plasmodesmata are channels through plant cell walls that connect the cytoplasm of adjacent plant cells, serving a role analogous to gap junctions in animal cells."
   },
@@ -33,14 +33,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.1-5",
     question: "Autocrine signaling occurs when a cell:",
-    options: ["Sends signals only to distant cells", "Responds to signaling molecules that it itself secretes", "Cannot communicate with any other cell", "Only communicates via direct cytoplasmic connections"],
+    options: ["Sends signals only to distant cells", "Responds to a signal it secretes itself", "Cannot communicate with any other cell", "Only communicates through direct contact"],
     correctIndex: 1,
     explanation: "In autocrine signaling, a cell releases a signal molecule that binds to receptors on that same cell, allowing it to regulate its own activity."
   },
   {
     id: "4.1-6",
     question: "Synaptic signaling, used by neurons, is a specialized, fast form of communication in which a signal travels:",
-    options: ["Through the bloodstream to reach the entire body", "Across a small gap (synapse) to a neighboring cell via released neurotransmitters", "Only through gap junctions", "Only via hormones released into the blood"],
+    options: ["Through the bloodstream to the entire body", "Across a synapse via neurotransmitters", "Only through open gap junctions", "Only via hormones released into blood"],
     correctIndex: 1,
     explanation: "In synaptic signaling, a neuron releases neurotransmitters across a narrow synaptic gap to rapidly and specifically communicate with an adjacent target cell, such as another neuron or a muscle cell."
   },
@@ -61,14 +61,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.1-9",
     question: "Why is direct contact signaling (such as through gap junctions) generally faster than endocrine signaling?",
-    options: ["Endocrine signals are always chemically unstable", "Direct contact avoids the time needed for a signal to travel through the bloodstream to reach distant target cells", "Gap junctions require no receptor proteins at all", "Endocrine signals cannot cross the plasma membrane"],
+    options: ["Endocrine signals are always chemically unstable", "It avoids travel time through the bloodstream", "Gap junctions require no receptor proteins", "Endocrine signals cannot cross the membrane"],
     correctIndex: 1,
     explanation: "Because direct contact signaling connects cells' cytoplasm immediately, it bypasses the travel time needed for hormones to circulate through the bloodstream to reach target cells elsewhere in the body."
   },
   {
     id: "4.1-10",
     question: "The variety of cell signaling methods (direct contact, paracrine, endocrine, synaptic) reflects the need for organisms to:",
-    options: ["Use only one universal method of communication for all situations", "Coordinate responses across different distances and time scales appropriate to different physiological needs", "Avoid all forms of intercellular communication", "Communicate exclusively within a single cell"],
+    options: ["Use one universal method for all situations", "Coordinate responses over different distances", "Avoid all forms of intercellular signaling", "Communicate only within a single cell"],
     correctIndex: 1,
     explanation: "Different signaling mechanisms have evolved to suit different needs — from the near-instant precision of synaptic signaling to the slower, body-wide reach of endocrine signaling — allowing organisms to coordinate diverse physiological processes."
   },

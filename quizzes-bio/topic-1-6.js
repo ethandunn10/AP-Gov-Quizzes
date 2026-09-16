@@ -54,7 +54,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.6-8",
     question: "ATP (adenosine triphosphate), the cell's main energy currency, is structurally related to nucleic acids because it:",
-    options: ["It is built from amino acids like a protein", "It is adenine plus ribose and three phosphates", "It is a specialized type of fatty acid", "It contains no nitrogenous base at all"],
+    options: ["It is built from amino acids like a protein", "It is adenine, ribose, and phosphates", "It is a specialized type of fatty acid", "It contains no nitrogenous base at all"],
     correctIndex: 1,
     explanation: "ATP is essentially a nucleotide (adenine base + ribose sugar) with two extra phosphate groups attached, and breaking the bond to the terminal phosphate releases usable energy."
   },
@@ -68,7 +68,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.6-10",
     question: "RNA is generally single-stranded while DNA is double-stranded. This structural difference is most directly related to their different roles in that:",
-    options: ["RNA is the more stable long-term archive", "DNA's double helix is built for stable storage", "RNA is unable to form hydrogen bonds", "DNA can never exit the cell nucleus"],
+    options: ["RNA is the more stable long-term archive", "DNA's double helix is stable for storage", "RNA is unable to form hydrogen bonds", "DNA can never exit the cell nucleus"],
     correctIndex: 1,
     explanation: "DNA's stable double-stranded helix is well suited to long-term storage and protection of genetic information, while RNA's single-stranded flexibility suits its varied, often transient roles in gene expression."
   },

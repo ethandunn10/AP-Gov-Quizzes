@@ -5,14 +5,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.1-1",
     question: "Which three components make up a single nucleotide?",
-    options: ["A five-carbon sugar, a phosphate group, and a nitrogenous base", "A ribosome, an amino acid, and a phosphate group", "Two sugars and one nitrogenous base", "A phosphate group, a fatty acid, and a nitrogenous base"],
+    options: ["A sugar, a phosphate, and a nitrogenous base", "A ribosome, an amino acid, and a phosphate group", "Two sugars and one nitrogenous base", "A phosphate, a fatty acid, and a base"],
     correctIndex: 0,
     explanation: "Every nucleotide (in DNA or RNA) is built from a five-carbon sugar, a phosphate group, and a nitrogenous base attached to the sugar."
   },
   {
     id: "6.1-2",
     question: "DNA's two strands are described as 'antiparallel.' What does this mean?",
-    options: ["Both strands run in the same 5' to 3' direction", "The two strands run in opposite directions, one 5' to 3' and the other 3' to 5'", "The strands are not connected to each other", "One strand is made of RNA and the other of DNA"],
+    options: ["Both strands run in the same 5' to 3' direction", "The strands run in opposite directions", "The strands are not connected to each other", "One strand is RNA and the other is DNA"],
     correctIndex: 1,
     explanation: "The two DNA strands run in opposite chemical orientations relative to each other, which is essential for correct base pairing and replication machinery."
   },
@@ -26,7 +26,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.1-4",
     question: "How does RNA differ structurally from DNA?",
-    options: ["RNA uses deoxyribose sugar and is double-stranded", "RNA uses ribose sugar, contains uracil instead of thymine, and is typically single-stranded", "RNA has no nitrogenous bases", "RNA and DNA are chemically identical"],
+    options: ["RNA uses deoxyribose and is double-stranded", "Ribose sugar, uracil, single-stranded", "RNA has no nitrogenous bases at all", "RNA and DNA are chemically identical"],
     correctIndex: 1,
     explanation: "RNA's sugar is ribose (not deoxyribose), it substitutes uracil for thymine, and it is generally single-stranded rather than a double helix."
   },
@@ -47,28 +47,28 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.1-7",
     question: "The Hershey-Chase experiment used radioactively labeled phosphorus and sulfur to show that:",
-    options: ["Proteins are the genetic material", "DNA, not protein, is the genetic material injected into bacteria by phages", "RNA is the genetic material", "Bacteria have no genetic material"],
+    options: ["Proteins are the genetic material", "DNA, not protein, entered the bacteria", "RNA is the true genetic material", "Bacteria have no genetic material"],
     correctIndex: 1,
     explanation: "By labeling phage DNA with radioactive phosphorus and phage protein with radioactive sulfur, Hershey and Chase showed only the DNA entered the bacterial cell, identifying DNA as the hereditary material."
   },
   {
     id: "6.1-8",
     question: "What type of bond links adjacent nucleotides together in a single strand of DNA?",
-    options: ["Hydrogen bond", "Ionic bond", "Phosphodiester bond", "Peptide bond"],
+    options: ["A hydrogen bond", "An ionic bond", "Phosphodiester bond", "A peptide bond"],
     correctIndex: 2,
     explanation: "Phosphodiester bonds connect the sugar of one nucleotide to the phosphate of the next, forming the sugar-phosphate backbone of a DNA/RNA strand."
   },
   {
     id: "6.1-9",
     question: "Griffith's transformation experiments with pneumococcus bacteria demonstrated that:",
-    options: ["Heat always destroys genetic information permanently", "A heritable substance from dead virulent bacteria could transform harmless bacteria into virulent ones", "Bacteria cannot exchange genetic material", "Only living cells contain DNA"],
+    options: ["Heat always destroys genetic information", "Dead bacteria transformed harmless ones", "Bacteria cannot exchange genetic material", "Only living cells contain any DNA"],
     correctIndex: 1,
     explanation: "Griffith found that heat-killed virulent bacteria could still transfer a transforming factor (later identified by Avery as DNA) to living harmless bacteria, making them virulent."
   },
   {
     id: "6.1-10",
     question: "In the Watson-Crick double helix model, the sugar-phosphate backbones are located:",
-    options: ["On the outside of the helix, with bases paired in the interior", "On the inside of the helix, with backbones on the outside", "Randomly distributed throughout the molecule", "Only at the two ends of the DNA molecule"],
+    options: ["On the outside, with bases paired inside", "On the inside, with backbones facing out", "Randomly distributed through the molecule", "Only at the two ends of the molecule"],
     correctIndex: 0,
     explanation: "The hydrophilic sugar-phosphate backbones face outward toward the surrounding water, while the hydrophobic nitrogenous bases pair up and stack in the interior of the helix."
   },

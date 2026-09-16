@@ -33,14 +33,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.5-5",
     question: "Why do fats serve as more energy-dense long-term storage molecules than carbohydrates?",
-    options: ["Fats hold more oxygen atoms per gram", "Their hydrocarbon chains are rich in C-H bonds", "Fats are water-soluble and easily moved", "Fats cannot be metabolized for energy"],
+    options: ["Fats hold more oxygen atoms per gram", "Their chains are rich in C-H bonds", "Fats are water-soluble and easily moved", "Fats cannot be metabolized for energy"],
     correctIndex: 1,
     explanation: "The long hydrocarbon chains in fatty acids contain many energy-rich C-H bonds and little oxygen, packing more usable energy per gram than carbohydrates."
   },
   {
     id: "1.5-6",
     question: "In a phospholipid bilayer, the hydrophilic phosphate 'heads' orient:",
-    options: ["Toward the interior of the membrane, away from water", "Toward the watery environments on both sides of the membrane", "Randomly, with no consistent orientation", "Only on the outer surface, never the inner surface"],
+    options: ["Toward the interior of the membrane, away from water", "Toward the watery environments on both sides", "Randomly, with no consistent orientation", "Only on the outer surface, never the inner surface"],
     correctIndex: 1,
     explanation: "The polar phosphate heads face the aqueous environment on both the inside and outside of the cell, while the nonpolar fatty acid tails cluster together, shielded from water."
   },

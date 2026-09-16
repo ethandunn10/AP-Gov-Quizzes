@@ -33,7 +33,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.7-5",
     question: "A protein's tertiary structure is the overall three-dimensional shape formed largely by interactions between:",
-    options: ["Only the polypeptide backbone atoms", "The R-group side chains of the amino acids", "Several separate polypeptide chains", "Phosphate groups along the chain"],
+    options: ["Only the polypeptide backbone atoms", "The R-groups of the amino acids", "Several separate polypeptide chains", "Phosphate groups along the chain"],
     correctIndex: 1,
     explanation: "Tertiary structure arises from interactions (hydrophobic interactions, hydrogen bonds, ionic bonds, disulfide bridges) between amino acid side chains (R groups) throughout the folded polypeptide."
   },

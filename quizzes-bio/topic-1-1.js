@@ -40,7 +40,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.1-6",
     question: "Why is water often called the 'universal solvent' in the context of biology?",
-    options: ["It dissolves every known substance", "Its polarity dissolves ionic and polar solutes", "It carries no uneven charge distribution", "It interacts only with nonpolar molecules"],
+    options: ["It dissolves every known substance", "Its polarity dissolves polar solutes", "It carries no uneven charge distribution", "It interacts only with nonpolar molecules"],
     correctIndex: 1,
     explanation: "Water's polar nature lets it surround and dissolve ions and other polar molecules, which is essential for transporting solutes in biological systems, though it does not dissolve nonpolar substances."
   },

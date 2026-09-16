@@ -12,21 +12,21 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.2-2",
     question: "A low surface-area-to-volume ratio is disadvantageous for a cell primarily because:",
-    options: ["It increases the rate of diffusion of nutrients and waste", "It limits how efficiently the cell can exchange materials with its environment relative to its metabolic needs", "It makes the cell too rigid", "It prevents the cell from dividing"],
+    options: ["It increases the rate of nutrient diffusion", "Exchange cannot keep pace with metabolism", "It makes the cell membrane too rigid", "It prevents the cell from dividing"],
     correctIndex: 1,
     explanation: "A cell's surface area must be sufficient to allow adequate exchange of nutrients, gases, and waste for the volume of cytoplasm it must support; too low a ratio limits this exchange."
   },
   {
     id: "2.2-3",
     question: "Why do most cells remain microscopically small rather than growing very large?",
-    options: ["Large cells have too much DNA", "Maintaining a favorable surface-area-to-volume ratio for efficient exchange limits practical cell size", "Cell membranes cannot expand further", "Large cells cannot produce enough ribosomes"],
+    options: ["Large cells contain far too much DNA", "A larger cell exchanges material slowly", "Cell membranes cannot expand any further", "Large cells cannot produce enough ribosomes"],
     correctIndex: 1,
     explanation: "As cells grow, their volume (and thus metabolic demand) outpaces their surface area, so most cells stay small to maintain efficient diffusion-based exchange with their environment."
   },
   {
     id: "2.2-4",
     question: "Microvilli on intestinal cells increase nutrient absorption by:",
-    options: ["Decreasing the surface-area-to-volume ratio", "Increasing surface area without significantly increasing cell volume", "Increasing cell volume more than surface area", "Reducing the number of membrane transport proteins"],
+    options: ["Decreasing the surface-area-to-volume ratio", "Increasing surface area without added volume", "Increasing cell volume more than surface area", "Reducing the number of membrane transport proteins"],
     correctIndex: 1,
     explanation: "Microvilli are finger-like membrane projections that greatly increase surface area relative to the cell's volume, enhancing absorption capacity."
   },
@@ -40,21 +40,21 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.2-6",
     question: "A cell facing a limiting surface-area-to-volume ratio could increase its exchange efficiency by:",
-    options: ["Becoming perfectly spherical", "Changing shape to become long and thin or developing membrane folds", "Increasing its overall volume further", "Reducing the number of membrane proteins"],
+    options: ["Becoming a perfectly smooth sphere", "Becoming long and thin or adding folds", "Increasing its overall volume further", "Reducing the number of membrane proteins"],
     correctIndex: 1,
     explanation: "Elongated shapes or membrane folds (like microvilli or cristae) increase surface area relative to volume without a proportional increase in volume, improving exchange efficiency."
   },
   {
     id: "2.2-7",
     question: "Metabolic rate (the total rate of chemical reactions in a cell) generally scales with a cell's:",
-    options: ["Surface area only", "Volume, since it reflects the amount of cytoplasm carrying out reactions", "Diameter only", "Shape, not size"],
+    options: ["Surface area alone", "Volume of cytoplasm", "Diameter alone", "Shape rather than size"],
     correctIndex: 1,
     explanation: "The volume of cytoplasm largely determines the total metabolic activity occurring, so metabolic demand scales with volume while exchange capacity scales with surface area."
   },
   {
     id: "2.2-8",
     question: "Why can't a single amoeba grow to the size of a basketball and still function efficiently as one cell?",
-    options: ["Its DNA would replicate too quickly", "Its surface area could not keep pace with its volume, making diffusion-based exchange of gases and nutrients too slow to sustain the cell", "It would become too heavy to move", "Basketball-sized objects cannot be made of cytoplasm"],
+    options: ["Its DNA would replicate too quickly", "Diffusion would be too slow for its volume", "It would become too heavy to move", "Basketball-sized objects cannot hold cytoplasm"],
     correctIndex: 1,
     explanation: "At very large sizes, the surface-area-to-volume ratio becomes too low for diffusion alone to supply the interior of the cell with nutrients and remove waste fast enough."
   },
@@ -68,7 +68,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.2-10",
     question: "Cell division (rather than unlimited growth of a single cell) is advantageous because it:",
-    options: ["Increases the surface-area-to-volume ratio of the population of cells compared to one giant cell", "Decreases the total DNA content available", "Eliminates the need for a cell membrane", "Increases metabolic demand per cell"],
+    options: ["It raises surface area relative to volume", "Decreases the total DNA content available", "Eliminates the need for a cell membrane", "Increases metabolic demand per cell"],
     correctIndex: 0,
     explanation: "Dividing into multiple smaller cells maintains a higher collective surface-area-to-volume ratio than one large cell would have, keeping exchange with the environment efficient."
   },

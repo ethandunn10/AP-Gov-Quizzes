@@ -33,42 +33,42 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.3-5",
     question: "Alternative splicing allows a single gene to:",
-    options: ["Be transcribed only once in a cell's lifetime", "Produce multiple different mRNA transcripts and therefore multiple protein products", "Never be translated", "Only exist in prokaryotic cells"],
+    options: ["Be transcribed only once in its lifetime", "Produce several different mRNAs", "Never be translated at all", "Only exist in prokaryotic cells"],
     correctIndex: 1,
     explanation: "By including or excluding different combinations of exons, alternative splicing lets one gene code for several distinct protein products, increasing proteome diversity without increasing gene number."
   },
   {
     id: "6.3-6",
     question: "In eukaryotes, the TATA box is a key part of the:",
-    options: ["Terminator sequence", "Core promoter, where the transcription initiation complex assembles", "Poly-A signal", "Intron sequence"],
+    options: ["A terminator sequence", "The core promoter", "The poly-A signal site", "An intron sequence"],
     correctIndex: 1,
     explanation: "The TATA box is a common core promoter element in eukaryotes where transcription factors and RNA polymerase II assemble to start transcription."
   },
   {
     id: "6.3-7",
     question: "What is the function of a terminator sequence in transcription?",
-    options: ["It signals RNA polymerase to stop transcribing and detach from the DNA", "It signals the start of translation", "It splices introns from mRNA", "It attaches ribosomes to mRNA"],
+    options: ["It signals RNA polymerase to stop", "It signals the start of translation", "It splices introns from mRNA", "It attaches ribosomes to mRNA"],
     correctIndex: 0,
     explanation: "The terminator is a DNA sequence marking the end of a gene; when RNA polymerase reaches it, transcription stops and the RNA transcript is released."
   },
   {
     id: "6.3-8",
     question: "Eukaryotic cells use multiple RNA polymerases for different tasks. RNA polymerase II is primarily responsible for:",
-    options: ["Synthesizing ribosomal RNA only", "Synthesizing mRNA from protein-coding genes", "Replicating DNA", "Degrading old mRNA"],
+    options: ["Synthesizing ribosomal RNA only", "Synthesizing mRNA from genes", "Replicating the cell's DNA", "Degrading old mRNA strands"],
     correctIndex: 1,
     explanation: "RNA polymerase II transcribes protein-coding genes into pre-mRNA; RNA polymerase I and III handle other RNA types like rRNA and tRNA."
   },
   {
     id: "6.3-9",
     question: "The regions of mature mRNA that are not translated into protein but flank the coding sequence are called:",
-    options: ["Introns", "5' and 3' untranslated regions (UTRs)", "Anticodons", "Operators"],
+    options: ["Intron regions", "The 5' and 3' UTRs", "Anticodon loops", "Operator sites"],
     correctIndex: 1,
     explanation: "The 5' UTR and 3' UTR are non-coding regions of mature mRNA that can influence stability, localization, and translation efficiency, without being translated into amino acids themselves."
   },
   {
     id: "6.3-10",
     question: "How does RNA processing contribute to the regulation of gene expression?",
-    options: ["It has no effect on gene expression", "Differential splicing and RNA stability can control which proteins are made and how much", "It only affects DNA replication speed", "It permanently deletes genes from the genome"],
+    options: ["It has no effect on gene expression", "Splicing and RNA stability control output", "It only affects DNA replication speed", "It permanently deletes genes from the genome"],
     correctIndex: 1,
     explanation: "Because splicing choices, RNA stability, and processing efficiency vary, RNA processing is an important regulatory layer that determines which protein products are ultimately made and in what quantity."
   },

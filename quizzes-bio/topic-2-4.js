@@ -5,14 +5,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.4-1",
     question: "The plasma membrane is described as 'selectively permeable' because it:",
-    options: ["Allows all molecules to pass through freely", "Allows some substances to cross more easily than others based on size, charge, and polarity", "Blocks all molecules from crossing", "Only allows water to cross"],
+    options: ["Allows all molecules to pass through freely", "Some substances cross more easily", "Blocks every molecule from crossing", "Only water is able to cross it"],
     correctIndex: 1,
     explanation: "Selective permeability means the membrane regulates what enters and exits the cell, readily allowing small nonpolar molecules through while restricting large, polar, or charged molecules unless via specific transport proteins."
   },
   {
     id: "2.4-2",
     question: "Small nonpolar molecules like O2 and CO2 can cross the plasma membrane by:",
-    options: ["Simple diffusion directly through the phospholipid bilayer", "Only through protein channels", "Active transport requiring ATP", "Endocytosis"],
+    options: ["Diffusion through the bilayer", "Only through protein channels", "Active transport requiring ATP", "Endocytosis in vesicles"],
     correctIndex: 0,
     explanation: "Small, nonpolar molecules like oxygen and carbon dioxide can dissolve in and pass directly through the hydrophobic lipid bilayer without needing transport proteins."
   },
@@ -33,14 +33,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.4-5",
     question: "A steroid hormone, being lipid-soluble, can most likely cross the plasma membrane via:",
-    options: ["Direct diffusion through the lipid bilayer, without needing a transport protein", "Only through ion channels", "Endocytosis exclusively", "It cannot cross the membrane at all"],
+    options: ["Diffusion through the lipid bilayer", "Only through gated ion channels", "Endocytosis exclusively", "It cannot cross the membrane at all"],
     correctIndex: 0,
     explanation: "Steroid hormones are lipid-soluble (hydrophobic) and can diffuse directly through the hydrophobic core of the plasma membrane to bind receptors inside the cell."
   },
   {
     id: "2.4-6",
     question: "Why can't large polar molecules like glucose simply diffuse across the phospholipid bilayer?",
-    options: ["Glucose is too small to interact with the membrane", "The hydrophobic interior of the membrane repels polar, water-soluble molecules like glucose", "Glucose has no charge at all", "Glucose molecules are radioactive"],
+    options: ["Glucose is too small to interact with lipids", "The hydrophobic interior repels polars", "Glucose carries no charge at all", "Glucose molecules are radioactive"],
     correctIndex: 1,
     explanation: "Glucose is polar and hydrophilic, so it cannot pass through the nonpolar, hydrophobic interior of the membrane without help from a specific transport protein."
   },
@@ -61,14 +61,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.4-9",
     question: "A drug designed to be absorbed by simple diffusion across cell membranes in the gut would ideally be:",
-    options: ["Large, polar, and charged", "Small and lipid-soluble (nonpolar)", "A large protein", "An ion with a strong charge"],
+    options: ["Large, polar, and charged", "Small and lipid-soluble", "A large folded protein", "An ion with a strong charge"],
     correctIndex: 1,
     explanation: "Small, nonpolar (lipid-soluble) molecules are more likely to freely diffuse across the hydrophobic membrane, aiding absorption without requiring transport proteins."
   },
   {
     id: "2.4-10",
     question: "If a cell's membrane transport proteins for glucose were experimentally blocked, what would most likely happen to glucose uptake?",
-    options: ["Glucose uptake would remain completely unaffected since glucose diffuses freely", "Glucose uptake would decrease significantly, since glucose depends on transport proteins to cross the membrane", "The cell would begin actively producing more glucose internally", "The plasma membrane would dissolve"],
+    options: ["Uptake would be unaffected by the block", "Uptake would fall sharply without them", "The cell would make its own glucose instead", "The plasma membrane would dissolve"],
     correctIndex: 1,
     explanation: "Since glucose is too large and polar to cross the membrane by simple diffusion, blocking its transport proteins would substantially reduce its ability to enter the cell."
   },

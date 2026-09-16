@@ -12,7 +12,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.1-2",
     question: "During meiosis I, homologous chromosomes are separated. This is often called:",
-    options: ["Equational division", "Reductional division, because it reduces the chromosome number from diploid to haploid", "Mitotic division", "Binary fission"],
+    options: ["Equational division of chromatids", "Reductional division", "Ordinary mitotic division", "Binary fission of the cell"],
     correctIndex: 1,
     explanation: "Meiosis I is called reductional division because it separates homologous chromosome pairs, halving the chromosome number from diploid (2n) to haploid (n)."
   },
@@ -26,14 +26,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.1-4",
     question: "Why must meiosis reduce the chromosome number by half before fertilization?",
-    options: ["So the resulting offspring will have too much genetic material", "So that when two haploid gametes fuse during fertilization, the resulting zygote has the normal diploid chromosome number for the species", "Because mitosis cannot occur otherwise", "To eliminate the need for DNA replication"],
+    options: ["So offspring will have too much genetic material", "So the zygote regains the diploid number", "Because mitosis cannot occur otherwise", "To eliminate the need for DNA replication"],
     correctIndex: 1,
     explanation: "If gametes were diploid, fertilization would double the chromosome number every generation; meiosis's reduction to haploid ensures the zygote restores the normal diploid number when two gametes combine."
   },
   {
     id: "5.1-5",
     question: "Synapsis, the pairing of homologous chromosomes during prophase I, allows for which important process?",
-    options: ["DNA replication", "Crossing over between non-sister chromatids of homologous chromosomes", "Cytokinesis", "Formation of the nucleolus"],
+    options: ["DNA replication of chromosomes", "Crossing over between chromatids", "Cytokinesis of the cell", "Formation of the nucleolus"],
     correctIndex: 1,
     explanation: "During synapsis, homologous chromosomes pair closely together, forming a tetrad, which allows non-sister chromatids to exchange genetic material through crossing over."
   },
@@ -47,7 +47,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.1-7",
     question: "Nondisjunction, the failure of chromosomes to separate properly during meiosis, can result in gametes with:",
-    options: ["Exactly the normal haploid chromosome number every time", "An abnormal number of chromosomes, either too many or too few", "No chromosomes at all", "Twice the normal diploid number in every case"],
+    options: ["Exactly the normal haploid number every time", "Too many or too few chromosomes", "No chromosomes whatsoever", "Twice the normal diploid number every time"],
     correctIndex: 1,
     explanation: "Nondisjunction causes chromosomes (or sister chromatids) to fail to separate correctly, resulting in some gametes with an extra chromosome and others missing a chromosome."
   },
@@ -61,14 +61,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.1-9",
     question: "The end products of meiosis in human males (sperm) and females (eggs) both start from a diploid cell but differ in that:",
-    options: ["Sperm production yields four functional sperm, while typically only one functional egg (with polar bodies) results from a single diploid cell in females", "Egg production always yields four functional eggs", "Both processes yield identical numbers of functional gametes with no differences", "Sperm cells are diploid while eggs are haploid"],
+    options: ["Four sperm form, but only one functional egg", "Egg production always yields four eggs", "Both yield identical numbers of gametes", "Sperm cells are diploid while eggs are haploid"],
     correctIndex: 0,
     explanation: "In spermatogenesis, meiosis produces four functional haploid sperm cells, while in oogenesis, unequal cytokinesis typically produces one large functional egg and smaller polar bodies that generally degenerate."
   },
   {
     id: "5.1-10",
     question: "Why is meiosis considered essential for sexual reproduction, but not needed for asexual reproduction?",
-    options: ["Asexual reproduction requires haploid cells produced by meiosis", "Sexual reproduction relies on combining haploid gametes from two parents, requiring meiosis to first halve the chromosome number", "Meiosis is required for mitosis to occur", "Meiosis has no connection to reproduction at all"],
+    options: ["Asexual reproduction requires haploid gametes", "Sexual reproduction fuses two haploid gametes", "Meiosis is required for mitosis to occur", "Meiosis has no connection to reproduction"],
     correctIndex: 1,
     explanation: "Sexual reproduction combines genetic material from two parents via fusion of haploid gametes; meiosis is what generates these haploid cells, a step unnecessary in asexual reproduction, which typically relies on mitosis alone."
   },

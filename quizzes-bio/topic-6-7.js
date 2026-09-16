@@ -5,7 +5,7 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.7-1",
     question: "A point mutation in which one nucleotide is replaced by another is called a:",
-    options: ["Frameshift mutation", "Substitution mutation", "Duplication", "Inversion"],
+    options: ["Frameshift mutation", "Substitution mutation", "Duplication mutation", "Inversion mutation"],
     correctIndex: 1,
     explanation: "A substitution mutation replaces a single nucleotide with a different one, which may or may not change the resulting amino acid depending on the genetic code's redundancy."
   },
@@ -19,14 +19,14 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.7-3",
     question: "Insertions or deletions that are not in multiples of three nucleotides typically cause a:",
-    options: ["Silent mutation with no effect", "Frameshift mutation that shifts the reading frame for all downstream codons", "Missense mutation only", "Increase in gene number"],
+    options: ["Silent mutation with no effect", "Frameshift in the reading frame", "A missense mutation only", "An increase in gene number"],
     correctIndex: 1,
     explanation: "Because codons are read in groups of three, an insertion or deletion not in multiples of three shifts the reading frame downstream of the mutation, usually producing a drastically altered (often nonfunctional) protein."
   },
   {
     id: "6.7-4",
     question: "Which of the following is a common cause of mutations?",
-    options: ["Errors during DNA replication and exposure to mutagens like UV radiation or certain chemicals", "Normal cellular respiration with no external factors", "Only errors during translation, never during replication", "The presence of introns in a gene"],
+    options: ["Replication errors and mutagens like UV", "Normal respiration with no outside factors", "Only errors in translation, never replication", "The presence of introns in a gene"],
     correctIndex: 0,
     explanation: "Mutations can arise spontaneously from replication errors or be induced by mutagens such as ultraviolet radiation, certain chemicals, and other environmental agents that damage DNA."
   },
@@ -47,21 +47,21 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.7-7",
     question: "Mutations are important to evolutionary biology primarily because they:",
-    options: ["Are the only source of new genetic variation upon which natural selection can act", "Always immediately kill the organism", "Never change allele frequencies in a population", "Only occur in asexually reproducing organisms"],
+    options: ["They are the source of new genetic variation", "Always immediately kill the organism", "Never change allele frequencies in a population", "Only occur in asexually reproducing organisms"],
     correctIndex: 0,
     explanation: "Mutation is the ultimate source of new genetic variation in a population; without it, there would be no new alleles for natural selection to act upon."
   },
   {
     id: "6.7-8",
     question: "A mutation occurring in a somatic cell, as opposed to a germ-line cell, will:",
-    options: ["Be passed on to all offspring", "Generally not be passed on to offspring, since it only affects that individual's body cells", "Always be lethal immediately", "Automatically be repaired within seconds"],
+    options: ["Be passed on to all future offspring", "Generally not be passed to offspring", "Always be immediately lethal", "Automatically be repaired within seconds"],
     correctIndex: 1,
     explanation: "Somatic mutations occur in non-reproductive body cells and affect only that individual (potentially contributing to cancer, for example), whereas germ-line mutations occur in egg or sperm cells and can be inherited by offspring."
   },
   {
     id: "6.7-9",
     question: "Cells have DNA repair mechanisms that:",
-    options: ["Guarantee that mutations never occur", "Correct many, but not all, replication errors and DNA damage before they become permanent mutations", "Only work during meiosis", "Actively create new mutations"],
+    options: ["Guarantee that mutations never occur", "Correct many, but not all, errors", "Only operate during meiosis", "Actively create new mutations"],
     correctIndex: 1,
     explanation: "DNA repair systems (such as mismatch repair and excision repair) fix the vast majority of replication errors and DNA damage, though some mutations still slip through uncorrected."
   },

@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AllAP — AP Gov Practice Quizzes</title>
+  <title>AllAP — AP Practice Quizzes</title>
   <meta
     name="description"
-    content="AllAP: free weekly AP US Government practice quizzes, made by a student for students."
+    content="AllAP: free AP Government and AP Biology practice quizzes, made by a student for students."
   />
 
   <!-- Google Font (Inter). Preconnect hints speed up the font request. -->
@@ -22,7 +22,7 @@
 <body>
   <header class="page-header">
     <div class="header-inner">
-      <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Gov Practice Quizzes</span></a>
+      <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Practice Quizzes</span></a>
       <nav>
         <a href="about.html">About</a>
       </nav>
@@ -31,13 +31,16 @@
 
   <main class="home-layout">
     <div class="home-content">
-      <p class="intro">Unit 1 is live now -- pick a lesson below and start quizzing.</p>
+      <!-- js/homepage.js sets these: the copy differs between the subject
+           picker and a single subject's unit list. -->
+      <p class="intro" id="intro">Loading…</p>
+      <a id="back-link" class="btn-secondary hidden" href="index.html">← All subjects</a>
 
       <!-- js/progress.js + js/recommendations.js fill this in when a lesson needs review. -->
       <div id="recommendations" class="hidden"></div>
 
-      <h2>Units</h2>
-      <!-- quizzes/units.js + js/homepage.js fill this in. -->
+      <h2 id="list-heading">Subjects</h2>
+      <!-- js/homepage.js fills this in: subject cards, or one subject's units. -->
       <div id="units-list"></div>
     </div>
 
@@ -59,8 +62,14 @@
   <script src="js/progress.js"></script>
 
   <!-- Data first, then the scripts that read it. -->
+  <!-- Each subject's registry defines its own globals (AP Gov: QUIZ_LIST /
+       UNITS, AP Bio: BIO_QUIZ_LIST / BIO_UNITS) so they never clobber each
+       other. js/subjects.js joins them and must load after both. -->
   <script src="quizzes/index.js"></script>
   <script src="quizzes/units.js"></script>
+  <script src="quizzes-bio/index.js"></script>
+  <script src="quizzes-bio/units.js"></script>
+  <script src="js/subjects.js"></script>
   <script src="js/recommendations.js"></script>
   <script src="js/homepage.js"></script>
 </body>

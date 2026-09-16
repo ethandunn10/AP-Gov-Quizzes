@@ -1,9 +1,11 @@
 // js/unit.js
-// Drives unit.html for every unit -- this file never changes when a new
-// unit or lesson is added. Reads ?unit=<id> from the URL, looks it up in
-// window.UNITS (quizzes/units.js), and lists its lessons (looking up each
-// one's topic name in window.QUIZ_LIST from quizzes/index.js) plus a
-// "whole unit" quiz option.
+// Drives unit.html for every unit of every subject -- this file never
+// changes when a new unit, lesson, or subject is added. Reads ?unit=<id>
+// from the URL and looks it up through window.AllAPSubjects
+// (js/subjects.js), which searches every registered subject, then lists
+// that unit's lessons (looking up each one's topic name the same way)
+// plus a "whole unit" quiz option. The unit's own subject is used for the
+// "back to <subject>" link and the header tagline.
 
 (function () {
   const loadingEl = document.getElementById("loading");
@@ -17,20 +19,34 @@
   function init() {
     const params = new URLSearchParams(window.location.search);
     const unitId = params.get("unit");
-    const unitInfo = (window.UNITS || []).find((u) => u.id === unitId);
+    const found = unitId ? window.AllAPSubjects.findUnit(unitId) : null;
 
-    if (!unitId || !unitInfo) {
+    if (!found) {
       loadingEl.classList.add("hidden");
       errorEl.classList.remove("hidden");
       return;
     }
 
-    headingEl.textContent = unitInfo.name;
+    const unitInfo = found.unit;
+    const subject = found.subject;
+
+    headingEl.textContent = `${subject.name} — ${unitInfo.name}`;
+
+    // Header tagline + "Home" link follow the unit's subject, so a
+    // student browsing AP Bio never gets sent back to the AP Gov list.
+    const taglineEl = document.querySelector(".site-tagline");
+    if (taglineEl) taglineEl.textContent = subject.tagline;
+    const homeLinkEl = document.getElementById("home-link");
+    if (homeLinkEl) {
+      homeLinkEl.href = `index.html?subject=${encodeURIComponent(subject.id)}`;
+      homeLinkEl.textContent = `← All ${subject.name} units`;
+    }
 
     lessonListEl.innerHTML = "";
     unitInfo.lessons.forEach((lessonId) => {
-      const quizInfo = (window.QUIZ_LIST || []).find((q) => q.id === lessonId);
-      if (!quizInfo) return; // lesson id not yet registered in quizzes/index.js
+      const foundLesson = window.AllAPSubjects.findLesson(lessonId);
+      if (!foundLesson) return; // lesson id not yet registered in its subject's index.js
+      const quizInfo = foundLesson.lesson;
 
       const link = document.createElement("a");
       link.className = "quiz-card";

@@ -17,9 +17,9 @@
 <body>
   <header class="page-header">
     <div class="header-inner">
-      <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Gov Practice Quizzes</span></a>
+      <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Practice Quizzes</span></a>
       <nav>
-        <a href="index.html">Home</a>
+        <a class="subject-home-link" href="index.html">Home</a>
         <a href="about.html">About</a>
       </nav>
     </div>
@@ -32,7 +32,7 @@
     <!-- Shown if the ?week= id in the URL doesn't match a known quiz. -->
     <div id="error-state" class="card hidden">
       <p>We couldn't find that quiz.</p>
-      <a class="btn-secondary" href="index.html">← Back to all quizzes</a>
+      <a class="btn-secondary subject-home-link" href="index.html">← Back to all quizzes</a>
     </div>
 
     <!-- The in-progress quiz: one question at a time. -->
@@ -93,9 +93,16 @@
   <!-- Local per-browser progress tracking (lesson scores, unit-quiz missed questions). -->
   <script src="js/progress.js"></script>
 
-  <!-- Quiz + unit registries, so we can look up topic/unit info by id. -->
+  <!-- Quiz + unit registries for every subject, so we can look up
+       topic/unit info by id. -->
+  <!-- Each subject's registry defines its own globals (AP Gov: QUIZ_LIST /
+       UNITS, AP Bio: BIO_QUIZ_LIST / BIO_UNITS) so they never clobber each
+       other. js/subjects.js joins them and must load after both. -->
   <script src="quizzes/index.js"></script>
   <script src="quizzes/units.js"></script>
+  <script src="quizzes-bio/index.js"></script>
+  <script src="quizzes-bio/units.js"></script>
+  <script src="js/subjects.js"></script>
   <script src="js/quiz.js"></script>
 </body>
 </html>

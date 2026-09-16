@@ -11,10 +11,14 @@
 //
 // In every case it:
 //   1. Reads the URL params above.
-//   2. Looks up topic/unit info in window.QUIZ_LIST / window.UNITS (from
-//      quizzes/index.js / quizzes/units.js) for the heading.
-//   3. Dynamically loads the relevant quizzes/<id>.js file(s), which
-//      define window.QUIZ_QUESTIONS.
+//   2. Looks up topic/unit info via window.AllAPSubjects (js/subjects.js),
+//      which covers every subject's registry -- AP Gov's quizzes/index.js
+//      + quizzes/units.js and AP Bio's quizzes-bio/index.js +
+//      quizzes-bio/units.js -- so a lesson or unit id alone is enough to
+//      identify its subject.
+//   3. Dynamically loads that lesson's data file (the path comes from the
+//      registry, e.g. quizzes/topic-1-1.js or quizzes-bio/topic-1-1.js),
+//      which defines window.QUIZ_QUESTIONS.
 //   4. Shuffles the questions and each question's options.
 //   5. Walks the student through one question at a time, then shows
 //      results and records progress (js/progress.js) + usage tracking
@@ -279,19 +283,36 @@
     renderQuestion();
   }
 
-  // Loads quizzes/<lessonId>.js and returns its question array. Uses a
-  // plain <script> tag (rather than fetch()) so the site also works when
-  // opened directly from disk (file://), not just when served over http.
+  // Loads a lesson's data file and returns its question array. The path
+  // comes from js/subjects.js, so this works for any subject's folder
+  // (quizzes/ for AP Gov, quizzes-bio/ for AP Bio). Uses a plain <script>
+  // tag (rather than fetch()) so the site also works when opened directly
+  // from disk (file://), not just when served over http.
   function loadLessonQuestions(lessonId) {
     return new Promise((resolve, reject) => {
+      const src = window.AllAPSubjects.lessonFile(lessonId);
+      if (!src) {
+        reject(new Error(`Unknown lesson id: ${lessonId}`));
+        return;
+      }
       const script = document.createElement("script");
-      script.src = `quizzes/${lessonId}.js`;
+      script.src = src;
       script.onload = () => {
         const loaded = window.QUIZ_QUESTIONS || [];
         resolve(loaded.slice()); // copy now -- the next script overwrites window.QUIZ_QUESTIONS
       };
       script.onerror = reject;
       document.body.appendChild(script);
+    });
+  }
+
+  // Points the page chrome at whichever subject this quiz belongs to, so a
+  // student taking an AP Bio quiz isn't sent back to the AP Gov list.
+  function applySubject(subject) {
+    const taglineEl = document.querySelector(".site-tagline");
+    if (taglineEl) taglineEl.textContent = subject.tagline;
+    document.querySelectorAll("a.subject-home-link").forEach((el) => {
+      el.href = `index.html?subject=${encodeURIComponent(subject.id)}`;
     });
   }
 
@@ -304,13 +325,16 @@
 
     try {
       if (mode === "unit") {
-        const unitInfo = (window.UNITS || []).find((u) => u.id === unitId);
-        if (!unitInfo) {
+        const foundUnit = window.AllAPSubjects.findUnit(unitId);
+        if (!foundUnit) {
           showOnly(errorEl);
           return;
         }
+        const unitInfo = foundUnit.unit;
+        // Both subjects have a "Unit 1", so name the subject in the heading.
+        applySubject(foundUnit.subject);
         currentUnitId = unitId;
-        topicHeadingEl.textContent = `${unitInfo.name}: Whole Unit Quiz`;
+        topicHeadingEl.textContent = `${foundUnit.subject.name} — ${unitInfo.name}: Whole Unit Quiz`;
 
         const pools = [];
         for (const lessonId of unitInfo.lessons) {
@@ -318,13 +342,16 @@
         }
         rawPool = pools.flat();
       } else {
-        const quizInfo = (window.QUIZ_LIST || []).find((q) => q.id === weekId);
-        if (!weekId || !quizInfo) {
+        const foundLesson = weekId ? window.AllAPSubjects.findLesson(weekId) : null;
+        if (!foundLesson) {
           showOnly(errorEl);
           return;
         }
+        const quizInfo = foundLesson.lesson;
+        // Both subjects have a "Topic 1.1", so name the subject here too.
+        applySubject(foundLesson.subject);
         currentWeekId = weekId;
-        topicHeadingEl.textContent = quizInfo.topic;
+        topicHeadingEl.textContent = `${foundLesson.subject.name} — ${quizInfo.topic}`;
         rawPool = await loadLessonQuestions(weekId);
       }
 

@@ -9,21 +9,69 @@
 // Adding a third subject needs no changes here: js/subjects.js builds the
 // list, this file just renders whatever is in it.
 //
-// Depends on the subject data files, js/subjects.js, js/progress.js,
-// js/exam-dates.js and js/exam-banner.js being loaded first.
+// Depends on the subject data files, js/subjects.js and js/progress.js
+// being loaded first.
 
 (function () {
   const unitsListContainer = document.getElementById("units-list");
   const recommendationsContainer = document.getElementById("recommendations");
-  const examCountdownContainer = document.getElementById("exam-countdown");
   const introEl = document.getElementById("intro");
   const listHeadingEl = document.getElementById("list-heading");
   const backLinkEl = document.getElementById("back-link");
   const taglineEl = document.querySelector(".site-tagline");
 
-  // One card, used for both subjects and units -- same markup as before
-  // so the existing .quiz-card styles apply unchanged.
-  function card(href, title, cta) {
+  // Flat line-art marks, one per subject, keyed by the subject ids in
+  // js/subjects.js. Single-color (they inherit the card's currentColor),
+  // 24px, no fills -- favicon-level simplicity on purpose, so they stay
+  // legible next to the heading rather than competing with it. A subject
+  // with no entry here just renders without an icon.
+  const SUBJECT_ICONS = {
+    // Capitol: finial, dome, entablature, three columns, steps.
+    "ap-gov": [
+      "M12 2.5V4",
+      "M8 10a4 4 0 0 1 8 0",
+      "M6 10h12",
+      "M8 10v8M12 10v8M16 10v8",
+      "M5 18h14",
+      "M3 21h18",
+    ],
+    // Leaf: outline, midrib, stem.
+    "ap-bio": [
+      "M5 19c0-8 6-14 14-14 0 8-6 14-14 14z",
+      "M5 19 19 5",
+      "M5 19l-2 2",
+    ],
+  };
+
+  function iconSvg(subjectId) {
+    const paths = SUBJECT_ICONS[subjectId];
+    if (!paths) return null;
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "card-icon");
+    svg.setAttribute("width", "24");
+    svg.setAttribute("height", "24");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("fill", "none");
+    svg.setAttribute("stroke", "currentColor");
+    svg.setAttribute("stroke-width", "1.5");
+    svg.setAttribute("stroke-linecap", "round");
+    svg.setAttribute("stroke-linejoin", "round");
+    // Decorative: the card's own text already names the subject.
+    svg.setAttribute("aria-hidden", "true");
+    // Built with createElementNS rather than innerHTML so the paths land in
+    // the SVG namespace in every browser, not just the lenient ones.
+    paths.forEach((d) => {
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", d);
+      svg.appendChild(path);
+    });
+    return svg;
+  }
+
+  // One card, used for both subjects and units. `subjectId` is optional --
+  // pass it to get that subject's icon, omit it (unit cards) for the plain
+  // text-only card the existing .quiz-card styles already cover.
+  function card(href, title, cta, subjectId) {
     const link = document.createElement("a");
     link.className = "quiz-card quiz-card-featured";
     link.href = href;
@@ -36,8 +84,20 @@
     ctaEl.className = "quiz-cta";
     ctaEl.textContent = cta;
 
-    link.appendChild(topicEl);
-    link.appendChild(ctaEl);
+    const icon = subjectId ? iconSvg(subjectId) : null;
+    if (icon) {
+      // Icon + text sit side by side, so the text needs its own column.
+      link.classList.add("has-icon");
+      const body = document.createElement("span");
+      body.className = "card-body";
+      body.appendChild(topicEl);
+      body.appendChild(ctaEl);
+      link.appendChild(icon);
+      link.appendChild(body);
+    } else {
+      link.appendChild(topicEl);
+      link.appendChild(ctaEl);
+    }
     return link;
   }
 
@@ -55,7 +115,8 @@
         card(
           `index.html?subject=${encodeURIComponent(subject.id)}`,
           subject.name,
-          `${unitCount} units · ${lessonCount} topics →`
+          `${unitCount} units · ${lessonCount} topics →`,
+          subject.id
         )
       );
     });
@@ -97,14 +158,6 @@
   } else {
     // No ?subject= (or an id we don't recognise) -- show the picker.
     renderSubjectPicker(subjects);
-  }
-
-  // Exam countdown + weak spot. On the subject picker there's no subject in
-  // the URL, so it falls back to the default subject in js/exam-dates.js.
-  if (window.AllAPExamBanner) {
-    const bannerSubject =
-      subject || window.AllAPSubjects.get(window.AllAPExamDates.DEFAULT_SUBJECT_ID);
-    window.AllAPExamBanner.render(examCountdownContainer, bannerSubject);
   }
 
   if (window.APGovRecommendations) {

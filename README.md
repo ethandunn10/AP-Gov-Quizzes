@@ -14,7 +14,7 @@ Each subject keeps its registries under its **own** global names so both
 can load on the same page without overwriting each other.
 `js/subjects.js` joins them into `window.SUBJECTS` (and the
 `window.AllAPSubjects` lookups), and that is what `js/homepage.js`,
-`js/unit.js`, `js/quiz.js`, and `js/recommendations.js` read -- none of
+`js/unit.js`, `js/quiz.js`, and `js/insights.js` read -- none of
 them reference a single subject's globals directly.
 
 Lesson and unit ids are globally unique: every AP Bio id is `bio-`

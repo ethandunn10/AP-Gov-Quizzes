@@ -304,7 +304,7 @@ main {
   background: var(--color-primary-dark);
 }
 
-/* ---- "You might want to review X again" recommendation banner -------- */
+/* ---- Inline note, used for lightweight callouts ---------------------- */
 .recommendation-note {
   background: var(--color-surface-sunk);
   border: 1px solid var(--color-border);
@@ -658,4 +658,292 @@ main {
     flex-shrink: 0;
     margin-top: 0.25rem;
   }
+}
+
+/* ==========================================================================
+   History + Insights pages
+   Score bands are the one place outside quiz feedback that uses color to
+   carry meaning, so they reuse the existing correct/incorrect hues rather
+   than introducing a third scale: green = mastered, amber = solid,
+   red = shaky. Flat fills and 1px borders throughout, same as everywhere.
+   ========================================================================== */
+
+/* Current page in the header nav -- an underline in the amber accent, so
+   it reads as "you are here" without a filled pill. */
+.page-header nav a.is-current {
+  color: var(--color-on-ink);
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 2px;
+}
+
+.page-lede {
+  color: var(--color-muted);
+  font-size: 0.92rem;
+  margin-bottom: 1.25rem;
+}
+
+.page-footnote {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+
+/* ---- Shared score bands ---------------------------------------------- */
+.band-mastered .history-bar-fill,
+.band-mastered .topic-bar-fill {
+  background: var(--color-correct-border);
+}
+.band-solid .history-bar-fill,
+.band-solid .topic-bar-fill {
+  background: var(--color-primary);
+}
+.band-shaky .history-bar-fill,
+.band-shaky .topic-bar-fill {
+  background: var(--color-incorrect-border);
+}
+
+.band-mastered .history-score strong,
+.band-mastered .topic-score {
+  color: var(--color-correct-text);
+}
+.band-shaky .history-score strong,
+.band-shaky .topic-score {
+  color: var(--color-incorrect-text);
+}
+
+/* ---- History list ----------------------------------------------------- */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.history-row,
+.topic-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-border-strong);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.history-row:hover,
+.history-row:focus-visible,
+.topic-row:hover,
+.topic-row:focus-visible {
+  border-left-color: var(--color-primary);
+  background: #fffdf8;
+}
+
+.history-icon {
+  flex-shrink: 0;
+  color: var(--color-primary-ink);
+}
+
+.history-body,
+.topic-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.history-title,
+.topic-title {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.history-meta,
+.topic-meta {
+  display: block;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  margin-top: 0.1rem;
+}
+
+/* The bar is the scannable part: ten rows of these make a shape you read
+   faster than ten percentages. */
+.history-bar,
+.topic-bar {
+  display: block;
+  height: 5px;
+  margin-top: 0.5rem;
+  background: var(--color-surface-sunk);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.history-bar-fill,
+.topic-bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--color-primary);
+}
+
+.history-score {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.2;
+}
+
+.history-score strong {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.history-score small {
+  color: var(--color-muted);
+  font-size: 0.72rem;
+}
+
+.topic-score {
+  flex-shrink: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+/* ---- Insights: stat row ----------------------------------------------- */
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.stat {
+  flex: 1 1 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.85rem 0.9rem;
+}
+
+.stat-icon {
+  color: var(--color-primary-ink);
+  margin-bottom: 0.15rem;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+.stat-label {
+  color: var(--color-muted);
+  font-size: 0.78rem;
+}
+
+/* ---- Insights: sections + plan ---------------------------------------- */
+.insight-section {
+  margin-bottom: 2rem;
+}
+
+.insight-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+
+.section-icon {
+  flex-shrink: 0;
+  color: var(--color-primary-ink);
+}
+
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.plan-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+/* Each step is a flat amber-tint card -- the plan is the point of the
+   page, so it gets the accent surface and the lists below stay plain. */
+.plan-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: var(--color-primary-tint);
+  border: 1px solid #e0cb9b;
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+}
+
+.plan-icon {
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+  color: var(--color-primary-ink);
+}
+
+.plan-body {
+  min-width: 0;
+}
+
+.plan-text {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.plan-cta {
+  display: inline-block;
+  margin-top: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary-ink);
+}
+
+/* ---- Blank slates ------------------------------------------------------ */
+.blank-slate {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 2.25rem 1.5rem;
+  text-align: center;
+}
+
+.empty-icon {
+  color: var(--color-border-strong);
+  margin-bottom: 0.75rem;
+}
+
+.blank-slate p {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.blank-slate .blank-slate-note {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  max-width: 34ch;
+  margin: 0 auto 1.1rem;
 }

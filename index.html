@@ -24,6 +24,8 @@
     <div class="header-inner">
       <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Practice Quizzes</span></a>
       <nav>
+        <a href="history.html">History</a>
+        <a href="insights.html">Insights</a>
         <a href="about.html">About</a>
       </nav>
     </div>
@@ -35,9 +37,6 @@
            picker and a single subject's unit list. -->
       <p class="intro" id="intro">Loading…</p>
       <a id="back-link" class="btn-secondary hidden" href="index.html">← All subjects</a>
-
-      <!-- js/progress.js + js/recommendations.js fill this in when a lesson needs review. -->
-      <div id="recommendations" class="hidden"></div>
 
       <h2 id="list-heading">Subjects</h2>
       <!-- js/homepage.js fills this in: subject cards, or one subject's units. -->
@@ -56,7 +55,7 @@
     <a href="about.html">Read more</a>.
   </footer>
 
-  <!-- Anonymous usage tracking + local progress tracking (used by recommendations.js). -->
+  <!-- Anonymous usage tracking + local progress tracking. -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/tracking.js"></script>
   <script src="js/progress.js"></script>
@@ -70,7 +69,7 @@
   <script src="quizzes-bio/index.js"></script>
   <script src="quizzes-bio/units.js"></script>
   <script src="js/subjects.js"></script>
-  <script src="js/recommendations.js"></script>
+  <script src="js/icons.js"></script>
   <script src="js/homepage.js"></script>
 </body>
 </html>

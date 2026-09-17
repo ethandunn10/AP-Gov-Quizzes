@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insights — AllAP</title>
+  <meta name="description" content="Which topics you're strongest and weakest on, and what to study next." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Practice Quizzes</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a class="is-current" href="insights.html">Insights</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>What to study next</h1>
+
+    <div id="insights-content">
+      <!-- js/insights.js fills all three of these in. -->
+      <div id="insights-stats" class="stat-row"></div>
+
+      <section class="insight-section">
+        <h2>Your study plan</h2>
+        <p class="page-lede">
+          Worked out from your own scores -- every line points at the number
+          behind it.
+        </p>
+        <ul id="plan-list" class="plan-list"></ul>
+      </section>
+
+      <section id="strong-section" class="insight-section">
+        <h2 id="strong-heading">Going well</h2>
+        <div id="strong-list" class="topic-list"></div>
+      </section>
+
+      <section id="weak-section" class="insight-section">
+        <h2 id="weak-heading">Needs another look</h2>
+        <div id="weak-list" class="topic-list"></div>
+      </section>
+    </div>
+
+    <div id="insights-empty" class="blank-slate hidden">
+      <p>Nothing to analyze yet.</p>
+      <p class="blank-slate-note">
+        Finish a quiz or two and this page will show your strongest and
+        weakest topics, plus what to redo first.
+      </p>
+      <a class="btn-primary" href="index.html">Take a quiz</a>
+    </div>
+
+    <p class="page-footnote">
+      Worked out in your browser from your own scores. Nothing is sent anywhere.
+    </p>
+  </main>
+
+  <footer class="page-footer">
+    A free study aid, not official course material.
+    <a href="about.html">Read more</a>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/tracking.js"></script>
+  <script src="js/progress.js"></script>
+
+  <script src="quizzes/index.js"></script>
+  <script src="quizzes/units.js"></script>
+  <script src="quizzes-bio/index.js"></script>
+  <script src="quizzes-bio/units.js"></script>
+  <script src="js/subjects.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/attempt-labels.js"></script>
+  <script src="js/insights.js"></script>
+</body>
+</html>

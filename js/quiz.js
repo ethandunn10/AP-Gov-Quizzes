@@ -256,7 +256,7 @@
     }
 
     // Score history (per lesson, and per whole-unit quiz) drives the "you
-    // might want to retake X again" recommendation -- only the single
+    // might want to retake X again" guidance on insights.html -- only the single
     // lowest-scoring quiz is ever recommended. Per-question missed
     // tracking (unit mode only) separately drives which questions get
     // mixed back into future whole-unit quizzes.

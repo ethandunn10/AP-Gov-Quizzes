@@ -4,7 +4,7 @@
 // quizzes/index.js (AP Gov), but published under a DIFFERENT global --
 // window.BIO_QUIZ_LIST -- so the two subjects can be loaded on the same
 // page without clobbering each other. js/subjects.js joins them into
-// window.SUBJECTS, which is what unit.js / quiz.js / recommendations.js
+// window.SUBJECTS, which is what unit.js / quiz.js / insights.js
 // actually read.
 //
 // Lesson ids are prefixed "bio-" so they never collide with an AP Gov

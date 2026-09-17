@@ -8,7 +8,7 @@
 //   2. Add ONE entry to the QUIZ_LIST array below.
 //   3. Reference that id from the relevant unit's `lessons` array in
 //      quizzes/units.js.
-// That's it -- unit.html, js/quiz.js, and js/recommendations.js all read
+// That's it -- unit.html, js/quiz.js, and js/insights.js all read
 // this file, so nothing else needs to change.
 //
 // Fields:

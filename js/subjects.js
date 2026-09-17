@@ -10,9 +10,9 @@
 //
 // This file joins them into one subject-keyed object (window.SUBJECTS)
 // and exposes lookups that take a bare lesson/unit id and work out which
-// subject it belongs to. js/homepage.js, js/unit.js, js/quiz.js and
-// js/recommendations.js go through here instead of reading QUIZ_LIST /
-// UNITS directly, so adding a third subject later means adding one entry
+// subject it belongs to. js/homepage.js, js/unit.js, js/quiz.js,
+// js/history.js and js/insights.js go through here instead of reading
+// QUIZ_LIST / UNITS directly, so adding a third subject later means adding one entry
 // below and two data files -- no changes to the page scripts.
 //
 // Lesson and unit ids are globally unique (AP Bio's are all "bio-"

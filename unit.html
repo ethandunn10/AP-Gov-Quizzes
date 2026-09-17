@@ -21,6 +21,8 @@
       <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Practice Quizzes</span></a>
       <nav>
         <a id="home-link" href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="insights.html">Insights</a>
         <a href="about.html">About</a>
       </nav>
     </div>
@@ -39,9 +41,6 @@
     <div id="unit-content" class="hidden">
       <h1 id="unit-heading"></h1>
 
-      <!-- js/recommendations.js fills this in when a lesson in this unit is flagged. -->
-      <div id="recommendations" class="hidden"></div>
-
       <!-- js/unit.js fills this in: one card per lesson. -->
       <div id="lesson-list"></div>
 
@@ -57,7 +56,7 @@
     <a href="about.html">Read more</a>.
   </footer>
 
-  <!-- Anonymous usage tracking + local progress tracking (used by recommendations.js). -->
+  <!-- Anonymous usage tracking + local progress tracking. -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/tracking.js"></script>
   <script src="js/progress.js"></script>
@@ -70,7 +69,6 @@
   <script src="quizzes-bio/index.js"></script>
   <script src="quizzes-bio/units.js"></script>
   <script src="js/subjects.js"></script>
-  <script src="js/recommendations.js"></script>
   <script src="js/unit.js"></script>
 </body>
 </html>

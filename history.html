@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>History — AllAP</title>
+  <meta name="description" content="Your last 10 quizzes, with scores and when you took them." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <a class="site-title" href="index.html">AllAP<span class="site-tagline">AP Practice Quizzes</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="is-current" href="history.html">History</a>
+        <a href="insights.html">Insights</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Your recent quizzes</h1>
+    <!-- js/history.js fills this in: one line per finished quiz. -->
+    <p id="history-summary" class="page-lede hidden"></p>
+
+    <div id="history-list" class="history-list"></div>
+
+    <div id="history-empty" class="blank-slate hidden">
+      <p>No quizzes recorded yet.</p>
+      <p class="blank-slate-note">
+        History starts from the first quiz you finish after this page went
+        up -- older attempts weren't saved anywhere, so they can't be shown.
+      </p>
+      <a class="btn-primary" href="index.html">Take a quiz</a>
+    </div>
+
+    <p class="page-footnote">
+      Saved only in this browser. Clearing site data clears this list.
+    </p>
+  </main>
+
+  <footer class="page-footer">
+    A free study aid, not official course material.
+    <a href="about.html">Read more</a>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/tracking.js"></script>
+  <script src="js/progress.js"></script>
+
+  <script src="quizzes/index.js"></script>
+  <script src="quizzes/units.js"></script>
+  <script src="quizzes-bio/index.js"></script>
+  <script src="quizzes-bio/units.js"></script>
+  <script src="js/subjects.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/attempt-labels.js"></script>
+  <script src="js/history.js"></script>
+</body>
+</html>

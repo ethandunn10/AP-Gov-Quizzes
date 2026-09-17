@@ -12,7 +12,6 @@
   const errorEl = document.getElementById("error-state");
   const contentEl = document.getElementById("unit-content");
   const headingEl = document.getElementById("unit-heading");
-  const recommendationsEl = document.getElementById("recommendations");
   const lessonListEl = document.getElementById("lesson-list");
   const wholeUnitButtonEl = document.getElementById("whole-unit-button");
 
@@ -66,14 +65,6 @@
     });
 
     wholeUnitButtonEl.href = `quiz.html?unit=${encodeURIComponent(unitId)}&mode=unit`;
-
-    if (window.APGovRecommendations) {
-      try {
-        window.APGovRecommendations.render(recommendationsEl, { lessonIds: unitInfo.lessons, unitId: unitInfo.id });
-      } catch (err) {
-        console.error("Rendering recommendations failed:", err);
-      }
-    }
 
     loadingEl.classList.add("hidden");
     contentEl.classList.remove("hidden");

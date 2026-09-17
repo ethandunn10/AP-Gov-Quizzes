@@ -9,63 +9,22 @@
 // Adding a third subject needs no changes here: js/subjects.js builds the
 // list, this file just renders whatever is in it.
 //
-// Depends on the subject data files, js/subjects.js and js/progress.js
-// being loaded first.
+// Depends on the subject data files, js/subjects.js, js/progress.js and
+// js/icons.js being loaded first.
 
 (function () {
   const unitsListContainer = document.getElementById("units-list");
-  const recommendationsContainer = document.getElementById("recommendations");
   const introEl = document.getElementById("intro");
   const listHeadingEl = document.getElementById("list-heading");
   const backLinkEl = document.getElementById("back-link");
   const taglineEl = document.querySelector(".site-tagline");
 
-  // Flat line-art marks, one per subject, keyed by the subject ids in
-  // js/subjects.js. Single-color (they inherit the card's currentColor),
-  // 24px, no fills -- favicon-level simplicity on purpose, so they stay
-  // legible next to the heading rather than competing with it. A subject
-  // with no entry here just renders without an icon.
-  const SUBJECT_ICONS = {
-    // Capitol: finial, dome, entablature, three columns, steps.
-    "ap-gov": [
-      "M12 2.5V4",
-      "M8 10a4 4 0 0 1 8 0",
-      "M6 10h12",
-      "M8 10v8M12 10v8M16 10v8",
-      "M5 18h14",
-      "M3 21h18",
-    ],
-    // Leaf: outline, midrib, stem.
-    "ap-bio": [
-      "M5 19c0-8 6-14 14-14 0 8-6 14-14 14z",
-      "M5 19 19 5",
-      "M5 19l-2 2",
-    ],
-  };
-
+  // Subject cards carry that subject's mark from js/icons.js, keyed by the
+  // subject ids in js/subjects.js. A subject with no icon there simply
+  // renders without one.
   function iconSvg(subjectId) {
-    const paths = SUBJECT_ICONS[subjectId];
-    if (!paths) return null;
-    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg.setAttribute("class", "card-icon");
-    svg.setAttribute("width", "24");
-    svg.setAttribute("height", "24");
-    svg.setAttribute("viewBox", "0 0 24 24");
-    svg.setAttribute("fill", "none");
-    svg.setAttribute("stroke", "currentColor");
-    svg.setAttribute("stroke-width", "1.5");
-    svg.setAttribute("stroke-linecap", "round");
-    svg.setAttribute("stroke-linejoin", "round");
-    // Decorative: the card's own text already names the subject.
-    svg.setAttribute("aria-hidden", "true");
-    // Built with createElementNS rather than innerHTML so the paths land in
-    // the SVG namespace in every browser, not just the lenient ones.
-    paths.forEach((d) => {
-      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      path.setAttribute("d", d);
-      svg.appendChild(path);
-    });
-    return svg;
+    if (!window.AllAPIcons) return null;
+    return window.AllAPIcons.svg(subjectId, "card-icon", 24);
   }
 
   // One card, used for both subjects and units. `subjectId` is optional --
@@ -158,9 +117,5 @@
   } else {
     // No ?subject= (or an id we don't recognise) -- show the picker.
     renderSubjectPicker(subjects);
-  }
-
-  if (window.APGovRecommendations) {
-    window.APGovRecommendations.render(recommendationsContainer);
   }
 })();

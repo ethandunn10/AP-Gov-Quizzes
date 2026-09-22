@@ -9,6 +9,8 @@
 //           quizzes-bio/units.js  -> window.BIO_UNITS
 //   APUSH   quizzes-ush/index.js  -> window.USH_QUIZ_LIST
 //           quizzes-ush/units.js  -> window.USH_UNITS
+//   AP Psych quizzes-psych/index.js -> window.PSYCH_QUIZ_LIST
+//           quizzes-psych/units.js  -> window.PSYCH_UNITS
 //
 // This file joins them into one subject-keyed object (window.SUBJECTS)
 // and exposes lookups that take a bare lesson/unit id and work out which
@@ -50,6 +52,14 @@
       dir: "quizzes-ush",
       lessonsGlobal: "USH_QUIZ_LIST",
       unitsGlobal: "USH_UNITS",
+    },
+    {
+      id: "ap-psych",
+      name: "AP Psychology",
+      tagline: "AP Psych Practice Quizzes",
+      dir: "quizzes-psych",
+      lessonsGlobal: "PSYCH_QUIZ_LIST",
+      unitsGlobal: "PSYCH_UNITS",
     },
   ];
 

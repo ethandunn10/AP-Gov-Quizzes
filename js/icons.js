@@ -35,6 +35,12 @@
       "M5 4.5h13l-3 3.5 3 3.5H5z",
       "M5 8h10",
     ],
+    // Head in profile with a spark inside: skull line, jaw, thought mark.
+    "ap-psych": [
+      "M15.5 20.5v-3h2a1.5 1.5 0 0 0 1.3-2.2L17.5 12a6.5 6.5 0 1 0-10 5.6v2.9",
+      "M11 9.5a2 2 0 1 0 2.5 2.5",
+      "M13 12l2.5-1",
+    ],
 
     // --- UI -------------------------------------------------------------
     // Clock, for the history page and attempt timestamps.

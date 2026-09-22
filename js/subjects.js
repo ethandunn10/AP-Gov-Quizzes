@@ -7,6 +7,8 @@
 //           quizzes/units.js      -> window.UNITS
 //   AP Bio  quizzes-bio/index.js  -> window.BIO_QUIZ_LIST
 //           quizzes-bio/units.js  -> window.BIO_UNITS
+//   APUSH   quizzes-ush/index.js  -> window.USH_QUIZ_LIST
+//           quizzes-ush/units.js  -> window.USH_UNITS
 //
 // This file joins them into one subject-keyed object (window.SUBJECTS)
 // and exposes lookups that take a bare lesson/unit id and work out which
@@ -40,6 +42,14 @@
       dir: "quizzes-bio",
       lessonsGlobal: "BIO_QUIZ_LIST",
       unitsGlobal: "BIO_UNITS",
+    },
+    {
+      id: "ap-ush",
+      name: "AP U.S. History",
+      tagline: "APUSH Practice Quizzes",
+      dir: "quizzes-ush",
+      lessonsGlobal: "USH_QUIZ_LIST",
+      unitsGlobal: "USH_UNITS",
     },
   ];
 

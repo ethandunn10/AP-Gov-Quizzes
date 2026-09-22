@@ -29,6 +29,12 @@
       "M5 19 19 5",
       "M5 19l-2 2",
     ],
+    // Flag on a staff: staff, waving field, one stripe.
+    "ap-ush": [
+      "M5 3v18",
+      "M5 4.5h13l-3 3.5 3 3.5H5z",
+      "M5 8h10",
+    ],
 
     // --- UI -------------------------------------------------------------
     // Clock, for the history page and attempt timestamps.

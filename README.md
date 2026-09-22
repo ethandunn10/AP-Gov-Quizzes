@@ -1,6 +1,6 @@
-# AllAP Practice Quizzes
+# Knotee — AP® Practice Quizzes
 
-A free, static website with AP practice quizzes. Plain HTML/CSS/JavaScript
+A free, static website with AP® practice quizzes. Plain HTML/CSS/JavaScript
 -- no build step, no framework, no backend.
 
 Two subjects are live:

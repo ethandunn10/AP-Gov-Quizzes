@@ -1,4 +1,4 @@
-# Claude Code Prompt — Generate the remaining AllAP subjects
+# Claude Code Prompt — Generate the remaining Knotee subjects
 
 Run `claude` in this repo and paste everything below the line.
 

@@ -9,8 +9,11 @@
 // Adding a third subject needs no changes here: js/subjects.js builds the
 // list, this file just renders whatever is in it.
 //
-// Depends on the subject data files, js/subjects.js, js/progress.js and
-// js/icons.js being loaded first.
+// The right-hand sidebar also carries Knotee the owl, whose speech bubble
+// this file writes -- see renderMascot() below.
+//
+// Depends on the subject data files, js/subjects.js, js/progress.js,
+// js/attempt-labels.js and js/icons.js being loaded first.
 
 (function () {
   const unitsListContainer = document.getElementById("units-list");
@@ -61,7 +64,7 @@
   }
 
   function renderSubjectPicker(subjects) {
-    if (taglineEl) taglineEl.textContent = "AP Practice Quizzes";
+    if (taglineEl) taglineEl.textContent = "AP® Practice Quizzes";
     if (introEl) introEl.textContent = "Pick a subject to start quizzing.";
     if (listHeadingEl) listHeadingEl.textContent = "Subjects";
     if (backLinkEl) backLinkEl.classList.add("hidden");
@@ -105,6 +108,61 @@
     });
   }
 
+  // ---- Knotee the owl --------------------------------------------------
+  // The bubble says one of two things, and nothing else:
+  //   no quizzes taken yet   the 90% retake advice
+  //   at least one taken     their single lowest score, with a retake link
+  // In the first case the sidebar's mastery note would just repeat the
+  // bubble word for word, so it stays hidden.
+
+  // Lowest-scoring lesson or whole-unit quiz across every subject, using
+  // the most recent result per quiz. Ids that no longer resolve (a lesson
+  // pulled from a registry after someone took it) are skipped rather than
+  // rendered as a dead link.
+  function lowestScore() {
+    const progress = window.APGovProgress;
+    const labels = window.AllAPAttemptLabels;
+    if (!progress || !labels) return null;
+
+    const scored = progress
+      .getLessonRankings()
+      .map((entry) => ({ ...entry, type: "lesson" }))
+      .concat(progress.getUnitRankings().map((entry) => ({ ...entry, type: "unit" })))
+      .sort((a, b) => a.percent - b.percent);
+
+    for (const entry of scored) {
+      const info = labels.resolve(entry.id, entry.type);
+      if (info) return { info, percent: entry.percent };
+    }
+    return null;
+  }
+
+  function renderMascot() {
+    const bubbleEl = document.getElementById("mascot-bubble");
+    const masteryNoteEl = document.getElementById("mastery-note");
+    if (!bubbleEl) return;
+
+    const lowest = lowestScore();
+    if (!lowest) {
+      bubbleEl.textContent =
+        "We recommend retaking each quiz until you get a 90% — that's how you know the topic stuck.";
+      return;
+    }
+
+    const percent = Math.round(lowest.percent * 100);
+    bubbleEl.textContent = `Your lowest so far is ${percent}% on `;
+
+    const link = document.createElement("a");
+    link.href = lowest.info.href;
+    link.textContent = lowest.info.name;
+    bubbleEl.appendChild(link);
+    bubbleEl.appendChild(document.createTextNode(". Retake it and aim for 90%."));
+
+    // Only worth showing next to a specific score -- it's the general rule
+    // behind the nudge, not a repeat of it.
+    if (masteryNoteEl) masteryNoteEl.classList.remove("hidden");
+  }
+
   const subjects = window.AllAPSubjects.list();
   const params = new URLSearchParams(window.location.search);
   const subject = window.AllAPSubjects.get(params.get("subject"));
@@ -118,4 +176,6 @@
     // No ?subject= (or an id we don't recognise) -- show the picker.
     renderSubjectPicker(subjects);
   }
+
+  renderMascot();
 })();

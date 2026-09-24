@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "2-2-7",
     question: "Luther's German translation of the Bible was significant because it",
     options: [
-      "was the first translation of scripture into any European vernacular",
       "was commissioned and approved by the papacy for use across Germany",
       "removed the Old Testament from the Christian scriptural canon",
-      "let laypeople read scripture and helped standardize German"
+      "let laypeople read scripture and helped standardize German",
+      "was the first translation of scripture into any European vernacular"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Printed in enormous numbers, it made Luther's dialect the basis of literary German and put scripture in lay hands. Vernacular translations existed before, but none achieved this reach."
   },
   {
     id: "2-2-8",
     question: "Which factor best explains why Luther's challenge succeeded where earlier ones had failed?",
     options: [
-      "Printing, princely protection, and imperial political fragmentation",
       "The unanimous support of the Catholic hierarchy for his proposals",
       "The absence of any earlier critic of church practice in Europe",
-      "Military backing supplied to him by the Ottoman sultan in the east"
+      "Military backing supplied to him by the Ottoman sultan in the east",
+      "Printing, princely protection, and imperial political fragmentation"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Hus and Wycliffe had raised similar objections but lacked print and a protector strong enough to defy central authority. Ottoman pressure on Vienna did distract Charles V, but no alliance existed."
   },
   {
     id: "2-2-9",
     question: "Lutheranism differed from Catholicism most fundamentally in its view of",
     options: [
-      "whether Jesus Christ was both fully divine and fully human",
       "the authority of scripture relative to church tradition and the papacy",
       "whether God created the world out of nothing at the beginning of time",
-      "the necessity of baptism for entry into the Christian community"
+      "the necessity of baptism for entry into the Christian community",
+      "whether Jesus Christ was both fully divine and fully human"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Sola scriptura made the Bible the sole authority, displacing councils, canon law, and papal decree. The two churches agreed on the creeds, creation, and the necessity of baptism."
   },
   {
     id: "2-2-10",
     question: "A historian arguing that the Reformation was as political as religious would cite",
     options: [
-      "Luther's personal theological struggle over the certainty of salvation",
       "the doctrinal content of the Ninety-Five Theses on penance and merit",
       "princes' seizure of church property and their resistance to Charles V",
-      "the translation of the Bible into German for lay readers"
+      "the translation of the Bible into German for lay readers",
+      "Luther's personal theological struggle over the certainty of salvation"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Territorial rulers gained land, revenue, and autonomy by adopting reform, and the Schmalkaldic League fought the emperor over it. The other options concern religious motives and consequences."
   }
 ];

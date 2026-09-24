@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-2",
     question: "Wilson's Fourteen Points emphasized",
     options: [
-      "self-determination, open diplomacy, and a league of nations",
       "the partition of Germany among the victorious Allied powers",
       "the restoration of the prewar empires to their 1914 borders",
-      "reparations sufficient to cover the Allies' entire war costs"
+      "reparations sufficient to cover the Allies' entire war costs",
+      "self-determination, open diplomacy, and a league of nations"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Wilson sought a settlement based on principle rather than punishment, though French and British aims prevailed on most points. The League was the one element he largely secured."
   },
   {
     id: "8-4-3",
     question: "France's aims at the peace conference centered on",
     options: [
+      "security against future German attack through weakening Germany",
       "restoring Germany quickly as a trading partner and ally",
       "extending self-determination to every European nationality",
-      "avoiding any territorial changes to the prewar map",
-      "security against future German attack through weakening Germany"
+      "avoiding any territorial changes to the prewar map"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Twice invaded within fifty years, France pressed for reparations, demilitarization of the Rhineland, and the return of Alsace-Lorraine. Clemenceau regarded German weakness as France's only guarantee."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-5",
     question: "Self-determination as applied at Paris generated resentment because it was",
     options: [
-      "extended to Europeans while colonized peoples stayed ruled",
-      "applied immediately and universally to every colonized population",
       "rejected outright by all the statesmen attending the conference",
-      "used to justify returning Germany's colonies to German control"
+      "used to justify returning Germany's colonies to German control",
+      "extended to Europeans while colonized peoples stayed ruled",
+      "applied immediately and universally to every colonized population"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "New states emerged in eastern Europe while Vietnamese, Indian, and Arab delegations were turned away. Ho Chi Minh's rebuff at Paris connects directly to later anticolonial revolution."
   },
   {
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-7",
     question: "The League of Nations was weakened from the outset because",
     options: [
-      "it possessed an army larger than any individual member state",
       "the United States never joined and it lacked enforcement power",
       "every major power refused to participate in its proceedings",
-      "it was dissolved within two years of its establishment"
+      "it was dissolved within two years of its establishment",
+      "it possessed an army larger than any individual member state"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The Senate rejected membership, and the League could recommend sanctions but had no forces of its own. Japanese, German, and Italian withdrawal later hollowed it out further."
   },
   {
     id: "8-4-8",
     question: "Italy's dissatisfaction with the settlement arose because Italians believed",
     options: [
+      "Italy had lost all of its overseas colonial possessions",
       "Italy got less territory than it had been promised",
       "Italy had been excluded from attending the peace conference",
-      "Italy had been defeated and occupied by the Allied powers",
-      "Italy had lost all of its overseas colonial possessions"
+      "Italy had been defeated and occupied by the Allied powers"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Secret promises made to bring Italy into the war were not fully honored, and nationalist outrage over this 'mutilated victory' helped Mussolini's rise. Italy was a victor present at the conference."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-10",
     question: "A historian assessing the Paris settlement would most defensibly argue that it was",
     options: [
-      "generous enough to reconcile Germany to the new European order",
-      "punitive enough to anger Germany but not enforced firmly enough",
       "irrelevant to the outbreak of the Second World War two decades later",
-      "accepted willingly by every state that signed its provisions"
+      "accepted willingly by every state that signed its provisions",
+      "generous enough to reconcile Germany to the new European order",
+      "punitive enough to anger Germany but not enforced firmly enough"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The settlement humiliated Germany without permanently disabling it, and its guarantors lacked the will to enforce it in the 1930s. That combination is the standard explanation for its collapse."
   }
 ];

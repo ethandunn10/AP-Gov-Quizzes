@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-9-1",
     question: "The Holocaust is distinguished among twentieth-century atrocities by",
     options: [
+      "the systematic industrial attempt to exterminate a people",
       "its confinement to a single city over a period of weeks",
       "the absence of any government involvement in its execution",
-      "its occurrence entirely before the outbreak of the war",
-      "the systematic industrial attempt to exterminate a people"
+      "its occurrence entirely before the outbreak of the war"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Nazi Germany applied bureaucracy, railways, and purpose-built killing centers to the total destruction of European Jewry, murdering roughly six million. The industrial organization of the killing sets it apart."
   },
   {
     id: "8-9-2",
     question: "The Nuremberg Laws of 1935 marked a significant step because they",
     options: [
+      "were repealed within a year after international protest",
       "stripped Jews of citizenship and defined Jewishness by descent",
       "granted German Jews full equality under the Weimar constitution",
-      "applied only to foreign nationals residing within Germany",
-      "were repealed within a year after international protest"
+      "applied only to foreign nationals residing within Germany"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Legal exclusion converted prejudice into state policy and made further measures administratively straightforward. Defining Jewishness by ancestry rather than belief was central to the racial program."
   },
   {
     id: "8-9-3",
     question: "Kristallnacht in November 1938 is significant because it",
     options: [
+      "led Britain and France to declare war on Germany immediately",
       "was a spontaneous riot that the Nazi government worked to suppress",
       "marked an escalation from legal exclusion to organized violence",
-      "resulted in the emigration of every Jewish person from Germany",
-      "led Britain and France to declare war on Germany immediately"
+      "resulted in the emigration of every Jewish person from Germany"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "State-organized destruction of synagogues and businesses, followed by mass arrests, showed that physical violence was now policy. Emigration became harder as other countries restricted entry."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-9-10",
     question: "The Holocaust's postwar significance includes",
     options: [
-      "the conclusion that genocide could not be defined in legal terms",
       "the abandonment of any attempt to prosecute wartime atrocities",
       "the Genocide Convention and the concept of crimes against humanity",
-      "a consensus that individual officials bore no personal responsibility"
+      "a consensus that individual officials bore no personal responsibility",
+      "the conclusion that genocide could not be defined in legal terms"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Nuremberg established individual criminal responsibility, and Lemkin's term 'genocide' was given legal definition in 1948. Those precedents underpin modern international criminal law."
   }
 ];

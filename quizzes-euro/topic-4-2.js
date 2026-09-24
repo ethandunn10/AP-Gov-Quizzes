@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-9",
     question: "The Scientific Revolution's effect on religious belief is best described as",
     options: [
-      "producing widespread atheism among educated Europeans by 1700",
       "encouraging deism while most practitioners stayed Christian",
       "leaving religious thought entirely unaffected in every respect",
-      "causing all churches to reject the new natural philosophy outright"
+      "causing all churches to reject the new natural philosophy outright",
+      "producing widespread atheism among educated Europeans by 1700"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A law-governed universe suggested a rational creator to many, which deism developed into a distinct position. Newton himself wrote extensively on theology and biblical chronology."
   },
   {
     id: "4-2-10",
     question: "A historian arguing the Scientific Revolution was genuinely revolutionary would emphasize",
     options: [
+      "the small number of people directly engaged in scientific inquiry",
       "the replacement of ancient authority by observation",
       "the continued dominance of Aristotle in the European universities",
-      "the lack of any practical technological change during the period",
-      "the small number of people directly engaged in scientific inquiry"
+      "the lack of any practical technological change during the period"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Changing the accepted test of a claim about nature is a change in kind, not degree. The other options are the evidence used by historians who stress continuity and gradual change instead."
   }
 ];

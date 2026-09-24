@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "1-1-8",
     question: "A historian studying this period would identify which continuity between medieval and Renaissance Europe?",
     options: [
-      "Most people remained rural cultivators whose lives changed comparatively little",
       "Political authority everywhere had already passed to elected representative bodies",
       "The Christian church had ceased to be a major landholder or political force",
-      "Urban populations had grown to outnumber rural populations across the continent"
+      "Urban populations had grown to outnumber rural populations across the continent",
+      "Most people remained rural cultivators whose lives changed comparatively little"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Renaissance culture was an urban elite phenomenon while the great majority of Europeans still farmed under obligations that changed slowly. The church remained wealthy and powerful, and Europe stayed overwhelmingly rural."
   },
   {
     id: "1-1-9",
     question: "Which statement best describes the relationship between the Renaissance and Christianity?",
     options: [
-      "Renaissance thinkers rejected Christian belief as incompatible with reason",
-      "The church condemned humanism and forbade the study of classical authors",
       "Humanists applied classical scholarship to scripture and served the church",
-      "Renaissance art abandoned religious subjects in favor of purely secular themes"
+      "Renaissance art abandoned religious subjects in favor of purely secular themes",
+      "Renaissance thinkers rejected Christian belief as incompatible with reason",
+      "The church condemned humanism and forbade the study of classical authors"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Christian humanists such as Erasmus used philological methods on scripture, and popes were among the greatest patrons of Renaissance art. Religious subjects remained central to painting and sculpture throughout the period."
   },
   {
     id: "1-1-10",
     question: "Which pairing best captures the two defining developments of this unit?",
     options: [
-      "Feudal fragmentation and the rise of independent monastic landholding",
-      "Industrial manufacturing and the growth of an urban factory working class",
       "Religious uniformity across Europe and the decline of long-distance commerce",
-      "Cultural revival grounded in classical learning, plus overseas expansion"
+      "Cultural revival grounded in classical learning, plus overseas expansion",
+      "Feudal fragmentation and the rise of independent monastic landholding",
+      "Industrial manufacturing and the growth of an urban factory working class"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The unit pairs the recovery of classical culture with the voyages that connected Europe to the Americas, Africa, and Asia. Industrialization lies centuries ahead, and this period saw commerce expand and religious unity break."
   }
 ];

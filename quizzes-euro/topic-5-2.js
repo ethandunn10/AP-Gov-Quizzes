@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-2-1",
     question: "European global trade in the eighteenth century was dominated by",
     options: [
-      "Atlantic commerce in sugar, tobacco, and enslaved people",
-      "overland caravan traffic between Europe and the Chinese interior",
       "the export of European grain to markets in South and East Asia",
-      "Mediterranean exchange between Italian ports and North Africa"
+      "Mediterranean exchange between Italian ports and North Africa",
+      "Atlantic commerce in sugar, tobacco, and enslaved people",
+      "overland caravan traffic between Europe and the Chinese interior"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Plantation commodities and the slave trade that produced them made the Atlantic the most lucrative theater of European commerce. Asian trade mattered but ran on a smaller volume of high-value goods."
   },
   {
     id: "5-2-2",
     question: "The plantation complex depended on a combination of",
     options: [
-      "free European wage labor working under long-term contracts",
-      "coerced African labor, American land, and European capital",
       "Indigenous American labor organized through village councils",
-      "Asian indentured workers recruited under government supervision"
+      "Asian indentured workers recruited under government supervision",
+      "free European wage labor working under long-term contracts",
+      "coerced African labor, American land, and European capital"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Each element came from a different continent, which is what makes the system a genuinely Atlantic economy. Asian indenture became significant only after abolition in the nineteenth century."
   },
   {
     id: "5-2-3",
     question: "European consumption of colonial goods in this period is best characterized as",
     options: [
+      "spreading well beyond elites to middling and laboring households",
       "restricted by law to the nobility and the wealthiest merchants",
       "declining as Europeans returned to locally produced substitutes",
-      "confined to a handful of port cities with no inland distribution",
-      "spreading well beyond elites to middling and laboring households"
+      "confined to a handful of port cities with no inland distribution"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Sugar, tea, coffee, and tobacco became ordinary purchases, and sugar consumption in Britain rose many times over across the century. That mass demand is what made plantations so profitable."
   },
   {
     id: "5-2-4",
     question: "The Asian trade differed from the Atlantic trade in that Europeans in Asia",
     options: [
+      "exported more manufactured goods than they imported from the region",
       "traded as one group among many on powerful local states' terms",
       "governed the interiors of India and China through appointed officials",
-      "found no market for any goods produced within Asian territories",
-      "exported more manufactured goods than they imported from the region"
+      "found no market for any goods produced within Asian territories"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The Mughals and Qing dwarfed any European force in Asia, so companies negotiated for factories and paid in silver for goods Europe wanted. Territorial rule came later, chiefly in India after 1757."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-2-6",
     question: "Britain's acquisition of Bengal after 1757 is significant because it",
     options: [
-      "marked a shift from trading rights toward territorial rule",
       "ended British commercial activity on the Indian subcontinent",
       "transferred control of Indian trade to the French East India Company",
-      "was achieved without any use of military force by the company"
+      "was achieved without any use of military force by the company",
+      "marked a shift from trading rights toward territorial rule"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Plassey converted the East India Company from a trading concern into a territorial power collecting revenue. That revenue then financed further expansion across the subcontinent."
   },
   {
     id: "5-2-7",
     question: "The economic relationship between European states and their colonies was governed by",
     options: [
+      "mercantilist rules reserving colonial trade for the mother country",
       "free-trade treaties allowing colonies to deal with any partner",
       "colonial assemblies setting tariffs on goods entering from Europe",
-      "international agreements guaranteeing colonies equal trading rights",
-      "mercantilist rules reserving colonial trade for the mother country"
+      "international agreements guaranteeing colonies equal trading rights"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Navigation acts and exclusive company charters channeled colonial commerce homeward and barred foreign competitors. Resentment at those restrictions helped provoke the American Revolution."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-2-10",
     question: "A historian assessing eighteenth-century global markets would conclude that they",
     options: [
-      "distributed wealth and power evenly among participating world regions",
-      "concentrated gains in Europe while imposing severe costs elsewhere",
       "had no lasting effect on the relative position of world regions",
-      "operated entirely without state involvement or military force"
+      "operated entirely without state involvement or military force",
+      "distributed wealth and power evenly among participating world regions",
+      "concentrated gains in Europe while imposing severe costs elsewhere"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "European ports, manufacturers, and financiers captured most of the returns while Africa lost population and American plantations ran on coerced labor. Navies and chartered monopolies enforced the arrangement."
   }
 ];

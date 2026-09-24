@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "7-8-6",
     question: "Nationalism influenced nineteenth-century music through",
     options: [
-      "composers' rejection of folk material as unsuitable for art music",
       "the requirement that all European music be composed in Italian",
       "composers drawing on folk melodies and national historical themes",
-      "the abandonment of opera in favor of purely instrumental works"
+      "the abandonment of opera in favor of purely instrumental works",
+      "composers' rejection of folk material as unsuitable for art music"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Smetana, Dvorak, and Wagner built national identity into concert and operatic music. Folk material became a marker of authenticity rather than something to be avoided."
   },
   {
     id: "7-8-7",
     question: "Nietzsche's philosophy challenged nineteenth-century assumptions by",
     options: [
+      "claiming that reason alone should govern all human conduct",
       "defending traditional Christian morality against secular criticism",
       "arguing that inherited moral values needed re-examination",
-      "insisting that scientific progress guaranteed human improvement",
-      "claiming that reason alone should govern all human conduct"
+      "insisting that scientific progress guaranteed human improvement"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Declaring that God is dead meant that the foundations of European morality had collapsed and needed rebuilding. His work belongs to the fin-de-siècle questioning of confident rationalism."
   },
   {
     id: "7-8-8",
     question: "Mass culture in the later nineteenth century included",
     options: [
-      "cheap newspapers, music halls, spectator sport, and seaside resorts",
       "cultural forms available only to the aristocracy and the clergy",
       "activities that required no money and no leisure time to enjoy",
-      "entertainment organized and funded entirely by national governments"
+      "entertainment organized and funded entirely by national governments",
+      "cheap newspapers, music halls, spectator sport, and seaside resorts"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Rising wages, shorter hours, and rail travel created commercial leisure as an industry. Football clubs and the penny press date from exactly this period."
   },
   {
     id: "7-8-9",
     question: "Architecture in this period reflected industrial capability through",
     options: [
+      "iron and glass construction in stations and exhibition halls",
       "the abandonment of large-scale public building projects",
       "exclusive use of stone and timber in all major structures",
-      "the rejection of historical styles in every European country",
-      "iron and glass construction in stations and exhibition halls"
+      "the rejection of historical styles in every European country"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The Crystal Palace and the great train sheds displayed what industrial materials made possible on a monumental scale. Historical revival styles continued alongside these new forms."
   },
   {
     id: "7-8-10",
     question: "A historian using nineteenth-century culture as evidence would argue that artistic change",
     options: [
+      "had no audience beyond a small circle of wealthy patrons",
       "tracked industrial society, science, and national politics",
       "occurred independently of any social or economic development",
-      "was identical in every European country throughout the century",
-      "had no audience beyond a small circle of wealthy patrons"
+      "was identical in every European country throughout the century"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Realism followed industrialization, nationalist music followed unification, and modernism followed doubts about progress. Mass audiences and commercial markets shaped what was produced."
   }
 ];

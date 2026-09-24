@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-2",
     question: "The 'illegitimacy explosion' of the later eighteenth century is generally linked to",
     options: [
-      "new laws that encouraged couples to marry at much younger ages",
       "the disappearance of wage labor from the European countryside",
       "greater mobility and wage work loosening community supervision",
-      "church campaigns that promoted childbearing outside of marriage"
+      "church campaigns that promoted childbearing outside of marriage",
+      "new laws that encouraged couples to marry at much younger ages"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Young people working away from home escaped the village and parental oversight that had enforced marriage before childbirth. Rates of births outside marriage rose sharply across western Europe."
   },
   {
     id: "4-4-3",
     question: "Which change in family life is associated with the eighteenth century?",
     options: [
+      "A move toward arranging all marriages through village councils",
       "The replacement of nuclear households by extended multigenerational ones",
       "Growing emphasis on affection between spouses and on nurturing children",
-      "The disappearance of marriage as a recognized legal institution",
-      "A move toward arranging all marriages through village councils"
+      "The disappearance of marriage as a recognized legal institution"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Historians trace a shift toward companionate marriage and greater attention to childhood among the middling and upper ranks. Household structure in the west remained largely nuclear."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-6",
     question: "Eighteenth-century medicine's most significant practical advance was",
     options: [
-      "the discovery of antibiotics for treating bacterial infection",
       "the development of anesthesia for use in surgical operations",
       "smallpox inoculation and later Jenner's vaccination",
-      "the identification of bacteria as the cause of infectious disease"
+      "the identification of bacteria as the cause of infectious disease",
+      "the discovery of antibiotics for treating bacterial infection"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Inoculation spread from Ottoman practice through Lady Mary Wortley Montagu, and Jenner's cowpox vaccine followed in 1796. Germ theory, anesthesia, and antibiotics all came later."
   },
   {
     id: "4-4-7",
     question: "Urban growth in the eighteenth century produced which characteristic problem?",
     options: [
+      "A shortage of migrants willing to move from the countryside",
       "A permanent surplus of housing that drove rents steadily downward",
       "Overcrowding, poor sanitation, and high rates of urban mortality",
-      "The complete disappearance of poverty within European cities",
-      "A shortage of migrants willing to move from the countryside"
+      "The complete disappearance of poverty within European cities"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Cities grew faster than water supply and sewerage, so urban deaths regularly exceeded births and growth depended on rural migration. Public health reform came only in the next century."
   },
   {

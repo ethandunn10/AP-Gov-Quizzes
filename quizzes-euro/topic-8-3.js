@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-3-1",
     question: "The February Revolution of 1917 resulted most directly from",
     options: [
-      "a German invasion that reached the outskirts of Petrograd",
       "military defeat, hunger, and collapsing tsarist legitimacy",
       "a Bolshevik electoral victory in a national parliamentary vote",
-      "Nicholas II's voluntary decision to establish a republic"
+      "Nicholas II's voluntary decision to establish a republic",
+      "a German invasion that reached the outskirts of Petrograd"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Millions of casualties, urban hunger, and an autocracy that had lost credibility produced strikes and mutiny that forced the tsar's abdication. The Bolsheviks were a small minority at that point."
   },
   {
     id: "8-3-2",
     question: "The Provisional Government's fatal error was its decision to",
     options: [
+      "restore the Romanov dynasty to the Russian throne",
       "continue Russian participation in the First World War",
       "redistribute noble estates to the peasantry immediately",
-      "withdraw Russian forces from the eastern front at once",
-      "restore the Romanov dynasty to the Russian throne"
+      "withdraw Russian forces from the eastern front at once"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Staying in the war meant continued casualties and shortages, which destroyed its support and opened the way for Lenin's promise of peace, land, and bread. Land reform was postponed rather than enacted."
   },
   {

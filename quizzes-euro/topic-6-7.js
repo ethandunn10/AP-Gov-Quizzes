@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-1",
     question: "Nineteenth-century liberalism advocated",
     options: [
-      "state ownership of industry and redistribution of all property",
-      "the restoration of monarchy and aristocratic social privilege",
       "constitutional government, civil liberties, and free markets",
-      "universal suffrage for all adults regardless of property"
+      "universal suffrage for all adults regardless of property",
+      "state ownership of industry and redistribution of all property",
+      "the restoration of monarchy and aristocratic social privilege"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Classical liberals wanted limited government, legal equality, and open trade, but generally tied voting to property. Democracy in the modern sense was a later and contested extension."
   },
   {
     id: "6-7-2",
     question: "Utilitarianism, associated with Bentham and Mill, judged institutions by",
     options: [
+      "the length of time they had existed without significant change",
       "whether they produced the greatest happiness for the most",
       "their consistency with the inherited traditions of a given society",
-      "whether they conformed to the teachings of established churches",
-      "the length of time they had existed without significant change"
+      "whether they conformed to the teachings of established churches"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Measuring laws by their consequences for human welfare justified sweeping reform of prisons, poor laws, and government. It supplied liberalism with a practical reforming program."
   },
   {
     id: "6-7-3",
     question: "Utopian socialists such as Owen and Fourier proposed",
     options: [
-      "violent revolution as the only possible route to social change",
       "the abolition of all industry and a return to peasant farming",
       "unrestricted competition as the surest path to general prosperity",
-      "cooperative communities demonstrating a humane alternative"
+      "cooperative communities demonstrating a humane alternative",
+      "violent revolution as the only possible route to social change"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Owen built New Lanark and New Harmony hoping example would persuade society to reorganize. Marx dismissed this as utopian precisely because it ignored class power."
   },
   {
     id: "6-7-4",
     question: "Marx and Engels argued that history is driven by",
     options: [
-      "the ideas of great thinkers shaping each successive era",
-      "class struggle rooted in the organization of material production",
       "divine providence guiding humanity toward a predetermined end",
-      "the gradual expansion of individual liberty under law"
+      "the gradual expansion of individual liberty under law",
+      "the ideas of great thinkers shaping each successive era",
+      "class struggle rooted in the organization of material production"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Historical materialism located the motor of change in who controls production and the conflicts that follow. Their prediction was that capitalism's contradictions would produce proletarian revolution."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-6",
     question: "Anarchism differed from Marxism chiefly in its",
     options: [
-      "acceptance of the existing state as the vehicle of social change",
       "insistence that industrial capitalism should be left untouched",
       "rejection of the state itself rather than of its class control",
-      "support for hereditary monarchy as a check on capitalist power"
+      "support for hereditary monarchy as a check on capitalist power",
+      "acceptance of the existing state as the vehicle of social change"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Anarchists such as Bakunin held that any state, including a workers' state, would reproduce oppression. That disagreement split the First International."
   },
   {
     id: "6-7-7",
     question: "Nineteenth-century nationalism held that",
     options: [
-      "loyalty is owed to a dynasty regardless of language or culture",
       "empires should govern as many distinct peoples as possible",
       "political borders should follow the outcomes of dynastic marriage",
-      "peoples sharing language and culture deserve their own state"
+      "peoples sharing language and culture deserve their own state",
+      "loyalty is owed to a dynasty regardless of language or culture"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Relocating legitimacy from the dynasty to the cultural nation dissolved multiethnic empires and unified fragmented regions. The same idea built Germany and threatened Austria-Hungary."
   },
   {
     id: "6-7-8",
     question: "Feminist movements in this period concentrated primarily on",
     options: [
-      "property rights, access to education, and eventually the vote",
       "the exclusion of women from all forms of paid employment",
       "the restoration of legal authority to husbands over wives",
-      "the abolition of marriage as a recognized legal institution"
+      "the abolition of marriage as a recognized legal institution",
+      "property rights, access to education, and eventually the vote"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Married women's property acts, admission to universities, and suffrage campaigns marked the movement's stages. No state granted women the parliamentary vote until New Zealand in 1893."
   },
   {
     id: "6-7-9",
     question: "Which statement best explains why these ideologies emerged when they did?",
     options: [
-      "They were invented by governments to justify existing policy",
       "They responded to industrial and revolutionary upheaval in society",
       "They were revivals of political programs from the medieval period",
-      "They arose independently of any social or economic change"
+      "They arose independently of any social or economic change",
+      "They were invented by governments to justify existing policy"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Each offered a different answer to what industrial society owed its members and how much of the old order to keep. That shared problem explains why they appeared together."
   },
   {
     id: "6-7-10",
     question: "A historian comparing liberalism and socialism in this era would note that both",
     options: [
+      "opposed the development of industry and wished to reverse it",
       "both accepted industrial society needed political change",
       "sought to restore the privileges of the pre-revolutionary aristocracy",
-      "rejected any expansion of the franchise beyond property holders",
-      "opposed the development of industry and wished to reverse it"
+      "rejected any expansion of the franchise beyond property holders"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Liberals wanted legal equality and open markets while socialists demanded that economic power itself be redistributed. Both accepted industry and rejected the conservative defense of privilege."
   }
 ];

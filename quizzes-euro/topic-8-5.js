@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-2",
     question: "German vulnerability to the Depression was especially severe because Germany",
     options: [
-      "had refused to accept any foreign loans during the 1920s",
       "had experienced no economic difficulty at any point since 1918",
       "depended heavily on short-term American loans after 1924",
-      "had already abandoned the gold standard well before 1929"
+      "had already abandoned the gold standard well before 1929",
+      "had refused to accept any foreign loans during the 1920s"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The Dawes Plan had rebuilt German recovery on American credit, so the withdrawal of that credit was catastrophic. Unemployment reached roughly a third of the workforce."
   },
   {
     id: "8-5-3",
     question: "Protectionist responses such as raising tariffs worsened the Depression because they",
     options: [
+      "lowered the price of goods for consumers everywhere",
       "increased the total volume of goods moving in world trade",
       "provoked retaliation that collapsed international commerce",
-      "had no measurable effect on any country's economy",
-      "lowered the price of goods for consumers everywhere"
+      "had no measurable effect on any country's economy"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Each country's attempt to protect its own producers shrank the markets all of them needed, and world trade fell by roughly two-thirds. It is the classic case of rational national policy producing collective disaster."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-10",
     question: "A historian assessing the Depression's significance would argue that it",
     options: [
-      "had no connection to the outbreak of the Second World War",
       "affected only the United States and left Europe untouched",
       "discredited liberal capitalism and empowered its rivals",
-      "was resolved within two years by coordinated international action"
+      "was resolved within two years by coordinated international action",
+      "had no connection to the outbreak of the Second World War"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The crisis made fascism and communism appear viable alternatives to a system that seemed to have failed. International coordination was conspicuously absent throughout."
   }
 ];

@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-1",
     question: "Napoleon came to power in 1799 primarily because",
     options: [
+      "foreign powers installed him after defeating French armies",
       "he was elected president by universal male suffrage",
       "the Directory was discredited and he had military prestige",
-      "the Bourbon monarchy invited him to govern in its name",
-      "foreign powers installed him after defeating French armies"
+      "the Bourbon monarchy invited him to govern in its name"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "A weak, corrupt Directory and Napoleon's Italian and Egyptian reputation made the Brumaire coup possible. He legitimized it afterward through plebiscites he controlled."
   },
   {
     id: "5-6-2",
     question: "The Napoleonic Code is significant because it",
     options: [
+      "transferred all judicial authority to the Catholic Church",
       "restored feudal dues and noble privilege throughout France",
       "granted women full legal equality with their husbands",
-      "codified equality before the law and property rights for men",
-      "transferred all judicial authority to the Catholic Church"
+      "codified equality before the law and property rights for men"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The Code entrenched careers open to talent and secure property while subordinating wives to husbands legally. It spread across Europe with French armies and outlasted Napoleon everywhere."
   },
   {
@@ -43,36 +43,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-4",
     question: "The Continental System was Napoleon's attempt to",
     options: [
-      "establish a common European currency across the empire",
-      "unite European states in a federation under French leadership",
       "provide free trade among all territories he controlled",
-      "defeat Britain by closing European markets to British goods"
+      "defeat Britain by closing European markets to British goods",
+      "establish a common European currency across the empire",
+      "unite European states in a federation under French leadership"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Unable to invade after Trafalgar, Napoleon tried economic strangulation, but smuggling and Russian defection undermined it. Enforcing it drew him into Spain and ultimately Russia."
   },
   {
     id: "5-6-5",
     question: "The Peninsular War in Spain damaged Napoleon because it",
     options: [
-      "tied down French troops in a costly guerrilla conflict",
-      "resulted in the immediate loss of all French territory in Europe",
       "was the first war in which France faced the Russian army",
-      "ended French control of the Mediterranean within a single year"
+      "ended French control of the Mediterranean within a single year",
+      "tied down French troops in a costly guerrilla conflict",
+      "resulted in the immediate loss of all French territory in Europe"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Spanish irregulars and British forces under Wellington bled France for years in what Napoleon called his 'Spanish ulcer'. It also showed that nationalism could be turned against France."
   },
   {
     id: "5-6-6",
     question: "The 1812 invasion of Russia failed chiefly because of",
     options: [
+      "the intervention of Ottoman armies on the side of Russia",
       "a decisive Russian victory in a single major pitched battle",
       "the refusal of French soldiers to cross the Russian frontier",
-      "distance, scorched earth, disease, and the winter retreat",
-      "the intervention of Ottoman armies on the side of Russia"
+      "distance, scorched earth, disease, and the winter retreat"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The Russians traded space for time and burned supplies, and the Grande Armée disintegrated on the retreat from Moscow. Borodino was bloody but indecisive."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-9",
     question: "Napoleon's final defeat came at",
     options: [
-      "Trafalgar in 1805, which destroyed the French army in Spain",
       "Austerlitz in 1805, after which he abdicated the imperial throne",
       "Borodino in 1812, which ended the campaign against Russia",
-      "Waterloo in 1815, after his return from exile on Elba"
+      "Waterloo in 1815, after his return from exile on Elba",
+      "Trafalgar in 1805, which destroyed the French army in Spain"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Defeated by allied forces under Wellington and Blücher, he was exiled to Saint Helena. Trafalgar was a naval battle and Austerlitz one of his greatest victories."
   },
   {
     id: "5-6-10",
     question: "A historian assessing Napoleon would most defensibly argue that he",
     options: [
+      "had no lasting influence on European law or administration",
       "consistently upheld the democratic principles of the Revolution",
       "restored France exactly to its condition before the year 1789",
-      "entrenched revolutionary gains while ruling as an autocrat",
-      "had no lasting influence on European law or administration"
+      "entrenched revolutionary gains while ruling as an autocrat"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Legal equality, careers open to talent, and secure property survived under a regime of censorship, secret police, and hereditary empire. That tension is the standard historical judgment."
   }
 ];

@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-1",
     question: "The Congress of Vienna's principal aim was to",
     options: [
-      "spread revolutionary institutions throughout the European continent",
       "restore stability and a balance of power after Napoleon's defeat",
       "establish democratic constitutions in every major European state",
-      "partition France among the members of the victorious coalition"
+      "partition France among the members of the victorious coalition",
+      "spread revolutionary institutions throughout the European continent"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Metternich and his colleagues wanted an equilibrium that would prevent any single power from dominating again. France was restrained rather than dismembered so that it could balance others."
   },
   {
     id: "5-7-2",
     question: "The principle of legitimacy at Vienna meant",
     options: [
+      "granting independence to every nationality seeking its own state",
       "restoring the dynasties displaced by the revolutionary wars",
       "requiring all governments to derive authority from popular consent",
-      "recognizing only those states with written constitutions",
-      "granting independence to every nationality seeking its own state"
+      "recognizing only those states with written constitutions"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Bourbon rule returned in France, Spain, and Naples as a way of grounding order in something other than conquest. Nationalist and liberal claims were deliberately set aside."
   },
   {

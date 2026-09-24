@@ -44,36 +44,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-4",
     question: "Which pair of developments has the strongest causal relationship?",
     options: [
-      "The Crimean War's outcome and Russian serf emancipation in 1861",
       "Romantic poetry in Britain and the German Zollverein customs union",
       "The Bessemer process and the Carlsbad Decrees on censorship",
-      "Chartism in Britain and Belgian independence from the Netherlands"
+      "Chartism in Britain and Belgian independence from the Netherlands",
+      "The Crimean War's outcome and Russian serf emancipation in 1861"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Defeat exposed the military weakness of a serf-based society and convinced Alexander II that reform could not wait. The other pairings link developments with no causal connection."
   },
   {
     id: "6-10-5",
     question: "A student argues that industrialization improved life for everyone. The best qualification is that",
     options: [
-      "industrialization produced no material improvement for any group",
       "gains were real but uneven, with early workers bearing heavy costs",
       "only agricultural laborers benefited from industrial development",
-      "living standards in 1914 were identical to those of 1815"
+      "living standards in 1914 were identical to those of 1815",
+      "industrialization produced no material improvement for any group"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Real wages and life expectancy rose substantially by the later nineteenth century, while the first industrial decades brought crowding, long hours, and disease. Holding both facts together is the point."
   },
   {
     id: "6-10-6",
     question: "Railways affected European politics as well as economics because they",
     options: [
-      "eliminated the need for governments to maintain standing armies",
-      "confined political authority to the coastal regions of each state",
       "reduced state revenue by making transport tax-free",
-      "let states move troops and officials quickly into their interiors"
+      "let states move troops and officials quickly into their interiors",
+      "eliminated the need for governments to maintain standing armies",
+      "confined political authority to the coastal regions of each state"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Rail extended central authority inland and became central to mobilization planning before 1914. Military timetables built on railways later constrained diplomacy during the July Crisis."
   },
   {
@@ -92,36 +92,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-8",
     question: "Which factor best explains variation in the timing of industrialization across Europe?",
     options: [
-      "Access to coal and capital, transport links, and the status of labor",
       "The total land area controlled by each individual European state",
       "The religious confession that predominated in each given region",
-      "The date on which each state adopted a written constitution"
+      "The date on which each state adopted a written constitution",
+      "Access to coal and capital, transport links, and the status of labor"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Belgium and the Ruhr had coal, capital, and free labor early, while serfdom and thin credit delayed the east. These structural factors track the timing far better than religion or constitutions."
   },
   {
     id: "6-10-9",
     question: "The causal relationship between reform and revolution in this period is best described as",
     options: [
-      "reform consistently provoking revolution wherever it was attempted",
-      "revolution always occurring before any reform was ever considered",
       "timely reform often defusing pressure toward revolt",
-      "the two being entirely unrelated responses to unrelated problems"
+      "the two being entirely unrelated responses to unrelated problems",
+      "reform consistently provoking revolution wherever it was attempted",
+      "revolution always occurring before any reform was ever considered"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Britain's successive franchise extensions and Bismarck's insurance drew potential opponents into the system. Where regimes refused, as in Russia, pressure accumulated toward 1905 and 1917."
   },
   {
     id: "6-10-10",
     question: "Which conclusion about 1815 to 1914 is best supported by evidence across the unit?",
     options: [
+      "Industrialization spread evenly and simultaneously across the continent",
       "Economic change drove social change and political conflict",
       "Economic and political developments proceeded in complete isolation",
-      "European society and politics were unchanged across the whole century",
-      "Industrialization spread evenly and simultaneously across the continent"
+      "European society and politics were unchanged across the whole century"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Factories created classes, classes generated ideologies and movements, and movements forced states to reform. Tracing that chain through several regions is the analytical task here."
   }
 ];

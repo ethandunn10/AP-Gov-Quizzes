@@ -20,12 +20,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-11-2",
     question: "Which represents a significant continuity across this period?",
     options: [
+      "European economies operated without any government direction",
       "The nation-state remained the primary focus of political loyalty",
       "European monarchies survived unchanged in every major state",
-      "Colonial empires expanded steadily throughout the whole period",
-      "European economies operated without any government direction"
+      "Colonial empires expanded steadily throughout the whole period"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Internationalist movements and catastrophic wars did not displace the nation as the unit people organized around. Monarchies fell across central and eastern Europe and empires began to contract."
   },
   {
@@ -44,24 +44,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-11-4",
     question: "Which pairing correctly identifies a change and a related continuity?",
     options: [
-      "Change: women gained the vote widely. Continuity: domestic roles persisted",
       "Change: empires expanded. Continuity: European power grew steadily",
       "Change: nationalism disappeared. Continuity: monarchy was restored",
-      "Change: warfare ceased after 1918. Continuity: economies stayed unplanned"
+      "Change: warfare ceased after 1918. Continuity: economies stayed unplanned",
+      "Change: women gained the vote widely. Continuity: domestic roles persisted"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Suffrage spread after both wars while expectations about family and work changed far more slowly. The other options pair claims that are false for this period."
   },
   {
     id: "8-11-5",
     question: "Warfare changed most fundamentally in this period through",
     options: [
+      "industrial and ideological total war, ending in nuclear arms",
       "the reduction of civilian involvement in armed conflict",
       "the abandonment of conscription by the major powers",
-      "a return to limited dynastic wars fought by professionals",
-      "industrial and ideological total war, ending in nuclear arms"
+      "a return to limited dynastic wars fought by professionals"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Whole economies were mobilized, civilians were targeted deliberately, and the atomic bomb raised destruction to a new order. Genocide as state policy belongs to the same transformation."
   },
   {
@@ -92,36 +92,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-11-8",
     question: "Which continuity in European society persisted despite two world wars?",
     options: [
-      "Social inequality persisted even as its specific forms shifted",
       "Legal privilege for hereditary nobility remained universal",
       "Most Europeans continued to work in agricultural employment",
-      "Religious observance remained at nineteenth-century levels everywhere"
+      "Religious observance remained at nineteenth-century levels everywhere",
+      "Social inequality persisted even as its specific forms shifted"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Aristocratic privilege declined and welfare states narrowed some gaps, yet class differences in wealth, education, and opportunity remained substantial. Europe also urbanized substantially over the period."
   },
   {
     id: "8-11-9",
     question: "The wars changed European attitudes toward empire by",
     options: [
+      "undermining claims to superiority and draining the powers",
       "confirming the moral legitimacy of European colonial rule",
       "eliminating all colonial holdings by the year 1945",
-      "increasing European determination to expand colonial territory",
-      "undermining claims to superiority and draining the powers"
+      "increasing European determination to expand colonial territory"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Colonial troops who had fought for freedom pressed their own claims, and European civilizational rhetoric looked hollow after the trenches and the camps. Decolonization accelerated sharply after 1945."
   },
   {
     id: "8-11-10",
     question: "Which conclusion about 1914 to 1945 is best supported by evidence across the unit?",
     options: [
+      "Economic and political developments proceeded in complete isolation",
       "Industrial and ideological forces produced vast destruction",
       "The period's conflicts left European society and politics unchanged",
-      "European states cooperated successfully to prevent major warfare",
-      "Economic and political developments proceeded in complete isolation"
+      "European states cooperated successfully to prevent major warfare"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Factories armed mass conscript societies while nationalism, fascism, and communism supplied the purposes those weapons served. The result destroyed the confident Europe of 1914 and its world position."
   }
 ];

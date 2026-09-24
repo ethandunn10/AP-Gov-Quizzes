@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-1",
     question: "The agricultural revolution of this period was driven most directly by",
     options: [
-      "new crop rotations, fodder crops, selective breeding, and enclosure",
-      "the introduction of mechanical reapers and steam-powered threshers",
       "government programs that redistributed land equally among peasants",
-      "the abandonment of grain farming in favor of pasture across Europe"
+      "the abandonment of grain farming in favor of pasture across Europe",
+      "new crop rotations, fodder crops, selective breeding, and enclosure",
+      "the introduction of mechanical reapers and steam-powered threshers"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Turnips and clover removed the need for fallow, restored nitrogen, and fed more livestock, which in turn manured the fields. Mechanization came with industrialization a century later."
   },
   {
     id: "3-3-2",
     question: "Enclosure in England involved",
     options: [
-      "granting each village family a guaranteed plot of common land",
-      "converting common and open fields into consolidated private holdings",
       "prohibiting landowners from adopting any new farming techniques",
-      "the transfer of noble estates to the crown for direct royal management"
+      "the transfer of noble estates to the crown for direct royal management",
+      "granting each village family a guaranteed plot of common land",
+      "converting common and open fields into consolidated private holdings"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Consolidation raised output per acre for landowners while stripping cottagers of grazing, fuel, and gleaning rights. That dispossession later supplied industrial towns with labor."
   },
   {
     id: "3-3-3",
     question: "The introduction of American crops such as the potato affected Europe by",
     options: [
+      "raising yields on poor soils and supporting population growth",
       "reducing the total calories available from a given area of farmland",
       "eliminating the cultivation of wheat and rye across northern Europe",
-      "causing widespread famine wherever the new crops were introduced",
-      "raising yields on poor soils and supporting population growth"
+      "causing widespread famine wherever the new crops were introduced"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Potatoes produced far more calories per acre than grain on marginal land, underwriting population increase especially in Ireland and northern Europe. Dependence on a single crop later proved catastrophic."
   },
   {
     id: "3-3-4",
     question: "The 'putting-out' or cottage industry system is best described as",
     options: [
+      "peasants producing goods solely for their own household consumption",
       "merchants supplying raw materials to rural households by piece",
       "workers gathered into large supervised factories in the growing towns",
-      "guilds setting production quotas for every workshop within a city",
-      "peasants producing goods solely for their own household consumption"
+      "guilds setting production quotas for every workshop within a city"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Rural families spun and wove at home for merchant capitalists, which sidestepped urban guild regulation and used slack agricultural labor. Factory concentration belongs to the next century."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-6",
     question: "Which continuity characterized European economic life throughout this period?",
     options: [
-      "Most people continued to work in agriculture in rural communities",
       "Factory wage labor had become the dominant form of employment",
       "Guilds had disappeared from every European town before 1700",
-      "Long-distance trade had ceased to influence domestic economies"
+      "Long-distance trade had ceased to influence domestic economies",
+      "Most people continued to work in agriculture in rural communities"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Even in advanced regions the great majority still farmed, and agricultural output governed everything else. Guilds persisted in many towns until the Revolutionary era."
   },
   {
     id: "3-3-7",
     question: "The growth of consumer demand in the eighteenth century is shown by",
     options: [
-      "a measurable decline in the variety of goods available to households",
       "rising household purchases of tea, sugar, cotton cloth, and crockery",
       "the replacement of market exchange by barter in most rural regions",
-      "laws prohibiting ordinary people from buying imported commodities"
+      "laws prohibiting ordinary people from buying imported commodities",
+      "a measurable decline in the variety of goods available to households"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Inventories show middling and even laboring households acquiring colonial groceries and manufactured goods once confined to the rich. Sumptuary laws were being abandoned, not extended."
   },
   {
     id: "3-3-8",
     question: "The financial revolution in Britain and the Netherlands centered on",
     options: [
-      "the abolition of interest on loans for religious reasons",
-      "the replacement of coinage with a purely barter-based system",
       "state prohibition of private banking and joint-stock ownership",
-      "national debt, central banks, and markets in state securities"
+      "national debt, central banks, and markets in state securities",
+      "the abolition of interest on loans for religious reasons",
+      "the replacement of coinage with a purely barter-based system"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The Bank of England let the state borrow at low rates against reliable tax revenue, a decisive advantage over France's costlier finances. Securities markets made that debt tradable."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-10",
     question: "A historian linking these economic changes to later industrialization would emphasize",
     options: [
-      "agricultural surplus, available labor, capital, and consumer demand",
       "the widespread adoption of steam power in seventeenth-century farming",
       "the disappearance of rural manufacturing before the eighteenth century",
-      "a decline in European involvement in overseas colonial trade"
+      "a decline in European involvement in overseas colonial trade",
+      "agricultural surplus, available labor, capital, and consumer demand"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "More food from fewer workers, dispossessed families needing wages, accumulated capital, and buyers for cheap goods are the standard preconditions. Rural manufacturing expanded rather than vanished."
   }
 ];

@@ -44,12 +44,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-4",
     question: "A valid comparison of Peter the Great and Louis XIV would note that both",
     options: [
-      "built ceremonial capitals and bound the nobility to royal service",
       "were constrained by representative assemblies controlling revenue",
       "granted religious toleration to minorities within their territories",
-      "reduced the size of their armies to lower the burden on taxpayers"
+      "reduced the size of their armies to lower the burden on taxpayers",
+      "built ceremonial capitals and bound the nobility to royal service"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Versailles and St. Petersburg each drew the nobility into a court world centered on the ruler. Louis revoked toleration and both expanded their militaries substantially."
   },
   {
@@ -92,24 +92,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-8",
     question: "Comparing Hobbes and Locke, both thinkers agreed that",
     options: [
-      "political authority originates in a contract among individuals",
       "subjects retain the right to depose a ruler who governs badly",
       "monarchy derives its authority directly from divine appointment",
-      "sovereignty should be divided among separate branches of government"
+      "sovereignty should be divided among separate branches of government",
+      "political authority originates in a contract among individuals"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Both reasoned from a state of nature to government by consent, which set them apart from divine-right theorists. They divided sharply over whether that contract permits resistance."
   },
   {
     id: "3-8-9",
     question: "Comparing the fiscal systems of Britain and France by the late eighteenth century,",
     options: [
+      "Britain borrowed cheaply because Parliament backed repayment",
       "France borrowed more cheaply because its monarch faced no oversight",
       "neither state carried significant public debt before the year 1789",
-      "both financed spending entirely from customs duties on colonial trade",
-      "Britain borrowed cheaply because Parliament backed repayment"
+      "both financed spending entirely from customs duties on colonial trade"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Parliamentary control of taxation made British debt credible, so Britain outborrowed a larger France at lower rates. French fiscal crisis was a direct cause of the Revolution."
   },
   {

@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-1",
     question: "Enlightened absolutism describes rulers who",
     options: [
-      "surrendered their authority to elected representative assemblies",
-      "rejected Enlightenment thought as a threat to established order",
       "kept absolute power while pursuing rational administrative reform",
-      "abolished serfdom and noble privilege throughout their territories"
+      "abolished serfdom and noble privilege throughout their territories",
+      "surrendered their authority to elected representative assemblies",
+      "rejected Enlightenment thought as a threat to established order"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Frederick, Joseph, and Catherine corresponded with philosophes and reformed law, taxation, and education without loosening their grip on power. Reform served the state as much as the subjects."
   },
   {
     id: "4-6-2",
     question: "Frederick the Great's reforms in Prussia included",
     options: [
+      "the elimination of the Prussian standing army to reduce taxation",
       "legal codification, toleration, and agricultural improvement",
       "the abolition of serfdom on the estates of the Junker nobility",
-      "the transfer of legislative authority to an elected Prussian assembly",
-      "the elimination of the Prussian standing army to reduce taxation"
+      "the transfer of legislative authority to an elected Prussian assembly"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "He called himself the first servant of the state, codified law, and welcomed religious minorities as useful subjects. Serfdom on noble estates survived because he needed Junker support."
   },
   {
     id: "4-6-3",
     question: "Joseph II of Austria is distinguished among enlightened rulers because he",
     options: [
+      "expanded noble privileges throughout the Habsburg territories",
       "refused to make any change to Habsburg law or administration",
       "pursued sweeping reforms including abolishing serfdom and toleration",
-      "transferred control of the Austrian church to the papacy in Rome",
-      "expanded noble privileges throughout the Habsburg territories"
+      "transferred control of the Austrian church to the papacy in Rome"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Joseph abolished serfdom, granted toleration, and subordinated the church to the state, but moved so fast that resistance forced many reforms to be revoked. His reign shows both the ambition and its limits."
   },
   {
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-5",
     question: "Why did enlightened absolutists generally fail to abolish serfdom?",
     options: [
-      "Serfdom had already disappeared from their territories before 1750",
-      "The papacy forbade any interference with existing labor arrangements",
       "They needed noble cooperation for revenue and the army",
-      "Peasants themselves petitioned successfully to retain their obligations"
+      "Peasants themselves petitioned successfully to retain their obligations",
+      "Serfdom had already disappeared from their territories before 1750",
+      "The papacy forbade any interference with existing labor arrangements"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Attacking serfdom meant attacking the nobility whose service the state required, a price most rulers would not pay. Joseph II's partial success and rapid reversal illustrates the constraint."
   },
   {
     id: "4-6-6",
     question: "The partitions of Poland reveal that enlightened rulers",
     options: [
-      "applied Enlightenment principles consistently to foreign as to domestic policy",
-      "refused to acquire territory except through dynastic inheritance",
       "were prevented by international agreement from annexing neighbors",
-      "pursued territorial expansion whatever their reforming rhetoric"
+      "pursued territorial expansion whatever their reforming rhetoric",
+      "applied Enlightenment principles consistently to foreign as to domestic policy",
+      "refused to acquire territory except through dynastic inheritance"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Catherine, Frederick, and Joseph erased a sovereign state among them while professing rational and humane government. The episode is the standard evidence for skepticism about the label."
   },
   {
     id: "4-6-7",
     question: "Enlightened rulers commonly pursued religious toleration primarily because",
     options: [
-      "tolerated minorities were productive, taxable subjects",
-      "Enlightenment writers had persuaded them that all religions were false",
       "the papacy required toleration as a condition of its political support",
-      "their populations had already become uniformly religiously indifferent"
+      "their populations had already become uniformly religiously indifferent",
+      "tolerated minorities were productive, taxable subjects",
+      "Enlightenment writers had persuaded them that all religions were false"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Toleration was justified in terms of utility as often as conscience, since skilled minorities brought trade and taxes. Most rulers remained personally devout."
   },
   {
     id: "4-6-8",
     question: "Legal reform under enlightened rulers typically involved",
     options: [
-      "transferring judicial authority to locally elected village courts",
-      "codifying law, reducing torture, and limiting capital punishment",
       "abolishing written law in favor of judges' individual discretion",
-      "restoring trial by ordeal in place of rational rules of evidence"
+      "restoring trial by ordeal in place of rational rules of evidence",
+      "transferring judicial authority to locally elected village courts",
+      "codifying law, reducing torture, and limiting capital punishment"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Beccaria's arguments influenced codes across central Europe, curbing torture and rationalizing penalties. Codification also strengthened central authority over local custom."
   },
   {
     id: "4-6-9",
     question: "Britain differed from the enlightened absolutist states in that reform there",
     options: [
-      "was imposed from above by a monarch unconstrained by any assembly",
-      "did not occur at all during the whole of the eighteenth century",
       "came through parliamentary politics and public pressure",
-      "was directed by the Church of England rather than by the state"
+      "was directed by the Church of England rather than by the state",
+      "was imposed from above by a monarch unconstrained by any assembly",
+      "did not occur at all during the whole of the eighteenth century"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "British change ran through Parliament, the press, and organized campaigns rather than royal decree. That difference in mechanism shaped how reform was argued and achieved."
   },
   {

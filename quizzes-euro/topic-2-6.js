@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-1",
     question: "The European witch hunts of this era are best explained by",
     options: [
-      "an actual increase in the practice of organized magical ritual",
       "religious anxiety, social tension, and legal procedure permitting torture",
       "a papal decree requiring every diocese to prosecute suspected witches",
-      "a policy of Protestant states alone to remove Catholic women from villages"
+      "a policy of Protestant states alone to remove Catholic women from villages",
+      "an actual increase in the practice of organized magical ritual"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Confessional conflict, economic strain, and inquisitorial procedure allowing torture combined to make accusations plausible and convictions likely. Catholic and Protestant regions alike prosecuted witches."
   },
   {
     id: "2-6-2",
     question: "The great majority of those executed as witches were",
     options: [
-      "wealthy widows who held substantial amounts of landed property",
       "members of the clergy accused by their own parish congregations",
       "older women of low social standing, frequently poor or isolated",
-      "young men accused of practicing alchemy and judicial astrology"
+      "young men accused of practicing alchemy and judicial astrology",
+      "wealthy widows who held substantial amounts of landed property"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Poor, often widowed women at the margins of village life were the most common targets, being vulnerable and easy to blame for misfortune. Men were accused but formed a small minority."
   },
   {
     id: "2-6-3",
     question: "Family structure in sixteenth-century western Europe was marked by",
     options: [
-      "late marriage and nuclear households formed on economic independence",
-      "universal early marriage arranged for children before adolescence",
       "extended households of several generations sharing a single dwelling",
-      "communal child-rearing organized by the village rather than the family"
+      "communal child-rearing organized by the village rather than the family",
+      "late marriage and nuclear households formed on economic independence",
+      "universal early marriage arranged for children before adolescence"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The western European marriage pattern delayed weddings until a couple could support a household, which restrained population growth. Extended multigenerational households were more typical further east."
   },
   {
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-5",
     question: "The price revolution affected ordinary Europeans mainly by",
     options: [
-      "raising real wages faster than the cost of food and of housing",
       "eroding the purchasing power of wages and of fixed customary rents",
       "eliminating the use of money throughout most rural village economies",
-      "reducing population through sustained deflation and unemployment"
+      "reducing population through sustained deflation and unemployment",
+      "raising real wages faster than the cost of food and of housing"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Prices, especially for grain, outran wages across the century, pushing many households toward subsistence crisis. Landholders able to raise rents gained at their tenants' expense."
   },
   {
     id: "2-6-6",
     question: "Rising poverty and vagrancy prompted sixteenth-century governments to",
     options: [
+      "grant vagrants freedom of movement across all European borders",
       "pass poor laws distinguishing the 'deserving' poor from vagrants",
       "guarantee paid employment to every able-bodied subject of the realm",
-      "abolish organized charity in favor of purely voluntary almsgiving",
-      "grant vagrants freedom of movement across all European borders"
+      "abolish organized charity in favor of purely voluntary almsgiving"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "English and continental legislation offered relief to the sick and elderly while punishing able-bodied wanderers as a threat to order. Rising population and prices made poverty a policy problem."
   },
   {

@@ -19,96 +19,96 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-2",
     question: "Voltaire is best known for his campaigns on behalf of",
     options: [
-      "religious toleration and free expression against clerical power",
       "the restoration of full papal authority over European monarchies",
       "the abolition of private property and the redistribution of land",
-      "a return to scholastic philosophy in the European universities"
+      "a return to scholastic philosophy in the European universities",
+      "religious toleration and free expression against clerical power"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The Calas affair made him Europe's most famous critic of judicial and religious persecution. He was a deist who attacked clerical power rather than belief itself."
   },
   {
     id: "4-3-3",
     question: "Rousseau's concept of the general will held that legitimate authority rests on",
     options: [
-      "the hereditary right of a monarch chosen by divine providence",
       "the collective will of the people directed toward the common good",
       "the accumulated judgments of judges interpreting customary law",
-      "the decisions of a propertied elite representing the wider nation"
+      "the decisions of a propertied elite representing the wider nation",
+      "the hereditary right of a monarch chosen by divine providence"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Sovereignty for Rousseau belongs to the people as a body pursuing the common interest rather than private advantage. Critics note the idea can justify coercing dissenters in the general will's name."
   },
   {
     id: "4-3-4",
     question: "Beccaria's On Crimes and Punishments argued that punishment should be",
     options: [
-      "as severe and public as possible to maximize its deterrent effect",
-      "determined individually by judges without reference to written law",
       "administered primarily through torture to secure reliable confessions",
-      "proportionate, certain, and aimed at deterrence not vengeance"
+      "proportionate, certain, and aimed at deterrence not vengeance",
+      "as severe and public as possible to maximize its deterrent effect",
+      "determined individually by judges without reference to written law"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Beccaria attacked torture and capital punishment as both cruel and ineffective, arguing certainty deters better than severity. Several rulers reformed criminal codes in response."
   },
   {
     id: "4-3-5",
     question: "Adam Smith's Wealth of Nations argued that national prosperity comes from",
     options: [
+      "maintaining colonies under strict monopoly trading arrangements",
       "accumulating bullion by restricting imports and subsidizing exports",
       "productive labor, specialization, and exchange in competitive markets",
-      "state direction of all production through chartered monopoly companies",
-      "maintaining colonies under strict monopoly trading arrangements"
+      "state direction of all production through chartered monopoly companies"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Smith located wealth in what a society produces rather than in hoarded specie, so restricting trade destroys value. The argument undercut the entire mercantilist framework."
   },
   {
     id: "4-3-6",
     question: "Diderot's Encyclopédie was significant because it",
     options: [
-      "gathered useful knowledge while criticizing authority",
       "was commissioned and funded directly by the French royal government",
       "confined itself strictly to technical subjects with no social commentary",
-      "was published only in Latin for an audience of university scholars"
+      "was published only in Latin for an audience of university scholars",
+      "gathered useful knowledge while criticizing authority"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Its articles on crafts and science carried implicit and explicit criticism of church and privilege, which is why authorities repeatedly suppressed it. It appeared in French for a broad readership."
   },
   {
     id: "4-3-7",
     question: "Mary Wollstonecraft's Vindication of the Rights of Woman argued that",
     options: [
-      "women should be excluded from public life on natural grounds",
-      "education for women would undermine the stability of the family",
       "women's apparent inferiority came from denied education",
-      "Enlightenment principles of reason applied to men alone"
+      "Enlightenment principles of reason applied to men alone",
+      "women should be excluded from public life on natural grounds",
+      "education for women would undermine the stability of the family"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Wollstonecraft turned Enlightenment logic against its own practitioners: if reason grounds rights, it cannot be reserved for one sex. Her critique exposed how selectively universal principles were applied."
   },
   {
     id: "4-3-8",
     question: "Salons contributed to the Enlightenment by",
     options: [
-      "restricting philosophical discussion to members of the titled nobility",
-      "publishing the official positions approved by the French monarchy",
       "training clergy in the doctrines of the established Catholic church",
-      "creating spaces, often hosted by women, where ideas circulated freely"
+      "creating spaces, often hosted by women, where ideas circulated freely",
+      "restricting philosophical discussion to members of the titled nobility",
+      "publishing the official positions approved by the French monarchy"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Salonnières such as Madame Geoffrin convened writers, nobles, and officials, shaping reputations and spreading arguments. They were a key institution of the public sphere."
   },
   {
     id: "4-3-9",
     question: "The Enlightenment's treatment of slavery and colonialism is best described as",
     options: [
+      "unanimous defense of slavery as consistent with natural law",
       "uniform and immediate condemnation by every Enlightenment writer",
       "growing criticism alongside continued acceptance by many thinkers",
-      "complete silence, since no writer addressed the subject at all",
-      "unanimous defense of slavery as consistent with natural law"
+      "complete silence, since no writer addressed the subject at all"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Natural rights arguments furnished abolitionists with powerful tools, yet several major figures invested in or excused colonial slavery. Haitian revolutionaries pressed that contradiction directly."
   },
   {

@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-1",
     question: "Nineteenth-century nationalism rested on the claim that",
     options: [
-      "loyalty is owed to a ruling dynasty regardless of language",
-      "political borders should follow the results of dynastic marriage",
       "a people sharing language and history deserves its own state",
-      "empires governing many peoples are the most legitimate states"
+      "empires governing many peoples are the most legitimate states",
+      "loyalty is owed to a ruling dynasty regardless of language",
+      "political borders should follow the results of dynastic marriage"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Relocating legitimacy from the dynasty to the cultural nation unified fragmented regions and threatened multiethnic empires. The same principle built Germany and endangered Austria-Hungary."
   },
   {
     id: "7-2-2",
     question: "Romanticism contributed to nationalism by",
     options: [
+      "rejecting the study of history as irrelevant to political life",
       "reviving folk traditions, vernacular language, and the national past",
       "insisting that classical Greece and Rome were the only worthy models",
-      "arguing that cultural differences among peoples were unimportant",
-      "rejecting the study of history as irrelevant to political life"
+      "arguing that cultural differences among peoples were unimportant"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Collecting folk tales, compiling dictionaries, and writing national histories gave emerging nations usable identities. Cultural nationalism preceded and enabled political nationalism."
   },
   {
     id: "7-2-3",
     question: "Nationalism threatened the Austrian Empire because the empire",
     options: [
+      "had no army capable of maintaining internal political order",
       "had already granted independence to all its national minorities",
       "governed Germans, Hungarians, Czechs, Poles, Italians, and others",
-      "contained only a single ethnic and linguistic population",
-      "had no army capable of maintaining internal political order"
+      "contained only a single ethnic and linguistic population"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Every national claim within its borders implied the empire's dismemberment, which is why Metternich and his successors resisted the principle absolutely. The 1867 Ausgleich was an attempt to manage it."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-8",
     question: "Nationalism's relationship to liberalism changed over the century such that",
     options: [
-      "the two movements remained identical in aims from 1815 to 1914",
-      "nationalism grew more exclusive and hostile to liberal values",
       "liberalism absorbed nationalism entirely and the term disappeared",
-      "nationalism was abandoned by every European state after 1870"
+      "nationalism was abandoned by every European state after 1870",
+      "the two movements remained identical in aims from 1815 to 1914",
+      "nationalism grew more exclusive and hostile to liberal values"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Early nationalists were often liberals seeking constitutions, but later integral nationalism stressed ethnic exclusivity and state power. Antisemitic and chauvinist movements grew out of that shift."
   },
   {
     id: "7-2-9",
     question: "Which statement best explains nationalism's political success after 1850?",
     options: [
-      "It was imposed on populations by international treaty obligations",
-      "It appealed only to intellectuals and never reached wider populations",
       "It offered belonging amid industrial and social upheaval",
-      "It required no institutions such as schools, armies, or newspapers"
+      "It required no institutions such as schools, armies, or newspapers",
+      "It was imposed on populations by international treaty obligations",
+      "It appealed only to intellectuals and never reached wider populations"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "As villages emptied and older loyalties weakened, the nation offered a community large enough to matter and concrete enough to feel. Schools, conscription, and the press made that identity real."
   },
   {
     id: "7-2-10",
     question: "A historian assessing nationalism's legacy by 1914 would conclude that it",
     options: [
+      "eliminated ethnic and linguistic diversity across the continent",
       "unified some states while destabilizing multiethnic empires",
       "produced peaceful cooperation among all European nations",
-      "had been rejected by every major European government",
-      "eliminated ethnic and linguistic diversity across the continent"
+      "had been rejected by every major European government"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The same principle that created Germany and Italy pulled at Austria-Hungary and the Ottoman Empire until both broke apart. Sarajevo in 1914 lay at exactly that fault line."
   }
 ];

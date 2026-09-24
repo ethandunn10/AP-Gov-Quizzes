@@ -20,60 +20,60 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-2",
     question: "Which is best classified as a long-term cause of the Reformation?",
     options: [
-      "Tetzel's indulgence campaign in Germany during the year 1517",
       "Luther's appearance before the Diet of Worms in the year 1521",
       "Accumulated anticlericalism, papal taxation, and demands for reform",
-      "The publication of the Ninety-Five Theses at Wittenberg"
+      "The publication of the Ninety-Five Theses at Wittenberg",
+      "Tetzel's indulgence campaign in Germany during the year 1517"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Decades of resentment over fees, absentee clergy, and Roman taxation created the conditions; the 1517 events are triggers within that process. Separating conditions from events is the skill here."
   },
   {
     id: "2-8-3",
     question: "The most significant political effect of the Reformation was that it",
     options: [
+      "unified the German territories under one Protestant imperial crown",
       "eliminated warfare among the states of the European continent",
       "strengthened rulers who gained church lands and control over religion",
-      "transferred sovereignty from monarchs to elected representative bodies",
-      "unified the German territories under one Protestant imperial crown"
+      "transferred sovereignty from monarchs to elected representative bodies"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Princes and kings absorbed monastic wealth and claimed authority over the church in their territories, accelerating state centralization. Germany remained fragmented and war intensified."
   },
   {
     id: "2-8-4",
     question: "Which pair of developments has the strongest causal relationship?",
     options: [
-      "The Council of Trent and the Portuguese arrival at Calicut",
-      "Calvinist church organization and the Dutch revolt against Spain",
       "Mannerist painting and the Peace of Augsburg's territorial terms",
-      "The Index of Prohibited Books and the German Peasants' War"
+      "The Index of Prohibited Books and the German Peasants' War",
+      "The Council of Trent and the Portuguese arrival at Calicut",
+      "Calvinist church organization and the Dutch revolt against Spain"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Calvinism's disciplined congregational structure supplied organization and conviction to Dutch resistance against Philip II. The other pairings link events with no direct causal connection."
   },
   {
     id: "2-8-5",
     question: "A student argues that the Reformation was caused entirely by religious conviction. The best refinement is that",
     options: [
+      "conviction was real but tied to princely ambition and grievance",
       "religious belief played no genuine role in the decisions of any participant",
       "economic motives alone explain the behavior of reformers and of princes",
-      "the Reformation was planned in advance by a coalition of German rulers",
-      "conviction was real but tied to princely ambition and grievance"
+      "the Reformation was planned in advance by a coalition of German rulers"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Luther's theology was sincere, and so was princes' interest in church lands and peasants' hope for relief from dues. Reducing the movement to any single motive misreads the evidence."
   },
   {
     id: "2-8-6",
     question: "The Peace of Augsburg contributed to later conflict because it",
     options: [
+      "required all German princes to adopt Catholic worship by force",
       "recognized Lutheranism but excluded Calvinism from its protections",
       "granted every individual subject the right to choose his own religion",
-      "abolished the office of Holy Roman Emperor across central Europe",
-      "required all German princes to adopt Catholic worship by force"
+      "abolished the office of Holy Roman Emperor across central Europe"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Calvinism spread rapidly after 1555 with no legal standing in the empire, a gap that helped ignite the Thirty Years' War. Individuals gained only the right to emigrate."
   },
   {
@@ -116,12 +116,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-10",
     question: "Which conclusion about 1517 to 1648 is best supported by evidence across the unit?",
     options: [
+      "Confessional divisions were resolved within a single generation",
       "Religious change and state building drove one another",
       "Religious and political developments proceeded entirely independently",
-      "The Reformation left European political structures wholly unchanged",
-      "Confessional divisions were resolved within a single generation"
+      "The Reformation left European political structures wholly unchanged"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Rulers used confession to justify seizing church wealth and consolidating authority, while religious movements depended on princely protection to survive. The two processes are inseparable."
   }
 ];

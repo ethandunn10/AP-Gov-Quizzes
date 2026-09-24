@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-2",
     question: "The doctrine of separate spheres held that",
     options: [
-      "women belonged to the home while men operated in public life",
       "men and women should share wage labor and politics equally",
       "all women should be employed in factory and mine work",
-      "household labor ought to be performed exclusively by men"
+      "household labor ought to be performed exclusively by men",
+      "women belonged to the home while men operated in public life"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "This ideal sentimentalized the private household against a competitive public world and justified excluding women from politics. It described a middle-class aspiration working-class families could not afford."
   },
   {
     id: "6-4-3",
     question: "Working-class women's experience differed from middle-class women's in that they",
     options: [
+      "worked for wages out of necessity while still running households",
       "were generally barred from every form of paid employment",
       "held political office far more frequently than middle-class women",
-      "enjoyed greater legal rights than women of the propertied classes",
-      "worked for wages out of necessity while still running households"
+      "enjoyed greater legal rights than women of the propertied classes"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Mills, mines, domestic service, and sweated trades employed women whose families needed multiple incomes. The gap between the domestic ideal and their lives is central to this topic."
   },
   {
     id: "6-4-4",
     question: "Factory work changed workers' experience of time by",
     options: [
+      "removing seasonal variation from agricultural employment",
       "imposing clock discipline and fixed shifts enforced by fines",
       "allowing workers to set their own hours and their own pace",
-      "reducing the total hours worked per week almost immediately",
-      "removing seasonal variation from agricultural employment"
+      "reducing the total hours worked per week almost immediately"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Where farm and cottage work followed the task and the season, the factory whistle imposed a uniform schedule. Early industrial hours were longer than what they replaced."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-10",
     question: "A historian assessing industrialization's social effects would conclude that it",
     options: [
-      "created new classes and reshaped family, work, and daily life",
       "left the structure of European society essentially unchanged",
       "eliminated inequality between social groups in industrial states",
-      "affected factory owners but had no impact on working households"
+      "affected factory owners but had no impact on working households",
+      "created new classes and reshaped family, work, and daily life"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Proletarians and professionals alike defined themselves by their place in industrial production, and time, gender roles, and schooling all shifted with it. Inequality changed form rather than disappearing."
   }
 ];

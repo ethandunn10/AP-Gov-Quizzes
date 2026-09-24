@@ -31,60 +31,60 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-3",
     question: "The Treaty of Utrecht (1713) preserved the balance of power by",
     options: [
-      "partitioning France among the members of the victorious coalition",
       "restoring all territory to the borders that existed in the year 1648",
       "abolishing the Spanish monarchy and dividing its American colonies",
-      "allowing a Bourbon in Spain while barring union of the two crowns"
+      "allowing a Bourbon in Spain while barring union of the two crowns",
+      "partitioning France among the members of the victorious coalition"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Philip V kept Spain but renounced any claim to France, and Britain gained Gibraltar and trading rights. The settlement is the classic application of balance-of-power reasoning."
   },
   {
     id: "3-6-4",
     question: "Britain's role in the European balance of power was distinctive because Britain",
     options: [
-      "intervened on the continent while relying on naval power and subsidies",
       "maintained the largest standing army anywhere in eighteenth-century Europe",
       "refused to form any alliance with a continental European state",
-      "sought to annex territory in central Europe for direct British rule"
+      "sought to annex territory in central Europe for direct British rule",
+      "intervened on the continent while relying on naval power and subsidies"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Britain funded continental allies and used the navy to strike colonies and trade rather than maintaining a mass army. Its continental holdings were limited to Hanover through the dynastic link."
   },
   {
     id: "3-6-5",
     question: "The rise of Prussia under Frederick the Great illustrates that",
     options: [
-      "territorial gains in Europe required papal recognition to be valid",
       "a comparatively poor state could become a great power through its army",
       "military strength had become irrelevant to a state's diplomatic standing",
-      "Prussia expanded without engaging in warfare against its neighbors"
+      "Prussia expanded without engaging in warfare against its neighbors",
+      "territorial gains in Europe required papal recognition to be valid"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Prussia's disciplined army and efficient administration let a small, resource-poor state seize Silesia and hold it against Austria, Russia, and France. Its rise came through war, not diplomacy alone."
   },
   {
     id: "3-6-6",
     question: "The Diplomatic Revolution of 1756 involved",
     options: [
-      "the Ottoman Empire joining a formal alliance with Habsburg Austria",
       "Russia withdrawing permanently from all European diplomatic affairs",
       "France and Austria abandoning long hostility to ally against Prussia",
-      "the papacy assuming leadership of a coalition against Protestant states"
+      "the papacy assuming leadership of a coalition against Protestant states",
+      "the Ottoman Empire joining a formal alliance with Habsburg Austria"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Centuries of Bourbon-Habsburg rivalry gave way when both saw Prussia as the greater threat, realigning Europe before the Seven Years' War. It shows interest outweighing tradition and confession."
   },
   {
     id: "3-6-7",
     question: "The Seven Years' War is often described as the first global conflict because it",
     options: [
+      "ended with a treaty signed simultaneously on four continents",
       "involved every independent state on the European continent",
       "was fought in Europe, North America, the Caribbean, and India",
-      "was the first war in which gunpowder weapons were used at sea",
-      "ended with a treaty signed simultaneously on four continents"
+      "was the first war in which gunpowder weapons were used at sea"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Fighting ranged across several continents as European rivalries played out wherever the powers held colonies and trade. Britain's gains in India and North America were the decisive outcome."
   },
   {

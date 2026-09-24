@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-1",
     question: "The Council of Trent responded to Protestantism by",
     options: [
+      "transferring doctrinal authority from the papacy to secular rulers",
       "adopting justification by faith alone as official Catholic teaching",
       "reaffirming contested doctrines while correcting clerical abuses",
-      "abolishing the sacraments other than baptism and communion",
-      "transferring doctrinal authority from the papacy to secular rulers"
+      "abolishing the sacraments other than baptism and communion"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Trent restated the seven sacraments, tradition alongside scripture, and salvation by faith and works, while requiring seminaries and resident bishops. It conceded reform of practice but not of doctrine."
   },
   {
@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-4",
     question: "Baroque art served the Catholic Church primarily by",
     options: [
-      "presenting doctrine through restrained geometry and plain surfaces",
       "replacing religious imagery with secular and classical subject matter",
       "moving worshippers emotionally through drama, motion, and grandeur",
-      "illustrating scripture in simple woodcuts distributed to the poor"
+      "illustrating scripture in simple woodcuts distributed to the poor",
+      "presenting doctrine through restrained geometry and plain surfaces"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Swirling figures, dramatic light, and overwhelming scale were meant to stir devotion in ways Protestant austerity could not match. Bernini's work in Rome is the clearest example."
   },
   {
     id: "2-5-5",
     question: "Institutional reforms adopted at Trent included",
     options: [
-      "seminaries for clergy training and a requirement that bishops reside",
-      "the abolition of monastic orders throughout all Catholic territories",
       "permission for parish clergy to marry and to raise their own families",
-      "the election of bishops by the lay members of each individual diocese"
+      "the election of bishops by the lay members of each individual diocese",
+      "seminaries for clergy training and a requirement that bishops reside",
+      "the abolition of monastic orders throughout all Catholic territories"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Trent attacked pluralism and absenteeism by requiring bishops to live in their dioceses and mandating seminary education. Clerical celibacy was reaffirmed rather than relaxed."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-9",
     question: "Female religious orders such as the Ursulines were",
     options: [
-      "permitted to ordain their own members as priests for the first time",
       "abolished by the Council of Trent as a likely source of doctrinal error",
       "granted authority to preach publicly in the parish churches",
-      "founded for teaching but pushed toward enclosure by church authorities"
+      "founded for teaching but pushed toward enclosure by church authorities",
+      "permitted to ordain their own members as priests for the first time"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Angela Merici's Ursulines began as an active teaching community, but Trent's insistence on cloister limited such public work. Ordination and preaching remained closed to women."
   },
   {
     id: "2-5-10",
     question: "Historians debating 'Counter-Reformation' versus 'Catholic Reformation' would note that",
     options: [
+      "neither term applies, since the Catholic Church made no changes at all",
       "the two terms are identical, since both describe reaction to Luther",
       "reform efforts began only after the Council of Trent had concluded",
-      "Catholic reform predated Luther, so it was not purely reactive",
-      "neither term applies, since the Catholic Church made no changes at all"
+      "Catholic reform predated Luther, so it was not purely reactive"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Spanish reform under Cisneros and Italian devotional movements were underway before 1517, so the church was not merely responding to Protestantism. The debate concerns how much was reaction and how much renewal."
   }
 ];

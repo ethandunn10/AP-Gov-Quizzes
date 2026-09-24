@@ -7,84 +7,84 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-1",
     question: "Christian humanism in northern Europe differed from Italian humanism chiefly in its",
     options: [
-      "rejection of classical languages as unsuitable for serious scholarship",
       "focus on applying classical scholarship to scripture and reform",
       "insistence that laypeople be forbidden to read the Bible in any form",
-      "complete indifference to questions of moral conduct and social reform"
+      "complete indifference to questions of moral conduct and social reform",
+      "rejection of classical languages as unsuitable for serious scholarship"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Northern humanists turned philological tools on the Bible and the church fathers, aiming at a purified Christianity. They championed Greek and Hebrew study and wanted scripture in the hands of ordinary readers."
   },
   {
     id: "1-3-2",
     question: "Erasmus's scholarship contributed to later religious upheaval mainly because he",
     options: [
-      "publicly endorsed Luther's break with Rome and joined the Lutheran church",
       "argued that the sacraments should be abolished throughout Christendom",
       "produced a Greek New Testament that exposed errors in the Latin Vulgate",
-      "denied that the Bible held any authority in matters of Christian doctrine"
+      "denied that the Bible held any authority in matters of Christian doctrine",
+      "publicly endorsed Luther's break with Rome and joined the Lutheran church"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "His 1516 Greek edition showed that the standard Latin text mistranslated key passages, undermining doctrines built on them. Erasmus criticized abuses but remained Catholic and eventually broke with Luther over free will."
   },
   {
     id: "1-3-3",
     question: "Thomas More's Utopia is best read as",
     options: [
-      "a practical constitution that More intended England to adopt immediately",
       "a defense of existing English property law and social hierarchy",
       "a military treatise on the conduct of war among Christian princes",
-      "a critical commentary on European society framed as an imaginary island"
+      "a critical commentary on European society framed as an imaginary island",
+      "a practical constitution that More intended England to adopt immediately"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "By describing a society without private property or religious persecution, More threw contemporary England's enclosures and cruelty into relief. The work is satirical and exploratory, not a legislative program."
   },
   {
     id: "1-3-4",
     question: "Northern Renaissance painting is distinguished from Italian work by its",
     options: [
-      "meticulous detail, with oil paint used to render surfaces",
       "complete rejection of religious subject matter in favor of portraiture",
       "reliance on fresco technique applied to large public church walls",
-      "avoidance of any attempt to depict everyday domestic objects"
+      "avoidance of any attempt to depict everyday domestic objects",
+      "meticulous detail, with oil paint used to render surfaces"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Artists such as Jan van Eyck exploited oil's slow drying to build luminous detail in fabric, metal, and glass. Fresco suited Italy's dry walls, while northern painters favored panel and loved domestic detail."
   },
   {
     id: "1-3-5",
     question: "The printing press affected northern Europe especially strongly because it",
     options: [
-      "was invented in Italy and only later exported to the northern kingdoms",
       "spread vernacular Bibles and reform pamphlets to wide readership",
       "was controlled by a single guild that limited output to Latin works",
-      "made handwritten manuscripts more valuable and therefore more common"
+      "made handwritten manuscripts more valuable and therefore more common",
+      "was invented in Italy and only later exported to the northern kingdoms"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Cheap printed tracts and vernacular scripture carried reformist argument past the clergy to ordinary readers, which is why the Reformation spread so fast. Gutenberg worked at Mainz, in Germany."
   },
   {
     id: "1-3-6",
     question: "Which statement best describes northern humanists' view of the church before 1517?",
     options: [
-      "They regarded the institution as beyond criticism in every respect",
       "They demanded the immediate abolition of the papacy and monasticism",
       "They criticized clerical abuses while seeking reform from within",
-      "They argued that religion should be removed entirely from public life"
+      "They argued that religion should be removed entirely from public life",
+      "They regarded the institution as beyond criticism in every respect"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Erasmus mocked ignorant monks and worldly prelates in The Praise of Folly but sought renewal, not schism. The demand to break with Rome came with Luther, and no humanist proposed a secular state."
   },
   {
     id: "1-3-7",
     question: "Dürer's engravings are significant partly because printmaking allowed him to",
     options: [
-      "produce images that could be reproduced and sold across Europe",
-      "work exclusively for a single royal patron on unique commissions",
       "avoid any influence from the Italian artistic developments of his day",
-      "paint directly onto wet plaster in the Italian fresco tradition"
+      "paint directly onto wet plaster in the Italian fresco tradition",
+      "produce images that could be reproduced and sold across Europe",
+      "work exclusively for a single royal patron on unique commissions"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Prints gave an artist a market beyond individual patrons and spread his reputation and style widely. Dürer travelled to Italy and absorbed its theories of proportion and perspective."
   },
   {

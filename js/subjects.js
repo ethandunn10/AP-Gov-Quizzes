@@ -11,6 +11,16 @@
 //           quizzes-ush/units.js  -> window.USH_UNITS
 //   AP Psych quizzes-psych/index.js -> window.PSYCH_QUIZ_LIST
 //           quizzes-psych/units.js  -> window.PSYCH_UNITS
+//   AP Chem quizzes-chem/index.js   -> window.CHEM_QUIZ_LIST
+//           quizzes-chem/units.js   -> window.CHEM_UNITS
+//   AP World quizzes-world/index.js -> window.WORLD_QUIZ_LIST
+//            quizzes-world/units.js -> window.WORLD_UNITS
+//   AP Euro  quizzes-euro/index.js  -> window.EURO_QUIZ_LIST
+//            quizzes-euro/units.js  -> window.EURO_UNITS
+//   AP HuG   quizzes-hug/index.js   -> window.HUG_QUIZ_LIST
+//            quizzes-hug/units.js   -> window.HUG_UNITS
+//   APES     quizzes-apes/index.js  -> window.APES_QUIZ_LIST
+//            quizzes-apes/units.js  -> window.APES_UNITS
 //
 // This file joins them into one subject-keyed object (window.SUBJECTS)
 // and exposes lookups that take a bare lesson/unit id and work out which
@@ -60,6 +70,46 @@
       dir: "quizzes-psych",
       lessonsGlobal: "PSYCH_QUIZ_LIST",
       unitsGlobal: "PSYCH_UNITS",
+    },
+    {
+      id: "ap-chem",
+      name: "AP Chemistry",
+      tagline: "AP Chem Practice Quizzes",
+      dir: "quizzes-chem",
+      lessonsGlobal: "CHEM_QUIZ_LIST",
+      unitsGlobal: "CHEM_UNITS",
+    },
+    {
+      id: "ap-world",
+      name: "AP World History",
+      tagline: "AP World Practice Quizzes",
+      dir: "quizzes-world",
+      lessonsGlobal: "WORLD_QUIZ_LIST",
+      unitsGlobal: "WORLD_UNITS",
+    },
+    {
+      id: "ap-euro",
+      name: "AP European History",
+      tagline: "AP Euro Practice Quizzes",
+      dir: "quizzes-euro",
+      lessonsGlobal: "EURO_QUIZ_LIST",
+      unitsGlobal: "EURO_UNITS",
+    },
+    {
+      id: "ap-hug",
+      name: "AP Human Geography",
+      tagline: "AP Human Geo Practice Quizzes",
+      dir: "quizzes-hug",
+      lessonsGlobal: "HUG_QUIZ_LIST",
+      unitsGlobal: "HUG_UNITS",
+    },
+    {
+      id: "ap-apes",
+      name: "AP Environmental Science",
+      tagline: "APES Practice Quizzes",
+      dir: "quizzes-apes",
+      lessonsGlobal: "APES_QUIZ_LIST",
+      unitsGlobal: "APES_UNITS",
     },
   ];
 

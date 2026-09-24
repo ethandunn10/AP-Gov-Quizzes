@@ -42,6 +42,38 @@
       "M13 12l2.5-1",
     ],
 
+    // Round-bottom flask: neck, shoulders, body, liquid line.
+    "ap-chem": [
+      "M10 3h4",
+      "M10.5 3v6.5L6.6 16a4.5 4.5 0 0 0 3.9 6.5h3a4.5 4.5 0 0 0 3.9-6.5L13.5 9.5V3",
+      "M8.2 15h7.6",
+    ],
+
+    // Globe: sphere, equator, one meridian.
+    "ap-world": [
+      "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z",
+      "M3 12h18",
+      "M12 3a13 13 0 0 1 0 18 13 13 0 0 1 0-18z",
+    ],
+
+    // Castle keep: crenellated wall, two towers, gate.
+    "ap-euro": [
+      "M4 21V9l2-2 2 2v2h8V9l2-2 2 2v12z",
+      "M4 13h16",
+      "M10 21v-5a2 2 0 0 1 4 0v5",
+    ],
+    // Map fold with a location pin.
+    "ap-hug": [
+      "M3 6.5 9 4l6 2.5L21 4v13.5L15 20l-6-2.5L3 20z",
+      "M9 4v13.5M15 6.5V20",
+    ],
+    // Recycling-style leaf over a water drop: leaf, stem, drop.
+    "ap-apes": [
+      "M12 3c3.5 3 5.5 5.5 5.5 8.5a5.5 5.5 0 0 1-11 0C6.5 8.5 8.5 6 12 3z",
+      "M12 21v-6",
+      "M9.5 12.5 12 15l2.5-2.5",
+    ],
+
     // --- UI -------------------------------------------------------------
     // Clock, for the history page and attempt timestamps.
     clock: ["M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z", "M12 7v5l3.5 2"],

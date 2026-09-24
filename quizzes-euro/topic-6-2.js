@@ -21,7 +21,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "unified the German states into a single political nation",
       "established a common currency across all of central Europe",
-      "created a customs union removing internal tariffs among German states",
+      "created a customs union removing internal German tariffs",
       "granted Prussia a monopoly on coal mining in the Ruhr valley"
     ],
     correctIndex: 2,
@@ -43,7 +43,7 @@ window.QUIZ_QUESTIONS = [
     id: "6-2-4",
     question: "Belgium industrialized early on the continent chiefly because it",
     options: [
-      "possessed coal and iron alongside skilled labor and state support",
+      "possessed coal and iron plus skilled labor and state support",
       "was the largest and most populous state in western Europe",
       "avoided any contact with British industrial technology",
       "prohibited private ownership of mines and manufacturing"

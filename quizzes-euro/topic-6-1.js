@@ -7,7 +7,7 @@ window.QUIZ_QUESTIONS = [
     id: "6-1-1",
     question: "Industrialization is best defined as the shift to",
     options: [
-      "economies powered by fossil fuel and organized around machine production",
+      "economies powered by fossil fuel and machine production",
       "agricultural systems using crop rotation and selective animal breeding",
       "commercial economies based on long-distance maritime trading",
       "political systems in which elected assemblies control taxation"
@@ -20,7 +20,7 @@ window.QUIZ_QUESTIONS = [
     question: "Industrialization began in Britain rather than elsewhere because Britain had",
     options: [
       "the largest population and the most fertile farmland in Europe",
-      "accessible coal and iron, farm surplus, capital, and secure property law",
+      "accessible coal and iron, farm surplus, capital, and law",
       "state ownership of all mines and manufacturing from the outset",
       "no involvement in overseas colonial trade to distract investment"
     ],
@@ -33,7 +33,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "the disappearance of social class as a way of organizing society",
       "a decline in Europe's total population over the nineteenth century",
-      "the emergence of an industrial working class and a business middle class",
+      "the rise of an industrial working and business middle class",
       "the return of most Europeans from towns to rural agricultural work"
     ],
     correctIndex: 2,
@@ -55,7 +55,7 @@ window.QUIZ_QUESTIONS = [
     id: "6-1-5",
     question: "Political responses to industrialization in this period included",
     options: [
-      "factory legislation, expanded suffrage, and eventually social insurance",
+      "factory laws, wider suffrage, and later social insurance",
       "the complete withdrawal of governments from all economic regulation",
       "agreement among states to halt industrial production entirely",
       "the transfer of all industry to church and charitable ownership"
@@ -91,7 +91,7 @@ window.QUIZ_QUESTIONS = [
     id: "6-1-8",
     question: "Which continuity persisted through nineteenth-century industrialization?",
     options: [
-      "Landed elites retained disproportionate political and social influence",
+      "Landed elites kept disproportionate political influence",
       "Most Europeans had become factory workers by the year 1850",
       "European states had abandoned overseas colonial expansion",
       "Legal equality for women had been achieved across the continent"
@@ -118,7 +118,7 @@ window.QUIZ_QUESTIONS = [
       "left European political and social structures essentially unchanged",
       "affected only Britain and had no consequences for the continent",
       "improved living standards immediately and equally for all workers",
-      "transformed work, class, politics, and Europe's position in the world"
+      "transformed work, class, politics, and Europe's world position"
     ],
     correctIndex: 3,
     explanation: "Industrial capacity remade daily life, created new political constituencies, and gave European states decisive advantages abroad. Early living standards are debated, but the transformation itself is not."

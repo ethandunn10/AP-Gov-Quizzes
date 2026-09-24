@@ -9,7 +9,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "inherited land, noble title, and hereditary legal privilege",
       "membership in agricultural laboring households in the countryside",
-      "income from business and the professions, plus values of respectability",
+      "income from business and the professions, plus respectability",
       "employment as wage laborers in textile mills and coal mines"
     ],
     correctIndex: 2,
@@ -70,7 +70,7 @@ window.QUIZ_QUESTIONS = [
       "religious authorities opposed all forms of organized schooling",
       "employers wished to reduce the available supply of labor",
       "schooling had no relationship to economic or political needs",
-      "industry and the state needed literate, numerate, punctual populations"
+      "industry and the state needed literate, punctual populations"
     ],
     correctIndex: 3,
     explanation: "Factories, offices, railways, and conscript armies all required basic literacy and habits of regularity, and states wanted citizens who could read national newspapers. Schooling served economic and nation-building purposes together."
@@ -92,7 +92,7 @@ window.QUIZ_QUESTIONS = [
     question: "Urban public health reform in the nineteenth century was driven by",
     options: [
       "a decline in urban populations that freed municipal resources",
-      "epidemic disease, statistical investigation, and reform campaigning",
+      "epidemic disease, statistics, and reform campaigning",
       "the discovery that sanitation had no effect on rates of disease",
       "the withdrawal of governments from all municipal responsibility"
     ],

@@ -8,7 +8,7 @@ window.QUIZ_QUESTIONS = [
     question: "The second industrial revolution after 1870 was characterized by",
     options: [
       "a return to water power and small rural workshop production",
-      "steel, chemicals, electricity, and internal combustion built on research",
+      "steel, chemicals, and electricity built on formal research",
       "the abandonment of factory organization in favor of cottage industry",
       "the end of technological innovation in European manufacturing"
     ],
@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-2",
     question: "The Bessemer process mattered because it",
     options: [
-      "allowed cheap mass production of steel for rails, ships, and structures",
+      "allowed cheap mass production of structural steel",
       "produced the first iron tools ever manufactured in human history",
       "eliminated the need for coal in the smelting of metal ores",
       "was applied exclusively to the production of textile machinery"
@@ -44,7 +44,7 @@ window.QUIZ_QUESTIONS = [
     question: "Germany's leadership in the chemical industry rested on",
     options: [
       "its exclusive access to the world's supply of raw materials",
-      "the close connection between universities, research, and manufacturing",
+      "close ties between universities, research, and industry",
       "state ownership of every chemical firm operating in the country",
       "the prohibition of foreign competition through complete trade bans"
     ],
@@ -103,7 +103,7 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-9",
     question: "Second-wave industrialization shifted Europe's economic balance by",
     options: [
-      "allowing Germany and the United States to challenge British dominance",
+      "letting Germany and the United States challenge Britain",
       "confirming Britain's lead in every industrial sector until 1914",
       "eliminating industrial competition among the European powers",
       "returning economic leadership to the agrarian states of the east"
@@ -117,7 +117,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "declining industrial demand for raw materials after the year 1870",
       "European states' withdrawal from overseas territorial competition",
-      "industrial demand for materials and markets alongside new military technology",
+      "industrial demand for materials plus new military technology",
       "the absence of any technological gap between Europe and other regions"
     ],
     correctIndex: 2,

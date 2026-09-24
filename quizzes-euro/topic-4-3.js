@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-2",
     question: "Voltaire is best known for his campaigns on behalf of",
     options: [
-      "religious toleration and freedom of expression against clerical power",
+      "religious toleration and free expression against clerical power",
       "the restoration of full papal authority over European monarchies",
       "the abolition of private property and the redistribution of land",
       "a return to scholastic philosophy in the European universities"
@@ -46,7 +46,7 @@ window.QUIZ_QUESTIONS = [
       "as severe and public as possible to maximize its deterrent effect",
       "determined individually by judges without reference to written law",
       "administered primarily through torture to secure reliable confessions",
-      "proportionate, certain, and aimed at deterrence rather than vengeance"
+      "proportionate, certain, and aimed at deterrence not vengeance"
     ],
     correctIndex: 3,
     explanation: "Beccaria attacked torture and capital punishment as both cruel and ineffective, arguing certainty deters better than severity. Several rulers reformed criminal codes in response."
@@ -67,7 +67,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-6",
     question: "Diderot's Encyclopédie was significant because it",
     options: [
-      "gathered and spread useful knowledge while criticizing established authority",
+      "gathered useful knowledge while criticizing authority",
       "was commissioned and funded directly by the French royal government",
       "confined itself strictly to technical subjects with no social commentary",
       "was published only in Latin for an audience of university scholars"
@@ -81,7 +81,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "women should be excluded from public life on natural grounds",
       "education for women would undermine the stability of the family",
-      "women's apparent inferiority stemmed from the education denied them",
+      "women's apparent inferiority came from denied education",
       "Enlightenment principles of reason applied to men alone"
     ],
     correctIndex: 2,
@@ -118,7 +118,7 @@ window.QUIZ_QUESTIONS = [
       "its failure to produce any writing on politics or on religion",
       "its confinement to a single country with no influence elsewhere",
       "the absence of any printed circulation of its major works",
-      "universal rights proclaimed while excluding women, the poor, and the enslaved"
+      "universal rights proclaimed while excluding most people"
     ],
     correctIndex: 3,
     explanation: "Declarations of universal reason coexisted with property qualifications, continued slaveholding, and the exclusion of women. That gap between principle and application is the standard critique."

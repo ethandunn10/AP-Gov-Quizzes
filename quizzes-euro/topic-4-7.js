@@ -59,7 +59,7 @@ window.QUIZ_QUESTIONS = [
       "Enlightenment writing had no measurable influence on revolutionary events",
       "the Revolution occurred before Enlightenment ideas had been published",
       "philosophes personally organized and directed the events of 1789",
-      "it supplied vocabulary and critique, while fiscal crisis supplied the occasion"
+      "it gave vocabulary and critique; fiscal crisis gave the occasion"
     ],
     correctIndex: 3,
     explanation: "Ideas do not produce revolutions on their own; bankruptcy, harvest failure, and the calling of the Estates General did the pushing. Natural-rights language then shaped what participants demanded."
@@ -81,7 +81,7 @@ window.QUIZ_QUESTIONS = [
     question: "Which factor best explains why enlightened absolutists reformed but did not democratize?",
     options: [
       "Enlightenment writers had unanimously recommended democratic government",
-      "Their authority depended on the noble and institutional order they relied on",
+      "Their authority rested on the noble order they relied upon",
       "Their populations petitioned against any expansion of political rights",
       "International treaties prohibited any change to their constitutions"
     ],

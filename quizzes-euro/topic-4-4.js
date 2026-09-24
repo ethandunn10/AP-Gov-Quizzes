@@ -46,7 +46,7 @@ window.QUIZ_QUESTIONS = [
       "the absence of any charitable institutions in eighteenth-century cities",
       "government policies requiring poor families to surrender their children",
       "a decline in the total number of births across urban Europe",
-      "the severe economic pressure on poor families, especially unmarried mothers"
+      "severe economic pressure on poor and unmarried mothers"
     ],
     correctIndex: 3,
     explanation: "Abandonment was a response to poverty and the stigma of illegitimacy, and mortality inside these institutions was appalling. Their expansion shows charity responding to, not causing, the problem."
@@ -116,7 +116,7 @@ window.QUIZ_QUESTIONS = [
     question: "A historian assessing eighteenth-century social change would conclude that",
     options: [
       "society became fully egalitarian before the French Revolution began",
-      "material life improved for many while legal hierarchy remained intact",
+      "material life improved while legal hierarchy remained",
       "no measurable change occurred in diet, population, or consumption",
       "the nobility lost its privileges across Europe during the century"
     ],

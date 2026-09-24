@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-2",
     question: "The Enlightenment extended the Scientific Revolution by",
     options: [
-      "applying reason and observation to society, religion, and government",
+      "applying reason and observation to society and government",
       "rejecting the scientific findings of the preceding century entirely",
       "restricting inquiry to astronomy and the study of physical motion",
       "returning intellectual authority to scholastic theologians"
@@ -46,7 +46,7 @@ window.QUIZ_QUESTIONS = [
       "uniformly hostile, with all scientists rejecting Christian belief",
       "irrelevant, since the churches took no interest in natural philosophy",
       "settled quickly in science's favor with no institutional conflict",
-      "complex, with most natural philosophers remaining religious believers"
+      "complex, since most natural philosophers stayed believers"
     ],
     correctIndex: 3,
     explanation: "Newton and Boyle understood their work as uncovering divine order, even as Galileo's condemnation showed real institutional friction. Treating it as a simple war misreads the evidence."
@@ -93,7 +93,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "endorsement of divine-right monarchy as the most rational system",
       "insistence that political questions could not be discussed publicly",
-      "argument that government rests on consent and exists to serve subjects",
+      "argument that government rests on consent to serve subjects",
       "claim that hereditary privilege was the only basis for holding office"
     ],
     correctIndex: 2,
@@ -115,7 +115,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-10",
     question: "A historian assessing this period would most defensibly argue that its central legacy was",
     options: [
-      "a conviction that reason could be applied to nature and to society alike",
+      "a conviction that reason applied to nature and to society",
       "the immediate establishment of democratic government across Europe",
       "the elimination of religious belief from European intellectual life",
       "the rejection of experiment in favor of purely deductive reasoning"

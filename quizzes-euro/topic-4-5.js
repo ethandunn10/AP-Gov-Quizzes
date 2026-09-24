@@ -8,7 +8,7 @@ window.QUIZ_QUESTIONS = [
     question: "Rococo style is best characterized by",
     options: [
       "massive scale and severe geometry suited to public monuments",
-      "light, ornate decoration and playful themes for aristocratic interiors",
+      "light, ornate decoration and playful aristocratic themes",
       "stark realism depicting the daily labor of the rural poor",
       "religious subjects rendered with dramatic darkness and grandeur"
     ],
@@ -21,7 +21,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "rejected classical models in favor of purely medieval sources",
       "abandoned painting and sculpture for decorative interior design",
-      "revived classical restraint and civic themes, often with moral purpose",
+      "revived classical restraint and civic moral themes",
       "celebrated aristocratic leisure through soft color and ornament"
     ],
     correctIndex: 2,
@@ -55,7 +55,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-5",
     question: "Coffeehouses were culturally significant in this period because they",
     options: [
-      "served as venues where men of varied ranks read news and debated",
+      "served as venues where men of varied ranks read and argued",
       "were restricted by law to members of the titled nobility",
       "replaced churches as the principal site of religious worship",
       "functioned as workshops where printed books were manufactured"
@@ -81,7 +81,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "was transmitted mainly through print in classical languages",
       "had disappeared entirely by the middle of the century",
-      "rested on festivals, oral tradition, and communal religious practice",
+      "rested on festivals, oral tradition, and communal religion",
       "was actively promoted by Enlightenment writers as a model"
     ],
     correctIndex: 2,

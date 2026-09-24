@@ -33,7 +33,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "confirmed that the heavens were perfect and unchanging as taught",
       "showed that the earth stood motionless at the center of the cosmos",
-      "produced evidence undermining the Aristotelian picture of the heavens",
+      "produced evidence undermining the Aristotelian heavens",
       "demonstrated that mathematics could not describe physical motion"
     ],
     correctIndex: 2,
@@ -104,7 +104,7 @@ window.QUIZ_QUESTIONS = [
     question: "The Scientific Revolution's effect on religious belief is best described as",
     options: [
       "producing widespread atheism among educated Europeans by 1700",
-      "encouraging views such as deism while most practitioners stayed Christian",
+      "encouraging deism while most practitioners stayed Christian",
       "leaving religious thought entirely unaffected in every respect",
       "causing all churches to reject the new natural philosophy outright"
     ],
@@ -115,7 +115,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-10",
     question: "A historian arguing the Scientific Revolution was genuinely revolutionary would emphasize",
     options: [
-      "the replacement of ancient authority by observation and mathematics",
+      "the replacement of ancient authority by observation",
       "the continued dominance of Aristotle in the European universities",
       "the lack of any practical technological change during the period",
       "the small number of people directly engaged in scientific inquiry"

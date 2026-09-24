@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-2",
     question: "Frederick the Great's reforms in Prussia included",
     options: [
-      "legal codification, religious toleration, and agricultural improvement",
+      "legal codification, toleration, and agricultural improvement",
       "the abolition of serfdom on the estates of the Junker nobility",
       "the transfer of legislative authority to an elected Prussian assembly",
       "the elimination of the Prussian standing army to reduce taxation"
@@ -46,7 +46,7 @@ window.QUIZ_QUESTIONS = [
       "consistent implementation of every reform she publicly proposed",
       "complete rejection of Enlightenment ideas throughout her reign",
       "the abolition of serfdom immediately following Pugachev's rebellion",
-      "enlightened rhetoric paired with strengthened noble power over serfs"
+      "enlightened rhetoric paired with stronger noble power"
     ],
     correctIndex: 3,
     explanation: "Catherine corresponded with Voltaire and convened a legislative commission, yet extended serfdom and confirmed noble privileges after Pugachev's revolt. Her reliance on the nobility limited what she would risk."
@@ -57,7 +57,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "Serfdom had already disappeared from their territories before 1750",
       "The papacy forbade any interference with existing labor arrangements",
-      "They depended on noble cooperation for revenue, army, and administration",
+      "They needed noble cooperation for revenue and the army",
       "Peasants themselves petitioned successfully to retain their obligations"
     ],
     correctIndex: 2,
@@ -79,7 +79,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-7",
     question: "Enlightened rulers commonly pursued religious toleration primarily because",
     options: [
-      "tolerated minorities were productive subjects who strengthened the state",
+      "tolerated minorities were productive, taxable subjects",
       "Enlightenment writers had persuaded them that all religions were false",
       "the papacy required toleration as a condition of its political support",
       "their populations had already become uniformly religiously indifferent"

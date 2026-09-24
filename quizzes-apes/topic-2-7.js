@@ -67,10 +67,10 @@ window.QUIZ_QUESTIONS = [
     id: "2-7-6",
     question: "A climax community is best described as",
     options: [
-      "a community containing only a single dominant species",
-      "the stage with the lowest possible species richness",
-      "the first community to colonize a bare surface",
-      "a relatively stable community persisting under current conditions"
+      "a community holding only one dominant species",
+      "the stage with the lowest species richness",
+      "the first community to colonize bare rock",
+      "a relatively stable community under current conditions"
     ],
     correctIndex: 3,
     explanation: "Modern ecologists treat climax as a dynamic state subject to disturbance rather than a fixed endpoint. Which community develops depends on climate, soil, and disturbance history."

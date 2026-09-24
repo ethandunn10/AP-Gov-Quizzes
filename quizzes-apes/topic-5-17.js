@@ -115,9 +115,9 @@ window.QUIZ_QUESTIONS = [
     id: "5-17-10",
     question: "Ecosystem based forest management differs from timber focused management by",
     options: [
-      "maximizing board feet harvested from each stand",
-      "considering wildlife, water, and recreation alongside timber",
-      "excluding all human use from managed forests",
+      "maximizing the board feet harvested from each stand",
+      "weighing wildlife, water, and recreation with timber",
+      "excluding all human use from every managed forest",
       "measuring success only by annual harvest volume"
     ],
     correctIndex: 1,

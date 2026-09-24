@@ -1,4 +1,4 @@
-# Claude Code Prompt — Generate the remaining Knotee subjects
+# Claude Code Prompt — Generate the remaining Quizzr subjects
 
 Run `claude` in this repo and paste everything below the line.
 

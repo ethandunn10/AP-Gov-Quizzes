@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Knotee — stylesheet
+   Quizzr — stylesheet
    Warm editorial theme: cream page, ink-navy type, amber accent.
    Headings are Space Grotesk (geometric sans); body/UI is Inter.
    Flat solid colors only -- no gradients, no glow shadows anywhere.
@@ -290,99 +290,25 @@ main {
   color: var(--color-muted);
 }
 
-/* ---- Knotee the owl (homepage sidebar) --------------------------------
-   Speech bubble above, owl below, tail pointing down at him. The owl is
-   inline SVG in index.html; his wings are separate paths, animated below. */
-.mascot {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 1.25rem;
-}
-
-.mascot-bubble {
-  position: relative;
-  width: 100%;
+/* ---- Study tip card (homepage sidebar) --------------------------------
+   js/homepage.js fills it with the 90% advice, or the student's lowest
+   score so far with a link back to that quiz. */
+.study-tip {
   background: var(--color-surface);
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius);
   padding: 0.85rem 0.95rem;
+  margin-bottom: 1.25rem;
   color: var(--color-text);
   font-size: 0.85rem;
   line-height: 1.5;
 }
 
-.mascot-bubble a {
+.study-tip a {
   color: var(--color-text);
   font-weight: 600;
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 2px;
-}
-
-/* Tail: two stacked triangles, the back one a pixel lower so the bubble's
-   1px border carries around the point. */
-.mascot-bubble::before,
-.mascot-bubble::after {
-  content: "";
-  position: absolute;
-  left: 2rem;
-  width: 0;
-  height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-}
-
-.mascot-bubble::before {
-  top: 100%;
-  border-top: 10px solid var(--color-border-strong);
-}
-
-.mascot-bubble::after {
-  top: calc(100% - 1px);
-  border-top: 10px solid var(--color-surface);
-}
-
-.mascot-owl {
-  display: block;
-  width: 190px;
-  max-width: 85%;
-  height: auto;
-  margin-top: 0.5rem;
-}
-
-/* Knotee waves hello on load: his right wing swings up, then rocks back and
-   forth a few times before settling raised. The left wing stays at his side --
-   one arm waving reads as a greeting, where two read as a cheer. The wing
-   pivots at its own shoulder, so the lift reads as an arm rather than the
-   whole drawing turning. The owl is inlined in index.html because this
-   animation does not run on an SVG referenced through <img>. */
-.mascot-owl .wing {
-  transform-box: view-box;
-}
-
-.mascot-owl .wing-r {
-  transform-origin: 693px 512px;
-  animation: owl-wave 3.2s cubic-bezier(0.34, 1.2, 0.64, 1) 0.3s both;
-}
-
-@keyframes owl-wave {
-  0% { transform: rotate(0deg); }
-  20% { transform: rotate(-122deg); }
-  32% { transform: rotate(-98deg); }
-  44% { transform: rotate(-120deg); }
-  56% { transform: rotate(-98deg); }
-  68% { transform: rotate(-120deg); }
-  80% { transform: rotate(-100deg); }
-  90% { transform: rotate(-116deg); }
-  100% { transform: rotate(-110deg); }
-}
-
-/* Reduced motion: skip the swing, just stand with the wing already raised. */
-@media (prefers-reduced-motion: reduce) {
-  .mascot-owl .wing-r {
-    animation: none;
-    transform: rotate(-110deg);
-  }
 }
 
 .mastery-note {
@@ -723,6 +649,16 @@ main {
   margin-top: 1.5rem;
 }
 
+/* Subject list: same rhythm as the surrounding paragraphs. */
+.about-content ul {
+  margin: 0 0 1em;
+  padding-left: 1.25rem;
+}
+
+.about-content li {
+  margin-bottom: 0.35rem;
+}
+
 .disclaimer {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -759,12 +695,6 @@ main {
     width: 220px;
     flex-shrink: 0;
     margin-top: 0.25rem;
-  }
-
-  /* In the narrow sidebar the owl gets the full column rather than the
-     60% cap that keeps him from dominating a stacked mobile layout. */
-  .mascot-owl {
-    max-width: 100%;
   }
 }
 

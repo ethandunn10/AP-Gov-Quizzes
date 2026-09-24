@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Knotee — AP® Practice Quizzes</title>
+  <title>Quizzr — AP® Practice Quizzes</title>
   <meta
     name="description"
-    content="Knotee: free AP® Government and AP® Biology practice questions, made by a student for students."
+    content="Quizzr: free AP® practice questions across nine AP® subjects, organized by unit and topic, made by a student for students."
   />
 
   <!-- Google Fonts (Space Grotesk for headings, Inter for body/UI). Preconnect hints speed up the font request. -->
@@ -22,7 +22,7 @@
 <body>
   <header class="page-header">
     <div class="header-inner">
-      <a class="site-title" href="index.html">Knotee<span class="site-tagline">AP® Practice Quizzes</span></a>
+      <a class="site-title" href="index.html">Quizzr<span class="site-tagline">AP® Practice Quizzes</span></a>
       <nav>
         <a href="history.html">History</a>
         <a href="insights.html">Insights</a>
@@ -44,95 +44,14 @@
     </div>
 
     <aside class="home-sidebar">
-      <!-- Knotee the owl. js/homepage.js writes the speech bubble: the 90%
-           advice before any quiz has been taken, the student's lowest score
-           once there is one.
+      <!-- Study tip card. js/homepage.js writes the text: the 90% advice
+           before any quiz has been taken, the student's lowest score once
+           there is one. -->
+      <div class="study-tip" id="study-tip"></div>
 
-           The owl is inline rather than an <img> on purpose: his wings are
-           separate paths that css/style.css animates on load, and a browser
-           will not run that animation on an SVG loaded through <img>. -->
-      <div class="mascot">
-        <div class="mascot-bubble" id="mascot-bubble"></div>
-<svg class="mascot-owl" viewBox="0 0 1024 1024" role="img"
-             aria-label="Knotee, a cartoon owl in a graduation cap, waving one wing">
-          <g stroke="#000" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
-
-            <!-- Wings, behind the body so the shoulder joint stays hidden. Both
-                 hang at his sides; css/style.css waves the right one on load. -->
-            <g class="wing wing-l">
-              <path fill="#7f573c" d="M331 512 C279 548, 238 644, 231 732 C226 780, 255 800, 281 772 C317 732, 351 606, 346 540 Z"/>
-            </g>
-            <g class="wing wing-r">
-              <path fill="#7f573c" d="M693 512 C745 548, 786 644, 793 732 C798 780, 769 800, 743 772 C707 732, 673 606, 678 540 Z"/>
-            </g>
-
-            <!-- Body: one blob from ear tufts to feet, so no seam shows at the
-                 neck. The tufts sit wide enough to clear the cap brim. -->
-            <path fill="#7f573c" d="M512 946 C375 946, 257 832, 257 620
-              C257 474, 286 366, 340 312 L332 232 C336 224, 350 224, 357 233 L404 296
-              C436 272, 472 260, 512 260 C552 260, 588 272, 620 296 L667 233
-              C674 224, 688 224, 692 232 L684 312
-              C738 366, 767 474, 767 620 C767 832, 649 946, 512 946 Z"/>
-
-            <!-- Belly patch -->
-            <ellipse fill="#f8e8c7" cx="512" cy="768" rx="132" ry="132"/>
-
-            <!-- Feet -->
-            <g fill="#cd9b6e">
-              <ellipse cx="441" cy="908" rx="17" ry="30"/>
-              <ellipse cx="468" cy="914" rx="17" ry="30"/>
-              <ellipse cx="495" cy="908" rx="17" ry="30"/>
-              <ellipse cx="529" cy="908" rx="17" ry="30"/>
-              <ellipse cx="556" cy="914" rx="17" ry="30"/>
-              <ellipse cx="583" cy="908" rx="17" ry="30"/>
-            </g>
-
-            <!-- Head. Grouped so the whole face scales as one about its own
-                 centre: tune the scale here rather than moving every eye
-                 and blush by hand. -->
-            <g class="owl-head" transform="translate(512 432) scale(0.93) translate(-512 -432)">
-              <!-- Face mask: two lobes meeting in a notch at the brow. -->
-              <path fill="#f8e8c7" d="M512 350 C502 316, 460 292, 419 300
-                C368 310, 340 360, 343 420 C347 486, 392 556, 452 576
-                C476 584, 548 584, 572 576 C632 556, 677 486, 681 420
-                C684 360, 656 310, 605 300 C564 292, 522 316, 512 350 Z"/>
-
-              <!-- Blush, under the eyes and with no outline of its own -->
-              <g stroke="none" fill="#f47a75">
-                <ellipse cx="387" cy="490" rx="33" ry="20"/>
-                <ellipse cx="637" cy="490" rx="33" ry="20"/>
-              </g>
-
-              <!-- Eyes -->
-              <circle fill="#000" stroke="none" cx="440" cy="418" r="50"/>
-              <circle fill="#000" stroke="none" cx="584" cy="418" r="50"/>
-              <g fill="#fff" stroke="none">
-                <circle cx="423" cy="399" r="16"/>
-                <circle cx="459" cy="441" r="7"/>
-                <circle cx="567" cy="399" r="16"/>
-                <circle cx="601" cy="441" r="7"/>
-              </g>
-
-              <!-- Beak and a small open mouth beneath it -->
-              <path fill="#f4a133" stroke-width="10" d="M481 450 C497 440, 527 440, 543 450 C547 470, 530 496, 512 504 C494 496, 477 470, 481 450 Z"/>
-              <path fill="#f38535" stroke-width="8" d="M492 492 C499 514, 525 514, 532 492 C523 504, 501 504, 492 492 Z"/>
-            </g>
-
-            <!-- Mortarboard, grouped for the same reason: crown, then the flat
-                 plate over it, then the tassel off its right corner. -->
-            <g class="owl-cap" transform="translate(512 200) scale(0.9) translate(-512 -200)">
-              <path fill="#2e3c59" d="M392 268 C389 224, 410 198, 445 192 L579 192 C614 198, 635 224, 632 268 Z"/>
-              <path fill="#24344c" d="M512 86 L751 188 L512 268 L273 188 Z"/>
-              <path fill="none" stroke="#efb443" stroke-width="14" d="M658 128 C669 176, 669 224, 667 262"/>
-              <path fill="#efb443" stroke-width="11" d="M667 262 C690 262, 697 286, 692 318 C686 350, 676 362, 663 358 C648 352, 642 318, 644 292 C646 272, 653 262, 667 262 Z"/>
-            </g>
-          </g>
-        </svg>
-      </div>
-
-      <!-- Shown only alongside the lowest-score bubble; when the bubble is
-           already giving the 90% advice this would just repeat it, so
-           js/homepage.js leaves it hidden. -->
+      <!-- Shown only alongside the lowest-score tip; when the tip is already
+           giving the 90% advice this would just repeat it, so js/homepage.js
+           leaves it hidden. -->
       <div class="mastery-note hidden" id="mastery-note">
         We recommend retaking the quiz until you get a 90% to ensure you have mastered the topics.
       </div>
@@ -152,8 +71,8 @@
 
   <!-- Data first, then the scripts that read it. -->
   <!-- Each subject's registry defines its own globals (AP Gov: QUIZ_LIST /
-       UNITS, AP Bio: BIO_QUIZ_LIST / BIO_UNITS) so they never clobber each
-       other. js/subjects.js joins them and must load after both. -->
+       UNITS, AP Bio: BIO_QUIZ_LIST / BIO_UNITS, and so on) so they never
+       clobber each other. js/subjects.js joins them and must load last. -->
   <script src="quizzes/index.js"></script>
   <script src="quizzes/units.js"></script>
   <script src="quizzes-bio/index.js"></script>
@@ -162,6 +81,16 @@
   <script src="quizzes-ush/units.js"></script>
   <script src="quizzes-psych/index.js"></script>
   <script src="quizzes-psych/units.js"></script>
+  <script src="quizzes-chem/index.js"></script>
+  <script src="quizzes-chem/units.js"></script>
+  <script src="quizzes-world/index.js"></script>
+  <script src="quizzes-world/units.js"></script>
+  <script src="quizzes-euro/index.js"></script>
+  <script src="quizzes-euro/units.js"></script>
+  <script src="quizzes-hug/index.js"></script>
+  <script src="quizzes-hug/units.js"></script>
+  <script src="quizzes-apes/index.js"></script>
+  <script src="quizzes-apes/units.js"></script>
   <script src="js/subjects.js"></script>
   <script src="js/attempt-labels.js"></script>
   <script src="js/icons.js"></script>

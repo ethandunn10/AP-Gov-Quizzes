@@ -1,27 +1,43 @@
-# Knotee — AP® Practice Quizzes
+# Quizzr — AP® Practice Quizzes
 
 A free, static website with AP® practice quizzes. Plain HTML/CSS/JavaScript
 -- no build step, no framework, no backend.
 
-Two subjects are live:
+Nine AP® subjects are registered. Six are complete; the last three have
+their full unit/topic outlines in place but are still missing question
+files.
 
-| Subject | Data folder | Registry globals | Units / topics |
-| --- | --- | --- | --- |
-| AP Government | `quizzes/` | `QUIZ_LIST`, `UNITS` | 5 / 60 |
-| AP Biology | `quizzes-bio/` | `BIO_QUIZ_LIST`, `BIO_UNITS` | 8 / 60 |
+| Subject | Data folder | Registry globals | Units / topics | Status |
+| --- | --- | --- | --- | --- |
+| AP Government | `quizzes/` | `QUIZ_LIST`, `UNITS` | 5 / 60 | complete |
+| AP Biology | `quizzes-bio/` | `BIO_QUIZ_LIST`, `BIO_UNITS` | 8 / 60 | complete |
+| AP U.S. History | `quizzes-ush/` | `USH_QUIZ_LIST`, `USH_UNITS` | 9 / 105 | complete |
+| AP Psychology | `quizzes-psych/` | `PSYCH_QUIZ_LIST`, `PSYCH_UNITS` | 5 / 35 | complete |
+| AP Chemistry | `quizzes-chem/` | `CHEM_QUIZ_LIST`, `CHEM_UNITS` | 9 / 91 | complete |
+| AP World History | `quizzes-world/` | `WORLD_QUIZ_LIST`, `WORLD_UNITS` | 9 / 71 | complete |
+| AP European History | `quizzes-euro/` | `EURO_QUIZ_LIST`, `EURO_UNITS` | 9 / 88 | 19 of 88 topic files written |
+| AP Human Geography | `quizzes-hug/` | `HUG_QUIZ_LIST`, `HUG_UNITS` | 7 / 68 | outline only, no topic files yet |
+| AP Environmental Science | `quizzes-apes/` | `APES_QUIZ_LIST`, `APES_UNITS` | 9 / 99 | outline only, no topic files yet |
 
-Each subject keeps its registries under its **own** global names so both
+Every topic file holds 10 questions, so the six complete subjects are about
+4,200 questions. A registry entry whose topic file is missing still renders
+a card, but its quiz fails to load -- see `GENERATE-SUBJECTS.md` for
+generating the remaining files.
+
+Each subject keeps its registries under its **own** global names so they all
 can load on the same page without overwriting each other.
 `js/subjects.js` joins them into `window.SUBJECTS` (and the
 `window.AllAPSubjects` lookups), and that is what `js/homepage.js`,
 `js/unit.js`, `js/quiz.js`, and `js/insights.js` read -- none of
-them reference a single subject's globals directly.
+them reference a single subject's globals directly. A subject whose data
+files did not load is filtered out, so a page that includes only one
+subject's registry still works.
 
-Lesson and unit ids are globally unique: every AP Bio id is `bio-`
-prefixed (`bio-unit-3`, `bio-topic-3-1`). Both subjects have a "Unit 1"
-and a "Topic 1.1", so the prefix is what lets one id identify its own
-subject, and what keeps per-lesson progress in `js/progress.js` from
-mixing the two subjects together.
+Lesson and unit ids are globally unique: every subject but AP Gov prefixes
+its ids (`bio-unit-3`, `ush-topic-3-1`, `chem-topic-1-1`). Every subject
+has a "Unit 1" and a "Topic 1.1", so the prefix is what lets one id
+identify its own subject, and what keeps per-lesson progress in
+`js/progress.js` from mixing subjects together.
 
 ## Previewing locally
 
@@ -43,8 +59,7 @@ python3 -m http.server
 ## Adding a new lesson
 
 Three steps, no other code to touch. Work inside the folder for the
-subject you're adding to -- `quizzes/` for AP Gov, `quizzes-bio/` for
-AP Bio.
+subject you're adding to (see the table above).
 
 1. **Create the data file.** Copy an existing topic file in that folder and
    replace the questions. The file must assign its array to

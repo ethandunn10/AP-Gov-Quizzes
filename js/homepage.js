@@ -2,15 +2,15 @@
 // Renders index.html in one of two states, based on ?subject=<id>:
 //
 //   no ?subject=      the subject picker -- one card per subject
-//                     registered in js/subjects.js (AP Gov, AP Bio).
+//                     registered in js/subjects.js.
 //   ?subject=ap-bio   that subject's units -- one card per entry in the
 //                     subject's units list, linking to unit.html.
 //
 // Adding a third subject needs no changes here: js/subjects.js builds the
 // list, this file just renders whatever is in it.
 //
-// The right-hand sidebar also carries Knotee the owl, whose speech bubble
-// this file writes -- see renderMascot() below.
+// The right-hand sidebar also carries the study tip card, whose text this
+// file writes -- see renderStudyTip() below.
 //
 // Depends on the subject data files, js/subjects.js, js/progress.js,
 // js/attempt-labels.js and js/icons.js being loaded first.
@@ -108,12 +108,12 @@
     });
   }
 
-  // ---- Knotee the owl --------------------------------------------------
-  // The bubble says one of two things, and nothing else:
+  // ---- Study tip -------------------------------------------------------
+  // The tip says one of two things, and nothing else:
   //   no quizzes taken yet   the 90% retake advice
   //   at least one taken     their single lowest score, with a retake link
   // In the first case the sidebar's mastery note would just repeat the
-  // bubble word for word, so it stays hidden.
+  // tip word for word, so it stays hidden.
 
   // Lowest-scoring lesson or whole-unit quiz across every subject, using
   // the most recent result per quiz. Ids that no longer resolve (a lesson
@@ -137,26 +137,26 @@
     return null;
   }
 
-  function renderMascot() {
-    const bubbleEl = document.getElementById("mascot-bubble");
+  function renderStudyTip() {
+    const tipEl = document.getElementById("study-tip");
     const masteryNoteEl = document.getElementById("mastery-note");
-    if (!bubbleEl) return;
+    if (!tipEl) return;
 
     const lowest = lowestScore();
     if (!lowest) {
-      bubbleEl.textContent =
+      tipEl.textContent =
         "We recommend retaking each quiz until you get a 90% — that's how you know the topic stuck.";
       return;
     }
 
     const percent = Math.round(lowest.percent * 100);
-    bubbleEl.textContent = `Your lowest so far is ${percent}% on `;
+    tipEl.textContent = `Your lowest so far is ${percent}% on `;
 
     const link = document.createElement("a");
     link.href = lowest.info.href;
     link.textContent = lowest.info.name;
-    bubbleEl.appendChild(link);
-    bubbleEl.appendChild(document.createTextNode(". Retake it and aim for 90%."));
+    tipEl.appendChild(link);
+    tipEl.appendChild(document.createTextNode(". Retake it and aim for 90%."));
 
     // Only worth showing next to a specific score -- it's the general rule
     // behind the nudge, not a repeat of it.
@@ -177,5 +177,5 @@
     renderSubjectPicker(subjects);
   }
 
-  renderMascot();
+  renderStudyTip();
 })();

@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-6",
     question: "Centrifugal forces include",
     options: [
-      "a widely shared national language and common history",
       "effective transportation linking all regions of a state",
       "ethnic division, economic inequality, and regional anger",
-      "a strong national education system reaching all citizens"
+      "a strong national education system reaching all citizens",
+      "a widely shared national language and common history"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Groups that feel unrecognized or economically disadvantaged may seek autonomy or independence. Catalonia and Quebec illustrate the pattern in wealthy democracies."
   },
   {
     id: "4-7-7",
     question: "A confederation differs from a federation because in a confederation",
     options: [
-      "the central authority is weak and members retain sovereignty",
-      "all power is concentrated in a single national government",
       "regional units have no governmental authority at all",
-      "member units cannot withdraw under any circumstances"
+      "member units cannot withdraw under any circumstances",
+      "the central authority is weak and members retain sovereignty",
+      "all power is concentrated in a single national government"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Members delegate limited functions while keeping ultimate authority, as under the Articles of Confederation. Such arrangements often prove too weak to endure."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-9",
     question: "Supranationalism involves states",
     options: [
-      "dividing internal authority among regional governments",
       "pooling some sovereignty within a larger organization",
       "withdrawing entirely from all international agreements",
-      "annexing territory belonging to neighboring states"
+      "annexing territory belonging to neighboring states",
+      "dividing internal authority among regional governments"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The European Union is the deepest example, with shared law and institutions binding members. Supranationalism moves authority upward while devolution moves it downward."
   },
   {
     id: "4-7-10",
     question: "A geographer explaining why a state adopted federalism would emphasize",
     options: [
+      "an international legal requirement applying to large states",
       "the need to accommodate territorial diversity in one state",
       "the desire to eliminate all regional political institutions",
-      "the goal of concentrating all authority in the capital",
-      "an international legal requirement applying to large states"
+      "the goal of concentrating all authority in the capital"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Large territories and multiple national groups make centralized rule impractical and politically risky. Federalism trades administrative simplicity for legitimacy across regions."
   }
 ];

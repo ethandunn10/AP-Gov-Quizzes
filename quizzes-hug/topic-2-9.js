@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-9-2",
     question: "The old-age dependency ratio measures",
     options: [
-      "the number of children relative to working-age adults",
       "the proportion of elderly people living in urban areas",
       "the number of elderly people relative to working-age adults",
-      "the average age at which people retire from employment"
+      "the average age at which people retire from employment",
+      "the number of children relative to working-age adults"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "A rising ratio means fewer workers supporting each retiree through taxes and pension contributions. It is the central measure in debates over pension sustainability."
   },
   {
     id: "2-9-3",
     question: "Aging populations strain public finances chiefly because",
     options: [
+      "governments are legally barred from raising revenue",
       "elderly people consume no public services of any kind",
       "pension and health costs rise while the tax base shrinks",
-      "younger workers refuse to pay into any pension system",
-      "governments are legally barred from raising revenue"
+      "younger workers refuse to pay into any pension system"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Pay-as-you-go systems depend on current workers funding current retirees, so a shrinking workforce creates a structural gap. Health spending rises steeply with age as well."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-9-8",
     question: "The demographic dividend refers to a period when",
     options: [
-      "a large working-age share can accelerate economic growth",
       "the elderly population outnumbers the working-age population",
       "birth rates rise sharply and produce many dependent children",
-      "a country experiences net emigration of its skilled workers"
+      "a country experiences net emigration of its skilled workers",
+      "a large working-age share can accelerate economic growth"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Falling fertility temporarily produces many workers relative to dependents, which can boost growth if jobs exist. The window closes as that cohort itself ages."
   },
   {
     id: "2-9-9",
     question: "Immigration is proposed as a response to aging because immigrants",
     options: [
-      "are typically retired and require no public services",
       "are typically working age and pay into the tax base",
       "reduce the total population of the receiving country",
-      "raise the average age of the receiving population"
+      "raise the average age of the receiving population",
+      "are typically retired and require no public services"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Arriving in their twenties and thirties, migrants pay taxes for decades before drawing pensions. Political resistance often limits this option regardless of the demographic logic."
   },
   {
     id: "2-9-10",
     question: "A geographer assessing global aging would conclude that it is",
     options: [
-      "confined entirely to Japan and a few European countries",
       "a temporary condition that reverses within one generation",
       "occurring in developing countries faster than in the West",
-      "reversible through modest increases in national birth rates"
+      "reversible through modest increases in national birth rates",
+      "confined entirely to Japan and a few European countries"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "China, Brazil, and Iran are aging in decades rather than the century Europe took, leaving less time to build pension systems. The phrase 'growing old before growing rich' captures the risk."
   }
 ];

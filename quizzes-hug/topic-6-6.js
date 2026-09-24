@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-1",
     question: "Residential density in a metropolitan area generally",
     options: [
-      "remains constant from the core to the outer edge",
       "declines with increasing distance from the city center",
       "rises steadily as one travels away from the center",
-      "varies randomly with no relationship to distance"
+      "varies randomly with no relationship to distance",
+      "remains constant from the core to the outer edge"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Land costs more near the accessible core, so units are packed more tightly there. The density gradient flattens as transportation improves but rarely reverses."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-3",
     question: "Mixed use development is characterized by",
     options: [
+      "single family homes on uniformly large suburban lots",
       "strict separation of residential and commercial functions",
       "residential, retail, and office uses in one area or building",
-      "exclusive dedication of a district to heavy industry",
-      "single family homes on uniformly large suburban lots"
+      "exclusive dedication of a district to heavy industry"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Combining functions reduces driving and keeps streets active through the day. It reverses the use-separation logic that dominated twentieth-century zoning."
   },
   {
     id: "6-6-4",
     question: "Infilling refers to the practice of",
     options: [
-      "expanding development outward onto undeveloped farmland",
-      "building on vacant or underused parcels within a city",
       "demolishing urban housing to create open green space",
-      "relocating industrial facilities to rural county sites"
+      "relocating industrial facilities to rural county sites",
+      "expanding development outward onto undeveloped farmland",
+      "building on vacant or underused parcels within a city"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Infill raises density using land already served by infrastructure, a standard antisprawl tool. Outward expansion onto farmland is precisely what it seeks to avoid."
   },
   {
     id: "6-6-5",
     question: "A brownfield is best defined as land that is",
     options: [
-      "undeveloped and located beyond the urban fringe",
       "previously developed and possibly contaminated",
       "permanently protected from any future development",
-      "used for commercial agriculture inside city limits"
+      "used for commercial agriculture inside city limits",
+      "undeveloped and located beyond the urban fringe"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Former industrial or commercial sites may carry contamination that complicates reuse, though cleanup makes valuable central land available. Undeveloped land at the edge is a greenfield."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-7",
     question: "A greenbelt policy limits urban growth by",
     options: [
+      "subsidizing highway construction to the urban periphery",
       "raising property taxes inside the central business district",
       "reserving a ring of open land around the built up area",
-      "requiring all new housing to include landscaped yards",
-      "subsidizing highway construction to the urban periphery"
+      "requiring all new housing to include landscaped yards"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "London's greenbelt and similar policies forbid development in a surrounding band, pushing growth into infill or beyond the belt. A side effect is often higher housing costs within the boundary."
   },
   {
     id: "6-6-8",
     question: "Smart growth policies are designed mainly to",
     options: [
-      "accelerate outward expansion of suburban subdivisions",
-      "concentrate growth in existing areas served by infrastructure",
       "eliminate all new residential construction in a region",
-      "relocate urban populations into rural counties nearby"
+      "relocate urban populations into rural counties nearby",
+      "accelerate outward expansion of suburban subdivisions",
+      "concentrate growth in existing areas served by infrastructure"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Smart growth directs development where roads, sewers, and transit already exist, reducing per-capita infrastructure cost. Urban growth boundaries, as in Portland, are a common instrument."
   },
   {
     id: "6-6-9",
     question: "High density urban development is generally associated with",
     options: [
-      "higher per capita energy use and longer commutes",
       "lower per capita energy use and shorter travel distances",
       "greater total land consumption per housing unit built",
-      "increased dependence on private automobile ownership"
+      "increased dependence on private automobile ownership",
+      "higher per capita energy use and longer commutes"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Shared walls, shorter trips, and viable transit cut energy use per resident. Density is therefore central to most urban sustainability arguments."
   },
   {

@@ -43,48 +43,48 @@ window.QUIZ_QUESTIONS = [
     id: "1-7-4",
     question: "Which is the clearest example of a functional region?",
     options: [
-      "The area within which a particular radio station can be received",
       "The portion of the United States where corn is the dominant crop",
       "The area people commonly refer to as the American Midwest",
-      "The territory of a country as recognized in international law"
+      "The territory of a country as recognized in international law",
+      "The area within which a particular radio station can be received"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Signal strength weakens outward from the transmitter, creating a node-centered zone of influence. The other options illustrate formal, perceptual, and political regions."
   },
   {
     id: "1-7-5",
     question: "Regions are considered social constructs because they",
     options: [
-      "exist independently of any human decision or classification",
       "are created by analysts who choose criteria and boundaries",
       "are determined entirely by physical geography alone",
-      "have boundaries fixed permanently by international treaty"
+      "have boundaries fixed permanently by international treaty",
+      "exist independently of any human decision or classification"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Where the Middle East begins and ends depends on whether one uses language, religion, or politics as the criterion. Regionalization is an analytical tool rather than a natural fact."
   },
   {
     id: "1-7-6",
     question: "Regional boundaries are often transitional rather than sharp because",
     options: [
-      "surveying technology cannot measure boundaries precisely",
       "governments deliberately refuse to publish official borders",
       "characteristics blend gradually from one region into another",
-      "regions are always defined by a single measurable variable"
+      "regions are always defined by a single measurable variable",
+      "surveying technology cannot measure boundaries precisely"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Language, religion, and agriculture shade into one another across zones rather than stopping at lines. Geographers use the term transition zone for these gradients."
   },
   {
     id: "1-7-7",
     question: "Regions can overlap because",
     options: [
-      "a location may belong to several differently defined regions",
-      "no location on earth can belong to more than one region",
       "overlapping occurs only where political boundaries are disputed",
-      "regional classification systems are standardized internationally"
+      "regional classification systems are standardized internationally",
+      "a location may belong to several differently defined regions",
+      "no location on earth can belong to more than one region"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "A city can sit inside a climate region, a media market, and a perceptual cultural region at once. Each classification answers a different question."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-7-10",
     question: "A criticism of regionalization is that it can",
     options: [
+      "eliminate the possibility of studying places at a local scale",
       "obscure internal diversity and reinforce stereotypes",
       "make comparison between different places entirely impossible",
-      "prevent geographers from using any statistical data",
-      "eliminate the possibility of studying places at a local scale"
+      "prevent geographers from using any statistical data"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Labeling an area as a single region can flatten real differences and harden assumptions about the people in it. Geographers therefore treat regions as provisional analytical tools."
   }
 ];

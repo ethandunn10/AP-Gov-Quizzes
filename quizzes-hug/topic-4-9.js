@@ -19,60 +19,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-2",
     question: "Transnational corporations can constrain state sovereignty by",
     options: [
-      "operating only within one country's national borders",
       "accepting every regulation a host government imposes",
       "relocating investment and production to other countries",
-      "surrendering their assets to host state governments"
+      "surrendering their assets to host state governments",
+      "operating only within one country's national borders"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The credible threat of moving operations limits how far governments will tax or regulate. Some firms have revenues exceeding the budgets of the states hosting them."
   },
   {
     id: "4-9-3",
     question: "Devolutionary movements challenge sovereignty from",
     options: [
-      "above, through international organizations and treaties",
       "outside, through the intervention of foreign militaries",
       "the global economy, through trade and investment flows",
-      "within, as regions demand autonomy or independence"
+      "within, as regions demand autonomy or independence",
+      "above, through international organizations and treaties"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Catalonia, Scotland, and Quebec press claims that would fragment or reduce existing state authority. These pressures come from inside the state rather than above it."
   },
   {
     id: "4-9-4",
     question: "Humanitarian intervention challenges traditional sovereignty by asserting that",
     options: [
-      "outside actors may act when a state abuses its own population",
       "states possess absolute authority over their internal affairs",
       "international organizations may never involve themselves anywhere",
-      "sovereignty applies only to states with large populations"
+      "sovereignty applies only to states with large populations",
+      "outside actors may act when a state abuses its own population"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The responsibility to protect holds that sovereignty carries obligations toward a population. Intervention remains contested because it can serve as a pretext."
   },
   {
     id: "4-9-5",
     question: "Terrorism challenges state sovereignty because",
     options: [
-      "terrorist organizations are recognized as sovereign states",
       "nonstate actors exercise violence across state borders",
       "states can always prevent all attacks within their territory",
-      "terrorism occurs only within a single country's borders"
+      "terrorism occurs only within a single country's borders",
+      "terrorist organizations are recognized as sovereign states"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Groups operating across borders undermine the state's claimed monopoly on legitimate force. Responses often involve operating in other states' territory."
   },
   {
     id: "4-9-6",
     question: "Global environmental problems challenge sovereignty because",
     options: [
+      "each state can solve climate change entirely on its own",
       "pollution and climate effects cross borders regardless of law",
       "environmental damage always stops at national boundaries",
-      "states have no interest in environmental conditions",
-      "each state can solve climate change entirely on its own"
+      "states have no interest in environmental conditions"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Emissions and river pollution ignore jurisdiction, so effective action requires agreements that limit national discretion. Free-rider incentives make those agreements hard to reach."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-10",
     question: "A geographer assessing sovereignty today would conclude that it is",
     options: [
+      "relevant only to states with large populations and economies",
       "constrained from above, below, and outside, yet central",
       "entirely unchanged from its meaning at Westphalia in 1648",
-      "completely eliminated by globalization and supranationalism",
-      "relevant only to states with large populations and economies"
+      "completely eliminated by globalization and supranationalism"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Supranational bodies, devolution, corporations, and transborder problems all limit state discretion. The state nonetheless remains the primary unit of political authority."
   }
 ];

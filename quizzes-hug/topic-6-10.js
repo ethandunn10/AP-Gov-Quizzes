@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-1",
     question: "Gentrification is best defined as the process in which",
     options: [
-      "wealthy suburbs expand outward onto surrounding farmland",
       "higher income residents move into lower income urban areas",
       "industrial facilities relocate away from the central city",
-      "a city's total population declines over several decades"
+      "a city's total population declines over several decades",
+      "wealthy suburbs expand outward onto surrounding farmland"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Reinvestment raises property values and rents in a formerly disinvested neighborhood. The contested consequence is displacement of longtime lower-income residents."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-3",
     question: "Blockbusting was a practice in which real estate agents",
     options: [
+      "demolished entire city blocks for highway construction",
       "assembled many small parcels for a single large project",
       "induced panic selling by exploiting racial fear",
-      "refused to show homes in certain districts to buyers",
-      "demolished entire city blocks for highway construction"
+      "refused to show homes in certain districts to buyers"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Agents warned white homeowners that minority families were arriving, bought low, then resold at inflated prices. It accelerated racial turnover while profiting from the transition."
   },
   {
     id: "6-10-4",
     question: "White flight refers to the",
     options: [
-      "return of affluent residents to revitalized urban cores",
-      "movement of white residents from cities to suburbs",
       "migration of rural populations toward industrial cities",
-      "relocation of businesses from suburbs back downtown"
+      "relocation of businesses from suburbs back downtown",
+      "return of affluent residents to revitalized urban cores",
+      "movement of white residents from cities to suburbs"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Postwar suburbanization was accelerated by federal mortgage policy, highways, and school desegregation. The departure eroded urban tax bases and deepened segregation."
   },
   {
     id: "6-10-5",
     question: "Urban renewal programs of the mid twentieth century have been criticized primarily for",
     options: [
-      "preserving too many deteriorating historic structures",
       "demolishing neighborhoods and displacing poor residents",
       "expanding affordable housing beyond actual demand",
-      "concentrating investment in suburban commercial districts"
+      "concentrating investment in suburban commercial districts",
+      "preserving too many deteriorating historic structures"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Slum clearance destroyed far more housing than it replaced, scattering established communities. The critique launched by Jane Jacobs reshaped American planning practice."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-7",
     question: "The spatial mismatch hypothesis argues that urban poverty is worsened when",
     options: [
+      "industrial employment concentrates in the central city",
       "jobs are located far from where low income residents live",
       "wealthy residents move into lower income neighborhoods",
-      "cities invest heavily in downtown public transit systems",
-      "industrial employment concentrates in the central city"
+      "cities invest heavily in downtown public transit systems"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "As employment suburbanized, inner-city residents without cars lost practical access to work. Transit that radiates only toward downtown does not solve suburb-to-suburb commuting."
   },
   {
     id: "6-10-8",
     question: "Housing affordability problems in growing cities most often result from",
     options: [
-      "housing supply expanding faster than population growth",
-      "demand outpacing supply, often constrained by regulation",
       "declining employment opportunities across the metro area",
-      "the complete absence of any residential zoning rules"
+      "the complete absence of any residential zoning rules",
+      "housing supply expanding faster than population growth",
+      "demand outpacing supply, often constrained by regulation"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "When zoning, permitting, and land costs limit construction while jobs attract residents, prices rise sharply. Growth-control policies can improve amenity while worsening affordability."
   },
   {
     id: "6-10-9",
     question: "Municipal fragmentation, meaning many separate local governments in one metro area, tends to",
     options: [
-      "equalize service quality and tax burdens across the region",
       "produce unequal services as wealth concentrates in some jurisdictions",
       "simplify coordinated planning for transportation and housing",
-      "eliminate competition between communities for new development"
+      "eliminate competition between communities for new development",
+      "equalize service quality and tax burdens across the region"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Affluent suburbs fund strong schools and services from their own tax base while poorer jurisdictions cannot. Fragmentation also makes region-wide planning considerably harder."
   },
   {

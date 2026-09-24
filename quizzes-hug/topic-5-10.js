@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-10-1",
     question: "Desertification most often results from",
     options: [
-      "long term increases in annual rainfall on dry land",
       "overgrazing and cultivation that strip fragile dry soils",
       "the deliberate planting of trees along field boundaries",
-      "the abandonment of farmland allowing natural regrowth"
+      "the abandonment of farmland allowing natural regrowth",
+      "long term increases in annual rainfall on dry land"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Pressing too many animals or crops onto semiarid land removes the vegetation holding soil in place, and the land degrades toward desert. Planting trees and allowing regrowth both counteract the process."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-10-3",
     question: "Fertilizer runoff from farmland contributes most directly to",
     options: [
+      "the loss of topsoil through wind erosion in dry seasons",
       "rising concentrations of atmospheric carbon dioxide",
       "eutrophication and oxygen depleted zones in waterways",
-      "an increase in the salinity of nearby irrigated soils",
-      "the loss of topsoil through wind erosion in dry seasons"
+      "an increase in the salinity of nearby irrigated soils"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Excess nitrogen and phosphorus feed algal blooms that consume oxygen as they decay, creating dead zones like the one in the Gulf of Mexico. Erosion and salinization have different mechanisms."
   },
   {
     id: "5-10-4",
     question: "Deforestation associated with agriculture occurs primarily to",
     options: [
-      "improve the fertility of soils already under cultivation",
-      "clear new land for crops, pasture, and plantations",
       "reduce the total area of land devoted to livestock",
-      "comply with international conservation agreements"
+      "comply with international conservation agreements",
+      "improve the fertility of soils already under cultivation",
+      "clear new land for crops, pasture, and plantations"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Expansion of cattle pasture, soy, and oil palm drives most tropical forest clearing. The result is habitat and carbon loss rather than any gain on existing fields."
   },
   {
     id: "5-10-5",
     question: "Monoculture reduces biodiversity because it",
     options: [
-      "increases the number of wild species living in a field",
       "replaces varied plant communities with a single crop",
       "requires farmers to rotate among many different crops",
-      "prevents the use of any pesticide on the planted acreage"
+      "prevents the use of any pesticide on the planted acreage",
+      "increases the number of wild species living in a field"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A uniform field supports far fewer species than mixed vegetation, and the heavy pesticide use it invites reduces insect populations further. Rotation is a partial remedy, not a feature of monoculture."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-10-7",
     question: "Draining wetlands for agriculture typically results in",
     options: [
+      "greater long term storage of carbon in the soil profile",
       "improved natural filtration of water leaving the region",
       "loss of habitat and reduced protection against flooding",
-      "an increase in the diversity of migratory bird species",
-      "greater long term storage of carbon in the soil profile"
+      "an increase in the diversity of migratory bird species"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Wetlands buffer floods, filter pollutants, and shelter wildlife, so conversion removes all three services at once. Drained peat soils also release stored carbon rather than accumulating it."
   },
   {
     id: "5-10-8",
     question: "Sustainable agriculture is best described as farming that",
     options: [
-      "maximizes short term yield regardless of soil condition",
-      "meets present needs without degrading future productivity",
       "eliminates every form of mechanization from the farm",
-      "relies entirely on imported inputs from distant suppliers"
+      "relies entirely on imported inputs from distant suppliers",
+      "maximizes short term yield regardless of soil condition",
+      "meets present needs without degrading future productivity"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The definition centers on maintaining the resource base over time through practices like cover cropping, no-till, and integrated pest management. It is compatible with machinery and with commercial sale."
   },
   {
     id: "5-10-9",
     question: "Agriculture contributes to climate change most significantly through",
     options: [
-      "carbon dioxide absorbed by growing crops each season",
       "methane from livestock and nitrous oxide from fertilizer",
       "the reflection of sunlight from harvested crop stubble",
-      "water vapor released during the irrigation of fields"
+      "water vapor released during the irrigation of fields",
+      "carbon dioxide absorbed by growing crops each season"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Ruminant digestion releases methane and nitrogen fertilizer releases nitrous oxide, both far more potent per molecule than carbon dioxide. Land clearing for farmland adds substantial carbon emissions as well."
   },
   {

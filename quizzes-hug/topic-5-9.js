@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-9-1",
     question: "In world systems terms, agricultural trade tends to have periphery countries",
     options: [
-      "exporting processed goods with high added value",
       "exporting raw commodities and importing finished food",
       "trading only with other periphery countries nearby",
-      "setting the world prices for the crops they produce"
+      "setting the world prices for the crops they produce",
+      "exporting processed goods with high added value"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Periphery economies typically ship unprocessed coffee, cocoa, or cotton while the profitable roasting, milling, and branding happen in the core. Price-setting power sits with core buyers, not with producers."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-9-3",
     question: "Fair trade certification is designed primarily to",
     options: [
+      "restrict agricultural trade to a single world region",
       "increase the total volume a producing country exports",
       "guarantee producers a minimum price above market lows",
-      "eliminate all intermediaries from the commodity chain",
-      "restrict agricultural trade to a single world region"
+      "eliminate all intermediaries from the commodity chain"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "A price floor plus a social premium is meant to shield smallholders from volatile markets. Fair trade does not remove intermediaries entirely, and volume is not its goal."
   },
   {
     id: "5-9-4",
     question: "Which pattern best describes the global division of agricultural labor?",
     options: [
-      "Every region produces roughly the same mix of crops",
-      "Regions specialize according to climate and comparative cost",
       "Production is concentrated entirely within core countries",
-      "Trade in agricultural goods has declined steadily since 1980"
+      "Trade in agricultural goods has declined steadily since 1980",
+      "Every region produces roughly the same mix of crops",
+      "Regions specialize according to climate and comparative cost"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Tropical regions supply coffee, cocoa, and bananas while temperate ones supply grain and dairy, with cost advantages reinforcing the split. Agricultural trade has grown rather than contracted."
   },
   {
     id: "5-9-5",
     question: "Luxury crops such as coffee, tea, and cacao are notable because they are",
     options: [
-      "consumed mainly in the tropical countries that grow them",
       "grown in the tropics but consumed mostly in wealthy nations",
       "cultivated primarily in cool temperate agricultural regions",
-      "produced almost entirely for subsistence within households"
+      "produced almost entirely for subsistence within households",
+      "consumed mainly in the tropical countries that grow them"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "These crops require tropical conditions but their markets lie in Europe, North America, and East Asia. The geographic split between production and consumption is a legacy of colonial plantation systems."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-9-7",
     question: "A food desert is an area where residents have limited access to",
     options: [
+      "government programs supporting local agriculture",
       "farmland suitable for growing staple food crops",
       "affordable fresh and nutritious food nearby",
-      "water supplies adequate for irrigating any crops",
-      "government programs supporting local agriculture"
+      "water supplies adequate for irrigating any crops"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Food deserts are typically urban or rural neighborhoods without a full grocery store within reasonable distance, leaving convenience stores as the main option. The constraint is retail access, not farmland or rainfall."
   },
   {
     id: "5-9-8",
     question: "Global famine in the modern era is most often caused by",
     options: [
-      "an absolute worldwide shortage of available food",
-      "conflict, poverty, and failures of distribution",
       "the complete failure of every major grain harvest",
-      "the elimination of international food aid programs"
+      "the elimination of international food aid programs",
+      "an absolute worldwide shortage of available food",
+      "conflict, poverty, and failures of distribution"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "World food production exceeds world need; famines arise where war blocks supply routes or poverty prevents purchase. Amartya Sen's work on entitlement made this distinction central."
   },
   {
     id: "5-9-9",
     question: "Multinational agribusiness firms influence producing countries primarily by",
     options: [
-      "purchasing all farmland outright in the countries they enter",
       "setting the terms, standards, and prices growers must meet",
       "supplying free technology with no conditions attached",
-      "operating exclusively within their own home countries"
+      "operating exclusively within their own home countries",
+      "purchasing all farmland outright in the countries they enter"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Control over contracts, quality specifications, and market access gives these firms leverage without requiring land ownership. That leverage is what shapes what gets planted and how."
   },
   {

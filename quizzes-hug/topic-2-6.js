@@ -19,96 +19,96 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-2",
     question: "Malthus's predictions have not been borne out globally largely because",
     options: [
-      "population growth stopped entirely in the nineteenth century",
-      "agricultural productivity rose faster than he anticipated",
       "governments prohibited families from having children",
-      "food production ceased to be necessary for human survival"
+      "food production ceased to be necessary for human survival",
+      "population growth stopped entirely in the nineteenth century",
+      "agricultural productivity rose faster than he anticipated"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Mechanization, fertilizer, and the Green Revolution multiplied yields far beyond the arithmetic growth he assumed. Fertility also fell in developed countries rather than expanding without limit."
   },
   {
     id: "2-6-3",
     question: "Neo-Malthusians extend the original argument by emphasizing",
     options: [
+      "pressure on water, energy, and ecosystems as well as food",
       "the absence of any environmental limits on human activity",
       "the certainty that technology will solve all resource problems",
-      "the need for governments to encourage larger families",
-      "pressure on water, energy, and ecosystems as well as food"
+      "the need for governments to encourage larger families"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Ehrlich's Population Bomb and the Limits to Growth report broadened the concern from food to resources and pollution. Critics note that these forecasts have also repeatedly missed."
   },
   {
     id: "2-6-4",
     question: "Ester Boserup's argument differs from Malthus by holding that",
     options: [
+      "agricultural technology declines as population rises",
       "population pressure stimulates agricultural innovation",
       "population growth inevitably outstrips any food supply",
-      "food production is unrelated to population size",
-      "agricultural technology declines as population rises"
+      "food production is unrelated to population size"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Boserup reversed the causation, arguing that more mouths push societies to intensify farming through irrigation, terracing, and shorter fallow. Necessity drives invention in her account."
   },
   {
     id: "2-6-5",
     question: "Critics of Malthusian thinking often argue that famine results primarily from",
     options: [
+      "the complete failure of agricultural technology",
       "an absolute global shortage of available food",
       "distribution, poverty, and politics rather than total supply",
-      "population growth exceeding the earth's carrying capacity",
-      "the complete failure of agricultural technology"
+      "population growth exceeding the earth's carrying capacity"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Amartya Sen showed that famines have occurred amid adequate food supplies when people lacked the means to obtain it. Entitlement rather than production explains many modern famines."
   },
   {
     id: "2-6-6",
     question: "The Green Revolution is relevant to the Malthusian debate because it",
     options: [
+      "caused global food production to decline after 1960",
       "confirmed that food supply grows only arithmetically",
       "demonstrated that agricultural yields cannot be increased",
-      "dramatically raised yields and postponed predicted shortages",
-      "caused global food production to decline after 1960"
+      "dramatically raised yields and postponed predicted shortages"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "High-yield varieties, fertilizer, and irrigation multiplied output in Asia and Latin America, averting predicted famines. Its costs in water use, chemicals, and inequality are also part of the assessment."
   },
   {
     id: "2-6-7",
     question: "A contemporary argument supporting neo-Malthusian concern points to",
     options: [
+      "aquifer depletion, soil degradation, and climate change",
       "the steady decline of global population since the year 1970",
       "the elimination of water scarcity in all world regions",
-      "the discovery that ecosystems face no human pressure",
-      "aquifer depletion, soil degradation, and climate change"
+      "the discovery that ecosystems face no human pressure"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Groundwater drawdown and degraded soils suggest current food production may not be sustainable indefinitely. Supporters argue the limits are real even if earlier timing was wrong."
   },
   {
     id: "2-6-8",
     question: "Which evidence most directly challenges Malthusian predictions?",
     options: [
+      "Rising food prices during periods of poor harvest",
       "Falling fertility in countries as they grow wealthier",
       "The continued growth of global population since 1800",
-      "The persistence of famine in some world regions",
-      "Rising food prices during periods of poor harvest"
+      "The persistence of famine in some world regions"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Malthus assumed people would always reproduce to the limit of subsistence, but the demographic transition shows fertility falling voluntarily with development. That mechanism was outside his model."
   },
   {
     id: "2-6-9",
     question: "Malthus's ideas influenced policy historically by",
     options: [
+      "leading states to prohibit any form of birth control",
       "encouraging governments to subsidize larger family sizes",
       "justifying restrictions on relief for the poor",
-      "prompting the abolition of all agricultural regulation",
-      "leading states to prohibit any form of birth control"
+      "prompting the abolition of all agricultural regulation"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "His argument that aid to the poor encouraged unsustainable population growth shaped nineteenth-century poor law reform. That application remains the most criticized aspect of his legacy."
   },
   {

@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-1",
     question: "A cultural landscape is",
     options: [
-      "an area of land unmodified by any human activity",
       "the physical environment as modified by human culture",
       "a map showing the distribution of ethnic groups",
-      "the total population living within a defined region"
+      "the total population living within a defined region",
+      "an area of land unmodified by any human activity"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Carl Sauer described culture acting on the natural landscape to produce the cultural landscape. Fields, buildings, and roads all record the values of those who made them."
   },
   {
     id: "3-2-2",
     question: "Reading a cultural landscape allows geographers to",
     options: [
+      "identify the geological age of underlying bedrock",
       "infer values, history, and power from the built environment",
       "determine the exact population of a settlement",
-      "measure the annual rainfall a region receives",
-      "identify the geological age of underlying bedrock"
+      "measure the annual rainfall a region receives"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Which buildings are largest and most central reveals what a society honors, whether a cathedral, a palace, or a bank. Landscapes are documents that can be interpreted."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-10",
     question: "A geographer analyzing a suburban landscape of identical houses would most likely conclude that it reflects",
     options: [
-      "the complete absence of any cultural values in its design",
-      "physical geography determining the settlement's form",
       "the total rejection of popular culture by its residents",
-      "mass production, car dependence, and privacy norms"
+      "mass production, car dependence, and privacy norms",
+      "the complete absence of any cultural values in its design",
+      "physical geography determining the settlement's form"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Setbacks, garages, and lot sizes encode assumptions about family life, mobility, and private space. Standardized construction reflects the economics of mass housing."
   }
 ];

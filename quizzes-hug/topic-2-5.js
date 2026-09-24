@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-8",
     question: "A country in Stage 2 would most likely have a population pyramid that is",
     options: [
-      "very wide at the base and narrowing sharply upward",
       "narrow at the base and wide among older cohorts",
       "roughly rectangular with cohorts of similar size",
-      "widest in the middle working-age cohorts"
+      "widest in the middle working-age cohorts",
+      "very wide at the base and narrowing sharply upward"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "High fertility with falling child mortality produces enormous young cohorts. That shape signals rapid growth and heavy demand for schooling."
   },
   {
     id: "2-5-9",
     question: "Which factor most accelerates a country's movement from Stage 2 to Stage 3?",
     options: [
+      "Education and employment opportunities for women",
       "A sharp rise in infant and child mortality rates",
       "Government policies encouraging larger family sizes",
-      "The complete absence of urban settlement growth",
-      "Education and employment opportunities for women"
+      "The complete absence of urban settlement growth"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Women's schooling and paid work consistently predict falling fertility across very different societies. Urbanization and falling child mortality reinforce that shift."
   },
   {
     id: "2-5-10",
     question: "A geographer evaluating the DTM would argue that it is best used as",
     options: [
+      "a model that applies only to countries with high fertility",
       "a descriptive framework rather than a precise predictive law",
       "an exact timetable for when each country will develop",
-      "proof that all countries follow an identical development path",
-      "a model that applies only to countries with high fertility"
+      "proof that all countries follow an identical development path"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The model organizes observed patterns usefully but cannot forecast timing or guarantee that any country follows the sequence. Several countries have compressed or skipped stages."
   }
 ];

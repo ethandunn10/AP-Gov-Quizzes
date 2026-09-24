@@ -19,84 +19,84 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-2",
     question: "Remote sensing refers to",
     options: [
-      "collecting data about the earth from satellites or aircraft",
       "interviewing residents about their perceptions of a neighborhood",
       "calculating a location's coordinates using satellite triangulation",
-      "storing and querying spatial data in a layered database"
+      "storing and querying spatial data in a layered database",
+      "collecting data about the earth from satellites or aircraft"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Sensors gather information without physical contact, which makes monitoring deforestation, urban growth, and crops practical at large scale. GPS and GIS perform different functions."
   },
   {
     id: "1-2-3",
     question: "The Global Positioning System (GPS) functions by",
     options: [
-      "photographing the earth's surface at regular time intervals",
       "using signals from several satellites to fix a position",
       "combining census data with digital boundary information",
-      "measuring the reflectance of different land cover types"
+      "measuring the reflectance of different land cover types",
+      "photographing the earth's surface at regular time intervals"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Receivers calculate position from the timing of signals from several satellites at once. That absolute location can then be fed into GIS for analysis."
   },
   {
     id: "1-2-4",
     question: "Qualitative geographic data would most likely include",
     options: [
-      "census counts of population by age and sex",
-      "satellite measurements of average surface temperature",
       "statistical records of agricultural yield per hectare",
-      "interviews and field observations about place meaning"
+      "interviews and field observations about place meaning",
+      "census counts of population by age and sex",
+      "satellite measurements of average surface temperature"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Qualitative data captures experience, perception, and meaning that numbers cannot express. Quantitative data measures and counts, and most research uses both."
   },
   {
     id: "1-2-5",
     question: "A national census is a valuable geographic data source primarily because it",
     options: [
-      "provides systematic population data at consistent units",
-      "records the daily movements of every individual resident",
       "is collected continuously rather than at fixed intervals",
-      "measures physical characteristics of the natural environment"
+      "measures physical characteristics of the natural environment",
+      "provides systematic population data at consistent units",
+      "records the daily movements of every individual resident"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Counting everyone by standardized geographic units makes comparison across places and over time possible. Its main limitations are the interval between counts and possible undercounting."
   },
   {
     id: "1-2-6",
     question: "Which is a significant limitation of census data?",
     options: [
+      "It is collected too frequently to allow long-term comparison",
       "It cannot be mapped or displayed using any GIS software",
       "It records only the physical geography of a country",
-      "Undercounting of mobile or marginalized groups is common",
-      "It is collected too frequently to allow long-term comparison"
+      "Undercounting of mobile or marginalized groups is common"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "People without stable addresses, undocumented residents, and those distrustful of government are systematically missed. That undercount then affects funding and representation."
   },
   {
     id: "1-2-7",
     question: "Crowdsourced geographic data, such as user-contributed map edits, offers the advantage of",
     options: [
-      "guaranteed accuracy verified by professional surveyors",
       "rapid, detailed updating especially in under-mapped areas",
       "complete coverage of every location on the earth's surface",
-      "the elimination of any need for satellite or census data"
+      "the elimination of any need for satellite or census data",
+      "guaranteed accuracy verified by professional surveyors"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Volunteers mapped Haiti after the 2010 earthquake far faster than official agencies could. The tradeoff is uneven quality and coverage biased toward areas with active contributors."
   },
   {
     id: "1-2-8",
     question: "A city planner deciding where to locate a new fire station would use GIS to",
     options: [
+      "interview residents about their memories of past fires",
       "overlay road networks, response times, and population density",
       "photograph the proposed building site from a low-flying aircraft",
-      "determine the precise latitude and longitude of the site",
-      "interview residents about their memories of past fires"
+      "determine the precise latitude and longitude of the site"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Combining layers reveals which locations minimize response time for the most residents. The other tools supply inputs but do not perform the spatial analysis."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-10",
     question: "A researcher combining census statistics with resident interviews is using",
     options: [
-      "mixed methods, pairing quantitative and qualitative work",
       "remote sensing, since both sources are gathered at a distance",
       "purely quantitative analysis of two numerical data sets",
-      "an approach that cannot be represented in any GIS system"
+      "an approach that cannot be represented in any GIS system",
+      "mixed methods, pairing quantitative and qualitative work"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Numbers show what the pattern is while interviews help explain why it exists and how residents experience it. Combining both is standard practice in human geography."
   }
 ];

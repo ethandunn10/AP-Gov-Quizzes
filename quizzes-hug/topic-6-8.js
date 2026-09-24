@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-1",
     question: "Urban sustainability refers to meeting present urban needs while",
     options: [
-      "maximizing short term economic growth above all else",
       "preserving resources and systems for future generations",
       "preventing any further population growth in the city",
-      "relocating industrial activity beyond municipal limits"
+      "relocating industrial activity beyond municipal limits",
+      "maximizing short term economic growth above all else"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The standard definition balances environmental, economic, and social goals over time. Simply exporting pollution beyond the city limits displaces the problem rather than solving it."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-3",
     question: "The urban heat island effect describes cities being warmer than surrounding areas because",
     options: [
+      "vegetation in cities releases stored heat at night",
       "urban areas receive more direct sunlight each day",
       "pavement and buildings absorb and radiate more heat",
-      "cities are typically located at much lower elevations",
-      "vegetation in cities releases stored heat at night"
+      "cities are typically located at much lower elevations"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Dark impervious surfaces store solar energy and release it slowly, while waste heat from vehicles and buildings adds more. Tree canopy and reflective roofing are the standard mitigations."
   },
   {
     id: "6-8-4",
     question: "Transit oriented development seeks to",
     options: [
-      "expand highway capacity to reduce roadway congestion",
-      "concentrate housing and jobs around transit stations",
       "move residential development away from all rail lines",
-      "require every household to own at least one vehicle"
+      "require every household to own at least one vehicle",
+      "expand highway capacity to reduce roadway congestion",
+      "concentrate housing and jobs around transit stations"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Placing density within walking distance of stations makes transit viable and driving optional. The approach directly addresses the land use side of transportation demand."
   },
   {
     id: "6-8-5",
     question: "Green space in cities contributes to sustainability by",
     options: [
-      "increasing stormwater runoff into municipal sewer systems",
       "absorbing rainfall, cooling air, and supporting habitat",
       "raising surface temperatures across surrounding districts",
-      "reducing the total land available for any public use"
+      "reducing the total land available for any public use",
+      "increasing stormwater runoff into municipal sewer systems"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Vegetated ground infiltrates water that pavement would send into storm drains, while shade and evapotranspiration lower temperatures. Parks also provide recreation and mental health benefits."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-7",
     question: "A city's ecological footprint measures",
     options: [
+      "the volume of goods manufactured inside the city itself",
       "the physical land area enclosed by its legal boundaries",
       "the resources and land needed to sustain its consumption",
-      "the number of parks and open spaces within the city",
-      "the volume of goods manufactured inside the city itself"
+      "the number of parks and open spaces within the city"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The footprint typically far exceeds the city's own area because food, water, energy, and materials come from elsewhere. It reframes cities as dependent on distant hinterlands."
   },
   {
     id: "6-8-8",
     question: "Which policy most directly reduces a city's transportation emissions?",
     options: [
-      "Expanding free parking supply in the central business district",
-      "Investing in rail transit and protected bicycle networks",
       "Widening arterial roads to increase vehicle throughput",
-      "Relocating employment centers to distant rural counties"
+      "Relocating employment centers to distant rural counties",
+      "Expanding free parking supply in the central business district",
+      "Investing in rail transit and protected bicycle networks"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Providing viable alternatives shifts trips out of cars, while added road and parking capacity induces more driving. The induced demand effect is well documented in transportation research."
   },
   {
     id: "6-8-9",
     question: "Critics of sustainability initiatives sometimes argue that such policies",
     options: [
-      "reduce the environmental quality of urban neighborhoods",
       "raise housing costs and displace lower income residents",
       "lower property values across the entire metropolitan area",
-      "eliminate the need for any municipal land use planning"
+      "eliminate the need for any municipal land use planning",
+      "reduce the environmental quality of urban neighborhoods"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Improved parks, transit, and amenities can raise nearby rents, a dynamic sometimes called green gentrification. Pairing environmental investment with affordability protections is the usual response."
   },
   {

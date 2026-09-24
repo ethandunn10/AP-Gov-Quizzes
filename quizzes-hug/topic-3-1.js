@@ -7,72 +7,72 @@ window.QUIZ_QUESTIONS = [
     id: "3-1-1",
     question: "Culture is best defined as",
     options: [
-      "the shared practices, beliefs, and values of a group",
-      "the physical environment in which a population lives",
       "the total population of a defined geographic region",
-      "the political boundaries separating one state from another"
+      "the political boundaries separating one state from another",
+      "the shared practices, beliefs, and values of a group",
+      "the physical environment in which a population lives"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Culture includes language, religion, food, and behavior transmitted between generations. Geographers study how those traits vary and move across space."
   },
   {
     id: "3-1-2",
     question: "A cultural trait is",
     options: [
-      "the complete set of practices belonging to one society",
-      "a single element of culture such as a food or custom",
       "the physical area over which a culture is dominant",
-      "the process by which culture spreads between regions"
+      "the process by which culture spreads between regions",
+      "the complete set of practices belonging to one society",
+      "a single element of culture such as a food or custom"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Traits are the building blocks that combine into cultural complexes and larger regions. Chopstick use and a particular greeting are examples."
   },
   {
     id: "3-1-3",
     question: "Material culture refers to",
     options: [
-      "beliefs, values, and customs that have no physical form",
-      "the natural resources available within a given territory",
       "the tangible objects a group produces and uses",
-      "the political institutions governing a cultural group"
+      "the political institutions governing a cultural group",
+      "beliefs, values, and customs that have no physical form",
+      "the natural resources available within a given territory"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Clothing, tools, buildings, and art are material culture that archaeologists and geographers can observe directly. Nonmaterial culture covers beliefs, language, and norms."
   },
   {
     id: "3-1-4",
     question: "Folk culture is generally characterized by",
     options: [
-      "rapid diffusion through mass media to a global audience",
-      "production by large corporations for mass consumption",
       "uniform practices found identically in many countries",
-      "traditional practices in small, often isolated communities"
+      "traditional practices in small, often isolated communities",
+      "rapid diffusion through mass media to a global audience",
+      "production by large corporations for mass consumption"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Folk culture changes slowly, varies sharply between places, and spreads mainly through relocation. Popular culture shows the opposite pattern on each measure."
   },
   {
     id: "3-1-5",
     question: "Popular culture differs from folk culture because popular culture",
     options: [
-      "spreads fast through media and varies little by place",
-      "is confined to small rural communities with limited contact",
       "changes very slowly across many human generations",
-      "is transmitted only through direct personal relocation"
+      "is transmitted only through direct personal relocation",
+      "spreads fast through media and varies little by place",
+      "is confined to small rural communities with limited contact"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Mass media and commercial production make popular culture widespread and relatively uniform across distances. It also changes quickly compared with folk traditions."
   },
   {
     id: "3-1-6",
     question: "Cultural relativism is the practice of",
     options: [
+      "assuming that all cultures will eventually become identical",
       "ranking cultures according to their level of development",
       "judging other cultures by the standards of one's own",
-      "understanding a culture on its own terms, not by outside ones",
-      "assuming that all cultures will eventually become identical"
+      "understanding a culture on its own terms, not by outside ones"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "It counters ethnocentrism by asking what a practice means within its own context. The approach is methodological rather than a claim that all practices are equally defensible."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-1-9",
     question: "A taboo is",
     options: [
-      "a cultural trait shared by every human society equally",
       "an object produced for sale in the popular culture market",
       "the geographic area over which a language is spoken",
-      "a restriction on behavior imposed by cultural norms"
+      "a restriction on behavior imposed by cultural norms",
+      "a cultural trait shared by every human society equally"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Dietary prohibitions such as pork in Judaism and Islam or beef in Hinduism are standard examples. Taboos vary sharply between cultures and mark group boundaries."
   },
   {
     id: "3-1-10",
     question: "A geographer studying culture would emphasize that cultural traits",
     options: [
-      "are distributed unevenly and change as they move",
       "are identical in every region of the world today",
       "remain fixed permanently once a culture is established",
-      "have no relationship to the physical environment"
+      "have no relationship to the physical environment",
+      "are distributed unevenly and change as they move"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The geographic questions are where traits are found, how they got there, and how they change in transit. Diffusion and adaptation are central to that analysis."
   }
 ];

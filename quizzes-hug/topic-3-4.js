@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-1",
     question: "Relocation diffusion occurs when",
     options: [
-      "an idea spreads while people themselves stay in place",
       "people physically move and carry cultural traits with them",
       "a trait spreads from the most powerful places downward",
-      "a trait spreads outward from a central point of origin"
+      "a trait spreads outward from a central point of origin",
+      "an idea spreads while people themselves stay in place"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Migrants bring language, religion, and cuisine to their destinations, as Italian food traveled to the Americas. The trait may weaken or disappear at the origin."
   },
   {
     id: "3-4-2",
     question: "Expansion diffusion is distinguished from relocation diffusion because in expansion diffusion the trait",
     options: [
+      "spreads exclusively through government policy",
       "spreads outward while remaining strong at its source",
       "moves only when its carriers physically relocate",
-      "disappears from the place where it originated",
-      "spreads exclusively through government policy"
+      "disappears from the place where it originated"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The source keeps the trait while it spreads to new areas, as with a religion gaining converts. Contagious, hierarchical, and stimulus diffusion are its subtypes."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-8",
     question: "Reverse hierarchical diffusion describes a trait that spreads",
     options: [
-      "from smaller places upward toward larger cities",
       "backward in time to earlier historical periods",
       "from major world cities to global peripheries",
-      "only among people of the same social class"
+      "only among people of the same social class",
+      "from smaller places upward toward larger cities"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Walmart grew from small Arkansas towns before reaching large metropolitan markets. The pattern is less common than standard hierarchical diffusion."
   },
   {
     id: "3-4-9",
     question: "Barriers to diffusion include",
     options: [
-      "shared languages and dense transportation networks",
       "physical distance, borders, and cultural resistance",
       "the presence of mass media and internet connectivity",
-      "high population density in neighboring regions"
+      "high population density in neighboring regions",
+      "shared languages and dense transportation networks"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Oceans, closed borders, and deliberate rejection all slow or stop the spread of traits. Distance decay describes the weakening of diffusion with distance."
   },
   {
     id: "3-4-10",
     question: "A geographer tracing how a new technology spread through a country would look for evidence of",
     options: [
+      "the country's latitude relative to the equator",
       "adoption sequence by settlement size and proximity",
       "the total land area covered by the country",
-      "the geological characteristics of the terrain",
-      "the country's latitude relative to the equator"
+      "the geological characteristics of the terrain"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Whether large cities adopted first or nearby places did distinguishes hierarchical from contagious diffusion. Mapping adoption over time reveals the mechanism."
   }
 ];

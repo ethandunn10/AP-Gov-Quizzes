@@ -43,84 +43,84 @@ window.QUIZ_QUESTIONS = [
     id: "1-5-4",
     question: "Which is an example of the environment constraining human settlement?",
     options: [
-      "Sparse population in the Sahara and other extremely arid regions",
       "The construction of an underground subway system beneath a city",
       "The terracing of steep hillsides for intensive rice cultivation",
-      "The irrigation of desert land for large-scale commercial farming"
+      "The irrigation of desert land for large-scale commercial farming",
+      "Sparse population in the Sahara and other extremely arid regions"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Water scarcity limits where people can live without heavy investment, which is why deserts remain thinly settled. The other options are examples of modification rather than constraint."
   },
   {
     id: "1-5-5",
     question: "Cultural ecology studies",
     options: [
+      "how cultural practices adapt to and alter local environments",
       "the geological processes that produce landforms over time",
       "the statistical distribution of species across world biomes",
-      "the political boundaries separating environmental regions",
-      "how cultural practices adapt to and alter local environments"
+      "the political boundaries separating environmental regions"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "It examines the reciprocal relationship in which environments shape practices and practices reshape environments. Traditional irrigation systems are a standard object of study."
   },
   {
     id: "1-5-6",
     question: "The concept of sustainability refers to",
     options: [
+      "returning all landscapes to their condition before human settlement",
       "meeting present needs without compromising future generations",
       "maximizing current resource extraction regardless of consequence",
-      "preventing any human use of natural resources whatsoever",
-      "returning all landscapes to their condition before human settlement"
+      "preventing any human use of natural resources whatsoever"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The Brundtland formulation balances present use against future capacity rather than prohibiting use. Applying it in practice requires difficult tradeoffs."
   },
   {
     id: "1-5-7",
     question: "Natural hazards become disasters largely because of",
     options: [
+      "the total land area affected by the physical event",
       "the intensity of the physical event considered by itself",
       "settlement patterns, construction quality, and preparedness",
-      "the geological age of the region where the event occurs",
-      "the total land area affected by the physical event"
+      "the geological age of the region where the event occurs"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Identical earthquakes produce vastly different death tolls depending on building codes and warning systems. Vulnerability is social as much as physical."
   },
   {
     id: "1-5-8",
     question: "Climate change affects human geography most directly by",
     options: [
+      "reducing the total population of every coastal world region",
       "eliminating all agricultural production in tropical regions",
       "leaving settlement and migration patterns entirely unchanged",
-      "altering where agriculture is viable and prompting migration",
-      "reducing the total population of every coastal world region"
+      "altering where agriculture is viable and prompting migration"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Shifting rainfall and rising seas change which land can be farmed and inhabited, which drives displacement. Effects vary sharply by region rather than applying uniformly."
   },
   {
     id: "1-5-9",
     question: "Geographers criticize environmental determinism primarily because it",
     options: [
+      "ignores human agency and was used to justify racial hierarchy",
       "overstates human ability to modify the physical environment",
       "denies that physical geography influences human activity at all",
-      "focuses exclusively on cultural rather than physical factors",
-      "ignores human agency and was used to justify racial hierarchy"
+      "focuses exclusively on cultural rather than physical factors"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Attributing development to climate erased the role of history, politics, and colonialism while supporting claims of European superiority. Possibilism restored agency without denying constraint."
   },
   {
     id: "1-5-10",
     question: "A geographer examining why a coastal city flooded severely would most likely emphasize",
     options: [
+      "the cultural traditions practiced by the city's residents",
       "the interaction of storm intensity with land use",
       "the storm's meteorological characteristics considered alone",
-      "the city's absolute latitude and longitude coordinates",
-      "the cultural traditions practiced by the city's residents"
+      "the city's absolute latitude and longitude coordinates"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Wetland loss, paved surfaces, and drainage capacity determine how a given storm translates into damage. That interaction of physical event and human modification is the geographic question."
   }
 ];

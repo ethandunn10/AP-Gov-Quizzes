@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-5",
     question: "Uneven economic development acts as a centrifugal force when",
     options: [
-      "all regions of a state receive identical public investment",
       "a region believes it is exploited or neglected by the center",
       "regional incomes converge toward the national average",
-      "the state has no natural resources in any region"
+      "the state has no natural resources in any region",
+      "all regions of a state receive identical public investment"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Both wealthy regions resenting transfers and poor regions resenting neglect can turn toward separatism. Catalonia and southern Italy illustrate the two directions."
   },
   {
     id: "4-10-6",
     question: "The consequences of strong centrifugal forces can include",
     options: [
-      "increased national unity and stronger central authority",
       "the elimination of all regional political institutions",
       "devolution, civil conflict, or the breakup of a state",
-      "the permanent stabilization of existing state borders"
+      "the permanent stabilization of existing state borders",
+      "increased national unity and stronger central authority"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Outcomes range from negotiated autonomy to violent fragmentation depending on institutions and leadership. Yugoslavia and the United Kingdom show opposite results from similar pressures."
   },
   {
     id: "4-10-7",
     question: "External threats often act as centripetal forces because they",
     options: [
-      "encourage internal groups to set aside their differences",
-      "always cause a state to fragment into smaller units",
       "eliminate the need for any national government",
-      "have no effect on internal political cohesion"
+      "have no effect on internal political cohesion",
+      "encourage internal groups to set aside their differences",
+      "always cause a state to fragment into smaller units"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "A shared enemy tends to consolidate identity and support for central authority. The effect often fades once the threat recedes."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-9",
     question: "Belgium illustrates the balance of these forces because it",
     options: [
-      "has a single language shared by its entire population",
       "federalized in response to deep linguistic division",
       "eliminated all regional governments in the 1990s",
-      "has never experienced any internal political tension"
+      "has never experienced any internal political tension",
+      "has a single language shared by its entire population"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Flemish and Walloon differences drove successive reforms creating one of Europe's most decentralized federations. The arrangement contains the tension without resolving it."
   },
   {
     id: "4-10-10",
     question: "A geographer explaining why some multinational states endure while others fragment would emphasize",
     options: [
+      "the number of international borders each state has",
       "whether institutions accommodate difference and share gains",
       "the total land area contained within each state's borders",
-      "the latitude at which each state is located",
-      "the number of international borders each state has"
+      "the latitude at which each state is located"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "States that grant meaningful autonomy and share economic gains tend to hold together, while rigid centralization invites conflict. Leadership and external intervention also shape outcomes."
   }
 ];

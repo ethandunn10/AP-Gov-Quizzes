@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-7-8",
     question: "Japan's response to population decline has been notable for",
     options: [
-      "pronatalist measures and automation over immigration",
       "admitting more immigrants per capita than any other country",
       "eliminating all restrictions on foreign workers entering the country",
-      "successfully returning its fertility rate to replacement level"
+      "successfully returning its fertility rate to replacement level",
+      "pronatalist measures and automation over immigration"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Japan has preferred incentives for childbearing and robotics in care and manufacturing to large-scale immigration. Fertility has nonetheless remained well below replacement."
   },
   {
     id: "2-7-9",
     question: "Pronatalist policies often have limited effect because",
     options: [
-      "governments are unable to fund any family support programs",
       "fertility decisions respond to cost, careers, and housing",
       "citizens are legally prohibited from having more children",
-      "contraception becomes unavailable once policies are enacted"
+      "contraception becomes unavailable once policies are enacted",
+      "governments are unable to fund any family support programs"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Modest cash benefits rarely offset the full cost of childrearing, housing, and forgone earnings. Countries with strong childcare and flexible work, such as France, have seen larger effects."
   },
   {
     id: "2-7-10",
     question: "A geographer comparing China's and India's population policies would conclude that",
     options: [
+      "voluntary programs proved entirely ineffective in both cases",
       "coercive limits produced faster decline but severe social costs",
       "both countries adopted identical approaches with identical results",
-      "neither country experienced any change in its fertility rate",
-      "voluntary programs proved entirely ineffective in both cases"
+      "neither country experienced any change in its fertility rate"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "China's fertility fell sharply but left skewed sex ratios and rapid aging, while India's slower voluntary decline avoided those distortions. The comparison is a standard case in policy ethics."
   }
 ];

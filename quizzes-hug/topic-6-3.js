@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-1",
     question: "A world city, or global city, is defined primarily by its",
     options: [
+      "age, measured from the date the settlement was founded",
       "total population relative to other cities worldwide",
       "influence over global finance, culture, and decision making",
-      "physical land area covered by continuous development",
-      "age, measured from the date the settlement was founded"
+      "physical land area covered by continuous development"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Command and control functions matter more than raw size: New York, London, and Tokyo anchor global networks. Several megacities have enormous populations but limited global influence."
   },
   {
     id: "6-3-2",
     question: "World cities are best understood as nodes in a network because they",
     options: [
-      "compete only with other cities inside their own country",
-      "connect more strongly to each other than to their hinterlands",
       "operate independently of international financial markets",
-      "derive their importance from local manufacturing output"
+      "derive their importance from local manufacturing output",
+      "compete only with other cities inside their own country",
+      "connect more strongly to each other than to their hinterlands"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Capital, information, and elite labor flow between global cities across continents, sometimes more intensively than between a city and its own region. This network logic is central to Saskia Sassen's analysis."
   },
   {
     id: "6-3-3",
     question: "Which function is most characteristic of a top tier world city?",
     options: [
-      "Heavy manufacturing of standardized consumer goods",
       "Headquarters of major banks and corporate services",
       "Extraction and export of raw natural resources",
-      "Large scale agricultural processing and storage"
+      "Large scale agricultural processing and storage",
+      "Heavy manufacturing of standardized consumer goods"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Global cities concentrate finance, law, accounting, and advertising, the producer services that coordinate the world economy. Routine manufacturing has largely dispersed to lower-cost locations."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-5",
     question: "The presence of international organizations and embassies most directly contributes to a city's",
     options: [
+      "physical density of residential housing construction",
       "manufacturing output measured in total annual value",
       "political influence within the global urban hierarchy",
-      "agricultural productivity in the surrounding region",
-      "physical density of residential housing construction"
+      "agricultural productivity in the surrounding region"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Hosting bodies like the United Nations or the European Commission draws diplomats, media, and decision-making to a city. Brussels and Geneva rank far above their size because of this function."
   },
   {
     id: "6-3-6",
     question: "Global cities in developing countries often exhibit",
     options: [
-      "uniform prosperity extending across all city districts",
-      "sharp contrasts between wealthy enclaves and informal settlements",
       "an absence of any connection to international capital flows",
-      "populations far smaller than cities in developed countries"
+      "populations far smaller than cities in developed countries",
+      "uniform prosperity extending across all city districts",
+      "sharp contrasts between wealthy enclaves and informal settlements"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Cities such as Mumbai and São Paulo host world-class financial districts alongside vast informal housing. Uneven integration into the global economy produces this juxtaposition."
   },
   {
     id: "6-3-7",
     question: "The concept of a primate city refers to a city that is",
     options: [
-      "ranked second in population within its national system",
       "disproportionately larger than any other city in its country",
       "located at the geographic center of national territory",
-      "governed directly by the national rather than local authority"
+      "governed directly by the national rather than local authority",
+      "ranked second in population within its national system"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A primate city dominates its urban system, often exceeding twice the population of the next largest, as with Paris or Bangkok. Colonial history and centralized government frequently produce the pattern."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-9",
     question: "A common criticism of globalization's effect on cities is that it",
     options: [
+      "limits the variety of goods available to urban consumers",
       "reduces the flow of migrants into major urban centers",
       "raises housing costs and displaces longtime residents",
-      "prevents cities from developing any cultural diversity",
-      "limits the variety of goods available to urban consumers"
+      "prevents cities from developing any cultural diversity"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Global capital bidding on urban real estate pushes prices beyond local incomes, a dynamic tied to gentrification. Migration and cultural variety both increase under globalization rather than decline."
   },
   {
     id: "6-3-10",
     question: "Which best explains why some cities decline as others rise in the global hierarchy?",
     options: [
-      "Physical site conditions change rapidly over a few decades",
-      "Shifts in production and finance reward different locations",
       "National populations redistribute evenly across all cities",
-      "Older cities inevitably exhaust their natural resources"
+      "Older cities inevitably exhaust their natural resources",
+      "Physical site conditions change rapidly over a few decades",
+      "Shifts in production and finance reward different locations"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Detroit's decline and Shenzhen's rise both track changes in where manufacturing and investment flow. Site conditions are far more stable than the economic forces that revalue them."
   }
 ];

@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-1",
     question: "Urban infrastructure refers to the",
     options: [
+      "total number of businesses operating within a city",
       "cultural traditions shared by a city's residents",
       "physical systems and services that support urban life",
-      "legal boundaries separating one municipality from another",
-      "total number of businesses operating within a city"
+      "legal boundaries separating one municipality from another"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Roads, water and sewer lines, power grids, and transit make concentrated settlement possible. The term covers built systems rather than social or legal arrangements."
   },
   {
     id: "6-7-2",
     question: "Infrastructure investment influences a city's growth primarily by",
     options: [
-      "setting the climate conditions the urban area experiences",
-      "determining where development is feasible and attractive",
       "controlling the birth rate among the resident population",
-      "fixing the architectural styles new buildings must follow"
+      "fixing the architectural styles new buildings must follow",
+      "setting the climate conditions the urban area experiences",
+      "determining where development is feasible and attractive"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Extending a water main or a rail line opens land for building, so infrastructure often leads development rather than following it. This is why growth boundaries and utility extensions are contested politically."
   },
   {
     id: "6-7-3",
     question: "Public transit systems are most viable in areas with",
     options: [
-      "low residential density and abundant free parking",
       "high residential density along defined corridors",
       "widely dispersed employment and scattered housing",
-      "populations that own two or more cars per household"
+      "populations that own two or more cars per household",
+      "low residential density and abundant free parking"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Transit needs enough riders within walking distance of each stop to justify service. Dispersed low-density development is precisely what makes fixed-route systems uneconomical."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-5",
     question: "In rapidly growing cities of the developing world, infrastructure provision often",
     options: [
+      "is financed entirely by international aid organizations",
       "arrives well in advance of any residential settlement",
       "lags behind population growth, especially in informal areas",
-      "reaches informal settlements before established districts",
-      "is financed entirely by international aid organizations"
+      "reaches informal settlements before established districts"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Migration outpaces public investment, and informal settlements lacking legal recognition are the last to receive water, sanitation, and power. The resulting service gap is a defining urban challenge."
   },
   {
     id: "6-7-6",
     question: "Access to clean water and sanitation is considered essential urban infrastructure because it",
     options: [
-      "raises property values throughout the metropolitan area",
-      "directly determines disease rates and public health",
       "reduces the distance residents must commute to work",
-      "increases the density at which buildings may be built"
+      "increases the density at which buildings may be built",
+      "raises property values throughout the metropolitan area",
+      "directly determines disease rates and public health"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Waterborne disease spreads rapidly in dense settlement without sanitation, as nineteenth-century cholera epidemics demonstrated. Sewerage was the public health breakthrough of the industrial city."
   },
   {
     id: "6-7-7",
     question: "Highway construction through American cities in the mid twentieth century most often",
     options: [
-      "preserved existing neighborhoods by routing around them",
       "displaced residents and divided low income neighborhoods",
       "reduced automobile dependence in the metropolitan area",
-      "concentrated new population growth in the urban core"
+      "concentrated new population growth in the urban core",
+      "preserved existing neighborhoods by routing around them"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Urban freeways were routinely routed through politically weak neighborhoods, demolishing housing and severing communities. They also accelerated suburbanization rather than strengthening the core."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-9",
     question: "Smart city technologies use sensors and data primarily to",
     options: [
+      "eliminate the role of local government in planning",
       "replace the need for physical infrastructure entirely",
       "manage traffic, energy, and services more efficiently",
-      "restrict the number of residents a city may house",
-      "eliminate the role of local government in planning"
+      "restrict the number of residents a city may house"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Real-time data allows adaptive traffic signals, leak detection, and demand-based transit. Privacy and equity concerns about surveillance accompany these gains."
   },
   {
     id: "6-7-10",
     question: "Infrastructure inequality within a city most often appears as",
     options: [
-      "identical service quality across every city neighborhood",
-      "better transit, roads, and utilities in wealthier districts",
       "superior services concentrated in the poorest areas",
-      "infrastructure provided only outside the city limits"
+      "infrastructure provided only outside the city limits",
+      "identical service quality across every city neighborhood",
+      "better transit, roads, and utilities in wealthier districts"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Investment tends to follow political influence and tax revenue, compounding existing advantage. Documenting these service gaps is a common application of urban GIS analysis."
   }
 ];

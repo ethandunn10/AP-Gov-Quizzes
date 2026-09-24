@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-6",
     question: "A fragmented state is one that",
     options: [
-      "has a long narrow extension reaching from its main territory",
       "completely surrounds another sovereign state",
       "consists of several discontinuous pieces of territory",
-      "has a roughly circular and compact territorial shape"
+      "has a roughly circular and compact territorial shape",
+      "has a long narrow extension reaching from its main territory"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Indonesia and the Philippines are archipelagic examples, and separated exclaves also create fragmentation. Distance between parts complicates defense and administration."
   },
   {
     id: "4-3-7",
     question: "A prorupted state is characterized by",
     options: [
-      "a compact core with a long extension of territory",
-      "territory entirely surrounded by another single state",
       "several separate islands forming one political unit",
-      "a large hole in the middle of its national territory"
+      "a large hole in the middle of its national territory",
+      "a compact core with a long extension of territory",
+      "territory entirely surrounded by another single state"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Thailand and Namibia have such extensions, often created to reach a resource or a coastline. The proruption may also separate two neighbors."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-9",
     question: "A perforated state is one that",
     options: [
-      "is divided into several noncontiguous territorial pieces",
       "completely surrounds the territory of another state",
       "has a narrow corridor extending to a coastline",
-      "shares borders with more than ten other states"
+      "shares borders with more than ten other states",
+      "is divided into several noncontiguous territorial pieces"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "South Africa surrounds Lesotho, and Italy surrounds both San Marino and Vatican City. The enclosed state depends heavily on its surrounding neighbor."
   },
   {
     id: "4-3-10",
     question: "A geographer assessing classical geopolitical theories would conclude that they",
     options: [
+      "remain universally accepted by geographers today",
       "reflected the strategic concerns and biases of their era",
       "accurately predicted all subsequent world political events",
-      "had no influence on the foreign policy of any state",
-      "remain universally accepted by geographers today"
+      "had no influence on the foreign policy of any state"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Heartland and organic theories shaped real policy while embedding the assumptions of their time, including imperial ones. They are studied now as much for their influence as their accuracy."
   }
 ];

@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-1",
     question: "The Green Revolution is best defined as the spread of",
     options: [
-      "organic methods replacing chemical farm inputs",
       "high yield seed varieties with fertilizer and irrigation",
       "conservation programs protecting remaining forest land",
-      "farm cooperatives owned collectively by rural workers"
+      "farm cooperatives owned collectively by rural workers",
+      "organic methods replacing chemical farm inputs"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "From the 1940s onward, bred varieties of wheat and rice paired with chemical inputs and controlled water sharply raised yields in Mexico and Asia. The name refers to plant growth, not to environmentalism."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-3",
     question: "Green Revolution yields depended heavily on farmers' access to",
     options: [
+      "traditional seed saved from the previous year's harvest",
       "large tracts of previously uncultivated marginal land",
       "fertilizer, pesticide, and a dependable water supply",
-      "cool climates with an unusually short growing season",
-      "traditional seed saved from the previous year's harvest"
+      "cool climates with an unusually short growing season"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The new varieties outperform traditional ones only when fed and watered, which is why the package mattered more than the seed alone. Saving seed is precisely the practice these commercial varieties displaced."
   },
   {
     id: "5-5-4",
     question: "Which region benefited least from the Green Revolution?",
     options: [
-      "South Asia, where wheat and rice yields rose sharply",
-      "Sub-Saharan Africa, where the key crops were different",
       "Mexico, where the first wheat varieties were developed",
-      "East Asia, where rice varieties were widely adopted"
+      "East Asia, where rice varieties were widely adopted",
+      "South Asia, where wheat and rice yields rose sharply",
+      "Sub-Saharan Africa, where the key crops were different"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The revolution targeted wheat and rice, while much of Africa depends on sorghum, millet, cassava, and yams. Weak irrigation infrastructure and limited access to inputs compounded the gap."
   },
   {
     id: "5-5-5",
     question: "A common criticism of the Green Revolution is that it",
     options: [
-      "reduced total global food production over several decades",
       "favored wealthier farmers who could afford the inputs",
       "spread only to countries with fully mechanized agriculture",
-      "eliminated the need for any agricultural research funding"
+      "eliminated the need for any agricultural research funding",
+      "reduced total global food production over several decades"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Seed, fertilizer, and irrigation cost money, so landowners with capital captured most of the gains while smallholders fell behind. Output rose dramatically, which is why the equity question is the substantive criticism."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-7",
     question: "The Green Revolution most directly challenged which earlier prediction?",
     options: [
+      "Rostow's claim that all economies pass through fixed stages",
       "Ravenstein's claim that most migrants move only short distances",
       "Malthus's claim that population would outstrip food supply",
-      "Von Thünen's claim that land use rings surround a market",
-      "Rostow's claim that all economies pass through fixed stages"
+      "Von Thünen's claim that land use rings surround a market"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Malthus argued food grows arithmetically while population grows geometrically, forcing eventual crisis. Technological gains in yield postponed that ceiling, the core neo-Malthusian debate."
   },
   {
     id: "5-5-8",
     question: "Monoculture planting of high yield varieties increases risk because it",
     options: [
-      "requires substantially more human labor per planted acre",
-      "leaves the crop vulnerable to a single pest or disease",
       "prevents farmers from selling their output commercially",
-      "makes mechanical harvesting of the field far more difficult"
+      "makes mechanical harvesting of the field far more difficult",
+      "requires substantially more human labor per planted acre",
+      "leaves the crop vulnerable to a single pest or disease"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Genetic uniformity across a vast planting means one pathogen can destroy everything at once, as in the Irish potato blight. Monoculture actually simplifies mechanization and commercial sale."
   },
   {
     id: "5-5-9",
     question: "Green Revolution technology affected rural populations by",
     options: [
-      "keeping farm employment stable in nearly every region",
       "displacing some laborers as mechanization advanced",
       "ending rural to urban migration in adopting countries",
-      "returning large estates to smallholder family control"
+      "returning large estates to smallholder family control",
+      "keeping farm employment stable in nearly every region"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Tractors and threshers reduced labor demand, and consolidation of holdings pushed tenants off the land, feeding migration to cities. Land ownership generally concentrated rather than dispersed."
   },
   {

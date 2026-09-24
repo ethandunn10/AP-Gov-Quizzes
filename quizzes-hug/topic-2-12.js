@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-12-5",
     question: "Ethnic enclaves form in receiving cities primarily because they",
     options: [
-      "are required by law in most receiving countries",
       "provide language, employment networks, and mutual support",
       "prevent migrants from finding any form of employment",
-      "are established by the governments of sending countries"
+      "are established by the governments of sending countries",
+      "are required by law in most receiving countries"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Shared language, credit, and job information lower the cost of arrival, and discrimination outside reinforces the boundary. Enclaves can aid settlement while sometimes slowing wider integration."
   },
   {
     id: "2-12-6",
     question: "Migration affects the culture of receiving societies by",
     options: [
-      "leaving the receiving culture entirely unchanged",
       "requiring migrants to abandon all cultural practices immediately",
       "introducing foods, languages, and religious practices",
-      "creating societies with no interaction between groups"
+      "creating societies with no interaction between groups",
+      "leaving the receiving culture entirely unchanged"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cuisine, music, and places of worship visibly reshape receiving cities, and the exchange runs in both directions. Assimilation pressure and nativist reaction are part of the same process."
   },
   {
     id: "2-12-7",
     question: "The economic effect of immigration on receiving countries is generally that immigrants",
     options: [
-      "fill labor shortages and pay more in tax than they draw",
-      "reduce total economic output in every receiving country",
       "are legally barred from employment in all sectors",
-      "consistently depress wages across the entire labor market"
+      "consistently depress wages across the entire labor market",
+      "fill labor shortages and pay more in tax than they draw",
+      "reduce total economic output in every receiving country"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Most studies find modest aggregate gains and net fiscal contributions, though effects on particular low-wage sectors are contested. Public debate often outruns the size of measured effects."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-12-10",
     question: "A geographer assessing migration's overall effects would conclude that it",
     options: [
-      "produces identical outcomes for sending and receiving areas",
       "benefits sending areas while harming receiving areas in all cases",
       "reshapes origin and destination in context-dependent ways",
-      "has no measurable demographic or economic consequences"
+      "has no measurable demographic or economic consequences",
+      "produces identical outcomes for sending and receiving areas"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Remittances and brain drain affect origins while labor supply and cultural change affect destinations, with outcomes depending on scale and policy. Blanket judgments in either direction fit the evidence poorly."
   }
 ];

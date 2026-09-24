@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-1",
     question: "Time-space convergence contributes to contemporary diffusion because it",
     options: [
-      "increases the time required to travel between distant places",
       "reduces the time needed to move people, goods, and information",
       "eliminates all cultural differences between world regions",
-      "prevents ideas from spreading beyond national borders"
+      "prevents ideas from spreading beyond national borders",
+      "increases the time required to travel between distant places"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Jet travel and fiber optics shrink functional distance so traits can spread almost instantly. Physical distance is unchanged while its friction collapses."
   },
   {
     id: "3-6-2",
     question: "The internet has altered cultural diffusion primarily by",
     options: [
+      "eliminating the influence of large media corporations",
       "allowing traits to spread regardless of proximity",
       "restricting cultural exchange to neighboring countries",
-      "making relocation diffusion the only possible mechanism",
-      "eliminating the influence of large media corporations"
+      "making relocation diffusion the only possible mechanism"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "A video can reach every continent simultaneously, which weakens the distance decay that shaped earlier diffusion. Language and state censorship remain significant barriers."
   },
   {
@@ -55,72 +55,72 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-5",
     question: "Social media accelerates diffusion but also",
     options: [
-      "guarantees that all users see identical content worldwide",
       "fragments audiences into niche communities of content",
       "eliminates the influence of language on what people see",
-      "prevents any cultural trait from reaching a global audience"
+      "prevents any cultural trait from reaching a global audience",
+      "guarantees that all users see identical content worldwide"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Algorithmic feeds produce highly personalized streams, so global reach coexists with fragmentation. Both effects operate simultaneously."
   },
   {
     id: "3-6-6",
     question: "Global tourism contributes to cultural diffusion by",
     options: [
+      "eliminating the economic value of cultural traditions",
       "moving people temporarily and exposing them to others",
       "permanently relocating populations between countries",
-      "preventing local cultures from changing in any way",
-      "eliminating the economic value of cultural traditions"
+      "preventing local cultures from changing in any way"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Visitors carry impressions home while host communities adapt practices for tourist consumption. That commodification can preserve traditions and hollow them out at once."
   },
   {
     id: "3-6-7",
     question: "The global spread of English is driven mainly by",
     options: [
-      "an international treaty designating it the world language",
       "its inherent linguistic simplicity compared with other languages",
       "the historical requirement that all countries teach it",
-      "imperial legacy plus American economic and cultural weight"
+      "imperial legacy plus American economic and cultural weight",
+      "an international treaty designating it the world language"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Empire spread English administratively and American power made it the language of business, science, and the internet. No treaty or intrinsic property explains its position."
   },
   {
     id: "3-6-8",
     question: "Glocalization describes the process by which",
     options: [
-      "global products and practices are adapted to local contexts",
       "local cultures disappear entirely under global pressure",
       "global corporations refuse to enter any local market",
-      "all world regions adopt identical cultural practices"
+      "all world regions adopt identical cultural practices",
+      "global products and practices are adapted to local contexts"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Menu variations, localized advertising, and adapted formats show global firms accommodating local taste. The term captures why globalization does not produce uniformity."
   },
   {
     id: "3-6-9",
     question: "Barriers to contemporary diffusion include",
     options: [
-      "widespread internet access and multilingual populations",
       "censorship, language difference, and cost of access",
       "the presence of transnational corporations in a country",
-      "high levels of international tourism and student exchange"
+      "high levels of international tourism and student exchange",
+      "widespread internet access and multilingual populations"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "National firewalls, limited connectivity, and language all restrict what actually reaches a population. Diffusion is fast but far from frictionless."
   },
   {
     id: "3-6-10",
     question: "A geographer assessing contemporary diffusion would conclude that it is",
     options: [
+      "identical in mechanism to diffusion before the year 1800",
       "faster and less dependent on distance than in earlier eras",
       "slower than diffusion in the pre-industrial period",
-      "entirely dependent on the physical movement of people",
-      "identical in mechanism to diffusion before the year 1800"
+      "entirely dependent on the physical movement of people"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Traits that once took generations to travel now spread in hours through electronic media. Distance still matters, but far less than it once did."
   }
 ];

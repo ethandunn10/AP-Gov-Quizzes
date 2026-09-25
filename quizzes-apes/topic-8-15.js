@@ -55,10 +55,10 @@ window.QUIZ_QUESTIONS = [
     id: "8-15-5",
     question: "A zoonotic disease is one that",
     options: [
-      "spreads from animals to humans",
-      "is caused by environmental chemical exposure",
-      "spreads exclusively between human individuals",
-      "affects only wild animals and never infects humans"
+      "spreads from animals to human populations",
+      "is caused by chemical exposure",
+      "spreads only between human individuals",
+      "affects wild animals but never humans"
     ],
     correctIndex: 0,
     explanation: "Most emerging infectious diseases in recent decades have been zoonotic. Habitat encroachment increases contact between people and wildlife reservoirs."

@@ -95,3 +95,60 @@ U1 1491-1607 (7, DONE) · U2 1607-1754 (8) · U3 1754-1800 (13) · U4 1800-1848 
 ## Not in this prompt
 - **AP Business with Personal Finance** — brand-new CB course. Confirm a public CED exists; if the framework is still moving, skip it.
 - **AP Seminar** — no content CED. Skills course: original 150-word argumentative passages + questions on claim ID, evidence quality, fallacies, source credibility, correlation vs causation. Label it in-app as skill practice; the real exam has no MCQ.
+
+---
+
+## Status — ALL NINE SUBJECTS COMPLETE (verified Sept 24 2026)
+
+Every subject below was checked against the current College Board CED PDF by
+extracting `TOPIC n.m` headings and comparing per-unit counts. All match exactly.
+
+| Subject | Folder | Units | Topics | Questions | CED verified |
+|---|---|---|---|---|---|
+| AP Government | `quizzes/` | 5 | 60 | 600 | yes — 9/15/13/10/13 |
+| AP Biology | `quizzes-bio/` | 8 | 60 | 600 | yes — 7/10/5/6/5/8/12/7 |
+| AP U.S. History | `quizzes-ush/` | 9 | 105 | 1050 | yes — see Appendix A |
+| AP Psychology | `quizzes-psych/` | 5 | 35 | 350 | yes — 6/8/9/7/5 |
+| AP Chemistry | `quizzes-chem/` | 9 | 91 | 910 | yes — 8/7/13/9/11/9/12/11/11 |
+| AP World History | `quizzes-world/` | 9 | 71 | 710 | yes |
+| AP European History | `quizzes-euro/` | 9 | 88 | 880 | yes |
+| AP Human Geography | `quizzes-hug/` | 7 | 68 | 680 | yes |
+| AP Environmental Science | `quizzes-apes/` | 9 | 99 | 990 | yes |
+| **TOTAL** | | **70** | **677** | **6,770** | |
+
+Smoke test (loads every registry + topic file the way the browser does) reports
+677 unique lesson ids, 70 unique unit ids, no collisions, every unit reference
+resolving, 10 questions / 4 distinct options / valid `correctIndex` throughout.
+
+Note: the instruction above to leave changes uncommitted was superseded — the
+work is committed and pushed on branch `rename-to-blurt`.
+
+## Known remaining quality issue — answer-length tell
+
+The correct option is the longest more often than the 25% expected by chance:
+
+| Subject | correct-is-longest | status |
+|---|---|---|
+| APUSH | 87% | NOT fixed |
+| AP Gov | 85% | NOT fixed |
+| AP Chem | 65% | NOT fixed |
+| AP Environmental Science | 43% | partly mitigated |
+| AP Human Geography | 39% | partly mitigated |
+| AP European History | 30% | mitigated |
+| AP Biology | 24% | fixed |
+| AP World History | 21% | fixed |
+
+Answer POSITION (A/B/C/D) is balanced in every subject built this session.
+
+Fix method that works: write all four options within ~14 characters of each
+other (`band.js`), and deliberately make a distractor the longest option — that
+alone drops the rate to roughly 20%. Then run `balance2.js` for position.
+
+## Not built (would need app changes first)
+
+`js/quiz.js` renders with `.textContent`, so HTML and LaTeX appear as literal
+text. AP Calculus AB/BC, Precalculus, Statistics, and Physics C all need a real
+equation renderer (KaTeX or MathJax) added to the app before content is useful.
+AP Chem works only because formulas use Unicode subscripts (H₂O).
+Possible without a renderer: AP Physics 1/2, Macro/Microeconomics,
+Comparative Government, Art History.

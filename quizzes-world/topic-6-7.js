@@ -19,84 +19,84 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-2",
     question: "The Chinese Exclusion Act of 1882 in the United States is significant because it",
     options: [
+      "applied equally to all immigrant groups",
       "granted Chinese immigrants full citizenship and voting rights",
       "it was the first US law barring entry by nationality",
-      "encouraged increased Chinese immigration",
-      "applied equally to all immigrant groups"
+      "encouraged increased Chinese immigration"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "It singled out a specific nationality for exclusion, setting a precedent for race-based immigration restriction. Chinese residents were also barred from naturalization, marking them as permanently foreign."
   },
   {
     id: "6-7-3",
     question: "The gender composition of nineteenth-century labor migration was typically",
     options: [
+      "predominantly female in all cases",
       "restricted to entire families migrating together",
       "balanced between men and women in all of the migration streams",
-      "heavily male, reshaping families at both ends",
-      "predominantly female in all cases"
+      "heavily male, reshaping families at both ends"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Recruiters wanted young men for mines, plantations, and railways, leaving women in sending communities to manage households and land while producing skewed sex ratios in destinations. Both ends of the migration were altered by that imbalance."
   },
   {
     id: "6-7-4",
     question: "Remittances sent home by migrants affected sending regions by",
     options: [
-      "causing the immediate industrialization of rural sending regions",
       "being prohibited by receiving countries",
       "having no measurable economic effect",
-      "supporting families and businesses while breeding real dependence"
+      "supporting families and businesses while breeding real dependence",
+      "causing the immediate industrialization of rural sending regions"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Money sent home paid debts and school fees and bought land, but villages could come to rely on that income rather than on local production. The dependence is as important as the benefit."
   },
   {
     id: "6-7-5",
     question: "Migration contributed to cultural change in receiving societies by",
     options: [
-      "bringing foods, religions, and languages that were adapted",
-      "requiring migrants to abandon all cultural practices immediately",
       "creating completely separate societies with no interaction",
-      "leaving receiving cultures entirely unchanged"
+      "leaving receiving cultures entirely unchanged",
+      "bringing foods, religions, and languages that were adapted",
+      "requiring migrants to abandon all cultural practices immediately"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Indian communities brought Hinduism and Islam to the Caribbean and Fiji, and Chinese and Italian foodways reshaped diets in the Americas. Assimilation pressure and nativist backlash were part of the same process."
   },
   {
     id: "6-7-6",
     question: "Nativist movements in receiving countries typically argued that immigrants",
     options: [
+      "were needed to fill labor shortages",
       "improved wages for native-born workers",
       "cut wages, threatened homogeneity, and could never assimilate",
-      "should be granted immediate citizenship on arrival in the country",
-      "were needed to fill labor shortages"
+      "should be granted immediate citizenship on arrival in the country"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Nativist campaigns combined economic anxiety about wage competition with racial and religious hostility, and both strands fed restriction laws. Employers often took the opposite view, since immigrant labor was what they wanted."
   },
   {
     id: "6-7-7",
     question: "The creation of new diasporic communities in this period had which long-term effect?",
     options: [
+      "The complete severing of ties with home societies",
       "The elimination of all cultural difference within one generation",
       "No lasting demographic change in receiving countries",
-      "lasting links of kinship, remittance, and cultural exchange alike",
-      "The complete severing of ties with home societies"
+      "lasting links of kinship, remittance, and cultural exchange alike"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Migration created durable networks along which people, money, ideas, and politics continued to flow for generations. The Indian communities of East Africa and the Caribbean remain examples today."
   },
   {
     id: "6-7-8",
     question: "Which statement best describes the demographic effect of migration on receiving societies in the Americas and Oceania?",
     options: [
-      "No measurable population change occurred",
       "Populations became considerably more ethnically homogeneous",
       "Populations declined due to emigration",
-      "fast growth and diversity, plus Indigenous displacement"
+      "fast growth and diversity, plus Indigenous displacement",
+      "No measurable population change occurred"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Millions of arrivals transformed the size and composition of populations in Argentina, the United States, and Australia, even as settlement accelerated Indigenous dispossession. Both processes belong in the same account."
   },
   {

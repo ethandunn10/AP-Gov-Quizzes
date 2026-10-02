@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-4",
     question: "A stateless nation is a cultural group that",
     options: [
+      "governs a recognized territory with defined boundaries",
       "has voluntarily surrendered its claim to any territory",
       "lacks a sovereign state of its own",
-      "has been granted full sovereignty by the United Nations",
-      "governs a recognized territory with defined boundaries"
+      "has been granted full sovereignty by the United Nations"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Kurds, Palestinians, and Basques hold national identities without fully sovereign states. Their claims are a persistent source of political conflict."
   },
   {
     id: "4-1-5",
     question: "A multinational state is one that",
     options: [
-      "is governed jointly by two neighboring countries",
-      "belongs to several international organizations",
       "contains more than one nation within its boundaries",
-      "has colonies in several different world regions"
+      "has colonies in several different world regions",
+      "is governed jointly by two neighboring countries",
+      "belongs to several international organizations"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Canada, Belgium, and the former Yugoslavia all contain several national groups. Managing those differences is a central task of such states."
   },
   {
@@ -68,7 +68,7 @@ window.QUIZ_QUESTIONS = [
     question: "Sovereignty refers to a state's",
     options: [
       "membership in international economic organizations",
-      "cultural homogeneity across its national territory",
+      "cultural homogeneity across the whole of its national territory",
       "total population relative to its neighbors",
       "supreme authority over its territory, free of outside control"
     ],
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-7",
     question: "A territory that is politically attached to but separate from a state is called",
     options: [
-      "a dependency or colony rather than a sovereign state",
       "a nation-state with homogeneous population",
-      "a landlocked state with no access to the sea",
-      "a stateless nation seeking independence"
+      "a landlocked state with no access whatsoever to the sea",
+      "a stateless nation seeking independence",
+      "a dependency or colony rather than a sovereign state"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Puerto Rico and Greenland are governed by another state without full sovereignty. Residents' political rights vary considerably among such territories."
   },
   {
     id: "4-1-8",
     question: "The modern state system is conventionally traced to",
     options: [
+      "the Congress of Vienna convened following Napoleon's final defeat",
       "the decolonization of Africa during the 1960s",
       "the Peace of Westphalia and its recognition of sovereign rule",
-      "the founding of the United Nations after 1945",
-      "the Congress of Vienna following Napoleon's defeat"
+      "the founding of the United Nations after 1945"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The 1648 settlement established that rulers answer to no external authority within their borders. That principle still organizes international relations."
   },
   {
     id: "4-1-9",
     question: "Self-determination is the principle that",
     options: [
+      "existing borders should never be altered under any circumstances",
       "states may annex territory belonging to weaker neighbors",
       "international organizations should govern disputed territories",
-      "peoples have the right to choose their own government",
-      "existing borders should never be altered under any circumstances"
+      "peoples have the right to choose their own government"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Invoked at Versailles and again during decolonization, it underpins many independence claims. It conflicts directly with the principle of territorial integrity."
   },
   {
     id: "4-1-10",
     question: "A geographer explaining conflict in multinational states would emphasize that",
     options: [
-      "such states are always more stable than nation-states",
       "cultural difference never produces political consequences",
       "all multinational states eventually collapse into smaller units",
-      "competing national identities strain a single sovereign framework"
+      "competing national identities strain a single sovereign framework",
+      "such states are always more stable than nation-states"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "When groups feel their identity is unrecognized or subordinated, demands for autonomy or independence follow. Federalism and power-sharing are common institutional responses."
   }
 ];

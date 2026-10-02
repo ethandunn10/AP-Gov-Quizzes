@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-2",
     question: "The European Union is distinctive among regional organizations because it",
     options: [
+      "shared sovereignty, common law, a single market, one currency",
       "has no elected representative body",
       "requires no coordination among member governments",
-      "it operates purely as a free trade area with no shared institutions",
-      "shared sovereignty, common law, a single market, one currency"
+      "it operates purely as a free trade area with no shared institutions"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "EU law takes precedence over national law in its domains, and the European Parliament is directly elected — a depth of integration no other regional bloc approaches. The euro added monetary union for most members."
   },
   {
     id: "9-8-3",
     question: "The World Health Organization's role in global health includes",
     options: [
+      "directly governing national health systems",
       "coordinating outbreak response and setting global health standards",
       "manufacturing all vaccines used worldwide",
-      "regulating the domestic medical licensing system of every country",
-      "directly governing national health systems"
+      "regulating the domestic medical licensing system of every country"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The WHO coordinates, advises, and sets standards but depends on member states to implement, which is why its effectiveness varies with political cooperation. Smallpox eradication is its clearest success."
   },
   {
     id: "9-8-4",
     question: "Non-governmental organizations differ from intergovernmental organizations in that NGOs",
     options: [
-      "are created by treaties among states",
       "are private bodies, flexible and credible but without authority",
       "have binding legal authority over the states in which they operate",
-      "operate only within a single country"
+      "operate only within a single country",
+      "are created by treaties among states"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Independence lets Amnesty International criticize any government, but it also means NGOs can only persuade and publicize rather than compel. Many operate across dozens of countries."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-8",
     question: "Regional organizations such as the African Union and ASEAN were established primarily to",
     options: [
-      "replace the United Nations entirely",
-      "promote regional cooperation and give members a joint collective voice",
       "prevent all trade among member states",
-      "administer the former colonial territories of the European powers"
+      "administer the former colonial territories of the European powers",
+      "replace the United Nations entirely",
+      "promote regional cooperation and give members a joint collective voice"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Regional bodies let smaller states pool influence and manage shared problems more directly than a global body can. They complement rather than replace the UN system."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-10",
     question: "A historian argues that international institutions 'reflect the power structures that created them.' The strongest supporting evidence is",
     options: [
+      "the 1945 victors' veto and weighted voting at the IMF",
       "the equal distribution of authority across all members in every institution",
       "the absence of any voting procedures in international organizations",
-      "the exclusion of all powerful states from international institutions",
-      "the 1945 victors' veto and weighted voting at the IMF"
+      "the exclusion of all powerful states from international institutions"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Voting weight tied to financial contribution and permanent vetoes both encode the distribution of power at the moment of founding. Reform proposals consistently fail because they require the consent of those the current rules privilege."
   }
 ];

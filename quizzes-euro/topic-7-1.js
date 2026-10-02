@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-1",
     question: "The second half of the nineteenth century differed politically from the first in that",
     options: [
-      "the Concert of Europe gained binding legal authority over states",
       "conservative regimes abandoned the use of force against opposition",
       "nationalism shifted from a liberal cause to a conservative tool",
-      "liberalism disappeared entirely as a force in European politics"
+      "liberalism disappeared entirely as a force in European politics",
+      "the Concert of Europe gained binding legal authority over states"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cavour and Bismarck achieved by war and diplomacy what the liberals of 1848 had failed to win by assembly. Nationalism thereafter served state power as often as it challenged it."
   },
   {
     id: "7-1-2",
     question: "Realpolitik refers to a style of statecraft that",
     options: [
+      "subordinates ideology and sentiment to calculations of power",
       "requires rulers to act strictly according to moral principle",
       "submits all international disputes to binding arbitration",
-      "bases foreign policy on the shared religion of the ruling houses",
-      "subordinates ideology and sentiment to calculations of power"
+      "bases foreign policy on the shared religion of the ruling houses"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Bismarck's readiness to ally with liberals or fight former partners as circumstances required exemplifies the approach. It marked a departure from the principled conservatism of Metternich."
   },
   {
@@ -43,48 +43,48 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-4",
     question: "European global dominance by 1900 rested primarily on",
     options: [
-      "Europe's much larger population relative to Asia and Africa",
-      "industrial production, financial power, and military technology",
       "the moral superiority Europeans claimed over other civilizations",
-      "the willing submission of Asian and African states to European rule"
+      "the willing submission of Asian and African states to European rule",
+      "Europe's much larger population relative to Asia and Africa",
+      "industrial production, financial power, and military technology"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Steamships, machine guns, quinine, and capital markets let small European states dominate far larger societies. Europe's population was a fraction of Asia's throughout."
   },
   {
     id: "7-1-5",
     question: "Mass politics emerged in this period because of",
     options: [
-      "the disappearance of the landed aristocracy from public life",
       "the decision of governments to abolish elections entirely",
       "widening suffrage, cheap newspapers, and organized political parties",
-      "the removal of all restrictions on voting rights before the year 1850"
+      "the removal of all restrictions on voting rights before the year 1850",
+      "the disappearance of the landed aristocracy from public life"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Larger electorates required parties that could organize and persuade, and the penny press gave them a medium. Politics became a contest for public opinion rather than court influence."
   },
   {
     id: "7-1-6",
     question: "Which continuity persisted across the nineteenth century?",
     options: [
+      "Women remained excluded from national voting almost everywhere",
       "Serfdom persisted unchanged across the whole of eastern Europe",
       "European states avoided all involvement in overseas territories",
-      "Monarchy had been abolished in every major European state",
-      "Women remained excluded from national voting almost everywhere"
+      "Monarchy had been abolished in every major European state"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Despite organized campaigns and expanding male suffrage, no major European state granted women the parliamentary vote before 1914. Russian serfdom ended in 1861 and monarchy persisted widely."
   },
   {
     id: "7-1-7",
     question: "The balance of power in Europe shifted after 1871 because",
     options: [
-      "a unified Germany became the strongest continental state",
       "Austria-Hungary emerged as the dominant power in central Europe",
       "France gained territory and population at Germany's expense",
-      "Britain withdrew from all involvement in continental affairs"
+      "Britain withdrew from all involvement in continental affairs",
+      "a unified Germany became the strongest continental state"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "German unification created an industrial and military power at Europe's center, and Bismarck spent twenty years managing the alarm it caused. France lost Alsace-Lorraine in the process."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-10",
     question: "A historian characterizing the later nineteenth century would emphasize",
     options: [
-      "a period of stagnation with little political or cultural change",
       "the complete triumph of liberal democracy across the continent",
       "the isolation of European states from developments elsewhere",
-      "confidence in progress coexisting with intensifying rivalry"
+      "confidence in progress coexisting with intensifying rivalry",
+      "a period of stagnation with little political or cultural change"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Contemporaries celebrated science, wealth, and empire while alliance systems and arms races built toward catastrophe. That tension is the standard framing for the decades before 1914."
   }
 ];

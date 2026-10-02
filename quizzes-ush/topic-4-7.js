@@ -22,7 +22,7 @@ window.QUIZ_QUESTIONS = [
       "direct popular primaries in each state",
       "congressional caucuses choosing presidential candidates",
       "selection of candidates by state governors",
-      "appointment of candidates by party newspapers"
+      "the appointment of candidates by leading party newspapers"
     ],
     correctIndex: 1,
     explanation: "King Caucus gave way to conventions that claimed broader popular legitimacy. The change reflected and reinforced the era's democratizing political culture."
@@ -31,31 +31,31 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-3",
     question: "The election of 1828 differed from earlier elections because it featured",
     options: [
-      "mass campaigning aimed at a greatly enlarged electorate",
-      "the first use of the Electoral College system",
+      "the very first use of the Electoral College voting system",
       "candidates selected by the Supreme Court",
-      "voting restricted to property-owning citizens"
+      "voting restricted to property-owning citizens",
+      "mass campaigning aimed at a greatly enlarged electorate"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Rallies, parades, and partisan newspapers mobilized voters on a new scale, and turnout more than doubled. The campaign was also notably personal and vicious on both sides."
   },
   {
     id: "4-7-4",
     question: "The spoils system under Jackson involved",
     options: [
+      "transferring federal offices to the state governments",
       "selling federal land to the highest bidders",
       "appointing political supporters to federal offices",
-      "distributing surplus revenue directly to voters",
-      "transferring federal offices to state governments"
+      "distributing surplus revenue directly to voters"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Jackson defended rotation in office as democratic, arguing ordinary citizens could perform public duties. Critics saw patronage corruption, and the practice expanded through the century."
   },
   {
     id: "4-7-5",
     question: "Democratization in this era was limited by the fact that",
     options: [
-      "property requirements increased in most northern states",
+      "property requirements increased across most of the northern states",
       "voter turnout declined steadily after 1824",
       "political parties disappeared from national elections",
       "women, Black Americans, and Native peoples remained excluded"
@@ -70,7 +70,7 @@ window.QUIZ_QUESTIONS = [
       "the expansion of voting rights to non-property holders",
       "American territorial expansion into the Southwest",
       "what its members saw as Jackson's excessive executive power",
-      "the continuation of the Second Bank of the United States"
+      "the continuation of the Second Bank of the United States charter"
     ],
     correctIndex: 2,
     explanation: "Whigs took their name from opponents of monarchy, casting Jackson as King Andrew. They supported the Bank and the American System that Jackson opposed."
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-7",
     question: "Jacksonian Democrats generally favored",
     options: [
+      "a dramatic expansion of federal authority over state economic policy",
       "limited federal power and hostility toward privileged institutions",
       "a strong national bank and protective tariffs",
-      "federal funding for extensive internal improvements",
-      "expanded federal authority over state economic policy"
+      "federal funding for extensive internal improvements"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Democrats appealed to farmers and workers against banks, monopolies, and federal economic activism. Whigs championed the activist program they opposed."
   },
   {
     id: "4-7-8",
     question: "The second party system differed from the first in that it",
     options: [
-      "featured organized parties competing in every region",
-      "eliminated sectional differences in voting patterns",
       "rejected popular campaigning as undignified",
-      "operated without any formal party organizations"
+      "operated without any formal party organizations",
+      "featured organized parties competing in every region",
+      "eliminated all sectional differences in voting patterns"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Whigs and Democrats built genuine national organizations with competitive support across sections. That national breadth kept sectional conflict contained until the 1850s."
   },
   {
     id: "4-7-9",
     question: "Which evidence best supports the claim that this era's democratization was racially exclusive?",
     options: [
-      "Property qualifications for white men were eliminated",
-      "Voter turnout rose dramatically in presidential elections",
+      "Voter turnout rose dramatically across all presidential elections",
       "Pennsylvania and other states removed Black men's voting rights",
-      "Nominating conventions replaced congressional caucuses"
+      "Nominating conventions replaced congressional caucuses",
+      "Property qualifications for white men were eliminated"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "States expanding white suffrage often stripped Black suffrage in the same constitutional revisions. That simultaneity is the strongest evidence for a racial definition of democracy."
   },
   {
     id: "4-7-10",
     question: "Tocqueville's observations of American democracy noted both",
     options: [
+      "the absence of any voluntary associations among citizens",
+      "declining participation in civic and political life",
       "hereditary aristocracy and rigid class boundaries",
-      "widespread equality of condition and the danger of majority tyranny",
-      "the absence of voluntary associations among citizens",
-      "declining participation in civic and political life"
+      "widespread equality of condition and majority tyranny"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "He admired the social equality and associational life among white Americans while warning that majorities could crush dissent. He also recognized that slavery and Native removal contradicted the democratic ideal."
   }
 ];

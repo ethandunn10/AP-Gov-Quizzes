@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-8-1",
     question: "The nullification crisis of 1832 arose when South Carolina",
     options: [
-      "attempted to secede from the union over slavery",
-      "refused to allow federal courts to operate",
       "declared federal tariffs void within the state",
-      "demanded the removal of the national bank"
+      "demanded the removal of the national bank",
+      "attempted to secede from the union over slavery",
+      "refused to allow federal courts to operate"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Calhoun's doctrine held that a state could nullify federal law it deemed unconstitutional. Jackson, though a states' rights Democrat, treated nullification as a threat to the union itself."
   },
   {
     id: "4-8-2",
     question: "Jackson's response to nullification demonstrated that he",
     options: [
-      "supported the right of states to reject federal law",
-      "preferred to let the Supreme Court settle the dispute",
       "would use federal force to uphold national authority",
-      "intended to repeal all tariffs immediately"
+      "intended to repeal all tariffs immediately",
+      "supported the right of states to reject federal law",
+      "preferred to let the Supreme Court settle the dispute"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "He secured the Force Bill authorizing military enforcement while Clay negotiated a compromise tariff. The combination of threat and concession ended the crisis without violence."
   },
   {
@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-8-4",
     question: "The removal of federal deposits from the national bank contributed to",
     options: [
-      "an immediate contraction of credit throughout the economy",
       "speculative lending by state banks and eventual financial panic",
       "the federal government's assumption of all state debts",
-      "the creation of a permanent federal reserve system"
+      "the creation of a permanent federal reserve system",
+      "an immediate contraction of available credit throughout the economy"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Deposits in pet banks fueled speculation that collapsed in the Panic of 1837. The Specie Circular requiring gold for land purchases helped trigger the reckoning."
   },
   {
     id: "4-8-5",
     question: "The Indian Removal Act of 1830 authorized the president to",
     options: [
-      "grant Native nations permanent title to their eastern homelands",
       "extend United States citizenship to Native peoples",
       "place Native nations under the jurisdiction of federal courts",
-      "negotiate treaties exchanging eastern Native land for western territory"
+      "negotiate treaties trading eastern Native land for western land",
+      "grant Native nations permanent title to their eastern homelands"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Treaties were framed as voluntary exchanges but were negotiated under coercion and often with unrepresentative signers. The Cherokee removal produced the Trail of Tears, killing thousands."
   },
   {
@@ -80,9 +80,9 @@ window.QUIZ_QUESTIONS = [
     question: "Jackson's use of the veto differed from that of previous presidents because he",
     options: [
       "never vetoed legislation passed by Congress",
-      "rejected bills on policy grounds rather than constitutional ones alone",
+      "rejected bills on policy grounds, not only constitutional ones",
       "allowed Congress to override vetoes by simple majority",
-      "vetoed only bills the Supreme Court had already reviewed"
+      "vetoed only those bills that the Supreme Court had already reviewed"
     ],
     correctIndex: 1,
     explanation: "Earlier presidents reserved the veto for measures they believed unconstitutional; Jackson used it as a policy tool. That expansion of executive power is what earned him the King Andrew label."
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-8-8",
     question: "The Panic of 1837 is best explained as resulting from",
     options: [
-      "a sudden decline in American population growth",
       "speculative excess, bank instability, and contracting credit",
-      "the federal government's refusal to sell western land",
-      "excessive federal spending on internal improvements"
+      "the federal government's refusal to sell any of the western land",
+      "excessive federal spending on internal improvements",
+      "a sudden decline in American population growth"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Land speculation, unstable state banknotes, and international credit contraction combined into a severe depression. Van Buren inherited the crisis and was blamed for it politically."
   },
   {
     id: "4-8-9",
     question: "Which evidence best supports the claim that Jackson expanded presidential power?",
     options: [
+      "He declined to intervene in the nullification crisis",
       "He vetoed more bills than all previous presidents combined",
       "He deferred to Congress on the question of the national bank",
-      "He enforced the Supreme Court's ruling in Worcester v. Georgia",
-      "He declined to intervene in the nullification crisis"
+      "He enforced the Supreme Court's ruling in Worcester v. Georgia"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "His veto record and his willingness to act against both Congress and the Court show a redefined presidency. The other options describe deference he did not display."
   },
   {
     id: "4-8-10",
     question: "Jackson's presidency is often described as contradictory because he",
     options: [
+      "supported the national bank while openly attacking financial elites",
       "championed states' rights yet used federal force against a state",
       "opposed slavery while owning enslaved people himself",
-      "expanded suffrage while opposing the spoils system",
-      "supported the national bank while attacking financial elites"
+      "expanded suffrage while opposing the spoils system"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "He defended state authority in principle while crushing nullification and ignoring a Court ruling protecting Cherokee sovereignty. He consistently defended slavery rather than opposing it."
   }
 ];

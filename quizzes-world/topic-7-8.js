@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-8-1",
     question: "The Holocaust is distinguished among twentieth-century atrocities by",
     options: [
-      "its occurrence entirely before the outbreak of the Second World War",
-      "its limited geographic scope within a single city",
       "an industrialized state attempt to exterminate an entire people",
-      "the absence of any government involvement"
+      "the absence of any government involvement",
+      "its occurrence entirely before the outbreak of the Second World War",
+      "its limited geographic scope within a single city"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Nazi Germany applied bureaucracy, railways, and purpose-built killing centers to the total destruction of European Jewry, murdering roughly six million along with Roma, disabled people, and others. The industrial organization of the killing is what sets it apart."
   },
   {
     id: "7-8-2",
     question: "The Armenian genocide occurred in the context of",
     options: [
-      "the Russian Revolution of 1917",
-      "the Greek war of independence fought during the 1820s",
       "the Second World War",
-      "Ottoman wartime fear and nationalist policy in 1915"
+      "Ottoman wartime fear and nationalist policy in 1915",
+      "the Russian Revolution of 1917",
+      "the Greek war of independence fought during the 1820s"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Ottoman authorities used wartime security claims to justify deporting and killing Armenians in 1915 and after, in the course of redefining the empire in Turkish nationalist terms. War supplied both the pretext and the cover."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-8-6",
     question: "The Rwandan genocide of 1994 was made possible in part by",
     options: [
-      "the complete absence of any functioning government structure in Rwanda",
       "a foreign military invasion of Rwanda",
       "a natural disaster that displaced the population",
-      "colonial ethnic categories, radio propaganda, and inaction"
+      "colonial ethnic categories, radio propaganda, and inaction",
+      "the complete absence of any functioning government structure in Rwanda"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Belgian rule had hardened Hutu and Tutsi into fixed administrative categories, radio broadcasts organized the killing, and UN forces were withdrawn rather than reinforced. Roughly 800,000 people were killed in about a hundred days."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-8-8",
     question: "Which factor most commonly precedes mass atrocities in the twentieth century?",
     options: [
+      "The presence of strong international enforcement mechanisms and courts",
       "Economic prosperity and political stability",
       "propaganda dehumanizing a group, plus state capacity and crisis",
-      "The absence of any centralized government",
-      "The presence of strong international enforcement mechanisms and courts"
+      "The absence of any centralized government"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Propaganda defines the victim group as an existential threat, a modern state supplies lists and logistics, and war or upheaval provides opportunity. This pattern recurs across otherwise dissimilar cases."
   },
   {
     id: "7-8-9",
     question: "Which statement best explains why modern states were able to commit atrocities on unprecedented scales?",
     options: [
+      "Earlier societies were incapable of any kind of organized violence",
       "Modern states had smaller populations to administer",
       "International law prevented all pre-modern violence",
-      "bureaucracy, railways, and industry made mass killing possible",
-      "Earlier societies were incapable of any kind of organized violence"
+      "bureaucracy, railways, and industry made mass killing possible"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Census records, railways, radio, and industrial chemistry gave twentieth-century states capacities no earlier regime possessed. The same administrative modernity that built welfare states also enabled industrial murder."
   },
   {
     id: "7-8-10",
     question: "A historian argues that international responses to genocide have been 'consistently inadequate.' The strongest supporting evidence is",
     options: [
+      "failure to act in Rwanda in 1994 and at Srebrenica in 1995",
       "the immediate and fully effective international intervention in every case",
       "the absence of any international legal framework",
-      "the prevention of all mass atrocities after 1948",
-      "failure to act in Rwanda in 1994 and at Srebrenica in 1995"
+      "the prevention of all mass atrocities after 1948"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Both cases occurred with international forces present or nearby and with the legal framework in place, yet effective intervention did not come. The gap between legal obligation and political will is the argument's core."
   }
 ];

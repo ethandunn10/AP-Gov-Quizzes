@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-1",
     question: "The Council of Trent responded to Protestantism by",
     options: [
-      "transferring doctrinal authority from the papacy to secular rulers",
-      "adopting justification by faith alone as official Catholic teaching",
       "reaffirming contested doctrines while correcting clerical abuses",
-      "abolishing the sacraments other than baptism and communion"
+      "abolishing the sacraments other than baptism and communion",
+      "transferring doctrinal authority from the papacy to secular rulers",
+      "adopting justification by faith alone as official Catholic teaching"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Trent restated the seven sacraments, tradition alongside scripture, and salvation by faith and works, while requiring seminaries and resident bishops. It conceded reform of practice but not of doctrine."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-5",
     question: "Institutional reforms adopted at Trent included",
     options: [
-      "permission for parish clergy to marry and to raise their own families",
       "the election of bishops by the lay members of each individual diocese",
       "seminaries for clergy training and a requirement that bishops reside",
-      "the abolition of monastic orders throughout all Catholic territories"
+      "the abolition of monastic orders throughout all Catholic territories",
+      "permission for parish clergy to marry and to raise their own families"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Trent attacked pluralism and absenteeism by requiring bishops to live in their dioceses and mandating seminary education. Clerical celibacy was reaffirmed rather than relaxed."
   },
   {
     id: "2-5-6",
     question: "The Roman Inquisition differed from the Spanish Inquisition in that it was",
     options: [
-      "run by secular magistrates rather than by any church authority at all",
       "concerned only with cases that involved accusations of witchcraft",
       "abolished within a decade of its establishment during the 1540s",
-      "directed by the papacy rather than by a national monarchy"
+      "directed by the papacy rather than by a national monarchy",
+      "run by secular magistrates rather than by any church authority at all"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Spanish Inquisition answered to the crown and served royal policy, while the Roman body was a papal institution focused on doctrinal error. Galileo's trial is its best-known case."
   },
   {
     id: "2-5-7",
     question: "Catholic missionary activity in this period expanded most notably into",
     options: [
-      "the Americas and Asia, following Iberian trade routes and conquest",
       "Scandinavia, which returned to Catholic worship during the century",
       "the Ottoman Empire, where mass conversions were rapidly achieved",
-      "England, which reverted permanently to the authority of the papacy"
+      "England, which reverted permanently to the authority of the papacy",
+      "the Americas and Asia, following Iberian trade routes and conquest"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Jesuit and Franciscan missionaries followed Spanish and Portuguese routes into Mexico, Peru, India, China, and Japan. Scandinavia and England remained Protestant after brief reversals."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-10",
     question: "Historians debating 'Counter-Reformation' versus 'Catholic Reformation' would note that",
     options: [
+      "Catholic reform predated Luther, so it was not purely reactive",
       "neither term applies, since the Catholic Church made no changes at all",
       "the two terms are identical, since both describe reaction to Luther",
-      "reform efforts began only after the Council of Trent had concluded",
-      "Catholic reform predated Luther, so it was not purely reactive"
+      "reform efforts began only after the Council of Trent had concluded"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Spanish reform under Cisneros and Italian devotional movements were underway before 1517, so the church was not merely responding to Protestantism. The debate concerns how much was reaction and how much renewal."
   }
 ];

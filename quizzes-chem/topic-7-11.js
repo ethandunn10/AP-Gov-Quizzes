@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-11-1",
     question: "For AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq), the solubility product expression is",
     options: [
-      "Ksp = [Ag⁺][Cl⁻]/[AgCl]",
-      "Ksp = [Ag⁺][Cl⁻]",
       "Ksp = [AgCl]",
-      "Ksp = [Ag⁺] + [Cl⁻]"
+      "Ksp = [Ag⁺] + [Cl⁻]",
+      "Ksp = [Ag⁺][Cl⁻]/[AgCl]",
+      "Ksp = [Ag⁺][Cl⁻]"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The pure solid is omitted from the expression. Only the dissolved ion concentrations appear."
   },
   {
     id: "7-11-2",
     question: "If the molar solubility of AgCl is s, then Ksp equals",
     options: [
-      "s",
       "s²",
       "2s",
-      "4s³"
+      "4s³",
+      "s"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Each formula unit gives one Ag⁺ and one Cl⁻, both equal to s. The relationship between s and Ksp depends on stoichiometry."
   },
   {
     id: "7-11-3",
     question: "For a salt of type MX₂ with molar solubility s, Ksp equals",
     options: [
+      "s³",
       "s²",
       "2s²",
-      "4s³",
-      "s³"
+      "4s³"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "[M²⁺] = s and [X⁻] = 2s, so Ksp = s(2s)² = 4s³. Forgetting to square the 2 is the usual mistake."
   },
   {
@@ -44,8 +44,8 @@ window.QUIZ_QUESTIONS = [
     question: "A saturated solution is one in which",
     options: [
       "no solid remains",
-      "dissolved ions are in equilibrium with undissolved solid",
-      "all solid has dissolved",
+      "dissolved ions are in equilibrium with the solid",
+      "all of the solid present has completely dissolved",
       "Ksp equals zero"
     ],
     correctIndex: 1,
@@ -57,7 +57,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "more solid will dissolve",
       "a precipitate will form until Q equals Ksp",
-      "the solution is unsaturated",
+      "the solution must therefore be quite unsaturated",
       "nothing happens"
     ],
     correctIndex: 1,
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-11-6",
     question: "Comparing two salts of the same formula type, the one with the larger Ksp is",
     options: [
+      "insoluble",
       "less soluble",
       "more soluble",
-      "equally soluble",
-      "insoluble"
+      "equally soluble"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The comparison is valid only for salts with the same ion ratio. Comparing an MX salt with an MX₂ salt by Ksp alone can be misleading."
   },
   {
     id: "7-11-7",
     question: "Ksp for BaSO₄ is 1.1 × 10⁻¹⁰. Its molar solubility is approximately",
     options: [
-      "1.0 × 10⁻⁵ M",
       "1.1 × 10⁻¹⁰ M",
       "1.0 × 10⁻³ M",
-      "3.3 × 10⁻⁴ M"
+      "3.3 × 10⁻⁴ M",
+      "1.0 × 10⁻⁵ M"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "s = √(1.1 × 10⁻¹⁰) ≈ 1.0 × 10⁻⁵ M for this 1:1 salt. Its very low solubility is why barium sulfate is safe as a medical contrast agent."
   },
   {
     id: "7-11-8",
     question: "For most ionic solids, increasing temperature",
     options: [
+      "makes the value of Ksp negative",
       "decreases Ksp",
       "increases Ksp and solubility",
-      "has no effect",
-      "makes Ksp negative"
+      "has no effect"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Dissolution is endothermic for most salts. Ce₂(SO₄)₃ is a well-known exception with exothermic dissolution."
   },
   {
@@ -104,7 +104,7 @@ window.QUIZ_QUESTIONS = [
     question: "Mixing solutions of Pb(NO₃)₂ and NaI will produce a precipitate if",
     options: [
       "the ion product [Pb²⁺][I⁻]² exceeds Ksp for PbI₂",
-      "the solutions are the same color",
+      "the two solutions happen to be exactly the same color",
       "the temperature is low",
       "equal volumes are used"
     ],
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-11-10",
     question: "A solution with Q < Ksp is",
     options: [
-      "saturated",
       "unsaturated, so more solid could dissolve",
-      "supersaturated",
-      "at equilibrium"
+      "supersaturated and therefore quite unstable",
+      "at equilibrium",
+      "saturated"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "It holds fewer ions than the maximum. Adding solid would dissolve it until Q rose to Ksp."
   }
 ];

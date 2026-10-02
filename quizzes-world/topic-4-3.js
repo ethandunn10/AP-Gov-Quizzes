@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-1",
     question: "The single most demographically destructive element of the Columbian Exchange was",
     options: [
+      "the introduction of European livestock onto American grasslands",
       "Old World epidemics reaching populations with no acquired immunity",
       "the export of American maize and potatoes to Europe",
-      "the introduction of American tobacco to Eurasia",
-      "the introduction of European livestock onto American grasslands"
+      "the introduction of American tobacco to Eurasia"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Smallpox, measles, and influenza killed an estimated majority of Indigenous Americans within roughly a century, a collapse no other factor approaches. The crop transfers moved in the opposite direction and increased population where they arrived."
   },
   {
     id: "4-3-2",
     question: "The adoption of American crops such as potatoes and maize in Afro-Eurasia most directly contributed to",
     options: [
+      "the collapse of Atlantic trade",
       "steadily declining populations across both Europe and Qing China",
       "population growth, as new crops used land staples could not",
-      "the abandonment of wheat and rice cultivation",
-      "the collapse of Atlantic trade"
+      "the abandonment of wheat and rice cultivation"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Potatoes thrived in cool northern soils and maize in hot dry uplands, adding calories without displacing existing staples and helping drive population growth in Europe, China, and Africa. Wheat and rice remained central."
   },
   {
     id: "4-3-3",
     question: "The introduction of horses to the Americas most significantly affected",
     options: [
+      "Mesoamerican chinampa agriculture",
       "the construction methods used to build the Inca imperial road system",
       "Andean terrace farming techniques",
-      "Plains peoples, who rebuilt hunting and warfare around the horse",
-      "Mesoamerican chinampa agriculture"
+      "Plains peoples, who rebuilt hunting and warfare around the horse"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Groups such as the Comanche and Lakota built new mounted societies capable of following the bison and resisting encroachment for generations. The change was so profound that horse cultures are often mistaken for ancient rather than post-contact."
   },
   {
     id: "4-3-4",
     question: "The introduction of European livestock such as cattle, pigs, and sheep affected American environments primarily by",
     options: [
+      "grazing that altered vegetation and displaced Indigenous fields",
       "eliminating the need for any agriculture",
       "reducing European demand for American land",
-      "improving soil fertility across every region where they were introduced",
-      "grazing that altered vegetation and displaced Indigenous fields"
+      "improving soil fertility across every region where they were introduced"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Free-ranging herds destroyed unfenced Indigenous fields and converted diverse landscapes into pasture, an ecological transformation that accompanied and enabled dispossession. The pressure on Indigenous land increased, not decreased."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-6",
     question: "The Columbian Exchange is best defined as",
     options: [
-      "a treaty regulating trade between Spain and Portugal",
       "the transfer of plants, animals, people, and diseases after 1492",
       "the exchange of silver for Chinese silk in Manila",
-      "the movement of goods along the Indian Ocean trading network"
+      "the movement of goods along the Indian Ocean trading network",
+      "a treaty regulating trade between Spain and Portugal"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The term names the biological and cultural transfer set off by sustained transatlantic contact, moving in both directions. The Manila trade and Indian Ocean commerce are related but distinct phenomena."
   },
   {
     id: "4-3-7",
     question: "Which claim about the Columbian Exchange's effects on Africa is best supported?",
     options: [
-      "African agriculture was replaced entirely by European crops",
       "African populations declined immediately from American epidemic diseases",
       "maize and cassava fed Africa as the slave trade drained it",
-      "Africa was unaffected by the Columbian Exchange"
+      "Africa was unaffected by the Columbian Exchange",
+      "African agriculture was replaced entirely by European crops"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cassava and maize became African staples and raised carrying capacity, producing a complex demographic picture alongside the catastrophic losses of the slave trade. American diseases did not devastate Africa the way Old World diseases devastated the Americas."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-9",
     question: "Which statement best captures the reciprocal nature of the Columbian Exchange?",
     options: [
+      "Transfers flowed only from Europe to the Americas",
       "American crops fed Afro-Eurasia while its diseases emptied America",
       "Only diseases were exchanged between hemispheres",
-      "The exchange affected agriculture but not population or politics anywhere",
-      "Transfers flowed only from Europe to the Americas"
+      "The exchange affected agriculture but not population or politics anywhere"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Potatoes and maize helped Eurasian populations grow while smallpox and livestock helped destroy and reorder American societies — a two-way transfer with radically asymmetric consequences. Those consequences were demographic and political as much as agricultural."
   },
   {

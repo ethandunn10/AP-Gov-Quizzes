@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-5-1",
     question: "Exponential population growth produces a graph shaped like",
     options: [
+      "an S curve leveling off at carrying capacity",
       "a J curve rising with increasing steepness",
       "a straight line rising at a constant rate",
-      "a flat line showing no change over time",
-      "an S curve leveling off at carrying capacity"
+      "a flat line showing no change over time"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Exponential growth occurs when resources are unlimited and per capita growth stays constant. Real populations eventually encounter limits that bend the curve."
   },
   {
     id: "3-5-2",
     question: "The rule of 70 is used to estimate",
     options: [
-      "the carrying capacity of a given environment",
       "doubling time from a percentage growth rate",
       "the total fertility rate of a population",
-      "the survivorship curve type of a species"
+      "the survivorship curve type of a species",
+      "the carrying capacity of a given environment"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Dividing 70 by the annual percent growth rate gives approximate doubling time. A population growing at 2 percent doubles in about 35 years."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-5-7",
     question: "The predator prey cycles observed between lynx and snowshoe hare illustrate",
     options: [
+      "density independent regulation by weather events",
       "the complete absence of any feedback between species",
       "populations that remain permanently constant over time",
-      "linked oscillations with predator lagging behind prey",
-      "density independent regulation by weather events"
+      "linked oscillations with predator lagging behind prey"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Hare numbers rise, lynx follow, hares crash from predation, then lynx crash from starvation. Hudson's Bay Company fur records documented this over a century."
   },
   {
     id: "3-5-8",
     question: "Resource depletion caused by a growing population can lower future carrying capacity when",
     options: [
-      "population growth slows before resources are affected",
       "migration removes individuals from the population",
       "resources are used at or below the renewal rate",
-      "the resource base itself is degraded by overuse"
+      "the resource base itself is degraded by overuse",
+      "population growth slows before resources are affected"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Overgrazing that turns grassland to desert permanently lowers K. This is why overshoot can be more damaging than a simple temporary excess."
   },
   {
     id: "3-5-9",
     question: "Which factor would most directly increase a population's growth rate?",
     options: [
+      "An increase in the death rate among adults",
       "A decline in infant and childhood mortality",
       "An increase in emigration from the region",
-      "A reduction in the total fertility rate",
-      "An increase in the death rate among adults"
+      "A reduction in the total fertility rate"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "More children surviving to reproductive age raises growth even without higher fertility. This drove the population surge in stage two of the demographic transition."
   },
   {
     id: "3-5-10",
     question: "Global human population growth rate has",
     options: [
-      "continued accelerating steadily since the year 1970",
-      "declined since its peak while total population still grows",
       "remained exactly constant for the past century",
-      "turned negative with total population now falling"
+      "turned negative with total population now falling",
+      "continued accelerating steadily throughout the years since 1970",
+      "declined since its peak while total population still grows"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The percentage rate peaked around 1968 and has fallen since, but a lower rate applied to a much larger base still adds many people. Projections suggest leveling later this century."
   }
 ];

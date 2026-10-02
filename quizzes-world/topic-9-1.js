@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-1-2",
     question: "The Green Revolution refers to",
     options: [
-      "the deliberate conversion of cultivated farmland back into forest",
-      "high-yield seed, fertilizer, and irrigation raising yields sharply",
       "a political reform movement in the states of postwar eastern Europe",
-      "an environmental campaign organized against industrial farming methods"
+      "an environmental campaign organized against industrial farming methods",
+      "the deliberate conversion of cultivated farmland back into forest",
+      "high-yield seed, fertilizer, and irrigation raising yields sharply"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "New wheat and rice varieties combined with fertilizer and irrigation averted predicted famines in India and Mexico. The costs — water depletion, chemical dependence, and advantages for larger farmers — remain debated."
   },
   {
     id: "9-1-3",
     question: "Containerization affected global trade by",
     options: [
+      "raising the cost and time required to load and unload ocean vessels",
       "reducing the total volume of goods moving in international trade",
       "eliminating the need for port facilities in the movement of cargo",
-      "standardizing cargo so shipping costs collapsed",
-      "raising the cost and time required to load and unload ocean vessels"
+      "standardizing cargo so shipping costs collapsed"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Standard boxes moving directly between ship, rail, and truck cut loading times from weeks to hours and costs by an order of magnitude. That cost collapse is what made it viable to manufacture components in several countries."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-1-5",
     question: "Energy technology in the twentieth century shifted primarily toward",
     options: [
-      "greater reliance on oil and gas alongside coal",
-      "the complete replacement of fossil fuels by renewable energy sources",
       "a return to wood and water power as the primary sources of energy",
-      "a substantial reduction in total worldwide consumption of energy"
+      "a substantial reduction in total worldwide consumption of energy",
+      "greater reliance on oil and gas alongside coal",
+      "the complete replacement of fossil fuels by renewable energy sources"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Oil became the strategic commodity of the century, reshaping geopolitics from the Middle East to Venezuela, while total consumption rose steeply. Renewables grew substantially but did not displace fossil fuels within the century."
   },
   {
     id: "9-1-6",
     question: "The development of vaccines and antibiotics affected global demography by",
     options: [
+      "reducing global population through widespread side effects of treatment",
       "leaving mortality from infectious disease essentially unchanged",
       "sharply cutting infant mortality, so population grew",
-      "raising mortality from infectious disease across most world regions",
-      "reducing global population through widespread side effects of treatment"
+      "raising mortality from infectious disease across most world regions"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Children who once died of infectious disease survived to adulthood, and since birth rates fell more slowly, populations grew rapidly. That lag between falling death rates and falling birth rates is the demographic transition."
   },
   {
     id: "9-1-7",
     question: "Which statement best describes the relationship between technological change and global inequality after 1900?",
     options: [
-      "technological change bore no relationship to economic inequality",
       "only the poorest regions gained access to newly developed technologies",
       "access was uneven, and unequal adoption reinforced existing gaps",
-      "technology spread evenly, erasing economic differences between regions"
+      "technology spread evenly, erasing economic differences between regions",
+      "technological change bore no relationship to economic inequality"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Mobile phones spread remarkably widely while research capacity, advanced manufacturing, and reliable infrastructure remained concentrated. Diffusion of consumer technology did not by itself close productivity gaps."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-1-9",
     question: "Which best explains the acceleration of global exchange in the late twentieth century?",
     options: [
-      "falling transport costs plus liberalization after 1991",
       "the withdrawal of most economies from participation in international trade",
       "an absence of significant technological change in the decades after 1950",
-      "rising transport costs combined with newly raised barriers to trade"
+      "rising transport costs combined with newly raised barriers to trade",
+      "falling transport costs plus liberalization after 1991"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Containers, jets, and fiber optics lowered the cost of distance while tariff reductions and the opening of former communist economies expanded the trading world. Technology and policy reinforced each other."
   },
   {
     id: "9-1-10",
     question: "A historian argues that twentieth-century technology 'made the world smaller but not more equal.' The strongest supporting evidence is",
     options: [
+      "economic inequality between world regions was eliminated by the year 2000",
       "no measurable improvement occurred in global communication after 1900",
       "distance grew cheap while gaps in income, health, and capacity persisted",
-      "research and manufacturing capacity became evenly spread across regions",
-      "economic inequality between world regions was eliminated by the year 2000"
+      "research and manufacturing capacity became evenly spread across regions"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Connection became nearly costless while the capacity to benefit from it remained unevenly distributed. Holding both facts together is what the argument requires."
   }
 ];

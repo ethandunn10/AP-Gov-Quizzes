@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-2",
     question: "In the Lewis structure of NH₃, the central nitrogen has",
     options: [
-      "four bonding pairs",
       "three bonding pairs and one lone pair",
       "two bonding pairs and two lone pairs",
-      "three bonding pairs and no lone pairs"
+      "three bonding pairs and no lone pairs",
+      "four bonding pairs"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Nitrogen's five valence electrons form three bonds and retain one lone pair. That lone pair is what makes ammonia pyramidal rather than planar."
   },
   {
@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-4",
     question: "In SF₆, the central sulfur atom is surrounded by",
     options: [
+      "10 electrons",
       "8 electrons",
       "12 electrons in an expanded octet",
-      "6 electrons",
-      "10 electrons"
+      "6 electrons, forming an incomplete octet"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Six bonding pairs give twelve electrons, possible because sulfur is in period 3. Second-period elements cannot expand their octets."
   },
   {
     id: "2-5-5",
     question: "The Lewis structure of CO₂ shows",
     options: [
-      "two single bonds and four lone pairs on carbon",
-      "two double bonds, with two lone pairs on each oxygen",
       "one single and one triple bond",
-      "two triple bonds"
+      "two triple bonds",
+      "two single bonds with four lone pairs on the carbon atom",
+      "two double bonds, with two lone pairs on each oxygen"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Double bonds give every atom an octet using exactly 16 valence electrons. The single-bond arrangement would leave carbon with only four electrons."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-7",
     question: "In drawing a Lewis structure, the central atom is usually",
     options: [
-      "the most electronegative atom",
       "the least electronegative atom other than hydrogen",
       "always carbon",
-      "always the atom with the most electrons"
+      "always the atom that happens to have the most electrons",
+      "the most electronegative atom"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The less electronegative atom is better able to share with several neighbors. Hydrogen forms only one bond and so is never central."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-9",
     question: "In the Lewis structure of HCN, the bonding is",
     options: [
-      "H single-bonded to C, and C triple-bonded to N",
       "H double-bonded to C, and C double-bonded to N",
       "H triple-bonded to C",
-      "all single bonds"
+      "all single bonds",
+      "H single-bonded to C, and C triple-bonded to N"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "This arrangement gives carbon and nitrogen octets, with one lone pair remaining on nitrogen. Hydrogen holds only two electrons, so it cannot form multiple bonds."
   },
   {
     id: "2-5-10",
     question: "Lewis structures are most useful for predicting",
     options: [
-      "exact bond lengths in picometers",
-      "electron distribution, which leads to molecular geometry and polarity",
-      "the melting point of a compound",
-      "reaction rates"
+      "reaction rates",
+      "the exact bond lengths in picometers for every bond present",
+      "electron distribution, setting geometry and polarity",
+      "the melting point of a compound"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "They are a bookkeeping tool for valence electrons that feeds directly into VSEPR. Quantitative bond lengths require experiment or computation."
   }
 ];

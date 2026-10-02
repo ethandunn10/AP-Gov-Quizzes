@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-1",
     question: "A sample of gas occupies 4.00 L at 2.00 atm. At constant temperature, what volume does it occupy at 1.00 atm?",
     options: [
+      "0.500 L",
       "2.00 L",
       "8.00 L",
-      "4.00 L",
-      "0.500 L"
+      "4.00 L"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Boyle's law gives P₁V₁ = P₂V₂, so V₂ = (2.00)(4.00)/1.00 = 8.00 L. Halving the pressure must increase the volume, which rules out 2.00 L immediately."
   },
   {
@@ -22,7 +22,7 @@ window.QUIZ_QUESTIONS = [
       "0.500 mol",
       "1.00 mol",
       "2.00 mol",
-      "22.4 mol"
+      "22.4 mol of gas"
     ],
     correctIndex: 0,
     explanation: "One mole occupies 22.4 L at STP, so 11.2 L is half a mole. The molar volume shortcut works only at those specific conditions."
@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-4",
     question: "What is the volume of 0.500 mol of an ideal gas at 2.00 atm and 27 °C? (R = 0.0821 L·atm/mol·K)",
     options: [
-      "6.16 L",
       "12.3 L",
       "3.08 L",
-      "0.164 L"
+      "0.164 L",
+      "6.16 L"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "V = nRT/P = (0.500)(0.0821)(300.)/2.00 = 6.16 L. Forgetting to convert 27 °C to 300. K is the usual source of error."
   },
   {
     id: "3-4-5",
     question: "In a mixture of gases, the partial pressure of a component equals",
     options: [
-      "the total pressure divided by the number of gases",
       "the mole fraction of that gas times the total pressure",
       "the total pressure",
-      "the mass fraction times the total pressure"
+      "the mass fraction times the total pressure",
+      "the total pressure divided by the number of gases present"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Dalton's law depends on particle counts, not masses. Dividing evenly would only be correct if all components were present in equal moles."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-7",
     question: "The density of an ideal gas increases when",
     options: [
+      "molar mass decreases",
       "temperature increases at constant pressure",
       "pressure increases at constant temperature",
-      "the gas is transferred to a larger container at constant temperature and amount",
-      "molar mass decreases"
+      "the gas is transferred to a larger container at constant temperature and amount"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "From d = PM/RT, density rises with pressure and molar mass and falls with temperature. Heating a gas at fixed pressure makes it expand and thin out."
   },
   {
     id: "3-4-8",
     question: "A 0.250 mol sample of gas occupies 5.60 L at 273 K. The pressure is closest to",
     options: [
+      "4.00 atm",
       "1.00 atm",
       "0.500 atm",
-      "2.00 atm",
-      "4.00 atm"
+      "2.00 atm"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "P = nRT/V = (0.250)(0.0821)(273)/5.60 = 1.00 atm. Note that 0.250 mol at STP would occupy 5.60 L, which confirms the result."
   },
   {
     id: "3-4-9",
     question: "Equal volumes of two different ideal gases at the same temperature and pressure contain",
     options: [
-      "equal masses",
-      "equal numbers of molecules",
       "equal densities",
-      "equal molar masses"
+      "equal average molar masses overall",
+      "equal masses",
+      "equal numbers of molecules"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "This is Avogadro's hypothesis, which follows directly from PV = nRT. Masses and densities differ whenever the molar masses differ."
   },
   {
     id: "3-4-10",
     question: "A gas sample's volume is 2.00 L at 1.00 atm and 300. K. What is its volume at 0.500 atm and 600. K?",
     options: [
+      "1.00 L",
       "2.00 L",
       "4.00 L",
-      "8.00 L",
-      "1.00 L"
+      "8.00 L"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Halving the pressure doubles the volume and doubling the temperature doubles it again, giving 8.00 L. Applying the combined gas law in one step gives the same result."
   }
 ];

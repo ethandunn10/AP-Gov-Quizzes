@@ -5,22 +5,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.2-1",
     question: "Signal transduction refers to the process by which:",
-    options: ["A cell divides into two daughter cells", "An outside signal becomes a response", "DNA is directly translated into protein", "A cell physically moves toward a signal"],
-    correctIndex: 1,
+    options: ["DNA is directly translated into protein", "A cell physically moves toward a signal", "A cell divides into two daughter cells", "An outside signal becomes a response"],
+    correctIndex: 3,
     explanation: "Signal transduction is the pathway of molecular events that converts an external signal (received at the cell surface) into a specific response inside the target cell."
   },
   {
     id: "4.2-2",
     question: "The three general stages of cell signaling, in order, are:",
-    options: ["Response, transduction, reception", "Reception, transduction, response", "Transduction, response, reception", "Response, reception, transduction"],
-    correctIndex: 1,
+    options: ["Reception, transduction, response", "Transduction, response, reception", "Response, reception, transduction", "Response, transduction, reception"],
+    correctIndex: 0,
     explanation: "Cell signaling proceeds through reception (a receptor binds a signal molecule), transduction (the signal is relayed and converted through a series of steps), and response (the cell's specific reaction to the signal)."
   },
   {
     id: "4.2-3",
     question: "During the 'reception' stage of cell signaling, a signaling molecule (ligand) binds to:",
-    options: ["DNA in the nucleus directly", "A specific receptor protein", "The Golgi apparatus stacks", "Ribosomes in the cytoplasm"],
-    correctIndex: 1,
+    options: ["Ribosomes in the cytoplasm", "DNA in the nucleus directly", "A specific receptor protein", "The Golgi apparatus stacks"],
+    correctIndex: 2,
     explanation: "Reception occurs when a signaling molecule (ligand) binds specifically to a receptor protein, which may be located on the cell surface (for large or polar ligands) or inside the cell (for small or nonpolar ligands like steroids)."
   },
   {
@@ -40,8 +40,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.2-6",
     question: "Signal amplification during transduction refers to the phenomenon where:",
-    options: ["The signal molecule is destroyed on binding", "One binding event activates many molecules", "The response is always weaker than the signal", "Only one molecule is affected per event"],
-    correctIndex: 1,
+    options: ["One binding event activates many molecules", "The response is always weaker than the signal", "Only one molecule is affected per event", "The signal molecule is destroyed on binding"],
+    correctIndex: 0,
     explanation: "Through cascades involving enzymes that activate multiple downstream molecules at each step, a single receptor-ligand binding event can be amplified into a much larger intracellular response."
   },
   {
@@ -54,22 +54,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.2-8",
     question: "Without a receptor specific to a given signaling molecule, a target cell would:",
-    options: ["Respond even more strongly to the signal", "Be unable to detect or respond to it", "Instantly produce the required receptor", "Immediately undergo cell division"],
-    correctIndex: 1,
+    options: ["Be unable to detect or respond to it", "Instantly produce the required receptor", "Immediately undergo cell division", "Respond even more strongly to the signal"],
+    correctIndex: 0,
     explanation: "A cell can only respond to a signaling molecule if it expresses the appropriate receptor; without it, the signal has no way to be detected or transduced into a response."
   },
   {
     id: "4.2-9",
     question: "Different cell types can respond differently to the exact same signaling molecule because they:",
-    options: ["Always ignore all signaling molecules", "May have different receptors or pathways", "Cannot bind the same ligand ever", "Always die when exposed to a signal"],
-    correctIndex: 1,
+    options: ["Cannot bind the same ligand ever", "Always die when exposed to a signal", "Always ignore all signaling molecules", "May have different receptors or pathways"],
+    correctIndex: 3,
     explanation: "The specific response a cell mounts to a given signal depends on the receptors it expresses and the specific transduction pathways and target genes/proteins it possesses, which can vary between cell types."
   },
   {
     id: "4.2-10",
     question: "The 'response' stage of cell signaling can result in which of the following outcomes?",
-    options: ["Only cell death, with no other outcome", "Changes in gene expression or enzyme activity", "Destruction of the receptor with no effect", "The signal always causes no change at all"],
-    correctIndex: 1,
+    options: ["The signal always causes no change at all", "Only cell death, with no other outcome", "Changes in gene expression or enzyme activity", "Destruction of the receptor with no effect"],
+    correctIndex: 2,
     explanation: "The cellular response to a transduced signal is highly variable and can include changes in gene transcription, altered enzyme activity, cytoskeletal rearrangement, or many other specific outcomes depending on the pathway activated."
   },
 ];

@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-1",
     question: "The Congress of Vienna's principal aim was to",
     options: [
-      "restore stability and a balance of power after Napoleon's defeat",
       "establish democratic constitutions in every major European state",
       "partition France among the members of the victorious coalition",
-      "spread revolutionary institutions throughout the European continent"
+      "spread revolutionary institutions throughout the European continent",
+      "restore stability and a balance of power after Napoleon's defeat"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Metternich and his colleagues wanted an equilibrium that would prevent any single power from dominating again. France was restrained rather than dismembered so that it could balance others."
   },
   {
@@ -31,48 +31,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-3",
     question: "The Congress created a ring of stronger states around France in order to",
     options: [
+      "guarantee independence for every small German principality",
       "prepare an invasion route into French territory",
       "give Britain direct territorial control over western Europe",
-      "contain future French expansion through buffer territories",
-      "guarantee independence for every small German principality"
+      "contain future French expansion through buffer territories"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The enlarged Netherlands, Prussian Rhineland, and Piedmont were meant to block French expansion without humiliating France. Containment rather than punishment was the design."
   },
   {
     id: "5-7-4",
     question: "The German Confederation established at Vienna was",
     options: [
-      "a unified German nation-state under Prussian leadership",
-      "a democratic federation with an elected national parliament",
       "a territory placed under joint French and Russian administration",
-      "a loose association of sovereign states under Austrian presidency"
+      "a loose association of sovereign states under Austrian presidency",
+      "a unified German nation-state under Prussian leadership",
+      "a democratic federation with an elected national parliament"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Thirty-nine states retained sovereignty within a weak diet chaired by Austria, which suited Metternich's interest in blocking unification. German nationalists found it deeply disappointing."
   },
   {
     id: "5-7-5",
     question: "The Concert of Europe refers to",
     options: [
-      "great-power consultation to manage disputes and revolution",
       "a permanent international court with binding authority over states",
       "an alliance uniting European states against the Ottoman Empire",
-      "a customs union removing tariffs among the continental powers"
+      "a customs union removing tariffs among the continental powers",
+      "great-power consultation to manage disputes and revolution"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Periodic congresses let the great powers coordinate against liberal and nationalist movements and settle disputes short of war. It had no standing institutions or binding jurisdiction."
   },
   {
     id: "5-7-6",
     question: "Metternich's guiding political principle was that",
     options: [
-      "national self-determination should govern the redrawing of borders",
-      "liberalism and nationalism threatened the multiethnic Austrian state",
       "constitutional government should be introduced gradually everywhere",
-      "the papacy should arbitrate all disputes among European states"
+      "the papacy should arbitrate all disputes among European states",
+      "national self-determination should govern the redrawing of borders",
+      "liberalism and nationalism threatened the multiethnic Austrian state"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "An empire of Germans, Hungarians, Czechs, Italians, and others could not survive the principle that each nation deserves a state. His conservatism followed directly from Austria's composition."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-8",
     question: "The Vienna settlement largely ignored which force that would shape the coming century?",
     options: [
-      "Dynastic loyalty among the ruling houses of Europe",
-      "The strategic importance of naval power in the Mediterranean",
       "The continued influence of established Christian churches",
-      "Nationalist aspiration among peoples lacking their own states"
+      "Nationalist aspiration among peoples lacking their own states",
+      "Dynastic loyalty among the ruling houses of Europe",
+      "The strategic importance of naval power in the Mediterranean"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Italians, Germans, Poles, and Balkan peoples were assigned to existing states without regard to national feeling. The revolutions of 1848 and later unifications flowed from that omission."
   },
   {
     id: "5-7-9",
     question: "The Vienna settlement is often judged successful because it",
     options: [
+      "eliminated the use of military force in European diplomacy",
       "prevented any general European war for roughly a century",
       "granted constitutional government to every European people",
-      "resolved all national and ethnic disputes on the continent",
-      "eliminated the use of military force in European diplomacy"
+      "resolved all national and ethnic disputes on the continent"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "No conflict on the scale of the revolutionary wars occurred until 1914, a notable achievement for a negotiated settlement. Limited wars and revolutions still took place within that century."
   },
   {
     id: "5-7-10",
     question: "A historian critical of the Vienna settlement would argue that it",
     options: [
-      "gave too much territory to France at the expense of its neighbors",
       "suppressed liberal and national movements, storing up conflict",
       "failed to establish any lasting balance among the great powers",
-      "imposed democratic institutions on states unprepared for them"
+      "imposed democratic institutions on states unprepared for them",
+      "gave too much territory to France at the expense of its neighbors"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Restoring dynasties over the objections of liberals and nationalists produced the revolts of 1820, 1830, and 1848. The criticism concerns legitimacy rather than the stability the settlement achieved."
   }
 ];

@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-1",
     question: "The 1918 influenza pandemic spread so rapidly and widely because",
     options: [
+      "it was confined entirely to Spain",
       "no public health measures existed anywhere",
       "medical science had no knowledge whatever of contagion",
-      "troop movements carried it amid crowding and censorship",
-      "it was confined entirely to Spain"
+      "troop movements carried it amid crowding and censorship"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Soldiers moving between continents in crowded transports spread the virus, and wartime censorship delayed public warnings — neutral Spain's uncensored press is why it acquired that name. Quarantines and mask orders were attempted in many cities."
   },
   {
     id: "9-2-2",
     question: "The global eradication of smallpox is significant because it",
     options: [
-      "occurred before the invention of vaccination",
       "it required the eradication of the disease's animal reservoir as well",
       "was achieved without any international cooperation",
-      "coordinated vaccination campaigns wiped out a major human disease"
+      "coordinated vaccination campaigns wiped out a major human disease",
+      "occurred before the invention of vaccination"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "A WHO campaign combining surveillance and ring vaccination declared smallpox eradicated in 1980, the only such success against a human disease. Smallpox had no animal reservoir, which is part of why eradication was feasible."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-6",
     question: "Improved public health measures in the twentieth century included",
     options: [
+      "clean water, sewers, vaccination, and food safety regulation",
       "reliance exclusively on individual treatment rather than public measures",
       "the abandonment of vaccination programs",
-      "the elimination of all sanitation infrastructure",
-      "clean water, sewers, vaccination, and food safety regulation"
+      "the elimination of all sanitation infrastructure"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Population-level interventions accounted for much of the mortality decline, often more than clinical medicine did. Clean water alone eliminated cholera and typhoid as mass killers in many countries."
   },
   {
     id: "9-2-7",
     question: "The persistence of malaria and tuberculosis as major killers reflects",
     options: [
+      "the absence of any available treatment or prevention",
       "they sit in poor regions with weak systems and little research",
       "their confinement to the wealthy industrialized countries alone",
-      "the eradication of both diseases by 2000",
-      "the absence of any available treatment or prevention"
+      "the eradication of both diseases by 2000"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Both are treatable and preventable, but delivery requires functioning health systems and sustained funding, and drug development follows markets that can pay. The label 'neglected diseases' describes exactly this mismatch."
   },
   {
     id: "9-2-8",
     question: "Global travel and urbanization affected disease transmission in the twentieth and twenty-first centuries by",
     options: [
-      "eliminating the possibility of pandemics",
-      "letting pathogens cross the world and spread in crowded cities",
       "confining all diseases strictly to their regions of first origin",
-      "having no effect on the speed of disease spread"
+      "having no effect on the speed of disease spread",
+      "eliminating the possibility of pandemics",
+      "letting pathogens cross the world and spread in crowded cities"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "A pathogen can now cross continents faster than its incubation period, as SARS and COVID-19 demonstrated, and cities provide the density it needs to spread. The same connectivity that moves goods moves disease."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-10",
     question: "A historian argues that disease control in the twentieth century 'reflects political priorities as much as scientific capability.' The strongest evidence is",
     options: [
-      "the absence of any effective medical technology",
       "the entirely equal distribution of health resources worldwide",
       "the eradication of all infectious diseases by 1980",
-      "treatable diseases persisting and HIV drugs reaching very few"
+      "treatable diseases persisting and HIV drugs reaching very few",
+      "the absence of any effective medical technology"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Where the science exists but the deaths continue, the binding constraint is funding, pricing, and political will rather than knowledge. The HIV treatment gap of the late 1990s is the clearest case."
   }
 ];

@@ -19,72 +19,72 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-2",
     question: "If pH is greater than pKa, the predominant species is",
     options: [
-      "the protonated acid HA",
       "the deprotonated conjugate base A⁻",
       "neither",
-      "both equally"
+      "both equally",
+      "the fully protonated acid species HA"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A higher pH means a lower H⁺ concentration, favoring proton loss. This reasoning predicts the charge state of drugs and amino acids."
   },
   {
     id: "8-7-3",
     question: "A weak acid has pKa = 4.75. In a solution at pH 2.75,",
     options: [
-      "A⁻ predominates",
-      "HA predominates",
       "they are equal",
-      "the acid is fully ionized"
+      "the acid is fully ionized",
+      "A⁻ predominates",
+      "HA predominates"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Below the pKa, the protonated form dominates. Two pH units below gives a ratio of about 100 to 1 in favor of HA."
   },
   {
     id: "8-7-4",
     question: "The Henderson-Hasselbalch equation is written as",
     options: [
+      "pH = Ka + log[A⁻]",
       "pH = pKa + log([HA]/[A⁻])",
       "pH = pKa + log([A⁻]/[HA])",
-      "pH = pKa − [A⁻]/[HA]",
-      "pH = Ka + log[A⁻]"
+      "pH = pKa − [A⁻]/[HA]"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Conjugate base goes in the numerator. Inverting the ratio is a common error that reverses the sign of the correction."
   },
   {
     id: "8-7-5",
     question: "An indicator changes color when",
     options: [
-      "the pH equals 7",
-      "the pH is near the pKa of the indicator, so the acid and base forms are comparable",
+      "pH is near the indicator's pKa, so both forms coexist",
       "the titration begins",
-      "the solution becomes colorless"
+      "the whole solution becomes completely colorless throughout",
+      "the pH equals 7"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The acid and base forms have different colors. The visible transition spans roughly pKa ± 1."
   },
   {
     id: "8-7-6",
     question: "Which acid, with the pKa values listed, is strongest?",
     options: [
-      "pKa = 2.0",
       "pKa = 4.8",
       "pKa = 7.2",
-      "pKa = 9.5"
+      "pKa = 9.5",
+      "pKa = 2.0"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Lower pKa means larger Ka and a stronger acid. Because pKa is a negative logarithm, the ordering reverses relative to Ka."
   },
   {
     id: "8-7-7",
     question: "A buffer is most effective when the desired pH is",
     options: [
-      "far from the pKa",
-      "within about one unit of the pKa of the weak acid used",
+      "within about one unit of the weak acid's pKa",
       "exactly 7",
-      "above 12"
+      "above 12",
+      "quite far away from the relevant pKa value indeed"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Outside that range one component becomes too scarce to neutralize additions. Buffer selection starts with matching pKa to target pH."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-10",
     question: "The relationship between pKa and pKb for a conjugate pair at 25 °C is",
     options: [
-      "pKa + pKb = 14",
       "pKa − pKb = 14",
       "pKa × pKb = 14",
-      "pKa = pKb"
+      "pKa = pKb",
+      "pKa + pKb = 14"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "It follows from taking the negative log of Ka × Kb = Kw. A strong acid's conjugate base therefore has a very large pKb."
   }
 ];

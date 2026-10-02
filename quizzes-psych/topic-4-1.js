@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-3",
     question: "Attributing a classmate's poor performance to laziness is a dispositional attribution, while attributing it to a family emergency is",
     options: [
+      "a situational attribution",
       "a stable internal attribution",
       "an example of stereotype formation",
-      "a self-fulfilling prophecy",
-      "a situational attribution"
+      "a self-fulfilling prophecy"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Situational attributions locate causes in external circumstances. Whether an attribution is dispositional or situational is independent of whether it is accurate."
   },
   {
     id: "4-1-4",
     question: "The belief that people generally get what they deserve is known as",
     options: [
+      "the actor-observer bias",
       "the halo effect",
       "the false consensus effect",
-      "the just-world hypothesis",
-      "the actor-observer bias"
+      "the just-world hypothesis"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "This belief makes the world feel predictable but often leads to blaming victims for misfortune. The halo effect instead concerns letting one positive trait color overall judgment."
   },
   {
     id: "4-1-5",
     question: "A teacher who believes a student is gifted gives that student more attention, and the student's performance improves. This sequence is",
     options: [
-      "a self-fulfilling prophecy",
-      "the mere exposure effect",
       "the fundamental attribution error",
-      "an illusory correlation"
+      "an illusory correlation",
+      "a self-fulfilling prophecy",
+      "the mere exposure effect"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The expectation changed behavior that then produced the expected outcome. An illusory correlation would involve perceiving a relationship that does not exist, with no change in behavior."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-7",
     question: "Research finds the fundamental attribution error is weaker in some collectivist cultures. The best explanation is that those cultures",
     options: [
-      "have populations with fundamentally different cognitive abilities",
       "place greater emphasis on situational and relational context",
       "discourage making any attributions about other people",
-      "rely more heavily on dispositional trait language"
+      "rely more heavily on dispositional trait language",
+      "have populations with fundamentally different cognitive abilities"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Cultural emphasis on context and relationships makes situational explanations more available. This cross-cultural variation is evidence that the bias is learned rather than hardwired."
   },
   {
     id: "4-1-8",
     question: "The actor-observer difference predicts that a person will explain their own lateness in terms of",
     options: [
-      "personal carelessness, while judging others' lateness as bad luck",
-      "traffic and circumstances, while judging others' lateness as carelessness",
+      "traffic and circumstances, but others' as carelessness",
       "stable personality traits in both their own and others' cases",
-      "situational factors in both their own and others' cases"
+      "situational factors in both their own and others' cases",
+      "personal carelessness, while judging others' lateness as bad luck"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "People have access to the situational pressures acting on themselves but see only the behavior of others. The asymmetry is the defining feature of this effect."
   },
   {
     id: "4-1-9",
     question: "Which finding would best demonstrate that first impressions are resistant to change?",
     options: [
-      "Participants keep their initial rating after receiving contradictory evidence",
       "Participants form impressions faster when given photographs",
       "Participants rate attractive people as more competent overall",
-      "Participants recall positive traits more easily than negative ones"
+      "Participants recall positive traits more easily than negative ones",
+      "Participants keep their rating after contradictory evidence"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Persistence after disconfirming evidence is exactly what belief perseverance means. Speed of formation and attractiveness effects describe how impressions form, not how stubbornly they hold."
   },
   {
     id: "4-1-10",
     question: "A researcher argues that attributions matter because they shape behavior. The strongest supporting evidence would be that",
     options: [
-      "students report making attributions about their classmates daily",
-      "students can accurately define dispositional and situational attributions",
       "students make attributions more quickly under time pressure",
-      "students who attribute failure to effort try again more than those who blame ability"
+      "students who blame effort try again more than those blaming ability",
+      "students report making attributions about their classmates daily",
+      "students can accurately define dispositional and situational attributions"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "A link between attribution type and subsequent action is what a behavioral claim requires. Awareness, definitional knowledge, and speed of judgment say nothing about behavioral consequences."
   }
 ];

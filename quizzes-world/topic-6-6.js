@@ -19,60 +19,60 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-2",
     question: "Push factors driving nineteenth-century migration included",
     options: [
-      "the recruitment efforts of shipping companies",
       "higher wages available in receiving economies",
       "the promise of free land available in the destination countries",
-      "famine, land scarcity, and political or religious persecution"
+      "famine, land scarcity, and political or religious persecution",
+      "the recruitment efforts of shipping companies"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Push factors are conditions driving people out — the Irish famine, Chinese rural crisis, Russian pogroms. Free land, recruitment, and higher wages are pull factors operating at the destination."
   },
   {
     id: "6-6-3",
     question: "Transportation improvements affected migration most significantly by",
     options: [
-      "making ocean crossings cheap enough for ordinary working people",
-      "eliminating the need for migrants to travel",
       "making migration more expensive than it had been in earlier centuries",
-      "restricting migration to wealthy travelers only"
+      "restricting migration to wealthy travelers only",
+      "making ocean crossings cheap enough for ordinary working people",
+      "eliminating the need for migrants to travel"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "A steamship crossing that took ten days instead of two months at a fraction of the cost transformed emigration from a one-way gamble into a feasible and sometimes reversible decision. Return migration became common for the first time."
   },
   {
     id: "6-6-4",
     question: "Chinese emigration in the nineteenth century was driven most directly by",
     options: [
+      "religious persecution by the Qing state",
       "government programs actively encouraging Chinese settlement abroad",
       "rural poverty and upheaval, plus labor demand overseas",
-      "the absence of any economic opportunity abroad",
-      "religious persecution by the Qing state"
+      "the absence of any economic opportunity abroad"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Devastating civil war and land scarcity in southern China coincided with demand for labor in California, Southeast Asia, Peru, and Australia. The Qing initially prohibited emigration rather than encouraging it."
   },
   {
     id: "6-6-5",
     question: "The Irish potato famine contributed to migration because it",
     options: [
+      "affected only wealthy landowners",
       "resulted in population growth in Ireland",
       "was accompanied by British relief policies that eliminated hunger",
-      "destroyed the single crop that the rural poor depended upon",
-      "affected only wealthy landowners"
+      "destroyed the single crop that the rural poor depended upon"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Blight destroyed the potato crop that the rural poor depended on almost exclusively, and inadequate relief plus continued food exports turned shortage into mass death and emigration. Ireland's population fell by roughly a quarter."
   },
   {
     id: "6-6-6",
     question: "Indentured servitude in this period is best described as",
     options: [
-      "identical in law to chattel slavery",
-      "a form of migration restricted to Europeans",
       "a system of free wage labor with complete freedom of movement",
-      "fixed-term contract labor, often recruited by deception"
+      "fixed-term contract labor, often recruited by deception",
+      "identical in law to chattel slavery",
+      "a form of migration restricted to Europeans"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Indenture was legally distinct from slavery — it was time-limited and nominally voluntary — but recruitment often involved deceit and conditions were frequently brutal. Most indentured migrants came from India and China."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-8",
     question: "The gold rushes in California and Australia illustrate which migration driver?",
     options: [
-      "Forced relocation by colonial governments",
-      "Pull factors, as sudden opportunity drew people from everywhere",
       "Religious persecution in home countries",
-      "The complete absence of any long-distance transportation technology"
+      "The complete absence of any long-distance transportation technology",
+      "Forced relocation by colonial governments",
+      "Pull factors, as sudden opportunity drew people from everywhere"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "News of gold drew Chinese, European, and American migrants within months — opportunity at the destination pulling people across oceans. The speed and diversity of these flows show pull factors working in their purest form."
   },
   {
     id: "6-6-9",
     question: "Which best explains the increase in seasonal and temporary migration in this period?",
     options: [
+      "Governments prohibited permanent settlement everywhere",
       "There was no demand for temporary labor",
       "Migrants were unable to travel more than once in an entire lifetime",
-      "cheap fast transport made working abroad and returning home practical",
-      "Governments prohibited permanent settlement everywhere"
+      "cheap fast transport made working abroad and returning home practical"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Italians working harvests in Argentina and returning home each year — the golondrinas — were possible only because steamship passage was affordable and quick. Return rates for some groups exceeded a third."
   },
   {

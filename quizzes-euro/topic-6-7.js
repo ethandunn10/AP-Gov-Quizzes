@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-2",
     question: "Utilitarianism, associated with Bentham and Mill, judged institutions by",
     options: [
-      "the length of time they had existed without significant change",
-      "whether they produced the greatest happiness for the most",
       "their consistency with the inherited traditions of a given society",
-      "whether they conformed to the teachings of established churches"
+      "whether they conformed to the teachings of established churches",
+      "the length of time they had existed without significant change",
+      "whether they produced the greatest happiness for the most"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Measuring laws by their consequences for human welfare justified sweeping reform of prisons, poor laws, and government. It supplied liberalism with a practical reforming program."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-4",
     question: "Marx and Engels argued that history is driven by",
     options: [
-      "divine providence guiding humanity toward a predetermined end",
       "the gradual expansion of individual liberty under law",
       "the ideas of great thinkers shaping each successive era",
-      "class struggle rooted in the organization of material production"
+      "class struggle rooted in the organization of material production",
+      "divine providence guiding humanity toward a predetermined end"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Historical materialism located the motor of change in who controls production and the conflicts that follow. Their prediction was that capitalism's contradictions would produce proletarian revolution."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-7-6",
     question: "Anarchism differed from Marxism chiefly in its",
     options: [
-      "insistence that industrial capitalism should be left untouched",
-      "rejection of the state itself rather than of its class control",
       "support for hereditary monarchy as a check on capitalist power",
-      "acceptance of the existing state as the vehicle of social change"
+      "acceptance of the existing state as the vehicle of social change",
+      "insistence that industrial capitalism should be left untouched",
+      "rejection of the state itself rather than of its class control"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Anarchists such as Bakunin held that any state, including a workers' state, would reproduce oppression. That disagreement split the First International."
   },
   {
     id: "6-7-7",
     question: "Nineteenth-century nationalism held that",
     options: [
+      "loyalty is owed to a dynasty regardless of language or culture",
       "empires should govern as many distinct peoples as possible",
       "political borders should follow the outcomes of dynastic marriage",
-      "peoples sharing language and culture deserve their own state",
-      "loyalty is owed to a dynasty regardless of language or culture"
+      "peoples sharing language and culture deserve their own state"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Relocating legitimacy from the dynasty to the cultural nation dissolved multiethnic empires and unified fragmented regions. The same idea built Germany and threatened Austria-Hungary."
   },
   {
     id: "6-7-8",
     question: "Feminist movements in this period concentrated primarily on",
     options: [
+      "property rights, access to education, and eventually the vote",
       "the exclusion of women from all forms of paid employment",
       "the restoration of legal authority to husbands over wives",
-      "the abolition of marriage as a recognized legal institution",
-      "property rights, access to education, and eventually the vote"
+      "the abolition of marriage as a recognized legal institution"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Married women's property acts, admission to universities, and suffrage campaigns marked the movement's stages. No state granted women the parliamentary vote until New Zealand in 1893."
   },
   {

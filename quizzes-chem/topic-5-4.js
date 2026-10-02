@@ -9,7 +9,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "involves only elements",
       "occurs in a single step exactly as written",
-      "is the slowest step in a mechanism",
+      "is the slowest step within the whole mechanism",
       "has no activation energy"
     ],
     correctIndex: 1,
@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-2",
     question: "For the elementary step A + B → C, the rate law is",
     options: [
+      "rate = k",
       "rate = k[C]",
       "rate = k[A][B]",
-      "rate = k[A]²[B]²",
-      "rate = k"
+      "rate = k[A]²[B]²"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "One particle of each must collide, giving first order in each. This direct reading of coefficients is valid only for elementary steps."
   },
   {
@@ -43,8 +43,8 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-4",
     question: "Termolecular elementary steps are rare because",
     options: [
-      "they violate conservation of energy",
-      "simultaneous three-particle collisions with correct orientation are very improbable",
+      "they would violate the law of the conservation of energy",
+      "simultaneous three-particle collisions are improbable",
       "they have no activation energy",
       "they are too fast to measure"
     ],
@@ -55,19 +55,19 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-5",
     question: "A unimolecular elementary step has a rate law of the form",
     options: [
-      "rate = k",
-      "rate = k[A]",
       "rate = k[A]²",
-      "rate = k[A][B]"
+      "rate = k[A][B]",
+      "rate = k",
+      "rate = k[A]"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "A single particle decomposing or rearranging gives first-order kinetics. Isomerizations are common examples."
   },
   {
     id: "5-4-6",
     question: "An intermediate in a reaction mechanism is a species that",
     options: [
-      "appears in the overall balanced equation",
+      "appears within the overall balanced chemical equation itself",
       "is produced in one step and consumed in a later step",
       "is present at the start",
       "acts as a catalyst"
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-7",
     question: "The sum of the elementary steps in a valid mechanism must equal",
     options: [
-      "the rate law",
-      "the overall balanced equation",
       "the activation energy",
-      "the equilibrium constant"
+      "the equilibrium constant expression",
+      "the rate law",
+      "the overall balanced equation"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "This is one of two criteria for a plausible mechanism, along with agreement with the observed rate law. Intermediates cancel in that sum."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-9",
     question: "Which statement about a proposed mechanism is correct?",
     options: [
-      "A mechanism that fits the data is proven correct",
-      "A mechanism can be supported but never definitively proven by kinetic data alone",
-      "Mechanisms are determined from the balanced equation",
-      "Only one mechanism can fit any rate law"
+      "A mechanism can be supported but never proven by kinetics",
+      "Mechanisms are determined directly from the balanced equation",
+      "Only one mechanism can fit any rate law",
+      "A mechanism that fits the data is proven correct"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Different mechanisms can predict the same rate law, so kinetics can rule out but not uniquely confirm. Additional evidence like intermediate detection strengthens the case."
   },
   {
     id: "5-4-10",
     question: "In a two-step mechanism whose first step is slow, the overall rate law is generally determined by",
     options: [
+      "the overall equation",
       "the fast step",
       "the slow step, the rate-determining step",
-      "the sum of both steps",
-      "the overall equation"
+      "the sum of both of the elementary steps together"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The reaction cannot proceed faster than its slowest step. If the fast step comes first, the treatment is more involved and requires a pre-equilibrium approach."
   }
 ];

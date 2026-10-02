@@ -19,96 +19,96 @@ window.QUIZ_QUESTIONS = [
     id: "5-8-2",
     question: "Utopian socialists such as Robert Owen differed from Marxists in that they",
     options: [
-      "advocated violent revolution as the only possible path to change",
       "built model communities to show cooperation could work",
       "defended unrestricted laissez-faire capitalism",
-      "opposed any improvement in workers' conditions"
+      "opposed any improvement in workers' conditions",
+      "advocated violent revolution as the only possible path to change"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Owen built New Lanark and New Harmony to show that humane industrial communities could work, hoping example would persuade. Marx dismissed this as utopian precisely because it did not address power and class conflict."
   },
   {
     id: "5-8-3",
     question: "Labor unions in the nineteenth century sought most directly to",
     options: [
-      "replace elected governments with workers' councils in every country",
-      "abolish industrial production entirely",
       "use collective bargaining and strikes to improve wages and hours",
-      "prevent workers from entering skilled trades"
+      "prevent workers from entering skilled trades",
+      "replace elected governments with workers' councils in every country",
+      "abolish industrial production entirely"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Unions organized to give workers leverage that individuals lacked against employers. Some socialist movements had broader political aims, but the core union function was bargaining power over pay and conditions."
   },
   {
     id: "5-8-4",
     question: "The Luddites are best understood as",
     options: [
-      "factory owners resisting government regulation",
-      "advocates of the rapid mechanization of all textile production",
       "opponents of technology in all its forms",
-      "skilled weavers who broke machines that devalued their craft"
+      "skilled weavers who broke machines that devalued their craft",
+      "factory owners resisting government regulation",
+      "advocates of the rapid mechanization of all textile production"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Their target was specific machinery that let unskilled workers replace trained croppers and weavers at lower pay. Reading them as simply anti-technology obscures the economic grievance that drove the movement."
   },
   {
     id: "5-8-5",
     question: "Chartism in Britain focused primarily on",
     options: [
-      "demanding universal male suffrage and the use of a secret ballot",
       "abolishing the monarchy and establishing a republic immediately",
       "restricting immigration into industrial cities",
-      "returning workers to agricultural employment"
+      "returning workers to agricultural employment",
+      "demanding universal male suffrage and the use of a secret ballot"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The People's Charter's six points were electoral reforms, reflecting the conviction that workers needed the vote before economic grievances could be addressed. Most Chartist demands were eventually adopted, though decades later."
   },
   {
     id: "5-8-6",
     question: "The abolition of slavery in the British Empire and elsewhere in the nineteenth century resulted from",
     options: [
-      "the complete unprofitability of slave-based plantation production",
-      "slave resistance, moral argument, and organized campaigning",
       "a single parliamentary vote with no prior campaign",
-      "the voluntary decision of plantation owners"
+      "the voluntary decision of plantation owners",
+      "the complete unprofitability of slave-based plantation production",
+      "slave resistance, moral argument, and organized campaigning"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Slave revolts, especially Haiti, raised the cost and danger of the system while abolitionist societies mobilized petitions, boycotts, and parliamentary pressure over decades. Caribbean plantations were still profitable when abolition passed, and owners were compensated to secure their acquiescence."
   },
   {
     id: "5-8-7",
     question: "Women's suffrage movements in this period were connected to industrialization because",
     options: [
+      "factory owners campaigned for women's voting rights",
       "suffrage was granted to women in most industrial states before 1850",
       "industrialization eliminated all women's employment",
-      "women's wage work strengthened the case for full political rights",
-      "factory owners campaigned for women's voting rights"
+      "women's wage work strengthened the case for full political rights"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Women working in mills, teaching, and organizing in reform movements made the exclusion from citizenship increasingly difficult to justify. No major state granted women's suffrage before 1893 in New Zealand."
   },
   {
     id: "5-8-8",
     question: "Which best explains why governments began regulating working conditions despite laissez-faire commitments?",
     options: [
-      "Employers themselves demanded regulation in order to raise their costs",
-      "Regulations were required by international treaty",
       "Governments sought to eliminate industrial production",
-      "Abuses, agitation, and worry over recruits' health forced action"
+      "Abuses, agitation, and worry over recruits' health forced action",
+      "Employers themselves demanded regulation in order to raise their costs",
+      "Regulations were required by international treaty"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Parliamentary investigations into child labor, cholera epidemics, and organized working-class agitation shifted the political calculation. Worries about the physical fitness of conscripts gave even conservative governments a reason to act."
   },
   {
     id: "5-8-9",
     question: "Which statement best compares reformist and revolutionary responses to industrial capitalism?",
     options: [
+      "Both rejected the use of political organization",
       "Both wanted change; reformists used law, revolutionaries used force",
       "Both sought the immediate abolition of all private property",
-      "Neither achieved any measurable change in the conditions of workers",
-      "Both rejected the use of political organization"
+      "Neither achieved any measurable change in the conditions of workers"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Trade unionists and Chartists worked within existing institutions while Marxists argued those institutions served the owning class and had to be overthrown. Reformist pressure did produce real gains in hours, wages, and safety."
   },
   {

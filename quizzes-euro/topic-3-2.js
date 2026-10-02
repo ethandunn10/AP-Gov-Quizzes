@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-1",
     question: "The English Civil War arose most directly from conflict over",
     options: [
+      "the succession of a foreign Catholic prince to the English throne",
       "royal attempts to raise revenue and set religion without Parliament",
       "England's claim to territory on the European continent",
-      "whether England should join the Thirty Years' War on the Protestant side",
-      "the succession of a foreign Catholic prince to the English throne"
+      "whether England should join the Thirty Years' War on the Protestant side"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Charles I's eleven years of personal rule, ship money, and Laudian church policy convinced many that he meant to govern without consent. Religion and taxation were inseparable in the quarrel."
   },
   {
     id: "3-2-2",
     question: "The outcome of the English Civil War in 1649 was",
     options: [
+      "a negotiated settlement dividing power between king and Commons",
       "the succession of a Scottish Catholic dynasty to the English throne",
       "the execution of Charles I and the establishment of a republic",
-      "the restoration of Charles I to full authority over Parliament",
-      "a negotiated settlement dividing power between king and Commons"
+      "the restoration of Charles I to full authority over Parliament"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Parliament tried and beheaded the king, then governed as the Commonwealth, an extraordinary assertion that a monarch was subject to law. Cromwell's Protectorate followed within a few years."
   },
   {
     id: "3-2-3",
     question: "Oliver Cromwell's rule as Lord Protector is best described as",
     options: [
-      "a restoration of Stuart royal authority under a different title",
-      "a constitutional monarchy operating under an elected Parliament",
       "a military-backed regime that repeatedly dissolved its parliaments",
-      "a fully democratic republic with suffrage for all adult men"
+      "a fully democratic republic with suffrage for all adult men",
+      "a restoration of Stuart royal authority under a different title",
+      "a constitutional monarchy operating under an elected Parliament"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Cromwell depended on the New Model Army and dismissed parliaments that obstructed him, ruling in ways that resembled the king he had replaced. He declined the crown when it was offered."
   },
   {
     id: "3-2-4",
     question: "The Restoration of 1660 brought back",
     options: [
+      "the monarchy under Charles II alongside a restored Parliament",
       "direct rule of England by the Scottish Presbyterian assembly",
       "the Catholic Church as the established church of England",
-      "the republican Commonwealth under a newly elected council",
-      "the monarchy under Charles II alongside a restored Parliament"
+      "the republican Commonwealth under a newly elected council"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Parliament invited Charles II back, restoring monarchy, the Anglican church, and the Lords, but the memory of 1649 limited what any later king could attempt. The underlying disputes remained unresolved."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-8",
     question: "Hobbes's Leviathan differed from Locke's theory in arguing that",
     options: [
-      "political authority derives from the divine right of hereditary kings",
-      "the people retain the right to depose any ruler who governs badly",
       "monarchy is inherently illegitimate compared with republican government",
-      "subjects should surrender power to an absolute sovereign for security"
+      "subjects should surrender power to an absolute sovereign for security",
+      "political authority derives from the divine right of hereditary kings",
+      "the people retain the right to depose any ruler who governs badly"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Hobbes reasoned from consent to absolutism: only an undivided sovereign prevents the war of all against all. He grounded authority in contract rather than divine right, which offended royalists too."
   },
   {

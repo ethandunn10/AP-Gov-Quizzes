@@ -8,7 +8,7 @@ window.QUIZ_QUESTIONS = [
     question: "The Union's Anaconda Plan called for",
     options: [
       "an immediate assault on Richmond to end the war quickly",
-      "blockading southern ports and seizing the Mississippi to divide the Confederacy",
+      "blockading southern ports and seizing the Mississippi River",
       "arming enslaved people to revolt behind Confederate lines",
       "invading Mexico to prevent Confederate supply through Texas"
     ],
@@ -20,9 +20,9 @@ window.QUIZ_QUESTIONS = [
     question: "The Battle of Antietam (September 1862) was strategically significant because",
     options: [
       "it destroyed Lee's army as a fighting force",
-      "the Union's tactical result gave Lincoln the moment to issue the Emancipation Proclamation",
+      "the Union result gave Lincoln his moment for the Proclamation",
       "it opened the Mississippi River to Union shipping",
-      "it ended Confederate hopes of capturing Washington in 1861"
+      "it ended Confederate hopes of ever capturing Washington in 1861"
     ],
     correctIndex: 1,
     explanation: "Lee's withdrawal let Lincoln announce emancipation from apparent strength rather than desperation, and it discouraged European recognition. Lee's army escaped intact, so it was no destruction."
@@ -31,56 +31,56 @@ window.QUIZ_QUESTIONS = [
     id: "5-8-3",
     question: "Vicksburg's fall in July 1863 mattered because it",
     options: [
-      "gave the Union control of the Mississippi and split the Confederacy",
-      "forced the surrender of Lee's Army of Northern Virginia",
-      "captured the Confederate capital",
-      "ended the naval blockade"
+      "ended the naval blockade of the South",
+      "gave the Union the Mississippi and split the Confederacy",
+      "forced the surrender of Lee's Army of Northern Virginia at once",
+      "captured the Confederate capital city"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "With the river in Union hands, Texas, Arkansas, and Louisiana were cut off from the eastern Confederacy. It came a day after Gettysburg, making early July 1863 the war's turning point."
   },
   {
     id: "5-8-4",
     question: "Which factor best explains early Confederate battlefield success in the East?",
     options: [
-      "Larger armies than the Union could field",
-      "Superior industrial production of weapons",
-      "Effective commanders and the defensive advantage of fighting on familiar ground",
-      "Control of the sea lanes to Europe"
+      "Effective commanders and the advantage of familiar ground",
+      "Complete control of the sea lanes to Europe",
+      "Larger armies than the Union was able to field",
+      "Superior industrial production of weapons and ammunition alike"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Lee and Jackson used interior lines and terrain they knew, and defenders needed fewer men than attackers. The Confederacy was outmatched in population, industry, and navy throughout."
   },
   {
     id: "5-8-5",
     question: "The 54th Massachusetts Infantry is notable as",
     options: [
-      "the first regiment to use repeating rifles",
-      "one of the first Black Union regiments, whose assault on Fort Wagner shifted northern opinion",
-      "a Confederate unit composed of free Black volunteers",
-      "the unit that captured Richmond in 1865"
+      "an early Black Union regiment whose assault shifted opinion",
+      "a Confederate unit composed entirely of free Black volunteers",
+      "the unit that captured Richmond in 1865",
+      "the first regiment to use repeating rifles"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Its costly assault in 1863 was widely reported and helped legitimize Black military service; roughly 180,000 Black soldiers eventually served. Black troops initially received lower pay, a disparity they protested until it was corrected."
   },
   {
     id: "5-8-6",
     question: "Sherman's march through Georgia and the Carolinas in 1864-1865 is best described as",
     options: [
-      "a campaign of total war aimed at destroying the South's capacity and will to fight",
-      "a failed attempt to capture Richmond from the south",
       "a naval operation supported by ironclads",
-      "a defensive maneuver to protect Tennessee"
+      "a defensive maneuver to protect Tennessee",
+      "a total war campaign aimed at the South's capacity to fight",
+      "a failed attempt to capture Richmond from the southern direction"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Sherman targeted railroads, crops, and civilian morale rather than seeking a decisive battle. The fall of Atlanta before the march also helped secure Lincoln's reelection."
   },
   {
     id: "5-8-7",
     question: "Which development most changed the human cost of Civil War battles?",
     options: [
-      "The use of cavalry charges against infantry squares",
-      "Rifled muskets and artillery that made massed frontal assaults extremely costly",
+      "The use of cavalry charges against tightly massed infantry squares",
+      "Rifled muskets and artillery that made frontal assaults costly",
       "The introduction of machine guns on both sides",
       "The absence of any field medical service"
     ],
@@ -92,7 +92,7 @@ window.QUIZ_QUESTIONS = [
     question: "The Union's advantages over the Confederacy included all of the following EXCEPT",
     options: [
       "a far larger population and immigrant manpower",
-      "most of the nation's railroad mileage and factories",
+      "most of the nation's railroad mileage and industrial factories",
       "an established navy and merchant marine",
       "shorter supply lines when operating deep in enemy territory"
     ],
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-8-9",
     question: "The 1864 presidential election mattered to the war's outcome because",
     options: [
-      "a McClellan victory might have brought a negotiated peace leaving slavery intact",
       "Confederate states were allowed to vote for the first time",
       "Lincoln's defeat would have made Grant commander in chief",
-      "it postponed emancipation until 1866"
+      "it postponed emancipation until 1866",
+      "a McClellan victory might have brought a negotiated peace"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The Democratic platform called for an armistice, so Union military success at Atlanta and in the Shenandoah shaped the political result. Soldiers voted heavily for Lincoln."
   },
   {
@@ -116,8 +116,8 @@ window.QUIZ_QUESTIONS = [
     question: "Lee's surrender at Appomattox in April 1865 was followed by",
     options: [
       "trials and executions of all Confederate generals",
-      "generous terms allowing soldiers to return home, and surrenders of remaining Confederate armies",
-      "an immediate constitutional amendment granting Black suffrage",
+      "generous terms and the surrender of remaining Confederate armies",
+      "an immediate constitutional amendment granting Black men suffrage",
       "the arrest of Lincoln's cabinet by Union officers"
     ],
     correctIndex: 1,

@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-15-1",
     question: "An infectious disease is one that is caused by",
     options: [
+      "long term exposure to a chemical contaminant",
       "a pathogen such as a bacterium, virus, or parasite",
       "an inherited genetic mutation passed between generations",
-      "nutritional deficiency in the affected population",
-      "long term exposure to a chemical contaminant"
+      "nutritional deficiency in the affected population"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Infectious diseases can be transmitted between hosts. Chronic diseases like heart disease and cancer are not transmissible."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-15-3",
     question: "Malaria is classified as a vector borne disease because it is transmitted by",
     options: [
-      "consumption of improperly cooked food products",
-      "contaminated drinking water in tropical regions",
       "Anopheles mosquitoes carrying the Plasmodium parasite",
-      "direct person to person respiratory contact"
+      "direct person to person respiratory contact",
+      "consumption of improperly cooked food products",
+      "contaminated drinking water supplies in tropical regions"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Controlling malaria means controlling mosquitoes as well as treating patients. Bed nets and indoor spraying are the primary interventions."
   },
   {
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "8-15-5",
     question: "A zoonotic disease is one that",
     options: [
-      "spreads from animals to human populations",
-      "is caused by chemical exposure",
       "spreads only between human individuals",
-      "affects wild animals but never humans"
+      "affects wild animals but never humans",
+      "spreads from animals to human populations",
+      "is caused by chemical exposure"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Most emerging infectious diseases in recent decades have been zoonotic. Habitat encroachment increases contact between people and wildlife reservoirs."
   },
   {
     id: "8-15-6",
     question: "Deforestation can increase disease risk because it",
     options: [
+      "reduces the overall diversity of pathogens in an ecosystem",
       "eliminates all disease vectors from an area",
       "increases human contact with wildlife disease reservoirs",
-      "improves sanitation in nearby human settlements",
-      "reduces the diversity of pathogens in an ecosystem"
+      "improves sanitation in nearby human settlements"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Forest edges create ideal conditions for mosquito breeding and human exposure. Ebola and Nipah outbreaks have both been linked to land use change."
   },
   {
     id: "8-15-7",
     question: "Tuberculosis remains a major global health problem largely because",
     options: [
+      "the disease affects only wealthy developed nations",
       "it cannot be transmitted between human beings",
       "no treatment exists for tuberculosis infection",
-      "drug resistant strains have emerged and spread",
-      "the disease affects only wealthy developed nations"
+      "drug resistant strains have emerged and spread"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Incomplete treatment courses select for resistant strains. Multidrug resistant tuberculosis requires far longer and costlier treatment."
   },
   {
     id: "8-15-8",
     question: "Access to clean water and sanitation reduces infectious disease most directly by",
     options: [
-      "providing immunity against every waterborne pathogen",
-      "treating people who have already become infected",
       "eliminating all pathogens from the environment",
-      "breaking the fecal oral transmission route"
+      "breaking the fecal oral transmission route",
+      "providing immunity against every waterborne pathogen",
+      "treating people who have already become infected"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Separating human waste from drinking water prevents transmission. This intervention has saved more lives than any medical treatment."
   },
   {
     id: "8-15-9",
     question: "Antibiotic resistance is worsened by",
     options: [
-      "overuse in medicine and routine use in livestock",
-      "restricting antibiotics to confirmed bacterial infections",
       "developing entirely new classes of antibiotic drugs",
-      "completing every prescribed course of antibiotics"
+      "completing every prescribed course of antibiotics",
+      "overuse in medicine and routine use in livestock",
+      "restricting antibiotics to confirmed bacterial infections"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Each unnecessary exposure selects for resistant bacteria. Agricultural use accounts for a large share of total antibiotic consumption."
   },
   {

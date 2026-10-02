@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-1",
     question: "Cultural diffusion commonly produces",
     options: [
-      "hybrid forms combining elements of several cultures",
       "the complete disappearance of all local traditions",
       "perfectly identical cultures in every world region",
-      "the total isolation of each culture from all others"
+      "the total isolation of each culture from all others",
+      "hybrid forms combining elements of several cultures"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Contact typically produces syncretism rather than wholesale replacement, as reggaeton and Tex-Mex cuisine illustrate. Hybridity is the normal outcome of sustained exchange."
   },
   {
     id: "3-8-2",
     question: "Concern about cultural homogenization refers to the worry that",
     options: [
-      "local cultures will become more distinct from one another",
-      "global media and brands eroding distinctive local practice",
       "no cultural traits will ever spread between world regions",
-      "cultures will become permanently isolated from each other"
+      "cultures will become permanently isolated from each other",
+      "local cultures will become more distinct from one another",
+      "global media and brands eroding distinctive local practice"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Critics point to global chains and entertainment displacing local businesses and traditions. Defenders note that local adaptation and revival movements complicate the picture."
   },
   {
     id: "3-8-3",
     question: "Cultural imperialism describes",
     options: [
+      "mutual and balanced exchange between two equal cultures",
       "the deliberate isolation of a culture from outside contact",
       "the study of how cultural traits spread geographically",
-      "a dominant culture displacing others through influence",
-      "mutual and balanced exchange between two equal cultures"
+      "a dominant culture displacing others through influence"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The term captures asymmetry, where powerful states' media and products reshape weaker societies. Critics of the concept argue it understates local agency in adopting and reworking traits."
   },
   {
     id: "3-8-4",
     question: "Local resistance to cultural diffusion can take the form of",
     options: [
-      "the complete acceptance of all incoming cultural traits",
-      "the elimination of all local media and educational institutions",
       "the prohibition of any contact with neighboring regions",
-      "language laws, content quotas, and revival movements"
+      "language laws, content quotas, and revival movements",
+      "the complete acceptance of all incoming cultural traits",
+      "the elimination of all local media and educational institutions"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "France's language academy and broadcast quotas illustrate deliberate policy resistance. Indigenous language revitalization is another common form."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-6",
     question: "The diffusion of popular culture can threaten folk culture because it",
     options: [
-      "spreads only among communities that already share it",
-      "offers alternatives that younger generations often prefer",
       "strengthens traditional practices in isolated communities",
-      "has no measurable effect on any local tradition"
+      "has no measurable effect on any local tradition",
+      "spreads only among communities that already share it",
+      "offers alternatives that younger generations often prefer"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "When young people adopt global music and dress, transmission of local traditions weakens. Some communities respond with deliberate revitalization efforts."
   },
   {
     id: "3-8-7",
     question: "Diffusion can have environmental effects when it spreads",
     options: [
+      "practices that have no relationship to resource consumption",
       "only intangible beliefs with no material component",
       "traits that reduce resource use in every receiving region",
-      "consumption patterns that increase resource use and waste",
-      "practices that have no relationship to resource consumption"
+      "consumption patterns that increase resource use and waste"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Adoption of meat-heavy diets and car ownership raises land, water, and energy demand as it spreads. Cultural change and environmental change are closely linked."
   },
   {
     id: "3-8-8",
     question: "Diffusion contributes to the growth of multicultural societies by",
     options: [
-      "eliminating the possibility of cultural exchange",
       "requiring all residents to adopt a single common culture",
       "preventing migrants from maintaining their own practices",
-      "bringing populations with distinct traditions together"
+      "bringing populations with distinct traditions together",
+      "eliminating the possibility of cultural exchange"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Migration combined with communication lets multiple traditions coexist and interact within the same city. Debates over integration and pluralism follow from that coexistence."
   },
   {
     id: "3-8-9",
     question: "Which is evidence that diffusion does not simply erase local culture?",
     options: [
-      "Global brands adapting their products to local tastes",
       "The worldwide availability of identical fast-food menus",
       "The disappearance of all regional cuisines after 1990",
-      "The absence of any local content in global media"
+      "The absence of any local content in global media",
+      "Global brands adapting their products to local tastes"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Menu variation by country shows local preferences shaping global firms rather than the reverse alone. Glocalization describes this two-way adjustment."
   },
   {
     id: "3-8-10",
     question: "A geographer assessing diffusion's overall effects would conclude that it produces",
     options: [
-      "the permanent isolation of every cultural region",
-      "both convergence and new hybrids, varying by place",
       "complete uniformity across all world cultures",
-      "no measurable change in any receiving society"
+      "no measurable change in any receiving society",
+      "the permanent isolation of every cultural region",
+      "both convergence and new hybrids, varying by place"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Shared brands and media coexist with vigorous local adaptation and identity assertion. Outcomes depend on the receiving society's institutions and resources."
   }
 ];

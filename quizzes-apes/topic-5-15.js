@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-15-1",
     question: "Sustainable agriculture aims to produce food while",
     options: [
-      "maintaining soil, water, and ecosystem health over time",
       "eliminating all mechanization from farming operations",
       "prohibiting the sale of any farm products commercially",
-      "maximizing yield regardless of long term soil condition"
+      "maximizing yield regardless of long term soil condition",
+      "maintaining soil, water, and ecosystem health over time"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The goal is productivity that persists rather than production that degrades its own base. Sustainable methods are compatible with machinery and commercial sale."
   },
   {
@@ -43,60 +43,60 @@ window.QUIZ_QUESTIONS = [
     id: "5-15-4",
     question: "Agroforestry integrates",
     options: [
-      "livestock production with aquaculture systems",
-      "greenhouse production with open field farming",
       "multiple crop species planted in the same rotation",
-      "trees and shrubs with crops or livestock"
+      "trees and shrubs with crops or livestock",
+      "livestock production with aquaculture systems",
+      "greenhouse production with open field farming"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Alley cropping and silvopasture provide shade, windbreak, and additional income. Tree roots also reduce erosion and can fix nitrogen."
   },
   {
     id: "5-15-5",
     question: "Perennial crops offer sustainability advantages over annuals because they",
     options: [
+      "must be replanted and tilled every single year",
       "maintain root systems that hold soil year round",
       "require substantially more fertilizer per acre",
-      "produce no harvestable yield in any season",
-      "must be replanted and tilled every single year"
+      "produce no harvestable yield in any season"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Continuous root cover reduces erosion and builds soil carbon. Developing perennial grain crops is an active area of agricultural research."
   },
   {
     id: "5-15-6",
     question: "Organic farming is defined primarily by",
     options: [
-      "the distance between the farm and its consumers",
-      "avoiding synthetic pesticides, fertilizers, and GMOs",
       "the total size of the farming operation",
-      "selling produce exclusively at farmers markets"
+      "selling produce exclusively at farmers markets",
+      "the distance between the farm and all of its consumers",
+      "avoiding synthetic pesticides, fertilizers, and GMOs"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Certification turns on prohibited inputs and required practices. Large organic operations shipping nationally are entirely common."
   },
   {
     id: "5-15-7",
     question: "A tradeoff associated with organic agriculture is that it often",
     options: [
+      "uses substantially more synthetic fertilizer per acre",
       "eliminates the need for any weed management",
       "produces higher yields per acre than conventional farming",
-      "requires more land to produce the same output",
-      "uses substantially more synthetic fertilizer per acre"
+      "requires more land to produce the same output"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Yield gaps mean organic production of a given quantity may require more land. Critics note this could offset per-acre environmental benefits."
   },
   {
     id: "5-15-8",
     question: "Green manure refers to",
     options: [
-      "synthetic fertilizer manufactured from natural gas",
       "compost purchased from a municipal facility",
       "animal waste applied directly to a crop field",
-      "cover crops plowed into soil to add nutrients"
+      "cover crops plowed into soil to add nutrients",
+      "synthetic fertilizer manufactured from natural gas"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Legumes grown specifically to be incorporated add both nitrogen and organic matter. The practice predates synthetic fertilizer by centuries."
   },
   {

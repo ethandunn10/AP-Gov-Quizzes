@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-1",
     question: "Colonialism differs from imperialism in that colonialism specifically involves",
     options: [
-      "the granting of independence to a dependent territory",
       "economic influence exercised without any territorial control",
       "settlement and direct administration of a foreign territory",
-      "the voluntary union of two states into a single country"
+      "the voluntary union of two states into a single country",
+      "the granting of independence to a dependent territory"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Colonialism entails occupying and governing territory, while imperialism covers the broader exercise of power including economic domination. The two overlap substantially."
   },
   {
@@ -31,48 +31,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-3",
     question: "Decolonization after 1945 produced",
     options: [
-      "a large increase in the number of sovereign states",
-      "the consolidation of colonies into fewer large states",
       "the return of colonial administration to European powers",
-      "the elimination of all international boundaries in Africa"
+      "the elimination of all international boundaries in Africa",
+      "a large increase in the number of sovereign states",
+      "the consolidation of colonies into fewer large states"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "United Nations membership grew from 51 founding states to nearly 200 as empires dissolved. Most new states retained their colonial boundaries."
   },
   {
     id: "4-2-4",
     question: "Neocolonialism describes a situation in which",
     options: [
-      "colonial powers grant full political independence without conditions",
       "former colonies remain economically dependent despite independence",
       "colonies are transferred between two European powers",
-      "a former colony formally re-establishes colonial administration"
+      "a former colony formally re-establishes colonial administration",
+      "colonial powers grant full political independence without conditions"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Commodity dependence, debt, and foreign ownership can constrain a formally sovereign state's choices. Critics use the term to describe continuity in economic relationships."
   },
   {
     id: "4-2-5",
     question: "Irredentism refers to a state's attempt to",
     options: [
-      "join an international organization for economic benefit",
-      "divide its own territory into smaller administrative units",
       "annex territory occupied by its ethnic kin in another state",
-      "grant autonomy to a minority region within its borders"
+      "grant autonomy to a minority region within its borders",
+      "join an international organization for economic benefit",
+      "divide its own territory into smaller administrative units"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Claims based on co-ethnics living across a border have driven numerous conflicts, including in the Balkans. It illustrates how nation and state boundaries diverge."
   },
   {
     id: "4-2-6",
     question: "Balkanization describes the process by which",
     options: [
-      "colonial powers establish new territories in Southeast Europe",
-      "international organizations expand their membership",
       "several small states merge into one large political unit",
-      "a state fragments into smaller hostile units along ethnic lines"
+      "a state fragments into smaller hostile units along ethnic lines",
+      "colonial powers establish new territories in Southeast Europe",
+      "international organizations expand their membership"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Yugoslavia's violent breakup into seven states gave the term its modern usage. It describes fragmentation driven by competing national claims."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-9",
     question: "Supranational organizations such as the European Union affect state sovereignty by",
     options: [
-      "eliminating national governments within member states",
-      "having no effect on how member states make decisions",
       "requiring members to pool authority in shared institutions",
-      "granting members unlimited freedom in all policy areas"
+      "granting members completely unlimited freedom in all policy areas",
+      "eliminating national governments within member states",
+      "having no effect on how member states make decisions"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Members accept common rules and jurisdiction in exchange for market access and collective weight. Disputes over how much authority to pool are persistent."
   },
   {
     id: "4-2-10",
     question: "A geographer explaining why many African conflicts follow colonial borders would emphasize that",
     options: [
-      "African states redrew all their borders after independence",
       "colonial borders matched precisely existing ethnic divisions",
       "international law required borders to follow ethnic lines",
-      "boundaries drawn in Europe split peoples and grouped rivals"
+      "boundaries drawn in Europe split peoples and grouped rivals",
+      "African states redrew all their borders after independence"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Organization of African Unity affirmed inherited borders to avoid endless territorial war, accepting their known flaws. Secession movements and cross-border conflicts followed from that choice."
   }
 ];

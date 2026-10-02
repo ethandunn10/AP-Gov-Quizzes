@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-1",
     question: "A relict boundary is one that",
     options: [
-      "was drawn before an area was substantially settled",
-      "separates two different religious or linguistic groups",
       "no longer functions politically but stays visible on the land",
-      "follows a river, mountain range, or other physical feature"
+      "follows a river, mountain range, or other physical feature",
+      "was drawn before an area was substantially settled",
+      "separates two different religious or linguistic groups"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "The former inner-German border still shows in land use and infrastructure decades after unification. Relict boundaries leave cultural and economic traces."
   },
   {
     id: "4-4-2",
     question: "An antecedent boundary is drawn",
     options: [
-      "to separate two culturally distinct populations",
       "by an international court resolving a dispute",
       "after a region has been densely settled and developed",
-      "before significant settlement of the area occurred"
+      "before significant settlement of the area occurred",
+      "to separate two culturally distinct populations"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The United States-Canada boundary along the 49th parallel predated most settlement in the region. Such boundaries often follow geometric lines."
   },
   {
@@ -43,60 +43,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-4",
     question: "A superimposed boundary is characterized by being",
     options: [
-      "established only after long periods of local settlement",
-      "drawn by an outside power without regard to local groups",
       "negotiated carefully between the two neighboring states",
-      "determined by the course of a major river system"
+      "determined by the course of a major river system",
+      "established only after long periods of local settlement",
+      "drawn by an outside power without regard to local groups"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Most African boundaries were drawn in European capitals, splitting peoples and grouping rivals. Those divisions have produced lasting conflict."
   },
   {
     id: "4-4-5",
     question: "A geometric boundary follows",
     options: [
+      "the historical limit of a former empire's territory",
       "the crest of a mountain range or the course of a river",
       "the dividing line between two language communities",
-      "straight lines of latitude, longitude, or simple arcs",
-      "the historical limit of a former empire's territory"
+      "straight lines of latitude, longitude, or simple arcs"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The 49th parallel and many Saharan borders are geometric, which makes them easy to define but often culturally arbitrary. They are common in areas mapped from a distance."
   },
   {
     id: "4-4-6",
     question: "Physical or natural boundaries follow features such as",
     options: [
-      "lines of latitude drawn on a globe",
-      "the distribution of religious adherents",
       "boundaries between agricultural land uses",
-      "rivers, mountain ranges, and desert margins"
+      "rivers, mountain ranges, and desert margins",
+      "lines of latitude drawn on a globe",
+      "the distribution of religious adherents"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The Rio Grande and the Pyrenees serve as boundaries, though rivers shift course and mountains contain passes. Physical features are visible but not always stable."
   },
   {
     id: "4-4-7",
     question: "The process of delimitation in boundary creation refers to",
     options: [
-      "drawing the agreed boundary onto an official map",
       "marking the boundary physically on the ground",
       "negotiating the general principles of the boundary",
-      "resolving disputes about how the boundary operates"
+      "resolving disputes about how the boundary operates",
+      "drawing the agreed boundary onto an official map"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Definition sets the principles, delimitation maps the line, and demarcation places markers on the ground. Many boundaries are delimited but never fully demarcated."
   },
   {
     id: "4-4-8",
     question: "Demarcation of a boundary involves",
     options: [
+      "writing the boundary's legal description in a treaty",
       "drawing the boundary line onto a published map",
       "physically marking the boundary with posts or fences",
-      "deciding which state will administer the territory",
-      "writing the boundary's legal description in a treaty"
+      "deciding which state will administer the territory"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Demarcation is the costly on-the-ground step that many boundaries never receive. Remote or contested boundaries are frequently left undemarcated."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-10",
     question: "A geographer explaining why superimposed boundaries generate conflict would emphasize that they",
     options: [
-      "always follow existing cultural and linguistic divisions",
       "are more expensive to demarcate than other boundary types",
       "are the only boundaries recognized in international law",
-      "divide communities and force rivals into shared states"
+      "divide communities and force rivals into shared states",
+      "always follow existing cultural and linguistic divisions"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "When a boundary ignores who lives where, it creates minorities on both sides and irredentist claims. That pattern underlies many postcolonial conflicts."
   }
 ];

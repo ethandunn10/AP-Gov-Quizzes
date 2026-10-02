@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-1",
     question: "A cultural region is an area in which",
     options: [
+      "the physical environment is uniform throughout",
       "a single government exercises legal authority",
       "population density is identical in every district",
-      "people share one or more significant cultural traits",
-      "the physical environment is uniform throughout"
+      "people share one or more significant cultural traits"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Language, religion, or shared customs define cultural regions, whose boundaries are usually transitional. Latin America and the Arab world are common examples."
   },
   {
     id: "3-3-2",
     question: "A cultural hearth is",
     options: [
-      "a region where two cultures blend into one another",
-      "a place where a culture has been entirely replaced",
       "the outer boundary at which a cultural trait disappears",
-      "an area where a major cultural trait originated"
+      "an area where a major cultural trait originated",
+      "a region where two cultures blend into one another",
+      "a place where a culture has been entirely replaced"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Mesopotamia, the Nile valley, the Indus valley, and Mesoamerica are classic hearths of agriculture, writing, and urbanism. Traits then diffuse outward from these origins."
   },
   {
@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-4",
     question: "Assimilation differs from acculturation because assimilation involves",
     options: [
+      "the temporary adoption of traits that are later abandoned",
       "the deliberate rejection of all contact with other groups",
       "a group adopting the dominant culture and losing its own",
-      "the blending of two cultures into a wholly new third culture",
-      "the temporary adoption of traits that are later abandoned"
+      "the blending of two cultures into a wholly new third culture"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Later generations may lose the ancestral language and identify primarily with the host society. Whether assimilation should be a policy goal is politically contested."
   },
   {
     id: "3-3-5",
     question: "Syncretism refers to",
     options: [
-      "the isolation of a culture from all outside influence",
-      "the mapping of cultural traits across a large region",
       "the blending of elements from two cultures into one form",
-      "the complete replacement of one culture by another"
+      "the complete replacement of one culture by another",
+      "the isolation of a culture from all outside influence",
+      "the mapping of cultural traits across a large region"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Vodou combines West African and Catholic elements, and Día de los Muertos joins Indigenous and Christian practice. Syncretic forms are common wherever cultures meet."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-7",
     question: "Cultural divergence can occur when a group",
     options: [
+      "adopts the language and customs of a dominant society",
       "becomes isolated and develops distinctive practices",
       "merges completely with a surrounding population",
-      "increases its contact with neighboring cultural groups",
-      "adopts the language and customs of a dominant society"
+      "increases its contact with neighboring cultural groups"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Physical isolation or deliberate separation lets distinct traits develop, as with the Amish in North America. Divergence and convergence operate simultaneously at different scales."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-10",
     question: "A geographer explaining why a cultural trait varies within one country would emphasize",
     options: [
+      "differences in settlement history, isolation, and contact",
       "the assumption that national borders produce cultural uniformity",
       "the total land area contained within the country's borders",
-      "the country's absolute position in latitude and longitude",
-      "differences in settlement history, isolation, and contact"
+      "the country's absolute position in latitude and longitude"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Who settled where, how connected those places were, and what influences reached them account for internal variation. Political borders rarely coincide with cultural boundaries."
   }
 ];

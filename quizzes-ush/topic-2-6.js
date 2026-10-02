@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-1",
     question: "The shift from indentured servitude to enslaved African labor in the Chesapeake accelerated most sharply",
     options: [
+      "after Native nations agreed to supply plantation labor",
       "after Bacon's Rebellion revealed the dangers of a landless free class",
       "immediately upon the founding of Jamestown in 1607",
-      "once Parliament banned indentured servitude in the colonies",
-      "after Native nations agreed to supply plantation labor"
+      "once Parliament formally banned indentured servitude across the colonies"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The rebellion showed elites the risk of armed, land-hungry former servants, and enslaved Africans offered a permanent labor force with no such expectations. Parliament never banned indenture — it declined as English wages rose."
   },
   {
     id: "2-6-2",
     question: "Colonial slave codes enacted in the late seventeenth century primarily served to",
     options: [
-      "guarantee legal protections for enslaved workers",
       "restrict the number of enslaved people a planter could own",
-      "create a path by which enslaved people could purchase freedom",
-      "define slavery as lifelong, inherited, and tied to African ancestry"
+      "create a path by which enslaved people could eventually purchase freedom",
+      "define slavery as lifelong, inherited, and tied to African ancestry",
+      "guarantee legal protections for enslaved workers"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "These laws made status hereditary through the mother and fused race with permanent bondage. They removed protections rather than granting them, closing off earlier paths to freedom."
   },
   {
     id: "2-6-3",
     question: "Slavery in the northern colonies differed from slavery in the southern colonies mainly in",
     options: [
+      "relying exclusively on Native rather than African labor",
       "scale and type of work rather than in legal status",
       "being prohibited by law throughout New England",
-      "granting enslaved people full legal equality",
-      "relying exclusively on Native rather than African labor"
+      "granting enslaved people full legal equality"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Northern slavery was smaller and more urban, concentrated in households, docks, and skilled trades, but legally it was still chattel slavery. It was not abolished anywhere in the colonies during this period."
   },
   {
     id: "2-6-4",
     question: "The Stono Rebellion of 1739 in South Carolina resulted most directly in",
     options: [
+      "an end to the importation of enslaved Africans to the mainland colonies",
+      "expanded legal rights for free Black colonists",
       "the gradual abolition of slavery in the colony",
-      "harsher slave codes restricting movement, assembly, and literacy",
-      "an end to the importation of enslaved Africans to the mainland",
-      "expanded legal rights for free Black colonists"
+      "harsher slave codes restricting movement, assembly, and literacy"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "White fear after the uprising produced the Negro Act of 1740, tightening control over every aspect of enslaved life. Rebellion consistently produced repression rather than reform in this period."
   },
   {
     id: "2-6-5",
     question: "Enslaved people in the British colonies resisted bondage in ways that included",
     options: [
-      "armed rebellion as the only available form of resistance",
+      "negotiated labor contracts with individual planters",
+      "armed rebellion as the only available form of resistance open to them",
       "work slowdowns, escape, cultural preservation, and open revolt",
-      "legal petitions that colonial courts regularly granted",
-      "negotiated labor contracts with individual planters"
+      "legal petitions that colonial courts regularly granted"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Day-to-day resistance — breaking tools, feigning illness, running away, sustaining African languages, music, and religion — was far more common than armed revolt. Courts were instruments of the slave system rather than avenues of redress."
   },
   {
@@ -70,7 +70,7 @@ window.QUIZ_QUESTIONS = [
       "colonial laws that encouraged the preservation of African practices",
       "blending African traditions with American conditions in slave communities",
       "planters who provided formal education to enslaved children",
-      "the absence of any contact among enslaved people from different regions"
+      "the absence of any contact at all among enslaved people from different regions"
     ],
     correctIndex: 1,
     explanation: "Family networks, spiritual practice, music, and foodways fused African inheritances with new circumstances. Planters actively suppressed these practices, which makes their survival a form of resistance."
@@ -91,31 +91,31 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-8",
     question: "The concept of hereditary racial slavery was reinforced by colonial laws establishing that",
     options: [
-      "a child's status followed that of the mother",
-      "conversion to Christianity guaranteed a person's freedom",
       "enslaved people could testify against enslavers in court",
-      "enslaved status expired after a fixed term of years"
+      "enslaved status expired after a fixed term of years",
+      "a child's status followed that of the mother",
+      "conversion to Christianity guaranteed a person's freedom"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Tying status to the mother made slavery self-perpetuating and protected enslavers who fathered children with enslaved women. Colonies specifically legislated that baptism would not confer freedom."
   },
   {
     id: "2-6-9",
     question: "Which evidence would best support the claim that slavery's expansion was driven by economics rather than by preexisting racial ideology?",
     options: [
-      "Enslaved Africans arrived in Virginia as early as 1619",
-      "Colonial churches debated the morality of slaveholding",
       "Racial slave codes were written after labor demand rose, not before",
-      "Slavery existed in every British mainland colony by 1750"
+      "Slavery existed in every one of the British mainland colonies by 1750",
+      "Enslaved Africans arrived in Virginia as early as 1619",
+      "Colonial churches debated the morality of slaveholding"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "If the legal architecture of race followed rather than preceded the demand for permanent labor, economics is the driving force. The 1619 arrival alone does not settle the order of causation, since status was ambiguous for decades."
   },
   {
     id: "2-6-10",
     question: "By 1750, slavery in the British mainland colonies is best characterized as",
     options: [
-      "a practice confined to the southernmost colonies",
+      "a practice confined only to the southernmost colonies",
       "an institution already in visible decline",
       "a temporary arrangement subject to fixed terms",
       "a legally entrenched system present in every colony"

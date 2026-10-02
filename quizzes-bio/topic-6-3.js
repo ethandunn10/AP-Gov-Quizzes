@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.3-3",
     question: "Which modifications are added to a eukaryotic pre-mRNA before it leaves the nucleus?",
-    options: ["A 5' cap and a poly-A tail", "A cell wall and a nucleus", "Ribosomal subunits", "A second complementary strand"],
-    correctIndex: 0,
+    options: ["A cell wall and a nucleus", "Ribosomal subunits", "A second complementary strand", "A 5' cap and a poly-A tail"],
+    correctIndex: 3,
     explanation: "Eukaryotic pre-mRNA is processed by adding a 5' methylated guanine cap (protects mRNA and aids ribosome binding) and a poly-A tail at the 3' end (adds stability)."
   },
   {
     id: "6.3-4",
     question: "RNA splicing removes introns and joins exons together. What complex carries out this process?",
-    options: ["The ribosome", "The spliceosome", "DNA polymerase", "The nuclear envelope"],
-    correctIndex: 1,
+    options: ["DNA polymerase", "The nuclear envelope", "The ribosome", "The spliceosome"],
+    correctIndex: 3,
     explanation: "The spliceosome, made of small nuclear ribonucleoproteins (snRNPs), recognizes intron boundaries, removes introns, and splices exons together to form mature mRNA."
   },
   {
     id: "6.3-5",
     question: "Alternative splicing allows a single gene to:",
-    options: ["Be transcribed only once in its lifetime", "Produce several different mRNAs", "Never be translated at all", "Only exist in prokaryotic cells"],
-    correctIndex: 1,
+    options: ["Never be translated at all", "Only exist in prokaryotic cells", "Be transcribed only once in its lifetime", "Produce several different mRNAs"],
+    correctIndex: 3,
     explanation: "By including or excluding different combinations of exons, alternative splicing lets one gene code for several distinct protein products, increasing proteome diversity without increasing gene number."
   },
   {
     id: "6.3-6",
     question: "In eukaryotes, the TATA box is a key part of the:",
-    options: ["A terminator sequence", "The core promoter", "The poly-A signal site", "An intron sequence"],
-    correctIndex: 1,
+    options: ["The core promoter", "The poly-A signal site", "An intron sequence", "A terminator sequence"],
+    correctIndex: 0,
     explanation: "The TATA box is a common core promoter element in eukaryotes where transcription factors and RNA polymerase II assemble to start transcription."
   },
   {
     id: "6.3-7",
     question: "What is the function of a terminator sequence in transcription?",
-    options: ["It signals RNA polymerase to stop", "It signals the start of translation", "It splices introns from mRNA", "It attaches ribosomes to mRNA"],
-    correctIndex: 0,
+    options: ["It attaches ribosomes to mRNA", "It signals RNA polymerase to stop", "It signals the start of translation", "It splices introns from mRNA"],
+    correctIndex: 1,
     explanation: "The terminator is a DNA sequence marking the end of a gene; when RNA polymerase reaches it, transcription stops and the RNA transcript is released."
   },
   {
@@ -61,15 +61,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.3-9",
     question: "The regions of mature mRNA that are not translated into protein but flank the coding sequence are called:",
-    options: ["Intron regions", "The 5' and 3' UTRs", "Anticodon loops", "Operator sites"],
-    correctIndex: 1,
+    options: ["The 5' and 3' UTRs", "Anticodon loops", "Operator sites", "Intron regions"],
+    correctIndex: 0,
     explanation: "The 5' UTR and 3' UTR are non-coding regions of mature mRNA that can influence stability, localization, and translation efficiency, without being translated into amino acids themselves."
   },
   {
     id: "6.3-10",
     question: "How does RNA processing contribute to the regulation of gene expression?",
-    options: ["It has no effect on gene expression", "Splicing and RNA stability control output", "It only affects DNA replication speed", "It permanently deletes genes from the genome"],
-    correctIndex: 1,
+    options: ["Splicing and RNA stability control output", "It only affects DNA replication speed", "It permanently deletes genes from the genome", "It has no effect on gene expression"],
+    correctIndex: 0,
     explanation: "Because splicing choices, RNA stability, and processing efficiency vary, RNA processing is an important regulatory layer that determines which protein products are ultimately made and in what quantity."
   },
 ];

@@ -19,72 +19,72 @@ window.QUIZ_QUESTIONS = [
     id: "5-9-2",
     question: "Mountaintop removal mining involves",
     options: [
-      "tunneling horizontally into the side of a mountain",
       "blasting away summits and filling adjacent valleys",
       "extracting ore without disturbing surface vegetation",
-      "dredging riverbeds to recover mineral deposits"
+      "dredging riverbeds to recover mineral deposits",
+      "tunneling horizontally into the side of a mountain"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The practice buries headwater streams under valley fill. It is most associated with Appalachian coal extraction."
   },
   {
     id: "5-9-3",
     question: "Acid mine drainage forms when",
     options: [
-      "overburden is replaced after mining is finished",
-      "alkaline minerals dissolve into groundwater supplies",
       "sulfide minerals react with water and oxygen",
-      "mining equipment leaks fuel into nearby streams"
+      "mining equipment leaks fuel into nearby streams",
+      "overburden is replaced after mining is finished",
+      "alkaline minerals dissolve into groundwater supplies"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Exposed pyrite oxidizes to produce sulfuric acid, which then mobilizes heavy metals. The drainage can persist for centuries after mining ends."
   },
   {
     id: "5-9-4",
     question: "Tailings are best described as",
     options: [
+      "the valuable ore that is recovered from a mining operation",
+      "waste rock and processing residue left after extraction",
       "the soil layer removed to reach the ore deposit",
-      "equipment abandoned at a mine site after closure",
-      "the valuable ore recovered from a mining operation",
-      "waste rock and processing residue left after extraction"
+      "equipment abandoned at a mine site after closure"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Tailings often contain residual heavy metals and processing chemicals. Tailings dam failures have caused some of the worst mining disasters on record."
   },
   {
     id: "5-9-5",
     question: "Overburden refers to",
     options: [
-      "rock and soil removed to reach an ore deposit",
-      "the concentrated mineral product sold to buyers",
       "water pumped out of an underground mine shaft",
-      "processing waste remaining after ore is refined"
+      "processing waste remaining after ore is refined",
+      "rock and soil removed to reach an ore deposit",
+      "the concentrated mineral product sold to buyers"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Overburden is removed before extraction and ideally replaced during reclamation. The distinction from tailings, which are post-processing waste, is worth keeping clear."
   },
   {
     id: "5-9-6",
     question: "Mine reclamation is intended to",
     options: [
+      "increase the total area disturbed by mining",
       "extract any remaining ore from a closed mine",
       "restore the site to a stable productive condition",
-      "permanently seal the site from all future access",
-      "increase the total area disturbed by mining"
+      "permanently seal the site from all future access"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Regrading, replacing topsoil, and revegetating are standard steps. United States law requires reclamation bonds before surface mining begins."
   },
   {
     id: "5-9-7",
     question: "Heap leaching for gold recovery raises environmental concern because it uses",
     options: [
-      "mechanical separation requiring no chemicals",
       "only water with no added chemical reagents",
       "cyanide solution that can escape into groundwater",
-      "high temperatures that release no emissions"
+      "high temperatures that release no emissions",
+      "mechanical separation that requires no chemicals at all"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cyanide dissolves gold from crushed ore piles but is acutely toxic. Liner failures and heavy rainfall events have caused significant spills."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-9-9",
     question: "Mining affects water quality most persistently through",
     options: [
+      "temporary increases in stream flow during operation",
       "heavy metal and acid contamination lasting decades",
       "the immediate consumption of all local groundwater",
-      "increases in dissolved oxygen in nearby streams",
-      "temporary increases in stream flow during operation"
+      "increases in dissolved oxygen in nearby streams"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Acid mine drainage from abandoned sites still degrades thousands of stream miles in the United States. Treatment often must continue indefinitely."
   },
   {
     id: "5-9-10",
     question: "Demand for minerals used in renewable energy technology means that",
     options: [
-      "mining will become unnecessary in a clean energy system",
       "lithium, cobalt, and rare earth mining will expand",
       "no new mineral extraction will be required at all",
-      "fossil fuel extraction will increase proportionally"
+      "fossil fuel extraction will increase proportionally",
+      "mining will become unnecessary in a clean energy system"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Batteries, turbines, and solar panels all require mined materials. This creates a genuine tension between climate goals and mining impacts."
   }
 ];

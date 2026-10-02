@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-12-1",
     question: "Nuclear technology after 1945 affected Europe by",
     options: [
+      "having no effect on European strategic or energy policy",
       "providing energy while tying security to nuclear deterrence",
       "eliminating European reliance on all other sources of energy",
-      "being confined entirely to military rather than civilian use",
-      "having no effect on European strategic or energy policy"
+      "being confined entirely to military rather than civilian use"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Civilian reactors supplied a large share of French electricity while nuclear weapons underpinned the Cold War standoff on European soil. Both dimensions shaped postwar European politics."
   },
   {
     id: "9-12-2",
     question: "The Chernobyl disaster of 1986 was significant because it",
     options: [
+      "was confined entirely within the borders of one Soviet republic",
       "led to the immediate abandonment of nuclear power worldwide",
       "spread contamination across borders and damaged Soviet credibility",
-      "demonstrated the complete safety of Soviet nuclear technology",
-      "was confined entirely within the borders of one Soviet republic"
+      "demonstrated the complete safety of Soviet nuclear technology"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Radiation crossed into western Europe and the initial Soviet denials undercut glasnost's promise of openness. It strengthened anti-nuclear movements across the continent."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-12-5",
     question: "Medical technology since 1945 has affected European societies by",
     options: [
-      "extending life expectancy and contributing to population aging",
-      "reducing European life expectancy over the postwar decades",
       "eliminating every infectious disease from the European continent",
-      "having no effect on the age structure of European populations"
+      "having no effect on the age structure of European populations",
+      "extending life expectancy and contributing to population aging",
+      "reducing European life expectancy over the postwar decades"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Antibiotics, vaccination, and improved treatment raised life expectancy substantially, and longer lives combined with low fertility produced aging populations. That aging now strains pension and health systems."
   },
   {
     id: "9-12-6",
     question: "Television and later digital media affected European politics by",
     options: [
-      "confining political debate to parliamentary chambers alone",
       "making image, personality, and rapid communication central",
       "restoring newspapers as the only significant political medium",
-      "eliminating public interest in political questions entirely"
+      "eliminating public interest in political questions entirely",
+      "confining political debate to parliamentary chambers alone"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Broadcast and then online media reshaped campaigning around personality and immediacy, and social platforms later fragmented the shared audience. Politicians adapted their methods accordingly."
   },
   {
     id: "9-12-7",
     question: "Automation in European manufacturing has generally",
     options: [
-      "eliminated manufacturing entirely from European economies",
       "had no effect on productivity or on employment levels",
       "raised output per worker while reducing industrial employment",
-      "increased the number of factory jobs across western Europe"
+      "increased the number of factory jobs across western Europe",
+      "eliminated manufacturing entirely from European economies"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "European factories produce more with fewer workers, which sustained output while shrinking the industrial workforce. The political consequences of that shift remain significant."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-12-10",
     question: "A historian assessing technology's role in postwar Europe would conclude that it",
     options: [
-      "eliminated economic inequality within European societies",
-      "transformed daily life while creating new political dilemmas",
       "had no significant effect on European society since 1945",
-      "was developed entirely outside Europe and merely imported"
+      "was developed entirely outside Europe and merely imported",
+      "eliminated economic inequality within European societies",
+      "transformed daily life while creating new political dilemmas"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Nuclear power, computing, and medicine reshaped how Europeans lived while raising questions about safety, employment, and ethics. Europe was a major producer of these technologies, not just a consumer."
   }
 ];

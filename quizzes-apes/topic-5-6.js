@@ -8,7 +8,7 @@ window.QUIZ_QUESTIONS = [
     question: "A broad spectrum pesticide differs from a selective one in that it",
     options: [
       "poses no risk to any nontarget organism",
-      "targets only one specific pest species precisely",
+      "targets only one single specific pest species precisely",
       "kills a wide range of organisms including beneficials",
       "breaks down within hours of being applied"
     ],
@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-3",
     question: "The pesticide treadmill describes the pattern in which",
     options: [
-      "resistance forces ever more or stronger pesticide use",
       "farmers alternate between two chemicals each season",
       "pest populations remain permanently under control",
-      "pesticide use steadily declines as pests are eliminated"
+      "pesticide use steadily declines as pests are eliminated",
+      "resistance forces ever more or stronger pesticide use"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Each round of resistance demands higher doses or new chemicals at rising cost. Integrated pest management was developed to break this cycle."
   },
   {
     id: "5-6-4",
     question: "Persistent pesticides such as DDT are environmentally problematic because they",
     options: [
+      "dissolve readily in water and wash away quickly",
       "break down into harmless compounds within days",
       "accumulate in organisms and magnify up food chains",
-      "affect only the specific pest species targeted",
-      "dissolve readily in water and wash away quickly"
+      "affect only the specific pest species targeted"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Fat solubility and chemical stability let DDT concentrate in top predators. Eggshell thinning in raptors led to its ban in many countries."
   },
   {
@@ -58,7 +58,7 @@ window.QUIZ_QUESTIONS = [
       "physically removing pests from fields by hand",
       "applying synthetic chemicals derived from plants",
       "introducing natural predators or pathogens of the pest",
-      "genetically modifying the crop to produce toxins"
+      "genetically modifying the crop plants to produce their own toxins"
     ],
     correctIndex: 2,
     explanation: "Ladybugs against aphids and Bacillus thuringiensis against caterpillars are common examples. A risk is that introduced control agents can themselves become invasive."
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-6",
     question: "Crop rotation helps control pests because it",
     options: [
-      "increases the pest population between seasons",
       "eliminates the need for any soil nutrients",
       "provides the same host plant every growing season",
-      "disrupts pest life cycles tied to a specific crop"
+      "disrupts pest life cycles tied to a specific crop",
+      "increases the pest population between seasons"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Corn rootworm populations collapse when corn is replaced with soybeans. Rotation is among the oldest and cheapest pest control tools."
   },
   {
     id: "5-6-7",
     question: "Bt crops are engineered to",
     options: [
+      "tolerate applications of broad spectrum herbicides",
       "produce a bacterial protein toxic to certain insects",
       "grow without any water during extended droughts",
-      "resist all fungal and viral plant diseases",
-      "tolerate applications of broad spectrum herbicides"
+      "resist all fungal and viral plant diseases"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The Bacillus thuringiensis protein targets specific insect orders. Refuge planting requirements aim to slow resistance evolution in target pests."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-9",
     question: "Human health concerns from pesticide exposure are greatest for",
     options: [
-      "people who consume only organic food products",
       "consumers eating produce from treated fields",
       "agricultural workers applying and handling chemicals",
-      "residents living in distant urban centers"
+      "residents living in distant urban centers",
+      "people who consume only certified organic food products"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Applicators and field workers face far higher doses than consumers. Protective equipment and reentry intervals exist to reduce this occupational risk."
   },
   {
     id: "5-6-10",
     question: "Secondary pest outbreaks occur when pesticide application",
     options: [
-      "reduces the total number of pest species present",
-      "increases the diversity of beneficial insects present",
       "eliminates the primary pest permanently from the area",
-      "kills natural enemies, releasing formerly minor pests"
+      "kills natural enemies, releasing formerly minor pests",
+      "reduces the total number of pest species present",
+      "increases the diversity of beneficial insects present"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Removing predators lets previously harmless species explode in number. This unintended consequence is a major argument for selective control methods."
   }
 ];

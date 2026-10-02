@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-11-1",
     question: "An ecological footprint measures",
     options: [
+      "the number of protected nature reserves that a country maintains",
+      "the physical land area a country legally controls",
       "biologically productive area needed to support consumption",
-      "the total population living within a defined region",
-      "the number of protected reserves a country maintains",
-      "the physical land area a country legally controls"
+      "the total population living within a defined region"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The footprint converts resource use and waste absorption into equivalent land area. It is typically expressed in global hectares per person."
   },
   {
     id: "5-11-2",
     question: "Biocapacity refers to",
     options: [
-      "the resources a population actually consumes yearly",
       "an area's ability to produce resources and absorb waste",
       "the total number of species living within a region",
-      "the maximum population an area could physically hold"
+      "the maximum population an area could physically hold",
+      "the resources a population actually consumes yearly"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Comparing footprint to biocapacity shows whether consumption exceeds what the land can regenerate. Globally, humanity's footprint now exceeds Earth's biocapacity."
   },
   {
     id: "5-11-3",
     question: "An ecological deficit occurs when a region's",
     options: [
+      "population declines below replacement level",
       "protected land area exceeds its developed area",
       "biocapacity exceeds its ecological footprint",
-      "footprint exceeds its available biocapacity",
-      "population declines below replacement level"
+      "footprint exceeds its available biocapacity"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Deficit regions import resources or draw down natural capital. Most wealthy countries run substantial ecological deficits."
   },
   {
     id: "5-11-4",
     question: "Per capita ecological footprints are largest in",
     options: [
-      "countries with the largest total populations",
-      "countries with the highest total fertility rates",
       "the least developed countries with rapid growth",
-      "wealthy countries with high consumption levels"
+      "wealthy countries with high consumption levels",
+      "countries with the largest total populations",
+      "countries with the highest total fertility rates"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The United States, Australia, and several Gulf states rank highest per person. Total national footprint combines per capita use with population size."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-11-7",
     question: "Which change would most reduce an individual's ecological footprint?",
     options: [
+      "Buying products with less packaging material",
       "Turning off lights when leaving a room",
       "Switching from paper to plastic shopping bags",
-      "Reducing air travel and meat consumption",
-      "Buying products with less packaging material"
+      "Reducing air travel and meat consumption"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Flights and beef dominate personal footprints for most people in wealthy countries. Smaller behavioral changes help but have far less leverage."
   },
   {
     id: "5-11-8",
     question: "A limitation of ecological footprint analysis is that it",
     options: [
-      "measures only the population size of a given region",
       "ignores resource consumption entirely in its calculation",
       "cannot be calculated for any country or individual",
-      "converts diverse impacts into a single land based metric"
+      "converts diverse impacts into a single land based metric",
+      "measures only the population size of a given region"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Reducing biodiversity loss, toxic pollution, and water use to hectares loses important distinctions. The metric is best used for communication rather than precise analysis."
   },
   {
     id: "5-11-9",
     question: "If everyone on Earth lived like an average American, estimates suggest humanity would require",
     options: [
-      "roughly five Earths to sustain that consumption",
-      "exactly one Earth with no deficit at all",
       "resources equal to about half of one Earth",
-      "substantially less than one planet's resources"
+      "substantially less than one planet's resources",
+      "roughly five Earths to sustain that consumption",
+      "exactly one Earth with no deficit at all"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Estimates vary but consistently land in the range of four to five planets. The figure illustrates how unevenly consumption is distributed globally."
   },
   {
     id: "5-11-10",
     question: "Ecological footprint analysis is most useful for",
     options: [
-      "predicting the exact year resources will be exhausted",
-      "comparing consumption levels across countries and individuals",
       "measuring the biodiversity present in an ecosystem",
-      "determining the carrying capacity of a specific habitat"
+      "determining the precise carrying capacity of a specific habitat",
+      "predicting the exact year resources will be exhausted",
+      "comparing consumption levels across countries and individuals"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Its comparative power makes inequality in resource use visible. Treating it as a precise forecasting tool overstates what the method can do."
   }
 ];

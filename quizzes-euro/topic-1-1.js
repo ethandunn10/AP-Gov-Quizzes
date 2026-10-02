@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-1-1",
     question: "The Renaissance is best understood as a movement that",
     options: [
-      "revived classical learning and stressed worldly achievement",
-      "rejected all Christian belief in favor of Greek and Roman paganism",
       "began in northern Germany and only later reached the Italian cities",
-      "was confined to painting and had no effect on politics or scholarship"
+      "was confined to painting and had no effect on politics or scholarship",
+      "revived classical learning and stressed worldly achievement",
+      "rejected all Christian belief in favor of Greek and Roman paganism"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Renaissance thinkers recovered classical texts and celebrated human capability in art, letters, and civic life. Most remained devout Christians, and the movement began in Italy and shaped politics and education as much as art."
   },
   {
     id: "1-1-2",
     question: "Which condition of the Italian city-states most directly enabled the Renaissance to begin there?",
     options: [
+      "Their geographic isolation from the trade routes of the eastern Mediterranean",
       "A unified Italian monarchy that funded artists from a central treasury",
       "Wealth from Mediterranean trade and banking held by competitive urban elites",
-      "The absence of any surviving Roman ruins or classical manuscripts",
-      "Their geographic isolation from the trade routes of the eastern Mediterranean"
+      "The absence of any surviving Roman ruins or classical manuscripts"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Florence, Venice, and Genoa grew rich on commerce and finance, and rival families spent that wealth on patronage to advertise their standing. Italy was politically fragmented, not unified, and it sat on both classical ruins and busy trade routes."
   },
   {
@@ -43,60 +43,60 @@ window.QUIZ_QUESTIONS = [
     id: "1-1-4",
     question: "European overseas exploration after 1450 was driven most directly by",
     options: [
+      "the search for direct access to Asian goods and new wealth",
       "a shortage of farmland that made emigration necessary for survival",
       "papal orders requiring every Catholic monarch to establish a colony",
-      "the desire of scholars to test theories about the shape of the earth",
-      "the search for direct access to Asian goods and new wealth"
+      "the desire of scholars to test theories about the shape of the earth"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "European states wanted spices, silk, and precious metals without paying the intermediaries who controlled overland routes, and religious mission reinforced the commercial motive. Educated Europeans already accepted that the earth was round."
   },
   {
     id: "1-1-5",
     question: "The 'new monarchies' of the late fifteenth century are best characterized by their efforts to",
     options: [
-      "concentrate royal power through taxation, standing armies, and courts",
       "share governing power equally with representative parliamentary assemblies",
       "transfer their remaining legal authority to the papacy in Rome",
-      "abolish the nobility as a legally recognized social class entirely"
+      "abolish the nobility as a legally recognized social class entirely",
+      "concentrate royal power through taxation, standing armies, and courts"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Rulers in Spain, France, and England expanded revenue, standing forces, and royal justice to reduce their dependence on great nobles. Nobles were subordinated rather than abolished, and these monarchs resisted papal and parliamentary limits alike."
   },
   {
     id: "1-1-6",
     question: "Which development most directly accelerated the spread of Renaissance ideas across Europe?",
     options: [
+      "The adoption of a single common written language across all of Europe",
       "The invention of the telescope and its use in astronomical observation",
       "The introduction of the printing press with movable metal type",
-      "The construction of a network of paved roads linking European capitals",
-      "The adoption of a single common written language across all of Europe"
+      "The construction of a network of paved roads linking European capitals"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Printing made books far cheaper and more numerous, so texts could circulate faster and more accurately than scribal copying allowed. The telescope belongs to the seventeenth century, and Europe remained linguistically divided."
   },
   {
     id: "1-1-7",
     question: "The Commercial Revolution of this era refers to",
     options: [
-      "the collapse of long-distance trade following the Black Death",
-      "the replacement of money by barter across most of western Europe",
       "the growth of banking, credit, and a money economy tied to trade",
-      "peasant revolts that destroyed the manorial economy in one generation"
+      "peasant revolts that destroyed the manorial economy in one generation",
+      "the collapse of long-distance trade following the Black Death",
+      "the replacement of money by barter across most of western Europe"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "New credit instruments, partnerships, and expanding bullion supplies reorganized European economic life around markets and capital. Trade expanded rather than collapsed, and money use deepened rather than receded."
   },
   {
     id: "1-1-8",
     question: "A historian studying this period would identify which continuity between medieval and Renaissance Europe?",
     options: [
+      "Most people remained rural cultivators whose lives changed comparatively little",
       "Political authority everywhere had already passed to elected representative bodies",
       "The Christian church had ceased to be a major landholder or political force",
-      "Urban populations had grown to outnumber rural populations across the continent",
-      "Most people remained rural cultivators whose lives changed comparatively little"
+      "Urban populations had grown to outnumber rural populations across the continent"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Renaissance culture was an urban elite phenomenon while the great majority of Europeans still farmed under obligations that changed slowly. The church remained wealthy and powerful, and Europe stayed overwhelmingly rural."
   },
   {

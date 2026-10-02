@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-1",
     question: "The uneven global distribution of fossil fuels results primarily from",
     options: [
-      "ancient geological conditions favoring their formation",
       "variation in current population density across regions",
       "differences in modern extraction technology available",
-      "deliberate national policies restricting where fuels form"
+      "deliberate national policies restricting where fuels form",
+      "ancient geological conditions favoring their formation"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Oil requires specific source rock, reservoir, and trap conditions over geologic time. Those conditions occurred in particular places and nowhere else."
   },
   {
     id: "6-4-2",
     question: "Countries that import most of their energy face the risk of",
     options: [
-      "complete independence from world energy markets",
-      "supply disruption and price shocks from abroad",
       "having no need for any domestic energy policy",
-      "permanently lower energy prices than exporters"
+      "permanently lower energy prices than exporters",
+      "complete independence from world energy markets",
+      "supply disruption and price shocks from abroad"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The 1973 oil embargo demonstrated this vulnerability dramatically. Energy security concerns drive both stockpiling and domestic renewable development."
   },
   {
     id: "6-4-3",
     question: "Solar energy potential is greatest in regions with",
     options: [
-      "dense forest canopy shading the ground surface",
-      "persistent cloud cover and high annual rainfall totals",
       "high insolation, such as low latitude deserts",
-      "the highest latitudes nearest to the polar regions"
+      "the highest latitudes nearest to the polar regions",
+      "dense forest canopy shading the ground surface",
+      "persistent cloud cover and high annual rainfall totals"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "The Sahara, southwestern United States, and Australian interior have exceptional resource. Clear skies matter as much as low latitude."
   },
   {
     id: "6-4-4",
     question: "Wind energy resources are typically strongest",
     options: [
+      "offshore and across open plains and ridgelines",
       "within densely built urban downtown districts",
       "beneath forest canopy in temperate woodlands",
-      "in sheltered valleys surrounded by tall mountains",
-      "offshore and across open plains and ridgelines"
+      "in sheltered valleys surrounded by tall mountains"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Low surface roughness allows faster and steadier wind. Offshore wind is particularly valuable because it blows more consistently."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-7",
     question: "A mismatch between where renewable resources exist and where energy is needed requires",
     options: [
-      "restricting energy use to resource rich regions",
-      "relocating populations toward the resource sites",
       "long distance transmission infrastructure",
-      "abandoning renewable development altogether"
+      "abandoning renewable development altogether",
+      "restricting energy use to resource rich regions",
+      "relocating populations toward the resource sites"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "High-voltage direct current lines can move power efficiently over long distances. Transmission buildout is often the binding constraint on renewable expansion."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-9",
     question: "Critical minerals for renewable technology, such as lithium and cobalt, are",
     options: [
-      "concentrated in a small number of producing nations",
-      "found only within highly developed industrial economies",
       "abundant enough that supply will never be constrained",
-      "distributed evenly among all the world's countries"
+      "distributed evenly among all the world's countries",
+      "concentrated in a small number of producing nations",
+      "found only within highly developed industrial economies"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Cobalt production is dominated by the Democratic Republic of the Congo and lithium by a few countries. This creates new geopolitical dependencies as energy systems change."
   },
   {
     id: "6-4-10",
     question: "Renewable energy potentially improves energy security because renewable resources are",
     options: [
-      "concentrated in fewer countries than fossil fuels",
       "more widely distributed and domestically available",
       "impossible to develop without foreign assistance",
-      "usable only in countries that already export energy"
+      "usable only in countries that already export energy",
+      "concentrated in fewer countries than fossil fuels"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Nearly every country has some wind, solar, or hydro potential. The dependency shifts toward manufacturing supply chains and critical minerals instead."
   }
 ];

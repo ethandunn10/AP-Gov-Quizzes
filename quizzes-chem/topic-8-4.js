@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-1",
     question: "A buffer solution consists of",
     options: [
-      "a strong acid and a strong base",
-      "a weak acid and its conjugate base in comparable amounts",
+      "a weak acid and its conjugate base together",
       "any acid in water",
-      "pure water"
+      "pure water",
+      "a strong acid together with any strong base at all"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A weak base with its conjugate acid works equally well. Both components are needed to neutralize additions in either direction."
   },
   {
     id: "8-4-2",
     question: "A buffer resists pH change because",
     options: [
-      "it prevents any reaction",
-      "added H⁺ reacts with the conjugate base and added OH⁻ reacts with the weak acid",
-      "it has a very high concentration of water",
-      "it contains a catalyst"
+      "added H⁺ reacts with the base, added OH⁻ with the acid",
+      "it contains an extremely high concentration of pure water",
+      "it contains a catalyst",
+      "it prevents any reaction"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Each component neutralizes one type of addition. This is why both must be present in significant amounts."
   },
   {
     id: "8-4-3",
     question: "Which combination would produce a buffer?",
     options: [
-      "HCl and NaCl",
-      "CH₃COOH and CH₃COONa",
       "NaOH and NaCl",
-      "HCl and NaOH in equal moles"
+      "HCl and NaOH in equal moles",
+      "HCl and NaCl",
+      "CH₃COOH and CH₃COONa"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Acetic acid with sodium acetate is the standard example. HCl with NaCl fails because chloride is not a meaningful base."
   },
   {
     id: "8-4-4",
     question: "A buffer can also be prepared by",
     options: [
-      "mixing a weak acid with a limited amount of strong base so that some acid remains",
-      "mixing two strong acids",
-      "diluting a strong base",
-      "adding salt to water"
+      "adding salt to water",
+      "mixing a weak acid with limited strong base",
+      "mixing two different strong acids together in water",
+      "diluting a strong base"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Partial neutralization generates the conjugate base in situ. Using excess strong base would destroy the buffer by consuming all the weak acid."
   },
   {
     id: "8-4-5",
     question: "Adding a small amount of strong acid to a buffer causes",
     options: [
-      "a large pH drop",
-      "a small pH drop as the conjugate base is converted to weak acid",
+      "a small pH drop as base converts to weak acid",
       "no reaction at all",
-      "the pH to rise"
+      "the pH to rise",
+      "a very large and sudden drop in the overall pH"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The ratio of base to acid shifts slightly, changing pH only slightly. Exceeding the buffer capacity would produce a large drop."
   },
   {
@@ -69,7 +69,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "a buffer",
       "neutral, with pH 7 at 25 °C",
-      "strongly acidic",
+      "strongly acidic in the solution",
       "strongly basic"
     ],
     correctIndex: 1,
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-7",
     question: "Titrating a weak acid with a strong base produces a buffer region",
     options: [
+      "only after the equivalence point has been fully passed",
+      "at the equivalence point exactly",
       "before any base is added",
-      "between the start and the equivalence point, where both the acid and its conjugate base are present",
-      "only after the equivalence point",
-      "at the equivalence point exactly"
+      "between the start and equivalence, with both present"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The flattest part of that region is the half-equivalence point. At the equivalence point only the conjugate base remains."
   },
   {
     id: "8-4-8",
     question: "At the equivalence point of a weak acid-strong base titration, the pH is",
     options: [
+      "exactly equal to the pKa value of the weak acid used",
       "exactly 7",
-      "greater than 7, because the conjugate base hydrolyzes",
-      "less than 7",
-      "equal to the pKa"
+      "greater than 7, since the conjugate base hydrolyzes",
+      "less than 7"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The solution contains only the conjugate base and spectator ions. The pH equals the pKa at the half-equivalence point, not at equivalence."
   },
   {
     id: "8-4-9",
     question: "Blood is buffered primarily by",
     options: [
-      "the HCl/Cl⁻ system",
       "the H₂CO₃/HCO₃⁻ system",
-      "the NaOH/Na⁺ system",
-      "pure water"
+      "the NaOH/Na⁺ buffer system",
+      "pure water",
+      "the HCl/Cl⁻ system"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "This carbonate system holds blood pH near 7.4. Respiration regulates CO₂ and therefore the acid component."
   },
   {
     id: "8-4-10",
     question: "Diluting a buffer with water",
     options: [
+      "destroys the buffer capacity almost instantly entirely",
+      "always raises the pH",
       "changes the pH dramatically",
-      "changes the pH very little, since the ratio of conjugate base to acid is unchanged",
-      "destroys the buffer immediately",
-      "always raises the pH"
+      "changes the pH very little, since the ratio holds"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The Henderson-Hasselbalch equation depends on the ratio, not absolute concentrations. Excessive dilution does reduce buffer capacity."
   }
 ];

@@ -19,48 +19,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-5-2",
     question: "Imperial trade routes contributed to cultural diffusion because they",
     options: [
-      "transported only physical commodities with no cultural effect",
       "were used exclusively by military rather than civilian travelers",
       "connected regions that already shared identical cultures",
-      "carried goods while merchants also carried ideas and beliefs"
+      "carried goods while merchants also carried ideas and beliefs",
+      "transported only physical commodities with no cultural effect"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Muslim merchants spread Islam along Indian Ocean routes and Buddhist traders carried their faith along the Silk Roads. Commerce has always moved culture alongside cargo."
   },
   {
     id: "3-5-3",
     question: "The Columbian Exchange diffused",
     options: [
-      "crops, animals, diseases, and people between hemispheres",
       "European culture to the Americas with nothing in return",
       "only manufactured goods between Europe and the Americas",
-      "cultural practices without any biological transfer"
+      "cultural practices without any biological transfer",
+      "crops, animals, diseases, and people between hemispheres"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Maize and potatoes transformed Old World diets while horses, wheat, and smallpox transformed the Americas. The exchange ran in both directions with drastically unequal consequences."
   },
   {
     id: "3-5-4",
     question: "The transatlantic slave trade diffused African culture to the Americas through",
     options: [
-      "European missionaries returning from West African stations",
-      "forced relocation that carried language, religion, and music",
       "voluntary migration by African merchants and scholars",
-      "trade relationships established between equal partners"
+      "trade relationships established between equal partners",
+      "European missionaries returning from West African stations",
+      "forced relocation that carried language, religion, and music"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Enslaved Africans brought musical traditions, foodways, and religious practices that reshaped American cultures. Blues, jazz, and syncretic religions such as Vodou descend from that transfer."
   },
   {
     id: "3-5-5",
     question: "Missionary activity contributed to religious diffusion by",
     options: [
-      "restricting religious practice to the missionaries' home country",
       "converting only people who had already adopted the religion",
       "deliberately carrying faith to populations who did not hold it",
-      "preventing any religion from spreading beyond its hearth"
+      "preventing any religion from spreading beyond its hearth",
+      "restricting religious practice to the missionaries' home country"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Christian and Buddhist missionaries pursued conversion as an explicit goal, which makes both universalizing religions. Ethnic religions such as Judaism generally do not proselytize."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-5-7",
     question: "The diffusion of agriculture from early hearths demonstrates",
     options: [
-      "expansion and relocation diffusion operating over millennia",
       "that agriculture spread only through modern transportation",
       "that farming arose independently in every human settlement",
-      "that agricultural practices cannot spread between regions"
+      "that agricultural practices cannot spread between regions",
+      "expansion and relocation diffusion operating over millennia"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Farming spread outward from Southwest Asia and other hearths through both migration and adoption by neighbors. The process took thousands of years."
   },
   {
     id: "3-5-8",
     question: "Language families such as Indo-European are evidence of",
     options: [
-      "the complete isolation of language groups from one another",
-      "ancient migrations and diffusion from common source regions",
       "the independent invention of identical languages worldwide",
-      "modern mass media creating linguistic similarities"
+      "modern mass media creating linguistic similarities",
+      "the complete isolation of language groups from one another",
+      "ancient migrations and diffusion from common source regions"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Systematic similarities among languages from Ireland to India point to descent from a common ancestral tongue carried by migration. Historical linguistics reconstructs those movements."
   },
   {
     id: "3-5-9",
     question: "Printing contributed to historical cultural diffusion by",
     options: [
+      "restricting texts to a small class of professional copyists",
       "making handwritten manuscripts more valuable and numerous",
       "preventing religious ideas from crossing political borders",
-      "allowing texts and ideas to circulate quickly and widely",
-      "restricting texts to a small class of professional copyists"
+      "allowing texts and ideas to circulate quickly and widely"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Cheap identical copies carried the Reformation across Germany faster than authorities could respond. Printing accelerated diffusion that had previously depended on scribes."
   },
   {
     id: "3-5-10",
     question: "A geographer explaining the global distribution of Christianity would emphasize",
     options: [
+      "colonial expansion, missions, and European migration",
       "the independent invention of the religion in many regions",
       "its confinement to the eastern Mediterranean region",
-      "the absence of any deliberate effort to spread the faith",
-      "colonial expansion, missions, and European migration"
+      "the absence of any deliberate effort to spread the faith"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Spanish and Portuguese colonization carried Catholicism to the Americas, and later missions reached Africa and Asia. Its present distribution maps closely onto imperial history."
   }
 ];

@@ -7,69 +7,69 @@ window.QUIZ_QUESTIONS = [
     id: "7-8-1",
     question: "A particulate diagram of an equilibrium mixture taken at two later times should show",
     options: [
-      "identical particle counts, though individual particles may have interconverted",
-      "all reactants converted to products",
-      "no particles",
-      "steadily increasing product counts"
+      "steadily increasing product counts",
+      "identical counts, though particles may interconvert",
+      "every one of the reactants fully converted into products",
+      "no particles"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Constant amounts with ongoing interconversion is precisely the dynamic picture. Steadily changing counts would mean equilibrium had not been reached."
   },
   {
     id: "7-8-2",
     question: "On a concentration-versus-time graph, equilibrium is indicated by",
     options: [
-      "curves crossing",
-      "curves becoming horizontal",
       "curves reaching zero",
-      "curves that are straight from the start"
+      "curves that are straight from the start",
+      "curves crossing",
+      "curves becoming horizontal"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Horizontal lines mean concentrations have stopped changing. The lines need not be at the same height."
   },
   {
     id: "7-8-3",
     question: "A rate-versus-time graph for a reaction approaching equilibrium shows",
     options: [
-      "both rates rising",
-      "the forward rate falling and the reverse rate rising until they meet",
       "both rates falling to zero",
-      "constant rates throughout"
+      "perfectly constant rates throughout the entire process",
+      "both rates rising",
+      "the forward rate falls and the reverse rises to meet"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "They converge to a common nonzero value at equilibrium. Rates falling to zero would describe a reaction that ran out of reactants."
   },
   {
     id: "7-8-4",
     question: "A diagram shows 6 A particles and 2 B particles at equilibrium for A ⇌ B. The value of K is",
     options: [
-      "3",
+      "8.0",
+      "3.0",
       "0.33",
-      "12",
-      "8"
+      "12.0"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "K = [B]/[A] = 2/6 = 0.33 in the same volume. A K below 1 correctly reflects that reactants predominate."
   },
   {
     id: "7-8-5",
     question: "Which representation best conveys that equilibrium is dynamic rather than static?",
     options: [
-      "A single snapshot of particles",
-      "Two snapshots with equal counts but different individual particles labeled",
-      "A bar graph of concentrations",
-      "The balanced equation"
+      "The balanced equation",
+      "A single static snapshot of all the particles present",
+      "Two snapshots with equal counts but different particles",
+      "A simple bar graph showing every one of the concentrations"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Tracking labeled particles shows exchange continuing despite constant totals. Isotopic labeling experiments demonstrate this in the laboratory."
   },
   {
     id: "7-8-6",
     question: "After a stress is applied to a system at equilibrium, a concentration-versus-time graph typically shows",
     options: [
-      "an immediate jump or drop followed by a curve to a new plateau",
+      "an immediate jump or drop, then a curve to a plateau",
       "no change",
-      "concentrations going to zero",
+      "all of the concentrations falling steadily down to zero",
       "a straight line"
     ],
     correctIndex: 0,
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "7-8-7",
     question: "In a sealed flask showing the N₂O₄ ⇌ 2NO₂ equilibrium, a deeper brown color indicates",
     options: [
-      "more N₂O₄",
-      "more NO₂",
       "fewer total particles",
-      "the reaction has stopped"
+      "the reaction has stopped",
+      "more N₂O₄",
+      "more NO₂"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "NO₂ is the brown species and N₂O₄ is colorless. Heating deepens the color, showing the forward reaction is endothermic."
   },
   {
     id: "7-8-8",
     question: "A symbolic representation of equilibrium uses",
     options: [
-      "a single forward arrow",
-      "a double arrow indicating both directions",
       "an equals sign",
-      "no arrow"
+      "no arrow",
+      "only a single forward-pointing reaction arrow",
+      "a double arrow indicating both directions"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The double harpoon distinguishes equilibrium from a reaction that goes to completion. Notation carries real chemical meaning here."
   },
   {
     id: "7-8-9",
     question: "Two particulate diagrams of the same reaction at equilibrium in different experiments show different ratios of product to reactant. This suggests",
     options: [
-      "an error, since K must fix the ratio at a given temperature",
       "the temperature differed between the experiments",
       "both statements above could apply depending on conditions",
-      "equilibrium was not reached"
+      "equilibrium was not reached",
+      "an error, since K must fix the ratio at a given temperature"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "A genuinely different ratio at the same temperature contradicts a fixed K. A temperature difference, however, would change K and explain the observation."
   },
   {
     id: "7-8-10",
     question: "A graph showing the forward and reverse rates equal but at a high value, versus another at a low value, indicates that the two reactions differ in",
     options: [
+      "their reaction temperatures, of absolute necessity",
+      "their stoichiometry",
       "their equilibrium constants",
-      "how fast equilibrium is maintained, not where it lies",
-      "their temperatures necessarily",
-      "their stoichiometry"
+      "how fast equilibrium is reached, not where it lies"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The common rate value reflects kinetics while the concentrations reflect K. A catalyzed reaction would show higher equal rates with unchanged concentrations."
   }
 ];

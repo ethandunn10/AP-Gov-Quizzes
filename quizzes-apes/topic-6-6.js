@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-1",
     question: "Nuclear power plants generate energy through",
     options: [
-      "fission, splitting heavy nuclei to release energy",
-      "chemical combustion of uranium in a boiler",
       "capturing geothermal heat from radioactive decay",
-      "fusion of hydrogen nuclei into helium atoms"
+      "fusion of hydrogen nuclei into helium atoms",
+      "fission, splitting heavy nuclei to release energy",
+      "chemical combustion of uranium in a boiler"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Uranium-235 nuclei split when struck by neutrons, releasing heat and more neutrons. Fusion powers the sun but is not yet commercially viable on Earth."
   },
   {
     id: "6-6-2",
     question: "Control rods in a nuclear reactor function by",
     options: [
-      "increasing the rate of the fission chain reaction",
       "absorbing neutrons to regulate the reaction rate",
       "cooling the reactor core with circulating water",
-      "converting the heat produced directly into electricity"
+      "converting the heat produced directly into electricity",
+      "increasing the rate of the fission chain reaction"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Materials like boron and cadmium capture neutrons, slowing or stopping fission. Inserting them fully shuts the reactor down."
   },
   {
     id: "6-6-3",
     question: "A major advantage of nuclear power over fossil fuels is that it",
     options: [
-      "can be constructed and brought online within months",
       "produces no waste requiring any long term management",
       "generates electricity without carbon dioxide emissions",
-      "costs far less to build than any other power plant"
+      "costs far less to build than any other power plant",
+      "can be constructed and brought online within months"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Fission itself releases no greenhouse gases. High capital cost and long construction timelines are nuclear's main economic disadvantages."
   },
   {
     id: "6-6-4",
     question: "High level radioactive waste is difficult to manage because it",
     options: [
-      "can be released safely into the open ocean",
-      "poses no risk to biological organisms at all",
       "decays into harmless material within a few years",
-      "remains hazardous for thousands of years"
+      "remains hazardous for thousands of years",
+      "can be released safely into the open ocean",
+      "poses no risk to biological organisms at all"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Spent fuel requires isolation on timescales longer than recorded history. No country has yet opened a permanent deep geological repository for it."
   },
   {
     id: "6-6-5",
     question: "The Chernobyl accident in 1986 resulted primarily from",
     options: [
-      "a flawed reactor design combined with operator error",
-      "a deliberate attack on the nuclear facility",
       "the gradual corrosion of spent fuel storage pools",
-      "an earthquake and tsunami disabling backup power"
+      "an earthquake and tsunami disabling backup power",
+      "a flawed reactor design combined with operator error",
+      "a deliberate attack on the nuclear facility"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The RBMK design lacked a containment structure and had unstable characteristics at low power. The earthquake and tsunami scenario describes Fukushima in 2011."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-8",
     question: "Nuclear proliferation concern arises because",
     options: [
+      "enrichment and reprocessing can yield weapons material",
       "spent fuel is easily converted into commercial products",
       "nuclear plants require no international oversight",
-      "reactors can explode like a nuclear weapon would",
-      "enrichment and reprocessing can yield weapons material"
+      "reactors can explode like a nuclear weapon would"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The same enrichment technology can produce reactor fuel or weapons-grade material. International safeguards exist specifically to monitor this."
   },
   {
     id: "6-6-9",
     question: "The Fukushima Daiichi accident occurred when",
     options: [
-      "a tsunami flooded the backup generators cooling the cores",
-      "a control rod mechanism failed during normal operation",
       "spent fuel was transported improperly off the site",
-      "operators disabled safety systems during a test"
+      "operators disabled safety systems during a test",
+      "a tsunami flooded the backup generators cooling the cores",
+      "a control rod mechanism failed during normal operation"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Loss of cooling led to core meltdowns and hydrogen explosions. The accident prompted several countries to reconsider their nuclear programs."
   },
   {
     id: "6-6-10",
     question: "Debate over nuclear power's role in climate policy centers on weighing",
     options: [
+      "construction speed against the speed of coal plant building",
       "its emissions against those of other fossil fuels",
       "low carbon output against cost, waste, and accident risk",
-      "its fuel supply against the supply of renewable resources",
-      "construction speed against the speed of coal plant building"
+      "its fuel supply against the supply of renewable resources"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Nuclear offers firm low-carbon power that complements intermittent renewables. Whether its costs and risks are acceptable remains genuinely contested."
   }
 ];

@@ -8,48 +8,48 @@ window.QUIZ_QUESTIONS = [
     id: "1-7-1",
     question: "Which of the following was the most significant CAUSE of European exploration of the Americas in the late fifteenth century?",
     options: [
+      "The prior discovery of enormous gold deposits across North America",
       "The desire to escape religious persecution in Europe",
-      "Competition among centralizing European states for wealth, trade routes, and religious converts",
-      "Native American invitations to European traders",
-      "The discovery of gold deposits in North America"
+      "Competition among European states for wealth, routes, and converts",
+      "Native American invitations to European traders"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "State competition is the driving cause; religious refuge motivated later English migration, not the initial Iberian voyages. Note the direction of causation — gold was a hoped-for result of exploration, not a known cause of it."
   },
   {
     id: "1-7-2",
     question: "Which was the most significant EFFECT of the Columbian Exchange on Native American societies?",
     options: [
+      "Rapid growth in Native populations after contact",
       "Improved agricultural productivity from new crops",
-      "Catastrophic population decline that destabilized political and social structures",
-      "The immediate adoption of European systems of government",
-      "Rapid growth in Native populations"
+      "Catastrophic population decline that destabilized societies",
+      "The immediate adoption of European systems of government and law"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Epidemic mortality was the dominant effect, hollowing out labor forces, breaking leadership continuity, and leaving societies far less able to resist encroachment."
   },
   {
     id: "1-7-3",
     question: "The collapse of Native labor forces in Spanish America was a direct cause of",
     options: [
-      "the abolition of the caste system",
-      "the expansion of the transatlantic slave trade",
-      "Spain's withdrawal from the Americas",
-      "the end of silver mining at Potosí"
+      "Spain's complete withdrawal from the Americas entirely",
+      "the permanent end of silver mining at Potosí",
+      "the abolition of the colonial caste system",
+      "the expansion of the transatlantic slave trade"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "This is a chain of causation worth memorizing: disease reduces Native labor → reform laws restrict Native enslavement → colonizers import enslaved Africans → the plantation economy expands."
   },
   {
     id: "1-7-4",
     question: "Which factor most directly explains why Spanish colonization produced a centralized imperial bureaucracy while English colonization did not?",
     options: [
-      "Spain colonized regions with existing dense populations and mineral wealth that the crown sought to control directly",
-      "England had a larger population than Spain",
-      "Spain lacked any private commercial interests",
-      "England began colonizing earlier than Spain"
+      "England began colonizing the Americas much earlier than Spain did",
+      "Spain colonized dense populations and mines the crown controlled",
+      "England had a far larger population than Spain did",
+      "Spain lacked any private commercial interests at all"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Spain encountered wealthy tributary empires worth governing directly through viceroys. England arrived later in regions without comparable mineral wealth and relied on joint-stock companies and proprietors — producing looser control and, eventually, colonial self-government."
   },
   {
@@ -57,9 +57,9 @@ window.QUIZ_QUESTIONS = [
     question: "A historian arguing that 'European technological superiority alone explains the conquest of the Americas' would be most effectively challenged by pointing to",
     options: [
       "the small number of European colonists who migrated before 1600",
-      "the decisive roles of epidemic disease and large Indigenous alliances against existing empires",
+      "the decisive roles of epidemic disease and Indigenous allies",
       "the absence of firearms in sixteenth-century Europe",
-      "Native American possession of iron weapons"
+      "Native American possession of iron weapons and armor"
     ],
     correctIndex: 1,
     explanation: "Technology mattered, but Cortés and Pizarro won with tens of thousands of Indigenous allies while smallpox devastated defenders. Multi-causal explanation is precisely what the exam rewards here."
@@ -68,57 +68,57 @@ window.QUIZ_QUESTIONS = [
     id: "1-7-6",
     question: "Environmental differences across North America most directly caused",
     options: [
-      "the uniformity of Native American cultures",
-      "the wide variation in Native social, economic, and political organization",
-      "the absence of trade between Native societies",
-      "the development of a single Native language family"
+      "the complete absence of trade between distinct Native societies",
+      "the development of a single Native language family",
+      "the uniformity of Native American cultures everywhere",
+      "wide variation in Native social and political organization"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Arid Southwest, salmon-rich Northwest, bison Plains, and fertile woodlands each supported different subsistence strategies, and those strategies shaped settlement patterns, population density, and political structure."
   },
   {
     id: "1-7-7",
     question: "The introduction of the horse to the Great Plains is best understood as",
     options: [
-      "a cause of increased Plains mobility and military power, and an effect of Spanish colonization",
-      "solely a cause, with no connection to European colonization",
-      "an effect with no significant consequences",
-      "a development unrelated to the Columbian Exchange"
+      "solely a cause, with no connection at all to European colonization",
+      "an effect with no significant consequences at all",
+      "a development unrelated to the Columbian Exchange",
+      "both a cause of Plains mobility and an effect of colonization"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "It sits in the middle of a causal chain — an effect of Spanish colonization and, in turn, a cause of dramatic transformation in Plains societies. Recognizing that a single development can be both is a key reasoning skill."
   },
   {
     id: "1-7-8",
     question: "Which best explains why African slavery, rather than European indentured servitude, became the dominant labor system in the sugar-producing Americas?",
     options: [
-      "European servants were unavailable in any numbers",
-      "Sugar's extreme labor demands, high mortality, and the difficulty of escape for Africans made enslaved African labor more profitable for planters",
-      "African laborers voluntarily accepted permanent servitude",
-      "Colonial law prohibited European indentured servitude"
+      "Colonial law explicitly prohibited European indentured servitude outright",
+      "European servants were unavailable in any numbers at all",
+      "Sugar's labor demands and high mortality made enslaved labor profitable",
+      "African laborers voluntarily accepted permanent servitude"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Planters chose enslaved African labor because it was permanent, heritable, and — with escape far harder for people lacking local kin networks — more controllable. Economics and racial ideology reinforced one another rather than operating separately."
   },
   {
     id: "1-7-9",
     question: "Which statement about continuity in Period 1 is most accurate?",
     options: [
+      "Native societies remained wholly unchanged by any European contact",
+      "European colonization had no effect at all on Native political structures",
       "Native societies were entirely destroyed and left no lasting influence",
-      "Despite catastrophic change, Native peoples maintained cultural practices, adapted to new conditions, and continued to shape the continent's history",
-      "Native societies remained wholly unchanged by European contact",
-      "European colonization had no effect on Native political structures"
+      "Native peoples adapted, endured, and kept shaping the continent"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The accurate position is between the extremes: contact brought devastating disruption, and Native peoples nonetheless persisted, adapted, resisted, and remained central actors. Avoid both the 'total destruction' and 'no change' framings."
   },
   {
     id: "1-7-10",
     question: "Which of the following best explains why 1607 serves as the boundary between Periods 1 and 2?",
     options: [
-      "Spanish colonization ended in that year",
-      "Permanent English settlement began, shifting the dominant pattern of North American colonization toward settler agriculture",
-      "The Columbian Exchange concluded",
+      "Spanish colonization of the Americas came to an end in that year",
+      "Permanent English settlement began, shifting colonial patterns",
+      "The Columbian Exchange concluded entirely",
       "Native populations recovered to pre-contact levels"
     ],
     correctIndex: 1,

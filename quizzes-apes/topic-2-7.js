@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-7-1",
     question: "Primary succession begins on",
     options: [
+      "abandoned farmland that was recently cultivated",
       "forest floor beneath a mature closed canopy",
       "land where soil remains after a disturbance",
-      "bare rock or surfaces with no existing soil",
-      "abandoned farmland that was recently cultivated"
+      "bare rock or surfaces with no existing soil"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "New volcanic rock, glacial till, and bare sand dunes lack soil entirely. Where soil persists, the process is secondary succession."
   },
   {
     id: "2-7-2",
     question: "Pioneer species in primary succession are typically",
     options: [
+      "lichens and mosses that can colonize bare rock",
       "shade tolerant shrubs adapted to forest interiors",
       "grazing mammals that disperse seeds widely",
-      "large trees requiring deep established soil",
-      "lichens and mosses that can colonize bare rock"
+      "large trees requiring deep established soil"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Lichens secrete acids that break down rock, and their remains begin building soil. This slow soil formation is why primary succession takes so much longer than secondary."
   },
   {
     id: "2-7-3",
     question: "Secondary succession proceeds faster than primary succession because",
     options: [
-      "soil and often a seed bank already exist",
       "it occurs only in warm tropical climates",
       "no pioneer species are required at any stage",
-      "fewer species are involved in the process"
+      "fewer species are involved in the process",
+      "soil and often a seed bank already exist"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Existing soil supplies nutrients and water immediately, and buried seeds germinate quickly. An abandoned field can become forest in decades rather than centuries."
   },
   {
@@ -67,7 +67,7 @@ window.QUIZ_QUESTIONS = [
     id: "2-7-6",
     question: "A climax community is best described as",
     options: [
-      "a community holding only one dominant species",
+      "a community holding only one dominant species throughout",
       "the stage with the lowest species richness",
       "the first community to colonize bare rock",
       "a relatively stable community under current conditions"
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-7-10",
     question: "Repeated disturbance of an ecosystem tends to",
     options: [
-      "eliminate all pioneer species from the area",
-      "have no effect on the successional trajectory",
       "accelerate progress toward a climax community",
-      "hold the community in early successional stages"
+      "hold the community in early successional stages",
+      "eliminate all pioneer species from the area",
+      "have no effect on the successional trajectory"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Frequent mowing, grazing, or fire resets the process before later species establish. Managed grasslands are deliberately maintained this way."
   }
 ];

@@ -8,24 +8,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-11-1",
     question: "The most significant change in Europe's global position between 1914 and 1945 was",
     options: [
-      "the loss of world primacy to the United States and Soviet Union",
       "the expansion of European empires across Asia and Africa",
       "the restoration of the dynastic monarchies of the prewar era",
-      "the unification of Europe under a single political authority"
+      "the unification of Europe under a single political authority",
+      "the loss of world primacy to the United States and Soviet Union"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Two total wars exhausted the European powers financially and militarily, and two non-European superpowers replaced them at the center of world politics. Decolonization followed within two decades."
   },
   {
     id: "8-11-2",
     question: "Which represents a significant continuity across this period?",
     options: [
-      "European economies operated without any government direction",
-      "The nation-state remained the primary focus of political loyalty",
       "European monarchies survived unchanged in every major state",
-      "Colonial empires expanded steadily throughout the whole period"
+      "Colonial empires expanded steadily throughout the whole period",
+      "European economies operated without any government direction",
+      "The nation-state remained the primary focus of political loyalty"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Internationalist movements and catastrophic wars did not displace the nation as the unit people organized around. Monarchies fell across central and eastern Europe and empires began to contract."
   },
   {
@@ -80,36 +80,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-11-7",
     question: "The ideological landscape of Europe changed in this period through",
     options: [
-      "the disappearance of ideology from European political life",
-      "universal agreement on liberal democracy as the only legitimate system",
       "the emergence of communism and fascism as rivals to liberal democracy",
-      "the restoration of dynastic legitimism as the dominant principle"
+      "the restoration of dynastic legitimism as the dominant principle",
+      "the disappearance of ideology from European political life",
+      "universal agreement on liberal democracy as the only legitimate system"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Each offered a competing account of how a modern industrial society should be governed, and the wars were partly fought over which would prevail. That contest continued into the Cold War."
   },
   {
     id: "8-11-8",
     question: "Which continuity in European society persisted despite two world wars?",
     options: [
-      "Legal privilege for hereditary nobility remained universal",
-      "Most Europeans continued to work in agricultural employment",
       "Religious observance remained at nineteenth-century levels everywhere",
-      "Social inequality persisted even as its specific forms shifted"
+      "Social inequality persisted even as its specific forms shifted",
+      "Legal privilege for hereditary nobility remained universal",
+      "Most Europeans continued to work in agricultural employment"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Aristocratic privilege declined and welfare states narrowed some gaps, yet class differences in wealth, education, and opportunity remained substantial. Europe also urbanized substantially over the period."
   },
   {
     id: "8-11-9",
     question: "The wars changed European attitudes toward empire by",
     options: [
+      "increasing European determination to expand colonial territory",
       "undermining claims to superiority and draining the powers",
       "confirming the moral legitimacy of European colonial rule",
-      "eliminating all colonial holdings by the year 1945",
-      "increasing European determination to expand colonial territory"
+      "eliminating all colonial holdings by the year 1945"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Colonial troops who had fought for freedom pressed their own claims, and European civilizational rhetoric looked hollow after the trenches and the camps. Decolonization accelerated sharply after 1945."
   },
   {

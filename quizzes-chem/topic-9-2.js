@@ -7,20 +7,20 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-1",
     question: "ΔS° for a reaction is calculated as",
     options: [
-      "Σ S°(reactants) − Σ S°(products)",
-      "Σ S°(products) − Σ S°(reactants), each weighted by coefficients",
-      "the sum of all S° values",
-      "the average of all S° values"
+      "the average of all S° values",
+      "Σ S°(reactants) − Σ S°(products), weighted by coefficients",
+      "Σ S°(products) − Σ S°(reactants), with coefficients",
+      "the sum of all S° values"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Products minus reactants, as with enthalpy. Coefficients must multiply each standard entropy."
   },
   {
     id: "9-2-2",
     question: "Unlike standard enthalpies of formation, standard molar entropies of elements are",
     options: [
-      "always zero",
-      "positive values, since the third law provides an absolute zero point",
+      "always exactly zero for every one of the known elements",
+      "positive, given the third law's absolute zero point",
       "negative",
       "undefined"
     ],
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-3",
     question: "For N₂(g) + 3H₂(g) → 2NH₃(g), ΔS° is expected to be",
     options: [
+      "exactly equal to the numerical value of ΔH",
       "positive",
       "negative, because 4 moles of gas become 2",
-      "zero",
-      "equal to ΔH"
+      "zero"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Halving the number of gas particles reduces dispersal substantially. The reaction is nonetheless favorable at low temperature because it is exothermic."
   },
   {
@@ -55,72 +55,72 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-5",
     question: "The units of standard molar entropy are typically",
     options: [
-      "kJ/mol",
+      "kJ",
+      "kJ per mol",
       "J/mol·K",
-      "J/K",
-      "kJ"
+      "J/K"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The per-kelvin term distinguishes entropy from enthalpy. Mixing J and kJ units is a frequent error when computing ΔG."
   },
   {
     id: "9-2-6",
     question: "For the reaction 2H₂O₂(l) → 2H₂O(l) + O₂(g), ΔS° is",
     options: [
+      "exactly equal to the numerical value of ΔH°",
       "negative",
-      "positive, because a gas is produced from liquids",
-      "zero",
-      "equal to ΔH°"
+      "positive, since a gas forms from liquids",
+      "zero"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Producing gas from condensed phases dominates the entropy change. This reaction is favorable at all temperatures since ΔH is also negative."
   },
   {
     id: "9-2-7",
     question: "Comparing diamond and graphite, graphite has the higher standard entropy because",
     options: [
-      "it is harder",
-      "its layered structure permits more vibrational freedom",
-      "it contains more carbon",
-      "it is a gas"
+      "its layers permit more vibrational freedom",
+      "it contains considerably more carbon atoms",
+      "it is a gas",
+      "it is harder"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Diamond's rigid three-dimensional network restricts motion severely. Structural rigidity and entropy are inversely related."
   },
   {
     id: "9-2-8",
     question: "Given S° values of 192 J/mol·K for N₂, 131 for H₂, and 193 for NH₃, ΔS° for N₂ + 3H₂ → 2NH₃ is",
     options: [
-      "−199 J/K",
       "+199 J/K",
       "−130 J/K",
-      "+130 J/K"
+      "+130 J/K",
+      "−199 J/K"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "2(193) − [192 + 3(131)] = 386 − 585 = −199 J/K. Forgetting to multiply H₂ by 3 is the usual error."
   },
   {
     id: "9-2-9",
     question: "A reaction with ΔS° near zero most likely involves",
     options: [
-      "a large change in moles of gas",
-      "no change in the number of gas moles and similar phases on both sides",
+      "no change in gas moles, with similar phases",
       "a solid becoming a gas",
-      "a gas becoming a liquid"
+      "a gas becoming a liquid",
+      "a very large change in the total moles of gas present"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "H₂ + I₂ ⇌ 2HI is a standard example with two gas moles on each side. Phase and gas-mole changes drive most large entropy changes."
   },
   {
     id: "9-2-10",
     question: "For the surroundings, ΔS is calculated as",
     options: [
-      "−ΔH(system)/T",
-      "+ΔH(system)/T",
       "ΔH(system) × T",
-      "zero always"
+      "zero always",
+      "−ΔH(system)/T",
+      "+ΔH(system)/T"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "An exothermic reaction warms the surroundings and raises their entropy. This is why exothermic reactions tend to be spontaneous even when the system's entropy falls."
   }
 ];

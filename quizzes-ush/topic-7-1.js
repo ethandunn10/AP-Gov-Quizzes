@@ -9,12 +9,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-1",
     question: "Which development best contextualizes American foreign policy at the opening of Period 7?",
     options: [
-      "Industrial overproduction and the search for overseas markets and naval bases",
-      "A constitutional prohibition on acquiring territory",
+      "A constitutional prohibition on acquiring any new overseas territory",
       "The collapse of American manufacturing",
-      "A formal alliance system with European powers"
+      "A formal alliance system with European powers",
+      "Industrial overproduction and the search for overseas markets"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Surplus output, Mahan's naval theory, and the closing frontier pushed policymakers toward markets abroad. The United States avoided permanent alliances throughout this period."
   },
   {
@@ -22,9 +22,9 @@ window.QUIZ_QUESTIONS = [
     question: "The Progressive movement is best understood as a response to",
     options: [
       "the growth of the federal welfare state",
-      "the social problems created by industrialization, urbanization, and immigration",
+      "social problems created by industrialization and urbanization",
       "the decline of American cities",
-      "the absence of any organized reform tradition"
+      "the complete absence of any organized reform tradition in America"
     ],
     correctIndex: 1,
     explanation: "Progressives inherited Gilded Age diagnoses of slums, corporate power, and machine politics and turned them into legislation. They built on earlier reform rather than inventing it."
@@ -33,20 +33,20 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-3",
     question: "Which best describes the United States' international position by 1945?",
     options: [
+      "A nation firmly committed to isolation from all world affairs abroad",
+      "A junior partner to a restored British Empire",
       "A regional power focused on the Western Hemisphere",
-      "The dominant economic and military power, with the atomic bomb and an intact industrial base",
-      "A nation committed to isolation from world affairs",
-      "A junior partner to a restored British Empire"
+      "The dominant economic and military power, with the atomic bomb"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Allied victory left American industry undamaged while Europe and Japan lay in ruins, and the Bretton Woods system organized the postwar economy around the dollar. Period 7 traces the arc from regional power to superpower."
   },
   {
     id: "7-1-4",
     question: "The Great Depression is best contextualized as",
     options: [
-      "a brief downturn resolved by market forces within two years",
-      "a collapse that transformed expectations about the federal government's economic responsibilities",
+      "a brief downturn that was resolved by market forces within two years",
+      "a collapse that changed expectations about federal responsibility",
       "a crisis confined to the agricultural sector",
       "an event with little effect on American political alignments"
     ],
@@ -57,7 +57,7 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-5",
     question: "Migration within the United States during Period 7 was marked most significantly by",
     options: [
-      "the Great Migration of African Americans from the rural South to northern and western cities",
+      "the Great Migration of African Americans to northern cities",
       "a return of urban populations to farming",
       "the end of internal migration due to immigration restriction",
       "movement from the West Coast to New England"
@@ -69,33 +69,33 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-6",
     question: "Which pair of wars bracket Period 7's transformation of American global power?",
     options: [
-      "The Civil War and World War I",
       "The Spanish-American War and World War II",
       "The War of 1812 and the Korean War",
-      "The Mexican-American War and the Vietnam War"
+      "The Mexican-American War and the Vietnam War",
+      "The Civil War and World War I"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "1898 brought an overseas empire; 1945 brought global primacy. The period's coherence comes from that trajectory."
   },
   {
     id: "7-1-7",
     question: "Debates over American identity in this period were shaped most sharply by",
     options: [
+      "the complete elimination of racial segregation across the nation",
       "the absence of immigration after 1890",
-      "mass immigration, then restriction, alongside migration and questions about who counted as American",
-      "unanimous agreement on assimilation",
-      "the elimination of racial segregation"
+      "mass immigration, restriction, and who counted as American",
+      "unanimous agreement on assimilation"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The 1924 quota law, the Red Scare, and Jim Crow all drew lines around national belonging. Those lines were contested by the people they excluded throughout the period."
   },
   {
     id: "7-1-8",
     question: "Technological and cultural change in the 1920s is best characterized by",
     options: [
-      "mass production, mass consumption, radio, and film creating a national culture",
+      "mass production, consumption, radio, and film making one culture",
       "the decline of consumer credit",
-      "the disappearance of regional differences in politics",
+      "the complete disappearance of all regional differences in politics",
       "the end of advertising as an industry"
     ],
     correctIndex: 0,
@@ -105,20 +105,20 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-9",
     question: "The expansion of federal power across Period 7 is best traced through",
     options: [
-      "Progressive regulation, World War I mobilization, the New Deal, and World War II",
-      "a steady reduction in federal employment",
-      "the transfer of federal powers to the states",
-      "constitutional amendments limiting taxation"
+      "the transfer of nearly all federal powers back to the states",
+      "constitutional amendments strictly limiting all federal taxation",
+      "Progressive regulation, wartime mobilization, and the New Deal",
+      "a steady reduction in federal employment"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Each crisis left behind agencies, taxes, and expectations that did not fully recede. The Sixteenth Amendment made the income tax the engine of that growth."
   },
   {
     id: "7-1-10",
     question: "A historian would most likely argue that the key continuity linking 1890 to 1945 is",
     options: [
-      "the persistence of debate over how much the federal government should manage economic and social life",
-      "unchanging American neutrality in world affairs",
+      "debate over how far Washington should manage the economy",
+      "the unchanging American neutrality in all world affairs abroad",
       "the stability of racial equality in law",
       "the absence of organized labor"
     ],

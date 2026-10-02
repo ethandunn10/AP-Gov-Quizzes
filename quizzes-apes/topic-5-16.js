@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-16-1",
     question: "Aquaculture is best defined as",
     options: [
-      "monitoring water quality in coastal ecosystems",
+      "protecting marine habitat from all human use",
+      "monitoring the water quality within coastal ecosystems",
       "harvesting fish from wild ocean populations",
-      "farming aquatic organisms in controlled conditions",
-      "protecting marine habitat from all human use"
+      "farming aquatic organisms in controlled conditions"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Aquaculture includes fish, shellfish, and seaweed cultivation in ponds, pens, and tanks. It now supplies roughly half of the seafood people eat."
   },
   {
     id: "5-16-2",
     question: "Aquaculture has expanded rapidly primarily because",
     options: [
+      "many wild stocks are depleted while demand grows",
       "farmed fish require no feed or management inputs",
       "governments have banned all wild capture fishing",
-      "wild fisheries have become steadily more productive",
-      "many wild stocks are depleted while demand grows"
+      "wild fisheries have become steadily more productive"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Capture fisheries plateaued decades ago while seafood demand kept rising. Aquaculture filled the gap and continues to grow."
   },
   {
     id: "5-16-3",
     question: "A major environmental concern with net pen aquaculture is that",
     options: [
-      "concentrated waste and feed pollute nearby water",
       "farmed fish cannot survive in open water",
       "pens prevent water exchange with the open sea",
-      "the pens produce no waste of any kind at all"
+      "the pens produce no waste of any kind at all",
+      "concentrated waste and feed pollute nearby water"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Nutrients and organic matter accumulate beneath pens, depleting oxygen in sediments. Siting pens in well-flushed locations reduces but does not eliminate the effect."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-16-6",
     question: "Disease and parasites spread readily in aquaculture because",
     options: [
-      "farmed fish possess unusually strong immune systems",
-      "pens are fully isolated from surrounding waters",
       "farmed animals are kept at very low densities",
-      "high density confinement facilitates transmission"
+      "high density confinement facilitates transmission",
+      "farmed fish possess unusually strong immune systems",
+      "pens are fully isolated from surrounding waters"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Sea lice outbreaks on salmon farms can spill over to wild juveniles. Antibiotic and pesticide treatments create their own environmental concerns."
   },
   {
     id: "5-16-7",
     question: "Shellfish aquaculture is often considered more sustainable than finfish farming because bivalves",
     options: [
+      "require large quantities of manufactured feed",
       "filter feed and can improve local water quality",
       "must be raised in fully enclosed indoor tanks",
-      "produce more waste per unit than farmed salmon",
-      "require large quantities of manufactured feed"
+      "produce more waste per unit than farmed salmon"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Oysters and mussels remove suspended particles and nutrients as they feed. They need no added feed, which eliminates the wild fish input problem."
   },
   {
     id: "5-16-8",
     question: "Mangrove destruction has been associated with aquaculture primarily through",
     options: [
-      "restoration projects replanting coastal mangroves",
-      "clearing coastal mangroves for shrimp ponds",
       "protection of mangroves as nursery habitat",
-      "aquaculture operations located far inland"
+      "aquaculture operations located far inland",
+      "restoration projects replanting coastal mangroves",
+      "clearing coastal mangroves for shrimp ponds"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Large areas of Southeast Asian and Latin American mangrove were converted to shrimp farming. The loss removed storm protection and fish nursery habitat."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-16-10",
     question: "Integrated multitrophic aquaculture improves sustainability by",
     options: [
-      "discharging all waste into the open ocean",
-      "eliminating all species interactions in the system",
       "raising a single species at very high density",
-      "pairing fed species with seaweed and filter feeders"
+      "pairing fed species with seaweed and filter feeders",
+      "discharging all waste into the open ocean",
+      "eliminating all species interactions in the system"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Seaweed and shellfish absorb nutrients that fish waste would otherwise release. Waste from one level becomes input for another, mimicking natural cycling."
   }
 ];

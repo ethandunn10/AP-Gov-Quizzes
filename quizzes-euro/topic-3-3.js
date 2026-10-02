@@ -31,48 +31,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-3",
     question: "The introduction of American crops such as the potato affected Europe by",
     options: [
+      "causing widespread famine wherever the new crops were introduced",
       "raising yields on poor soils and supporting population growth",
       "reducing the total calories available from a given area of farmland",
-      "eliminating the cultivation of wheat and rye across northern Europe",
-      "causing widespread famine wherever the new crops were introduced"
+      "eliminating the cultivation of wheat and rye across northern Europe"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Potatoes produced far more calories per acre than grain on marginal land, underwriting population increase especially in Ireland and northern Europe. Dependence on a single crop later proved catastrophic."
   },
   {
     id: "3-3-4",
     question: "The 'putting-out' or cottage industry system is best described as",
     options: [
-      "peasants producing goods solely for their own household consumption",
       "merchants supplying raw materials to rural households by piece",
       "workers gathered into large supervised factories in the growing towns",
-      "guilds setting production quotas for every workshop within a city"
+      "guilds setting production quotas for every workshop within a city",
+      "peasants producing goods solely for their own household consumption"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Rural families spun and wove at home for merchant capitalists, which sidestepped urban guild regulation and used slack agricultural labor. Factory concentration belongs to the next century."
   },
   {
     id: "3-3-5",
     question: "European population growth in the eighteenth century resulted mainly from",
     options: [
-      "a sharp rise in birth rates caused by earlier average marriage",
       "the large-scale return of emigrants from colonies in the Americas",
       "declining mortality from famine and plague, plus better food",
-      "government incentives paying families for each additional child"
+      "government incentives paying families for each additional child",
+      "a sharp rise in birth rates caused by earlier average marriage"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Fewer subsistence crises, the disappearance of plague, and better food supply lowered death rates while birth rates changed comparatively little. The imbalance produced sustained growth."
   },
   {
     id: "3-3-6",
     question: "Which continuity characterized European economic life throughout this period?",
     options: [
+      "Most people continued to work in agriculture in rural communities",
       "Factory wage labor had become the dominant form of employment",
       "Guilds had disappeared from every European town before 1700",
-      "Long-distance trade had ceased to influence domestic economies",
-      "Most people continued to work in agriculture in rural communities"
+      "Long-distance trade had ceased to influence domestic economies"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Even in advanced regions the great majority still farmed, and agricultural output governed everything else. Guilds persisted in many towns until the Revolutionary era."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-3-8",
     question: "The financial revolution in Britain and the Netherlands centered on",
     options: [
-      "state prohibition of private banking and joint-stock ownership",
-      "national debt, central banks, and markets in state securities",
       "the abolition of interest on loans for religious reasons",
-      "the replacement of coinage with a purely barter-based system"
+      "the replacement of coinage with a purely barter-based system",
+      "state prohibition of private banking and joint-stock ownership",
+      "national debt, central banks, and markets in state securities"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The Bank of England let the state borrow at low rates against reliable tax revenue, a decisive advantage over France's costlier finances. Securities markets made that debt tradable."
   },
   {
     id: "3-3-9",
     question: "Which group benefited least from the economic changes of this period?",
     options: [
-      "Landowners able to consolidate holdings and raise their rents",
-      "Merchants supplying colonial groceries to expanding urban markets",
       "Cottagers and smallholders who lost access to common resources",
-      "Financiers investing in government debt and chartered companies"
+      "Financiers investing in government debt and chartered companies",
+      "Landowners able to consolidate holdings and raise their rents",
+      "Merchants supplying colonial groceries to expanding urban markets"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Enclosure removed the grazing and gathering rights that had made small holdings viable, pushing families into wage dependence. The other groups captured most of the gains."
   },
   {

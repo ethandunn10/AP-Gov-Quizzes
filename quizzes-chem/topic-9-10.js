@@ -7,8 +7,8 @@ window.QUIZ_QUESTIONS = [
     id: "9-10-1",
     question: "Standard conditions for electrochemical measurements specify",
     options: [
-      "1 M solutions, 1 bar gas pressure, and a stated temperature",
-      "0 °C and any concentration",
+      "1 M solutions, 1 bar gas, and a stated temperature",
+      "0 °C together with absolutely any concentration at all",
       "pure water only",
       "1 g of each reactant"
     ],
@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-10-2",
     question: "According to Le Chatelier reasoning, increasing the concentration of a reactant in a galvanic cell will",
     options: [
-      "decrease the cell potential",
       "increase the cell potential",
       "have no effect",
-      "reverse the cell"
+      "reverse the cell",
+      "decrease the cell potential"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "More reactant pushes the cell further from equilibrium, increasing its driving force. Increasing product concentration has the opposite effect."
   },
   {
@@ -32,9 +32,9 @@ window.QUIZ_QUESTIONS = [
     question: "As a galvanic cell operates, its potential",
     options: [
       "increases",
-      "decreases toward zero as reactants are consumed and Q approaches K",
+      "decreases toward zero as Q approaches K",
       "stays constant forever",
-      "becomes negative immediately"
+      "becomes negative almost immediately at once"
     ],
     correctIndex: 1,
     explanation: "A dead battery is one that has reached equilibrium. Rechargeable cells are driven back by an external source."
@@ -55,20 +55,20 @@ window.QUIZ_QUESTIONS = [
     id: "9-10-5",
     question: "When a cell reaches equilibrium, Q equals K and the cell potential is",
     options: [
-      "E°",
       "zero",
       "maximum",
-      "negative"
+      "negative",
+      "E°"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "No further work can be extracted at equilibrium. This is the electrochemical parallel of ΔG = 0."
   },
   {
     id: "9-10-6",
     question: "A concentration cell generates a potential because",
     options: [
-      "the two electrodes are different metals",
-      "the same half-reaction occurs in both cells but at different ion concentrations",
+      "the two electrodes are made from entirely different metals",
+      "the same half-reaction occurs at different concentrations",
       "it uses a different electrolyte",
       "it has no salt bridge"
     ],
@@ -80,9 +80,9 @@ window.QUIZ_QUESTIONS = [
     question: "In a concentration cell, the electrode in the more dilute solution acts as the",
     options: [
       "cathode",
-      "anode, as the system moves to equalize concentrations",
+      "anode, as the system equalizes concentrations",
       "salt bridge",
-      "reference electrode"
+      "the standard reference electrode for the cell"
     ],
     correctIndex: 1,
     explanation: "Oxidation there adds ions to the dilute side. Reduction removes ions from the concentrated side, driving both toward equality."
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-10-8",
     question: "Diluting the cathode compartment of an operating galvanic cell will",
     options: [
-      "increase the cell potential",
-      "decrease the cell potential, since the reactant concentration is reduced",
       "have no effect",
-      "reverse the electrodes"
+      "reverse the electrodes",
+      "increase the overall cell potential significantly",
+      "decrease the potential, since reactant is reduced"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Fewer available ions to reduce weakens the driving force. Q increases, and the Nernst correction term grows."
   },
   {
     id: "9-10-9",
     question: "A pH meter works on electrochemical principles because",
     options: [
+      "it measures color",
       "it measures temperature",
-      "the potential of its electrode depends on hydrogen ion concentration, which the Nernst equation relates to pH",
-      "it counts ions directly",
-      "it measures color"
+      "its electrode potential depends on [H⁺]",
+      "it counts up the individual ions directly, one by one"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "A glass electrode responds to [H⁺] with a predictable voltage. Calibration with standard buffers fixes the relationship."
   },
   {

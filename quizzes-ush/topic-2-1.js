@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "2-1-1",
     question: "Which development most clearly distinguishes Period 2 from Period 1 in North America?",
     options: [
-      "European contact with the Americas began for the first time",
-      "Permanent European settlements expanded and competed for territory and trade",
-      "Native populations recovered to their pre-contact numbers",
-      "Spanish power in the Caribbean collapsed entirely"
+      "Native populations recovered completely to their pre-contact numbers everywhere",
+      "Spanish power in the Caribbean collapsed entirely",
+      "European contact with the Americas began for the very first time",
+      "Permanent European settlements expanded and competed for territory and trade"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "After 1607 the story shifts from exploration and conquest to durable colonies competing for land, labor, and Native alliances. First contact belongs to Period 1, and Native populations continued to decline rather than recover."
   },
   {
     id: "2-1-2",
     question: "English colonization differed most fundamentally from Spanish colonization in that English colonies",
     options: [
+      "avoided displacing Native communities from their territory",
       "relied on transplanted families farming land taken from Native peoples",
       "depended on extracting silver through coerced Native labor drafts",
-      "sought primarily to convert Native peoples to Protestant Christianity",
-      "avoided displacing Native communities from their territory"
+      "sought primarily to convert Native peoples to Protestant Christianity alone"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The English model imported settler families who wanted land itself, which drove Native peoples off rather than incorporating them as a labor force. Spain's encomienda and mita systems extracted labor and minerals from populations that stayed in place."
   },
   {
     id: "2-1-3",
     question: "The French and Dutch colonial presence in North America was characterized primarily by",
     options: [
-      "large agricultural settlements that displaced Native nations",
       "plantation economies dependent on enslaved African labor",
       "mining operations organized around forced Native labor",
-      "small populations built around fur trading and Native alliances"
+      "small populations built around fur trading and Native alliances",
+      "large agricultural settlements that displaced entire Native nations"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Both powers ran thin, commercially focused colonies that depended on cooperative relationships with Native trading partners. That dependence made them allies of choice for many Native nations in later imperial wars."
   },
   {
     id: "2-1-4",
     question: "Which factor best explains why distinct regional colonial societies developed in British North America?",
     options: [
-      "Direct instructions from Parliament assigning each region an economy",
+      "An absence of any economic contact between the colonial regions",
+      "Direct instructions from Parliament assigning each region its own economy",
       "Differences in climate, soil, and the motives of the original settlers",
-      "The uniform religious convictions shared across all the colonies",
-      "An absence of any economic contact between the colonial regions"
+      "The uniform religious convictions shared across all the colonies"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Chesapeake tobacco, New England town farming, and Carolina rice grew out of environment combined with why each group came. Parliament issued no regional economic blueprint, and religious motives varied sharply between regions."
   },
   {
@@ -58,7 +58,7 @@ window.QUIZ_QUESTIONS = [
       "a steady decline in the free colonial population",
       "the departure of most colonists back to Europe",
       "rapid population growth fueled by natural increase and immigration",
-      "the reduction of the enslaved population to a small minority"
+      "the reduction of the enslaved population to an extremely small minority"
     ],
     correctIndex: 2,
     explanation: "Colonial population doubled roughly every 25 years through high birth rates plus arrivals from Europe and Africa. That growth intensified pressure on Native land, which fueled the conflicts that defined the period's end."
@@ -91,19 +91,19 @@ window.QUIZ_QUESTIONS = [
     id: "2-1-8",
     question: "The growth of racially based chattel slavery in the British colonies during this period was most directly driven by",
     options: [
+      "the absence of any agricultural economy in the southern colonies",
       "a Parliamentary statute requiring colonies to import enslaved Africans",
-      "planter demand for permanent labor as indentured servitude became less available",
-      "the refusal of Native peoples to engage in any trade with colonists",
-      "the absence of any agricultural economy in the southern colonies"
+      "planter demand for permanent labor as indentured servitude declined",
+      "the refusal of Native peoples to engage in any trade with colonists"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "As conditions in England improved and servants became scarcer and more troublesome after Bacon's Rebellion, planters turned to enslaved Africans held for life. Colonial assemblies then wrote the racial slave codes, rather than Parliament imposing them."
   },
   {
     id: "2-1-9",
     question: "British colonial political culture by 1754 was distinguished by",
     options: [
-      "representative assemblies that claimed authority over taxation and spending",
+      "representative assemblies claiming authority over taxation",
       "direct rule by royal governors without any elected bodies",
       "complete independence from British legal and commercial oversight",
       "universal voting rights extended to all adult residents"
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-1-10",
     question: "Which of the following best explains why 1754 marks the end of Period 2?",
     options: [
-      "The last permanent English colony was founded that year",
-      "Slavery was legally abolished throughout the British colonies",
       "The Atlantic trade in enslaved people came to an end",
-      "Imperial war between Britain and France began, reshaping colonial relations"
+      "Imperial war between Britain and France began, reshaping colonies",
+      "The last permanent English colony was founded that year",
+      "Slavery was legally abolished throughout every one of the British colonies"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The Seven Years' War began a chain of events — British victory, war debt, and new taxes — that transformed the empire's relationship with its colonies. Slavery and the slave trade expanded rather than ended in this era."
   }
 ];

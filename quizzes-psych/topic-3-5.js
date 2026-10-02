@@ -7,96 +7,96 @@ window.QUIZ_QUESTIONS = [
     id: "3-5-1",
     question: "A ten-month-old produces repeated syllables such as 'ba-ba-ba' that carry no meaning. This stage of language development is",
     options: [
-      "the one-word stage",
       "telegraphic speech",
       "babbling",
-      "cooing with vowel sounds only"
+      "cooing with vowel sounds only",
+      "the one-word stage"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Babbling involves consonant-vowel repetition and begins to narrow toward the sounds of the household language around this age. The one-word stage follows, once sounds start carrying meaning."
   },
   {
     id: "3-5-2",
     question: "A two-year-old says 'want cookie now.' This pattern is called",
     options: [
+      "receptive language delay",
       "overgeneralization of grammar",
       "babbling with intonation",
-      "telegraphic speech",
-      "receptive language delay"
+      "telegraphic speech"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Telegraphic speech strips sentences to content words while preserving word order. Overgeneralization is a separate error type involving misapplied grammatical rules."
   },
   {
     id: "3-5-3",
     question: "A three-year-old who previously said 'went' begins saying 'goed.' This change indicates that the child",
     options: [
+      "has not yet entered into the telegraphic stage of speech",
       "has learned a grammar rule and applies it too broadly",
       "is losing vocabulary that was already acquired",
-      "is imitating an error made by a caregiver",
-      "has not yet entered the telegraphic speech stage"
+      "is imitating an error made by a caregiver"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Overregularization is evidence of rule learning, since the child never heard 'goed' from an adult. The apparent backslide actually marks cognitive progress."
   },
   {
     id: "3-5-4",
     question: "Chomsky's account of language acquisition emphasizes that children",
     options: [
-      "learn language entirely through reinforcement of correct speech",
       "acquire language only if formally taught its rules",
       "imitate adult sentences word for word until fluent",
-      "are born with an innate capacity for acquiring grammar"
+      "are born with an innate capacity for acquiring grammar",
+      "learn language entirely through reinforcement of correct speech"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Chomsky argued that the speed of acquisition and children's novel grammatical sentences outstrip what imitation and reinforcement could produce. Skinner's competing account is the reinforcement-based one."
   },
   {
     id: "3-5-5",
     question: "The case of children who receive little language exposure before puberty and never achieve full grammatical fluency is most often cited as evidence for",
     options: [
-      "the role of reinforcement in vocabulary growth",
       "a critical period for language acquisition",
       "the universality of telegraphic speech",
-      "the independence of language from cognition"
+      "the independence of language from cognition",
+      "the role of reinforcement in vocabulary growth"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Failure to acquire normal grammar after a certain age supports a time-limited window for language learning. Such cases usually involve severe deprivation, which complicates interpretation but still points toward a sensitive period."
   },
   {
     id: "3-5-6",
     question: "Which best describes the linguistic relativity hypothesis?",
     options: [
-      "The language a person speaks influences how they think about the world",
-      "All human languages share the same underlying grammatical structure",
       "Children acquire language through operant conditioning",
-      "Bilingual speakers process both languages in separate brain regions"
+      "Bilingual speakers process both languages in separate brain regions",
+      "The language a person speaks influences how they think",
+      "All human languages share the same underlying grammatical structure"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Whorf's hypothesis proposes that vocabulary and grammar shape habits of thought, a strong version of which has not held up while weaker influences have. Universal grammar is Chomsky's competing claim about what languages share."
   },
   {
     id: "3-5-7",
     question: "Damage to Wernicke's area typically produces speech that is",
     options: [
-      "halting and effortful, with comprehension intact",
       "fluent but lacking meaning, with impaired comprehension",
       "entirely absent, with normal written language",
-      "normal in every respect except vocabulary size"
+      "normal in every respect except vocabulary size",
+      "halting and effortful, with comprehension remaining intact"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Wernicke's aphasia spares the mechanics of speech production while destroying meaning and understanding. The halting-but-comprehending profile belongs to Broca's aphasia."
   },
   {
     id: "3-5-8",
     question: "An infant raised in a bilingual household initially mixes words from both languages, then separates them by age three. This pattern suggests that",
     options: [
+      "early bilingual exposure does not impair either language",
       "bilingual children develop language more slowly in every domain",
       "one language must be suppressed for the other to develop",
-      "language mixing indicates a developmental disorder",
-      "early bilingual exposure does not permanently impair either language"
+      "language mixing indicates a developmental disorder"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Mixing is a normal phase that resolves as the child sorts the systems, and bilingual children reach milestones within typical ranges. The concern that bilingualism damages language development is not supported."
   },
   {

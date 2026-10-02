@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-1",
     question: "Earth's seasons are caused primarily by",
     options: [
-      "the speed at which Earth rotates on its axis",
-      "changes in Earth's distance from the sun",
       "the tilt of Earth's axis relative to its orbit",
-      "variation in the sun's total energy output"
+      "variation in the sun's total energy output",
+      "the speed at which Earth rotates on its axis",
+      "changes in Earth's distance from the sun"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "The 23.5 degree tilt changes the angle and duration of sunlight through the year. Earth is actually closest to the sun during Northern Hemisphere winter."
   },
   {
     id: "4-7-2",
     question: "Solar radiation is most intense at the equator because sunlight there",
     options: [
-      "is reflected less by equatorial ocean surfaces",
-      "contains a different mix of wavelengths entirely",
       "travels a shorter distance through space to arrive",
-      "strikes the surface at a more direct angle"
+      "strikes the surface at a more direct angle",
+      "is reflected less by equatorial ocean surfaces",
+      "contains a different mix of wavelengths entirely"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "A direct beam concentrates energy over a smaller area than an oblique one. Oblique rays also pass through more atmosphere, losing more energy."
   },
   {
     id: "4-7-3",
     question: "During the June solstice, the Northern Hemisphere experiences summer because it is",
     options: [
+      "rotating considerably more slowly than in other months",
+      "physically closer to the sun than the south",
       "tilted toward the sun, receiving more direct light",
-      "receiving light of a higher energy wavelength",
-      "rotating more slowly than during other months",
-      "physically closer to the sun than the south"
+      "receiving light of a higher energy wavelength"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The tilt gives longer days and higher sun angles north of the equator. The Southern Hemisphere simultaneously experiences winter."
   },
   {
     id: "4-7-4",
     question: "At the equinoxes, day and night are approximately equal everywhere because",
     options: [
+      "the sun emits substantially less energy on those days",
       "Earth stops rotating briefly on those two dates",
       "neither hemisphere is tilted toward the sun",
-      "Earth is at its maximum distance from the sun",
-      "the sun emits substantially less energy on those days"
+      "Earth is at its maximum distance from the sun"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The terminator passes through both poles when the tilt is perpendicular to the sun's direction. This occurs around March 21 and September 22."
   },
   {
     id: "4-7-5",
     question: "Albedo refers to a surface's",
     options: [
+      "temperature measured at a given moment",
       "capacity to transmit light through its material",
       "ability to absorb and store thermal energy",
-      "reflectivity, or the fraction of light it reflects",
-      "temperature measured at a given moment"
+      "reflectivity, or the fraction of light it reflects"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Fresh snow has high albedo near 0.9 while dark ocean has low albedo near 0.06. Albedo changes are an important climate feedback."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-7",
     question: "Insolation refers to",
     options: [
-      "incoming solar radiation reaching a surface",
-      "the rate at which Earth radiates heat to space",
       "the total heat stored within the ocean",
-      "the insulating property of atmospheric gases"
+      "the insulating property of atmospheric gases",
+      "incoming solar radiation reaching a surface",
+      "the rate at which Earth radiates heat to space"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Insolation varies with latitude, season, time of day, and cloud cover. It is the fundamental energy input to Earth's climate system."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-9",
     question: "Polar regions experience extreme seasonal variation in daylight because",
     options: [
-      "atmospheric refraction is entirely absent at high latitudes",
       "they are much farther from the sun than the tropics",
       "axial tilt leaves them facing toward or away from the sun",
-      "Earth's rotation slows considerably near the poles"
+      "Earth's rotation slows considerably near the poles",
+      "atmospheric refraction is entirely absent at high latitudes"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Above the Arctic Circle, the sun stays up continuously in summer and never rises in midwinter. This is a direct geometric consequence of the tilt."
   },
   {
     id: "4-7-10",
     question: "Seasonal variation in insolation affects ecosystems primarily by controlling",
     options: [
+      "the timing of growing seasons and productivity",
       "the tectonic movement of continental plates",
       "the salinity of surface water in the open ocean",
-      "the chemical composition of atmospheric gases",
-      "the timing of growing seasons and productivity"
+      "the chemical composition of atmospheric gases"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Plants time germination, flowering, and dormancy to seasonal light and temperature. Migration and breeding cycles in animals follow the same cues."
   }
 ];

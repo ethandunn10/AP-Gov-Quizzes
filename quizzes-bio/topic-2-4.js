@@ -5,15 +5,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.4-1",
     question: "The plasma membrane is described as 'selectively permeable' because it:",
-    options: ["Allows all molecules to pass through freely", "Some substances cross more easily", "Blocks every molecule from crossing", "Only water is able to cross it"],
-    correctIndex: 1,
+    options: ["Only water is able to cross it", "Allows all molecules to pass through freely", "Some substances cross more easily", "Blocks every molecule from crossing"],
+    correctIndex: 2,
     explanation: "Selective permeability means the membrane regulates what enters and exits the cell, readily allowing small nonpolar molecules through while restricting large, polar, or charged molecules unless via specific transport proteins."
   },
   {
     id: "2.4-2",
     question: "Small nonpolar molecules like O2 and CO2 can cross the plasma membrane by:",
-    options: ["Diffusion through the bilayer", "Only through protein channels", "Active transport requiring ATP", "Endocytosis in vesicles"],
-    correctIndex: 0,
+    options: ["Endocytosis in vesicles", "Diffusion through the bilayer", "Only through protein channels", "Active transport requiring ATP"],
+    correctIndex: 1,
     explanation: "Small, nonpolar molecules like oxygen and carbon dioxide can dissolve in and pass directly through the hydrophobic lipid bilayer without needing transport proteins."
   },
   {
@@ -26,15 +26,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.4-4",
     question: "Which factor does NOT generally affect how easily a substance crosses the plasma membrane by simple diffusion?",
-    options: ["The size of the molecule", "The polarity/charge of the molecule", "The molecule's color", "The concentration gradient of the molecule"],
-    correctIndex: 2,
+    options: ["The polarity/charge of the molecule", "The molecule's color", "The concentration gradient of the molecule", "The size of the molecule"],
+    correctIndex: 1,
     explanation: "A molecule's color has no bearing on membrane permeability; size, polarity/charge, and the concentration gradient are the key factors governing diffusion across membranes."
   },
   {
     id: "2.4-5",
     question: "A steroid hormone, being lipid-soluble, can most likely cross the plasma membrane via:",
-    options: ["Diffusion through the lipid bilayer", "Only through gated ion channels", "Endocytosis exclusively", "It cannot cross the membrane at all"],
-    correctIndex: 0,
+    options: ["Only through gated ion channels", "Endocytosis exclusively", "It cannot cross the membrane at all", "Diffusion through the lipid bilayer"],
+    correctIndex: 3,
     explanation: "Steroid hormones are lipid-soluble (hydrophobic) and can diffuse directly through the hydrophobic core of the plasma membrane to bind receptors inside the cell."
   },
   {
@@ -54,15 +54,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.4-8",
     question: "Membrane permeability to a given solute is best defined as:",
-    options: ["The rate at which that solute is synthesized inside the cell", "How easily that particular solute can cross the membrane", "The total surface area of the cell", "The concentration of that solute outside the cell only"],
-    correctIndex: 1,
+    options: ["How easily that particular solute can cross the membrane", "The total surface area of the cell", "The concentration of that solute outside the cell only", "The rate at which that solute is synthesized inside the cell"],
+    correctIndex: 0,
     explanation: "Permeability describes how readily a specific substance can pass through the membrane, which depends on the substance's properties and the membrane's composition/transport proteins."
   },
   {
     id: "2.4-9",
     question: "A drug designed to be absorbed by simple diffusion across cell membranes in the gut would ideally be:",
-    options: ["Large, polar, and charged", "Small and lipid-soluble", "A large folded protein", "An ion with a strong charge"],
-    correctIndex: 1,
+    options: ["Small and lipid-soluble", "A large folded protein", "An ion with a strong charge", "Large, polar, and charged"],
+    correctIndex: 0,
     explanation: "Small, nonpolar (lipid-soluble) molecules are more likely to freely diffuse across the hydrophobic membrane, aiding absorption without requiring transport proteins."
   },
   {

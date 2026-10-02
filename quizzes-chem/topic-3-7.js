@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-2",
     question: "What mass of KNO₃ (101 g/mol) is needed to prepare 250. mL of 0.400 M solution?",
     options: [
+      "101 g",
       "10.1 g",
       "40.4 g",
-      "2.53 g",
-      "101 g"
+      "2.53 g"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "n = (0.400)(0.250) = 0.100 mol, so m = 0.100 × 101 = 10.1 g. Using 250 instead of 0.250 L inflates the answer a thousandfold."
   },
   {
     id: "3-7-3",
     question: "Diluting a solution changes",
     options: [
+      "the identity of the solute",
       "the moles of solute",
       "the concentration but not the moles of solute",
-      "neither concentration nor moles",
-      "the identity of the solute"
+      "neither the concentration nor the number of moles"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Adding solvent spreads the same amount of solute through more volume. This is why M₁V₁ = M₂V₂ works."
   },
   {
@@ -55,48 +55,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-5",
     question: "A solution is saturated when",
     options: [
-      "no more solute can dissolve at that temperature, with dissolved and undissolved solute in equilibrium",
+      "it contains the maximum possible volume of solvent",
+      "no more solute can dissolve at that temperature",
       "all the solvent has evaporated",
-      "the solute has reacted with the solvent",
-      "it contains the maximum possible volume"
+      "the solute has reacted with the solvent"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Dissolving and crystallizing continue at equal rates in a saturated solution. A supersaturated solution holds more than this and is unstable."
   },
   {
     id: "3-7-6",
     question: "The solubility of most solid solutes in water",
     options: [
+      "depends only on pressure",
       "decreases with increasing temperature",
       "increases with increasing temperature",
-      "is unaffected by temperature",
-      "depends only on pressure"
+      "is unaffected by temperature"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Gases behave oppositely, becoming less soluble as temperature rises. Some solids such as Ce₂(SO₄)₃ are exceptions to the general trend."
   },
   {
     id: "3-7-7",
     question: "Which statement best explains why NaCl dissolves in water?",
     options: [
-      "Water molecules react chemically with NaCl",
-      "Ion-dipole interactions between ions and water release enough energy to offset the lattice energy",
       "NaCl has a low melting point",
-      "Water has a low density"
+      "Water has a low density",
+      "Water molecules react chemically with the NaCl present",
+      "Ion-dipole attraction offsets the lattice energy"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Dissolution is a competition between lattice energy and solvation energy. Entropy of mixing also contributes to making the process spontaneous."
   },
   {
     id: "3-7-8",
     question: "Adding 50.0 mL of water to 50.0 mL of 0.800 M HCl gives a solution that is",
     options: [
-      "0.800 M",
-      "0.400 M",
       "1.60 M",
-      "0.200 M"
+      "0.200 M",
+      "0.800 M",
+      "0.400 M"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Doubling the volume halves the concentration. The moles of HCl, 0.0400, are unchanged by the addition."
   },
   {

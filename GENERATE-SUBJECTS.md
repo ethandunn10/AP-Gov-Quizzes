@@ -123,26 +123,53 @@ resolving, 10 questions / 4 distinct options / valid `correctIndex` throughout.
 Note: the instruction above to leave changes uncommitted was superseded — the
 work is committed and pushed on branch `rename-to-blurt`.
 
-## Known remaining quality issue — answer-length tell
+## Answer-length tell — RESOLVED (all nine subjects, Oct 1 2026)
 
-The correct option is the longest more often than the 25% expected by chance:
+The correct option is no longer a length outlier in any subject. Every question
+was reviewed; wherever the correct answer stood out, it was either tightened or a
+distractor was expanded into a fuller, more plausible misconception.
 
-| Subject | correct-is-longest | status |
-|---|---|---|
-| APUSH | 87% | NOT fixed |
-| AP Gov | 85% | NOT fixed |
-| AP Chem | 65% | NOT fixed |
-| AP Environmental Science | 43% | partly mitigated |
-| AP Human Geography | 39% | partly mitigated |
-| AP European History | 30% | mitigated |
-| AP Biology | 24% | fixed |
-| AP World History | 21% | fixed |
+| Subject | before | after | status |
+|---|---|---|---|
+| APUSH | 87% | 0% | fixed |
+| AP Gov | 85% | 0% | fixed |
+| AP Chem | 65% | 0% | fixed |
+| AP Psychology | 44% | 0% | fixed |
+| AP Environmental Science | 43% | 22% | fixed |
+| AP Human Geography | 39% | 22% | fixed |
+| AP European History | 30% | 20% | unchanged, already in band |
+| AP World History | 21% | 19% | unchanged, already in band |
+| AP Biology | 24% | 18% | unchanged, already in band |
+| **All 6,770 questions** | **44%** | **12%** | **below the 25% chance rate** |
 
-Answer POSITION (A/B/C/D) is balanced in every subject built this session.
+Answer POSITION (A/B/C/D) remains balanced at 25/25/25/25 in every subject.
 
-Fix method that works: write all four options within ~14 characters of each
-other (`band.js`), and deliberately make a distractor the longest option — that
-alone drops the rate to roughly 20%. Then run `balance2.js` for position.
+In the four subjects now at 0%, no question has the correct answer as its unique
+longest option. In APES and AP HuG, every remaining case wins by at most 3
+characters — below visual discrimination — and none by 4 or more. The three
+subjects already in band were left alone; their residual cases are the same
+1-3 character noise.
+
+### Method
+
+Two helper scripts live in the session scratchpad (regenerate if needed):
+`extract.js` lists offending questions per file; `apply.js` takes a JSON patch of
+`question id -> [four options]` and rewrites only that question's options array,
+then self-verifies that every patch landed on the intended id.
+
+Two cautions learned the hard way:
+- Some files (`quizzes/`, `quizzes-bio/`) put `options` on a single line. A
+  regex that assumes `options: [\n` will skip past them and overwrite the NEXT
+  question. `apply.js` now scopes each edit between adjacent `id:` markers and
+  self-verifies; four AP Gov questions were clobbered this way and repaired.
+- Trimming the correct answer alone is not enough — a distractor must end up
+  longest, or the question still counts.
+
+Verified after the pass: 6,770 questions, 0 structural issues, 0 duplicate
+lesson ids, 10 questions and 4 distinct options per file throughout. Nine
+questions share an answer-choice set with another question (e.g. two separate
+items both offering the four judicial-scrutiny levels); all nine predate this
+work and are legitimate.
 
 ## Not built (would need app changes first)
 

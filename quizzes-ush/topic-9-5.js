@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-1",
     question: "The largest sources of immigration to the United States since 1980 have been",
     options: [
+      "Canada and Australia",
       "northern and western Europe",
       "Latin America and Asia",
-      "eastern Europe exclusively",
-      "Canada and Australia"
+      "eastern Europe exclusively"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The 1965 law's family preference and skills categories reshaped the flow. Mexico was the largest single sending country for most of the period."
   },
   {
     id: "9-5-2",
     question: "The Immigration Reform and Control Act of 1986",
     options: [
-      "granted legal status to certain long-resident unauthorized immigrants while penalizing employers who hired unauthorized workers",
-      "ended all legal immigration",
-      "created the current visa lottery only",
-      "eliminated border enforcement"
+      "created only the current diversity visa lottery system",
+      "eliminated border enforcement",
+      "legal status for some long-resident immigrants",
+      "ended all legal immigration"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "About three million people gained legal status, but employer sanctions were weakly enforced. That imbalance is central to later arguments about the law's failure."
   },
   {
     id: "9-5-3",
     question: "Debates over unauthorized immigration since the 1990s have centered on",
     options: [
-      "border enforcement, employment verification, and whether to provide paths to legal status",
-      "whether immigration should exist at all",
       "the admission of refugees only",
-      "which states may issue passports"
+      "which states may issue passports",
+      "border enforcement, verification, and paths to legal status",
+      "whether any immigration at all should be permitted in the country"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Comprehensive reform bills failed repeatedly in 2006-2007 and 2013. The DACA program in 2012 addressed one group by executive action."
   },
   {
@@ -45,7 +45,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "deny public services to unauthorized immigrants",
       "expand bilingual education",
-      "grant driver's licenses to all residents",
+      "grant driver's licenses to all California residents",
       "increase refugee admissions"
     ],
     correctIndex: 0,
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-5",
     question: "Internal migration since 1980 has been characterized by",
     options: [
-      "movement toward the South and West, and a reverse migration of Black Americans to the South",
+      "the end of interstate movement",
+      "movement to the South and West, with Black return migration",
       "population decline in Texas and Florida",
-      "movement back to the industrial Midwest",
-      "the end of interstate movement"
+      "a large-scale movement back to the industrial Midwest states"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Sun Belt growth continued, and Black southern return migration reversed the Great Migration's direction. Both shifts have moved congressional representation."
   },
   {
     id: "9-5-6",
     question: "Immigration's effects on American cities since 1980 include",
     options: [
-      "population decline in every gateway city",
-      "revitalizing neighborhoods, creating new ethnic enclaves, and reshaping local politics and economies",
+      "revitalizing neighborhoods and reshaping local politics",
       "the elimination of ethnic neighborhoods",
-      "reduced demand for public schooling"
+      "reduced demand for public schooling",
+      "a steady population decline in every single gateway city"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Immigrant arrivals offset population loss in several older cities. Their patterns of settlement echo earlier waves while reaching new suburban destinations."
   },
   {
     id: "9-5-7",
     question: "Debates over bilingual education and English-only laws reflect",
     options: [
+      "federal requirements for one single official national language",
+      "unanimous agreement among educators",
       "a new issue with no historical precedent",
-      "a recurring American argument about language, assimilation, and national identity",
-      "federal requirements for a single national language",
-      "unanimous agreement among educators"
+      "a recurring argument about language and national identity"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "German-language schooling faced similar attacks during World War I. The United States has never adopted an official national language."
   },
   {
@@ -92,8 +92,8 @@ window.QUIZ_QUESTIONS = [
     question: "The post-9/11 security environment affected immigration by",
     options: [
       "reducing enforcement",
-      "tightening visa screening, creating DHS and ICE, and increasing scrutiny of Muslim and Arab immigrants",
-      "eliminating the refugee program permanently",
+      "tighter visa screening, new agencies, and added scrutiny",
+      "permanently eliminating the entire federal refugee program",
       "ending all border inspection"
     ],
     correctIndex: 1,
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-9",
     question: "The growth of the Latino population has affected American politics by",
     options: [
-      "having no measurable electoral effect",
-      "making Latino voters a significant and internally diverse constituency both parties court",
-      "producing a single unified voting bloc with uniform views",
-      "reducing voter registration nationally"
+      "making Latino voters a large, internally diverse constituency",
+      "producing one single unified voting bloc holding uniform views",
+      "reducing voter registration nationally",
+      "having no measurable electoral effect"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Cuban American, Mexican American, and Puerto Rican voters differ sharply in partisan patterns. Treating them as one bloc is a common analytical error."
   },
   {
     id: "9-5-10",
     question: "Refugee admissions to the United States since 1980 have been shaped by",
     options: [
-      "the Refugee Act of 1980 and shifting foreign policy priorities, from Southeast Asia to the Middle East",
-      "a constitutional requirement to admit all applicants",
-      "a complete ban on refugee admission",
-      "state governments setting their own quotas"
+      "state governments setting their own quotas",
+      "the Refugee Act of 1980 and shifting foreign policy priorities",
+      "a constitutional requirement to admit every one of the applicants",
+      "a complete ban on refugee admission"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The 1980 act established a standard definition and an annual presidential ceiling. Where refugees come from has tracked American foreign involvements."
   }
 ];

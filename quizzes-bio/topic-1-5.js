@@ -19,8 +19,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.5-3",
     question: "Phospholipids are essential to cell structure primarily because they:",
-    options: ["They form the cell's bilayer membrane", "They store long-term energy in fat cells", "They catalyze most biochemical reactions", "They carry the cell's genetic information"],
-    correctIndex: 0,
+    options: ["They catalyze most biochemical reactions", "They carry the cell's genetic information", "They form the cell's bilayer membrane", "They store long-term energy in fat cells"],
+    correctIndex: 2,
     explanation: "Phospholipids have a hydrophilic head and hydrophobic tails, causing them to spontaneously form a bilayer in water — the basis of all cell membranes."
   },
   {
@@ -40,15 +40,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.5-6",
     question: "In a phospholipid bilayer, the hydrophilic phosphate 'heads' orient:",
-    options: ["Toward the interior of the membrane, away from water", "Toward the watery environments on both sides", "Randomly, with no consistent orientation", "Only on the outer surface, never the inner surface"],
-    correctIndex: 1,
+    options: ["Randomly, with no consistent orientation", "Only on the outer surface, never the inner surface", "Toward the interior of the membrane, away from water", "Toward the watery environments on both sides"],
+    correctIndex: 3,
     explanation: "The polar phosphate heads face the aqueous environment on both the inside and outside of the cell, while the nonpolar fatty acid tails cluster together, shielded from water."
   },
   {
     id: "1.5-7",
     question: "At room temperature, oils (unsaturated fats) tend to be liquid rather than solid because:",
-    options: ["Double-bond kinks prevent tight packing", "They contain no carbon atoms at all", "Their carbon chains are much shorter", "They lack any glycerol backbone"],
-    correctIndex: 0,
+    options: ["Their carbon chains are much shorter", "They lack any glycerol backbone", "Double-bond kinks prevent tight packing", "They contain no carbon atoms at all"],
+    correctIndex: 2,
     explanation: "Double bonds in unsaturated fatty acids create bends in the hydrocarbon tails, which prevent molecules from packing tightly, keeping the fat liquid at room temperature."
   },
   {
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.5-10",
     question: "Why can't lipids dissolve in water?",
-    options: ["Their nonpolar C-H bonds resist polar water", "They carry a strong net positive charge", "They are too large to fit between waters", "Their phosphate groups repel water"],
-    correctIndex: 0,
+    options: ["Their phosphate groups repel water", "Their nonpolar C-H bonds resist polar water", "They carry a strong net positive charge", "They are too large to fit between waters"],
+    correctIndex: 1,
     explanation: "The long hydrocarbon chains of lipids are nonpolar, so they cannot form hydrogen bonds with polar water molecules, making them hydrophobic."
   },
 ];

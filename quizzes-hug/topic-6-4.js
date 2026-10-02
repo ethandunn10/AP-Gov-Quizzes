@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-1",
     question: "The rank size rule predicts that the second largest city in a country will have roughly",
     options: [
+      "the same population as the largest city",
       "half the population of the largest city",
       "twice the population of the largest city",
-      "one tenth the population of the largest city",
-      "the same population as the largest city"
+      "one tenth the population of the largest city"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Under the rule, the nth largest city holds 1/n the population of the largest, so second place holds half. A balanced hierarchy of this kind suggests a well-integrated urban system."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-3",
     question: "Central place theory was developed to explain",
     options: [
-      "the sequence in which national economies industrialize",
       "the internal arrangement of land uses inside a single city",
       "the spacing and size of settlements serving surrounding areas",
-      "the migration routes people follow between rural regions"
+      "the migration routes people follow between rural regions",
+      "the sequence in which national economies industrialize"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Walter Christaller asked why settlements of different sizes are spaced as they are, modeling service areas as hexagons. Internal city structure is handled by separate models such as concentric zone."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-5",
     question: "A high order good such as a specialized medical procedure is characterized by",
     options: [
-      "a large threshold and a long market range",
-      "purchase frequency of several times each week",
       "availability in even the smallest rural settlements",
-      "a small threshold and a very short market range"
+      "a small threshold and a very short market range",
+      "a large threshold and a long market range",
+      "purchase frequency of several times each week"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Rarely purchased services need a huge population to support them, so they locate in few large centers and draw customers from far away. Low order goods like milk show the opposite profile."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-7",
     question: "The gravity model predicts interaction between two cities based on their",
     options: [
+      "positions in the global financial hierarchy",
       "relative levels of industrial air pollution",
       "populations and the distance separating them",
-      "shared political history and common language",
-      "positions in the global financial hierarchy"
+      "shared political history and common language"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Interaction rises with the product of the populations and falls with the square of distance. The model explains migration flows, phone traffic, and trade reasonably well at broad scales."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-9",
     question: "Real urban systems depart from central place theory largely because the model assumes",
     options: [
-      "a flat uniform plain with evenly spread purchasing power",
-      "that consumers always travel to the most distant provider",
       "the presence of multiple competing national governments",
-      "uneven terrain and variable transportation access"
+      "uneven terrain and variable transportation access",
+      "a flat uniform plain with evenly spread purchasing power",
+      "that consumers always travel to the most distant provider"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Mountains, rivers, highways, and uneven income all distort the idealized lattice. The assumptions are simplifications that isolate distance and threshold as variables, not claims about reality."
   },
   {
     id: "6-4-10",
     question: "Primate city distributions are often considered a development concern because they",
     options: [
+      "produce too many competing centers of political power",
       "distribute investment too evenly across a national territory",
       "concentrate resources while other regions stagnate",
-      "prevent any rural to urban migration from occurring",
-      "produce too many competing centers of political power"
+      "prevent any rural to urban migration from occurring"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "When one city absorbs most investment, infrastructure, and opportunity, regional inequality widens and migration pressure on that city intensifies. Balanced hierarchies spread development more broadly."
   }
 ];

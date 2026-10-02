@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-4-1",
     question: "The primary human source of carbon dioxide emissions is",
     options: [
-      "application of nitrogen fertilizer to agricultural soils",
-      "decomposition of organic waste in municipal landfills",
       "combustion of fossil fuels for energy and transport",
-      "enteric fermentation in cattle and other ruminants"
+      "enteric fermentation in cattle and other ruminants",
+      "application of nitrogen fertilizer to agricultural soils",
+      "decomposition of organic waste in municipal landfills"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Energy and transportation dominate global CO₂ emissions. Deforestation and cement production contribute substantially as well."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-4-3",
     question: "Nitrous oxide emissions come primarily from",
     options: [
+      "fossil fuel combustion in electricity generation",
       "fertilized agricultural soils and manure management",
       "decomposition of waste in anaerobic landfills",
-      "industrial refrigeration and air conditioning units",
-      "fossil fuel combustion in electricity generation"
+      "industrial refrigeration and air conditioning units"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Soil bacteria convert excess nitrogen into N₂O. Its warming potential is roughly 300 times that of carbon dioxide."
   },
   {
     id: "9-4-4",
     question: "Ice core records are valuable for climate science because they",
     options: [
-      "predict future greenhouse gas concentrations precisely",
-      "preserve trapped air bubbles recording past atmospheres",
       "measure current atmospheric composition in real time",
-      "contain no information about historical temperatures"
+      "contain no information about historical temperatures",
+      "predict future greenhouse gas concentrations precisely",
+      "preserve trapped air bubbles recording past atmospheres"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Antarctic cores extend the record back more than 800,000 years. Isotope ratios in the ice also indicate past temperatures."
   },
   {
     id: "9-4-5",
     question: "Ice core data show that current carbon dioxide levels are",
     options: [
-      "essentially unchanged from preindustrial concentrations",
-      "well within the normal range of the past million years",
       "higher than at any point in at least 800,000 years",
-      "lower than they were during previous glacial periods"
+      "lower than they were during previous glacial periods",
+      "essentially unchanged from preindustrial concentrations",
+      "well within the normal range of the past million years"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Glacial-interglacial cycles ranged roughly between 180 and 300 parts per million. Current levels exceed 420 parts per million."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-4-8",
     question: "Cement production contributes to CO₂ emissions primarily because",
     options: [
-      "cement plants use unusually inefficient electrical equipment",
       "heating limestone chemically releases carbon dioxide",
       "cement absorbs carbon dioxide from the surrounding air",
-      "transporting cement requires exceptional amounts of fuel"
+      "transporting cement requires exceptional amounts of fuel",
+      "cement plants use unusually inefficient electrical equipment"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Calcination releases CO₂ regardless of the fuel used for heating. This makes cement especially difficult to decarbonize."
   },
   {
     id: "9-4-9",
     question: "The rate of atmospheric CO₂ increase has",
     options: [
-      "reversed, with concentrations now declining each year",
+      "remained exactly constant over the past six decades",
+      "reversed, with concentrations now declining every single year",
       "slowed steadily since measurements began in 1958",
-      "accelerated, with annual increases larger than in the past",
-      "remained exactly constant over the past six decades"
+      "accelerated, with annual increases larger than in the past"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Annual increases have roughly tripled since the 1960s. Even flat emissions would continue raising concentrations."
   },
   {
     id: "9-4-10",
     question: "Carbon sinks that absorb some human emissions include",
     options: [
-      "the stratosphere above the ozone layer",
       "fossil fuel deposits still buried underground",
       "volcanoes and other geological carbon sources",
-      "oceans and terrestrial vegetation and soils"
+      "oceans and terrestrial vegetation and soils",
+      "the stratosphere above the ozone layer"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "These sinks absorb roughly half of annual human emissions. Their capacity may weaken as warming continues, a significant uncertainty in projections."
   }
 ];

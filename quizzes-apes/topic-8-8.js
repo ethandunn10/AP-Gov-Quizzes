@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-8-1",
     question: "Bioaccumulation refers to the buildup of a contaminant",
     options: [
+      "in the sediments at the bottom of a water body",
       "in the atmosphere above an industrial facility",
       "at successively higher levels of a food chain",
-      "within the tissues of a single organism over time",
-      "in the sediments at the bottom of a water body"
+      "within the tissues of a single organism over time"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Bioaccumulation occurs when uptake exceeds excretion within one organism. Biomagnification describes the increase across trophic levels."
   },
   {
@@ -31,48 +31,48 @@ window.QUIZ_QUESTIONS = [
     id: "8-8-3",
     question: "Which chemical property makes a substance most likely to biomagnify?",
     options: [
-      "Fat solubility combined with resistance to breakdown",
       "Rapid chemical degradation in sunlight",
-      "A tendency to bind permanently to soil particles",
-      "High water solubility and rapid excretion"
+      "a strong tendency to bind permanently to soil particles",
+      "High water solubility and rapid excretion",
+      "Fat solubility combined with resistance to breakdown"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Water-soluble compounds are excreted rather than stored. Lipophilic persistent compounds are retained and passed along."
   },
   {
     id: "8-8-4",
     question: "Methylmercury biomagnifies in aquatic food chains, so the highest concentrations occur in",
     options: [
+      "the water column itself rather than in living organisms",
+      "sediments where the mercury originally settled",
       "algae and phytoplankton at the base of the web",
-      "long lived predatory fish such as tuna and swordfish",
-      "the water column itself rather than in organisms",
-      "sediments where the mercury originally settled"
+      "long lived predatory fish such as tuna and swordfish"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Bacteria convert inorganic mercury into methylmercury, which then magnifies. Advisories target large predatory fish for this reason."
   },
   {
     id: "8-8-5",
     question: "The primary anthropogenic source of mercury entering aquatic systems is",
     options: [
-      "natural weathering of mercury bearing rock",
-      "agricultural pesticide application on food crops",
       "coal combustion and artisanal gold mining",
-      "municipal sewage discharged after treatment"
+      "municipal sewage discharged after treatment",
+      "natural weathering of mercury bearing rock",
+      "agricultural pesticide application on food crops"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Coal contains trace mercury released to the atmosphere when burned. It deposits into water bodies far from the emitting plant."
   },
   {
     id: "8-8-6",
     question: "DDT caused eggshell thinning in raptors, illustrating that biomagnification",
     options: [
-      "removes the toxin before it reaches predators",
       "has no measurable effect on reproduction",
       "affects only organisms at the lowest levels",
-      "harms top predators the most severely"
+      "harms top predators the most severely",
+      "removes the toxin before it reaches predators"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Bald eagles and ospreys accumulated concentrations far above ambient levels. Their populations recovered substantially after the DDT ban."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-8-8",
     question: "Fish consumption advisories for pregnant women exist because methylmercury",
     options: [
+      "affects adults far more severely than developing fetuses",
       "causes immediate acute poisoning at any dose",
       "crosses the placenta and impairs fetal brain development",
-      "is removed completely by ordinary cooking methods",
-      "affects adults far more severely than developing fetuses"
+      "is removed completely by ordinary cooking methods"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The developing nervous system is far more sensitive than the adult brain. Cooking does not reduce methylmercury content."
   },
   {
     id: "8-8-9",
     question: "Minamata disease resulted from",
     options: [
-      "radioactive contamination following a reactor accident",
       "airborne lead released by a smelting operation",
       "industrial mercury discharged into a coastal bay",
-      "pesticide residues on locally grown vegetables"
+      "pesticide residues on locally grown vegetables",
+      "radioactive contamination following a reactor accident"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "A chemical plant discharged mercury that magnified in fish local residents ate. The resulting neurological disease gave the global mercury treaty its name."
   },
   {
     id: "8-8-10",
     question: "A contaminant present at low concentration in water can still be dangerous because",
     options: [
-      "low concentrations cannot be measured accurately",
-      "aquatic organisms are immune to all contaminants",
       "water concentration always exceeds tissue concentration",
-      "biomagnification concentrates it many times in predators"
+      "biomagnification concentrates it many times in predators",
+      "low concentrations cannot be measured accurately",
+      "aquatic organisms are immune to all contaminants"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Concentrations undetectable in water can reach harmful levels in top predators. This is why ambient water standards alone are insufficient."
   }
 ];

@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-8-2",
     question: "Net primary productivity is calculated as",
     options: [
-      "total ecosystem biomass divided by its land area",
       "the energy available at the third trophic level",
       "gross primary productivity plus respiration losses",
-      "gross primary productivity minus respiration"
+      "gross primary productivity minus respiration",
+      "total ecosystem biomass divided by its land area"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "NPP equals GPP minus the energy producers burn to stay alive. NPP is what is actually available to consumers, which makes it the more ecologically useful measure."
   },
   {
     id: "1-8-3",
     question: "Which ecosystem typically has the highest net primary productivity per unit area?",
     options: [
+      "Open ocean far from any continental shelf",
       "Tropical rainforest with abundant light and rain",
       "Arctic tundra during its brief summer season",
-      "Temperate desert with limited annual rainfall",
-      "Open ocean far from any continental shelf"
+      "Temperate desert with limited annual rainfall"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Warmth, year-round light, and abundant water together maximize production. The open ocean has low productivity per area but covers so much surface that its total contribution is large."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-8-5",
     question: "Primary productivity in most aquatic ecosystems is limited primarily by",
     options: [
-      "the absence of any photosynthetic organisms present",
       "the total volume of water available in the system",
       "light penetration and nutrient availability",
-      "water temperature exceeding photosynthetic limits"
+      "water temperature exceeding photosynthetic limits",
+      "the absence of any photosynthetic organisms present"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Light attenuates rapidly with depth, and nitrogen or phosphorus is usually scarce in open water. Upwelling zones are productive precisely because they relieve the nutrient constraint."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "1-8-7",
     question: "Which factor most limits primary productivity in a desert ecosystem?",
     options: [
-      "Water availability during most of the year",
-      "Excessively low average annual temperatures",
       "A complete absence of nitrogen in desert soils",
-      "Insufficient sunlight reaching the ground surface"
+      "Insufficient sunlight reaching the ground surface",
+      "Water availability during most of the year",
+      "Excessively low average annual temperatures"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Deserts receive abundant light but too little water to sustain high photosynthetic rates. Productivity spikes briefly after rainfall events."
   },
   {
     id: "1-8-8",
     question: "The productivity of an estuary is generally high because it combines",
     options: [
-      "deep water with very low nutrient concentrations",
       "shallow sunlit water with nutrient rich river input",
       "constant salinity with minimal water movement",
-      "cold temperatures with limited biological activity"
+      "cold temperatures with limited biological activity",
+      "deep water with very low nutrient concentrations"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Light reaches the bottom and rivers deliver nutrients continuously. Estuaries and wetlands rank among the most productive ecosystems measured."
   },
   {
     id: "1-8-9",
     question: "Human appropriation of net primary productivity refers to",
     options: [
-      "productivity occurring only within protected reserves",
       "the total productivity that ecosystems generate globally",
       "the share of global NPP humans use or divert",
-      "the productivity lost to respiration by all producers"
+      "the productivity lost to respiration by all producers",
+      "productivity occurring only within protected reserves"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Agriculture, forestry, and land conversion claim a substantial fraction of global NPP for one species. The measure highlights the scale of human ecological dominance."
   },
   {
     id: "1-8-10",
     question: "If an ecosystem has a GPP of 20,000 kcal/m²/year and respiration of 12,000, its NPP is",
     options: [
+      "8,000 kcal/m²/year available to consumers",
       "12,000 kcal/m²/year available to consumers",
       "20,000 kcal/m²/year available to consumers",
-      "32,000 kcal/m²/year available to consumers",
-      "8,000 kcal/m²/year available to consumers"
+      "32,000 kcal/m²/year available to consumers"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "NPP equals GPP minus respiration, so 20,000 minus 12,000 gives 8,000. This remainder is the energy that can support higher trophic levels."
   }
 ];

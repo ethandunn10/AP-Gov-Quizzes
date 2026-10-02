@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-9-1",
     question: "Decolonization accelerated after 1945 because",
     options: [
+      "colonial powers voluntarily judged empire immoral without any pressure",
       "the United Nations ordered immediate independence for all colonies",
       "colonized peoples had shown no interest in independence before 1945",
-      "exhausted powers faced movements that pressed hard",
-      "colonial powers voluntarily judged empire immoral without any pressure"
+      "exhausted powers faced movements that pressed hard"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Exhausted metropoles faced determined movements whose leaders invoked wartime service and Atlantic Charter language. Both the weakening and the mobilization mattered."
   },
   {
     id: "9-9-2",
     question: "Indian independence in 1947 was accompanied by",
     options: [
-      "the continuation of British rule under a new legal title",
-      "a peaceful transfer with no movement of population",
       "the creation of a single secular state across South Asia",
-      "partition, mass migration, and communal violence"
+      "partition, mass migration, and communal violence",
+      "the continuation of British rule under a new legal title",
+      "a peaceful transfer with no movement of population"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Roughly ten to fifteen million people crossed the new borders amid killings that took hundreds of thousands of lives. The hurried partition's legacy includes the unresolved Kashmir dispute."
   },
   {
     id: "9-9-3",
     question: "Gandhi's strategy of nonviolent noncooperation aimed to",
     options: [
+      "appeal to the League of Nations for military intervention",
       "make colonial rule unworkable and morally indefensible",
       "negotiate independence solely among elite leaders in private",
-      "secure Indian independence through armed guerrilla warfare",
-      "appeal to the League of Nations for military intervention"
+      "secure Indian independence through armed guerrilla warfare"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Boycotts, the Salt March, and mass civil disobedience denied the British the cooperation their administration required while winning international sympathy. Mass participation was essential to the method."
   },
   {
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "9-9-5",
     question: "The Suez Crisis of 1956 demonstrated that",
     options: [
+      "the Soviet Union controlled Egyptian foreign policy decisions",
       "the United Nations could not influence great-power behavior",
       "Britain and France retained full freedom of action overseas",
-      "Britain and France could no longer act without American consent",
-      "the Soviet Union controlled Egyptian foreign policy decisions"
+      "Britain and France could no longer act without American consent"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "American financial and diplomatic pressure forced the operation's abandonment and left Nasser strengthened. The episode is a standard marker of the shift from European to superpower dominance."
   },
   {
     id: "9-9-6",
     question: "Portugal retained its African colonies longest because",
     options: [
+      "its authoritarian regime fought to hold them until 1974",
       "African nationalist movements did not develop in those territories",
       "its colonies had already been granted full self-government",
-      "other European powers provided military support to Lisbon",
-      "its authoritarian regime fought to hold them until 1974"
+      "other European powers provided military support to Lisbon"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The Estado Novo treated the colonies as integral to Portugal and fought prolonged wars in Angola, Mozambique, and Guinea-Bissau. The Carnation Revolution ended both the regime and the empire."
   },
   {
     id: "9-9-7",
     question: "Decolonization affected European societies at home by",
     options: [
+      "reducing European populations through mass emigration abroad",
       "prompting migration from former colonies and debates over identity",
       "having no domestic consequences within the former colonial powers",
-      "eliminating all migration between former colonies and Europe",
-      "reducing European populations through mass emigration abroad"
+      "eliminating all migration between former colonies and Europe"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Caribbean, South Asian, and North African migrants arrived along established imperial channels, reshaping British and French society. Debates over citizenship and integration followed directly."
   },
   {
     id: "9-9-8",
     question: "Newly independent states frequently inherited",
     options: [
+      "stable democratic institutions with deep local roots",
       "complete freedom from any economic ties to former rulers",
       "borders drawn in Europe that split or grouped peoples arbitrarily",
-      "diversified industrial economies capable of self-sufficiency",
-      "stable democratic institutions with deep local roots"
+      "diversified industrial economies capable of self-sufficiency"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The Organization of African Unity affirmed inherited boundaries to avoid endless territorial war, accepting known problems over open-ended conflict. Commodity dependence also persisted after independence."
   },
   {
     id: "9-9-9",
     question: "The Cold War affected decolonization because superpowers",
     options: [
-      "prevented any European power from granting independence",
-      "showed no interest in the politics of newly independent states",
       "competed for influence with aid, arms, and intervention",
-      "jointly administered former colonies until they were ready for rule"
+      "jointly administered former colonies until they were ready for rule",
+      "prevented any European power from granting independence",
+      "showed no interest in the politics of newly independent states"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Independence struggles and postcolonial politics were drawn into superpower competition, which prolonged some conflicts. Non-alignment emerged as a strategy for navigating that pressure."
   },
   {

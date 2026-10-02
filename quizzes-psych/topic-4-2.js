@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-1",
     question: "A person who believes smoking is harmful but continues to smoke feels psychological discomfort. Festinger called this",
     options: [
+      "the mere exposure effect",
       "the foot-in-the-door effect",
       "cognitive dissonance",
-      "informational social influence",
-      "the mere exposure effect"
+      "informational social influence"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Dissonance is the tension produced by holding conflicting cognitions or by acting against one's beliefs. It matters because people reduce it by changing an attitude, which is a route to attitude change."
   },
   {
     id: "4-2-2",
     question: "After agreeing to display a small sign, a homeowner later agrees to host a large billboard. This is the",
     options: [
-      "foot-in-the-door phenomenon",
-      "door-in-the-face technique",
       "central route to persuasion",
-      "bystander effect"
+      "bystander effect",
+      "foot-in-the-door phenomenon",
+      "door-in-the-face technique"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Compliance with a small request increases the odds of agreeing to a larger one, partly through shifted self-perception. The door-in-the-face technique runs the opposite direction — a large request refused first, then a smaller one."
   },
   {
     id: "4-2-3",
     question: "An advertisement presents detailed evidence about a product's reliability to an audience that cares deeply about the purchase. This targets the",
     options: [
-      "central route to persuasion",
       "peripheral route to persuasion",
       "norm of reciprocity",
-      "process of deindividuation"
+      "process of deindividuation",
+      "central route to persuasion"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Motivated, involved audiences process arguments carefully, so evidence works on them. The peripheral route relies on cues such as attractiveness or celebrity for audiences who are not deeply invested."
   },
   {
     id: "4-2-4",
     question: "Participants in Festinger's classic study who were paid $1 to describe a dull task as enjoyable later rated it more positively than those paid $20. The explanation is that",
     options: [
-      "the larger payment produced stronger internal conflict",
-      "the small payment left them without external justification for lying",
       "the small payment functioned as a powerful reinforcer",
-      "participants in both groups simply reported their true views"
+      "participants in both groups simply reported their true views",
+      "the larger payment produced stronger internal conflict",
+      "the small payment left them without external justification"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "With ample payment, people can attribute their words to the money; with only a dollar, the discomfort has to be resolved by revising the attitude. This is why bigger incentives produce less attitude change in dissonance studies."
   },
   {
     id: "4-2-5",
     question: "Repeated exposure to an unfamiliar logo leads people to rate it more favorably. This is",
     options: [
+      "the mere exposure effect",
       "the foot-in-the-door effect",
       "central route persuasion",
-      "cognitive dissonance reduction",
-      "the mere exposure effect"
+      "cognitive dissonance reduction"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Familiarity alone increases liking, with no argument or reward required. The effect operates without conscious deliberation, which is why it is considered a peripheral influence."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-7",
     question: "A charity sends free address labels before requesting a donation. This strategy exploits",
     options: [
+      "the just-world hypothesis",
       "the bystander effect",
       "informational social influence",
-      "the norm of reciprocity",
-      "the just-world hypothesis"
+      "the norm of reciprocity"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "An unsolicited gift creates a felt obligation to give something back. The gift's small monetary value is irrelevant, since the obligation comes from the social norm rather than the price."
   },
   {
@@ -105,7 +105,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "general, weakly held, and rarely discussed",
       "formed recently through peripheral persuasion",
-      "inconsistent with the person's social group norms",
+      "inconsistent with the person's own social group norms",
       "specific, strongly held, and easily brought to mind"
     ],
     correctIndex: 3,
@@ -115,8 +115,8 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-10",
     question: "A researcher finds that people who publicly commit to a position later resist counterarguments more strongly. The best explanation is that",
     options: [
-      "public commitment increases the cost of changing one's stated view",
-      "public statements are always more accurate than private ones",
+      "public commitment increases the cost of changing one's view",
+      "public statements are always far more accurate than private ones",
       "counterarguments become harder to understand over time",
       "attitudes formed peripherally are unusually durable"
     ],

@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-1",
     question: "The Delhi Sultanate is best characterized as a state in which",
     options: [
+      "Hindu rajas administered territory on behalf of a Muslim caliph in Baghdad",
       "a Muslim Turkic elite governed a largely Hindu population",
       "Islam and Hinduism were merged by decree into one official state religion",
-      "Buddhist monasteries controlled both landholding and high political office",
-      "Hindu rajas administered territory on behalf of a Muslim caliph in Baghdad"
+      "Buddhist monasteries controlled both landholding and high political office"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "A small Turkic Muslim elite ruled through military power and land grants over a vast Hindu majority, which is why questions of conversion, taxation of non-Muslims, and cultural accommodation dominate the period. There was no imposed religious merger, and Buddhism had already declined sharply in India."
   },
   {
     id: "1-3-2",
     question: "The bhakti movement in South Asia is best understood as",
     options: [
-      "a revival of Vedic sacrifice performed exclusively by hereditary Brahmin priests",
-      "devotional Hinduism stressing personal love of a deity over ritual",
       "a school of Buddhist monasticism centered on close analysis of scripture",
-      "a military campaign to expel Muslim rulers from the whole of northern India"
+      "a military campaign to expel Muslim rulers from the whole of northern India",
+      "a revival of Vedic sacrifice performed exclusively by hereditary Brahmin priests",
+      "devotional Hinduism stressing personal love of a deity over ritual"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Bhakti poets wrote in vernacular languages and taught that devotion, not birth or priestly ritual, brought one close to the divine — which gave it appeal among lower castes and women. It was religious rather than military, and its emphasis on direct devotion cut against Brahmin ritual authority."
   },
   {
     id: "1-3-3",
     question: "The parallels between bhakti Hinduism and Sufi Islam in South Asia most strongly suggest that",
     options: [
+      "both traditions were founded by the same group of wandering teachers",
       "both movements were sponsored and directed by the Delhi Sultanate's court",
       "conversion between the two faiths was legally required of all subjects",
-      "devotional, mystical religion appealed widely across boundaries",
-      "both traditions were founded by the same group of wandering teachers"
+      "devotional, mystical religion appealed widely across boundaries"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Both stressed personal, emotional union with the divine over legalism and hierarchy, and their shared idiom helped produce syncretic traditions such as Sikhism. The similarity reflects convergent appeal and mutual influence, not common founders or state direction."
   },
   {
     id: "1-3-4",
     question: "Vijayanagara and the Rajput kingdoms are best used as evidence that",
     options: [
+      "Hindu states persisted and competed with Muslim states in South Asia",
       "all of South Asia was politically unified under the Delhi Sultanate by 1350",
       "Hindu rulers refused to trade with Muslim merchants on religious grounds",
-      "South Asia contained no significant states south of the Ganges valley",
-      "Hindu states persisted and competed with Muslim states in South Asia"
+      "South Asia contained no significant states south of the Ganges valley"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Vijayanagara dominated much of the south and the Rajputs held territory in the northwest, so South Asia remained a competitive multi-state region rather than a single empire. These states traded actively with Muslim merchants, including buying warhorses from them."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-6",
     question: "The Khmer Empire's temple complex at Angkor, which shows both Hindu and Buddhist features, is best used as evidence of",
     options: [
-      "the conversion of all Southeast Asia to Islam well before the year 1200",
       "South Asian religious models adapted by Southeast Asian rulers",
       "direct Chinese administrative control over the Khmer state and its temples",
-      "the failure of Indian cultural influence to reach mainland Southeast Asia"
+      "the failure of Indian cultural influence to reach mainland Southeast Asia",
+      "the conversion of all Southeast Asia to Islam well before the year 1200"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Angkor Wat began as a Hindu temple and was later adapted for Buddhist use, showing how Khmer rulers took Indian religious models and reworked them to legitimize their own authority. Islam reached Southeast Asia later, chiefly through maritime trade, and the Khmer were not under Chinese rule."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-8",
     question: "In South Asian society of this period, caste (jati) functioned most importantly as",
     options: [
-      "a purely religious category carrying no economic or occupational consequences",
-      "a rank order assigned by the Delhi Sultanate in order to collect its taxes",
       "a system of divisions that disappeared entirely under Muslim political rule",
-      "occupational and social groupings that organized local life and mobility"
+      "occupational and social groupings that organized local life and mobility",
+      "a purely religious category carrying no economic or occupational consequences",
+      "a rank order assigned by the Delhi Sultanate in order to collect its taxes"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Jati determined occupation, marriage, and daily social contact, and it organized village economies well below the level of any imperial government. It long predated and outlasted the sultanate, which generally left local caste arrangements intact."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-10",
     question: "Which statement best compares state-building in South Asia with state-building in East Asia in this period?",
     options: [
-      "South Asia used examinations while China relied on hereditary noble families",
-      "South Asia stayed fragmented while China kept a centralized bureaucracy",
       "neither region developed durable states larger than a single walled city",
-      "both regions were governed by one emperor advised by examined officials"
+      "both regions were governed by one emperor advised by examined officials",
+      "South Asia used examinations while China relied on hereditary noble families",
+      "South Asia stayed fragmented while China kept a centralized bureaucracy"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "China's examination bureaucracy sustained a unified imperial administration, while South Asia held multiple rival sultanates and Hindu kingdoms at once. The examination system was a Chinese institution; South Asian states relied on military elites and land grants."
   }
 ];

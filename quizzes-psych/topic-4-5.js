@@ -7,7 +7,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-1",
     question: "Bandura's concept of reciprocal determinism holds that behavior results from",
     options: [
-      "environmental reinforcement acting on a passive individual",
+      "environmental reinforcement acting on an entirely passive individual",
       "unconscious conflicts formed in early childhood",
       "mutual influence among personal factors, behavior, and environment",
       "inherited traits that remain stable across all situations"
@@ -19,84 +19,84 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-2",
     question: "A student who believes she can master calculus persists after early failures. Bandura would attribute her persistence to",
     options: [
-      "an external locus of control",
-      "a high score on the trait of agreeableness",
       "unconditional positive regard from her teacher",
-      "high self-efficacy for that specific domain"
+      "high self-efficacy for that specific domain",
+      "an external locus of control",
+      "a high score on the trait of agreeableness"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Self-efficacy is a domain-specific belief about one's capability that predicts effort and persistence. A person can hold high self-efficacy in one area and low self-efficacy in another."
   },
   {
     id: "4-5-3",
     question: "A person who believes outcomes in life are mostly due to luck and powerful others has",
     options: [
-      "an internal locus of control",
-      "an external locus of control",
       "low conscientiousness",
-      "high self-efficacy"
+      "high self-efficacy",
+      "an internal locus of control",
+      "an external locus of control"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "External locus of control attributes outcomes to forces outside the self. Internal locus, by contrast, is associated with greater persistence and better health outcomes on average."
   },
   {
     id: "4-5-4",
     question: "Which set correctly names the Big Five traits?",
     options: [
+      "Introversion, conscientiousness, empathy, agreeableness, and stability",
+      "Openness, conscientiousness, extraversion, aggression, neuroticism",
       "Openness, conscientiousness, extraversion, agreeableness, neuroticism",
-      "Openness, optimism, extraversion, agreeableness, neuroticism",
-      "Introversion, conscientiousness, empathy, agreeableness, stability",
-      "Openness, conscientiousness, extraversion, aggression, neuroticism"
+      "Openness, optimism, extraversion, agreeableness, neuroticism"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The five factors are openness, conscientiousness, extraversion, agreeableness, and neuroticism. The other lists substitute related-sounding terms that are not among the five factors."
   },
   {
     id: "4-5-5",
     question: "A major criticism of trait theories is that they",
     options: [
-      "overemphasize unconscious determinants of behavior",
-      "cannot be measured with any acceptable reliability",
       "describe consistent tendencies without explaining their origin",
-      "apply only to participants in individualist cultures"
+      "apply only to those participants living in individualist cultures",
+      "overemphasize unconscious determinants of behavior",
+      "cannot be measured with any acceptable reliability"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Trait models are descriptive taxonomies and say little about mechanism or development. Their measurement is in fact among the more reliable in personality research, and the Big Five replicate across many cultures."
   },
   {
     id: "4-5-6",
     question: "The person-situation controversy concerns whether",
     options: [
-      "behavior is driven more by stable traits or by situational context",
+      "the unconscious plays any role in daily behavior",
+      "behavior is driven more by traits or by situation",
       "personality can be measured through self-report inventories",
-      "traits are inherited or acquired through learning",
-      "the unconscious plays any role in daily behavior"
+      "traits are inherited or acquired through learning"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Mischel showed that behavior varies considerably across situations, challenging strong trait consistency. The current consensus holds that traits predict average tendencies across many situations better than any single instance."
   },
   {
     id: "4-5-7",
     question: "A researcher finds that conscientiousness scores predict job performance across many occupations. This finding supports the",
     options: [
-      "reliability of projective personality tests",
       "predictive validity of trait measures",
       "reciprocal determinism of personality and setting",
-      "existence of an external locus of control"
+      "existence of an external locus of control",
+      "reliability of projective personality tests"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Predicting a meaningful outcome across settings is evidence of predictive validity. Reciprocal determinism concerns mutual causation rather than the accuracy of a measure."
   },
   {
     id: "4-5-8",
     question: "Social-cognitive theorists differ from trait theorists primarily in emphasizing",
     options: [
-      "the stability of behavior across all circumstances",
-      "unconscious conflicts that shape adult personality",
       "biological temperament present from birth",
-      "how thinking and situations interact to produce behavior"
+      "how thinking and situations interact to produce behavior",
+      "the stability of behavior across all possible circumstances",
+      "unconscious conflicts that shape adult personality"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Social-cognitive accounts center on expectancies, beliefs, and the interplay with context. Stability across circumstances is the trait position they are arguing against."
   },
   {

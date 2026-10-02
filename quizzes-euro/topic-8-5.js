@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-1",
     question: "The Great Depression spread globally because",
     options: [
-      "economies were linked by trade, credit, and the gold standard",
-      "every country experienced simultaneous agricultural failure",
       "a single international bank controlled all the world's finance",
-      "governments deliberately chose to abandon international trade"
+      "governments deliberately chose to abandon international trade",
+      "economies were linked by trade, credit, and the gold standard",
+      "every country experienced simultaneous agricultural failure"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "American credit withdrawal, collapsing commodity prices, and gold standard constraints transmitted contraction from country to country. Interconnection carried the crisis the way it had carried prosperity."
   },
   {
     id: "8-5-2",
     question: "German vulnerability to the Depression was especially severe because Germany",
     options: [
-      "had experienced no economic difficulty at any point since 1918",
-      "depended heavily on short-term American loans after 1924",
       "had already abandoned the gold standard well before 1929",
-      "had refused to accept any foreign loans during the 1920s"
+      "had refused to accept any foreign loans during the 1920s",
+      "had experienced no economic difficulty at any point since 1918",
+      "depended heavily on short-term American loans after 1924"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The Dawes Plan had rebuilt German recovery on American credit, so the withdrawal of that credit was catastrophic. Unemployment reached roughly a third of the workforce."
   },
   {
     id: "8-5-3",
     question: "Protectionist responses such as raising tariffs worsened the Depression because they",
     options: [
-      "lowered the price of goods for consumers everywhere",
       "increased the total volume of goods moving in world trade",
       "provoked retaliation that collapsed international commerce",
-      "had no measurable effect on any country's economy"
+      "had no measurable effect on any country's economy",
+      "lowered the price of goods for consumers everywhere"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Each country's attempt to protect its own producers shrank the markets all of them needed, and world trade fell by roughly two-thirds. It is the classic case of rational national policy producing collective disaster."
   },
   {
     id: "8-5-4",
     question: "Keynes argued that governments facing depression should",
     options: [
+      "increase public spending to raise demand even at a deficit",
       "cut spending and balance budgets to restore business confidence",
       "raise interest rates sharply to attract foreign investment",
-      "withdraw entirely from any involvement in the economy",
-      "increase public spending to raise demand even at a deficit"
+      "withdraw entirely from any involvement in the economy"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "When private demand collapses, only the state can fill the gap, and austerity deepens the spiral. The prescription broke with the balanced-budget orthodoxy of the time."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-6",
     question: "The Depression's political effect in Europe was to",
     options: [
-      "strengthen confidence in liberal parliamentary government",
-      "make radical authoritarian alternatives appear attractive",
       "eliminate political extremism from European politics",
-      "produce identical policy responses in every affected state"
+      "produce identical policy responses in every affected state",
+      "strengthen confidence in liberal parliamentary government",
+      "make radical authoritarian alternatives appear attractive"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Mass unemployment and apparent parliamentary paralysis drove voters toward movements promising decisive action. Germany's Nazi vote share tracked unemployment closely."
   },
   {
     id: "8-5-7",
     question: "Britain and France responded to the Depression primarily through",
     options: [
-      "the establishment of one-party authoritarian governments",
       "the complete nationalization of industry and banking",
       "cautious measures within existing democratic institutions",
-      "abandoning their colonial empires to reduce public expenditure"
+      "abandoning their colonial empires to reduce public expenditure",
+      "the establishment of one-party authoritarian governments"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Both muddled through with tariffs, currency devaluation, and limited public works while democracy survived. Their more gradual experience contrasts sharply with Germany's."
   },
   {

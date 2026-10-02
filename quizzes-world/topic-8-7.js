@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-1",
     question: "The US civil rights movement and the South African anti-apartheid movement were similar in that both",
     options: [
+      "were led exclusively by government officials",
       "relied solely on armed struggle from the outset",
       "achieved their stated goals without any organized mass mobilization",
-      "fought legal racial hierarchy by mass action and by lawsuits",
-      "were led exclusively by government officials"
+      "fought legal racial hierarchy by mass action and by lawsuits"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Both combined boycotts, litigation, and mass protest with appeals to world opinion — sit-ins and Brown v. Board in one case, defiance campaigns and sanctions in the other. Both also contained debates over whether nonviolence was sufficient."
   },
   {
     id: "8-7-2",
     question: "Apartheid in South Africa was distinctive because it",
     options: [
-      "it applied equally to all racial groups without any discrimination",
-      "was abolished immediately after its introduction",
       "was an informal social practice with no legal basis",
-      "it was a legal system fixing race, residence, and work"
+      "it was a legal system fixing race, residence, and work",
+      "it applied equally to all racial groups without any discrimination",
+      "was abolished immediately after its introduction"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Population registration, pass laws, group areas, and bantustans built racial separation into the legal architecture of the state. Its comprehensiveness and legal formality distinguished it from de facto segregation elsewhere."
   },
   {
     id: "8-7-3",
     question: "International sanctions and divestment campaigns against South Africa were significant because they",
     options: [
-      "pressure that, with internal revolt, forced talks",
-      "they were imposed by South Africa upon other countries in the region",
       "immediately ended apartheid within one year",
-      "had no effect on South African policy"
+      "had no effect on South African policy",
+      "pressure that, with internal revolt, forced talks",
+      "they were imposed by South Africa upon other countries in the region"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Sanctions and capital flight raised the cost of maintaining the system while township uprisings and strikes made it ungovernable. The combination of internal and external pressure brought the National Party to negotiate."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-5",
     question: "Anti-apartheid and civil rights movements drew on decolonization because",
     options: [
-      "colonial powers supported civil rights campaigns",
-      "these movements preceded decolonization by several decades",
       "it showed racial rule could be beaten, and gave allies",
-      "decolonization had no relationship at all to racial justice movements"
+      "decolonization had no relationship at all to racial justice movements",
+      "colonial powers supported civil rights campaigns",
+      "these movements preceded decolonization by several decades"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "African independence provided both inspiration and diplomatic allies at the United Nations, and activists explicitly linked their struggles. Cold War competition also made Western racial practices an international liability."
   },
   {
     id: "8-7-6",
     question: "The 1968 protests across multiple countries reflected",
     options: [
+      "different national grievances in one shared protest repertoire",
       "protests confined entirely to the United States",
       "movements with no political content",
-      "a single coordinated international movement with a unified leadership",
-      "different national grievances in one shared protest repertoire"
+      "a single coordinated international movement with a unified leadership"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Paris, Prague, Mexico City, and Chicago had different targets but shared tactics, media attention, and a generational character. There was no central organization coordinating them."
   },
   {
     id: "8-7-7",
     question: "The Prague Spring of 1968 is significant because it",
     options: [
-      "reform inside the bloc, crushed by Warsaw Pact troops",
-      "was supported militarily by the Soviet Union",
       "had no connection to Cold War politics",
-      "it successfully established a democratic government in Czechoslovakia"
+      "it successfully established a democratic government in Czechoslovakia",
+      "reform inside the bloc, crushed by Warsaw Pact troops",
+      "was supported militarily by the Soviet Union"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Dubcek's 'socialism with a human face' was ended by invasion, and the Brezhnev Doctrine formalized the claim that Moscow could intervene to preserve socialist rule. It showed satellite states how narrow their room for maneuver was."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-10",
     question: "A historian argues that twentieth-century resistance movements were 'globally connected.' The strongest evidence is",
     options: [
-      "the complete isolation of each movement from all of the others",
       "the identical outcomes achieved by every movement",
       "the absence of international media coverage of protest",
-      "activists trading tactics across borders, as Gandhi's reached Montgomery"
+      "activists trading tactics across borders, as Gandhi's reached Montgomery",
+      "the complete isolation of each movement from all of the others"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Gandhi's methods traveled to Montgomery, and anti-apartheid activists organized boycotts on several continents — ideas and support crossing borders deliberately. Shared repertoire and mutual support are what 'connected' means here."
   }
 ];

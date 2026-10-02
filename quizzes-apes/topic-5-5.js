@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-1",
     question: "Furrow irrigation involves",
     options: [
+      "spraying water over crops from rotating arms",
       "flooding channels dug between crop rows",
       "delivering water directly to individual plant roots",
-      "flooding an entire field to a uniform depth",
-      "spraying water over crops from rotating arms"
+      "flooding an entire field to a uniform depth"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Furrow irrigation is inexpensive but loses substantial water to evaporation and runoff. Efficiency is typically around two thirds at best."
   },
   {
@@ -32,7 +32,7 @@ window.QUIZ_QUESTIONS = [
     question: "Spray irrigation using center pivot systems is characterized by",
     options: [
       "complete elimination of any water loss to the air",
-      "the lowest water efficiency of any method available",
+      "by far the lowest water efficiency of any method available",
       "moderate efficiency with losses to evaporation and drift",
       "delivery of water only to individual plant roots"
     ],
@@ -43,72 +43,72 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-4",
     question: "Flood irrigation is the least efficient common method primarily because",
     options: [
-      "it delivers too little water for crops to survive",
-      "it can only be used on very steep hillside land",
       "it requires expensive pumping equipment to operate",
-      "much water evaporates or percolates below root zones"
+      "much water evaporates or percolates below root zones",
+      "it delivers too little water for crops to survive",
+      "it can only be used on very steep hillside land"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Efficiency often falls below 60 percent. Flood irrigation remains widespread because it requires little infrastructure or energy."
   },
   {
     id: "5-5-5",
     question: "Irrigation in arid regions frequently causes salinization because",
     options: [
+      "irrigation water contains no dissolved minerals at all",
       "evaporation leaves dissolved salts behind in the soil",
       "salts are actively removed by the irrigation process",
-      "rainfall in arid regions flushes salts downward",
-      "irrigation water contains no dissolved minerals at all"
+      "rainfall in arid regions flushes salts downward"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Each application adds salts that concentrate as water evaporates. Adequate drainage and periodic flushing are the main preventive measures."
   },
   {
     id: "5-5-6",
     question: "Aquifer depletion from irrigation is a concern in the Ogallala region because",
     options: [
+      "irrigation there relies entirely on surface water",
       "the aquifer refills faster than water is withdrawn",
       "withdrawal far exceeds the natural recharge rate",
-      "the aquifer contains no usable water for agriculture",
-      "irrigation there relies entirely on surface water"
+      "the aquifer contains no usable water for agriculture"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Much of the Ogallala's water is fossil water from the last ice age. Pumping it is effectively mining a nonrenewable resource."
   },
   {
     id: "5-5-7",
     question: "The Aral Sea shrank dramatically during the twentieth century because",
     options: [
+      "the sea was deliberately drained for new farmland",
       "tectonic activity altered the regional drainage pattern",
       "rainfall in the region increased substantially",
-      "its feeder rivers were diverted for cotton irrigation",
-      "the sea was deliberately drained for new farmland"
+      "its feeder rivers were diverted for cotton irrigation"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Soviet diversion of the Amu Darya and Syr Darya cut off the sea's inflow. The exposed seabed now generates toxic salt and pesticide dust storms."
   },
   {
     id: "5-5-8",
     question: "Land subsidence associated with irrigation occurs when",
     options: [
-      "salt accumulation increases the soil volume",
       "flooding deposits new sediment on the surface",
       "irrigation water raises the ground surface elevation",
-      "groundwater removal causes sediments to compact"
+      "groundwater removal causes sediments to compact",
+      "salt accumulation increases the soil volume"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Parts of California's Central Valley have sunk many meters. Compaction also permanently reduces the aquifer's storage capacity."
   },
   {
     id: "5-5-9",
     question: "A farmer choosing between drip and flood irrigation is weighing",
     options: [
-      "crop yield against the total land area available",
       "soil type against the prevailing regional climate",
       "labor availability against the legal ownership of land",
-      "water efficiency against installation and upkeep cost"
+      "water efficiency against installation and upkeep cost",
+      "crop yield against the total land area available"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Drip saves water but requires substantial upfront investment and maintenance. Water pricing strongly influences which method makes economic sense."
   },
   {

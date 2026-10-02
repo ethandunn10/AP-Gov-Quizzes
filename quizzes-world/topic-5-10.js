@@ -8,36 +8,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-10-1",
     question: "The most fundamental change of the period 1750-1900 was",
     options: [
-      "the initial spread of the world religions across the continents",
-      "the invention of writing systems",
       "the shift from muscle, wind, and water power to burning fossil fuels",
-      "the first use of agriculture by human societies"
+      "the first use of agriculture by human societies",
+      "the initial spread of the world religions across the continents",
+      "the invention of writing systems"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Tapping coal and later oil broke a ceiling on productive capacity that had constrained every previous society, and everything else in the period follows from it. The other options belong to far earlier eras."
   },
   {
     id: "5-10-2",
     question: "Which represents a significant continuity from 1750 to 1900?",
     options: [
+      "Most of the world's people went on working in agriculture",
       "All societies became fully industrialized by 1900",
       "Coerced labor disappeared entirely from the whole global economy",
-      "Political power shifted to elected assemblies everywhere",
-      "Most of the world's people went on working in agriculture"
+      "Political power shifted to elected assemblies everywhere"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Industrialization was intense but geographically narrow, so most people worldwide still farmed in 1900. Recognizing the limits of a transformation is essential to describing it accurately."
   },
   {
     id: "5-10-3",
     question: "The relationship between revolution and industrialization in this period is best described as",
     options: [
-      "reinforcing: ideas reshaped states, industry made classes",
-      "one in which industrialization prevented all political revolution",
       "one in which revolution occurred only in non-industrial societies",
-      "wholly unconnected phenomena"
+      "wholly unconnected phenomena",
+      "reinforcing: ideas reshaped states, industry made classes",
+      "one in which industrialization prevented all political revolution"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Revolutionary politics remade the states that then promoted industry, and industrial workers and middle classes became the constituencies pressing for suffrage and regulation. The two processes ran together throughout the period."
   },
   {
@@ -68,12 +68,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-10-6",
     question: "Which statement best describes continuity in the role of religion during this period?",
     options: [
+      "Religion stayed powerful and drove reform even as states secularized",
       "Religion became more politically dominant everywhere than it was in 1750",
       "No reform movement in this period had religious motivation",
-      "Religion disappeared from public life in all societies",
-      "Religion stayed powerful and drove reform even as states secularized"
+      "Religion disappeared from public life in all societies"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Abolitionism, temperance, and missionary activity were deeply religious, and religious identity remained central to nationalism and community life. Secularization was real in some states but far from universal."
   },
   {
@@ -104,24 +104,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-10-9",
     question: "The environmental consequences of industrialization that emerged in this period included",
     options: [
-      "the reversal of all previous deforestation",
-      "reduced resource consumption and cleaner air in the industrial cities",
       "urban pollution, deforestation, and rising fossil fuel emissions worldwide",
-      "no measurable environmental effects until after 1950"
+      "no measurable environmental effects until after 1950",
+      "the reversal of all previous deforestation",
+      "reduced resource consumption and cleaner air in the industrial cities"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Coal smoke, contaminated rivers, and stripped forests were documented and complained about throughout the nineteenth century. Fossil fuel use on a historically new scale began here, whatever its consequences would prove to be."
   },
   {
     id: "5-10-10",
     question: "Which conclusion about 1750-1900 is best supported by evidence across regions?",
     options: [
-      "The period produced uniform development across all world regions",
-      "Political and economic change were wholly unrelated throughout the period",
       "Industrialization spread evenly to every continent by 1850",
-      "Industry and revolution together made modern inequality"
+      "Industry and revolution together made modern inequality",
+      "The period produced uniform development across all world regions",
+      "Political and economic change were wholly unrelated throughout the period"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The gap between industrial and non-industrial regions and between classes within industrial societies both widened dramatically, and both were products of the same linked processes. The other options contradict the well-documented unevenness of the period."
   }
 ];

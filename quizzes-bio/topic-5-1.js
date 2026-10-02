@@ -5,43 +5,43 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.1-1",
     question: "Meiosis differs from mitosis in that meiosis results in:",
-    options: ["Two genetically identical diploid daughter cells", "Four genetically unique haploid daughter cells", "One single diploid daughter cell", "No daughter cells at all"],
-    correctIndex: 1,
+    options: ["No daughter cells at all", "Two genetically identical diploid daughter cells", "Four genetically unique haploid daughter cells", "One single diploid daughter cell"],
+    correctIndex: 2,
     explanation: "Meiosis involves two rounds of division (meiosis I and II) following one round of DNA replication, producing four haploid daughter cells, each genetically distinct from the parent cell and from each other."
   },
   {
     id: "5.1-2",
     question: "During meiosis I, homologous chromosomes are separated. This is often called:",
-    options: ["Equational division of chromatids", "Reductional division", "Ordinary mitotic division", "Binary fission of the cell"],
-    correctIndex: 1,
+    options: ["Binary fission of the cell", "Equational division of chromatids", "Reductional division", "Ordinary mitotic division"],
+    correctIndex: 2,
     explanation: "Meiosis I is called reductional division because it separates homologous chromosome pairs, halving the chromosome number from diploid (2n) to haploid (n)."
   },
   {
     id: "5.1-3",
     question: "During meiosis II, which event occurs, similar to mitosis?",
-    options: ["Homologous chromosomes are separated", "Sister chromatids are separated", "DNA is replicated for the second time", "Crossing over occurs for the first time"],
-    correctIndex: 1,
+    options: ["Sister chromatids are separated", "DNA is replicated for the second time", "Crossing over occurs for the first time", "Homologous chromosomes are separated"],
+    correctIndex: 0,
     explanation: "Meiosis II resembles mitosis in that sister chromatids are separated and pulled to opposite poles, without any additional DNA replication beforehand."
   },
   {
     id: "5.1-4",
     question: "Why must meiosis reduce the chromosome number by half before fertilization?",
-    options: ["So offspring will have too much genetic material", "So the zygote regains the diploid number", "Because mitosis cannot occur otherwise", "To eliminate the need for DNA replication"],
-    correctIndex: 1,
+    options: ["So the zygote regains the diploid number", "Because mitosis cannot occur otherwise", "To eliminate the need for DNA replication", "So offspring will have too much genetic material"],
+    correctIndex: 0,
     explanation: "If gametes were diploid, fertilization would double the chromosome number every generation; meiosis's reduction to haploid ensures the zygote restores the normal diploid number when two gametes combine."
   },
   {
     id: "5.1-5",
     question: "Synapsis, the pairing of homologous chromosomes during prophase I, allows for which important process?",
-    options: ["DNA replication of chromosomes", "Crossing over between chromatids", "Cytokinesis of the cell", "Formation of the nucleolus"],
-    correctIndex: 1,
+    options: ["Crossing over between chromatids", "Cytokinesis of the cell", "Formation of the nucleolus", "DNA replication of chromosomes"],
+    correctIndex: 0,
     explanation: "During synapsis, homologous chromosomes pair closely together, forming a tetrad, which allows non-sister chromatids to exchange genetic material through crossing over."
   },
   {
     id: "5.1-6",
     question: "A cell with a diploid number of 2n = 8 will produce gametes, through meiosis, with how many chromosomes?",
-    options: ["8", "4", "16", "2"],
-    correctIndex: 1,
+    options: ["4", "16", "2", "8"],
+    correctIndex: 0,
     explanation: "Meiosis halves the chromosome number from diploid to haploid, so a cell with 2n = 8 will produce gametes with n = 4 chromosomes."
   },
   {
@@ -54,8 +54,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.1-8",
     question: "Which phase of meiosis specifically involves the separation of sister chromatids?",
-    options: ["Anaphase I", "Anaphase II", "Prophase I", "Metaphase I"],
-    correctIndex: 1,
+    options: ["Metaphase I", "Anaphase I", "Anaphase II", "Prophase I"],
+    correctIndex: 2,
     explanation: "Sister chromatids are separated during anaphase II, similar to mitotic anaphase, while anaphase I separates homologous chromosomes instead."
   },
   {

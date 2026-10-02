@@ -8,9 +8,9 @@ window.QUIZ_QUESTIONS = [
     question: "Laissez-faire advocates in this period argued that government should",
     options: [
       "regulate wages and working hours",
-      "leave markets alone because interference disrupted natural economic laws",
+      "leave markets alone because interference disrupts them",
       "own the railroads and telegraph",
-      "guarantee employment during depressions"
+      "guarantee full employment during all economic depressions"
     ],
     correctIndex: 1,
     explanation: "Classical economics joined Social Darwinism to make nonintervention a principle. In practice the same interests welcomed tariffs, land grants, and troops against strikers — laissez-faire was applied selectively."
@@ -19,31 +19,31 @@ window.QUIZ_QUESTIONS = [
     id: "6-12-2",
     question: "The Interstate Commerce Act of 1887 was significant as",
     options: [
+      "a measure that was struck down at once by the Supreme Court itself",
       "the first federal regulatory agency governing private industry",
       "a law nationalizing the railroads",
-      "a statute banning all railroad rate changes",
-      "a measure struck down immediately by the Supreme Court"
+      "a statute banning all railroad rate changes"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The ICC required reasonable rates and banned rebates and pooling, establishing the regulatory commission model. Courts hollowed out its powers in the 1890s, but the precedent stood."
   },
   {
     id: "6-12-3",
     question: "Wabash v. Illinois (1886) affected regulation by holding that",
     options: [
-      "states could regulate interstate rail rates",
-      "only the federal government could regulate interstate commerce, voiding state rate laws",
-      "railroads were exempt from all regulation",
-      "the ICC was unconstitutional"
+      "the ICC was unconstitutional",
+      "individual states could regulate all interstate rail rates freely",
+      "only the federal government could regulate interstate commerce",
+      "railroads were exempt from all regulation"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "By stripping states of authority over interstate traffic, the decision created the gap that the Interstate Commerce Act filled the next year. It reversed the practical effect of Munn v. Illinois."
   },
   {
     id: "6-12-4",
     question: "The tariff was politically contentious because",
     options: [
-      "manufacturers and many workers favored protection while farmers and exporters bore higher prices",
+      "manufacturers favored protection while farmers paid higher prices",
       "it was the only source of federal revenue and both parties opposed it",
       "the Constitution prohibited protective duties",
       "it applied only to agricultural imports"
@@ -55,32 +55,32 @@ window.QUIZ_QUESTIONS = [
     id: "6-12-5",
     question: "The money question divided Americans between those favoring",
     options: [
-      "the gold standard, backed by creditors, and expanded silver or greenback currency, backed by debtors",
       "barter and paper money",
-      "state-issued and city-issued currencies",
-      "federal and foreign banknotes"
+      "state-issued and city-issued paper currencies in circulation",
+      "federal and foreign banknotes",
+      "the gold standard, backed by creditors, versus silver"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Deflation raised the real value of debts, so farmers wanted inflationary silver coinage while bankers defended gold. This is the argument behind Bryan's 'cross of gold.'"
   },
   {
     id: "6-12-6",
     question: "The Sherman Silver Purchase Act of 1890 was repealed in 1893 because",
     options: [
+      "Congress had replaced it entirely with the free coinage of silver",
       "silver production had ceased",
-      "Cleveland believed it drained gold reserves and worsened the depression",
-      "the Supreme Court declared it unconstitutional",
-      "Congress replaced it with free coinage of silver"
+      "Cleveland believed it drained gold and worsened the depression",
+      "the Supreme Court declared it unconstitutional"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Repeal was Cleveland's response to the Panic of 1893 and split his own party. Silver Democrats never forgave him, which shaped the 1896 nomination."
   },
   {
     id: "6-12-7",
     question: "Courts in this era generally used the doctrine of 'liberty of contract' to",
     options: [
-      "uphold state laws limiting working hours",
-      "strike down regulation of wages and hours as interference with workers' and employers' freedom to bargain",
+      "uphold the state laws that limited working hours for all workers",
+      "strike down wage and hour laws as interference with bargaining",
       "protect union organizing",
       "expand federal antitrust enforcement"
     ],
@@ -91,9 +91,9 @@ window.QUIZ_QUESTIONS = [
     id: "6-12-8",
     question: "Federal intervention in the economy during this period was most visible in",
     options: [
-      "subsidies to railroads, protective tariffs, currency policy, and troops against strikes",
+      "railroad subsidies, tariffs, currency policy, and troops",
       "national health insurance",
-      "public ownership of steel mills",
+      "public ownership of the nation's steel mills and railroads",
       "federal minimum wage enforcement"
     ],
     correctIndex: 0,
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-12-9",
     question: "The Populist Party's Omaha Platform (1892) called for",
     options: [
-      "the gold standard and reduced government",
-      "free silver, a graduated income tax, government ownership of railroads and telegraphs, and direct election of senators",
-      "the abolition of the presidency",
-      "unrestricted immigration"
+      "unrestricted immigration",
+      "the gold standard and a sharply reduced federal government role",
+      "free silver, an income tax, and government-owned railroads",
+      "the abolition of the presidency"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Populists demanded an activist federal government on behalf of producers, and several planks later became law. Their platform also called for immigration restriction, which makes the last option wrong."
   },
   {
     id: "6-12-10",
     question: "In Pollock v. Farmers' Loan & Trust (1895), the Supreme Court",
     options: [
-      "upheld the federal income tax",
-      "struck down the federal income tax, a decision reversed by the Sixteenth Amendment in 1913",
-      "ruled that only states could tax corporations",
-      "declared the tariff unconstitutional"
+      "struck down the federal income tax, later reversed by amendment",
+      "ruled that only the individual states could tax any corporations",
+      "declared the tariff unconstitutional",
+      "upheld the federal income tax"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The Court held the 1894 income tax an unapportioned direct tax, blocking a key reform demand for nearly two decades. Amending the Constitution was the only way around the ruling."
   }
 ];

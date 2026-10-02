@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-1",
     question: "Which combination of factors best explains why industrialization began in Britain?",
     options: [
-      "Government ownership of all factories from the outset",
       "The absence of any overseas colonies or trade",
       "Coal, farm surplus, trade capital, and property law",
-      "The world's largest population combined with its most fertile farmland"
+      "The world's largest population combined with its most fertile farmland",
+      "Government ownership of all factories from the outset"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Britain had cheap coal near iron and water transport, enough agricultural productivity to free labor from farming, commercial capital seeking investment, and institutions that made investing in machinery worthwhile. Colonial markets and raw materials mattered too — the absence of them would have hurt, not helped."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-3",
     question: "The enclosure movement in Britain contributed to industrialization by",
     options: [
-      "privatizing common land and pushing smallholders into the towns",
-      "prohibiting the use of newly developed agricultural techniques",
       "preventing any migration from countryside to city",
-      "guaranteeing every rural family a plot of land"
+      "guaranteeing every rural family a plot of land",
+      "privatizing common land and pushing smallholders into the towns",
+      "prohibiting the use of newly developed agricultural techniques"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Enclosure made farming more efficient for landowners while stripping cottagers of access to common resources, producing a population with nothing to sell but labor. That dispossession is what supplied factories with workers."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-5",
     question: "The steam engine's significance for industrialization lay in its ability to",
     options: [
+      "eliminate the need for any fuel source",
       "replace human labor entirely across every branch of manufacturing",
       "operate only in agricultural settings",
-      "free factories from water power, concentrating them near coal and cities",
-      "eliminate the need for any fuel source"
+      "free factories from water power, concentrating them near coal and cities"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Water-powered mills had to sit on suitable rivers; steam let manufacturers build where coal, labor, and markets were, which reshaped the geography of industry. It expanded the demand for labor even as it changed its character."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-8",
     question: "Urbanization in early industrial Britain produced which characteristic problem?",
     options: [
-      "The immediate provision of adequate public health infrastructure",
-      "Population outran sanitation, bringing overcrowding and epidemics",
       "A shortage of workers in all industrial cities",
-      "The abandonment of all manufacturing towns"
+      "The abandonment of all manufacturing towns",
+      "The immediate provision of adequate public health infrastructure",
+      "Population outran sanitation, bringing overcrowding and epidemics"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Cities like Manchester grew far faster than water supply, sewerage, or housing could follow, producing cholera outbreaks and notoriously short life expectancies. Public health reform came only after decades of documented crisis."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-10",
     question: "A historian argues that industrialization was 'a global process from the start, not a British one.' The strongest evidence is",
     options: [
+      "British industry ran on colonial raw materials and overseas markets",
       "all countries industrialized simultaneously in 1780",
       "the steam engine was invented in three different countries at once",
-      "British factories used no imported materials",
-      "British industry ran on colonial raw materials and overseas markets"
+      "British factories used no imported materials"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Raw cotton, sugar, and captive markets in India and the Caribbean were inputs and outputs of the British industrial economy, making it inseparable from a wider system. Industrialization spread unevenly over decades rather than occurring everywhere at once."
   }
 ];

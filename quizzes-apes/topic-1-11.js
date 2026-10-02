@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "1-11-3",
     question: "Removing a single species from a food web is most likely to",
     options: [
-      "increase the total biodiversity of the ecosystem",
       "have no effect since other species will compensate",
       "affect multiple species through indirect connections",
-      "affect only the species that directly consumed it"
+      "affect only the species that directly consumed it",
+      "increase the total biodiversity of the ecosystem"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Indirect effects ripple through predators, competitors, and prey of prey. Predicting the full consequence is difficult, which is a central challenge in conservation."
   },
   {
     id: "1-11-4",
     question: "A trophic cascade occurs when",
     options: [
+      "changes at one level propagate through several levels",
       "decomposers return nutrients to the soil rapidly",
       "two species compete for the same limited resource",
-      "producers increase their photosynthetic rate seasonally",
-      "changes at one level propagate through several levels"
+      "producers increase their photosynthetic rate seasonally"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Sea otter decline releasing urchins that destroy kelp forests is the textbook case. Cascades usually run top-down from predators."
   },
   {
     id: "1-11-5",
     question: "Biomagnification refers to the process in which",
     options: [
+      "biomass increases steadily at each higher trophic level",
       "toxin concentrations rise at successive trophic levels",
       "species diversity increases toward the top of a web",
-      "energy accumulates in the highest level organisms",
-      "biomass increases steadily at each higher trophic level"
+      "energy accumulates in the highest level organisms"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Fat-soluble, persistent toxins like DDT and mercury concentrate as they pass upward. Apex predators and people who eat them face the highest exposure."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "1-11-7",
     question: "Which organism would occupy the highest trophic level in a typical food web?",
     options: [
-      "A fungus decomposing a fallen log",
-      "A grasshopper feeding on meadow grasses",
       "A hawk consuming a snake that ate a mouse",
-      "An oak tree producing acorns each autumn"
+      "An oak tree producing acorns each autumn",
+      "A fungus decomposing a fallen log",
+      "A grasshopper feeding on meadow grasses"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Grass to mouse to snake to hawk places the hawk at the fourth trophic level. Decomposers are often diagrammed separately since they act on all levels."
   },
   {
     id: "1-11-8",
     question: "Introducing an invasive predator into a food web commonly causes",
     options: [
-      "no change since the web will simply absorb it",
       "an immediate increase in overall species richness",
       "a rapid increase in native prey populations",
-      "declines in native prey lacking evolved defenses"
+      "declines in native prey lacking evolved defenses",
+      "no change since the web will simply absorb it"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Native prey that never faced the predator often lack avoidance behaviors, as with brown tree snakes on Guam. Native biodiversity typically falls sharply."
   },
   {
     id: "1-11-9",
     question: "Decomposers are often drawn separately in food web diagrams because they",
     options: [
-      "consume dead material from every trophic level",
       "occupy the first trophic level alongside plants",
       "are consumed by organisms at all higher levels",
-      "obtain energy directly from sunlight like producers"
+      "obtain energy directly from sunlight like producers",
+      "consume dead material from every trophic level"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Detritus arrives from producers and consumers alike, so decomposers cannot be assigned to one level. They form the detrital pathway that parallels the grazing web."
   },
   {

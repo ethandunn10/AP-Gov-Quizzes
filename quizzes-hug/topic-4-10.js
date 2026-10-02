@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-3",
     question: "Nationalism can act as both a centripetal and centrifugal force because it",
     options: [
-      "affects only the wealthiest regions of any given state",
       "has no measurable effect on state cohesion at all",
       "unifies when identity matches the state, divides when not",
-      "always strengthens the existing borders of every state"
+      "always strengthens the existing borders of every state",
+      "affects only the wealthiest regions of any given state"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The same principle built Germany and pulled apart Austria-Hungary and Yugoslavia. Whether it unifies depends on how nation and state boundaries align."
   },
   {
     id: "4-10-4",
     question: "Infrastructure such as roads and rail acts as a centripetal force because it",
     options: [
-      "prevents any population movement between regions",
-      "isolates peripheral regions from the national core",
       "eliminates all regional cultural differences immediately",
-      "connects regions and extends the reach of the central state"
+      "connects regions and extends the reach of the central state",
+      "prevents any population movement between regions",
+      "isolates peripheral regions from the national core"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Transport links move goods, officials, and troops, which knits territory into a functioning whole. Poor connectivity leaves peripheries detached and harder to govern."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-6",
     question: "The consequences of strong centrifugal forces can include",
     options: [
-      "the elimination of all regional political institutions",
       "devolution, civil conflict, or the breakup of a state",
       "the permanent stabilization of existing state borders",
-      "increased national unity and stronger central authority"
+      "increased national unity and stronger central authority",
+      "the elimination of all regional political institutions"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Outcomes range from negotiated autonomy to violent fragmentation depending on institutions and leadership. Yugoslavia and the United Kingdom show opposite results from similar pressures."
   },
   {
@@ -82,7 +82,7 @@ window.QUIZ_QUESTIONS = [
       "eliminate the need for any national government",
       "have no effect on internal political cohesion",
       "encourage internal groups to set aside their differences",
-      "always cause a state to fragment into smaller units"
+      "always cause a state to fragment into far smaller separate units"
     ],
     correctIndex: 2,
     explanation: "A shared enemy tends to consolidate identity and support for central authority. The effect often fades once the threat recedes."
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-8",
     question: "Institutional responses to centrifugal pressure commonly include",
     options: [
+      "federalism, devolution, and power-sharing arrangements",
       "refusing all recognition of regional identity or language",
       "eliminating regional governments and centralizing authority",
-      "transferring sovereignty to a neighboring foreign state",
-      "federalism, devolution, and power-sharing arrangements"
+      "transferring sovereignty to a neighboring foreign state"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Belgium, Spain, and the United Kingdom all devolved authority to accommodate regional claims. Whether accommodation defuses or encourages secession is debated."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-10",
     question: "A geographer explaining why some multinational states endure while others fragment would emphasize",
     options: [
-      "the number of international borders each state has",
-      "whether institutions accommodate difference and share gains",
       "the total land area contained within each state's borders",
-      "the latitude at which each state is located"
+      "the latitude at which each state is located",
+      "the number of international borders each state has",
+      "whether institutions accommodate difference and share gains"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "States that grant meaningful autonomy and share economic gains tend to hold together, while rigid centralization invites conflict. Leadership and external intervention also shape outcomes."
   }
 ];

@@ -19,43 +19,43 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.4-3",
     question: "Carrying capacity refers to:",
-    options: ["The maximum population an environment holds", "The minimum number needed to avoid extinction", "The total number of species in an ecosystem", "A population's exact birth rate"],
-    correctIndex: 0,
+    options: ["A population's exact birth rate", "The maximum population an environment holds", "The minimum number needed to avoid extinction", "The total number of species in an ecosystem"],
+    correctIndex: 1,
     explanation: "Carrying capacity (K) is the largest population size that a particular environment can support indefinitely, given the availability of resources like food, water, and space."
   },
   {
     id: "8.4-4",
     question: "Intraspecific competition refers to competition:",
-    options: ["Between different species for one resource", "Among individuals of the same species", "That never actually happens in nature", "That occurs between plants, never animals"],
-    correctIndex: 1,
+    options: ["That never actually happens in nature", "That occurs between plants, never animals", "Between different species for one resource", "Among individuals of the same species"],
+    correctIndex: 3,
     explanation: "Intraspecific competition occurs among members of the same species, who often compete most directly since they typically require very similar resources."
   },
   {
     id: "8.4-5",
     question: "Interspecific competition refers to competition:",
-    options: ["Occurring within a single species", "Between two or more different species", "That has no effect on either species", "That occurs only in the ocean"],
-    correctIndex: 1,
+    options: ["Between two or more different species", "That has no effect on either species", "That occurs only in the ocean", "Occurring within a single species"],
+    correctIndex: 0,
     explanation: "Interspecific competition occurs when individuals from different species compete for the same limited resource, such as food or space, which can affect the population sizes and distributions of both species."
   },
   {
     id: "8.4-6",
     question: "As population density increases and resources become scarce, which of the following is a likely density-dependent consequence?",
-    options: ["More disease spread and food competition", "Guaranteed unlimited resources for everyone", "No change to birth or death rates at all", "Complete removal of all limiting factors"],
-    correctIndex: 0,
+    options: ["Complete removal of all limiting factors", "More disease spread and food competition", "Guaranteed unlimited resources for everyone", "No change to birth or death rates at all"],
+    correctIndex: 1,
     explanation: "As crowding increases, density-dependent factors like disease spread and competition for limited food or space typically intensify, often reducing birth rates and/or increasing death rates, slowing population growth."
   },
   {
     id: "8.4-7",
     question: "Which scenario best illustrates a density-dependent limiting factor?",
-    options: ["A hurricane hits regardless of how many live there", "A growing deer herd faces food scarcity", "An eruption hits sparse and dense groups alike", "A temperature drop affects all organisms alike"],
-    correctIndex: 1,
+    options: ["A temperature drop affects all organisms alike", "A hurricane hits regardless of how many live there", "A growing deer herd faces food scarcity", "An eruption hits sparse and dense groups alike"],
+    correctIndex: 2,
     explanation: "This scenario shows a factor (food scarcity leading to competition and starvation) whose impact intensifies specifically because the population has become more crowded — a hallmark of density-dependent regulation."
   },
   {
     id: "8.4-8",
     question: "Which scenario best illustrates a density-independent limiting factor?",
-    options: ["Competition for mates intensifies when crowded", "A wildfire hits regardless of density", "Predation rises because prey are densely packed", "Disease spreads faster in a crowded population"],
-    correctIndex: 1,
+    options: ["Predation rises because prey are densely packed", "Disease spreads faster in a crowded population", "Competition for mates intensifies when crowded", "A wildfire hits regardless of density"],
+    correctIndex: 3,
     explanation: "A wildfire (or similar disturbance) tends to impact a population's individuals regardless of how dense or sparse that population is, making it a classic density-independent limiting factor."
   },
   {

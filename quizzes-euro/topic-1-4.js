@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "1-4-1",
     question: "Gutenberg's key innovation was",
     options: [
-      "a method of engraving images directly onto polished copper plates",
-      "the practice of binding printed sheets into codices rather than scrolls",
       "movable metal type combined with an adapted screw press",
-      "the first use of paper anywhere in Europe"
+      "the first use of paper anywhere in Europe",
+      "a method of engraving images directly onto polished copper plates",
+      "the practice of binding printed sheets into codices rather than scrolls"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Reusable cast-metal letters set in a frame and pressed made mass production practical. Paper and the codex were already long established in Europe, and engraving is a separate image technology."
   },
   {
     id: "1-4-2",
     question: "The most immediate economic effect of printing was that books",
     options: [
+      "fell sharply in price and rose greatly in total number",
       "were restricted by law to monastic libraries for a full century",
       "disappeared from circulation until literacy rates had risen",
-      "became more expensive as printers charged for their new technology",
-      "fell sharply in price and rose greatly in total number"
+      "became more expensive as printers charged for their new technology"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "A scribe copying by hand produced one book in months; a press produced hundreds. Prices collapsed and the number of titles in circulation multiplied within a generation."
   },
   {
     id: "1-4-3",
     question: "Printing helped standardize European vernacular languages because",
     options: [
+      "printers were legally barred from publishing in any regional dialect",
       "printers chose particular dialects and reproduced them consistently",
       "all printed books were required by the church to appear in Latin",
-      "governments passed laws requiring a single official spelling system",
-      "printers were legally barred from publishing in any regional dialect"
+      "governments passed laws requiring a single official spelling system"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Choosing a dialect for a large print run fixed its spellings and forms in thousands of identical copies, gradually making it the prestige standard. Luther's German Bible had this effect on written German."
   },
   {
     id: "1-4-4",
     question: "Printing contributed to the Reformation most directly by",
     options: [
-      "making Latin theological works available to peasants for the first time",
       "carrying Luther's tracts and German Bibles across Germany fast",
       "allowing the papacy to suppress dissenting opinion before it spread",
-      "eliminating the need for preachers to address congregations in person"
+      "eliminating the need for preachers to address congregations in person",
+      "making Latin theological works available to peasants for the first time"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Cheap pamphlets in German let Luther reach an audience no earlier reformer could, outpacing the church's ability to respond. Censorship proved far harder than the papacy expected."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-4-6",
     question: "Printing affected scientific work chiefly by",
     options: [
+      "letting scholars compare identical diagrams, tables, and observations",
       "restricting scientific publication to a single approved language",
       "ensuring that all printed scientific claims were verified before release",
-      "removing the need for scholars to perform experiments or observations",
-      "letting scholars compare identical diagrams, tables, and observations"
+      "removing the need for scholars to perform experiments or observations"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Manuscript copying introduced errors into figures and tables; print gave every reader the same data to check and build on. That cumulative comparison was essential to the Scientific Revolution."
   },
   {
     id: "1-4-7",
     question: "Which statement about literacy in the print era is most accurate?",
     options: [
+      "Literacy declined because printed books were regarded as untrustworthy",
       "Literacy rose gradually and unevenly, highest in towns and among men",
       "Literacy was legally restricted to nobles and ordained clergy",
-      "Literacy became universal across Europe within fifty years of Gutenberg",
-      "Literacy declined because printed books were regarded as untrustworthy"
+      "Literacy became universal across Europe within fifty years of Gutenberg"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Print rewarded reading and expanded it, but access followed wealth, gender, and town life, and most rural Europeans remained illiterate for centuries. Reading aloud let non-readers share printed material."
   },
   {

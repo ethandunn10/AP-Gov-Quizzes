@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-1",
     question: "The seasonal monsoon winds shaped Indian Ocean trade most importantly by",
     options: [
-      "restricting trade to coastal waters within sight of land",
-      "making sea voyages impossible for more than half of every single year",
       "setting a predictable schedule for sailing and for staying abroad",
-      "eliminating the need for navigational instruments"
+      "eliminating the need for navigational instruments",
+      "restricting trade to coastal waters within sight of land",
+      "making sea voyages impossible for more than half of every single year"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Because the winds reversed direction seasonally, a merchant sailing one way had to wait months for the return wind — which is why long-term diaspora communities formed in foreign ports. Sailors still needed the compass and astrolabe, and dhows regularly crossed open ocean."
   },
   {
     id: "2-3-2",
     question: "Merchant diasporic communities such as Arab traders in Swahili ports or Gujarati merchants in Malacca most directly contributed to",
     options: [
+      "the spread of language, religion, and commercial practice between distant lands",
       "the exclusion of local merchants from all trade",
       "the imposition of European legal codes on the ports of maritime Asia",
-      "the militarization of Indian Ocean trade before 1500",
-      "the spread of language, religion, and commercial practice between distant lands"
+      "the militarization of Indian Ocean trade before 1500"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Settled foreign merchant communities intermarried locally and became conduits for Islam, Arabic and Persian vocabulary, and shared commercial norms. Indian Ocean trade before the Portuguese was notably unmilitarized, and Europeans were absent."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-4",
     question: "Which technologies most directly enabled long-distance Indian Ocean voyaging in this period?",
     options: [
+      "The marine chronometer and the accurate calculation of longitude at sea",
       "Gunpowder artillery mounted on galleys",
       "The lateen sail, sturdy dhow and junk hulls, compass, and astrolabe",
-      "The steam engine and the iron-hulled steamship",
-      "The marine chronometer and the accurate calculation of longitude at sea"
+      "The steam engine and the iron-hulled steamship"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Lateen rigging let ships sail closer to the wind, sturdy hulls carried cargo across open water, and the compass and astrolabe fixed direction and latitude out of sight of land. Steam power and reliable longitude belong to much later centuries."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-7",
     question: "The Ming court's decision to end the treasure voyages after 1433 is best explained by",
     options: [
-      "their expense, Confucian priorities, and a renewed northern threat",
       "the discovery that the Indian Ocean basin contained nothing of any value",
       "a Portuguese naval blockade of Chinese ports",
-      "the fleets' destruction in a single catastrophic storm"
+      "the fleets' destruction in a single catastrophic storm",
+      "their expense, Confucian priorities, and a renewed northern threat"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Scholar-officials viewed the voyages as costly display that benefited eunuch rivals, while Mongol pressure on the northern frontier demanded resources. The Portuguese did not reach Asian waters for another sixty years."
   },
   {
     id: "2-3-8",
     question: "Which change in Indian Ocean trade resulted most directly from the growth of Muslim commercial networks?",
     options: [
+      "Trade shifted entirely to overland routes",
       "Port cities abandoned the use of written contracts in commercial dealings",
       "Islam became a shared framework of law, contract, and mutual trust among merchants",
-      "All non-Muslims were excluded from maritime trade",
-      "Trade shifted entirely to overland routes"
+      "All non-Muslims were excluded from maritime trade"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Shared Islamic commercial law and a shared language of contract let merchants who had never met do business across thousands of miles. Hindu, Jewish, and Chinese merchants continued to trade actively within this system."
   },
   {
     id: "2-3-9",
     question: "A historian claims Indian Ocean trade before 1500 was 'cosmopolitan and largely peaceful.' The best evidence for this claim is",
     options: [
+      "the Ming navy's enforcement of order throughout the basin",
       "a treaty among all Indian Ocean states banning warships",
       "the absence of any armed conflict anywhere in Asia before the year 1500",
-      "Muslim, Hindu, Jewish, and Chinese merchants coexisting in ports",
-      "the Ming navy's enforcement of order throughout the basin"
+      "Muslim, Hindu, Jewish, and Chinese merchants coexisting in ports"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "No state attempted to control the sea lanes by force before the Portuguese arrived, and ports competed for merchants by offering security and fair dealing rather than by conquest. The Ming fleets were episodic, and no such treaty existed."
   },
   {
     id: "2-3-10",
     question: "The spread of Islam into coastal Southeast Asia and East Africa is best explained as a consequence of",
     options: [
-      "missionary expeditions sponsored by the Ming court",
-      "the forced relocation of Arab populations ordered by the Mongol khans",
       "conquest by Arab armies in the thirteenth century",
-      "commercial contact and the advantages that rulers gained by converting"
+      "commercial contact and the advantages that rulers gained by converting",
+      "missionary expeditions sponsored by the Ming court",
+      "the forced relocation of Arab populations ordered by the Mongol khans"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Rulers of port cities converted because it connected them to the merchants and credit networks that made their harbors profitable, and Sufi teachers eased the transition. No Arab army conquered these regions, and the Ming promoted their own tributary framework, not Islam."
   }
 ];

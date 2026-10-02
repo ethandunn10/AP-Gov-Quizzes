@@ -7,10 +7,10 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-1",
     question: "NATO, founded in 1949, was significant for the United States because it",
     options: [
-      "was the first peacetime military alliance the country had joined",
+      "was the first peacetime military alliance the U.S. joined",
       "replaced the United Nations",
       "committed the U.S. to defend Asian allies",
-      "required member states to adopt identical governments"
+      "required all member states to adopt identical forms of government"
     ],
     correctIndex: 0,
     explanation: "It broke with the tradition against entangling alliances dating to Washington's Farewell Address. The Warsaw Pact formed in response in 1955."
@@ -19,8 +19,8 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-2",
     question: "CIA covert operations in Iran (1953) and Guatemala (1954)",
     options: [
-      "supported democratically elected governments",
-      "overthrew elected governments seen as threats to American interests, with long-term consequences",
+      "actively supported the democratically elected governments in power",
+      "overthrew elected governments seen as threats to U.S. interests",
       "were publicly authorized by Congress",
       "failed to achieve their immediate objectives"
     ],
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-3",
     question: "The Eisenhower Doctrine (1957) pledged American support to",
     options: [
-      "Latin American nations facing economic crisis",
       "Middle Eastern nations resisting communist aggression",
       "African nations seeking independence",
-      "European nations rebuilding after the war"
+      "European nations rebuilding after the Second World War ended",
+      "Latin American nations facing economic crisis"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "It extended containment to the Middle East after the Suez Crisis. Oil and the Soviet presence in the region drove the policy."
   },
   {
@@ -44,9 +44,9 @@ window.QUIZ_QUESTIONS = [
     question: "The Bay of Pigs invasion (1961) was",
     options: [
       "a successful overthrow of Castro",
-      "a failed CIA-backed invasion by Cuban exiles that embarrassed the Kennedy administration",
+      "a failed CIA-backed invasion by Cuban exiles",
       "a joint operation with the Soviet Union",
-      "an invasion by regular U.S. Army forces"
+      "an invasion by regular United States Army forces"
     ],
     correctIndex: 1,
     explanation: "The plan was inherited from Eisenhower and executed without promised air cover. Its failure pushed Cuba further toward Moscow."
@@ -55,72 +55,72 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-5",
     question: "The Alliance for Progress aimed to",
     options: [
-      "provide economic aid to Latin America to counter the appeal of communism",
-      "create a military alliance with African nations",
       "fund European reconstruction",
-      "establish free trade with China"
+      "establish free trade with China",
+      "provide economic aid to Latin America to counter communism",
+      "create a formal military alliance with all the African nations"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Kennedy paired aid with counterinsurgency training, and results fell well short of the rhetoric. The two halves of the policy often worked against each other."
   },
   {
     id: "8-7-6",
     question: "The space race was significant to the Cold War because",
     options: [
-      "it had no connection to military technology",
-      "space achievements symbolized technological and ideological superiority, with rockets tied to missile capability",
-      "the Soviet Union did not participate",
-      "it was funded entirely by private companies"
+      "it was funded entirely by private companies",
+      "it had no connection whatsoever to any military technology",
+      "space feats symbolized superiority and rocket capability",
+      "the Soviet Union did not participate"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Sputnik prompted NASA, NDEA funding, and a sense of crisis; Apollo 11 answered it. The same boosters that launched satellites could deliver warheads."
   },
   {
     id: "8-7-7",
     question: "Nixon's opening to China in 1972",
     options: [
-      "restored the Nationalist government on the mainland",
-      "began normalization with the People's Republic, exploiting the Sino-Soviet split",
-      "ended the Vietnam War immediately",
-      "resulted in a formal military alliance"
+      "resulted in a formal military alliance",
+      "restored the Nationalist government to full power on the mainland",
+      "began normalization with the PRC, exploiting the Soviet split",
+      "ended the Vietnam War immediately"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Playing Beijing and Moscow against each other gave Washington leverage in both capitals. Full diplomatic relations came in 1979."
   },
   {
     id: "8-7-8",
     question: "Carter's foreign policy emphasis on human rights",
     options: [
-      "had no effect on relations with allied dictatorships",
-      "created tension with strategic allies while claiming a moral basis for policy",
       "was universally supported in Congress",
-      "led to withdrawal from NATO"
+      "led to withdrawal from NATO",
+      "had no effect at all on relations with allied dictatorships",
+      "created tension with allies while claiming a moral basis"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Criticism of friendly regimes complicated alliances, and critics called the policy inconsistent. The Camp David Accords were his clearest diplomatic success."
   },
   {
     id: "8-7-9",
     question: "The Iran Hostage Crisis (1979-1981) followed",
     options: [
-      "the Soviet invasion of Afghanistan",
-      "the Iranian Revolution and American admission of the deposed shah for medical treatment",
-      "the signing of the Camp David Accords",
-      "an American invasion of Iran"
+      "the Iranian Revolution and the admission of the deposed shah",
+      "the signing of the Camp David Accords between Israel and Egypt",
+      "an American invasion of Iran",
+      "the Soviet invasion of Afghanistan"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Fifty-two Americans were held for 444 days, and a rescue attempt failed. The crisis, and the memory of 1953, badly damaged Carter politically."
   },
   {
     id: "8-7-10",
     question: "The Soviet invasion of Afghanistan in 1979 led the United States to",
     options: [
-      "boycott the 1980 Moscow Olympics, embargo grain, and aid Afghan resistance fighters",
+      "withdraw the United States entirely from the United Nations",
+      "boycott the Moscow Olympics and embargo grain sales",
       "join the Soviet operation",
-      "ratify SALT II",
-      "withdraw from the United Nations"
+      "ratify SALT II"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Carter withdrew SALT II from Senate consideration and détente collapsed. Aid to the mujahideen expanded substantially under Reagan."
   }
 ];

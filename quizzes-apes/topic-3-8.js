@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-1",
     question: "Crude birth rate is expressed as the number of births per",
     options: [
-      "household counted in the most recent census",
       "one hundred women of childbearing age yearly",
       "one thousand people in a population each year",
-      "one million people over a ten year period"
+      "one million people over a ten year period",
+      "household counted in the most recent census"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Per-thousand rates allow comparison across populations of different sizes. Crude rates ignore age structure, which limits their interpretive value."
   },
   {
     id: "3-8-2",
     question: "Rate of natural increase is calculated as",
     options: [
-      "total fertility minus replacement fertility",
-      "total population divided by the land area",
       "crude birth rate plus net migration inflow",
-      "crude birth rate minus crude death rate"
+      "crude birth rate minus crude death rate",
+      "total fertility minus replacement fertility",
+      "total population divided by the land area"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Natural increase deliberately excludes migration to isolate births and deaths. Overall population change requires adding net migration."
   },
   {
@@ -55,48 +55,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-5",
     question: "Global human population reached approximately eight billion in",
     options: [
+      "the 1950s at the start of the baby boom era",
       "the 1800s at the onset of industrialization",
-      "the early 1990s following rapid postwar growth",
-      "the early 2020s according to United Nations estimates",
-      "the 1950s at the start of the baby boom era"
+      "the early 1990s following the rapid postwar growth period",
+      "the early 2020s according to United Nations estimates"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The United Nations marked eight billion in late 2022, roughly a dozen years after seven billion. Population was around one billion in 1800."
   },
   {
     id: "3-8-6",
     question: "Population growth has slowed in recent decades primarily because of",
     options: [
+      "falling fertility rates across most of the world",
       "large scale emigration from Earth's populated areas",
       "government restrictions applied in every country",
-      "sharply rising death rates in most world regions",
-      "falling fertility rates across most of the world"
+      "sharply rising death rates in most world regions"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Fertility has fallen nearly everywhere as education, urbanization, and contraception have spread. Death rates have continued to fall, which works against slowing."
   },
   {
     id: "3-8-7",
     question: "The IPAT equation expresses environmental impact as a function of",
     options: [
-      "population, affluence, and technology together",
-      "industry, pollution, area, and temperature change",
       "infrastructure, policy, air quality, and transport",
-      "income, prosperity, agriculture, and trade levels"
+      "income, prosperity, agriculture, and trade levels",
+      "population, affluence, and technology together",
+      "industry, pollution, area, and temperature change"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The formulation highlights that per capita consumption and technology matter alongside headcount. A small wealthy population can outweigh a large poor one."
   },
   {
     id: "3-8-8",
     question: "Per capita environmental impact is generally highest in",
     options: [
-      "the least developed countries with rapid growth",
-      "highly developed countries with high consumption",
       "countries with the largest total populations",
-      "countries with the highest total fertility rates"
+      "countries with the highest total fertility rates",
+      "the least developed countries with rapid growth",
+      "highly developed countries with high consumption"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "An average American or European consumes far more energy and materials than an average person in a low-income country. This is why framing environmental problems purely as population is incomplete."
   },
   {
@@ -106,7 +106,7 @@ window.QUIZ_QUESTIONS = [
       "having no effect on any country's population",
       "changing the global total human population",
       "moving people between countries, not changing the total",
-      "reducing fertility rates in destination countries"
+      "reducing the fertility rates in all destination countries"
     ],
     correctIndex: 2,
     explanation: "Migration is a zero-sum transfer globally but decisive for individual countries. Several European nations grow only because of net immigration."
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-8-10",
     question: "Neo-Malthusian arguments hold that",
     options: [
-      "population size has no environmental consequences",
-      "human population will decline within a single decade",
       "technology will indefinitely outpace population growth",
-      "population growth will eventually exceed resource limits"
+      "population growth will eventually exceed resource limits",
+      "population size has no environmental consequences",
+      "human population will decline within a single decade"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Neo-Malthusians emphasize finite resources and ecological limits. Critics point to repeated technological gains that postponed predicted crises."
   }
 ];

@@ -8,9 +8,9 @@ window.QUIZ_QUESTIONS = [
     question: "The Beer-Lambert law states that absorbance is proportional to",
     options: [
       "concentration only",
-      "molar absorptivity, path length, and concentration",
+      "absorptivity, path length, and concentration",
       "transmittance",
-      "the wavelength of light"
+      "only the wavelength of the incident light source used"
     ],
     correctIndex: 1,
     explanation: "A = εbc combines all three factors. In a typical experiment ε and b are constant, so absorbance tracks concentration alone."
@@ -31,19 +31,19 @@ window.QUIZ_QUESTIONS = [
     id: "3-13-3",
     question: "To construct a calibration curve, a student should plot",
     options: [
-      "absorbance versus wavelength",
-      "absorbance versus concentration of standard solutions",
       "concentration versus time",
-      "transmittance versus path length"
+      "transmittance versus the path length of the sample cell",
+      "absorbance versus wavelength",
+      "absorbance versus concentration of standard solutions"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The resulting straight line lets an unknown's absorbance be converted to concentration. Wavelength is held fixed at the analyte's absorption maximum."
   },
   {
     id: "3-13-4",
     question: "Why is the wavelength of maximum absorbance chosen for a Beer's law analysis?",
     options: [
-      "It gives the greatest sensitivity and least error from small wavelength shifts",
+      "It gives the greatest sensitivity and least error",
       "It is the only wavelength the instrument can produce",
       "It minimizes absorbance",
       "It eliminates the need for standards"
@@ -55,32 +55,32 @@ window.QUIZ_QUESTIONS = [
     id: "3-13-5",
     question: "A calibration curve has the equation A = 250 c, where c is in mol/L. A sample with A = 0.500 has a concentration of",
     options: [
+      "0.500 M",
       "2.00 × 10⁻³ M",
       "125 M",
-      "5.00 × 10⁻³ M",
-      "0.500 M"
+      "5.00 × 10⁻³ M"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "c = 0.500 ÷ 250 = 2.00 × 10⁻³ M. Multiplying instead of dividing gives a physically absurd 125 M."
   },
   {
     id: "3-13-6",
     question: "If the path length of the cuvette is doubled at constant concentration, absorbance",
     options: [
+      "becomes zero",
       "halves",
       "doubles",
-      "is unchanged",
-      "becomes zero"
+      "is unchanged"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Light travels through twice as many absorbing particles. Standard cuvettes are 1.00 cm precisely so this term is easy to handle."
   },
   {
     id: "3-13-7",
     question: "Molar absorptivity (ε) is a property that depends on",
     options: [
-      "the concentration of the solution",
-      "the identity of the absorbing species and the wavelength used",
+      "the concentration of the particular solution measured",
+      "the identity of the species and the wavelength used",
       "the volume of solution",
       "the temperature only"
     ],
@@ -91,20 +91,20 @@ window.QUIZ_QUESTIONS = [
     id: "3-13-8",
     question: "A student forgets to blank the spectrophotometer with pure solvent. The measured absorbances will likely be",
     options: [
+      "negative in all cases",
       "systematically offset from the true values",
-      "randomly scattered",
-      "exactly correct",
-      "negative in all cases"
+      "randomly scattered above and below the true value",
+      "exactly correct"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Blanking subtracts absorbance from the cuvette and solvent, and skipping it introduces a consistent bias. Systematic errors shift every point in the same direction."
   },
   {
     id: "3-13-9",
     question: "Beer's law tends to fail at very high concentrations because",
     options: [
-      "absorbance becomes negative",
-      "solute particles interact and the linear relationship breaks down",
+      "the measured absorbance value becomes negative instead",
+      "solute particles interact and linearity breaks down",
       "the light source fails",
       "path length changes"
     ],
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-13-10",
     question: "Beer's law analysis is well suited to monitoring the rate of a reaction when",
     options: [
-      "no species absorbs visible light",
-      "a reactant or product absorbs at a wavelength where others do not",
+      "a reactant or product absorbs where others do not",
       "the reaction produces a gas only",
-      "the reaction is instantaneous"
+      "the reaction is instantaneous",
+      "no species in the mixture absorbs any visible light"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Absorbance then converts directly to concentration versus time. The crystal violet fading experiment is the standard classroom example."
   }
 ];

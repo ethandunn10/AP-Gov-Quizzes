@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-2",
     question: "Deindustrialization in the American Rust Belt resulted primarily from",
     options: [
-      "a sharp decline in national demand for manufactured goods",
       "production shifting to lower cost regions and automation",
       "the exhaustion of all iron and coal deposits in the region",
-      "federal policies prohibiting heavy industry in those states"
+      "federal policies prohibiting heavy industry in those states",
+      "a sharp decline in national demand for manufactured goods"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Firms moved to the American South and then abroad while machinery replaced workers. Demand for goods kept rising even as regional employment collapsed."
   },
   {
     id: "7-7-3",
     question: "Newly industrialized countries such as South Korea are characterized by",
     options: [
-      "reliance on foreign aid as the principal source of income",
       "economies still dominated by subsistence agriculture",
       "rapid shifts from agriculture toward manufacturing exports",
-      "complete withdrawal from all international trade networks"
+      "complete withdrawal from all international trade networks",
+      "reliance on foreign aid as the principal source of income"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Export-oriented industrialization, supported by state investment in education and infrastructure, drove their transformation. The pattern challenged assumptions about fixed positions in the world system."
   },
   {
     id: "7-7-4",
     question: "Special economic zones in China were established mainly to",
     options: [
-      "relocate agricultural production toward coastal provinces",
-      "restrict migration from interior provinces to the coast",
       "protect domestic industries from foreign competition",
-      "attract foreign investment through favorable regulations"
+      "attract foreign investment through favorable regulations",
+      "relocate agricultural production toward coastal provinces",
+      "restrict migration from interior provinces to the coast"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Shenzhen and similar zones offered tax incentives and flexible rules to draw manufacturing capital. Their success reshaped both China's coastal geography and global supply chains."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-7",
     question: "Tourism has become a significant development strategy for many countries because it",
     options: [
-      "operates independently of global economic conditions",
-      "requires almost no investment in local infrastructure",
       "brings foreign currency and employs many workers",
-      "produces goods that can be exported to other markets"
+      "produces goods that can be exported to other markets",
+      "operates independently of global economic conditions",
+      "requires almost no investment in local infrastructure"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Visitor spending earns hard currency and creates jobs across many skill levels. The tradeoffs include seasonality, environmental strain, and sharp vulnerability to global downturns."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-10",
     question: "Which best describes the overall effect of globalization on regional inequality?",
     options: [
+      "It has affected only developed economies and not others",
       "It has eliminated economic differences among world regions",
       "It has lifted some regions while leaving others behind",
-      "It has reduced incomes uniformly across every world region",
-      "It has affected only developed economies and not others"
+      "It has reduced incomes uniformly across every world region"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "East Asia's dramatic gains sit alongside stagnation in parts of Africa and deindustrialized regions within wealthy countries. The record is uneven rather than uniformly good or bad."
   }
 ];

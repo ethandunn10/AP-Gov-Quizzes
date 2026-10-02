@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-1",
     question: "The career of Ibn Battuta, who traveled from Morocco to India, Southeast Asia, and China while serving as a judge, is best used as evidence of",
     options: [
+      "the absence of Islam outside the Arabian peninsula",
       "European domination of Afro-Eurasian trade routes",
       "the great difficulty of travel between distant regions in this era",
-      "a connected Muslim world in which a scholar could find work anywhere",
-      "the absence of Islam outside the Arabian peninsula"
+      "a connected Muslim world in which a scholar could find work anywhere"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Ibn Battuta could take up a judgeship in Delhi and the Maldives because Islamic law, Arabic, and hospitality networks operated the same way across Dar al-Islam. His travels demonstrate connection rather than difficulty, and Europeans were marginal to these networks."
   },
   {
     id: "2-5-2",
     question: "Marco Polo's account of Yuan China is most valuable to historians as",
     options: [
-      "proof that Europeans controlled the Silk Roads",
-      "the only surviving source on Mongol rule",
       "an objective statistical record of Chinese imperial administration",
-      "a European view showing both real connection and European assumptions"
+      "a European view showing both real connection and European assumptions",
+      "proof that Europeans controlled the Silk Roads",
+      "the only surviving source on Mongol rule"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The text is shaped by its author's audience and purposes as much as by observation, so it tells us about European expectations as well as about China. Abundant Chinese and Persian sources on Mongol rule survive, and Europeans were travelers rather than controllers of these routes."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-6",
     question: "The emergence of Sikhism in South Asia is best explained as",
     options: [
+      "a tradition drawing on bhakti devotion and Sufi Islamic monotheism",
       "a branch of Theravada Buddhism carried north from Southeast Asia",
       "a revival of Vedic sacrificial ritual",
-      "a Mongol religious innovation imposed by conquest",
-      "a tradition drawing on bhakti devotion and Sufi Islamic monotheism"
+      "a Mongol religious innovation imposed by conquest"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Sikh teaching emerged where devotional Hinduism and Sufi Islam had long interacted, affirming one God while rejecting caste and ritual formalism. It is neither Buddhist nor Vedic in origin, and no conquest imposed it."
   },
   {
     id: "2-5-7",
     question: "Which statement best describes the relationship between trade and religious diffusion in this period?",
     options: [
-      "Merchants and their diaspora communities carried religion abroad",
-      "Religious authorities banned merchants from discussing faith while trading",
       "Trade routes carried goods but never ideas",
-      "Religion spread only through military conquest"
+      "Religion spread only through military conquest",
+      "Merchants and their diaspora communities carried religion abroad",
+      "Religious authorities banned merchants from discussing faith while trading"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Muslim merchants brought Islam to Swahili ports and Southeast Asian harbors, and Buddhist traders had earlier carried their faith along the Silk Roads. Conquest mattered in some places, but commerce was the more common vehicle in this era."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-10",
     question: "A historian argues that the period 1200-1450 saw 'intensified cultural exchange without cultural uniformity.' The best evidence for this argument is that",
     options: [
-      "all Afro-Eurasian societies adopted a single common language",
       "cultural contact between world regions declined steadily after about 1300",
       "no society borrowed anything from its neighbors",
-      "societies adopted foreign technology but reshaped it"
+      "societies adopted foreign technology but reshaped it",
+      "all Afro-Eurasian societies adopted a single common language"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Gunpowder, paper, Islam, and Buddhism all spread widely, yet each arriving tradition was reworked — Chan Buddhism, West African Islam, Persian-Chinese hybrid art. That combination of wide diffusion and persistent local difference is exactly the claim."
   }
 ];

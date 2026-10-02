@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-1",
     question: "On a titration curve for a weak acid with a strong base, the pH at the half-equivalence point equals",
     options: [
-      "7",
       "the pKa of the acid",
       "the pKb of the conjugate base",
-      "14"
+      "14",
+      "7"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Half the acid has been converted, so [HA] equals [A⁻]. The Henderson-Hasselbalch equation then reduces to pH = pKa."
   },
   {
     id: "8-5-2",
     question: "The equivalence point of a strong acid-strong base titration occurs at pH",
     options: [
+      "14",
       "less than 7",
       "7",
-      "greater than 7",
-      "14"
+      "greater than 7"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Neither spectator ion hydrolyzes. Weak acid titrations give an equivalence point above 7."
   },
   {
@@ -32,9 +32,9 @@ window.QUIZ_QUESTIONS = [
     question: "Titrating a weak base with a strong acid gives an equivalence point pH that is",
     options: [
       "above 7",
-      "below 7, because the conjugate acid hydrolyzes",
+      "below 7, since the conjugate acid hydrolyzes",
       "exactly 7",
-      "unpredictable"
+      "entirely unpredictable without further information"
     ],
     correctIndex: 1,
     explanation: "The product is the conjugate acid of a weak base, which donates protons. Methyl orange is a suitable indicator for this case."
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-5",
     question: "The steep portion of a titration curve corresponds to",
     options: [
+      "excess titrant",
       "the buffer region",
-      "the region near the equivalence point where small additions cause large pH changes",
-      "the start of the titration",
-      "excess titrant"
+      "the region near equivalence where pH changes sharply",
+      "the very beginning stage of the entire titration process"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The last of the analyte is consumed over a fraction of a drop. Indicator selection targets this region."
   },
   {
@@ -68,9 +68,9 @@ window.QUIZ_QUESTIONS = [
     question: "A titration curve for a diprotic acid shows",
     options: [
       "one equivalence point",
-      "two distinct equivalence points if the two Ka values differ enough",
+      "two equivalence points if the Ka values differ",
       "no equivalence point",
-      "three equivalence points"
+      "three distinct equivalence points in every case"
     ],
     correctIndex: 1,
     explanation: "Each proton is removed in turn, giving a separate steep region. Sulfuric acid's two constants are too close to resolve cleanly."
@@ -79,8 +79,8 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-7",
     question: "Comparing titration curves for a strong acid and a weak acid of equal concentration with the same base, the weak acid curve",
     options: [
-      "starts at a higher pH and has a shorter steep region",
-      "starts at a lower pH",
+      "starts higher and has a shorter steep region",
+      "starts at a considerably lower pH than expected",
       "has no equivalence point",
       "is identical"
     ],
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-5-9",
     question: "The endpoint of a titration differs from the equivalence point in that the endpoint is",
     options: [
-      "the theoretical stoichiometric point",
-      "the observed point where the indicator changes color, ideally very close to the equivalence point",
-      "always exactly equal",
-      "before any titrant is added"
+      "before any titrant is added",
+      "the purely theoretical stoichiometric point of the reaction",
+      "the observed point where the indicator changes color",
+      "always exactly equal"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The small gap between them is called indicator error. A well-chosen indicator keeps that error negligible."
   },
   {

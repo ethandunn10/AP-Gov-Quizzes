@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-3",
     question: "Which factor is most strongly associated with declining total fertility rates?",
     options: [
-      "Increasing infant and childhood mortality rates",
       "Increasing agricultural employment among adults",
       "Rising female education and workforce participation",
-      "Declining access to contraception and family planning"
+      "Declining access to contraception and family planning",
+      "Increasing infant and childhood mortality rates"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Education delays marriage, raises the opportunity cost of childbearing, and improves knowledge of family planning. The relationship holds across widely different cultures."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-5",
     question: "In agricultural subsistence economies, fertility tends to be higher partly because children",
     options: [
-      "contribute labor and support parents in old age",
-      "are legally prohibited from performing any farm work",
       "reduce the total food a household is able to produce",
-      "require expensive formal schooling from an early age"
+      "require expensive formal schooling from an early age",
+      "contribute labor and support parents in old age",
+      "are legally prohibited from performing any farm work"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Children are economic assets where farm labor is needed and no pension system exists. Urbanization reverses this calculus, making children costly."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-8",
     question: "Pronatalist policies are designed to",
     options: [
-      "limit immigration into countries with low fertility",
-      "increase the average age at first marriage",
       "reduce national fertility through birth restrictions",
-      "encourage higher birth rates through incentives"
+      "encourage higher birth rates through incentives",
+      "limit immigration into countries with low fertility",
+      "increase the average age at first marriage"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Countries facing decline offer childcare subsidies, parental leave, and cash bonuses. Evidence suggests such policies produce modest effects at best."
   },
   {
     id: "3-7-9",
     question: "China's former one child policy illustrates that",
     options: [
-      "coercive policies can lower fertility but carry costs",
-      "birth restrictions have no demographic consequences",
       "fertility always rises when restrictions are imposed",
-      "fertility cannot be influenced by government policy"
+      "fertility cannot be influenced by government policy",
+      "coercive policies can lower fertility but carry costs",
+      "birth restrictions have no demographic consequences"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Fertility fell sharply, but the policy produced a skewed sex ratio and rapid aging. China has since reversed course and now encourages births."
   },
   {
     id: "3-7-10",
     question: "Global total fertility rate has",
     options: [
-      "risen steadily over the past fifty years",
-      "fallen substantially, now near two in many regions",
       "remained unchanged since the mid twentieth century",
-      "fallen only in the very poorest countries"
+      "fallen only in the very poorest countries",
+      "risen steadily over the past fifty years",
+      "fallen substantially, now near two in many regions"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Global TFR has roughly halved since 1960, with the sharpest declines in Asia and Latin America. Sub-Saharan Africa retains the highest remaining rates."
   }
 ];

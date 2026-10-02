@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "2-9-2",
     question: "The old-age dependency ratio measures",
     options: [
-      "the proportion of elderly people living in urban areas",
+      "the proportion of the elderly population living in urban areas",
       "the number of elderly people relative to working-age adults",
       "the average age at which people retire from employment",
       "the number of children relative to working-age adults"
@@ -31,19 +31,19 @@ window.QUIZ_QUESTIONS = [
     id: "2-9-3",
     question: "Aging populations strain public finances chiefly because",
     options: [
-      "governments are legally barred from raising revenue",
       "elderly people consume no public services of any kind",
       "pension and health costs rise while the tax base shrinks",
-      "younger workers refuse to pay into any pension system"
+      "younger workers refuse to pay into any pension system",
+      "governments are legally barred from raising revenue"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Pay-as-you-go systems depend on current workers funding current retirees, so a shrinking workforce creates a structural gap. Health spending rises steeply with age as well."
   },
   {
     id: "2-9-4",
     question: "Japan illustrates the challenges of aging because it has",
     options: [
-      "the highest fertility rate among industrialized countries",
+      "the highest fertility rate among all of the industrialized countries",
       "rapidly growing cohorts of children entering its schools",
       "a young population with very high rates of immigration",
       "one of the world's oldest populations with limited immigration"
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-9-5",
     question: "Which policy response to aging addresses the shrinking workforce most directly?",
     options: [
-      "Raising the retirement age and encouraging immigration",
-      "Reducing the total number of hospital beds available",
       "Restricting the entry of working-age foreign nationals",
-      "Lowering the age at which citizens may claim a pension"
+      "Lowering the age at which citizens may claim a pension",
+      "Raising the retirement age and encouraging immigration",
+      "Reducing the total number of hospital beds available"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "More years of work per person and more workers from abroad both expand the contributing population. Both options are politically contentious for different reasons."
   },
   {
     id: "2-9-6",
     question: "Aging affects the geography of services by increasing demand for",
     options: [
-      "primary schools and childcare facilities in urban areas",
-      "health care, elder housing, and accessible transportation",
       "university campuses and student housing developments",
-      "industrial land for new manufacturing facilities"
+      "industrial land for new manufacturing facilities",
+      "primary schools and childcare facilities in urban areas",
+      "health care, elder housing, and accessible transportation"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Clinics, assisted living, and step-free transit become priorities while school demand falls. Some rural regions see school closures alongside expanding care facilities."
   },
   {

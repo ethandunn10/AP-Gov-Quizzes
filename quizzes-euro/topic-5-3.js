@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-1",
     question: "Britain's rise to global dominance in the eighteenth century rested most directly on",
     options: [
-      "naval supremacy, commercial wealth, and cheap borrowing",
-      "a papal grant of exclusive trading rights across the Atlantic",
       "possession of Europe's richest deposits of silver and gold",
-      "the largest standing army maintained by any European power"
+      "the largest standing army maintained by any European power",
+      "naval supremacy, commercial wealth, and cheap borrowing",
+      "a papal grant of exclusive trading rights across the Atlantic"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The Royal Navy protected trade and struck at rivals' colonies while parliamentary credit let Britain outborrow larger France. Britain deliberately kept its army small."
   },
   {
@@ -43,36 +43,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-4",
     question: "The Seven Years' War (1756-1763) resulted in",
     options: [
-      "French victory and the expulsion of Britain from North America",
       "a negotiated settlement restoring all prewar colonial boundaries",
       "the partition of Britain's colonies among the continental powers",
-      "British acquisition of Canada and dominance in India"
+      "British acquisition of Canada and dominance in India",
+      "French victory and the expulsion of Britain from North America"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Peace of Paris transferred Canada and French claims east of the Mississippi to Britain and left the East India Company ascendant in Bengal. The war's cost then provoked colonial taxation disputes."
   },
   {
     id: "5-3-5",
     question: "British parliamentary government in this period is best described as",
     options: [
-      "an oligarchy of landed and commercial elites on a narrow franchise",
-      "a democracy in which most adult men could vote for representatives",
       "an absolute monarchy in which Parliament served only as an advisory body",
-      "a republic that had abolished the monarchy after the year 1688"
+      "a republic that had abolished the monarchy after the year 1688",
+      "an oligarchy of landed and commercial elites on a narrow franchise",
+      "a democracy in which most adult men could vote for representatives"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "A small propertied electorate returned members through constituencies that often had very few voters, and patronage shaped outcomes. Broad suffrage arrived only with nineteenth-century reform."
   },
   {
     id: "5-3-6",
     question: "The loss of the American colonies affected Britain by",
     options: [
+      "leading Britain to abandon the Royal Navy as too expensive",
       "ending British participation in overseas trade and empire",
       "prompting a strategic shift toward India and the eastern empire",
-      "causing the immediate collapse of the British financial system",
-      "leading Britain to abandon the Royal Navy as too expensive"
+      "causing the immediate collapse of the British financial system"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Britain redirected imperial attention eastward, and trade with the independent United States soon recovered. The 'swing to the east' reshaped the second British Empire."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-8",
     question: "British commercial policy toward its colonies was characterized by",
     options: [
+      "Navigation Acts reserving colonial trade for British shipping",
       "complete free trade allowing colonies to deal with any nation",
       "colonial assemblies controlling all imperial trade regulation",
-      "the abolition of customs duties throughout the empire",
-      "Navigation Acts reserving colonial trade for British shipping"
+      "the abolition of customs duties throughout the empire"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Requiring colonial goods to move in British vessels built up the merchant marine that manned the navy. Colonial resentment of these rules contributed to the American crisis."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-10",
     question: "A historian comparing British and French state development would conclude that",
     options: [
-      "both states had adopted identical fiscal institutions by the year 1789",
       "consent-based taxation gave Britain more fiscal capacity",
       "absolutism produced consistently stronger finances than parliamentary rule",
-      "neither state expanded its revenue or military forces after 1700"
+      "neither state expanded its revenue or military forces after 1700",
+      "both states had adopted identical fiscal institutions by the year 1789"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Parliamentary consent made British debt trustworthy and taxes collectable, while French exemptions and venal offices starved the treasury. The comparison is a standard illustration that limits on power can strengthen a state."
   }
 ];

@@ -7,92 +7,92 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-1",
     question: "Enthalpy change ΔH for a reaction at constant pressure equals",
     options: [
-      "the work done by the system",
-      "the energy transferred as heat",
       "the activation energy",
-      "the change in temperature"
+      "the change in temperature",
+      "the total work done by the system",
+      "the energy transferred as heat"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "At constant pressure, q equals ΔH by definition. This is why open calorimeters measure enthalpy directly."
   },
   {
     id: "6-6-2",
     question: "For the reaction 2H₂ + O₂ → 2H₂O with ΔH = −572 kJ, the enthalpy change when 1 mol of H₂O forms is",
     options: [
+      "+286 kJ",
       "−572 kJ",
       "−286 kJ",
-      "−1144 kJ",
-      "+286 kJ"
+      "−1144 kJ"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The tabulated value corresponds to 2 mol of water, so halve it. Enthalpy scales with the amount of reaction."
   },
   {
     id: "6-6-3",
     question: "If a reaction is reversed, its ΔH",
     options: [
-      "remains the same",
+      "becomes zero",
+      "remains exactly the same value it had before",
       "changes sign but keeps the same magnitude",
-      "doubles",
-      "becomes zero"
+      "doubles"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Enthalpy is a state function, so the path back costs what the forward path released. This property underlies Hess's law."
   },
   {
     id: "6-6-4",
     question: "Enthalpy is called a state function because it",
     options: [
-      "depends on the path taken",
-      "depends only on the initial and final states",
       "changes with time",
-      "cannot be measured"
+      "cannot be measured",
+      "depends entirely on which path is actually taken",
+      "depends only on the initial and final states"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Any route from the same reactants to the same products gives the same ΔH. This lets chemists combine known reactions to find unknown ones."
   },
   {
     id: "6-6-5",
     question: "For an exothermic reaction, ΔH is",
     options: [
-      "positive",
       "negative",
       "zero",
-      "equal to the activation energy"
+      "equal to the activation energy",
+      "positive"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The system loses energy, so its enthalpy decreases. The surroundings warm correspondingly."
   },
   {
     id: "6-6-6",
     question: "Burning 0.500 mol of a fuel releases 445 kJ. The molar enthalpy of combustion is",
     options: [
-      "−445 kJ/mol",
-      "−890 kJ/mol",
       "−223 kJ/mol",
-      "+890 kJ/mol"
+      "+890 kJ/mol",
+      "−445 kJ/mol",
+      "−890 kJ/mol"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "445 ÷ 0.500 = 890 kJ per mole, negative because energy is released. This matches methane's combustion enthalpy."
   },
   {
     id: "6-6-7",
     question: "Multiplying a thermochemical equation by 3 changes ΔH by a factor of",
     options: [
-      "1",
-      "3",
       "1/3",
-      "9"
+      "9",
+      "1",
+      "3"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Three times the reaction releases or absorbs three times the energy. Enthalpy is an extensive quantity."
   },
   {
     id: "6-6-8",
     question: "The standard state of an element is defined as",
     options: [
-      "its gaseous form at any temperature",
-      "its most stable form at 1 bar and a specified temperature, usually 298 K",
+      "its gaseous form at absolutely any chosen temperature at all",
+      "its most stable form at 1 bar and a stated temperature",
       "its liquid form",
       "its ionic form in solution"
     ],
@@ -103,20 +103,20 @@ window.QUIZ_QUESTIONS = [
     id: "6-6-9",
     question: "A thermochemical equation must include",
     options: [
-      "physical states of all species, since ΔH depends on them",
       "the catalyst used",
       "the reaction rate",
-      "the activation energy"
+      "the activation energy required for that reaction",
+      "physical states of all species, since ΔH depends"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Forming liquid water releases more energy than forming water vapor. Omitting states makes the value ambiguous."
   },
   {
     id: "6-6-10",
     question: "ΔH for a reaction is best described as",
     options: [
-      "the energy needed to start the reaction",
-      "the net energy difference between products and reactants under constant pressure",
+      "the amount of energy needed to get the reaction started up",
+      "the net energy difference between products and reactants",
       "the speed of the reaction",
       "the amount of catalyst required"
     ],

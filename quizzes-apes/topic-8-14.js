@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-14-1",
     question: "Lead exposure is particularly harmful to children because lead",
     options: [
-      "is excreted rapidly before it can cause any harm",
       "causes immediate acute poisoning in all cases",
       "impairs brain development, lowering cognitive function",
-      "affects only the respiratory system of children"
+      "affects only the respiratory system of children",
+      "is excreted rapidly before it can ever cause any real harm"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "No safe blood lead level has been identified for children. Old paint, contaminated soil, and aging pipes remain major exposure routes."
   },
   {
     id: "8-14-2",
     question: "The Flint water crisis resulted from",
     options: [
-      "agricultural runoff contaminating the municipal supply",
       "a natural geological source of lead in the aquifer",
       "an industrial chemical spill into the city reservoir",
-      "corrosive water leaching lead from aging service pipes"
+      "corrosive water leaching lead from aging service pipes",
+      "agricultural runoff contaminating the municipal supply"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Switching water sources without proper corrosion control caused the problem. It became a prominent environmental justice case."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-14-4",
     question: "Waterborne infectious disease is most commonly transmitted through",
     options: [
+      "consumption of food grown in polluted soils",
       "airborne droplets spread between infected individuals",
       "water contaminated with human or animal fecal matter",
-      "direct contact with contaminated industrial chemicals",
-      "consumption of food grown in polluted soils"
+      "direct contact with contaminated industrial chemicals"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Cholera, typhoid, and dysentery all follow this route. Sanitation infrastructure is the single most effective intervention."
   },
   {
@@ -58,7 +58,7 @@ window.QUIZ_QUESTIONS = [
       "digestive illness following ingestion of pollutants",
       "acute poisoning immediately after brief exposure",
       "cardiovascular and respiratory disease from chronic exposure",
-      "skin conditions caused by direct contact with particles"
+      "skin conditions caused by direct physical contact with particles"
     ],
     correctIndex: 2,
     explanation: "Fine particulate exposure is linked to heart attack and stroke as well as asthma. Global estimates attribute millions of premature deaths annually to air pollution."
@@ -68,7 +68,7 @@ window.QUIZ_QUESTIONS = [
     question: "Environmental justice concerns arise because pollution burdens",
     options: [
       "affect wealthy neighborhoods more than any others",
-      "have no relationship to income or demographic factors",
+      "have no relationship whatsoever to income or demographic factors",
       "are distributed evenly across all communities equally",
       "fall disproportionately on low income and minority communities"
     ],
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-14-7",
     question: "A dose response relationship for a pollutant helps public health officials",
     options: [
+      "eliminate the pollutant entirely from the environment",
       "set exposure standards that limit population risk",
       "determine which individuals will definitely become ill",
-      "prove that the pollutant causes no harm at all",
-      "eliminate the pollutant entirely from the environment"
+      "prove that the pollutant causes no harm at all"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Standards translate scientific evidence into enforceable limits. They manage population-level risk rather than predicting individual outcomes."
   },
   {
     id: "8-14-8",
     question: "Asthma rates in urban children are associated with exposure to",
     options: [
-      "radon gas entering homes through foundation cracks",
       "traffic related air pollution and indoor allergens",
       "lead contained in older interior house paint",
-      "arsenic present in groundwater drinking supplies"
+      "arsenic present in groundwater drinking supplies",
+      "radon gas entering homes through foundation cracks"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Proximity to major roadways correlates with higher asthma incidence. Indoor triggers such as mold and pests compound the effect."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-14-10",
     question: "Reducing pollution generally produces health benefits that",
     options: [
+      "substantially exceed the cost of implementing controls",
       "cannot be estimated or quantified in any way",
       "accrue only to the industries being regulated",
-      "are consistently smaller than the cost of controls",
-      "substantially exceed the cost of implementing controls"
+      "are consistently far smaller than the cost of the controls"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Avoided illness, hospitalization, and premature death dominate benefit calculations. Clean Air Act analyses show benefits exceeding costs by wide margins."
   }
 ];

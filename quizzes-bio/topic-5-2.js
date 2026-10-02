@@ -12,8 +12,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.2-2",
     question: "Independent assortment during meiosis I refers to:",
-    options: ["Random orientation of each homologous pair", "The pairing of sister chromatids only", "A process exclusive to mitosis alone", "The exchange of DNA between chromatids"],
-    correctIndex: 0,
+    options: ["The pairing of sister chromatids only", "A process exclusive to mitosis alone", "The exchange of DNA between chromatids", "Random orientation of each homologous pair"],
+    correctIndex: 3,
     explanation: "Independent assortment means each pair of homologous chromosomes aligns randomly at the metaphase plate during meiosis I, independent of how other homologous pairs align, generating many possible combinations of maternal and paternal chromosomes in gametes."
   },
   {
@@ -26,22 +26,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.2-4",
     question: "Which of the following contributes to genetic diversity but does NOT occur during mitosis?",
-    options: ["Replication of the DNA", "Cytokinesis of cytoplasm", "Crossing over of homologs", "Chromosome condensation"],
-    correctIndex: 2,
+    options: ["Crossing over of homologs", "Chromosome condensation", "Replication of the DNA", "Cytokinesis of cytoplasm"],
+    correctIndex: 0,
     explanation: "Crossing over specifically occurs between homologous chromosomes during meiotic prophase I; mitosis does not involve pairing of homologs or exchange of genetic material between them."
   },
   {
     id: "5.2-5",
     question: "Random fertilization further increases genetic diversity in sexually reproducing organisms because:",
-    options: ["Any unique sperm can fertilize any unique egg", "All sperm and eggs are genetically identical", "Fertilization always joins the same gametes", "Only one offspring genotype can result"],
-    correctIndex: 0,
+    options: ["All sperm and eggs are genetically identical", "Fertilization always joins the same gametes", "Only one offspring genotype can result", "Any unique sperm can fertilize any unique egg"],
+    correctIndex: 3,
     explanation: "Because independent assortment and crossing over create enormous gamete diversity in both parents, the essentially random pairing of any sperm with any egg during fertilization multiplies the potential genetic combinations even further."
   },
   {
     id: "5.2-6",
     question: "A tetrad, formed during prophase I of meiosis, consists of:",
-    options: ["A single chromosome with two chromatids", "Two homologs with four chromatids", "Four separate, unrelated chromosomes", "A single unreplicated chromosome"],
-    correctIndex: 1,
+    options: ["A single unreplicated chromosome", "A single chromosome with two chromatids", "Two homologs with four chromatids", "Four separate, unrelated chromosomes"],
+    correctIndex: 2,
     explanation: "A tetrad forms when a pair of homologous chromosomes (each already replicated into two sister chromatids) come together during synapsis, resulting in a structure of four chromatids total."
   },
   {
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "5.2-10",
     question: "If crossing over did not occur at all during meiosis, what would be the most direct consequence for genetic diversity?",
-    options: ["Genetic diversity would increase dramatically", "Gametes would carry unshuffled chromosomes", "All organisms would become identical clones", "Meiosis would be unable to occur at all"],
-    correctIndex: 1,
+    options: ["Meiosis would be unable to occur at all", "Genetic diversity would increase dramatically", "Gametes would carry unshuffled chromosomes", "All organisms would become identical clones"],
+    correctIndex: 2,
     explanation: "Without crossing over, each chromosome would be inherited as an intact unit from one parent, reducing genetic variation compared to normal meiosis, although independent assortment would still shuffle whole chromosomes."
   },
 ];

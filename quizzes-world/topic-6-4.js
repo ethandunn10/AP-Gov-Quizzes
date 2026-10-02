@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-1",
     question: "The global economy by 1900 was organized primarily around",
     options: [
+      "equal industrial development across all continents",
       "the dominance of non-industrial economies over the industrial ones",
       "regionally self-sufficient economies with minimal trade",
-      "industrial cores importing raw materials and exporting manufactures",
-      "equal industrial development across all continents"
+      "industrial cores importing raw materials and exporting manufactures"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Rubber, cotton, tin, and grain flowed toward industrial centers while machine goods flowed outward, a pattern reinforced by colonial control. This structure defined economic relationships well past the colonial era."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-3",
     question: "The rubber boom in the Congo Free State is significant because it",
     options: [
+      "demonstrated the developmental benefits of colonial economic rule",
       "forced-labor quotas and mass atrocity that provoked outcry",
       "was conducted entirely with voluntary wage labor",
-      "produced no exports of any significance",
-      "demonstrated the developmental benefits of colonial economic rule"
+      "produced no exports of any significance"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Leopold II's regime enforced rubber quotas with hostage-taking, mutilation, and killing on an enormous scale, and reporting by Morel, Casement, and missionaries forced Belgium to annex the territory. It is the starkest case of extraction by terror."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-6",
     question: "Foreign investment in Latin America in the late nineteenth century typically",
     options: [
-      "built diversified manufacturing industries owned by local investors",
       "had no effect on economic development",
       "was prohibited by Latin American governments",
-      "financed export infrastructure while profits went abroad"
+      "financed export infrastructure while profits went abroad",
+      "built diversified manufacturing industries owned by local investors"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "British and American capital built infrastructure oriented toward getting beef, nitrates, and coffee to ports, which shaped economies around export rather than domestic industry. This is the textbook case of informal empire."
   },
   {
     id: "6-4-7",
     question: "The economic significance of the opening of Japan and China to foreign trade was that it",
     options: [
+      "gave both states full control over their tariffs and trade policy",
       "treaties capping tariffs, though Japan later revised its own terms",
       "eliminated all trade between Asia and the West",
-      "resulted in Asian economic dominance over Europe",
-      "gave both states full control over their tariffs and trade policy"
+      "resulted in Asian economic dominance over Europe"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Unequal treaties capped tariffs and granted extraterritoriality, hobbling both states' ability to protect domestic industry. Japan's success in revising these treaties by 1911 is a measure of how far it had risen."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-10",
     question: "A historian argues that colonial economies were 'developed for extraction, not for growth.' The strongest evidence is",
     options: [
-      "the construction of diversified manufacturing across colonial territories",
-      "colonial investment in universal education and local industry",
       "the equal distribution of infrastructure across colonial interiors",
-      "railroads running from mines to ports, not region to region"
+      "railroads running from mines to ports, not region to region",
+      "the construction of diversified manufacturing across colonial territories",
+      "colonial investment in universal education and local industry"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Colonial rail maps typically show lines running from resource sites straight to the coast, with little internal connection — infrastructure shaped by what it was for. That geography outlasted colonial rule and constrained later development."
   }
 ];

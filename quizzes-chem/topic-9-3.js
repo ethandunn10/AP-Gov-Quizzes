@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-1",
     question: "The Gibbs free energy change is given by",
     options: [
-      "ΔG = ΔH + TΔS",
       "ΔG = ΔH − TΔS",
       "ΔG = TΔS − ΔH",
-      "ΔG = ΔH × TΔS"
+      "ΔG = ΔH × TΔS",
+      "ΔG = ΔH + TΔS"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Temperature must be in kelvins and units must match between the terms. Entropy is usually tabulated in J while enthalpy is in kJ."
   },
   {
@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-3",
     question: "A reaction with ΔH < 0 and ΔS > 0 is favorable",
     options: [
-      "only at high temperature",
       "only at low temperature",
       "at all temperatures",
-      "at no temperature"
+      "at no temperature",
+      "only at high temperature"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Both terms push ΔG negative regardless of T. Combustion reactions typically fall into this category."
   },
   {
     id: "9-3-4",
     question: "A reaction with ΔH > 0 and ΔS > 0 is favorable",
     options: [
-      "at high temperature, where TΔS outweighs ΔH",
       "at low temperature",
-      "at all temperatures",
-      "never"
+      "at absolutely all temperatures without exception",
+      "never",
+      "at high temperature, where TΔS outweighs ΔH"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The entropy term grows with temperature until it dominates. Melting and evaporation follow this pattern."
   },
   {
@@ -67,7 +67,7 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-6",
     question: "A reaction with ΔH > 0 and ΔS < 0 is",
     options: [
-      "favorable at all temperatures",
+      "favorable at absolutely all temperatures",
       "never thermodynamically favorable",
       "favorable at high temperature",
       "favorable at low temperature"
@@ -79,7 +79,7 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-7",
     question: "At the temperature where ΔG = 0, the system is",
     options: [
-      "completely converted to products",
+      "completely converted into all of the products",
       "at equilibrium under standard conditions",
       "unable to react",
       "at absolute zero"
@@ -91,8 +91,8 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-8",
     question: "The term 'thermodynamically favorable' is preferred over 'spontaneous' because",
     options: [
-      "spontaneous implies the reaction occurs rapidly, which favorability does not guarantee",
-      "spontaneous means the reaction is impossible",
+      "spontaneous implies speed, which favorability doesn't",
+      "spontaneous means that the reaction is quite impossible",
       "they mean opposite things",
       "favorable applies only to gases"
     ],
@@ -103,9 +103,9 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-9",
     question: "ΔG° for a reaction can be calculated from",
     options: [
-      "standard free energies of formation, products minus reactants",
+      "standard free energies of formation",
       "the rate constant",
-      "the activation energy",
+      "the activation energy of the reaction",
       "the temperature alone"
     ],
     correctIndex: 0,
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-10",
     question: "Melting ice at 25 °C is thermodynamically favorable because",
     options: [
-      "ΔH is negative",
-      "ΔS is positive and TΔS exceeds the positive ΔH at that temperature",
+      "ΔS is positive and TΔS exceeds ΔH at that temperature",
       "ΔS is negative",
-      "both ΔH and ΔS are negative"
+      "both the ΔH and the ΔS values are negative in this instance",
+      "ΔH is negative"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Melting absorbs energy but increases dispersal substantially. Below 0 °C the TΔS term is too small and freezing becomes favorable instead."
   }
 ];

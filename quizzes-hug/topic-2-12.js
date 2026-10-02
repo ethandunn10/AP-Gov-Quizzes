@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-12-1",
     question: "Remittances are significant to sending countries because they",
     options: [
+      "flow from poorer countries toward wealthier ones",
       "exceed foreign aid as a source of income in many countries",
       "are prohibited by most international banking regulations",
-      "represent a negligible share of any national economy",
-      "flow from poorer countries toward wealthier ones"
+      "represent a negligible share of any national economy"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Money sent home by migrants surpasses official development assistance for many countries and funds housing, schooling, and small business. It also creates dependence on continued emigration."
   },
   {
@@ -32,7 +32,7 @@ window.QUIZ_QUESTIONS = [
     question: "Migration typically affects the age structure of sending regions by",
     options: [
       "increasing the proportion of working-age adults",
-      "producing an even distribution across all age cohorts",
+      "producing an even distribution across all of the age cohorts",
       "leaving behind disproportionately old and young residents",
       "raising the birth rate among the remaining population"
     ],
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-12-6",
     question: "Migration affects the culture of receiving societies by",
     options: [
-      "requiring migrants to abandon all cultural practices immediately",
-      "introducing foods, languages, and religious practices",
       "creating societies with no interaction between groups",
-      "leaving the receiving culture entirely unchanged"
+      "leaving the receiving culture entirely unchanged",
+      "requiring migrants to abandon all cultural practices immediately",
+      "introducing foods, languages, and religious practices"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Cuisine, music, and places of worship visibly reshape receiving cities, and the exchange runs in both directions. Assimilation pressure and nativist reaction are part of the same process."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-12-8",
     question: "Counter-migration or return migration occurs when",
     options: [
-      "migrants move onward to a third destination country",
       "governments forcibly deport all foreign-born residents",
       "sending countries prohibit their citizens from emigrating",
-      "migrants return to their country or region of origin"
+      "migrants return to their country or region of origin",
+      "migrants move onward to a third destination country"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Return often follows retirement, improved conditions at home, or accumulated savings. Returning migrants can bring capital and skills that benefit the origin economy."
   },
   {
     id: "2-12-9",
     question: "Migration can strain receiving areas when",
     options: [
-      "arrivals concentrate faster than housing and services grow",
-      "the number of arrivals is too small to be measured",
       "migrants are dispersed evenly across the whole country",
-      "receiving areas have unlimited housing and school capacity"
+      "receiving areas have unlimited housing and school capacity",
+      "arrivals concentrate faster than housing and services grow",
+      "the number of arrivals is too small to be measured"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Rapid concentrated arrival can outpace school places, clinics, and affordable housing even when the long-run effects are positive. Capacity planning determines much of the local experience."
   },
   {
     id: "2-12-10",
     question: "A geographer assessing migration's overall effects would conclude that it",
     options: [
-      "benefits sending areas while harming receiving areas in all cases",
-      "reshapes origin and destination in context-dependent ways",
       "has no measurable demographic or economic consequences",
-      "produces identical outcomes for sending and receiving areas"
+      "produces identical outcomes for sending and receiving areas",
+      "benefits sending areas while harming receiving areas in all cases",
+      "reshapes origin and destination in context-dependent ways"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Remittances and brain drain affect origins while labor supply and cultural change affect destinations, with outcomes depending on scale and policy. Blanket judgments in either direction fit the evidence poorly."
   }
 ];

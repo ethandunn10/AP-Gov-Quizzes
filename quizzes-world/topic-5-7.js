@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-1",
     question: "The corporation as a business form spread in this period primarily because it",
     options: [
-      "guaranteed profits to all shareholders by law",
       "gave workers direct ownership of the firms in which they worked",
       "let many investors pool capital while capping each one's risk",
-      "eliminated the need for any capital investment"
+      "eliminated the need for any capital investment",
+      "guaranteed profits to all shareholders by law"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Limited liability made it rational to invest in enterprises too large for any individual — railroads, steel mills, shipping lines — without risking one's entire fortune. That risk-sharing is what made industrial-scale capital formation possible."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-3",
     question: "The gold standard's adoption by major economies in the late nineteenth century served to",
     options: [
-      "fix currencies to one measure, making exchange predictable",
       "allow each state to print currency without any limit at all",
       "restrict trade to domestic markets only",
-      "eliminate all international trade"
+      "eliminate all international trade",
+      "fix currencies to one measure, making exchange predictable"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Tying currencies to gold gave merchants and investors confidence that values would hold across borders, lowering the risk of long-term foreign commitments. The cost was that states surrendered control over their money supply."
   },
   {
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-5",
     question: "The shift from subsistence to cash-crop agriculture in colonized regions frequently produced",
     options: [
-      "the immediate industrialization of the colonial countryside",
       "greater food security for local populations",
       "exposure to famine and price shocks, since food was bought",
-      "the elimination of all agricultural labor"
+      "the elimination of all agricultural labor",
+      "the immediate industrialization of the colonial countryside"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Growing cotton or rubber for export meant buying food, so a price collapse or drought could become famine — a pattern visible in colonial India and elsewhere. The change increased exposure to distant markets rather than securing local supply."
   },
   {
     id: "5-7-6",
     question: "The growth of consumer culture in industrializing societies resulted most directly from",
     options: [
-      "government rationing of all consumer goods across the economy",
       "the elimination of retail commerce",
       "a decline in manufacturing output",
-      "cheap output meeting rising wages and advertising"
+      "cheap output meeting rising wages and advertising",
+      "government rationing of all consumer goods across the economy"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Cheap machine-made goods, department stores, and advertising together created mass consumption as a social phenomenon. Rising real wages for some workers gave that supply an audience."
   },
   {
     id: "5-7-7",
     question: "Which best explains the emergence of industrial monopolies and cartels in the late nineteenth century?",
     options: [
-      "firms combined to stop price wars in capital-heavy industries",
       "A shortage of investors willing to fund very large industrial firms",
       "Legal prohibitions on all business combinations",
-      "Government mandates requiring firms to merge"
+      "Government mandates requiring firms to merge",
+      "firms combined to stop price wars in capital-heavy industries"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Steel, oil, and railroads required enormous fixed investment, so price wars were ruinous and combination was attractive. Antitrust law emerged in response to these combinations rather than requiring them."
   },
   {
     id: "5-7-8",
     question: "The insurance industry's growth in this period was connected to industrialization because insurance",
     options: [
-      "eliminated all commercial risk",
       "spread the risk of shipwreck, fire, and industrial accident",
       "replaced banking as the primary source of new investment capital",
-      "was required only for agricultural production"
+      "was required only for agricultural production",
+      "eliminated all commercial risk"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A merchant could commit to a cargo worth more than his entire capital because loss would be shared rather than total. Insurance manages risk rather than removing it, and it worked alongside banking rather than replacing it."
   },
   {
     id: "5-7-9",
     question: "The economic relationship between industrial cores and raw-material peripheries by 1900 is best described as",
     options: [
-      "entirely free of colonial political influence",
       "mutually equal exchange with balanced development on both sides",
       "asymmetrical: volatile exports against costly imports",
-      "one in which peripheries controlled the terms of trade"
+      "one in which peripheries controlled the terms of trade",
+      "entirely free of colonial political influence"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Primary commodity prices swung widely while manufactured goods held value, and colonial power shaped who could produce what. That structural asymmetry, backed by political control, is the defining feature of the relationship."
   },
   {

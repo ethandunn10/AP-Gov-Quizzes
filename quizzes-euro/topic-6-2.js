@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-2-1",
     question: "Continental European states that industrialized after Britain typically relied on",
     options: [
+      "purely private investment with no government involvement at all",
       "refusal to adopt British machinery on nationalist principle",
       "the abolition of tariffs to expose new industries to competition",
-      "state investment in railways, banking, and technical education",
-      "purely private investment with no government involvement at all"
+      "state investment in railways, banking, and technical education"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Latecomers used state banks, tariffs, and engineering schools to compress a process Britain had undergone gradually. Importing British technology and technicians was central rather than forbidden."
   },
   {
     id: "6-2-2",
     question: "The Zollverein was significant to German industrialization because it",
     options: [
-      "granted Prussia a monopoly on coal mining in the Ruhr valley",
-      "unified the German states into a single political nation",
       "established a common currency across all of central Europe",
-      "created a customs union removing internal German tariffs"
+      "created a customs union removing internal German tariffs",
+      "granted Prussia a monopoly on coal mining in the Ruhr valley",
+      "unified the German states into a single political nation"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "A single internal market let German producers reach scale and drew the states toward Prussia economically before political unification. That economic integration prefigured 1871."
   },
   {
@@ -55,48 +55,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-2-5",
     question: "Russian industrialization before 1914 was distinguished by",
     options: [
+      "a fully democratic political system accompanying economic change",
       "an absence of foreign capital and reliance on domestic investment only",
       "the elimination of agriculture as a sector of the Russian economy",
-      "heavy state direction and foreign capital atop a peasant society",
-      "a fully democratic political system accompanying economic change"
+      "heavy state direction and foreign capital atop a peasant society"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Witte financed the Trans-Siberian Railway with French capital and built heavy industry while most Russians remained peasants under autocracy. That mismatch fed later revolution."
   },
   {
     id: "6-2-6",
     question: "Which factor most consistently distinguished regions that industrialized early?",
     options: [
-      "The total land area controlled by the state in question",
       "The absence of any agricultural sector in the local economy",
       "Distance from the equator and a consistently cold winter climate",
-      "Access to coal, transport, capital, and a sizable urban market"
+      "Access to coal, transport, capital, and a sizable urban market",
+      "The total land area controlled by the state in question"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Coalfields near navigable water with capital and buyers nearby account for the early industrial districts of Britain, Belgium, and the Ruhr. Agricultural productivity was a precondition, not an obstacle."
   },
   {
     id: "6-2-7",
     question: "Governments promoted industrial development through tariffs because tariffs",
     options: [
-      "let infant industries grow without being undercut by British goods",
       "immediately lowered prices for consumers in the domestic market",
       "guaranteed access to markets in neighboring foreign countries",
-      "removed any need for domestic investment in new machinery"
+      "removed any need for domestic investment in new machinery",
+      "let infant industries grow without being undercut by British goods"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "New factories could not match British costs at first, so protection bought time to reach competitive scale. Domestic consumers paid higher prices, which made the policy politically contested."
   },
   {
     id: "6-2-8",
     question: "Technical education and engineering schools mattered to continental industrialization because they",
     options: [
-      "were restricted to the sons of the titled aristocracy",
       "produced trained personnel capable of adopting and improving technology",
       "prevented the transfer of British industrial techniques to the continent",
-      "replaced the need for any capital investment in factories"
+      "replaced the need for any capital investment in factories",
+      "were restricted to the sons of the titled aristocracy"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "German and French polytechnics supplied chemists and engineers who let those countries lead in the later science-based industries. Britain's early advantage in practical tinkering eroded as a result."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-2-10",
     question: "A historian comparing British and continental industrialization would conclude that",
     options: [
-      "Britain's government directed its industrialization more than any other",
-      "continental states followed Britain's path in exactly the same sequence",
       "no continental state achieved meaningful industrial growth before 1914",
-      "later industrializers used the state more actively to catch up"
+      "later industrializers used the state more actively to catch up",
+      "Britain's government directed its industrialization more than any other",
+      "continental states followed Britain's path in exactly the same sequence"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Britain industrialized first and most gradually with the least direction, while Germany and Russia used banks, tariffs, and schools to compress the process. Starting position shaped method."
   }
 ];

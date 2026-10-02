@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-1",
     question: "Geographic Information Systems (GIS) are distinguished by their ability to",
     options: [
+      "record the personal observations of a single field researcher",
       "determine a user's absolute location using satellite signals",
       "capture images of the earth's surface from orbiting satellites",
-      "layer and analyze multiple spatial data sets together",
-      "record the personal observations of a single field researcher"
+      "layer and analyze multiple spatial data sets together"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "GIS overlays data such as soils, roads, and population so that relationships between layers can be analyzed. GPS handles location and remote sensing handles imagery."
   },
   {
     id: "1-2-2",
     question: "Remote sensing refers to",
     options: [
+      "collecting data about the earth from satellites or aircraft",
       "interviewing residents about their perceptions of a neighborhood",
       "calculating a location's coordinates using satellite triangulation",
-      "storing and querying spatial data in a layered database",
-      "collecting data about the earth from satellites or aircraft"
+      "storing and querying spatial data in a layered database"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Sensors gather information without physical contact, which makes monitoring deforestation, urban growth, and crops practical at large scale. GPS and GIS perform different functions."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-4",
     question: "Qualitative geographic data would most likely include",
     options: [
-      "statistical records of agricultural yield per hectare",
-      "interviews and field observations about place meaning",
       "census counts of population by age and sex",
-      "satellite measurements of average surface temperature"
+      "satellite measurements of average surface temperature",
+      "statistical records of agricultural yield per hectare",
+      "interviews and field observations about place meaning"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Qualitative data captures experience, perception, and meaning that numbers cannot express. Quantitative data measures and counts, and most research uses both."
   },
   {
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-7",
     question: "Crowdsourced geographic data, such as user-contributed map edits, offers the advantage of",
     options: [
+      "guaranteed accuracy verified by professional surveyors",
       "rapid, detailed updating especially in under-mapped areas",
       "complete coverage of every location on the earth's surface",
-      "the elimination of any need for satellite or census data",
-      "guaranteed accuracy verified by professional surveyors"
+      "the elimination of any need for satellite or census data"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Volunteers mapped Haiti after the 2010 earthquake far faster than official agencies could. The tradeoff is uneven quality and coverage biased toward areas with active contributors."
   },
   {
     id: "1-2-8",
     question: "A city planner deciding where to locate a new fire station would use GIS to",
     options: [
-      "interview residents about their memories of past fires",
-      "overlay road networks, response times, and population density",
       "photograph the proposed building site from a low-flying aircraft",
-      "determine the precise latitude and longitude of the site"
+      "determine the precise latitude and longitude of the site",
+      "interview residents about their memories of past fires",
+      "overlay road networks, response times, and population density"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Combining layers reveals which locations minimize response time for the most residents. The other tools supply inputs but do not perform the spatial analysis."
   },
   {

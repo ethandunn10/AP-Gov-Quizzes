@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-2",
     question: "Geneva under Calvin's influence is best described as",
     options: [
-      "a community that practiced complete religious toleration for all faiths",
       "a secular republic that excluded clergy from all public affairs",
       "a territory governed directly by the Holy Roman Emperor's officials",
-      "a city where church and magistrates jointly enforced moral discipline"
+      "a city where church and magistrates jointly enforced moral discipline",
+      "a community that practiced complete religious toleration for all faiths"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Consistory monitored conduct and the city council enforced its rulings, producing a closely supervised civic order. Servetus's execution shows how little toleration the city extended."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-4",
     question: "The Anabaptists differed from Lutherans and Calvinists chiefly in their",
     options: [
+      "belief that the state should compel all subjects to attend their services",
       "insistence that infants be baptized as soon after birth as possible",
       "rejection of infant baptism and of close ties between church and state",
-      "acceptance of the papacy as the rightful head of the Christian church",
-      "belief that the state should compel all subjects to attend their services"
+      "acceptance of the papacy as the rightful head of the Christian church"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Adult believer's baptism implied a voluntary church separate from civil society, which magistrates of every confession found subversive. Anabaptists were persecuted by Catholics and Protestants alike."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-9",
     question: "Protestantism's effect on education in reformed territories was to",
     options: [
-      "restrict education to the sons of nobles and wealthy urban merchants",
-      "replace vernacular instruction with an exclusively Latin curriculum",
       "expand schooling, since reading scripture required literacy",
-      "close all schools, since salvation depended on faith rather than learning"
+      "close all schools, since salvation depended on faith rather than learning",
+      "restrict education to the sons of nobles and wealthy urban merchants",
+      "replace vernacular instruction with an exclusively Latin curriculum"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Reformers founded schools so ordinary believers could read the Bible themselves, which raised literacy in Protestant regions. Catholic Jesuit schooling expanded in parallel for its own reasons."
   },
   {
     id: "2-3-10",
     question: "A historian explaining Protestantism's appeal to urban populations would emphasize",
     options: [
-      "the promise that towns would be exempted from all forms of taxation",
       "the movement's rejection of commerce and of profit-seeking activity",
       "guild regulations that required merchants to adopt reformed worship",
-      "literacy, resentment of clerical privilege, and a work ethic"
+      "literacy, resentment of clerical privilege, and a work ethic",
+      "the promise that towns would be exempted from all forms of taxation"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Townspeople could read the pamphlets, resented tax-exempt clergy, and found dignity in the reformers' teaching that ordinary callings served God. Reformers did not condemn commerce as such."
   }
 ];

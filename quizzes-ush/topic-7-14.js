@@ -7,21 +7,21 @@ window.QUIZ_QUESTIONS = [
     id: "7-14-1",
     question: "At the Yalta Conference (February 1945), the Allies agreed that",
     options: [
-      "Germany would remain united under Soviet administration",
-      "Germany would be divided into occupation zones and the USSR would enter the war against Japan",
+      "Germany would be divided into zones; the USSR would fight Japan",
       "the United Nations would not be created",
-      "eastern Europe would be governed by Britain"
+      "eastern Europe would be governed by Britain",
+      "Germany would remain united under complete Soviet administration"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Stalin also promised free elections in liberated eastern Europe, a pledge he did not keep. Critics later charged that Roosevelt conceded too much, though the Red Army already held the ground."
   },
   {
     id: "7-14-2",
     question: "The Potsdam Conference (July-August 1945) differed from Yalta in that",
     options: [
-      "Truman and Attlee had replaced Roosevelt and Churchill, and relations were visibly colder",
+      "Truman and Attlee had replaced Roosevelt and Churchill",
       "the Soviet Union did not attend",
-      "it occurred before Germany's surrender",
+      "it took place before Germany's formal surrender in May",
       "it established the Marshall Plan"
     ],
     correctIndex: 0,
@@ -32,9 +32,9 @@ window.QUIZ_QUESTIONS = [
     question: "The United Nations differed from the League of Nations in that it",
     options: [
       "had no permanent headquarters",
-      "included the United States and gave veto power to five permanent Security Council members",
+      "included the U.S. and gave five members veto power",
       "excluded the Soviet Union",
-      "could not authorize the use of force"
+      "could not authorize the use of military force at all"
     ],
     correctIndex: 1,
     explanation: "American membership and great-power vetoes were designed to avoid the League's weaknesses, though the veto also produced Cold War deadlock. The Senate approved the charter overwhelmingly."
@@ -43,34 +43,34 @@ window.QUIZ_QUESTIONS = [
     id: "7-14-4",
     question: "The Bretton Woods agreements (1944) created",
     options: [
-      "the International Monetary Fund and the World Bank, with the dollar tied to gold",
-      "the North Atlantic Treaty Organization",
       "the European Union",
-      "the General Assembly of the United Nations"
+      "the General Assembly of the newly created United Nations body",
+      "the IMF and the World Bank, with the dollar tied to gold",
+      "the North Atlantic Treaty Organization"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Fixed exchange rates anchored on a convertible dollar organized postwar trade and finance around American economic power. NATO followed in 1949."
   },
   {
     id: "7-14-5",
     question: "The Nuremberg Trials established the principle that",
     options: [
+      "only the defeated nation's own soldiers could ever be put on trial",
       "only heads of state could be prosecuted for war",
-      "individuals could be held criminally responsible for crimes against humanity, and following orders was not a defense",
-      "wartime conduct was beyond legal judgment",
-      "only the defeated nation's soldiers could be tried"
+      "individuals bore criminal responsibility; orders were no defense",
+      "wartime conduct was beyond legal judgment"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The tribunals created precedents underlying modern international criminal law. Critics called them victors' justice, since Allied conduct was not examined."
   },
   {
     id: "7-14-6",
     question: "Postwar tension between the United States and the Soviet Union arose most directly over",
     options: [
-      "Soviet installation of communist governments in eastern Europe despite pledges of free elections",
+      "Soviet-installed communist governments across eastern Europe",
       "Soviet refusal to join the United Nations",
       "American occupation of Soviet territory",
-      "disagreement over the Japanese surrender terms alone"
+      "a sharp disagreement over the terms of the Japanese surrender"
     ],
     correctIndex: 0,
     explanation: "Poland was the sharpest case, since Britain had gone to war over it in 1939. Each side read the other's security needs as expansionism."
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-14-7",
     question: "The American atomic monopoly after 1945 affected diplomacy by",
     options: [
-      "eliminating Soviet interest in nuclear weapons",
-      "giving the U.S. temporary leverage while accelerating the Soviet program and mutual distrust",
-      "producing an immediate agreement on international control",
-      "ending conventional military spending"
+      "temporary U.S. leverage while accelerating the Soviet program",
+      "producing an immediate agreement on full international control",
+      "ending conventional military spending",
+      "eliminating Soviet interest in nuclear weapons"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The Baruch Plan for international control failed, and the USSR tested a bomb in 1949. Espionage and Soviet science closed the gap faster than American planners expected."
   },
   {
@@ -92,8 +92,8 @@ window.QUIZ_QUESTIONS = [
     question: "American occupation policy in Japan under MacArthur",
     options: [
       "dismantled Japanese industry permanently",
-      "imposed a democratic constitution, land reform, and demilitarization while retaining the emperor as a symbol",
-      "divided Japan into four occupation zones",
+      "a democratic constitution, land reform, and demilitarization",
+      "divided Japan into four separate Allied occupation zones like Germany",
       "restored the prewar military government"
     ],
     correctIndex: 1,
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-14-9",
     question: "Which best explains why the United States did not return to 1930s-style isolationism after 1945?",
     options: [
-      "Public opinion had turned against the United Nations",
-      "The belief that appeasement and withdrawal had enabled the war, plus new economic and security interests worldwide",
+      "the belief that withdrawal had enabled war, plus new interests",
       "The Constitution had been amended to require alliances",
-      "Europe's rapid economic recovery left no role for American aid"
+      "Europe's rapid economic recovery left no role for American aid",
+      "Public opinion had turned against the United Nations"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "'Lesson of Munich' reasoning shaped a generation of policymakers, and the dollar-centered world economy required engagement. Europe's economy was in fact prostrate, which is why the Marshall Plan followed."
   },
   {
     id: "7-14-10",
     question: "By the end of Period 7, the fundamental change in the international order was that",
     options: [
-      "Britain and France remained the dominant world powers",
-      "the United States and the Soviet Union emerged as superpowers with competing systems",
       "Germany and Japan retained their empires",
-      "the League of Nations had been strengthened"
+      "the League of Nations had been strengthened",
+      "Britain and France remained the dominant powers in the world",
+      "the U.S. and USSR emerged as superpowers with rival systems"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "European empires were exhausted and two powers with global reach and rival ideologies remained. Period 8 opens from exactly this configuration."
   }
 ];

@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-2",
     question: "The Atlantic triangular trade is best described as a system in which",
     options: [
-      "European colonists traded exclusively with Indigenous Americans",
-      "goods to Africa, captives to the Americas, raw materials to Europe",
       "American silver went to Africa in exchange for European woolen textiles",
-      "Asian spices were exchanged directly for African gold"
+      "Asian spices were exchanged directly for African gold",
+      "European colonists traded exclusively with Indigenous Americans",
+      "goods to Africa, captives to the Americas, raw materials to Europe"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Each leg fed the next: guns and cloth purchased captives, captives produced sugar and tobacco, and those goods enriched European ports and manufacturers. The pattern was messier in practice, but this is its basic logic."
   },
   {
     id: "4-5-3",
     question: "The Middle Passage refers specifically to",
     options: [
-      "the passage through the Strait of Magellan",
       "the overland route across the Sahara",
       "the Atlantic crossing carrying enslaved Africans to the Americas",
-      "the Pacific crossing made each year by the Spanish Manila galleons"
+      "the Pacific crossing made each year by the Spanish Manila galleons",
+      "the passage through the Strait of Magellan"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Packed below decks for weeks, roughly one in six captives died of disease, dehydration, or violence during the crossing. The name refers to the middle leg of the triangular trade."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-6",
     question: "The Spanish casta system was designed to",
     options: [
-      "grant equal legal status to all colonial subjects",
       "rank society by ancestry, with peninsulares at the top",
       "distribute land equally among the surviving Indigenous communities",
-      "abolish distinctions between Spaniards and creoles"
+      "abolish distinctions between Spaniards and creoles",
+      "grant equal legal status to all colonial subjects"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The hierarchy ran from Spanish-born peninsulares through American-born creoles to mestizo, mulatto, Indigenous, and African categories, each with different legal and social standing. Creole resentment at being ranked below peninsulares later fed independence movements."
   },
   {
     id: "4-5-7",
     question: "Maroon communities in the Americas are best understood as",
     options: [
-      "trading posts operated by chartered companies",
       "settlements of European indentured servants who had completed their terms",
       "self-governing communities of people who had escaped slavery",
-      "Indigenous villages relocated by colonial authorities"
+      "Indigenous villages relocated by colonial authorities",
+      "trading posts operated by chartered companies"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Groups such as the Jamaican Maroons and Brazil's Palmares built self-governing settlements in difficult terrain and fought off colonial expeditions for decades. They represent sustained, organized resistance rather than isolated flight."
   },
   {
     id: "4-5-8",
     question: "The influx of American silver into Spain contributed to which unintended outcome?",
     options: [
-      "The elimination of Spanish debt and a lasting royal fiscal surplus",
-      "A decline in global demand for silver",
       "The rapid industrialization of the Spanish economy",
-      "Inflation that hurt Spanish industry as silver flowed to Asia"
+      "Inflation that hurt Spanish industry as silver flowed to Asia",
+      "The elimination of Spanish debt and a lasting royal fiscal surplus",
+      "A decline in global demand for silver"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Sudden bullion abundance drove up prices and made Spanish goods uncompetitive, while the crown's wars consumed the revenue and much of the silver ended up paying for Asian imports. Spain remained heavily indebted despite its mines."
   },
   {
     id: "4-5-9",
     question: "Which statement best describes resistance to European maritime empires?",
     options: [
+      "Resistance was rare and was quickly suppressed nearly everywhere",
       "Resistance was constant and varied, from revolt to daily refusal",
       "Resistance occurred only after 1800",
-      "Only European settlers resisted colonial authority",
-      "Resistance was rare and was quickly suppressed nearly everywhere"
+      "Only European settlers resisted colonial authority"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Pueblo Revolt, Palmares, shipboard uprisings, and countless acts of everyday refusal show opposition was constant and took many forms. Treating colonized peoples as passive misreads the evidence badly."
   },
   {
     id: "4-5-10",
     question: "A historian argues that maritime empires 'created the first truly global economy.' The strongest evidence is",
     options: [
-      "the Indian Ocean monsoon trade before 1450",
-      "the Manila galleons linking American silver to Asian goods",
       "the Silk Road trade conducted across Eurasia in the thirteenth century",
-      "the trans-Saharan gold trade"
+      "the trans-Saharan gold trade",
+      "the Indian Ocean monsoon trade before 1450",
+      "the Manila galleons linking American silver to Asian goods"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Only after 1571 did a single commercial circuit connect the Americas, Asia, Africa, and Europe simultaneously — that simultaneity is what makes it global. The other networks were extensive but confined to Afro-Eurasia."
   }
 ];

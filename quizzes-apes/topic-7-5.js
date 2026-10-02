@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-5-1",
     question: "Radon is a significant indoor air pollutant because it",
     options: [
-      "seeps from soil and decays into radioactive particles",
-      "evaporates from newly installed synthetic carpeting",
       "forms when nitrogen oxides react with sunlight indoors",
-      "is produced by burning wood in fireplaces"
+      "is produced by burning wood in fireplaces",
+      "seeps from soil and decays into radioactive particles",
+      "evaporates from newly installed synthetic carpeting"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Radon comes from uranium decay in bedrock and enters through foundation cracks. It is the second leading cause of lung cancer after smoking."
   },
   {
@@ -31,60 +31,60 @@ window.QUIZ_QUESTIONS = [
     id: "7-5-3",
     question: "Formaldehyde in indoor air commonly originates from",
     options: [
+      "combustion of natural gas in kitchen appliances",
       "mold growing on damp interior wall surfaces",
       "soil gas entering through basement foundation cracks",
-      "pressed wood products, furniture, and adhesives",
-      "combustion of natural gas in kitchen appliances"
+      "pressed wood products, furniture, and adhesives"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Off-gassing from particleboard and plywood is the main indoor source. It causes eye and respiratory irritation and is classified as a carcinogen."
   },
   {
     id: "7-5-4",
     question: "Carbon monoxide in homes is most often produced by",
     options: [
+      "incomplete combustion in furnaces, stoves, and heaters",
       "evaporation of solvents from paint and cleaning products",
       "moisture accumulating in poorly ventilated bathrooms",
-      "radioactive decay of uranium in the underlying soil",
-      "incomplete combustion in furnaces, stoves, and heaters"
+      "radioactive decay of uranium in the underlying soil"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Malfunctioning or unvented combustion appliances are the usual culprits. Detectors are essential because the gas is colorless and odorless."
   },
   {
     id: "7-5-5",
     question: "Volatile organic compounds indoors are released by",
     options: [
-      "paints, cleaners, air fresheners, and new materials",
       "radioactive minerals present in granite countertops",
       "condensation forming on cold window surfaces",
-      "soil gas migrating upward into the building"
+      "soil gas migrating upward into the building",
+      "paints, cleaners, air fresheners, and new materials"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Indoor VOC concentrations often exceed outdoor levels substantially. Ventilation and low-VOC product choices are the primary controls."
   },
   {
     id: "7-5-6",
     question: "Sick building syndrome refers to",
     options: [
-      "a specific illness traced to one identifiable contaminant",
-      "symptoms affecting occupants that ease when they leave",
       "structural damage caused by moisture in building materials",
-      "the gradual deterioration of a building's ventilation ducts"
+      "the gradual deterioration of a building's ventilation ducts",
+      "a specific illness traced to one identifiable contaminant",
+      "symptoms affecting occupants that ease when they leave"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Headaches, fatigue, and irritation improve away from the building. Poor ventilation combined with multiple low-level pollutants is the usual cause."
   },
   {
     id: "7-5-7",
     question: "Indoor air pollution in developing countries is dominated by",
     options: [
-      "asbestos fibers released from deteriorating insulation",
-      "formaldehyde emitted from manufactured furniture",
       "smoke from burning wood, dung, and charcoal indoors",
-      "radon gas entering through concrete slab foundations"
+      "radon gas entering through concrete slab foundations",
+      "asbestos fibers released from deteriorating insulation",
+      "formaldehyde emitted from manufactured furniture"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Cooking over open fires causes millions of premature deaths annually. Women and young children receive the heaviest exposure."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-5-9",
     question: "Mold growth indoors is primarily controlled by managing",
     options: [
+      "the amount of natural sunlight entering rooms",
       "moisture from leaks, humidity, and condensation",
       "the number of occupants living in the building",
-      "levels of carbon dioxide inside enclosed rooms",
-      "the amount of natural sunlight entering rooms"
+      "levels of carbon dioxide inside enclosed rooms"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Mold requires moisture, so eliminating water sources eliminates the problem. Killing visible mold without fixing the moisture guarantees regrowth."
   },
   {
     id: "7-5-10",
     question: "Indoor air quality matters greatly to public health because people in developed countries",
     options: [
-      "spend most of their time outdoors in open air",
-      "spend roughly 90 percent of their time indoors",
       "are exposed only to outdoor pollutants each day",
-      "have no measurable exposure to indoor contaminants"
+      "have no measurable exposure to indoor contaminants",
+      "spend most of their time outdoors in open air",
+      "spend roughly 90 percent of their time indoors"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Total exposure depends far more on indoor than outdoor concentrations. Indoor air receives much less regulatory attention than outdoor air."
   }
 ];

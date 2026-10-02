@@ -8,12 +8,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-1",
     question: "Which causal chain best explains why industrialization began in Britain?",
     options: [
-      "Farm surplus freed labor; coal, capital, and law did the rest",
-      "State ownership of industry directed resources into manufacturing",
       "Britain's isolation from overseas trade forced domestic production",
-      "A shrinking population made labor-saving machinery unnecessary"
+      "A shrinking population made labor-saving machinery unnecessary",
+      "Farm surplus freed labor; coal, capital, and law did the rest",
+      "State ownership of industry directed resources into manufacturing"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Each link mattered: productive agriculture released workers, coal near water supplied energy, and patents and contract law made investment worthwhile. Colonial markets and materials reinforced the process."
   },
   {
@@ -32,84 +32,84 @@ window.QUIZ_QUESTIONS = [
     id: "6-10-3",
     question: "The relationship between industrialization and new political ideologies is best described as",
     options: [
+      "ideologies preventing industrial development wherever they spread",
       "ideologies developing entirely independently of economic change",
       "industrialization arising as a consequence of socialist theory",
-      "industrial society generated the problems they addressed",
-      "ideologies preventing industrial development wherever they spread"
+      "industrial society generated the problems they addressed"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Liberalism, socialism, and conservatism each answered questions about work, property, and authority that industrial society had posed. The ideologies followed the transformation rather than causing it."
   },
   {
     id: "6-10-4",
     question: "Which pair of developments has the strongest causal relationship?",
     options: [
-      "Romantic poetry in Britain and the German Zollverein customs union",
-      "The Bessemer process and the Carlsbad Decrees on censorship",
       "Chartism in Britain and Belgian independence from the Netherlands",
-      "The Crimean War's outcome and Russian serf emancipation in 1861"
+      "The Crimean War's outcome and Russian serf emancipation in 1861",
+      "Romantic poetry in Britain and the German Zollverein customs union",
+      "The Bessemer process and the Carlsbad Decrees on censorship"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Defeat exposed the military weakness of a serf-based society and convinced Alexander II that reform could not wait. The other pairings link developments with no causal connection."
   },
   {
     id: "6-10-5",
     question: "A student argues that industrialization improved life for everyone. The best qualification is that",
     options: [
+      "industrialization produced no material improvement for any group",
       "gains were real but uneven, with early workers bearing heavy costs",
       "only agricultural laborers benefited from industrial development",
-      "living standards in 1914 were identical to those of 1815",
-      "industrialization produced no material improvement for any group"
+      "living standards in 1914 were identical to those of 1815"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Real wages and life expectancy rose substantially by the later nineteenth century, while the first industrial decades brought crowding, long hours, and disease. Holding both facts together is the point."
   },
   {
     id: "6-10-6",
     question: "Railways affected European politics as well as economics because they",
     options: [
-      "reduced state revenue by making transport tax-free",
       "let states move troops and officials quickly into their interiors",
       "eliminated the need for governments to maintain standing armies",
-      "confined political authority to the coastal regions of each state"
+      "confined political authority to the coastal regions of each state",
+      "reduced state revenue by making transport tax-free"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Rail extended central authority inland and became central to mobilization planning before 1914. Military timetables built on railways later constrained diplomacy during the July Crisis."
   },
   {
     id: "6-10-7",
     question: "Which effect of industrialization proved most consequential for the twentieth century?",
     options: [
+      "The construction of a small number of monumental railway stations",
       "The introduction of new leisure activities in industrial towns",
       "The temporary growth of the European textile export trade",
-      "industrial and military capacity enabling global dominance",
-      "The construction of a small number of monumental railway stations"
+      "industrial and military capacity enabling global dominance"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Industrial output translated into navies, rifles, and finance that let small European states dominate much larger societies. It also made twentieth-century total war possible."
   },
   {
     id: "6-10-8",
     question: "Which factor best explains variation in the timing of industrialization across Europe?",
     options: [
-      "The total land area controlled by each individual European state",
       "The religious confession that predominated in each given region",
       "The date on which each state adopted a written constitution",
-      "Access to coal and capital, transport links, and the status of labor"
+      "Access to coal and capital, transport links, and the status of labor",
+      "The total land area controlled by each individual European state"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Belgium and the Ruhr had coal, capital, and free labor early, while serfdom and thin credit delayed the east. These structural factors track the timing far better than religion or constitutions."
   },
   {
     id: "6-10-9",
     question: "The causal relationship between reform and revolution in this period is best described as",
     options: [
-      "timely reform often defusing pressure toward revolt",
       "the two being entirely unrelated responses to unrelated problems",
       "reform consistently provoking revolution wherever it was attempted",
-      "revolution always occurring before any reform was ever considered"
+      "revolution always occurring before any reform was ever considered",
+      "timely reform often defusing pressure toward revolt"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Britain's successive franchise extensions and Bismarck's insurance drew potential opponents into the system. Where regimes refused, as in Russia, pressure accumulated toward 1905 and 1917."
   },
   {

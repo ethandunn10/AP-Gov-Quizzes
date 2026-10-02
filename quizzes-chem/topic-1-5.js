@@ -7,32 +7,32 @@ window.QUIZ_QUESTIONS = [
     id: "1-5-1",
     question: "The ground-state electron configuration of a neutral sulfur atom (Z = 16) is",
     options: [
-      "1s² 2s² 2p⁶ 3s² 3p⁴",
-      "1s² 2s² 2p⁶ 3s² 3p⁶",
       "1s² 2s² 2p⁶ 3s² 3p²",
-      "1s² 2s² 2p⁶ 3s¹ 3p⁵"
+      "1s² 2s² 2p⁶ 3s¹ 3p⁵",
+      "1s² 2s² 2p⁶ 3s² 3p⁴",
+      "1s² 2s² 2p⁶ 3s² 3p⁶"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Sixteen electrons fill through 3p⁴. The 3p⁶ option describes argon, and the last violates the Aufbau principle by promoting a 3s electron with no reason."
   },
   {
     id: "1-5-2",
     question: "Which configuration represents an excited state of a neutral atom?",
     options: [
+      "1s² 2s¹",
       "1s² 2s² 2p⁶",
       "1s² 2s² 2p⁵ 3s¹",
-      "1s² 2s² 2p⁴",
-      "1s² 2s¹"
+      "1s² 2s² 2p⁶ 3s² 3p⁶"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The 2p subshell is not filled yet an electron sits in 3s, so energy was absorbed to promote it. The others are legitimate ground states for Ne, O, and Li."
   },
   {
     id: "1-5-3",
     question: "Coulomb's law explains why electrons in the 1s orbital of an atom",
     options: [
-      "are easier to remove than valence electrons",
-      "are held most tightly because they are closest to the nucleus",
+      "are easier to remove than any of the valence electrons",
+      "are held most tightly, being closest to the nucleus",
       "experience no nuclear attraction",
       "have the highest energy of any electrons"
     ],
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-5-5",
     question: "The Pauli exclusion principle requires that",
     options: [
+      "electrons in the same orbital have the same spin",
       "electrons fill the lowest-energy orbitals first",
-      "no two electrons in an atom share all four quantum numbers",
-      "degenerate orbitals are singly occupied before pairing",
-      "electrons in the same orbital have the same spin"
+      "no two electrons share all four quantum numbers",
+      "degenerate orbitals are singly occupied before pairing"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "In practice this limits each orbital to two electrons of opposite spin. The first and third options state the Aufbau principle and Hund's rule."
   },
   {
@@ -91,31 +91,31 @@ window.QUIZ_QUESTIONS = [
     id: "1-5-8",
     question: "Which atom has the ground-state configuration [Ne] 3s² 3p³?",
     options: [
-      "N",
-      "P",
       "As",
-      "Al"
+      "Al",
+      "N",
+      "P"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Ten core electrons plus five valence gives Z = 15, phosphorus. Nitrogen has the same valence pattern but with a [He] core."
   },
   {
     id: "1-5-9",
     question: "Which pair of species is isoelectronic?",
     options: [
-      "Na⁺ and Ne",
       "Na⁺ and Na",
       "Cl and Cl⁻",
-      "Mg and Mg²⁺"
+      "Mg and Mg²⁺",
+      "Na⁺ and Ne"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Both have 10 electrons in the configuration 1s² 2s² 2p⁶. Isoelectronic species share electron count but differ in nuclear charge, which is why Na⁺ is smaller than Ne."
   },
   {
     id: "1-5-10",
     question: "Photoelectron spectroscopy and electron configuration are connected because the spectrum reveals",
     options: [
-      "the total number of electrons only",
+      "only the total number of electrons that are present in the atom",
       "the relative energies and populations of each subshell",
       "the mass of the atom",
       "the number of neutrons"

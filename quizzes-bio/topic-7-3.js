@@ -5,8 +5,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.3-1",
     question: "Artificial selection differs from natural selection primarily because:",
-    options: ["No selection pressure exists in breeding", "Humans choose which traits are favored", "Artificial selection cannot change alleles", "Only plants can undergo artificial selection"],
-    correctIndex: 1,
+    options: ["Humans choose which traits are favored", "Artificial selection cannot change alleles", "Only plants can undergo artificial selection", "No selection pressure exists in breeding"],
+    correctIndex: 0,
     explanation: "In artificial selection, humans intentionally choose organisms with desired traits to breed, acting as the selective pressure instead of the natural environment."
   },
   {
@@ -26,8 +26,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.3-4",
     question: "A potential downside of intense artificial selection, such as in crop monocultures or purebred animals, is:",
-    options: ["Increased diversity protecting against disease", "Reduced diversity and greater vulnerability", "Complete immunity to all diseases", "No effect on the population's genetics"],
-    correctIndex: 1,
+    options: ["Reduced diversity and greater vulnerability", "Complete immunity to all diseases", "No effect on the population's genetics", "Increased diversity protecting against disease"],
+    correctIndex: 0,
     explanation: "Intense artificial selection for specific traits often reduces overall genetic diversity, which can leave populations more susceptible to disease outbreaks or unable to adapt to new environmental challenges."
   },
   {
@@ -40,36 +40,36 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.3-6",
     question: "Compared to natural selection, artificial selection can often produce noticeable trait changes:",
-    options: ["Much more slowly, over millions of years", "Much more quickly, with strong selection", "At exactly the same rate in all cases", "Only in single-celled organisms"],
-    correctIndex: 1,
+    options: ["At exactly the same rate in all cases", "Only in single-celled organisms", "Much more slowly, over millions of years", "Much more quickly, with strong selection"],
+    correctIndex: 3,
     explanation: "Because humans can apply very strong and consistent selection pressure for particular traits, artificial selection often produces noticeable changes much faster than natural selection typically does in the wild."
   },
   {
     id: "7.3-7",
     question: "In a typical selective breeding program, breeders choose individuals with desired traits to reproduce, then:",
-    options: ["Prevent those individuals from reproducing", "Keep selecting that trait over generations", "Randomly mix all individuals regardless", "Stop after a single generation for best results"],
-    correctIndex: 1,
+    options: ["Randomly mix all individuals regardless", "Stop after a single generation for best results", "Prevent those individuals from reproducing", "Keep selecting that trait over generations"],
+    correctIndex: 3,
     explanation: "Selective breeding programs repeat the selection process across many generations, progressively increasing the prevalence of the desired trait in the population."
   },
   {
     id: "7.3-8",
     question: "A major risk of reduced genetic diversity from artificial selection in agriculture is that a population may become:",
-    options: ["Completely resistant to all pests and disease", "Highly vulnerable to a single pest or disease", "Completely unable to reproduce", "Immune to any environmental change"],
-    correctIndex: 1,
+    options: ["Highly vulnerable to a single pest or disease", "Completely unable to reproduce", "Immune to any environmental change", "Completely resistant to all pests and disease"],
+    correctIndex: 0,
     explanation: "When a crop or livestock population has low genetic diversity due to intensive selective breeding, a single pathogen or pest that can exploit the shared genetic vulnerability can devastate the entire population."
   },
   {
     id: "7.3-9",
     question: "Artificial selection provides strong support for evolution by natural selection because it demonstrates that:",
-    options: ["Evolution needs human involvement to occur", "Selection on variation can change traits", "Traits cannot be inherited at all", "Species are fixed and unchangeable"],
-    correctIndex: 1,
+    options: ["Selection on variation can change traits", "Traits cannot be inherited at all", "Species are fixed and unchangeable", "Evolution needs human involvement to occur"],
+    correctIndex: 0,
     explanation: "By showing that deliberately selecting for heritable traits reliably changes populations over generations, artificial selection provides a real-world demonstration of the basic mechanism (selection acting on heritable variation) underlying natural selection."
   },
   {
     id: "7.3-10",
     question: "Which of the following best distinguishes artificial selection from natural selection?",
-    options: ["The source of the selective pressure", "Artificial selection does not involve genetics", "Natural selection always happens faster", "Only artificial selection can raise fitness"],
-    correctIndex: 0,
+    options: ["Only artificial selection can raise fitness", "The source of the selective pressure", "Artificial selection does not involve genetics", "Natural selection always happens faster"],
+    correctIndex: 1,
     explanation: "Both processes rely on selecting individuals with certain heritable traits to reproduce more; the key difference is who or what is doing the selecting — humans choosing traits deliberately versus the natural environment imposing selective pressures."
   },
 ];

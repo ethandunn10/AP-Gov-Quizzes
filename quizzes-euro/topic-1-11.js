@@ -8,12 +8,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-11-1",
     question: "Which causal chain best explains why the Renaissance began in Italy?",
     options: [
-      "Trade wealth funded competitive patronage amid surviving classical remains",
       "Italy's isolation from Mediterranean commerce preserved its ancient culture",
       "Northern humanist scholarship spread southward and took root in Italy",
-      "Italian political unity produced a treasury able to fund artists directly"
+      "Italian political unity produced a treasury able to fund artists directly",
+      "Trade wealth funded competitive patronage amid surviving classical remains"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Commerce created urban wealth, rivalry among families and states turned that wealth into patronage, and Roman ruins and manuscripts supplied the models. Italy was fragmented, not unified, and the influence ran from Italy northward."
   },
   {
@@ -56,24 +56,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-11-5",
     question: "A student argues that technology caused European expansion. The best refinement is that technology",
     options: [
-      "made expansion feasible, while commerce and rivalry gave the motive",
-      "played no part, since expansion rested entirely on religious motivation",
       "was the sole cause, since motives were identical in every European state",
-      "was developed specifically and only for the purpose of overseas conquest"
+      "was developed specifically and only for the purpose of overseas conquest",
+      "made expansion feasible, while commerce and rivalry gave the motive",
+      "played no part, since expansion rested entirely on religious motivation"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Capability and motive are different things, and Ming China's withdrawal shows capability alone produces no expansion. Confusing enabling conditions with causes is the error to avoid."
   },
   {
     id: "1-11-6",
     question: "The influx of American silver caused which chain of effects in Europe?",
     options: [
+      "The abandonment of coinage in favor of barter throughout the continent",
       "A permanent fiscal surplus that ended Spanish government borrowing",
       "More money in circulation, rising prices, and pressure on wage earners",
-      "Less money in circulation, falling prices, and gains for wage earners",
-      "The abandonment of coinage in favor of barter throughout the continent"
+      "Less money in circulation, falling prices, and gains for wage earners"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Bullion inflow combined with population growth drove the price revolution, eroding real wages and fixed rents. Spain remained heavily indebted despite its mines, since war consumed the revenue."
   },
   {
@@ -92,12 +92,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-11-8",
     question: "Which causal relationship between humanism and the Reformation is best supported?",
     options: [
+      "Humanist textual criticism gave reformers tools to use against Rome",
       "Humanists organized and led the break with Rome as a deliberate program",
       "Humanism had no bearing on religious reform, which arose independently",
-      "The Reformation preceded humanism and produced it as a consequence",
-      "Humanist textual criticism gave reformers tools to use against Rome"
+      "The Reformation preceded humanism and produced it as a consequence"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Erasmus's Greek New Testament exposed mistranslations underpinning contested doctrines, and printing carried such arguments widely. Most humanists, Erasmus included, sought reform within the church rather than schism."
   },
   {
@@ -116,12 +116,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-11-10",
     question: "Which conclusion about 1450 to 1648 is best supported by evidence across the unit?",
     options: [
-      "The period produced no lasting change in European economic structures",
-      "Europe's internal changes and overseas expansion reinforced one another",
       "Cultural revival and overseas expansion were entirely unrelated processes",
-      "European expansion had no effect on societies outside of Europe itself"
+      "European expansion had no effect on societies outside of Europe itself",
+      "The period produced no lasting change in European economic structures",
+      "Europe's internal changes and overseas expansion reinforced one another"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "State centralization funded voyages, overseas bullion financed states and wars, and printing carried both classical learning and news of the wider world. Treating these as separate stories misses how tightly they were linked."
   }
 ];

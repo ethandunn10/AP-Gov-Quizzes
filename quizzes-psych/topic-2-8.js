@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-1",
     question: "A test yields nearly identical scores when the same student takes it twice a month apart. This demonstrates the test's",
     options: [
-      "validity",
       "standardization sample",
       "predictive power",
-      "reliability"
+      "reliability",
+      "validity"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Consistency of measurement across administrations is reliability. A test can be highly reliable and still invalid — consistently measuring something other than what it claims to measure."
   },
   {
@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-3",
     question: "Intelligence test scores are typically distributed so that about 68% of people fall within one standard deviation of the mean. This reflects",
     options: [
+      "the absence of variation in the standardization sample",
       "a skewed distribution caused by test bias",
       "the use of a criterion-referenced scoring system",
-      "a normal distribution produced by standardization",
-      "the absence of variation in the standardization sample"
+      "a normal distribution produced by standardization"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Standardized tests are constructed so scores form a bell curve around a set mean. A skew would indicate the scoring was not normed as intended."
   },
   {
     id: "2-8-4",
     question: "Spearman's concept of g was proposed to explain the observation that",
     options: [
+      "test performance depends very heavily on a person's cultural background",
       "scores on different mental abilities tend to correlate positively",
       "people show distinct strengths in unrelated domains",
-      "intelligence scores rise across generations over time",
-      "test performance depends heavily on cultural background"
+      "intelligence scores rise across generations over time"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Positive correlations across diverse subtests suggested a general factor underlying them all. Theories emphasizing distinct independent abilities, such as Gardner's, were developed as alternatives to exactly that claim."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-6",
     question: "An older adult performs worse than a young adult on timed reasoning puzzles but better on vocabulary. This pattern reflects the distinction between",
     options: [
+      "convergent and divergent thinking styles",
       "reliability and validity",
       "fluid and crystallized intelligence",
-      "achievement and aptitude testing",
-      "convergent and divergent thinking"
+      "achievement and aptitude testing"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Fluid intelligence, used for novel reasoning under time pressure, declines with age, while crystallized knowledge accumulates. The contrast within a single person is the giveaway."
   },
   {
     id: "2-8-7",
     question: "Reminding students of a negative stereotype about their group before a test lowers their scores. This effect is known as",
     options: [
+      "the Flynn effect",
       "stereotype threat",
       "the self-fulfilling prophecy of teachers",
-      "test-retest unreliability",
-      "the Flynn effect"
+      "test-retest unreliability"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Anxiety about confirming a stereotype consumes working memory and depresses performance. The Flynn effect is unrelated — it describes rising average scores across generations."
   },
   {
     id: "2-8-8",
     question: "A test written entirely in idiomatic English is given to recent immigrants and yields low scores. The central measurement concern is that the test",
     options: [
-      "is unreliable because scores vary between administrations",
+      "produces scores that are not normally distributed",
+      "is unreliable because the scores vary widely between administrations",
       "lacks a standardization sample of any kind",
-      "may measure language familiarity rather than reasoning ability",
-      "produces scores that are not normally distributed"
+      "may measure language familiarity rather than reasoning ability"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "When performance depends on familiarity with a specific language or culture, the test loses validity for the group being assessed. This is a validity problem, not a consistency problem."
   },
   {
@@ -104,7 +104,7 @@ window.QUIZ_QUESTIONS = [
     question: "The Flynn effect refers to the finding that",
     options: [
       "intelligence scores are highly heritable within populations",
-      "scores predict job performance better than school performance",
+      "scores predict job performance better than school performance does",
       "creativity and intelligence scores are essentially unrelated",
       "average intelligence test scores rose over the twentieth century"
     ],

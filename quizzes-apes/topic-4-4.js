@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-1",
     question: "The most abundant gas in Earth's atmosphere is",
     options: [
-      "nitrogen, making up about 78 percent of air",
       "carbon dioxide, present at roughly 4 percent",
       "argon, which comprises nearly 10 percent of air",
-      "oxygen, making up about 21 percent of air"
+      "oxygen, making up about 21 percent of air",
+      "nitrogen, making up about 78 percent of air"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Nitrogen dominates dry air, followed by oxygen at about 21 percent and argon under 1 percent. Carbon dioxide is present at roughly 0.04 percent."
   },
   {
     id: "4-4-2",
     question: "The troposphere is significant because it",
     options: [
+      "has temperatures that rise steadily with height",
       "contains the stratospheric ozone layer",
       "holds most atmospheric mass and all weather",
-      "extends from 50 to 85 kilometers in altitude",
-      "has temperatures that rise steadily with height"
+      "extends from 50 to 85 kilometers in altitude"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "About three quarters of atmospheric mass and nearly all water vapor sit in this lowest layer. Temperature falls with altitude here, driving convection and weather."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-5",
     question: "Atmospheric pressure decreases with altitude because",
     options: [
-      "less air mass lies above at greater heights",
       "the atmosphere becomes chemically different above",
       "gravity becomes substantially weaker with altitude",
-      "temperature falls steadily as elevation increases"
+      "temperature falls steadily as elevation increases",
+      "less air mass lies above at greater heights"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Pressure at any point reflects the weight of air above it. Gravity weakens only slightly over atmospheric distances."
   },
   {
     id: "4-4-6",
     question: "Stratospheric ozone is beneficial because it",
     options: [
-      "traps heat and warms Earth's lower atmosphere",
       "absorbs ultraviolet radiation harmful to life",
       "provides the oxygen humans breathe at the surface",
-      "reflects incoming visible sunlight back to space"
+      "reflects incoming visible sunlight back to space",
+      "traps heat and warms Earth's lower atmosphere"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The ozone layer screens UV-B that causes skin cancer and damages DNA. Ground-level ozone, by contrast, is a harmful pollutant."
   },
   {
     id: "4-4-7",
     question: "Water vapor is a variable atmospheric component that",
     options: [
+      "is entirely absent from the troposphere",
       "makes up a constant 21 percent of the atmosphere",
       "remains at a fixed concentration everywhere",
-      "ranges from near zero to several percent by volume",
-      "is entirely absent from the troposphere"
+      "ranges from near zero to several percent by volume"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Concentration varies with temperature and location, from deserts to humid tropics. Water vapor is also the most abundant greenhouse gas."
   },
   {
@@ -103,19 +103,19 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-9",
     question: "The thermosphere reaches very high temperatures yet would not feel hot because",
     options: [
-      "the air is so thin that little heat transfers",
-      "the layer contains no gas molecules at all",
       "temperatures there drop sharply during the night",
-      "temperature there is measured on a different scale"
+      "temperature there is measured on a different scale",
+      "the air is so thin that little heat transfers",
+      "the layer contains no gas molecules at all"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Individual molecules move very fast, but there are too few to transfer meaningful energy. Temperature and heat content are distinct quantities."
   },
   {
     id: "4-4-10",
     question: "Human activity has most significantly altered atmospheric composition by",
     options: [
-      "increasing the proportion of nitrogen in the air",
+      "increasing the proportion of nitrogen in the air overall",
       "raising concentrations of carbon dioxide and methane",
       "removing most of the oxygen from the atmosphere",
       "eliminating water vapor from the troposphere"

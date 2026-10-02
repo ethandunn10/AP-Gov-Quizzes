@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-1",
     question: "Colonial economies were typically reorganized around",
     options: [
-      "diversified manufacturing owned by local investors",
       "subsistence farming insulated from world market prices",
       "one or two export commodities sold into world markets",
-      "heavy industry supplying the colony's own domestic needs"
+      "heavy industry supplying the colony's own domestic needs",
+      "diversified manufacturing owned by local investors"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cocoa, rubber, cotton, or minerals dominated colonial output, leaving economies exposed to price swings they could not influence. Colonial policy discouraged competing manufactures."
   },
   {
@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-3",
     question: "Indian deindustrialization under British rule resulted primarily from",
     options: [
+      "Indian weavers voluntarily abandoning their traditional craft",
       "colonial policy opening India to British cloth while curbing it",
       "an Indian technological inability to produce cotton textiles",
-      "a shortage of raw cotton within the Indian subcontinent",
-      "Indian weavers voluntarily abandoning their traditional craft"
+      "a shortage of raw cotton within the Indian subcontinent"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Tariff structures and free-trade imposition turned a leading textile exporter into a supplier of raw cotton and a buyer of British cloth. India had ample cotton and centuries of weaving expertise."
   },
   {
     id: "7-7-4",
     question: "Famines in colonial territories were worsened by",
     options: [
+      "the absence of any railways capable of moving food supplies",
       "colonial governments distributing free grain to affected districts",
       "export farming, market relief policy, and revenue demands",
-      "the prohibition of all grain exports during periods of shortage",
-      "the absence of any railways capable of moving food supplies"
+      "the prohibition of all grain exports during periods of shortage"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Grain was exported while people starved, and officials committed to market principles resisted direct relief while collecting taxes. Drought triggered these famines but policy determined the death toll."
   },
   {
@@ -67,48 +67,48 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-6",
     question: "Resistance to European imperial expansion took which forms?",
     options: [
-      "Universal and immediate submission without any opposition",
-      "Exclusively legal petitions submitted to European courts",
       "Resistance that began only after the First World War ended",
-      "Armed revolt, religious revival, and defensive modernization"
+      "Armed revolt, religious revival, and defensive modernization",
+      "Universal and immediate submission without any opposition",
+      "Exclusively legal petitions submitted to European courts"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The Mahdist state, the Boxer Rising, Ethiopian victory at Adwa, and Ottoman and Japanese reform all illustrate different responses. Treating colonized peoples as passive misreads the record badly."
   },
   {
     id: "7-7-7",
     question: "Ethiopia's victory over Italy at Adwa in 1896 is significant because it",
     options: [
-      "kept Ethiopia independent and showed a European army could be beaten",
-      "was achieved without any modern firearms on the Ethiopian side",
       "was the only instance of African resistance anywhere on the continent",
-      "resulted in Italian colonization of the Ethiopian highlands"
+      "resulted in Italian colonization of the Ethiopian highlands",
+      "kept Ethiopia independent and showed a European army could be beaten",
+      "was achieved without any modern firearms on the Ethiopian side"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Menelik II had modernized and armed his forces, and the victory preserved Ethiopian independence through the entire scramble. Resistance occurred across Africa; what made Adwa exceptional was success."
   },
   {
     id: "7-7-8",
     question: "Imperialism affected European societies themselves by",
     options: [
+      "eliminating economic inequality within European states",
       "ending nationalist sentiment in the imperial powers",
       "shaping popular culture, racial thinking, and national identity",
-      "reducing European interest in overseas trade and investment",
-      "eliminating economic inequality within European states"
+      "reducing European interest in overseas trade and investment"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Exhibitions, adventure fiction, and missionary reports carried empire into everyday European life and normalized racial hierarchy. Imperial pride became part of how Europeans understood their nations."
   },
   {
     id: "7-7-9",
     question: "Migration patterns in the age of imperialism included",
     options: [
-      "migration confined entirely within Europe's own borders",
-      "the return of most overseas migrants to their countries of origin",
       "European settlement abroad plus indentured Asian migration",
-      "no significant movement of people between world regions"
+      "no significant movement of people between world regions",
+      "migration confined entirely within Europe's own borders",
+      "the return of most overseas migrants to their countries of origin"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Tens of millions of Europeans went to the Americas and Australasia while Indian and Chinese indentured workers moved to plantations and mines. Colonial links channeled both flows."
   },
   {

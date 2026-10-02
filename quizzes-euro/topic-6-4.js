@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-1",
     question: "The industrial middle class defined itself primarily by",
     options: [
-      "inherited land, noble title, and hereditary legal privilege",
       "membership in agricultural laboring households in the countryside",
       "income from business and the professions, plus respectability",
-      "employment as wage laborers in textile mills and coal mines"
+      "employment as wage laborers in textile mills and coal mines",
+      "inherited land, noble title, and hereditary legal privilege"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Factory owners, managers, doctors, and lawyers earned rather than inherited their position and prized work, education, and domestic propriety. That cultural self-definition mattered as much as the income."
   },
   {
     id: "6-4-2",
     question: "The doctrine of separate spheres held that",
     options: [
-      "men and women should share wage labor and politics equally",
       "all women should be employed in factory and mine work",
       "household labor ought to be performed exclusively by men",
-      "women belonged to the home while men operated in public life"
+      "women belonged to the home while men operated in public life",
+      "men and women should share wage labor and politics equally"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "This ideal sentimentalized the private household against a competitive public world and justified excluding women from politics. It described a middle-class aspiration working-class families could not afford."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-5",
     question: "Child labor was widespread in early factories because children",
     options: [
-      "were the only workers physically capable of operating machinery",
-      "were required by international agreement to enter the workforce",
       "could be paid less and fitted into small spaces around machines",
-      "were preferred by families over sending adults out to work"
+      "were preferred by families over sending adults out to work",
+      "were the only workers physically capable of operating machinery",
+      "were required by international agreement to enter the workforce"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Employers valued cheapness and small size, and poor families needed the income to survive. Factory acts progressively restricted the practice from the 1830s onward."
   },
   {
     id: "6-4-6",
     question: "Public education expanded in industrial societies largely because",
     options: [
-      "religious authorities opposed all forms of organized schooling",
-      "employers wished to reduce the available supply of labor",
       "schooling had no relationship to economic or political needs",
-      "industry and the state needed literate, punctual populations"
+      "industry and the state needed literate, punctual populations",
+      "religious authorities opposed all forms of organized schooling",
+      "employers wished to reduce the available supply of labor"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Factories, offices, railways, and conscript armies all required basic literacy and habits of regularity, and states wanted citizens who could read national newspapers. Schooling served economic and nation-building purposes together."
   },
   {
     id: "6-4-7",
     question: "Commercial leisure such as spectator sport and seaside excursions emerged because",
     options: [
-      "shorter hours, rail travel, and wages created time and means",
-      "workers in this period had no free time available to them",
       "governments required participation in organized recreation",
-      "these activities required no money for anyone to access them"
+      "these activities required no money for anyone to access them",
+      "shorter hours, rail travel, and wages created time and means",
+      "workers in this period had no free time available to them"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Saturday half-holidays, cheap excursion trains, and disposable income turned free time into a commercial industry. That commercialization of leisure is itself a marker of industrial society."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-4-10",
     question: "A historian assessing industrialization's social effects would conclude that it",
     options: [
-      "left the structure of European society essentially unchanged",
-      "eliminated inequality between social groups in industrial states",
       "affected factory owners but had no impact on working households",
-      "created new classes and reshaped family, work, and daily life"
+      "created new classes and reshaped family, work, and daily life",
+      "left the structure of European society essentially unchanged",
+      "eliminated inequality between social groups in industrial states"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Proletarians and professionals alike defined themselves by their place in industrial production, and time, gender roles, and schooling all shifted with it. Inequality changed form rather than disappearing."
   }
 ];

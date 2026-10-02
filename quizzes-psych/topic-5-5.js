@@ -7,46 +7,46 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-1",
     question: "A therapist helps a client identify and challenge the belief that any mistake means total failure. This approach is",
     options: [
-      "psychoanalytic therapy",
       "client-centered therapy",
       "systematic desensitization",
-      "cognitive therapy"
+      "cognitive therapy",
+      "psychoanalytic therapy"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Cognitive therapy targets distorted thought patterns directly. Client-centered therapy would instead provide empathy and unconditional positive regard without challenging specific beliefs."
   },
   {
     id: "5-5-2",
     question: "A client with a fear of flying learns relaxation, then works up a hierarchy from photographs of planes to an actual flight. This is",
     options: [
-      "systematic desensitization",
       "aversive conditioning",
       "token economy treatment",
-      "rational-emotive therapy"
+      "rational-emotive behavior therapy",
+      "systematic desensitization"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Pairing graduated exposure with relaxation replaces the fear response through counterconditioning. Aversive conditioning does the opposite, linking an unwanted behavior to something unpleasant."
   },
   {
     id: "5-5-3",
     question: "Rogers's client-centered therapy is characterized by the therapist's use of",
     options: [
-      "active listening and unconditional positive regard",
       "interpretation of dreams and free association",
-      "direct instruction in coping skills and homework",
-      "scheduled reinforcement of desirable behaviors"
+      "direct instruction in coping skills and weekly homework",
+      "scheduled reinforcement of desirable behaviors",
+      "active listening and unconditional positive regard"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The humanistic therapist provides genuineness, empathy, and acceptance so the client can move toward growth. Dream interpretation belongs to psychoanalysis and skill instruction to cognitive-behavioral approaches."
   },
   {
     id: "5-5-4",
     question: "SSRIs treat depression primarily by",
     options: [
-      "increasing the total amount of serotonin the body produces",
+      "increasing the total amount of serotonin that the body produces",
       "blocking reuptake so serotonin remains available in the synapse",
       "blocking dopamine receptors in the limbic system",
-      "stimulating the release of endorphins into the bloodstream"
+      "stimulating the release of endorphins directly into the bloodstream"
     ],
     correctIndex: 1,
     explanation: "Selective serotonin reuptake inhibitors prolong serotonin's presence in the synaptic gap rather than manufacturing more of it. Dopamine receptor blockade is the mechanism of antipsychotic medication."
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-5",
     question: "Which finding would best support the claim that a specific therapy works, rather than that clients improve on their own?",
     options: [
-      "Treated clients improve more than a randomly assigned waitlist group",
-      "Most clients report feeling better after finishing treatment",
       "Clients who choose the therapy improve more than those who do not",
-      "Therapists rate their own clients as substantially improved"
+      "Therapists rate their own clients as substantially improved",
+      "Treated clients improve more than a waitlist control group",
+      "Most clients report feeling better after finishing treatment"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "A randomized comparison controls for spontaneous remission and regression to the mean. Self-selected comparisons and therapist ratings are both vulnerable to bias."
   },
   {
     id: "5-5-6",
     question: "Antipsychotic medications that block dopamine receptors are most effective against",
     options: [
-      "negative symptoms such as flat affect and withdrawal",
       "positive symptoms such as hallucinations and delusions",
       "the cognitive deficits associated with the disorder",
-      "the depressive episodes of bipolar disorder"
+      "the depressive episodes of bipolar disorder",
+      "negative symptoms such as flat affect and social withdrawal"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Traditional antipsychotics reduce hallucinations and delusions far more reliably than they address negative or cognitive symptoms. That limitation is a major reason newer agents were developed."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-8",
     question: "Meta-analyses comparing psychotherapies generally find that",
     options: [
-      "one approach is clearly superior for every disorder",
-      "psychotherapy performs no better than no treatment at all",
+      "psychotherapy performs no better than receiving no treatment at all",
       "common factors contribute substantially across different approaches",
-      "medication is always more effective than any talk therapy"
+      "medication is always more effective than any talk therapy",
+      "one approach is clearly superior for every disorder"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The therapeutic alliance, expectancy, and empathy account for a large share of improvement across methods, though certain approaches do outperform others for specific conditions. Therapy reliably beats no treatment."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-10",
     question: "A client with severe depression who has not responded to medication or therapy might be considered for electroconvulsive therapy because",
     options: [
+      "it is the standard first-line treatment for major depression",
       "it has no side effects of any kind for the patient",
       "it can produce rapid improvement in treatment-resistant cases",
-      "it permanently prevents any recurrence of depression",
-      "it is the standard first-line treatment for depression"
+      "it permanently prevents any recurrence of depression"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Modern ECT is reserved for severe, treatment-resistant cases, where response can be rapid. Memory side effects do occur and relapse is possible, so it is neither risk-free nor a permanent cure."
   }
 ];

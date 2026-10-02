@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-2-2",
     question: "The acronym HIPPO summarizes threats to biodiversity, where the first letter stands for",
     options: [
-      "Human population growth in developing regions",
       "Heavy metal contamination of soils and water",
       "Hunting pressure on large vertebrate species",
-      "Habitat loss, the largest single threat"
+      "Habitat loss, the largest single threat",
+      "Human population growth in developing regions"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "HIPPO stands for habitat loss, invasive species, pollution, population, and overharvesting. The ordering roughly reflects their relative importance."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-2-5",
     question: "Roads affect ecosystems beyond the pavement itself through",
     options: [
-      "reducing the spread of invasive plant species",
       "increasing the connectivity of wildlife populations",
       "vehicle mortality, noise, and barrier effects",
-      "improving water quality in adjacent streams"
+      "improving water quality in adjacent streams",
+      "reducing the spread of invasive plant species"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The zone of ecological influence extends well beyond the roadway. Roads also serve as corridors for invasive species to spread."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "8-2-7",
     question: "Dams affect river ecosystems by",
     options: [
+      "increasing sediment delivery to downstream deltas",
       "blocking migration and altering flow and temperature",
       "improving spawning habitat for migratory fish",
-      "having no measurable effect on river ecology",
-      "increasing sediment delivery to downstream deltas"
+      "having no measurable effect on river ecology"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Salmon and sturgeon populations collapsed on many dammed rivers. Cold deep-water releases also shift downstream species composition."
   },
   {
     id: "8-2-8",
     question: "Monoculture agriculture reduces ecosystem function because it",
     options: [
-      "supports a wider variety of native species",
       "replaces diverse communities with one crop species",
       "eliminates the need for any pest management",
-      "increases the genetic diversity of the landscape"
+      "increases the genetic diversity of the landscape",
+      "supports a wider variety of native species"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Uniform fields support far fewer species than the habitats they replaced. Pollinator and natural enemy populations decline along with plant diversity."
   },
   {
     id: "8-2-9",
     question: "Ecological restoration attempts to",
     options: [
-      "permanently exclude all human access to an area",
-      "convert natural ecosystems into productive farmland",
       "return a degraded ecosystem toward its former condition",
-      "introduce as many nonnative species as possible"
+      "introduce as many nonnative species as possible",
+      "permanently exclude all human access to an area",
+      "convert natural ecosystems into highly productive farmland"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Wetland reconstruction and prairie replanting are common examples. Full restoration to original condition is rarely achievable in practice."
   },
   {
     id: "8-2-10",
     question: "Human impacts on ecosystems are often described as compounding because multiple stressors",
     options: [
-      "affect ecosystems only when they occur separately",
-      "have no relationship to one another in any way",
       "cancel each other out, reducing total damage",
-      "interact so combined effects exceed individual ones"
+      "interact so combined effects exceed individual ones",
+      "affect ecosystems only when they occur separately",
+      "have no relationship to one another in any way"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "A reef facing warming, acidification, and nutrient pollution fares worse than any single stressor would predict. Managing one threat may not help if others persist."
   }
 ];

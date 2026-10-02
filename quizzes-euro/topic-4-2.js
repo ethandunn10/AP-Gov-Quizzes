@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-4",
     question: "Francis Bacon is associated with which contribution to scientific method?",
     options: [
-      "Deduction from first principles established by ancient authority",
-      "The claim that knowledge comes from innate ideas rather than the senses",
       "The insistence that experiment is irrelevant to genuine knowledge",
-      "Inductive reasoning built from systematic observation and experiment"
+      "Inductive reasoning built from systematic observation and experiment",
+      "Deduction from first principles established by ancient authority",
+      "The claim that knowledge comes from innate ideas rather than the senses"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Bacon argued that generalizations should be built up from collected observations rather than deduced from inherited premises. His program shaped the founding of scientific societies."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-6",
     question: "Newton's Principia is considered a culmination of the Scientific Revolution because it",
     options: [
+      "proved that mathematics has no application to the physical world",
       "rejected the heliocentric model in favor of an earth-centered cosmos",
       "showed that celestial and terrestrial motion follow the same laws",
-      "demonstrated that natural events occur without any regular pattern",
-      "proved that mathematics has no application to the physical world"
+      "demonstrated that natural events occur without any regular pattern"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Universal gravitation explained falling apples and orbiting planets with one mathematical framework, unifying physics. It became the model of what a science should look like."
   },
   {
     id: "4-2-7",
     question: "Scientific academies such as the Royal Society were important because they",
     options: [
+      "replaced universities as the sole place where students could be trained",
       "restricted membership to ordained clergy of the established church",
       "prohibited the publication of experimental results outside their walls",
-      "gave natural philosophers institutional support, publication, and review",
-      "replaced universities as the sole place where students could be trained"
+      "gave natural philosophers institutional support, publication, and review"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Academies funded instruments, published journals, and subjected claims to collective scrutiny, professionalizing inquiry. Universities continued teaching alongside them."
   },
   {
     id: "4-2-8",
     question: "Women's participation in the Scientific Revolution was limited primarily because",
     options: [
+      "universities and academies excluded them from training and membership",
       "no woman in this period showed any interest in natural philosophy",
       "scientific societies actively recruited women but found few candidates",
-      "women were legally forbidden to read any published scientific work",
-      "universities and academies excluded them from training and membership"
+      "women were legally forbidden to read any published scientific work"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Women such as Maria Sibylla Merian and Émilie du Châtelet did significant work, usually through family workshops or private means. Formal institutions remained closed to them."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-10",
     question: "A historian arguing the Scientific Revolution was genuinely revolutionary would emphasize",
     options: [
-      "the small number of people directly engaged in scientific inquiry",
-      "the replacement of ancient authority by observation",
       "the continued dominance of Aristotle in the European universities",
-      "the lack of any practical technological change during the period"
+      "the lack of any practical technological change during the period",
+      "the small number of people directly engaged in scientific inquiry",
+      "the replacement of ancient authority by observation"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Changing the accepted test of a claim about nature is a change in kind, not degree. The other options are the evidence used by historians who stress continuity and gradual change instead."
   }
 ];

@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-1",
     question: "A mass spectrum of an element shows peaks at 63 amu (69.2%) and 65 amu (30.8%). The average atomic mass is closest to",
     options: [
-      "63.6 amu",
-      "64.0 amu",
       "64.4 amu",
-      "63.0 amu"
+      "63.0 amu",
+      "63.6 amu",
+      "64.0 amu"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "(63 × 0.692) + (65 × 0.308) = 43.6 + 20.0 = 63.6 amu, identifying copper. A simple average of 64.0 ignores that the lighter isotope is more than twice as abundant."
   },
   {
     id: "1-2-2",
     question: "In a mass spectrum, the position of a peak along the horizontal axis corresponds to",
     options: [
-      "the abundance of the isotope",
       "the mass-to-charge ratio of the ion",
       "the ionization energy of the atom",
-      "the number of electrons in the atom"
+      "the number of electrons in the atom",
+      "the abundance of the isotope"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The instrument separates ions by m/z, and since most ions carry a +1 charge the axis reads effectively as mass. Abundance is the vertical axis."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-4",
     question: "An element's average atomic mass is 24.3 amu, with isotopes at 24, 25, and 26 amu. What does this suggest?",
     options: [
-      "The three isotopes are equally abundant",
       "The 24 amu isotope is by far the most abundant",
       "The 26 amu isotope is most abundant",
-      "The element has no stable isotopes"
+      "The element has no stable isotopes",
+      "The three isotopes are present in equal abundance"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The weighted average sits very close to 24, so that isotope must dominate. Equal abundances would place the average near 25."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-6",
     question: "A mass spectrum of chlorine gas shows peaks at 70, 72, and 74 amu. These correspond to",
     options: [
+      "chlorine ions carrying different electrical charges",
+      "impurities in the sample",
       "three isotopes of chlorine atoms",
-      "Cl₂ molecules made from different combinations of ³⁵Cl and ³⁷Cl",
-      "chlorine ions with different charges",
-      "impurities in the sample"
+      "Cl₂ molecules combining ³⁵Cl and ³⁷Cl"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "³⁵Cl-³⁵Cl = 70, ³⁵Cl-³⁷Cl = 72, and ³⁷Cl-³⁷Cl = 74. The 72 peak is the tallest because there are two ways to form the mixed molecule."
   },
   {
@@ -91,32 +91,32 @@ window.QUIZ_QUESTIONS = [
     id: "1-2-8",
     question: "Before separation in a mass spectrometer, the sample must first be",
     options: [
-      "cooled to absolute zero",
-      "ionized so that it responds to electric and magnetic fields",
       "dissolved in water",
-      "converted to a solid"
+      "converted to a solid",
+      "cooled to a temperature approaching absolute zero",
+      "ionized so it responds to electric fields"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Neutral particles are unaffected by the fields that deflect the beam, so ionization is essential. The sample is also vaporized so that individual particles can travel freely."
   },
   {
     id: "1-2-9",
     question: "In a mass spectrometer, lighter ions of the same charge are deflected",
     options: [
-      "less than heavier ions",
       "more than heavier ions",
       "the same amount as heavier ions",
-      "in the opposite direction from heavier ions"
+      "in the opposite direction from heavier ions",
+      "less than heavier ions"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "For the same force, smaller mass means larger acceleration, so lighter ions curve more sharply. This is what sorts the beam by m/z."
   },
   {
     id: "1-2-10",
     question: "The atomic mass listed on the periodic table for an element is",
     options: [
-      "the mass of its most abundant isotope",
-      "the weighted average of its naturally occurring isotopes",
+      "the mass of its single most abundant isotope",
+      "the weighted average of its natural isotopes",
       "always a whole number",
       "the mass of one atom in grams"
     ],

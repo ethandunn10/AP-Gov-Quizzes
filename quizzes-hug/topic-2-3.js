@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-1",
     question: "A population pyramid displays",
     options: [
-      "a population's age and sex structure in a single graphic",
-      "the rate at which a population migrates between regions",
       "the ratio of urban to rural residents in a country",
-      "the geographic distribution of people across a territory"
+      "the geographic distribution of people across a territory",
+      "a population's age and sex structure in a single graphic",
+      "the rate at which a population migrates between regions"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Horizontal bars show each cohort's size by sex, which reveals fertility, mortality, and migration history at a glance. Its shape indicates where a country sits in the demographic transition."
   },
   {
@@ -22,7 +22,7 @@ window.QUIZ_QUESTIONS = [
       "a population that has stopped growing entirely",
       "high fertility and a rapidly growing young population",
       "an aging population with very low birth rates",
-      "heavy out-migration of young working-age adults"
+      "heavy out-migration of young working-age adults overall"
     ],
     correctIndex: 1,
     explanation: "Large young cohorts mean many future parents, so growth continues even if fertility falls. Such countries face heavy demand for schools and, later, jobs."
@@ -31,7 +31,7 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-3",
     question: "A population pyramid shaped like an inverted triangle, narrow at the base, suggests",
     options: [
-      "rapid population growth driven by high fertility",
+      "very rapid population growth driven by extremely high fertility",
       "a sudden increase in the national birth rate",
       "below-replacement fertility and future population decline",
       "large-scale immigration of young families"
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-6",
     question: "The sex ratio of a population refers to",
     options: [
-      "the number of births per thousand women of childbearing age",
       "the number of males per hundred females in a population",
       "the proportion of a population that is of working age",
-      "the average age at which people in a population marry"
+      "the average age at which people in a population marry",
+      "the number of births per thousand women of childbearing age"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Skewed ratios can result from sex-selective practices, migration, or wartime losses. China and India show elevated ratios linked to son preference."
   },
   {
     id: "2-3-7",
     question: "A population pyramid with a sharp indentation in one cohort most likely reflects",
     options: [
+      "the normal aging of an otherwise stable population",
       "a steady and unchanging birth rate over many decades",
-      "an error in the way the national census was conducted",
-      "war, famine, or epidemic affecting that particular cohort",
-      "the normal aging of an otherwise stable population"
+      "an error in the way in which the national census was conducted",
+      "war, famine, or epidemic affecting that particular cohort"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Events such as war or famine reduce births and raise deaths in specific years, leaving a visible notch that ages upward. Europe's pyramids still show the world wars."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-3-9",
     question: "Population composition matters for policy because different structures require",
     options: [
-      "different investment in schools, jobs, and pensions",
       "identical services regardless of a population's age profile",
       "no government planning of any kind for future needs",
-      "policies determined entirely by total population size"
+      "policies determined entirely by total population size",
+      "different investment in schools, jobs, and pensions"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "A young population needs classrooms and job creation while an aging one needs pensions and elder care. Composition therefore drives budget priorities as much as total size does."
   },
   {
     id: "2-3-10",
     question: "A geographer comparing pyramids for Niger and Japan would conclude that",
     options: [
-      "Niger's population will begin declining within a few years",
       "Niger faces pressure on schools while Japan faces pension strain",
       "both countries face identical demographic challenges",
-      "Japan will experience rapid population growth in coming decades"
+      "Japan will experience rapid population growth in coming decades",
+      "Niger's population will begin declining within a few years"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Niger's wide base means enormous cohorts entering school and the labor market, while Japan's narrow base means fewer workers supporting more retirees. The two sit at opposite ends of the transition."
   }
 ];

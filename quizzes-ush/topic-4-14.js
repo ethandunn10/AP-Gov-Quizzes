@@ -9,7 +9,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-14-1",
     question: "Which pairing best states a cause and its effect in the market revolution?",
     options: [
-      "Canal and railroad construction lowered shipping costs, so western farmers sold into eastern markets",
+      "Canals and railroads cut shipping costs, so western farmers sold east",
       "The Second Great Awakening lowered shipping costs, so farming became commercial",
       "The Missouri Compromise built the Erie Canal, so the Northwest was settled",
       "Cotton exports fell, so northern factories turned to wool"
@@ -21,12 +21,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-14-2",
     question: "The expansion of white male suffrage in the 1820s and 1830s most directly caused",
     options: [
-      "the abolition of slavery in the border states",
       "campaigning aimed at ordinary voters and higher turnout",
       "the end of the congressional caucus system of nomination only after 1860",
-      "a constitutional amendment defining national voting rules"
+      "a constitutional amendment defining national voting rules",
+      "the abolition of slavery in the border states"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Dropping property requirements enlarged the electorate, and parties responded with rallies, partisan newspapers, and mass campaigning — turnout climbed sharply by 1840. Suffrage rules stayed with the states; no amendment set national standards in this period."
   },
   {
@@ -34,8 +34,8 @@ window.QUIZ_QUESTIONS = [
     question: "A historian argues that the cotton gin was a cause of slavery's expansion. The strongest evidence for that claim is that after 1793",
     options: [
       "Congress reopened the international slave trade",
-      "northern states rapidly adopted gradual emancipation laws",
-      "cotton acreage and the enslaved population both moved into the Deep South",
+      "northern states rapidly adopted gradual emancipation statutes",
+      "cotton acreage and the enslaved population both moved south",
       "tobacco prices in the Chesapeake rose steeply"
     ],
     correctIndex: 2,
@@ -45,20 +45,20 @@ window.QUIZ_QUESTIONS = [
     id: "4-14-4",
     question: "Which was the most significant cause of the Nullification Crisis of 1832-1833?",
     options: [
-      "South Carolina's belief that protective tariffs transferred wealth to the North",
-      "Jackson's veto of the Second Bank of the United States",
+      "Jackson's veto of the charter of the Second Bank of the United States",
       "the admission of Missouri as a slave state",
-      "federal restrictions on the interstate slave trade"
+      "federal restrictions on the interstate slave trade",
+      "South Carolina's belief that tariffs transferred wealth northward"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Planters saw the 1828 and 1832 tariffs as taxing southern buyers to protect northern manufacturers, and Calhoun built a constitutional theory to resist them. The Bank veto also happened in 1832, but nullification was aimed squarely at the tariff."
   },
   {
     id: "4-14-5",
     question: "A student claims that the Second Great Awakening caused the reform movements of the 1830s. The best support for this claim is that revivalism",
     options: [
-      "required converts to join a single national church",
-      "taught that individuals could choose salvation and act to perfect society",
+      "required every convert to join one single national church body",
+      "taught that people could choose salvation and reform society",
       "was funded directly by state governments",
       "rejected participation by women in religious life"
     ],
@@ -69,36 +69,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-14-6",
     question: "Which effect of the Market Revolution most changed the work of northern women in middle-class households?",
     options: [
-      "Most became wage earners in textile mills for their whole adult lives",
-      "Production moved out of the home, and domestic ideals redefined their role",
+      "Production moved out of the home and domestic ideals redefined roles",
       "They gained the vote in most northern states by 1840",
-      "They took over commercial farming from their husbands"
+      "They took over commercial farming from their husbands",
+      "Most became wage earners in textile mills for their whole adult lives"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "As goods were bought rather than made at home, middle-class women's labor was recast as moral guardianship of the household — the ideal of separate spheres. Mill work was real but concentrated among young unmarried women before marriage."
   },
   {
     id: "4-14-7",
     question: "The Indian Removal Act of 1830 is best understood as an effect of",
     options: [
-      "Supreme Court rulings that denied Cherokee sovereignty entirely",
       "pressure from white settlers for cotton land in the Southeast",
       "a shortage of arable land in the Ohio River valley",
-      "British encouragement of American Indian resistance after 1815"
+      "British encouragement of American Indian resistance after 1815",
+      "Supreme Court rulings that denied Cherokee sovereignty entirely"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Cotton's profitability made Cherokee, Creek, Choctaw, Chickasaw, and Seminole land valuable to Georgia and its neighbors, and Jackson backed the states. Worcester v. Georgia actually ruled in the Cherokees' favor — the decision went unenforced."
   },
   {
     id: "4-14-8",
     question: "Which is the best example of continuity rather than change in Period 4?",
     options: [
+      "Factory production spread across New England",
       "Slavery remained the basis of the southern labor system",
-      "Transportation shifted from rivers to canals and rails",
-      "Political parties reorganized into Democrats and Whigs",
-      "Factory production spread across New England"
+      "Transportation shifted from rivers to canals and railroads",
+      "Political parties reorganized into Democrats and Whigs"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The question asks what stayed the same: slavery persisted and deepened even as everything around it changed. The other three name genuine transformations of the period."
   },
   {
@@ -106,7 +106,7 @@ window.QUIZ_QUESTIONS = [
     question: "The Bank War contributed most directly to which later development?",
     options: [
       "the rise of the Whig Party in opposition to executive power",
-      "the collapse of the Democratic Party in the South",
+      "the complete collapse of the Democratic Party across the South",
       "federal ownership of state banks after 1840",
       "the adoption of a national paper currency in 1837"
     ],
@@ -118,7 +118,7 @@ window.QUIZ_QUESTIONS = [
     question: "Which of the following best explains why abolitionism grew more radical in the 1830s?",
     options: [
       "Congress had banned antislavery petitions from all states",
-      "Gradual colonization plans had failed to end slavery, and revivalism framed it as a sin",
+      "Colonization plans had failed, and revivalism framed slavery as sin",
       "The Supreme Court had ruled slavery unconstitutional in the territories",
       "Southern states had begun voluntary emancipation"
     ],

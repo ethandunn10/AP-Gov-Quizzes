@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-2-1",
     question: "The assassination at Sarajevo in 1914 is best described as",
     options: [
+      "the fundamental underlying cause of the First World War",
       "an event unconnected to the war that followed it",
       "an operation planned and directed by the German government",
-      "the trigger that activated existing alliances and tensions",
-      "the fundamental underlying cause of the First World War"
+      "the trigger that activated existing alliances and tensions"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The killing set off an escalation that alliance commitments and mobilization plans had made nearly automatic. Treating a trigger as the fundamental cause is the classic error here."
   },
   {
@@ -31,84 +31,84 @@ window.QUIZ_QUESTIONS = [
     id: "8-2-3",
     question: "Trench warfare on the Western Front developed because",
     options: [
+      "both sides had agreed in advance not to advance their positions",
       "defensive firepower overwhelmed the available offensive tactics",
       "commanders deliberately sought to minimize casualties on both sides",
-      "neither side possessed artillery capable of supporting an attack",
-      "both sides had agreed in advance not to advance their positions"
+      "neither side possessed artillery capable of supporting an attack"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Entrenched machine guns and massed artillery made attacking across open ground catastrophically costly, and no tactical answer existed until late in the war. The result was years of stalemate."
   },
   {
     id: "8-2-4",
     question: "The war became global rather than European because",
     options: [
+      "the fighting took place exclusively on European territory",
       "the United States entered the conflict in its first year",
       "the combatants' empires supplied troops and battlefields",
-      "colonial territories declared neutrality in the conflict",
-      "the fighting took place exclusively on European territory"
+      "colonial territories declared neutrality in the conflict"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Indian, African, and Vietnamese troops and laborers served in Europe and elsewhere, and campaigns were fought in Africa, Mesopotamia, and the Pacific. Empire made a European quarrel a world war."
   },
   {
     id: "8-2-5",
     question: "Total war on the home front involved",
     options: [
+      "the complete withdrawal of governments from economic life",
       "the exclusion of women from all forms of wartime employment",
       "free reporting of military operations without any censorship",
-      "government direction of industry, rationing, and propaganda",
-      "the complete withdrawal of governments from economic life"
+      "government direction of industry, rationing, and propaganda"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "States allocated labor and materials, controlled food, and managed opinion through censorship and poster campaigns. Women entered munitions and transport work in large numbers."
   },
   {
     id: "8-2-6",
     question: "The United States entered the war in 1917 chiefly because of",
     options: [
-      "a German invasion of territory belonging to the United States",
-      "American ambitions to acquire European colonial possessions",
       "a formal alliance with Britain signed before the war began",
-      "unrestricted submarine warfare and the Zimmermann Telegram"
+      "unrestricted submarine warfare and the Zimmermann Telegram",
+      "a German invasion of territory belonging to the United States",
+      "American ambitions to acquire European colonial possessions"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Resumed attacks on neutral shipping plus the intercepted offer of an alliance to Mexico turned American opinion decisively. The United States entered as an associated power rather than a formal ally."
   },
   {
     id: "8-2-7",
     question: "Russia withdrew from the war in 1918 as a result of",
     options: [
-      "the Bolshevik seizure of power and the Treaty of Brest-Litovsk",
       "a decisive Russian military victory on the eastern front",
       "a negotiated settlement restoring all prewar Russian borders",
-      "British and French pressure to concentrate on internal reform"
+      "British and French pressure to concentrate on internal reform",
+      "the Bolshevik seizure of power and the Treaty of Brest-Litovsk"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Lenin's promise of peace was central to Bolshevik support, and the treaty surrendered enormous territory to Germany. Russia's exit freed German divisions for the western front."
   },
   {
     id: "8-2-8",
     question: "The war's casualties were unprecedented primarily because",
     options: [
-      "armies refused to take prisoners at any point in the conflict",
-      "industrial economies replaced losses and sustained mass armies",
       "combatants lacked any medical care for wounded soldiers",
-      "the war was fought without any defensive fortifications"
+      "the war was fought without any defensive fortifications",
+      "armies refused to take prisoners at any point in the conflict",
+      "industrial economies replaced losses and sustained mass armies"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Factories kept producing shells and conscription kept supplying men, so attrition could continue for years. Industrial capacity turned directly against human beings."
   },
   {
     id: "8-2-9",
     question: "The Armenian genocide during the war involved",
     options: [
-      "an event with no connection to the wartime context",
-      "a limited wartime relocation causing few casualties",
       "systematic deportation and mass killing of Ottoman Armenians",
-      "a conflict between two equally armed military forces"
+      "a conflict between two equally armed military forces",
+      "an event with no connection to the wartime context",
+      "a limited wartime relocation causing few casualties"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Ottoman authorities deported and killed roughly a million or more Armenians under cover of wartime security. The war supplied both the pretext and the opportunity."
   },
   {

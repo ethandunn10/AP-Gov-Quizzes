@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "9-7-1",
     question: "Gorbachev's policies of glasnost and perestroika were intended to",
     options: [
-      "dissolve the Soviet Union and end communist party rule",
       "restore the centralized terror of the Stalinist period",
       "revitalize the Soviet system while preserving socialism",
-      "integrate the Soviet economy fully into world capital markets"
+      "integrate the Soviet economy fully into world capital markets",
+      "dissolve the Soviet Union and end communist party rule"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Gorbachev aimed to save the system by making it more efficient and legitimate, not to end it. Openness instead unleashed criticism and nationalist movements he could not contain."
   },
   {
     id: "9-7-2",
     question: "Soviet economic stagnation by the 1980s resulted largely from",
     options: [
-      "excessive investment in consumer goods at the expense of industry",
       "the complete absence of any industrial capacity in the country",
       "over-integration with western financial and commodity markets",
-      "planning inefficiency, arms spending, and technological lag"
+      "planning inefficiency, arms spending, and technological lag",
+      "excessive investment in consumer goods at the expense of industry"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Planners could not match markets at allocating resources or adopting computing, while defense absorbed a punishing share of output. Falling oil prices in the mid-1980s removed a crucial cushion."
   },
   {
     id: "9-7-3",
     question: "Solidarity in Poland was significant because it",
     options: [
+      "was a government-created organization supporting the ruling party",
       "was an independent mass trade union that challenged communist rule",
       "operated entirely outside Poland among exile communities",
-      "advocated the restoration of the prewar Polish monarchy",
-      "was a government-created organization supporting the ruling party"
+      "advocated the restoration of the prewar Polish monarchy"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Ten million members made Solidarity a genuine alternative center of authority, which martial law suppressed but did not destroy. Its 1989 electoral victory began the bloc's unraveling."
   },
   {
     id: "9-7-4",
     question: "The revolutions of 1989 succeeded largely because",
     options: [
-      "Warsaw Pact troops joined the demonstrations against their governments",
-      "Gorbachev made clear the Soviet Union would not intervene",
       "eastern European regimes enjoyed broad popular legitimacy",
-      "NATO forces intervened militarily on behalf of the protesters"
+      "NATO forces intervened militarily on behalf of the protesters",
+      "Warsaw Pact troops joined the demonstrations against their governments",
+      "Gorbachev made clear the Soviet Union would not intervene"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Abandoning the Brezhnev Doctrine removed the guarantee that had crushed Hungary in 1956 and Czechoslovakia in 1968. Once that certainty vanished, regimes fell in succession within months."
   },
   {
     id: "9-7-5",
     question: "The fall of the Berlin Wall in November 1989 was significant because it",
     options: [
+      "resulted in the permanent partition of the German nation",
       "was a planned policy announced in advance by the Soviet Union",
       "marked the beginning rather than the end of the Cold War",
-      "symbolized the end of Europe's division and led to reunification",
-      "resulted in the permanent partition of the German nation"
+      "symbolized the end of Europe's division and led to reunification"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The opening, triggered partly by a confused East German announcement, became the emblem of the bloc's collapse and was followed by reunification within a year. It was not a planned Soviet decision."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-7-7",
     question: "The Soviet Union dissolved in 1991 as a result of",
     options: [
+      "a unanimous referendum in which all republics voted to separate",
       "nationalist movements, economic crisis, and a failed hardline coup",
       "a negotiated treaty transferring sovereignty to the United Nations",
-      "a NATO military campaign against Soviet territory",
-      "a unanimous referendum in which all republics voted to separate"
+      "a NATO military campaign against Soviet territory"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Baltic and Ukrainian independence, collapsing living standards, and the August coup's failure left the central government without authority. It was formally dissolved that December."
   },
   {
     id: "9-7-8",
     question: "The transition from communism in eastern Europe during the 1990s brought",
     options: [
-      "no measurable change in economic or political arrangements",
       "economic disruption alongside democratization of varying depth",
       "immediate prosperity and stability throughout the former bloc",
-      "the restoration of communist governments within a few years"
+      "the restoration of communist governments within a few years",
+      "no measurable change in economic or political arrangements"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Shock therapy and privatization produced unemployment and inequality, while democratic consolidation varied widely across the region. Central European states generally fared better than post-Soviet ones."
   },
   {
     id: "9-7-9",
     question: "German reunification in 1990 was accomplished",
     options: [
+      "by creating an entirely new constitution for a third German state",
       "against the united opposition of all the wartime Allied powers",
       "over several decades of gradual institutional convergence",
-      "absorption of the east into the Federal Republic's system",
-      "by creating an entirely new constitution for a third German state"
+      "absorption of the east into the Federal Republic's system"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "East German states acceded to the Federal Republic, adopting its currency, law, and institutions rapidly. The Two Plus Four agreement secured Allied consent within the same year."
   },
   {

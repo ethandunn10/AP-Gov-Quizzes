@@ -19,50 +19,50 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.5-3",
     question: "Negative regulation of gene expression involves a regulatory protein that:",
-    options: ["Activates transcription", "Represses or blocks transcription", "Has no effect on transcription", "Only affects translation, never transcription"],
-    correctIndex: 1,
+    options: ["Represses or blocks transcription", "Has no effect on transcription", "Only affects translation, never transcription", "Activates transcription"],
+    correctIndex: 0,
     explanation: "In negative regulation, a repressor protein binds to DNA (often at an operator) and blocks RNA polymerase from transcribing the gene, decreasing gene expression."
   },
   {
     id: "6.5-4",
     question: "In eukaryotes, proteins called transcription factors regulate gene expression primarily by:",
-    options: ["Directly synthesizing amino acids", "Binding regulatory DNA near genes", "Replicating DNA before mitosis", "Degrading mRNA in the cytoplasm"],
-    correctIndex: 1,
+    options: ["Binding regulatory DNA near genes", "Replicating DNA before mitosis", "Degrading mRNA in the cytoplasm", "Directly synthesizing amino acids"],
+    correctIndex: 0,
     explanation: "Eukaryotic transcription factors bind specific DNA regulatory sequences (promoters, enhancers, silencers) and help recruit or block RNA polymerase, fine-tuning when and how much a gene is transcribed."
   },
   {
     id: "6.5-5",
     question: "Epigenetic regulation, such as DNA methylation, typically affects gene expression by:",
-    options: ["Changing the DNA nucleotide sequence", "Changing gene accessibility, not sequence", "Only occurring in prokaryotic cells", "Directly translating mRNA into protein"],
-    correctIndex: 1,
+    options: ["Changing gene accessibility, not sequence", "Only occurring in prokaryotic cells", "Directly translating mRNA into protein", "Changing the DNA nucleotide sequence"],
+    correctIndex: 0,
     explanation: "Epigenetic modifications like DNA methylation and histone modification change chromatin structure and gene accessibility without altering the DNA sequence itself, and can be heritable across cell divisions."
   },
   {
     id: "6.5-6",
     question: "Heterochromatin, which is tightly packed and less accessible to transcription machinery, is generally associated with genes that are:",
-    options: ["Highly and constantly expressed", "Turned off or barely expressed", "Being actively replicated only", "Only found in prokaryotic cells"],
-    correctIndex: 1,
+    options: ["Only found in prokaryotic cells", "Highly and constantly expressed", "Turned off or barely expressed", "Being actively replicated only"],
+    correctIndex: 2,
     explanation: "Tightly condensed heterochromatin restricts access of transcription factors and RNA polymerase to DNA, so genes packaged this way tend to be silenced or expressed at low levels, in contrast to loosely packed, transcriptionally active euchromatin."
   },
   {
     id: "6.5-7",
     question: "MicroRNAs (miRNAs) regulate gene expression after transcription by:",
-    options: ["Binding mRNA to block or degrade it", "Directly editing the DNA sequence", "Acting as extra ribosomal subunits", "Replacing tRNA during translation"],
-    correctIndex: 0,
+    options: ["Directly editing the DNA sequence", "Acting as extra ribosomal subunits", "Replacing tRNA during translation", "Binding mRNA to block or degrade it"],
+    correctIndex: 3,
     explanation: "miRNAs are small non-coding RNAs that base-pair with complementary sequences on target mRNAs, typically blocking their translation or marking them for degradation — a key post-transcriptional control mechanism."
   },
   {
     id: "6.5-8",
     question: "A repressor protein in an operon system typically works by binding to the:",
-    options: ["Operator, blocking polymerase", "Ribosome's large subunit", "The 3' poly-A tail region", "Anticodon loop of tRNA"],
-    correctIndex: 0,
+    options: ["Ribosome's large subunit", "The 3' poly-A tail region", "Anticodon loop of tRNA", "Operator, blocking polymerase"],
+    correctIndex: 3,
     explanation: "Repressor proteins bind to the operator sequence, which overlaps with or is near the promoter, sterically blocking RNA polymerase from proceeding with transcription."
   },
   {
     id: "6.5-9",
     question: "Environmental signals, such as a hormone or a nutrient, can influence gene expression primarily by:",
-    options: ["Changing which genes are present in the genome", "Activating transcription factors", "Directly replacing damaged ribosomes", "Only affecting genes during meiosis"],
-    correctIndex: 1,
+    options: ["Only affecting genes during meiosis", "Changing which genes are present in the genome", "Activating transcription factors", "Directly replacing damaged ribosomes"],
+    correctIndex: 2,
     explanation: "Environmental or chemical signals often trigger signal transduction pathways that ultimately modify transcription factor activity, allowing cells to adjust gene expression in response to their surroundings without altering their DNA."
   },
   {

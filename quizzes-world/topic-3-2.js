@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-2",
     question: "The Ottoman timar and the Mughal zamindar arrangements were similar in that both",
     options: [
+      "granted rights to collect land revenue in exchange for service",
       "abolished all private landholding",
       "gave peasants outright ownership of the land they worked",
-      "transferred all revenue collection to European chartered trading companies",
-      "granted rights to collect land revenue in exchange for service"
+      "transferred all revenue collection to European chartered trading companies"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Both tied local revenue collection to obligations owed the center, a workable arrangement where a salaried bureaucracy would have been impossible to supervise. Both also risked collectors becoming entrenched local powers over time."
   },
   {
     id: "3-2-3",
     question: "The Qing continuation of the Confucian examination system is best explained by the Manchus' need to",
     options: [
+      "eliminate the Han Chinese scholar-gentry as a social and political class",
       "secure the educated Han elite and so legitimize a foreign ruling dynasty",
       "convert the population to Manchu religious practice",
-      "replace Chinese law with Manchu tribal custom",
-      "eliminate the Han Chinese scholar-gentry as a social and political class"
+      "replace Chinese law with Manchu tribal custom"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Keeping the examinations gave ambitious Han scholars a stake in Qing rule and presented the dynasty as a proper custodian of Chinese tradition. The Manchus imposed the queue as a mark of submission but preserved rather than replaced Chinese governing institutions."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-5",
     question: "Which method of controlling a bureaucracy was most distinctive of the Ottoman Empire?",
     options: [
+      "Selecting all officials by competitive written examination",
       "Rotating regional noble families through offices held by hereditary right",
       "Contracting administration to foreign merchant companies",
-      "Staffing the army and administration with the sultan's own devshirme men",
-      "Selecting all officials by competitive written examination"
+      "Staffing the army and administration with the sultan's own devshirme men"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Because janissaries and palace administrators were levied, converted, and legally the sultan's men, they could not build independent dynastic power. Examinations were the Chinese solution to the same problem of controlling officials."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-7",
     question: "Monumental architecture such as the Taj Mahal, Süleymaniye Mosque, and Isfahan's royal square functioned politically to",
     options: [
+      "house the empire's tax records and census archives",
       "display the ruler's wealth, piety, and legitimacy",
       "serve as modern fortifications against the new gunpowder artillery",
-      "generate revenue through admission fees",
-      "house the empire's tax records and census archives"
+      "generate revenue through admission fees"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Grand building projects made an abstract claim to authority visible and permanent, associating the dynasty with divine favor and overwhelming resources. They were statements of legitimacy, not archives or fortresses."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-9",
     question: "Which generalization about administering these empires is best supported by evidence?",
     options: [
-      "Rulers abolished all regional and local institutions upon conquest",
-      "Rulers relied on European advisers for all administrative decisions",
       "Rulers bought local intermediaries with land, revenue, or office",
-      "Rulers governed entirely through salaried officials with no local partners"
+      "Rulers governed entirely through salaried officials with no local partners",
+      "Rulers abolished all regional and local institutions upon conquest",
+      "Rulers relied on European advisers for all administrative decisions"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Timar holders, zamindars, tax farmers, and gentry all bridged the gap between a distant capital and countless villages, since no premodern state could supervise every locality directly. Managing those intermediaries was the central administrative problem of the age."
   },
   {

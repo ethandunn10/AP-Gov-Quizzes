@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-1",
     question: "Real gases deviate most from ideal behavior at",
     options: [
+      "standard temperature and pressure",
       "high temperature and low pressure",
       "low temperature and high pressure",
-      "high temperature and high pressure",
-      "standard temperature and pressure"
+      "high temperature and high pressure"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Cold, compressed gases have particles close together and moving slowly, so attractions and particle volume matter. Heat and low pressure restore near-ideal conditions."
   },
   {
     id: "3-6-2",
     question: "At high pressure, the measured volume of a real gas is larger than the ideal prediction because",
     options: [
-      "intermolecular attractions dominate",
-      "the particles themselves occupy a significant fraction of the container volume",
       "the gas condenses",
-      "temperature increases"
+      "temperature increases",
+      "intermolecular attractions completely dominate behavior",
+      "the particles themselves occupy significant volume"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The ideal law treats particles as points, so it underestimates volume when they are crowded. This is the correction the b term makes in the van der Waals equation."
   },
   {
     id: "3-6-3",
     question: "At moderately low temperature, the measured pressure of a real gas is lower than ideal because",
     options: [
-      "particles occupy volume",
-      "intermolecular attractions reduce the force of collisions with the walls",
+      "attractions reduce the force of collisions with walls",
       "particles are destroyed",
-      "the container shrinks"
+      "the container shrinks",
+      "the particles themselves occupy a real and finite volume"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A particle heading for the wall is tugged back by its neighbors. The van der Waals a term corrects for this effect."
   },
   {
     id: "3-6-4",
     question: "Which gas is expected to behave most ideally at room conditions?",
     options: [
+      "CO₂",
       "H₂O vapor",
       "He",
-      "NH₃",
-      "CO₂"
+      "NH₃"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Helium is small, nonpolar, and has minimal dispersion forces. Water and ammonia hydrogen bond strongly, which is the opposite of ideal."
   },
   {
@@ -57,7 +57,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "particle volume",
       "intermolecular attractions",
-      "temperature fluctuations",
+      "random temperature fluctuations",
       "the gas constant"
     ],
     correctIndex: 1,
@@ -67,8 +67,8 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-6",
     question: "Two gases have van der Waals a values of 0.034 and 5.46 L²·atm/mol². The second gas most likely",
     options: [
-      "has weaker intermolecular forces",
-      "has stronger intermolecular forces and deviates more from ideality",
+      "has considerably weaker intermolecular forces overall",
+      "has stronger intermolecular forces and deviates more",
       "has smaller particles",
       "behaves more ideally"
     ],
@@ -79,7 +79,7 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-7",
     question: "As pressure approaches zero, the behavior of a real gas",
     options: [
-      "deviates more from ideal",
+      "deviates far more from ideal",
       "approaches ideal behavior",
       "becomes unpredictable",
       "is identical to a liquid"
@@ -91,32 +91,32 @@ window.QUIZ_QUESTIONS = [
     id: "3-6-8",
     question: "Why does raising the temperature reduce deviation from ideal behavior?",
     options: [
+      "The pressure decreases automatically at the same time",
+      "The gas constant changes",
       "Particles become smaller",
-      "Higher kinetic energy overwhelms intermolecular attractions",
-      "Pressure decreases automatically",
-      "The gas constant changes"
+      "Higher kinetic energy overwhelms the attractions"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Fast-moving particles are less affected by attractions during brief encounters. Particle volume, however, does not change with temperature."
   },
   {
     id: "3-6-9",
     question: "A gas is compressed until it liquefies. This shows that",
     options: [
-      "the ideal gas law applies at all pressures",
-      "intermolecular attractions are real and become significant at close range",
       "gas particles have no volume",
-      "temperature has no effect on gases"
+      "temperature has no effect on gases",
+      "the ideal gas law applies at absolutely all pressures",
+      "intermolecular attractions are real and significant"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "An ideal gas could never condense, since it is defined as having no attractions. Liquefaction is direct evidence that the model is an approximation."
   },
   {
     id: "3-6-10",
     question: "Under conditions where a real gas deviates from ideality, using PV = nRT to calculate moles will",
     options: [
-      "always give the exact answer",
-      "give an approximate answer whose error depends on the conditions and the gas",
+      "always give exactly the correct answer under any conditions",
+      "give an approximate answer with condition-dependent error",
       "give a result that is always too large",
       "be impossible"
     ],

@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-1",
     question: "European transoceanic voyaging after 1450 depended most directly on technologies that were",
     options: [
-      "assembled from Chinese, Islamic, and Mediterranean sources alike",
       "acquired from Indigenous American navigators",
       "developed only after the invention of the steam engine",
-      "invented entirely within western Europe without any outside influence"
+      "invented entirely within western Europe without any outside influence",
+      "assembled from Chinese, Islamic, and Mediterranean sources alike"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The compass came from China, the astrolabe and lateen sail from the Islamic Mediterranean, and European shipwrights combined them with square rigging and stern rudders. Recognizing this borrowing is central to explaining why the breakthrough came when it did."
   },
   {
     id: "4-1-2",
     question: "The caravel's significance lay in its ability to",
     options: [
+      "operate under steam power in calm conditions",
       "carry a greater volume of cargo than any ship built before the year 1900",
       "combine sail types to work to windward and enter shallows",
-      "travel without any crew",
-      "operate under steam power in calm conditions"
+      "travel without any crew"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Mixed rigging let the caravel work to windward, which was essential for returning north along the African coast against prevailing winds. Its virtue was maneuverability, not cargo capacity — the larger carrack and galleon handled bulk."
   },
   {
@@ -67,48 +67,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-1-6",
     question: "The printing press contributed to European overseas expansion by",
     options: [
-      "eliminating religious motivations for exploration",
       "letting charts and travel accounts circulate quickly and accurately",
       "replacing the need for trained navigators",
-      "providing the first genuinely accurate measurement of longitude at sea"
+      "providing the first genuinely accurate measurement of longitude at sea",
+      "eliminating religious motivations for exploration"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Printed portolan charts, rutters, and published voyage accounts let each expedition build on the last instead of relying on memory or scarce manuscripts. It accelerated the accumulation of knowledge rather than replacing skill."
   },
   {
     id: "4-1-7",
     question: "The Chinese junk and the European galleon were similar in that both",
     options: [
-      "were built exclusively for warfare",
-      "were designed exclusively for navigation on shallow inland rivers",
       "were large seaworthy vessels carrying heavy cargo on long voyages",
-      "relied entirely on oars for propulsion"
+      "relied entirely on oars for propulsion",
+      "were built exclusively for warfare",
+      "were designed exclusively for navigation on shallow inland rivers"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Both were ocean-capable bulk carriers — the junk with watertight compartments and battened sails, the galleon with multiple decks and heavy rigging. Neither was oar-driven or limited to rivers."
   },
   {
     id: "4-1-8",
     question: "Which best explains why European states rather than Ming China pursued sustained transoceanic expansion after 1450?",
     options: [
+      "competing European states sought routes around Muslim-controlled trade",
       "China lacked ships capable of ocean voyages",
       "European rulers were uninterested in profit",
-      "Europeans possessed maritime technology unknown anywhere else on earth",
-      "competing European states sought routes around Muslim-controlled trade"
+      "Europeans possessed maritime technology unknown anywhere else on earth"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Zheng He's fleets prove Chinese capability; what differed was incentive and priority, as the Ming faced northern land threats while fragmented European states raced each other for a route to Asian spices. Political motivation, not technical capacity, is the key variable."
   },
   {
     id: "4-1-9",
     question: "The development of cartography in this period was driven most directly by",
     options: [
+      "the absence of any earlier mapping traditions",
       "the need to record accurate information on new routes and coasts",
       "a decline in long-distance travel",
-      "religious prohibitions on the recording of any geographic information",
-      "the absence of any earlier mapping traditions"
+      "religious prohibitions on the recording of any geographic information"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Each voyage generated coastline and current data that had to be recorded so that later expeditions could repeat it, and states guarded charts as strategic assets. Islamic and Chinese mapping traditions were already well developed and fed into European work."
   },
   {

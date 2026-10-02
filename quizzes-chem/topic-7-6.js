@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-2",
     question: "If all coefficients of a reaction are halved, the new equilibrium constant is",
     options: [
-      "K/2",
+      "K/2 exactly",
       "K^(1/2)",
       "2K",
       "K²"
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-3",
     question: "When two reactions are added, their equilibrium constants are",
     options: [
-      "added",
       "multiplied",
       "subtracted",
-      "divided"
+      "divided",
+      "added"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "This parallels Hess's law but with multiplication instead of addition. It follows from the logarithmic relationship between K and free energy."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-6",
     question: "For an exothermic reaction, increasing the temperature causes K to",
     options: [
-      "increase",
-      "decrease",
       "stay the same",
-      "become negative"
+      "become negative",
+      "increase",
+      "decrease"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Heat behaves like a product, so adding it shifts the system back toward reactants. For an endothermic reaction the opposite holds."
   },
   {
     id: "7-6-7",
     question: "If a reaction is multiplied by 3, its equilibrium constant becomes",
     options: [
-      "3K",
       "K³",
       "K/3",
-      "K^(1/3)"
+      "K^(1/3)",
+      "3K"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Each exponent triples, cubing the whole expression. Small differences in the factor lead to enormous differences in K."
   },
   {
     id: "7-6-8",
     question: "Kp and Kc are equal when",
     options: [
-      "the reaction involves only solids",
       "the number of moles of gas is the same on both sides",
       "the temperature is 273 K",
-      "they are never equal"
+      "they are never equal",
+      "the reaction involves only solid and liquid species alone"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "With Δn = 0, the (RT)^Δn factor equals 1. H₂ + I₂ ⇌ 2HI is a standard example."
   },
   {
     id: "7-6-9",
     question: "The equilibrium constant expression for a reaction does NOT include",
     options: [
-      "aqueous species",
+      "products",
+      "any dissolved aqueous species",
       "gases",
-      "pure solids and pure liquids",
-      "products"
+      "pure solids and pure liquids"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Their concentrations are fixed properties of the pure substance. Adding more solid therefore does not shift equilibrium."
   },
   {
     id: "7-6-10",
     question: "Two reactions are related by reversing and doubling. If the original K is 2, the new constant is",
     options: [
-      "4",
+      "1.0",
+      "4.0",
       "0.25",
-      "0.5",
-      "1"
+      "0.50"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Reversing gives 1/2, and doubling squares it to 1/4. Order of operations does not matter here since both are exponent manipulations."
   }
 ];

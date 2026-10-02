@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-3",
     question: "The Russo-Japanese War of 1904-1905 is significant because it",
     options: [
-      "led directly to the Russian victory in World War I",
       "was the first modern war fought entirely at sea",
       "an Asian state defeated a European great power for the first time",
-      "it resulted in Russian control over both Korea and southern Manchuria"
+      "it resulted in Russian control over both Korea and southern Manchuria",
+      "led directly to the Russian victory in World War I"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Japan's victory punctured the assumption of European invincibility and was celebrated by nationalists from India to Egypt. Japan, not Russia, gained the dominant position in Korea and southern Manchuria."
   },
   {
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-5",
     question: "The Russian Revolutions of 1917 resulted most directly from",
     options: [
-      "military disaster, urban hunger, and the collapse of tsarist legitimacy",
       "a peaceful national referendum on the future of the Russian monarchy",
       "Bolshevik electoral victory in a national election",
-      "a foreign invasion of Russia by Germany in 1917"
+      "a foreign invasion of Russia by Germany in 1917",
+      "military disaster, urban hunger, and the collapse of tsarist legitimacy"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Millions of casualties, urban hunger, and an autocracy that had lost credibility produced the February collapse, and the Bolsheviks seized power in October from a failing Provisional Government. They never won a national electoral majority."
   },
   {
     id: "7-1-6",
     question: "Balkan nationalism before 1914 threatened European stability because it",
     options: [
-      "united all Balkan peoples under a single government",
-      "small states expanded at imperial expense, drawing in the powers",
       "it was actively and cooperatively suppressed by all the European powers",
-      "had no connection to great-power rivalries"
+      "had no connection to great-power rivalries",
+      "united all Balkan peoples under a single government",
+      "small states expanded at imperial expense, drawing in the powers"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Serbian ambitions threatened Austria-Hungary's multiethnic structure, and Russia backed Slavic claims while Germany backed Vienna, turning local disputes into great-power confrontations. The region's nickname as Europe's powder keg reflects exactly this."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-8",
     question: "Which best explains why land-based empires declined relative to industrial nation-states by 1914?",
     options: [
-      "Land-based empires had no military forces",
       "Industrial states were significantly smaller in population",
       "Land-based empires refused to engage in any international trade at all",
-      "dynastic empires faced nationalism and lagged industrially"
+      "dynastic empires faced nationalism and lagged industrially",
+      "Land-based empires had no military forces"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Ottoman, Austro-Hungarian, Qing, and Russian empires all faced nationalist fragmentation and could not match German or British industrial output. Nationalism and industrialization worked against them simultaneously."
   },
   {
     id: "7-1-9",
     question: "Which statement best characterizes anticolonial movements before 1914?",
     options: [
-      "organized movements were emerging and cited Japan's 1905 example",
       "They had all achieved independence by 1914",
       "They rejected all Western political concepts",
-      "They did not exist in any form before the First World War began"
+      "They did not exist in any form before the First World War began",
+      "organized movements were emerging and cited Japan's 1905 example"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Organized nationalist politics predates the war, and movements drew deliberately on liberal and national self-determination ideas while pointing to Japan as proof that Asian states could compete. Independence came decades later."
   },
   {

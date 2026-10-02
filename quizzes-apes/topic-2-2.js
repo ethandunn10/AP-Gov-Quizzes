@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-2-1",
     question: "Ecosystem services are best defined as",
     options: [
-      "benefits humans obtain from functioning ecosystems",
       "the total economic value of harvested resources",
       "services provided by conservation organizations",
-      "government programs that protect natural habitats"
+      "government programs that protect natural habitats",
+      "benefits humans obtain from functioning ecosystems"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The concept reframes nature as infrastructure that supplies clean water, pollination, and climate regulation. Assigning value to these services strengthens conservation arguments."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-2-3",
     question: "Which is an example of a regulating ecosystem service?",
     options: [
-      "Hiking and birdwatching in a national forest",
       "Harvesting fish from a coastal marine fishery",
       "Wetlands filtering pollutants from passing water",
-      "Photosynthesis producing oxygen and biomass"
+      "Photosynthesis producing oxygen and biomass",
+      "Hiking and birdwatching in a national forest"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Regulating services moderate environmental conditions, including flood control, water purification, and disease regulation. Fish harvest is provisioning and recreation is cultural."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-2-6",
     question: "Cultural ecosystem services include",
     options: [
-      "decomposition returning nutrients to soil",
       "recreation, aesthetic value, and spiritual meaning",
       "timber harvested from managed forest stands",
-      "carbon storage in forest and wetland biomass"
+      "carbon storage within forest and wetland plant biomass",
+      "decomposition returning nutrients to soil"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "These nonmaterial benefits are real but hard to price, which often disadvantages them in policy decisions. Tourism revenue offers one partial measure."
   },
   {
     id: "2-2-7",
     question: "Mangrove forests provide a valuable regulating service by",
     options: [
-      "preventing fish from entering coastal nursery areas",
-      "supplying most of the timber used in coastal regions",
       "reducing storm surge damage to coastal communities",
-      "increasing the salinity of nearby agricultural soils"
+      "increasing the salinity of nearby agricultural soils",
+      "preventing fish from entering coastal nursery areas",
+      "supplying most of the timber used in coastal regions"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Studies after major storms show markedly lower damage behind intact mangroves. Restoring them often costs less than building equivalent seawalls."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-2-9",
     question: "Payment for ecosystem services programs work by",
     options: [
-      "compensating landowners for maintaining services",
-      "prohibiting any economic use of natural areas",
       "purchasing land outright for permanent protection",
-      "taxing landowners who preserve natural habitat"
+      "taxing landowners who preserve natural habitat",
+      "compensating landowners for maintaining services",
+      "prohibiting any economic use of natural areas"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Costa Rica pays landowners to keep forest standing for watershed and carbon benefits. The approach aligns private incentives with public benefit."
   },
   {
     id: "2-2-10",
     question: "Loss of biodiversity threatens ecosystem services primarily because",
     options: [
-      "fewer species means each one works harder",
-      "species perform the functions services depend on",
       "biodiversity has no relationship to ecosystem function",
-      "services are provided only by the rarest species"
+      "services are provided only by the rarest species",
+      "fewer species means each one works harder",
+      "species perform the functions services depend on"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Pollinators, decomposers, and filter feeders deliver services directly through their activity. Losing functional groups degrades the services they provide."
   }
 ];

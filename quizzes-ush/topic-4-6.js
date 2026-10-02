@@ -7,7 +7,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-1",
     question: "The cult of domesticity held that middle-class women should",
     options: [
-      "compete with men for positions in commerce and politics",
+      "compete directly with men for positions in commerce and politics",
       "preside over a moral home separate from the world of business",
       "work in factories to supplement household income",
       "manage family farms while men traveled for trade"
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-3",
     question: "Nativist movements such as the Know-Nothings opposed immigration primarily because they",
     options: [
-      "wanted stricter regulation of factory working conditions",
       "supported expanding voting rights for new arrivals",
       "objected to immigration from Britain specifically",
-      "feared Catholic influence and competition for jobs"
+      "feared Catholic influence and competition for jobs",
+      "wanted stricter regulation of factory working conditions"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Anti-Catholicism and labor competition drove nativist politics, which briefly became a significant electoral force. British Protestant immigrants faced far less hostility."
   },
   {
@@ -44,7 +44,7 @@ window.QUIZ_QUESTIONS = [
     question: "The growth of a middle class in this period was reflected in",
     options: [
       "new patterns of consumption, leisure, and smaller families",
-      "the disappearance of wage labor from American cities",
+      "the complete disappearance of wage labor from American cities",
       "declining literacy rates among urban residents",
       "the concentration of all wealth in agricultural land"
     ],
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-5",
     question: "Urbanization in the Northeast created problems that included",
     options: [
+      "sharp decreases in the price of urban land",
       "declining demand for industrial and commercial labor",
       "inadequate sanitation, crowded housing, and disease outbreaks",
-      "the elimination of ethnic neighborhoods in large cities",
-      "sharp decreases in the price of urban land"
+      "the complete elimination of ethnic neighborhoods in large cities"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Cities grew faster than water, sewer, and housing systems could accommodate, producing cholera epidemics. Ethnic enclaves grew rather than disappeared."
   },
   {
     id: "4-6-6",
     question: "The market revolution affected rural families most significantly by",
     options: [
-      "isolating them further from regional and national trade",
-      "eliminating agricultural work for women and children",
       "drawing them into cash markets and away from self-sufficiency",
-      "ending migration from farms into growing cities"
+      "ending migration from farms into growing cities",
+      "isolating them completely from regional and national trade networks",
+      "eliminating agricultural work for women and children"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Farmers increasingly produced for distant markets and purchased goods they once made. That integration brought opportunity along with exposure to price swings and debt."
   },
   {
     id: "4-6-7",
     question: "Free Black communities in northern cities during this period",
     options: [
-      "enjoyed full legal equality with white residents",
-      "were granted federal protection against racial violence",
       "declined steadily in total population after 1820",
-      "built institutions while facing severe discrimination"
+      "built institutions while facing severe discrimination",
+      "enjoyed full legal equality with white residents",
+      "were granted federal protection against racial violence"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Churches, schools, and newspapers flourished even as several states stripped Black men of the vote. Mob violence against Black neighborhoods was a recurring feature of these decades."
   },
   {
     id: "4-6-8",
     question: "The emergence of a distinctly American popular culture was reflected in",
     options: [
+      "the complete exclusion of ordinary people from cultural life",
+      "a rejection of all European artistic influence",
       "penny newspapers, popular theater, and mass-produced print",
-      "the decline of literacy among urban working people",
-      "the exclusion of ordinary people from cultural life",
-      "a rejection of all European artistic influence"
+      "the decline of literacy among urban working people"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Cheap print and commercial entertainment reached mass audiences for the first time. Minstrelsy was among the most popular forms, spreading racist caricature widely."
   },
   {
     id: "4-6-9",
     question: "Which evidence best supports the claim that the market revolution increased inequality?",
     options: [
+      "Wealth concentrated among merchants as wage work spread",
+      "New states entered the union with expanded male suffrage",
       "Transportation improvements reduced the cost of shipping goods",
-      "Immigration increased the population of northeastern cities",
-      "Wealth concentrated among merchants and manufacturers as wage work spread",
-      "New states entered the union with expanded male suffrage"
+      "Immigration increased the population of northeastern cities"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Rising concentration of wealth alongside a growing propertyless wage-earning class is the direct evidence. Suffrage expansion is a countervailing trend toward political equality."
   },
   {
@@ -117,7 +117,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "work moved outside the home, separating male and female spheres",
       "family farms produced all their own goods without trade",
-      "children's labor became more central to household survival",
+      "children's labor became steadily more central to household survival",
       "extended families increasingly lived together in cities"
     ],
     correctIndex: 0,

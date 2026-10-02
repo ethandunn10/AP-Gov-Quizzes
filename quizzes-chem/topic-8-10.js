@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-10-1",
     question: "Buffer capacity is best described as",
     options: [
+      "the total volume of the entire buffer solution used",
+      "the pKa of the weak acid",
       "the pH of the buffer",
-      "the amount of strong acid or base a buffer can absorb before its pH changes significantly",
-      "the volume of the buffer",
-      "the pKa of the weak acid"
+      "how much strong acid or base a buffer can absorb"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "It is a measure of resilience, not of pH. Two buffers at the same pH can have very different capacities."
   },
   {
     id: "8-10-2",
     question: "Buffer capacity is greatest when",
     options: [
-      "the ratio of conjugate base to acid is far from 1",
-      "the two components are present in roughly equal and high concentrations",
+      "both components are present at roughly equal high levels",
       "the buffer is very dilute",
-      "only one component is present"
+      "only one component is present",
+      "the ratio of the conjugate base to the acid is far from 1"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Equal amounts let the buffer resist additions in both directions equally. High concentrations extend how much it can absorb."
   },
   {
     id: "8-10-3",
     question: "A 1.0 M acetate buffer compared with a 0.10 M acetate buffer at the same pH has",
     options: [
+      "a much lower overall buffer capacity",
+      "a different pKa",
       "a higher pH",
-      "about ten times the capacity",
-      "lower capacity",
-      "a different pKa"
+      "about ten times the capacity"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Capacity scales with the moles of buffering species. pH depends on the ratio, which is identical in both."
   },
   {
@@ -46,7 +46,7 @@ window.QUIZ_QUESTIONS = [
       "no pH change",
       "exhaustion of the conjugate base and a sharp pH drop",
       "an increase in pH",
-      "an increase in buffer capacity"
+      "a substantial increase in the overall buffer capacity"
     ],
     correctIndex: 1,
     explanation: "Once the base component is consumed, nothing neutralizes further additions. The solution then behaves like a solution of strong acid."
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-10-5",
     question: "The useful buffering range of a weak acid buffer is approximately",
     options: [
-      "pKa ± 1 pH unit",
       "pH 0 to 14",
       "pKa ± 5 pH units",
-      "only exactly at the pKa"
+      "only exactly at the pKa",
+      "pKa ± 1 pH unit"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Within this range the ratio stays between about 1:10 and 10:1. Outside it, one component becomes too scarce to be effective."
   },
   {
@@ -79,32 +79,32 @@ window.QUIZ_QUESTIONS = [
     id: "8-10-7",
     question: "Blood maintains a narrow pH range partly because its buffer system",
     options: [
+      "has a pKa of 14",
       "has very low capacity",
-      "is continuously regulated, with CO₂ removed by the lungs and bicarbonate by the kidneys",
-      "contains a strong acid",
-      "has a pKa of 14"
+      "it is regulated by the lungs and the kidneys",
+      "it contains a very strong acid as a component"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Physiological regulation replenishes both components as they are used. A closed buffer would eventually exhaust itself."
   },
   {
     id: "8-10-8",
     question: "A buffer with pH 5.0 made from an acid with pKa 3.0 would be",
     options: [
-      "highly effective",
-      "a poor buffer, since the ratio is 100:1 and the acid component is nearly depleted",
       "unable to have that pH",
-      "the best choice for pH 5.0"
+      "the single best possible choice for pH 5.0",
+      "highly effective",
+      "a poor buffer, since the ratio is 100:1"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "It could neutralize added base but barely any added acid. Choosing a pKa near the target pH avoids this imbalance."
   },
   {
     id: "8-10-9",
     question: "Which change increases a buffer's capacity without changing its pH?",
     options: [
-      "Diluting it with water",
-      "Increasing the concentrations of both components proportionally",
+      "diluting the whole buffer with a large volume of water",
+      "raising both component concentrations proportionally",
       "Adding strong acid",
       "Adding strong base"
     ],
@@ -116,8 +116,8 @@ window.QUIZ_QUESTIONS = [
     question: "A titration curve's buffer region is flattest",
     options: [
       "at the equivalence point",
-      "near the half-equivalence point, where buffer capacity is greatest",
-      "at the start of the titration",
+      "near the half-equivalence point, where capacity peaks",
+      "at the very beginning of the entire titration procedure",
       "after the equivalence point"
     ],
     correctIndex: 1,

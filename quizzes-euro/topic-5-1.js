@@ -31,84 +31,84 @@ window.QUIZ_QUESTIONS = [
     id: "5-1-3",
     question: "The French monarchy's fiscal problems before 1789 stemmed largely from",
     options: [
+      "the complete absence of any commercial or agricultural wealth",
       "a refusal by the monarchy to borrow money under any circumstances",
       "the loss of all French colonial possessions before the year 1750",
-      "war debt combined with a tax system exempting privileged groups",
-      "the complete absence of any commercial or agricultural wealth"
+      "war debt combined with a tax system exempting privileged groups"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "France was wealthy but could not tax that wealth, since nobility and clergy claimed exemptions and offices were heritable property. Servicing debt consumed a growing share of revenue."
   },
   {
     id: "5-1-4",
     question: "The society of orders in eighteenth-century France divided the population into",
     options: [
-      "regions each governed by its own independent provincial assembly",
-      "guilds organized by trade with equal legal standing among them",
       "landowners and wage laborers distinguished only by their wealth",
-      "clergy, nobility, and everyone else, with distinct privileges"
+      "clergy, nobility, and everyone else, with distinct privileges",
+      "regions each governed by its own independent provincial assembly",
+      "guilds organized by trade with equal legal standing among them"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The three estates carried different tax obligations and legal standing regardless of individual wealth. A rich merchant remained in the Third Estate below an impoverished noble."
   },
   {
     id: "5-1-5",
     question: "Which group's growing frustration proved most politically significant before 1789?",
     options: [
+      "Court nobles deprived of access to the king at Versailles",
       "Educated and propertied commoners excluded from office and honors",
       "Foreign merchants prohibited from trading in French ports",
-      "The higher clergy, who had lost their landholdings to the crown",
-      "Court nobles deprived of access to the king at Versailles"
+      "The higher clergy, who had lost their landholdings to the crown"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Lawyers, officials, and merchants with wealth and Enlightenment education resented a hierarchy that ranked them beneath any noble. They supplied much of the revolutionary leadership."
   },
   {
     id: "5-1-6",
     question: "The American Revolution affected European politics chiefly by",
     options: [
+      "proving that colonial revolt against a European power was impossible",
       "persuading European monarchs to adopt written constitutions voluntarily",
       "demonstrating that Enlightenment principles could found a real republic",
-      "ending French involvement in overseas colonial competition",
-      "proving that colonial revolt against a European power was impossible"
+      "ending French involvement in overseas colonial competition"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "A working republic built on natural rights gave European reformers a concrete example, and French officers returned having seen it. French intervention also deepened the debt that triggered 1789."
   },
   {
     id: "5-1-7",
     question: "Agricultural and demographic pressures in late eighteenth-century France included",
     options: [
-      "a shrinking population that left large areas of farmland uncultivated",
       "government grain subsidies that kept bread prices artificially low",
       "population outpacing food supply, with bread prices rising",
-      "the complete replacement of grain cultivation by commercial viticulture"
+      "the complete replacement of grain cultivation by commercial viticulture",
+      "a shrinking population that left large areas of farmland uncultivated"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "More mouths and bad harvests in 1788 drove bread to consume most of a laborer's wage just as the political crisis peaked. Bread prices are central to explaining popular participation in 1789."
   },
   {
     id: "5-1-8",
     question: "The parlements of France contributed to the pre-revolutionary crisis by",
     options: [
+      "blocking tax reform while claiming to defend old liberties",
       "voting to abolish noble tax exemptions on their own initiative",
       "supporting every fiscal measure the crown proposed after 1770",
-      "demanding that the king rule without consulting any other body",
-      "blocking tax reform while claiming to defend old liberties"
+      "demanding that the king rule without consulting any other body"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "These noble law courts refused to register tax edicts, presenting aristocratic self-interest as constitutional resistance. Their obstruction forced Louis XVI to call the Estates General."
   },
   {
     id: "5-1-9",
     question: "Which continuity characterized European states on the eve of the French Revolution?",
     options: [
-      "Society remained legally stratified with privileged corporate bodies",
       "All major states had adopted written constitutions limiting the ruler",
       "Serfdom had been abolished everywhere across the continent",
-      "Most had already granted equal legal rights to all their subjects"
+      "Most had already granted equal legal rights to all their subjects",
+      "Society remained legally stratified with privileged corporate bodies"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Guilds, provinces, nobles, and clergy all held distinct legal privileges that the Revolution would attack directly. Serfdom persisted in the east and constitutions were rare."
   },
   {

@@ -12,50 +12,50 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.1-2",
     question: "Gap junctions in animal cells allow for direct cell-to-cell communication by:",
-    options: ["Releasing hormones into the bloodstream", "Forming channels between adjacent cytoplasms", "Requiring signals to travel long distances", "Functioning only between plant cells"],
-    correctIndex: 1,
+    options: ["Functioning only between plant cells", "Releasing hormones into the bloodstream", "Forming channels between adjacent cytoplasms", "Requiring signals to travel long distances"],
+    correctIndex: 2,
     explanation: "Gap junctions are protein channels that directly connect the cytoplasm of neighboring cells, allowing ions and small molecules to pass directly between them without crossing the extracellular space."
   },
   {
     id: "4.1-3",
     question: "Plasmodesmata serve a similar function to gap junctions but are found in:",
-    options: ["Animal muscle cells only", "Plant cells, via the cell wall", "Bacterial cells, through pili", "Fungal cells exclusively"],
-    correctIndex: 1,
+    options: ["Fungal cells exclusively", "Animal muscle cells only", "Plant cells, via the cell wall", "Bacterial cells, through pili"],
+    correctIndex: 2,
     explanation: "Plasmodesmata are channels through plant cell walls that connect the cytoplasm of adjacent plant cells, serving a role analogous to gap junctions in animal cells."
   },
   {
     id: "4.1-4",
     question: "Paracrine signaling involves a cell releasing signaling molecules that:",
-    options: ["Travel throughout the entire bloodstream to reach distant targets", "Act on nearby target cells in the local environment", "Only affect the same cell that released them", "Require direct cytoplasmic connections"],
-    correctIndex: 1,
+    options: ["Only affect the same cell that released them", "Require direct cytoplasmic connections", "Travel throughout the entire bloodstream to reach distant targets", "Act on nearby target cells in the local environment"],
+    correctIndex: 3,
     explanation: "In paracrine signaling, cells release local signaling molecules that diffuse short distances to affect nearby cells, unlike endocrine signaling which travels throughout the body."
   },
   {
     id: "4.1-5",
     question: "Autocrine signaling occurs when a cell:",
-    options: ["Sends signals only to distant cells", "Responds to a signal it secretes itself", "Cannot communicate with any other cell", "Only communicates through direct contact"],
-    correctIndex: 1,
+    options: ["Cannot communicate with any other cell", "Only communicates through direct contact", "Sends signals only to distant cells", "Responds to a signal it secretes itself"],
+    correctIndex: 3,
     explanation: "In autocrine signaling, a cell releases a signal molecule that binds to receptors on that same cell, allowing it to regulate its own activity."
   },
   {
     id: "4.1-6",
     question: "Synaptic signaling, used by neurons, is a specialized, fast form of communication in which a signal travels:",
-    options: ["Through the bloodstream to the entire body", "Across a synapse via neurotransmitters", "Only through open gap junctions", "Only via hormones released into blood"],
-    correctIndex: 1,
+    options: ["Across a synapse via neurotransmitters", "Only through open gap junctions", "Only via hormones released into blood", "Through the bloodstream to the entire body"],
+    correctIndex: 0,
     explanation: "In synaptic signaling, a neuron releases neurotransmitters across a narrow synaptic gap to rapidly and specifically communicate with an adjacent target cell, such as another neuron or a muscle cell."
   },
   {
     id: "4.1-7",
     question: "Which type of cell signaling would be most appropriate for coordinating a rapid, precise response, such as a reflex muscle contraction?",
-    options: ["Endocrine signaling via hormones in the blood", "Synaptic signaling between neurons and muscle cells", "Autocrine signaling only", "Direct diffusion through the extracellular matrix with no receptors"],
-    correctIndex: 1,
+    options: ["Direct diffusion through the extracellular matrix with no receptors", "Endocrine signaling via hormones in the blood", "Synaptic signaling between neurons and muscle cells", "Autocrine signaling only"],
+    correctIndex: 2,
     explanation: "Synaptic signaling allows for very fast, targeted communication (milliseconds), making it well-suited for reflexes and other rapid, precise responses, unlike the slower, more diffuse hormonal signaling."
   },
   {
     id: "4.1-8",
     question: "Insulin, released by the pancreas and traveling through the blood to affect liver and muscle cells throughout the body, is an example of:",
-    options: ["Paracrine signaling", "Endocrine signaling", "Direct cell-to-cell contact signaling", "Autocrine signaling"],
-    correctIndex: 1,
+    options: ["Endocrine signaling", "Direct cell-to-cell contact signaling", "Autocrine signaling", "Paracrine signaling"],
+    correctIndex: 0,
     explanation: "Insulin is a hormone that travels through the bloodstream to reach target cells throughout the body, making this a classic example of endocrine signaling."
   },
   {

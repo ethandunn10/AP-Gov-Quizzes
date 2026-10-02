@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-1",
     question: "Relocation diffusion occurs when",
     options: [
-      "people physically move and carry cultural traits with them",
       "a trait spreads from the most powerful places downward",
-      "a trait spreads outward from a central point of origin",
-      "an idea spreads while people themselves stay in place"
+      "a trait spreads outward from one central point of its origin",
+      "an idea spreads while people themselves stay in place",
+      "people physically move and carry cultural traits with them"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Migrants bring language, religion, and cuisine to their destinations, as Italian food traveled to the Americas. The trait may weaken or disappear at the origin."
   },
   {
@@ -21,7 +21,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "spreads exclusively through government policy",
       "spreads outward while remaining strong at its source",
-      "moves only when its carriers physically relocate",
+      "moves only when all of its carriers physically relocate",
       "disappears from the place where it originated"
     ],
     correctIndex: 1,
@@ -31,91 +31,91 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-3",
     question: "Contagious diffusion spreads a trait",
     options: [
+      "by transferring the underlying idea while changing its form",
       "from the largest cities down to smaller settlements",
       "only among people who share a common language",
-      "outward to nearby people and places, ignoring hierarchy",
-      "by transferring the underlying idea while changing its form"
+      "outward to nearby people and places, ignoring hierarchy"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Like an infectious disease, the trait passes through adjacent contact so nearness matters most. Viral internet content often follows this pattern."
   },
   {
     id: "3-4-4",
     question: "Hierarchical diffusion describes a trait spreading",
     options: [
-      "evenly in all directions from its point of origin",
       "only through the physical relocation of its carriers",
       "from rural areas upward into major metropolitan centers",
-      "from larger or more influential places to smaller ones"
+      "from larger or more influential places to smaller ones",
+      "evenly in all directions from its point of origin"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Fashion moving from Paris and Milan to smaller cities illustrates the pattern. Reverse hierarchical diffusion, as with Walmart, begins in small places instead."
   },
   {
     id: "3-4-5",
     question: "Stimulus diffusion occurs when",
     options: [
-      "the underlying idea spreads but takes a modified form",
       "a trait spreads without any change to its original form",
       "a trait fails to spread beyond its region of origin",
-      "governments actively promote a trait through legislation"
+      "governments actively promote a trait through legislation",
+      "the underlying idea spreads but takes a modified form"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "McDonald's selling a vegetarian burger in India keeps the fast-food concept while adapting the product. The principle diffuses even when the specific form cannot."
   },
   {
     id: "3-4-6",
     question: "Which is the clearest example of relocation diffusion?",
     options: [
-      "A song becoming popular through worldwide streaming services",
       "Spanish becoming dominant in Latin America after colonization",
       "A fashion trend moving from large cities to smaller towns",
-      "A new farming technique spreading to neighboring villages"
+      "A new farming technique spreading to neighboring villages",
+      "A song becoming popular through worldwide streaming services"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Colonists physically carried the language across the Atlantic, which is relocation rather than expansion. The other options illustrate hierarchical and contagious diffusion."
   },
   {
     id: "3-4-7",
     question: "The spread of Islam from Arabia through conquest and trade illustrates",
     options: [
-      "stimulus diffusion, in which only the underlying idea travels",
       "a trait remaining confined to its original hearth",
       "both relocation and expansion diffusion operating together",
-      "hierarchical diffusion moving from small towns to cities"
+      "hierarchical diffusion moving from small towns to cities",
+      "stimulus diffusion, in which only the underlying idea travels"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Merchants and armies carried the faith to new regions while it also spread through conversion among existing populations. Most major diffusions combine several mechanisms."
   },
   {
     id: "3-4-8",
     question: "Reverse hierarchical diffusion describes a trait that spreads",
     options: [
+      "from smaller places upward toward larger cities",
       "backward in time to earlier historical periods",
       "from major world cities to global peripheries",
-      "only among people of the same social class",
-      "from smaller places upward toward larger cities"
+      "only among people of the same social class"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Walmart grew from small Arkansas towns before reaching large metropolitan markets. The pattern is less common than standard hierarchical diffusion."
   },
   {
     id: "3-4-9",
     question: "Barriers to diffusion include",
     options: [
+      "shared languages and dense transportation networks",
       "physical distance, borders, and cultural resistance",
       "the presence of mass media and internet connectivity",
-      "high population density in neighboring regions",
-      "shared languages and dense transportation networks"
+      "high population density in neighboring regions"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Oceans, closed borders, and deliberate rejection all slow or stop the spread of traits. Distance decay describes the weakening of diffusion with distance."
   },
   {
     id: "3-4-10",
     question: "A geographer tracing how a new technology spread through a country would look for evidence of",
     options: [
-      "the country's latitude relative to the equator",
+      "the country's exact latitude relative to the equator",
       "adoption sequence by settlement size and proximity",
       "the total land area covered by the country",
       "the geological characteristics of the terrain"

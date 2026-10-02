@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-1-1",
     question: "An ecosystem is best defined as",
     options: [
+      "all organisms of one species living in an area",
       "a community of organisms plus its physical environment",
-      "the total variety of species found on the planet",
-      "the physical region a single organism occupies",
-      "all organisms of one species living in an area"
+      "the total variety of species found anywhere on the planet",
+      "the physical region a single organism occupies"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "An ecosystem includes both biotic components and the abiotic factors they interact with. A single species population is smaller in scale, and global species variety is biodiversity."
   },
   {
     id: "1-1-2",
     question: "Which of the following is an abiotic factor in an ecosystem?",
     options: [
-      "Decomposing fungi breaking down fallen leaves",
-      "Soil pH affecting which plants can grow there",
       "Herbivores grazing on grasses in a meadow",
-      "Bacteria fixing nitrogen in plant root nodules"
+      "Bacteria fixing nitrogen in plant root nodules",
+      "Decomposing fungi breaking down fallen leaves",
+      "Soil pH affecting which plants can grow there"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Abiotic factors are nonliving: temperature, pH, sunlight, water, and nutrients. Fungi, herbivores, and bacteria are all living components of the ecosystem."
   },
   {
@@ -43,84 +43,84 @@ window.QUIZ_QUESTIONS = [
     id: "1-1-4",
     question: "Mutualism is a symbiotic relationship in which",
     options: [
-      "one species benefits at the expense of the other",
-      "neither species is affected by the interaction",
       "one species benefits while the other is unaffected",
-      "both interacting species receive a clear benefit"
+      "both interacting species receive a clear benefit",
+      "one species benefits at the expense of the other",
+      "neither species is affected by the interaction"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Mycorrhizal fungi and plant roots exchange nutrients for sugars, benefiting both. Commensalism benefits one without affecting the other, and parasitism harms the host."
   },
   {
     id: "1-1-5",
     question: "Resource partitioning allows similar species to coexist because it",
     options: [
-      "divides a shared resource so niches do not fully overlap",
-      "increases the total amount of resource available locally",
       "causes both species to use the identical resource fully",
-      "eliminates competition by removing one species entirely"
+      "eliminates competition by removing one species entirely",
+      "divides a shared resource so niches do not fully overlap",
+      "increases the total amount of resource available locally"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Warblers feeding at different heights in the same tree illustrate this division. It is the alternative outcome to competitive exclusion, where one species is eliminated."
   },
   {
     id: "1-1-6",
     question: "The competitive exclusion principle states that two species cannot",
     options: [
+      "form a mutualistic relationship with each other",
       "occupy the same physical habitat at the same time",
       "indefinitely occupy the identical niche in one place",
-      "compete for any of the same resources in an area",
-      "form a mutualistic relationship with each other"
+      "compete for any of the same resources in an area"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "If niches are truly identical, one competitor eventually outcompetes the other. Species routinely share habitats by partitioning resources so their niches differ."
   },
   {
     id: "1-1-7",
     question: "A species' ecological niche includes",
     options: [
-      "the geographic range across which it once lived",
       "only the physical space where the species lives",
       "its role, resource use, and environmental tolerances",
-      "the total number of individuals the area can hold"
+      "the total number of individuals the area can hold",
+      "the geographic range across which it once lived"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Niche describes what an organism does, what it eats, and the conditions it tolerates. Habitat, by contrast, refers only to the physical address."
   },
   {
     id: "1-1-8",
     question: "Commensalism is illustrated by",
     options: [
-      "bees pollinating flowers while collecting the nectar",
       "two bird species competing for the same nest sites",
       "a tapeworm absorbing nutrients inside a host intestine",
-      "barnacles riding on a whale without affecting it"
+      "barnacles riding on a whale without affecting it",
+      "bees pollinating flowers while collecting the nectar"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The barnacles gain transport and feeding opportunity while the whale is essentially unaffected. Tapeworms are parasitic and bee pollination is mutualistic."
   },
   {
     id: "1-1-9",
     question: "Ecosystem boundaries are often difficult to define precisely because",
     options: [
-      "energy and organisms move across adjacent systems",
-      "abiotic factors never vary within a single region",
       "each ecosystem contains only one species population",
-      "ecosystems are always exactly the same size"
+      "ecosystems are always exactly the same size",
+      "energy and organisms move across adjacent systems",
+      "abiotic factors never vary within a single region"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Nutrients, water, and migrating organisms cross whatever line an observer draws, so boundaries are partly a matter of the question being asked. Transitional zones called ecotones blur edges further."
   },
   {
     id: "1-1-10",
     question: "A keystone species is one whose removal would",
     options: [
-      "have little measurable effect on the ecosystem",
-      "cause disproportionate change in ecosystem structure",
       "reduce the total ecosystem biomass by exactly half",
-      "affect only the species that directly consume it"
+      "affect only the species that directly consume it",
+      "have little measurable effect on the ecosystem",
+      "cause disproportionate change in ecosystem structure"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Sea otters controlling urchins that would otherwise destroy kelp forests is the classic case. Keystone species matter out of proportion to their abundance."
   }
 ];

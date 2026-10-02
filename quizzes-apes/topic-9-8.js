@@ -19,72 +19,72 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-2",
     question: "Invasive species often thrive in new environments because they",
     options: [
-      "require very specific conditions found in few places",
+      "arrive without the predators and diseases that controlled them",
+      "require very specific conditions found in only a few places",
       "reproduce far more slowly than native competitors",
-      "face the same predators they did in their native range",
-      "arrive without the predators and diseases that controlled them"
+      "face the same predators they did in their native range"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "This enemy release effect allows explosive population growth. Generalist r-selected traits also help invaders establish quickly."
   },
   {
     id: "9-8-3",
     question: "Ballast water discharge from ships is a major introduction pathway because it",
     options: [
-      "transports larvae and organisms between distant ports",
-      "kills all organisms during the ocean voyage",
       "is prohibited under all international shipping law",
-      "carries only sterile water with no living organisms"
+      "carries only sterile water with no living organisms",
+      "transports larvae and organisms between distant ports",
+      "kills all organisms during the ocean voyage"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Zebra mussels reached the Great Lakes this way. Ballast treatment requirements were adopted specifically to address this pathway."
   },
   {
     id: "9-8-4",
     question: "Zebra mussels have damaged Great Lakes ecosystems by",
     options: [
-      "providing an abundant new food source for native fish",
-      "filtering plankton and clogging water intake pipes",
       "increasing the turbidity of the lake water substantially",
-      "having no measurable effect on the native ecosystem"
+      "having no measurable effect on the native ecosystem",
+      "providing an abundant new food source for native fish",
+      "filtering plankton and clogging water intake pipes"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Their filtering removes plankton that native species depend on. Infrastructure damage costs hundreds of millions of dollars annually."
   },
   {
     id: "9-8-5",
     question: "Kudzu became invasive in the southeastern United States after being introduced to",
     options: [
-      "replace native forests that had been logged",
-      "provide food for livestock in northern states",
       "control soil erosion on disturbed land",
-      "serve as an ornamental plant in urban gardens"
+      "serve as an ornamental plant in urban gardens",
+      "replace native forests that had been logged",
+      "provide food for livestock in northern states"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Government programs actively promoted planting it during the 1930s. It now smothers native vegetation across millions of acres."
   },
   {
     id: "9-8-6",
     question: "Island ecosystems are especially vulnerable to invasive species because native species",
     options: [
-      "reproduce far more rapidly than any introduced species",
-      "can easily disperse to other islands when threatened",
       "evolved alongside the same predators now arriving",
-      "often evolved without defenses against mainland predators"
+      "often evolved without defenses against mainland predators",
+      "reproduce far more rapidly than any introduced species",
+      "can easily disperse to other islands when threatened"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Flightless birds and ground-nesting species had no defense against introduced rats and cats. Island endemics account for a large share of recorded extinctions."
   },
   {
     id: "9-8-7",
     question: "The brown tree snake on Guam illustrates that a single invasive species can",
     options: [
+      "increase the total biodiversity of an island",
       "drive multiple native species to extinction",
       "be controlled easily once it is detected",
-      "coexist harmlessly with all native wildlife",
-      "increase the total biodiversity of an island"
+      "coexist harmlessly with all native wildlife"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Most of Guam's native forest birds were eliminated. Loss of those birds then disrupted pollination and seed dispersal across the island."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-9",
     question: "The most cost effective approach to invasive species management is generally",
     options: [
-      "waiting to see whether the species causes real harm",
       "eradicating populations after they are well established",
       "preventing introduction through screening and inspection",
-      "introducing additional predators to control the invader"
+      "introducing additional predators to control the invader",
+      "waiting to see whether the species causes real harm"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Eradication costs rise enormously once a species spreads. Biological control carries its own risk of becoming invasive."
   },
   {

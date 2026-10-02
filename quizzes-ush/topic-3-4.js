@@ -7,31 +7,31 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-1",
     question: "John Locke's social contract theory supported revolution by arguing that",
     options: [
-      "monarchs receive their authority directly from divine appointment",
+      "property rights must yield to the needs of the state",
+      "monarchs receive their authority directly from divine appointment alone",
       "government rests on consent and may be replaced if it violates rights",
-      "subjects owe obedience regardless of how they are governed",
-      "property rights must yield to the needs of the state"
+      "subjects owe obedience regardless of how they are governed"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Locke held that governments exist to protect life, liberty, and property, forfeiting legitimacy when they fail. Jefferson drew on this framework almost verbatim in the Declaration."
   },
   {
     id: "3-4-2",
     question: "Republicanism as understood by American revolutionaries emphasized",
     options: [
-      "civic virtue and the danger of concentrated power",
-      "hereditary rule tempered by an elected advisory council",
       "direct democracy in which all citizens voted on every law",
-      "the supremacy of commercial interests over public duty"
+      "the supremacy of commercial interests over public duty",
+      "civic virtue and the danger of concentrated power",
+      "hereditary rule tempered by an elected advisory council"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Republican thought held that liberty depended on citizens who put the public good above private interest and on institutions that checked power. Its fear of corruption shaped how colonists read British policy."
   },
   {
     id: "3-4-3",
     question: "Thomas Paine's Common Sense was influential mainly because it",
     options: [
-      "provided a detailed constitutional plan for the new nation",
+      "provided a detailed constitutional blueprint for the entire new nation",
       "defended reconciliation with Britain under improved terms",
       "was circulated privately among a small group of leaders",
       "argued for independence in language ordinary readers could grasp"
@@ -43,36 +43,36 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-4",
     question: "The Declaration of Independence justified separation primarily by",
     options: [
-      "citing Parliament's refusal to grant colonial trade concessions",
+      "appealing to the authority of European monarchs for support",
+      "citing Parliament's refusal to grant colonial trade concessions at all",
       "asserting that colonists had always been a separate nation",
-      "listing abuses that showed the king had broken the social contract",
-      "appealing to the authority of European monarchs for support"
+      "listing abuses that showed the king had broken the social contract"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The grievances were structured to demonstrate a pattern of tyranny justifying dissolution of allegiance. Addressing the king rather than Parliament reflected the colonists' by-then-total rejection of Parliamentary authority."
   },
   {
     id: "3-4-5",
     question: "Which tension is most evident in the Declaration's assertion that all men are created equal?",
     options: [
+      "It required immediate voting rights for every adult resident",
       "It was written by enslavers in a society built on slavery",
       "It rejected the idea of natural rights entirely",
-      "It applied only to residents of New England",
-      "It required immediate voting rights for all adults"
+      "It applied only to residents of New England"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The gap between universal language and a slaveholding reality was noticed at the time, including by enslaved petitioners who quoted it back. That contradiction became a central resource for later abolitionists."
   },
   {
     id: "3-4-6",
     question: "Montesquieu's influence on American political thought is clearest in the emphasis on",
     options: [
+      "abolishing all written constitutions in favor of custom",
+      "establishing a state church to unify the republic",
       "separating governmental powers among distinct branches",
-      "concentrating authority in a single legislative body",
-      "abolishing written constitutions in favor of custom",
-      "establishing a state church to unify the republic"
+      "concentrating all authority in a single legislative body"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Montesquieu argued that dividing power prevents tyranny, an idea built into both state constitutions and the federal framework. Concentrated legislative power is what that design was meant to avoid."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-9",
     question: "Loyalists opposed independence largely because they believed",
     options: [
-      "Parliament had no authority over colonial affairs",
       "colonial assemblies should be granted more power",
       "rebellion risked anarchy and the loss of British protection",
-      "the colonies would prosper more outside the empire"
+      "the colonies would prosper more outside the empire",
+      "Parliament possessed no real authority over colonial affairs at all"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Loyalists feared mob rule, economic ruin, and defeat by the world's strongest military. They numbered perhaps a fifth of the population, which makes the Revolution partly a civil war."
   },
   {
     id: "3-4-10",
     question: "Which evidence best supports the claim that revolutionary ideology had consequences its authors did not intend?",
     options: [
-      "State constitutions established separate branches of government",
-      "Enslaved people and women invoked its language to demand rights",
       "The Declaration listed specific grievances against the king",
-      "Colonial merchants organized boycotts of British goods"
+      "Colonial merchants organized boycotts of British goods",
+      "State constitutions established separate branches of government",
+      "Enslaved people and women invoked its language to demand rights"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Freedom petitions and Abigail Adams's appeal show the rhetoric being turned toward ends the framers had not contemplated. Separation of powers and boycotts were intended applications rather than unintended ones."
   }
 ];

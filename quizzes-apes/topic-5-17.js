@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-17-1",
     question: "Sustainable forestry involves harvesting timber at a rate",
     options: [
+      "far exceeding the forest's natural regrowth",
       "the forest can replace through regeneration",
       "determined solely by current market demand",
-      "that removes all trees from a stand at once",
-      "far exceeding the forest's natural regrowth"
+      "that removes all trees from a stand at once"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Matching harvest to growth allows indefinite production while maintaining forest cover. Exceeding regrowth converts a renewable resource into a depleting one."
   },
   {
     id: "5-17-2",
     question: "Selective cutting supports sustainable forestry because it",
     options: [
+      "is faster and much cheaper than clearcutting a stand",
+      "eliminates the need for any forest regeneration",
       "removes every tree within the harvest boundary",
-      "removes individual trees while keeping forest cover",
-      "is faster and cheaper than clearcutting a stand",
-      "eliminates the need for any forest regeneration"
+      "removes individual trees while keeping forest cover"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Retaining canopy preserves habitat, reduces erosion, and allows natural regeneration. The tradeoff is higher cost and possible damage to residual trees."
   },
   {
     id: "5-17-3",
     question: "Uneven aged management maintains a forest containing",
     options: [
-      "a single tree species across the entire stand",
-      "trees that were all planted in the same year",
       "trees of many different ages and sizes",
-      "only mature trees ready for immediate harvest"
+      "only mature trees ready for immediate harvest",
+      "a single tree species across the entire stand",
+      "trees that were all planted in the same year"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Structural diversity supports more wildlife and resembles natural forest dynamics. Even-aged plantations are simpler to manage but ecologically poorer."
   },
   {
     id: "5-17-4",
     question: "Forest certification programs such as the Forest Stewardship Council work by",
     options: [
-      "setting the market price of harvested lumber",
-      "purchasing forestland for permanent protection",
       "prohibiting all commercial timber harvesting",
-      "verifying and labeling sustainably managed timber"
+      "verifying and labeling sustainably managed timber",
+      "setting the market price of harvested lumber",
+      "purchasing forestland for permanent protection"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Certification lets consumers choose responsibly sourced wood, creating market incentive. Effectiveness depends on the rigor of auditing and enforcement."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-17-6",
     question: "Reforestation differs from afforestation in that reforestation",
     options: [
-      "plants trees where forest has never previously grown",
       "restores forest on land that was recently forested",
       "removes trees from a previously forested area",
-      "converts forest into agricultural cropland"
+      "converts forest into agricultural cropland",
+      "plants trees where forest has never previously grown"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Afforestation establishes forest on historically nonforested land, such as grassland. Afforestation can harm native grassland ecosystems if poorly sited."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-17-9",
     question: "Reducing Emissions from Deforestation and Forest Degradation programs work by",
     options: [
+      "requiring countries to harvest more timber annually",
       "paying countries to keep forests standing",
       "prohibiting all human presence in forested areas",
-      "converting forests into agricultural plantations",
-      "requiring countries to harvest more timber annually"
+      "converting forests into agricultural plantations"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "REDD+ creates financial value for intact forest through carbon payments. Verification and ensuring benefits reach local communities remain challenges."
   },
   {
     id: "5-17-10",
     question: "Ecosystem based forest management differs from timber focused management by",
     options: [
-      "maximizing the board feet harvested from each stand",
       "weighing wildlife, water, and recreation with timber",
       "excluding all human use from every managed forest",
-      "measuring success only by annual harvest volume"
+      "measuring success only by annual harvest volume",
+      "maximizing the board feet harvested from each stand"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The approach treats forests as systems providing multiple services rather than as fiber farms. Managing for several objectives requires accepting tradeoffs among them."
   }
 ];

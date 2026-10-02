@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-3-1",
     question: "An endocrine disruptor is a chemical that",
     options: [
-      "interferes with hormone signaling in an organism",
-      "causes immediate acute poisoning at any dose",
       "accumulates harmlessly in bone and fatty tissue",
-      "destroys nerve tissue on direct physical contact"
+      "destroys nerve tissue on direct physical contact",
+      "interferes with hormone signaling in an organism",
+      "causes immediate acute poisoning at any dose"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "These chemicals mimic, block, or alter natural hormones. Because hormones act at very low concentrations, tiny doses can matter."
   },
   {
     id: "8-3-2",
     question: "Endocrine disruptors are unusual toxicologically because their effects",
     options: [
-      "always increase steadily with increasing dose",
       "may occur at low doses but not at higher ones",
       "appear only after decades of continuous exposure",
-      "are identical in every species that is exposed"
+      "are identical in every species that is exposed",
+      "always increase steadily with increasing dose"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Nonmonotonic dose response curves complicate standard risk assessment. Testing only high doses can miss effects that occur at realistic exposures."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-3-5",
     question: "DDT affected bird populations through an endocrine mechanism that caused",
     options: [
+      "immediate acute poisoning of adult birds",
       "thinning of eggshells that broke during incubation",
       "complete loss of the ability to fly or migrate",
-      "increased reproductive success in raptor species",
-      "immediate acute poisoning of adult birds"
+      "increased reproductive success in raptor species"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "DDE interfered with calcium deposition in eggshells. Bald eagle and peregrine falcon populations recovered after DDT was banned."
   },
   {
@@ -79,43 +79,43 @@ window.QUIZ_QUESTIONS = [
     id: "8-3-7",
     question: "Endocrine disruptors pose particular risk during",
     options: [
-      "exposure at extremely high doses only",
-      "late adulthood after hormone levels have stabilized",
       "fetal development and early childhood",
-      "periods when an organism is not growing at all"
+      "periods when an organism is not growing at all",
+      "exposure at extremely high doses only",
+      "late adulthood after hormone levels have stabilized"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Hormones direct developmental processes during critical windows. Disruption during those windows can cause permanent effects."
   },
   {
     id: "8-3-8",
     question: "Phthalates are added to plastics primarily to",
     options: [
-      "protect the plastic from ultraviolet degradation",
-      "reduce the cost of manufacturing the material",
       "increase the rigidity and hardness of the material",
-      "make plastics more flexible and durable"
+      "make plastics more flexible and durable",
+      "protect the plastic from ultraviolet degradation",
+      "reduce the cost of manufacturing the material"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "These plasticizers are not chemically bound and migrate out over time. They are associated with reproductive effects in animal studies."
   },
   {
     id: "8-3-9",
     question: "Regulating endocrine disruptors is difficult partly because traditional toxicity testing",
     options: [
-      "assumes higher doses always produce greater harm",
       "focuses specifically on hormonal signaling pathways",
       "requires decades of study before any chemical is approved",
-      "examines effects at realistic low environmental doses"
+      "examines effects at realistic low environmental doses",
+      "assumes higher doses always produce greater harm"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The dose makes the poison assumption fails for hormonally active compounds. Regulatory frameworks are gradually being revised to account for this."
   },
   {
     id: "8-3-10",
     question: "Evidence for endocrine disruption in wildlife has included",
     options: [
-      "increased reproductive rates in exposed populations",
+      "greatly increased reproductive rates in the exposed populations",
       "intersex fish and reproductive abnormalities in alligators",
       "complete immunity to all chemical contamination",
       "improved immune function in exposed amphibians"

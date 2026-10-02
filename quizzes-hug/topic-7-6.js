@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-1",
     question: "Comparative advantage holds that a country benefits from specializing in goods it can produce",
     options: [
-      "for sale exclusively within its own domestic market",
       "using fewer total workers than any other country",
       "at a lower opportunity cost than its trading partners",
-      "entirely without importing any foreign raw materials"
+      "entirely without importing any foreign raw materials",
+      "for sale exclusively within its own domestic market"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The decisive comparison is what a country gives up to produce something, not absolute efficiency. Trade can benefit both parties even when one is more efficient at everything."
   },
   {
     id: "7-6-2",
     question: "A free trade agreement primarily works by",
     options: [
-      "requiring members to adopt a single common currency",
-      "prohibiting all trade with countries outside the bloc",
       "raising tariffs on goods entering member countries",
-      "reducing tariffs and barriers among member states"
+      "reducing tariffs and barriers among member states",
+      "requiring members to adopt a single common currency",
+      "prohibiting all trade with countries outside the bloc"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "USMCA and similar agreements lower duties and harmonize rules among signatories. A shared currency belongs to deeper economic union, as in the eurozone."
   },
   {
@@ -55,48 +55,48 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-5",
     question: "Offshoring refers to a firm",
     options: [
+      "purchasing raw materials from international suppliers",
       "listing its shares on a foreign stock exchange",
       "selling finished products in foreign consumer markets",
-      "moving production processes to another country",
-      "purchasing raw materials from international suppliers"
+      "moving production processes to another country"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Offshoring relocates the work itself, usually to reduce labor or regulatory costs. Outsourcing contracts work to another firm, which may or may not be abroad."
   },
   {
     id: "7-6-6",
     question: "Export processing zones attract foreign investment by offering",
     options: [
-      "guaranteed purchase of all output by the host government",
-      "unrestricted access to the host country's mineral rights",
       "higher wages than the surrounding national economy",
-      "tax breaks, duty exemptions, and relaxed regulation"
+      "tax breaks, duty exemptions, and relaxed regulation",
+      "guaranteed purchase of all output by the host government",
+      "unrestricted access to the host country's mineral rights"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Special zones suspend normal tariffs and often labor or environmental rules to draw assembly operations. Critics question how much benefit reaches the host economy."
   },
   {
     id: "7-6-7",
     question: "A multinational corporation is best defined as a firm that",
     options: [
+      "exports its products to customers in several countries",
       "owns and operates facilities in more than one country",
       "is owned jointly by the governments of several states",
-      "employs workers drawn from many different nationalities",
-      "exports its products to customers in several countries"
+      "employs workers drawn from many different nationalities"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Direct ownership of production abroad, not merely export sales, defines the multinational. That ownership is what gives such firms leverage over host governments."
   },
   {
     id: "7-6-8",
     question: "Containerization transformed global trade primarily by",
     options: [
-      "increasing the labor required to load and unload ships",
-      "drastically lowering the cost of moving goods by sea",
       "restricting trade to ports with deep natural harbors",
-      "reducing the total volume of goods shipped worldwide"
+      "reducing the total volume of goods shipped worldwide",
+      "increasing the labor required to load and unload ships",
+      "drastically lowering the cost of moving goods by sea"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Standardized boxes made loading fast and cheap, enabling globally dispersed supply chains. Dockside employment fell sharply as a direct consequence."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-10",
     question: "Critics of the current global trade system most often argue that it",
     options: [
+      "distributes gains unevenly between and within countries",
       "prevents developing countries from exporting anything",
       "has eliminated all manufacturing in developing regions",
-      "reduces the total volume of goods available to consumers",
-      "distributes gains unevenly between and within countries"
+      "reduces the total volume of goods available to consumers"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Trade expands aggregate output while concentrating benefits among capital owners and skilled workers. The distributional question, not the existence of gains, is the substance of the debate."
   }
 ];

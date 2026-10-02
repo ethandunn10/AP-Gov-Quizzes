@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-1",
     question: "Political boundaries function primarily to",
     options: [
-      "mark the limits of a state's sovereign authority",
       "separate regions with identical cultural traits",
       "indicate changes in physical terrain and climate",
-      "identify areas of equal population density"
+      "identify areas of equal population density",
+      "mark the limits of a state's sovereign authority"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Inside the line, one government's law applies; outside it, another's does. Boundaries therefore determine jurisdiction, taxation, and citizenship."
   },
   {
     id: "4-5-2",
     question: "Boundaries affect economic activity because they",
     options: [
-      "have no measurable effect on trade or investment",
       "create different regulatory, tax, and currency regimes",
       "guarantee identical economic conditions on both sides",
-      "prevent all movement of goods between neighboring states"
+      "prevent all movement of goods between neighboring states",
+      "have no measurable effect on trade or investment"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Price and wage differences across a line generate cross-border shopping, maquiladoras, and smuggling. Removing borders, as in the EU single market, changes those patterns sharply."
   },
   {
@@ -43,7 +43,7 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-4",
     question: "An operational or functional boundary dispute concerns",
     options: [
-      "the precise geographic position of the boundary line",
+      "the exact geographic position of the boundary line on the ground",
       "which state owns resources that cross the boundary",
       "the interpretation of the treaty's original language",
       "how the boundary is managed, including migration and trade"
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-5",
     question: "An allocational boundary dispute typically involves",
     options: [
+      "the exact wording used in the original boundary treaty",
       "resources such as oil or water that cross the boundary",
       "the physical marking of the boundary on the ground",
-      "day-to-day management of border crossing points",
-      "the exact wording used in the original boundary treaty"
+      "day-to-day management of border crossing points"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Oil fields and aquifers spanning a border create competing extraction claims, as between Iraq and Kuwait. River water allocation produces similar conflicts."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-5-8",
     question: "The militarization of borders has increased in many regions because states seek to",
     options: [
-      "encourage greater cross-border economic integration",
-      "eliminate the need for any customs inspection",
       "transfer border management to neighboring states",
-      "control unauthorized migration and smuggling"
+      "control unauthorized migration and smuggling",
+      "encourage greater cross-border economic integration",
+      "eliminate the need for any customs inspection"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Walls, sensors, and patrols have expanded in response to migration and security concerns. Such measures redirect rather than eliminate crossings, often raising their danger."
   },
   {
     id: "4-5-9",
     question: "Boundaries within the European Union's Schengen area demonstrate that",
     options: [
+      "all international boundaries must be physically fortified",
       "boundaries can persist legally while ceasing to obstruct",
       "removing borders eliminates all national governments",
-      "economic integration requires identical national cultures",
-      "all international boundaries must be physically fortified"
+      "economic integration requires identical national cultures"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Legal jurisdiction remains national while routine checks disappear, showing how boundary function can change. Crises such as 2015 prompted temporary reinstatement of checks."
   },
   {
     id: "4-5-10",
     question: "A geographer analyzing a heavily fortified border would conclude that it reflects",
     options: [
-      "an international legal requirement applying to all states",
-      "political decisions about security, migration, and sovereignty",
       "the physical impossibility of crossing that particular terrain",
-      "the absence of any economic relationship between neighbors"
+      "the absence of any economic relationship between neighbors",
+      "an international legal requirement applying to all states",
+      "political decisions about security, migration, and sovereignty"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Fortification expresses choices about who may enter and on what terms, and it carries symbolic weight as well. Heavily fortified borders often coexist with substantial legal trade."
   }
 ];

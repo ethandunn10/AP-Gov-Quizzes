@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-2",
     question: "A commodity chain traces",
     options: [
+      "the boundary lines dividing one farm parcel from another",
       "the migration routes farm laborers follow between seasons",
       "the steps a product takes from production to final consumer",
-      "the sequence of crops planted in a single field over years",
-      "the boundary lines dividing one farm parcel from another"
+      "the sequence of crops planted in a single field over years"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Following a bag of coffee from grower to exporter to roaster to café reveals where value is added and captured. Crop sequence over time is rotation, a separate concept."
   },
   {
     id: "5-7-3",
     question: "Vertical integration in agribusiness occurs when a single firm",
     options: [
-      "limits its operations to one country's domestic market",
-      "acquires competing farms that produce the identical crop",
       "controls several successive stages of the commodity chain",
-      "distributes its profits equally among contracted growers"
+      "distributes its profits equally among contracted growers",
+      "limits its operations to one country's domestic market",
+      "acquires competing farms that produce the identical crop"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "A poultry company owning hatcheries, feed mills, contract barns, and processing plants controls the chain from egg to package. Buying up rivals at the same stage is horizontal integration instead."
   },
   {
     id: "5-7-4",
     question: "Economies of scale in agriculture mean that as farm size increases,",
     options: [
+      "total output per farm generally declines over time",
       "the labor required for each acre rises substantially",
       "access to credit and distant markets becomes harder",
-      "the cost of producing each unit of output tends to fall",
-      "total output per farm generally declines over time"
+      "the cost of producing each unit of output tends to fall"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Spreading machinery and management costs over more acres lowers per-unit cost, which is the main pressure driving farm consolidation. Larger operations also gain better access to credit and buyers."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-7",
     question: "Which best explains why a country might import food it is physically capable of growing?",
     options: [
+      "International law strictly forbids domestic production of that crop",
       "Consumers there refuse to purchase any domestic produce",
       "Its climate prevents the crop from ever reaching maturity",
-      "Another producer supplies it more cheaply, a comparative advantage",
-      "International law forbids domestic production of that crop"
+      "Another producer supplies it more cheaply, a comparative advantage"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Comparative advantage means specializing where you are relatively most efficient and trading for the rest. The premise of the question already rules out a physical inability to grow it."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-9",
     question: "The concentration of food processing in a few large firms tends to",
     options: [
-      "reduce the prices farmers can negotiate for their output",
       "expand the number of buyers competing for each harvest",
       "shorten the distance food travels before it is consumed",
-      "increase the bargaining power individual farmers hold"
+      "increase the bargaining power individual farmers hold",
+      "reduce the prices farmers can negotiate for their output"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "When few buyers exist for a commodity, sellers lose leverage and margins shift downstream. Concentration reduces rather than expands the number of competing buyers."
   },
   {
     id: "5-7-10",
     question: "Local food movements and farm to table initiatives are best understood as responses to",
     options: [
+      "the failure of refrigerated transport technology to work",
       "government mandates requiring all produce to be local",
       "concerns about distance, sustainability, and farm income",
-      "an absolute shortage of food available in wealthy nations",
-      "the failure of refrigerated transport technology to work"
+      "an absolute shortage of food available in wealthy nations"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "These movements target the food miles, ecological cost, and thin grower margins of the global system. They are consumer-driven rather than mandated, and they arise amid abundance rather than scarcity."
   }
 ];

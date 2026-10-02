@@ -12,8 +12,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.3-2",
     question: "Breaking a polymer down into its monomers requires:",
-    options: ["Adding water at each bond (hydrolysis)", "Removing water at each linking bond", "Adding molecular oxygen at each bond", "Removing an electron from the polymer"],
-    correctIndex: 0,
+    options: ["Removing an electron from the polymer", "Adding water at each bond (hydrolysis)", "Removing water at each linking bond", "Adding molecular oxygen at each bond"],
+    correctIndex: 1,
     explanation: "Hydrolysis reactions use a water molecule to break the covalent bond between monomers, reversing dehydration synthesis."
   },
   {
@@ -33,43 +33,43 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.3-5",
     question: "Which enzyme-driven reaction type is used to digest food polymers into absorbable monomers in the digestive tract?",
-    options: ["Dehydration synthesis", "Hydrolysis", "Fermentation", "Photolysis"],
-    correctIndex: 1,
+    options: ["Fermentation", "Photolysis", "Dehydration synthesis", "Hydrolysis"],
+    correctIndex: 3,
     explanation: "Digestive enzymes catalyze hydrolysis reactions, adding water to break polymer bonds and release monomers for absorption."
   },
   {
     id: "1.3-6",
     question: "Why can a relatively small number of monomer types produce an enormous diversity of macromolecules?",
-    options: ["Monomers combine in only one fixed order", "Monomers can be ordered in countless ways", "All macromolecules use identical monomers", "Diversity arises from mutation alone"],
-    correctIndex: 1,
+    options: ["All macromolecules use identical monomers", "Diversity arises from mutation alone", "Monomers combine in only one fixed order", "Monomers can be ordered in countless ways"],
+    correctIndex: 3,
     explanation: "Just as 26 letters form countless words, a limited set of monomers (like 20 amino acids) can be arranged in many sequences and lengths to create vast molecular diversity."
   },
   {
     id: "1.3-7",
     question: "In a dehydration synthesis reaction joining two monosaccharides, what happens to the removed water molecule's components?",
-    options: ["One gives up -OH, the other gives up -H", "Each monomer gives up a whole water molecule", "The water is assembled from carbon atoms", "Neither monomer loses any atoms at all"],
-    correctIndex: 0,
+    options: ["Neither monomer loses any atoms at all", "One gives up -OH, the other gives up -H", "Each monomer gives up a whole water molecule", "The water is assembled from carbon atoms"],
+    correctIndex: 1,
     explanation: "In dehydration synthesis, one reactant loses an -OH group and the other loses an -H, which combine to form the released H2O, while a new covalent bond forms between the monomers."
   },
   {
     id: "1.3-8",
     question: "Which of the following is NOT one of the four major biological macromolecule classes?",
-    options: ["Carbohydrates", "Proteins", "Vitamins", "Nucleic acids"],
-    correctIndex: 2,
+    options: ["Nucleic acids", "Carbohydrates", "Proteins", "Vitamins"],
+    correctIndex: 3,
     explanation: "Vitamins are organic micronutrients but are not one of the four macromolecule classes (carbohydrates, lipids, proteins, nucleic acids)."
   },
   {
     id: "1.3-9",
     question: "A polymer made of many glucose monomers linked together is an example of a:",
-    options: ["Lipid", "Carbohydrate", "Nucleic acid", "Protein"],
-    correctIndex: 1,
+    options: ["Nucleic acid", "Protein", "Lipid", "Carbohydrate"],
+    correctIndex: 3,
     explanation: "Glucose is a monosaccharide, and chains of glucose monomers (like starch, glycogen, or cellulose) are carbohydrates (polysaccharides)."
   },
   {
     id: "1.3-10",
     question: "If a scientist wants to break down a starch polymer in a lab, which molecule must be added to drive hydrolysis?",
-    options: ["Oxygen gas", "Water", "Carbon dioxide", "Nitrogen gas"],
-    correctIndex: 1,
+    options: ["Carbon dioxide", "Nitrogen gas", "Oxygen gas", "Water"],
+    correctIndex: 3,
     explanation: "Hydrolysis requires water to be added across each bond between monomers in order to break the polymer apart."
   },
 ];

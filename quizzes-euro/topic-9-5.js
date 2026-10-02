@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-1",
     question: "Yugoslavia held together after 1945 largely because of",
     options: [
+      "the complete absence of ethnic diversity within its borders",
       "direct Soviet administration of the Yugoslav federation",
       "membership in the Warsaw Pact military alliance",
-      "Tito's authority and a federal structure balancing the republics",
-      "the complete absence of ethnic diversity within its borders"
+      "Tito's authority and a federal structure balancing the republics"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Tito's partisan legitimacy and a federal system that distributed power among nationalities contained rivalries. Yugoslavia broke with Moscow in 1948 and was never in the Warsaw Pact."
   },
   {
     id: "9-5-2",
     question: "Yugoslavia disintegrated in the 1990s primarily because",
     options: [
+      "nationalist politics exploited economic crisis after Tito's death",
       "its population had voted unanimously to dissolve the state",
       "the Soviet Union ordered its constituent republics to separate",
-      "foreign powers invaded and partitioned the federation",
-      "nationalist politics exploited economic crisis after Tito's death"
+      "foreign powers invaded and partitioned the federation"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Milosevic and other leaders mobilized ethnic grievance amid debt and recession once Tito's balancing was gone. Recognition of breakaway republics then accelerated the collapse."
   },
   {
     id: "9-5-3",
     question: "Ethnic cleansing in the Bosnian war refers to",
     options: [
-      "forced removal or killing to create ethnic homogeneity",
-      "an international program resettling refugees in neutral countries",
       "the voluntary migration of populations agreed by treaty",
-      "the redrawing of borders to match existing ethnic settlement"
+      "the redrawing of borders to match existing ethnic settlement",
+      "forced removal or killing to create ethnic homogeneity",
+      "an international program resettling refugees in neutral countries"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Expulsion, mass killing, and systematic sexual violence were used to make mixed regions ethnically uniform. Srebrenica in 1995 was legally determined to constitute genocide."
   },
   {
     id: "9-5-4",
     question: "The international response to the Bosnian conflict is best described as",
     options: [
+      "a complete absence of any international presence in the region",
       "unified action by the United Nations that prevented all atrocities",
       "slow and limited, with effective intervention coming only after years",
-      "immediate and decisive intervention that halted the fighting in 1992",
-      "a complete absence of any international presence in the region"
+      "immediate and decisive intervention that halted the fighting in 1992"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "UN peacekeepers operated under restrictive mandates and failed to protect Srebrenica, and NATO airpower and the Dayton Accords came only in 1995. The delay remains heavily criticized."
   },
   {
     id: "9-5-5",
     question: "Postwar expulsions of ethnic Germans from eastern Europe involved",
     options: [
-      "the return of expelled populations within a single year",
       "the voluntary and orderly relocation of a few thousand families",
       "the forced movement of millions amid considerable violence",
-      "no movement of populations after the fighting ended"
+      "no movement of populations after the fighting ended",
+      "the return of expelled populations within a single year"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Roughly twelve million ethnic Germans were driven west as borders shifted, with substantial loss of life. It was among the largest forced migrations in European history."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-7",
     question: "Separatist movements in Spain, such as in the Basque Country and Catalonia, reflect",
     options: [
-      "persistent regional identities inside an established state",
-      "disputes over Spain's participation in the NATO alliance",
       "the complete absence of regional identity within modern Spain",
-      "external pressure from other European Union member states"
+      "external pressure from other European Union member states",
+      "persistent regional identities inside an established state",
+      "disputes over Spain's participation in the NATO alliance"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Distinct languages and historical institutions sustained national claims that Franco's centralism suppressed and democracy partly accommodated through autonomy statutes. The Catalan question remains contested."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-9",
     question: "The collapse of the Soviet Union in 1991 involved",
     options: [
-      "the union's peaceful transformation into a single democratic state",
-      "a unanimous referendum in which all republics chose dissolution",
       "republics declaring independence amid crisis and a coup",
-      "a foreign invasion of Soviet territory by NATO forces"
+      "a foreign invasion of Soviet territory by NATO forces",
+      "the union's peaceful transformation into a single democratic state",
+      "a unanimous referendum in which all republics chose dissolution"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Baltic and Ukrainian independence movements, collapsing living standards, and the August coup's failure left the center without authority. An earlier referendum had actually favored preserving a reformed union."
   },
   {

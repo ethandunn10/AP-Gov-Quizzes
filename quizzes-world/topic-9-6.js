@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-6-1",
     question: "The global spread of consumer brands and entertainment is best described as",
     options: [
-      "a phenomenon confined to wealthy countries",
-      "a process in which local cultures disappeared entirely and immediately",
       "global products adopted and adapted into hybrid cultures",
-      "a one-directional flow with no local modification anywhere"
+      "a one-directional flow with no local modification anywhere",
+      "a phenomenon confined to wealthy countries",
+      "a process in which local cultures disappeared entirely and immediately"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "McDonald's menus differ by country and Bollywood outsells Hollywood in India, showing local adaptation and local production competing with imports. Pure homogenization and pure resistance both misdescribe what happened."
   },
   {
     id: "9-6-2",
     question: "The global popularity of sports such as football (soccer) and the modern Olympic Games illustrates",
     options: [
-      "the elimination of national identity in cultural life",
-      "cultural practices confined strictly to their countries of origin",
       "the absence of any shared global cultural practices",
-      "shared forms that also carry national identity and rivalry alike"
+      "shared forms that also carry national identity and rivalry alike",
+      "the elimination of national identity in cultural life",
+      "cultural practices confined strictly to their countries of origin"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The World Cup is simultaneously a global spectacle and an intense expression of national feeling, and states have used the Olympics for prestige since Berlin in 1936. Shared form and national content coexist."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-6-4",
     question: "Cultural globalization prompted resistance in some societies because it was perceived as",
     options: [
-      "having no effect on local traditions",
       "a threat to local language and faith, and to economic independence",
       "strengthening existing traditional practices in every single case",
-      "originating entirely from non-Western societies"
+      "originating entirely from non-Western societies",
+      "having no effect on local traditions"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "French cultural exception policies and religious movements objecting to Western media both reflect that perception. Whether the threat was real or exaggerated was itself part of the political argument."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-6-6",
     question: "Cultural hybridity in the globalized world is best exemplified by",
     options: [
+      "genres like reggaeton, Afrobeat, and K-pop that then travel outward",
       "the absence of any cultural mixing",
       "the strict separation of all national cultures",
-      "the complete replacement of local music by imported foreign forms",
-      "genres like reggaeton, Afrobeat, and K-pop that then travel outward"
+      "the complete replacement of local music by imported foreign forms"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "These forms absorbed international styles, remade them locally, and then exported the result — flows running in several directions at once. Hybridity means creation, not simple replacement."
   },
   {
     id: "9-6-7",
     question: "Migration contributed to cultural globalization by",
     options: [
+      "isolating migrant communities entirely from both origin and destination",
       "creating diasporas that kept home ties and reshaped hosts",
       "eliminating cultural differences immediately",
-      "preventing any cultural exchange between societies",
-      "isolating migrant communities entirely from both origin and destination"
+      "preventing any cultural exchange between societies"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Migrants sent money, media, and ideas home while transforming food, music, and religious life where they settled. Satellite television and the internet made maintaining those dual connections far easier."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-6-9",
     question: "Which statement best characterizes the relationship between globalization and local identity?",
     options: [
-      "Only national identity survived while all regional identity disappeared",
       "Globalization eliminated all local and national identities",
       "integration often sharpened local and religious identity",
-      "Local identity was unaffected by globalization"
+      "Local identity was unaffected by globalization",
+      "Only national identity survived while all regional identity disappeared"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Regional language revivals, religious revitalization, and nationalist politics all grew alongside global integration rather than in its absence. Homogenization and identity assertion turned out to be linked responses."
   },
   {
     id: "9-6-10",
     question: "A historian argues that cultural globalization is 'neither homogenization nor simple preservation.' The strongest evidence is",
     options: [
-      "the disappearance of all local cultural practices by 2000",
-      "the complete rejection of all foreign influence absolutely everywhere",
       "the absence of any cultural change after 1900",
-      "hybrid food, music, and religion that neither side could make alone"
+      "hybrid food, music, and religion that neither side could make alone",
+      "the disappearance of all local cultural practices by 2000",
+      "the complete rejection of all foreign influence absolutely everywhere"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "What actually emerged — Korean pop drawing on American forms and reaching global audiences, or reggaeton blending Caribbean and Latin traditions — was new rather than either imported or preserved. That creative middle is the argument."
   }
 ];

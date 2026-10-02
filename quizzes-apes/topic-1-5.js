@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-5-1",
     question: "Atmospheric nitrogen gas is unusable by most organisms because",
     options: [
-      "its triple bond makes the molecule highly unreactive",
       "it dissolves too readily in water to be captured",
       "it breaks down before reaching plant root systems",
-      "it is present in only trace amounts in the air"
+      "it is present in only trace amounts in the air",
+      "its triple bond makes the molecule highly unreactive"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "N₂ makes up about 78 percent of the atmosphere, but the strong triple bond resists reaction. Only nitrogen fixation, biological or industrial, can break it economically."
   },
   {
@@ -43,72 +43,72 @@ window.QUIZ_QUESTIONS = [
     id: "1-5-4",
     question: "Denitrification is ecologically significant because it",
     options: [
+      "returns nitrogen from soil to the atmosphere",
       "converts atmospheric nitrogen into soil ammonium",
       "prevents nitrogen from leaving plant root zones",
-      "adds usable nitrogen to soil for plant growth",
-      "returns nitrogen from soil to the atmosphere"
+      "adds usable nitrogen to soil for plant growth"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Anaerobic bacteria reduce nitrate to N₂, closing the cycle. The process occurs in waterlogged soils and is used deliberately in wastewater treatment."
   },
   {
     id: "1-5-5",
     question: "Ammonification refers to decomposers converting",
     options: [
-      "nitrogen in dead organic matter into ammonium",
       "ammonium in soil into nitrite and then nitrate",
       "nitrate in saturated soils into nitrogen gas",
-      "atmospheric nitrogen gas into usable ammonia"
+      "atmospheric nitrogen gas into usable ammonia",
+      "nitrogen in dead organic matter into ammonium"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Decomposers release nitrogen from proteins and nucleic acids in dead tissue and waste. This recycling supplies much of the nitrogen plants actually use."
   },
   {
     id: "1-5-6",
     question: "The Haber-Bosch process has affected the global nitrogen cycle by",
     options: [
+      "eliminating the need for biological nitrogen fixation",
       "reducing the total nitrogen available to ecosystems",
       "roughly doubling the nitrogen fixed each year",
-      "converting soil nitrate back into atmospheric gas",
-      "eliminating the need for biological nitrogen fixation"
+      "converting soil nitrate back into atmospheric gas"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Industrial fertilizer production now rivals all natural fixation combined, a massive human alteration of a global cycle. The resulting excess drives eutrophication downstream."
   },
   {
     id: "1-5-7",
     question: "Excess nitrogen entering waterways most directly causes",
     options: [
+      "a decrease in the acidity of the receiving water",
       "the immediate precipitation of nitrogen as solid rock",
       "increased water clarity and dissolved oxygen levels",
-      "algal blooms followed by oxygen depletion",
-      "a decrease in the acidity of the receiving water"
+      "algal blooms followed by oxygen depletion"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Nutrient enrichment fuels algal growth, and bacterial decay of dying algae consumes dissolved oxygen. The Gulf of Mexico dead zone results from Mississippi basin fertilizer runoff."
   },
   {
     id: "1-5-8",
     question: "Legume crops are valuable in agricultural rotations because they",
     options: [
-      "prevent all soil erosion during the growing season",
       "convert soil nitrogen into atmospheric nitrogen gas",
       "absorb more nitrate from soil than other crops",
-      "host bacteria that add fixed nitrogen to soil"
+      "host bacteria that add fixed nitrogen to soil",
+      "prevent all soil erosion during the growing season"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The symbiosis in root nodules enriches soil nitrogen without purchased fertilizer. Rotating legumes with grains was a foundation of the Second Agricultural Revolution."
   },
   {
     id: "1-5-9",
     question: "Nitrogen is a limiting nutrient in many ecosystems because",
     options: [
+      "it is entirely absent from most natural soils",
       "usable forms are scarce relative to biological demand",
-      "organisms require far less nitrogen than carbon",
-      "it cannot be stored in any organic compound",
-      "it is entirely absent from most natural soils"
+      "organisms require far less nitrogen than they do carbon",
+      "it cannot be stored in any organic compound"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Nitrogen is abundant in the atmosphere but scarce in biologically available form. Adding it therefore produces large growth responses, which is why fertilizer works."
   },
   {

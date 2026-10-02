@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-1",
     question: "A dog salivates to a bell that has repeatedly preceded food. In this arrangement the bell is the",
     options: [
+      "neutral stimulus",
       "conditioned stimulus",
       "unconditioned stimulus",
-      "conditioned response",
-      "neutral stimulus"
+      "conditioned response"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The bell began as neutral and became a conditioned stimulus once pairing gave it the power to elicit salivation. The food remains the unconditioned stimulus throughout."
   },
   {
     id: "3-7-2",
     question: "A student who once became ill after eating shrimp now feels nauseated at the smell of it. The nausea to the smell is a",
     options: [
+      "neutral stimulus",
       "unconditioned response",
       "conditioned stimulus",
-      "conditioned response",
-      "neutral stimulus"
+      "conditioned response"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The learned reaction to a previously neutral cue is the conditioned response. The original illness caused by the contaminated food was the unconditioned response."
   },
   {
@@ -43,72 +43,72 @@ window.QUIZ_QUESTIONS = [
     id: "3-7-4",
     question: "A conditioned response gradually disappears when the bell is repeatedly presented without food. The next day, the bell alone briefly produces salivation again. This reappearance is",
     options: [
-      "reacquisition of the original pairing",
       "stimulus generalization to a new cue",
       "spontaneous recovery",
-      "higher-order conditioning"
+      "higher-order conditioning",
+      "reacquisition of the original pairing"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Spontaneous recovery is the return of an extinguished response after a rest interval, showing that extinction suppresses rather than erases learning. Reacquisition would require the bell and food to be paired again."
   },
   {
     id: "3-7-5",
     question: "Taste aversions can form after a single pairing with a delay of hours between eating and illness. This finding challenges the general principle that",
     options: [
-      "conditioned responses always resemble unconditioned ones",
       "conditioning requires repeated and closely timed pairings",
       "extinction erases the original learned association",
-      "neutral stimuli must precede unconditioned stimuli"
+      "neutral stimuli must precede unconditioned stimuli",
+      "conditioned responses always resemble the unconditioned ones"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Garcia's work showed that biological preparedness allows one-trial learning across long delays for food and illness. This makes evolutionary sense, since an organism rarely gets a second chance to learn which food is poisonous."
   },
   {
     id: "3-7-6",
     question: "In Watson's Little Albert study, the loud noise struck behind the child's head functioned as the",
     options: [
-      "conditioned stimulus",
-      "conditioned response",
       "discriminative stimulus",
-      "unconditioned stimulus"
+      "unconditioned stimulus",
+      "conditioned stimulus",
+      "conditioned response"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The noise produced fear without any learning, making it the unconditioned stimulus. The rat became the conditioned stimulus through pairing with it."
   },
   {
     id: "3-7-7",
     question: "A therapist treating a phobia gradually pairs feared images with deep relaxation. This technique relies on",
     options: [
-      "punishing avoidance behavior until it stops",
-      "reinforcing approach behavior with tangible rewards",
+      "reinforcing approach behavior with tangible external rewards",
       "extinguishing the relaxation response over time",
-      "counterconditioning a new response to the feared stimulus"
+      "counterconditioning a new response to the feared stimulus",
+      "punishing avoidance behavior until it stops"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Systematic desensitization replaces the fear response with an incompatible relaxation response — a classical conditioning technique. Reward for approach behavior would be operant rather than classical."
   },
   {
     id: "3-7-8",
     question: "Which scenario best illustrates discrimination in classical conditioning?",
     options: [
-      "A dog salivates to any sound resembling the training tone",
       "A dog salivates to one specific tone but not to similar tones",
-      "A dog stops salivating after the tone is repeatedly unpaired",
-      "A dog salivates again after a week away from the laboratory"
+      "A dog stops salivating after the tone is repeatedly left unpaired",
+      "A dog salivates again after a week away from the laboratory",
+      "A dog salivates to any sound resembling the training tone"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Discrimination is learning to respond only to the trained cue and not to similar ones. The remaining scenarios describe generalization, extinction, and spontaneous recovery."
   },
   {
     id: "3-7-9",
     question: "A researcher claims an advertisement conditions positive feelings toward a product by pairing it with popular music. For this to be classical conditioning, the music must",
     options: [
+      "be entirely neutral to the audience at the study's end",
       "be presented only after the product is shown",
       "already produce positive feelings before any pairing",
-      "serve as a reward for purchasing the product",
-      "be neutral to the audience at the study's end"
+      "serve as a reward for purchasing the product"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The music has to be an unconditioned stimulus that already elicits the response, and it should precede the product for the pairing to work. If it served as a reward for buying, the process would be operant conditioning."
   },
   {

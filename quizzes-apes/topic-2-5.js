@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-1",
     question: "A periodic ecosystem disruption is one that occurs",
     options: [
-      "exclusively as a result of human land use change",
-      "without any regular or predictable pattern",
       "at regular intervals, such as seasonal flooding",
-      "only once in the entire history of an ecosystem"
+      "only once in the entire history of an ecosystem",
+      "exclusively as a result of human land use change",
+      "without any regular or predictable pattern"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Periodic events recur predictably, episodic events occur irregularly, and random events are unpredictable. Many species have evolved around periodic disturbance."
   },
   {
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "2-5-5",
     question: "Which is an example of an episodic rather than periodic disruption?",
     options: [
+      "The annual dry season in a savanna ecosystem",
       "Daily tidal cycles along a rocky shoreline",
       "Seasonal flooding of a river during spring melt",
-      "A major hurricane striking a coastal forest",
-      "The annual dry season in a savanna ecosystem"
+      "A major hurricane striking a coastal forest"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Hurricanes occur irregularly rather than on a fixed schedule. Seasonal and tidal events recur predictably and are therefore periodic."
   },
   {
     id: "2-5-6",
     question: "The intermediate disturbance hypothesis predicts that species diversity is highest when disturbance is",
     options: [
-      "as frequent and severe as the system can withstand",
-      "concentrated entirely within a single brief season",
       "completely absent from the ecosystem for centuries",
-      "moderate in both its frequency and its intensity"
+      "moderate in both its frequency and its intensity",
+      "as frequent and severe as the system can withstand",
+      "concentrated entirely within a single brief season"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Too little disturbance lets dominant competitors exclude others, while too much eliminates all but the hardiest. Moderate levels allow both pioneer and late-successional species to coexist."
   },
   {
     id: "2-5-7",
     question: "Natural climate variation over long timescales has historically caused",
     options: [
+      "complete stability in species ranges over time",
       "range shifts, extinctions, and speciation events",
       "no measurable change in global biodiversity",
-      "uniform conditions across all continents at once",
-      "complete stability in species ranges over time"
+      "uniform conditions across all continents at once"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Glacial cycles repeatedly pushed species ranges toward the equator and back. The concern today is that the current rate outpaces the ability of species to track it."
   },
   {
     id: "2-5-8",
     question: "Mass extinction events in the geological record were typically caused by",
     options: [
+      "human activity during the past several centuries",
       "gradual changes occurring over millions of years",
       "abrupt disruptions such as impacts or volcanism",
-      "the slow evolution of more competitive species",
-      "human activity during the past several centuries"
+      "the slow evolution of more competitive species"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The Cretaceous event followed an asteroid impact, and the Permian event followed massive volcanism. Abruptness is what prevents adaptation and causes mass loss."
   },
   {
     id: "2-5-9",
     question: "Ecosystems that experience regular natural disturbance tend to contain species that",
     options: [
-      "depend entirely on completely stable conditions",
       "cannot survive any disturbance to their habitat",
       "are adapted to recolonize and recover quickly",
-      "reproduce only once every several decades"
+      "reproduce only once every several decades",
+      "depend entirely on completely stable conditions"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Rapid growth, abundant seed production, and fire-resistant traits are common in disturbance-prone systems. Disturbance becomes part of what maintains the community."
   },
   {

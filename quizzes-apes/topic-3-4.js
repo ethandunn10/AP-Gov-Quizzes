@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-3",
     question: "Overshoot occurs when a population",
     options: [
+      "stabilizes exactly at the carrying capacity",
       "temporarily exceeds the environment's carrying capacity",
       "declines well below the carrying capacity",
-      "grows more slowly than resources are replenished",
-      "stabilizes exactly at the carrying capacity"
+      "grows much more slowly than the resources are replenished"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Overshoot typically follows a lag between resource depletion and population response. It is usually followed by a die-off as resources fail."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "3-4-6",
     question: "Density independent limiting factors are best illustrated by",
     options: [
+      "a flood eliminating organisms regardless of density",
       "competition for nesting sites in a crowded colony",
       "parasite spread accelerating in dense populations",
-      "predation increasing as prey become more abundant",
-      "a flood eliminating organisms regardless of density"
+      "predation increasing as prey become more abundant"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Natural disasters and extreme weather kill the same proportion whether the population is dense or sparse. They cannot regulate a population around K."
   },
   {
     id: "3-4-7",
     question: "Carrying capacity for a given species can change when",
     options: [
-      "resource availability or habitat quality changes",
-      "individuals migrate between two separate habitats",
       "the species evolves a longer average lifespan",
-      "the population temporarily rises above previous levels"
+      "the population temporarily rises above previous levels",
+      "resource availability or habitat quality changes",
+      "individuals migrate between two separate habitats"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Drought lowers K for grazers while a wet year raises it. Human management, such as irrigation or habitat restoration, can also shift it."
   },
   {
     id: "3-4-8",
     question: "In the logistic growth equation, population growth rate is highest when population size is",
     options: [
+      "exactly equal to the environment's carrying capacity",
       "very close to the carrying capacity K",
       "approximately half of the carrying capacity",
-      "at its smallest possible starting value",
-      "exactly equal to the carrying capacity"
+      "at its smallest possible starting value"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "At K/2 the population is large enough to reproduce substantially but not yet resource limited. Fisheries management targets this point to maximize sustainable yield."
   },
   {
     id: "3-4-9",
     question: "Human carrying capacity is difficult to estimate because",
     options: [
+      "the global human population has stopped growing",
       "no resources are required to sustain human life",
       "humans are not subject to any resource limits",
-      "technology and consumption patterns keep changing",
-      "the global human population has stopped growing"
+      "technology and consumption patterns keep changing"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Agricultural technology has repeatedly raised effective capacity while high consumption lowers how many people a given resource base supports. Estimates therefore vary enormously."
   },
   {
     id: "3-4-10",
     question: "A population maintained well below carrying capacity by predation illustrates",
     options: [
-      "the absence of any limiting factors present",
-      "exponential growth continuing without constraint",
       "a density independent limiting factor at work",
-      "top down regulation of population size"
+      "top down regulation of population size",
+      "the absence of any limiting factors present",
+      "exponential growth continuing without constraint"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Predators can hold prey below the level resources alone would permit. Removing the predator often causes prey to overshoot and damage their own resource base."
   }
 ];

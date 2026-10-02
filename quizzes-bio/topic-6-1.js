@@ -5,22 +5,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.1-1",
     question: "Which three components make up a single nucleotide?",
-    options: ["A sugar, a phosphate, and a nitrogenous base", "A ribosome, an amino acid, and a phosphate group", "Two sugars and one nitrogenous base", "A phosphate, a fatty acid, and a base"],
-    correctIndex: 0,
+    options: ["A ribosome, an amino acid, and a phosphate group", "Two sugars and one nitrogenous base", "A phosphate, a fatty acid, and a base", "A sugar, a phosphate, and a nitrogenous base"],
+    correctIndex: 3,
     explanation: "Every nucleotide (in DNA or RNA) is built from a five-carbon sugar, a phosphate group, and a nitrogenous base attached to the sugar."
   },
   {
     id: "6.1-2",
     question: "DNA's two strands are described as 'antiparallel.' What does this mean?",
-    options: ["Both strands run in the same 5' to 3' direction", "The strands run in opposite directions", "The strands are not connected to each other", "One strand is RNA and the other is DNA"],
-    correctIndex: 1,
+    options: ["The strands are not connected to each other", "One strand is RNA and the other is DNA", "Both strands run in the same 5' to 3' direction", "The strands run in opposite directions"],
+    correctIndex: 3,
     explanation: "The two DNA strands run in opposite chemical orientations relative to each other, which is essential for correct base pairing and replication machinery."
   },
   {
     id: "6.1-3",
     question: "Which base pairs with adenine in DNA, and how many hydrogen bonds hold that pair together?",
-    options: ["Cytosine, 3 hydrogen bonds", "Guanine, 3 hydrogen bonds", "Thymine, 2 hydrogen bonds", "Uracil, 2 hydrogen bonds"],
-    correctIndex: 2,
+    options: ["Uracil, 2 hydrogen bonds", "Cytosine, 3 hydrogen bonds", "Guanine, 3 hydrogen bonds", "Thymine, 2 hydrogen bonds"],
+    correctIndex: 3,
     explanation: "Adenine pairs with thymine via 2 hydrogen bonds; guanine pairs with cytosine via 3 hydrogen bonds, making G-C pairs slightly more stable."
   },
   {
@@ -33,43 +33,43 @@ window.QUIZ_QUESTIONS = [
   {
     id: "6.1-5",
     question: "Adenine and guanine are classified as purines because they:",
-    options: ["Are single-ringed nitrogenous bases", "Are double-ringed nitrogenous bases", "Only occur in RNA", "Contain no nitrogen"],
-    correctIndex: 1,
+    options: ["Are double-ringed nitrogenous bases", "Only occur in RNA", "Contain no nitrogen", "Are single-ringed nitrogenous bases"],
+    correctIndex: 0,
     explanation: "Purines (adenine and guanine) have a fused double-ring structure, while pyrimidines (cytosine, thymine, uracil) have a single ring."
   },
   {
     id: "6.1-6",
     question: "Chargaff's rule observed that in DNA, the amount of adenine equals the amount of:",
-    options: ["Guanine", "Cytosine", "Thymine", "Uracil"],
-    correctIndex: 2,
+    options: ["Cytosine", "Thymine", "Uracil", "Guanine"],
+    correctIndex: 1,
     explanation: "Chargaff found that %A = %T and %G = %C in DNA, a pattern later explained by complementary base pairing in the double helix."
   },
   {
     id: "6.1-7",
     question: "The Hershey-Chase experiment used radioactively labeled phosphorus and sulfur to show that:",
-    options: ["Proteins are the genetic material", "DNA, not protein, entered the bacteria", "RNA is the true genetic material", "Bacteria have no genetic material"],
-    correctIndex: 1,
+    options: ["RNA is the true genetic material", "Bacteria have no genetic material", "Proteins are the genetic material", "DNA, not protein, entered the bacteria"],
+    correctIndex: 3,
     explanation: "By labeling phage DNA with radioactive phosphorus and phage protein with radioactive sulfur, Hershey and Chase showed only the DNA entered the bacterial cell, identifying DNA as the hereditary material."
   },
   {
     id: "6.1-8",
     question: "What type of bond links adjacent nucleotides together in a single strand of DNA?",
-    options: ["A hydrogen bond", "An ionic bond", "Phosphodiester bond", "A peptide bond"],
-    correctIndex: 2,
+    options: ["An ionic bond", "Phosphodiester bond", "A peptide bond", "A hydrogen bond"],
+    correctIndex: 1,
     explanation: "Phosphodiester bonds connect the sugar of one nucleotide to the phosphate of the next, forming the sugar-phosphate backbone of a DNA/RNA strand."
   },
   {
     id: "6.1-9",
     question: "Griffith's transformation experiments with pneumococcus bacteria demonstrated that:",
-    options: ["Heat always destroys genetic information", "Dead bacteria transformed harmless ones", "Bacteria cannot exchange genetic material", "Only living cells contain any DNA"],
-    correctIndex: 1,
+    options: ["Dead bacteria transformed harmless ones", "Bacteria cannot exchange genetic material", "Only living cells contain any DNA", "Heat always destroys genetic information"],
+    correctIndex: 0,
     explanation: "Griffith found that heat-killed virulent bacteria could still transfer a transforming factor (later identified by Avery as DNA) to living harmless bacteria, making them virulent."
   },
   {
     id: "6.1-10",
     question: "In the Watson-Crick double helix model, the sugar-phosphate backbones are located:",
-    options: ["On the outside, with bases paired inside", "On the inside, with backbones facing out", "Randomly distributed through the molecule", "Only at the two ends of the molecule"],
-    correctIndex: 0,
+    options: ["Randomly distributed through the molecule", "Only at the two ends of the molecule", "On the outside, with bases paired inside", "On the inside, with backbones facing out"],
+    correctIndex: 2,
     explanation: "The hydrophilic sugar-phosphate backbones face outward toward the surrounding water, while the hydrophobic nitrogenous bases pair up and stack in the interior of the helix."
   },
 ];

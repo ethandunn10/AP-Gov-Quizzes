@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-1",
     question: "Clinicians most often decide that a pattern of behavior constitutes a disorder when it",
     options: [
-      "differs from what most people in the culture do",
       "causes significant distress or impairs daily functioning",
       "has persisted continuously for more than one year",
-      "cannot be explained by the person who experiences it"
+      "cannot be explained at all by the person who experiences it",
+      "differs from what most people in the culture do"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Distress and dysfunction are the working criteria in clinical practice. Mere statistical rarity is not sufficient, since many uncommon behaviors cause no impairment at all."
   },
   {
@@ -43,24 +43,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-4",
     question: "A criticism of diagnostic labeling raised by Rosenhan's research is that labels",
     options: [
-      "prevent clinicians from communicating about cases",
-      "are applied identically across every culture studied",
       "can shape how all subsequent behavior is interpreted",
-      "eliminate the possibility of effective treatment"
+      "eliminate the possibility of effective treatment",
+      "prevent clinicians from communicating about cases",
+      "are applied identically across every culture studied"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Once applied, a label colored staff interpretations of ordinary behavior in Rosenhan's study, though that work has since drawn substantial methodological criticism. Labels do aid communication, which is the benefit weighed against this risk."
   },
   {
     id: "5-3-5",
     question: "A psychologist who explains depression through negative thought patterns and cognitive distortions is working from the",
     options: [
-      "biological perspective",
-      "psychodynamic perspective",
       "sociocultural perspective",
-      "cognitive perspective"
+      "cognitive perspective",
+      "biological perspective",
+      "psychodynamic perspective"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Cognitive accounts center on maladaptive interpretation and attribution patterns. The biological perspective would emphasize neurotransmitters and heredity instead."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-7",
     question: "Comorbidity in clinical psychology refers to",
     options: [
-      "the overlap between a disorder and normal personality",
-      "the risk of a disorder returning after treatment ends",
       "the presence of two or more disorders in the same person",
-      "the tendency for symptoms to worsen without care"
+      "the tendency for symptoms to worsen without care",
+      "the overlap between a disorder and a normal personality trait",
+      "the risk of a disorder returning after treatment ends"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Comorbidity is common and complicates both diagnosis and treatment planning. Symptom return after treatment is relapse, a separate concept."
   },
   {
     id: "5-3-8",
     question: "Stigma surrounding psychological disorders is clinically important primarily because it",
     options: [
-      "discourages people from seeking treatment they need",
-      "makes diagnostic criteria harder to define precisely",
       "increases the heritability of common disorders",
-      "eliminates the effectiveness of available therapies"
+      "eliminates the effectiveness of available therapies",
+      "discourages people from seeking treatment they need",
+      "makes diagnostic criteria harder to define precisely"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Fear of judgment is a documented barrier to help-seeking, which delays care and worsens outcomes. Stigma affects treatment access rather than the biology or efficacy of treatment itself."
   },
   {
     id: "5-3-9",
     question: "A researcher argues that a genetic vulnerability alone cannot explain why only one identical twin develops a disorder. The best supporting concept is",
     options: [
-      "the interaction of predisposition with differing life experiences",
+      "the tendency of disorders to remit without treatment",
+      "the interaction of predisposition with life experiences",
       "the absence of any genetic contribution to the disorder",
-      "the unreliability of all twin study methodology",
-      "the tendency of disorders to remit without treatment"
+      "the unreliability of all twin study methodology"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Discordant identical twins are the clearest evidence that environment modulates genetic risk. The finding narrows the role of genes rather than eliminating it."
   },
   {
     id: "5-3-10",
     question: "The biopsychosocial approach to classifying disorders is valuable mainly because it",
     options: [
+      "restricts treatment options to medication and talk therapy",
       "identifies a single cause for each diagnostic category",
-      "integrates multiple levels of explanation for the same condition",
-      "replaces diagnosis with a purely descriptive account",
-      "restricts treatment options to medication and therapy"
+      "integrates multiple levels of explanation for a condition",
+      "replaces diagnosis with a purely descriptive account"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Most disorders involve biological vulnerability, psychological processes, and social context together. Searching for one cause per category has repeatedly failed as a research strategy."
   }
 ];

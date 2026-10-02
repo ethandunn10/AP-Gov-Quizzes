@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-1",
     question: "A primary air pollutant is one that is",
     options: [
-      "emitted directly into the air from a source",
       "present only inside enclosed building spaces",
       "regulated more strictly than any other pollutant",
-      "formed in the atmosphere from chemical reactions"
+      "formed in the atmosphere from chemical reactions",
+      "emitted directly into the air from a source"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Carbon monoxide, sulfur dioxide, and particulates are emitted directly. Secondary pollutants such as ozone form later through atmospheric chemistry."
   },
   {
     id: "7-1-2",
     question: "Ground level ozone is classified as a secondary pollutant because it",
     options: [
+      "occurs naturally with no human contribution",
       "is released directly from vehicle tailpipes",
       "forms when precursors react in sunlight",
-      "originates entirely in the upper stratosphere",
-      "occurs naturally with no human contribution"
+      "originates entirely in the upper stratosphere"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Nitrogen oxides and volatile organic compounds react photochemically to produce it. Controlling ozone therefore means controlling its precursors."
   },
   {
     id: "7-1-3",
     question: "Which of the following is a criteria air pollutant regulated under the Clean Air Act?",
     options: [
+      "Chlorofluorocarbons used in older refrigeration units",
       "Methane released from landfills and livestock",
       "Carbon dioxide emitted from fossil fuel combustion",
-      "Particulate matter smaller than 2.5 micrometers",
-      "Chlorofluorocarbons used in older refrigeration units"
+      "Particulate matter smaller than 2.5 micrometers"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The six criteria pollutants are particulates, ozone, carbon monoxide, sulfur dioxide, nitrogen dioxide, and lead. CFCs are addressed under separate ozone protection rules."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-5",
     question: "Carbon monoxide is dangerous primarily because it",
     options: [
-      "binds to hemoglobin, blocking oxygen transport",
-      "damages the protective stratospheric ozone layer",
       "forms acid when it dissolves in atmospheric water",
-      "irritates the eyes and causes severe coughing"
+      "irritates the eyes and causes severe coughing",
+      "binds to hemoglobin, blocking oxygen transport",
+      "damages the protective stratospheric ozone layer"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Hemoglobin binds carbon monoxide far more readily than oxygen. Incomplete combustion in engines and faulty furnaces is the main source."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-1-10",
     question: "The Clean Air Act has been considered successful because since 1970 it has",
     options: [
+      "prevented any new industrial facilities whatsoever from opening",
+      "applied only to facilities built after its passage",
       "eliminated every form of air pollution nationwide",
-      "sharply reduced criteria pollutants while the economy grew",
-      "prevented any new industrial facilities from opening",
-      "applied only to facilities built after its passage"
+      "sharply reduced criteria pollutants while the economy grew"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Emissions of the criteria pollutants fell substantially even as GDP and vehicle miles rose. This decoupling is the strongest evidence the law worked."
   }
 ];

@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-2",
     question: "Redistricting is the process of",
     options: [
-      "establishing the qualifications required to vote",
       "allocating legislative seats among the several states",
       "determining the total population of an electoral district",
-      "redrawing electoral district boundaries within a state"
+      "redrawing electoral district boundaries within a state",
+      "establishing the qualifications required to vote"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Districts must be redrawn to keep populations roughly equal as people move. That process creates the opportunity for partisan manipulation."
   },
   {
     id: "4-6-3",
     question: "Gerrymandering refers to drawing district boundaries to",
     options: [
-      "advantage a particular party or group",
-      "ensure that every district contains an identical population",
       "follow existing county and municipal boundaries exactly",
-      "make districts as geographically compact as possible"
+      "make districts as geographically compact as possible",
+      "advantage a particular party or group",
+      "ensure that every district contains an identical population"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Precise voter data lets mapmakers concentrate or disperse opposing voters with considerable accuracy. The practice is named for an early nineteenth-century Massachusetts governor."
   },
   {
     id: "4-6-4",
     question: "Packing as a gerrymandering technique involves",
     options: [
-      "ensuring each district contains equal numbers of voters",
       "concentrating opposing voters into as few districts as it can",
       "spreading opposing voters thinly across many districts",
-      "drawing districts that are perfectly square in shape"
+      "drawing districts that are perfectly square in shape",
+      "ensuring that each single district contains equal numbers of voters"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Packing wastes opposition votes by winning a few districts overwhelmingly. Cracking is the complementary technique of dispersing them."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-7",
     question: "Independent redistricting commissions are intended to",
     options: [
-      "reduce partisan manipulation by removing legislators",
-      "increase the number of legislative seats in each state",
       "eliminate the requirement that districts have equal populations",
-      "transfer redistricting authority to the federal government"
+      "transfer redistricting authority to the federal government",
+      "reduce partisan manipulation by removing legislators",
+      "increase the number of legislative seats in each state"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Several states assign map-drawing to nonpartisan or bipartisan commissions. Evidence on how much they reduce partisan bias is mixed but generally favorable."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-9",
     question: "Internal administrative boundaries within a country affect residents by",
     options: [
-      "controlling international migration into the country",
-      "establishing the country's sovereignty over its territory",
       "determining taxation, school districts, and services",
-      "having no effect on everyday life or public services"
+      "having no effect on everyday life or public services",
+      "controlling international migration into the country",
+      "establishing the country's sovereignty over its territory"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Which side of a municipal or school district line a house sits on affects taxes, schooling, and services. Such boundaries shape property values and residential sorting."
   },
   {
     id: "4-6-10",
     question: "A geographer evaluating a district map with highly irregular shapes would suspect",
     options: [
+      "that the districts were drawn for partisan advantage",
       "that population equality was ignored entirely",
       "that the map was drawn before any settlement occurred",
-      "that the map follows physical terrain features closely",
-      "that the districts were drawn for partisan advantage"
+      "that the map follows physical terrain features closely"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Contorted shapes that split communities suggest lines drawn around voters rather than around places. Compactness measures are used to quantify the suspicion."
   }
 ];

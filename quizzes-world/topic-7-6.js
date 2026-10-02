@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-3",
     question: "Japanese expansion into Manchuria in 1931 and China in 1937 was motivated primarily by",
     options: [
+      "a desire to spread democratic government in Asia",
       "materials and security for a resource-poor power",
       "a defensive response to a Chinese invasion of the Japanese islands",
-      "pressure from the League of Nations",
-      "a desire to spread democratic government in Asia"
+      "pressure from the League of Nations"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Japan depended on imported oil, iron, and coal, and army leaders argued that controlling continental resources was essential to independence from Western suppliers. The League condemned the Manchurian seizure, and Japan left the organization."
   },
   {
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-5",
     question: "The Nazi-Soviet Pact of 1939 is significant because it",
     options: [
+      "prevented the outbreak of war in Europe",
       "committed both states to defend Poland",
       "it created a lasting alliance between Germany and the Soviet Union",
-      "it removed the two-front risk and secretly partitioned eastern Europe",
-      "prevented the outbreak of war in Europe"
+      "it removed the two-front risk and secretly partitioned eastern Europe"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "With the eastern threat neutralized and Poland secretly partitioned in advance, Germany invaded within days. Germany broke the pact by invading the USSR in June 1941."
   },
   {
     id: "7-6-6",
     question: "The failure of collective security in the 1930s is best illustrated by",
     options: [
+      "the feeble response to Manchuria and to Italy's Ethiopian war",
       "the successful League intervention that reversed German remilitarization of the Rhineland",
       "the immediate imposition of effective sanctions on all aggressors",
-      "the expansion of League membership throughout the decade",
-      "the feeble response to Manchuria and to Italy's Ethiopian war"
+      "the expansion of League membership throughout the decade"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Condemnation without effective sanctions in both cases showed aggressors that the system would not stop them. Haile Selassie's appeal to the League and its failure to act became the emblem of collective security's collapse."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-8",
     question: "German remilitarization of the Rhineland, annexation of Austria, and the Munich Agreement together demonstrate",
     options: [
+      "effective League of Nations enforcement",
       "a consistent Allied policy of firm and early military resistance",
       "rising demands met by concession, which emboldened more",
-      "German adherence to the terms of the Versailles treaty",
-      "effective League of Nations enforcement"
+      "German adherence to the terms of the Versailles treaty"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Each unopposed move increased Hitler's confidence and domestic standing, making the next demand easier. The sequence is the standard case study in how appeasement failed."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-6-10",
     question: "A historian argues that World War II resulted from 'the failure of the international order created in 1919.' The strongest supporting evidence is",
     options: [
-      "the absence of any international organization during the interwar period",
-      "the complete satisfaction of all powers with the 1919 settlement",
       "the lack of any territorial disputes in Europe after 1919",
-      "revisionists broke the settlement and no one enforced it"
+      "revisionists broke the settlement and no one enforced it",
+      "the absence of any international organization during the interwar period",
+      "the complete satisfaction of all powers with the 1919 settlement"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "The settlement created grievances it could not resolve and an institution that could not enforce it, so revision came by force. Naming both the grievance and the enforcement failure is what makes the argument complete."
   }
 ];

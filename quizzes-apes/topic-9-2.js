@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-1",
     question: "The Montreal Protocol is an international agreement that",
     options: [
-      "restricts persistent organic pollutants worldwide",
       "limits greenhouse gas emissions among signatory nations",
       "phases out production of ozone depleting substances",
-      "regulates international trade in endangered species"
+      "regulates international trade in endangered species",
+      "restricts persistent organic pollutants worldwide"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Adopted in 1987, it is often called the most successful environmental treaty. Every United Nations member state has ratified it."
   },
   {
     id: "9-2-2",
     question: "The Montreal Protocol succeeded in part because",
     options: [
+      "substitutes existed and the problem was narrowly defined",
       "only a handful of countries needed to participate",
-      "the costs of compliance fell entirely on consumers",
-      "ozone depletion required no changes to industry",
-      "substitutes existed and the problem was narrowly defined"
+      "the costs of compliance fell entirely upon ordinary consumers",
+      "ozone depletion required no changes to industry"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "A limited set of chemicals with available replacements made agreement tractable. Climate change is harder because fossil fuels pervade the entire economy."
   },
   {
@@ -33,7 +33,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "break down more readily before reaching the stratosphere",
       "are entirely harmless to the global climate system",
-      "cost substantially more than the CFCs they replaced",
+      "cost substantially more than all the CFCs they replaced",
       "contain no chlorine and cannot affect ozone at all"
     ],
     correctIndex: 0,
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-4",
     question: "Hydrofluorocarbons replaced HCFCs but created a new problem because HFCs",
     options: [
-      "destroy stratospheric ozone even more rapidly",
       "are potent greenhouse gases contributing to warming",
       "are acutely toxic to humans at low concentrations",
-      "cannot be used in any refrigeration application"
+      "cannot be used in any refrigeration application",
+      "destroy stratospheric ozone even more rapidly"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "HFCs contain no chlorine and spare the ozone layer entirely. The Kigali Amendment now phases them down for climate reasons."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-6",
     question: "The Montreal Protocol included a multilateral fund in order to",
     options: [
+      "help developing countries transition to alternatives",
       "finance research into new ozone depleting compounds",
       "pay for satellite monitoring of the ozone layer",
-      "compensate chemical manufacturers for lost revenue",
-      "help developing countries transition to alternatives"
+      "compensate chemical manufacturers for lost revenue"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Differentiated timelines and financial support secured broad participation. This design has been studied as a model for other treaties."
   },
   {
     id: "9-2-7",
     question: "The stratospheric ozone layer is currently",
     options: [
+      "continuing to thin at an accelerating annual rate",
       "showing signs of recovery expected to continue for decades",
-      "fully recovered to its preindustrial condition already",
-      "unchanged since measurements first began in the 1970s",
-      "continuing to thin at an accelerating annual rate"
+      "fully recovered to its preindustrial condition already everywhere",
+      "unchanged since measurements first began in the 1970s"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "The Antarctic hole has begun shrinking as chlorine levels decline. Full recovery is projected around the middle of this century."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-2-9",
     question: "Detection of unexpected CFC-11 emissions after 2013 demonstrated that",
     options: [
-      "ozone depletion had already been fully reversed",
-      "the Montreal Protocol had no measurable effect",
       "monitoring and enforcement remain necessary",
-      "CFCs are produced naturally in large quantities"
+      "CFCs are produced naturally in large quantities",
+      "ozone depletion had already been fully reversed",
+      "the Montreal Protocol had no measurable effect"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Atmospheric measurements traced the source to unreported production in eastern Asia. Emissions declined again after the finding was publicized."
   },
   {
@@ -116,7 +116,7 @@ window.QUIZ_QUESTIONS = [
     question: "The Montreal Protocol is often contrasted with climate agreements because ozone depletion",
     options: [
       "required no international cooperation to address",
-      "produced benefits only for a small number of countries",
+      "produced benefits only for a very small number of countries",
       "affected far more sectors of the global economy",
       "involved fewer industries with ready substitutes available"
     ],

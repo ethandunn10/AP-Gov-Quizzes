@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-12-1",
     question: "The common-ion effect describes the observation that the solubility of a salt",
     options: [
-      "increases when a common ion is present",
-      "decreases when a common ion is already present in solution",
+      "decreases when a common ion is already present",
       "is unaffected by other ions",
-      "becomes zero"
+      "becomes zero",
+      "increases when a common ion is already there present"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Le Chatelier's principle drives the dissolution equilibrium back toward the solid. Ksp itself is unchanged."
   },
   {
     id: "7-12-2",
     question: "AgCl is less soluble in 0.10 M NaCl than in pure water because",
     options: [
-      "NaCl reacts with AgCl",
-      "the added Cl⁻ shifts the dissolution equilibrium toward the solid",
+      "the added Cl⁻ shifts the equilibrium toward solid",
       "Ksp decreases",
-      "the temperature changes"
+      "the temperature of the solution necessarily changes",
+      "NaCl reacts with AgCl"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Chloride is the common ion here. Ksp is fixed at a given temperature, so a larger [Cl⁻] forces a smaller [Ag⁺]."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-12-4",
     question: "The common-ion effect applies to weak acid equilibria as well; adding sodium acetate to acetic acid will",
     options: [
-      "increase ionization of the acid",
+      "make the acid strong",
+      "greatly increase the ionization of the weak acid",
       "suppress ionization of the acid, raising the pH",
-      "have no effect",
-      "make the acid strong"
+      "have no effect"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Added acetate shifts the ionization equilibrium back toward undissociated acid. This suppression is the basis of buffer behavior."
   },
   {
@@ -57,7 +57,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "Yes, it decreases Ksp",
       "No, Ksp depends only on temperature",
-      "Yes, it increases Ksp",
+      "Yes, it always increases the value of Ksp",
       "Only for 1:1 salts"
     ],
     correctIndex: 1,
@@ -67,20 +67,20 @@ window.QUIZ_QUESTIONS = [
     id: "7-12-6",
     question: "In which solution would CaF₂ be least soluble?",
     options: [
-      "Pure water",
-      "0.10 M NaF",
       "0.10 M NaCl",
-      "0.10 M KNO₃"
+      "0.10 M KNO₃",
+      "Pure water",
+      "0.10 M NaF"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Fluoride is the common ion, and it appears squared in the Ksp expression. NaCl and KNO₃ contribute no common ion."
   },
   {
     id: "7-12-7",
     question: "When calculating solubility in the presence of a common ion, the usual simplifying assumption is that",
     options: [
-      "the common ion's concentration is essentially unchanged by the small amount dissolving",
-      "the solid does not dissolve at all",
+      "the common ion concentration is essentially unchanged",
+      "the solid simply does not dissolve at all in this case",
       "Ksp doubles",
       "the temperature rises"
     ],
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-12-8",
     question: "The common-ion effect is an application of",
     options: [
-      "Hess's law",
       "Le Chatelier's principle",
-      "the ideal gas law",
-      "Beer's law"
+      "the ideal gas law of physics",
+      "Beer's law",
+      "Hess's law"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Adding a product species shifts the equilibrium back toward reactants. The same reasoning applies to buffers and solubility alike."
   },
   {
     id: "7-12-9",
     question: "Adding 0.10 M HCl to a saturated solution of AgCl will",
     options: [
-      "increase the solubility of AgCl",
-      "decrease the solubility of AgCl by adding chloride ions",
+      "decrease AgCl solubility by adding chloride ions",
       "have no effect",
-      "dissolve all the solid"
+      "dissolve all the solid",
+      "greatly increase the overall solubility of the AgCl"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "HCl contributes chloride, the common ion. The identity of the accompanying cation is irrelevant here."
   },
   {
     id: "7-12-10",
     question: "Selective precipitation separates two metal ions by",
     options: [
-      "adding a reagent whose salt with one ion has a much smaller Ksp, so it precipitates first",
+      "filtering the whole mixture before any reagent is added at all",
+      "adding a reagent whose salt with one ion has a smaller Ksp",
       "heating the solution",
-      "adding water",
-      "filtering before any reagent is added"
+      "adding water"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Careful control of the precipitating ion's concentration keeps Q above Ksp for one salt only. This underlies qualitative analysis schemes."
   }
 ];

@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-1-1",
     question: "The Enlightenment's core intellectual commitment was to",
     options: [
-      "reason and empirical observation as the basis for ordering society",
-      "the rejection of all scientific inquiry",
       "the restoration of medieval scholastic philosophy",
-      "the authority of tradition and of inherited religious doctrine"
+      "the authority of tradition and of inherited religious doctrine",
+      "reason and empirical observation as the basis for ordering society",
+      "the rejection of all scientific inquiry"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Enlightenment thinkers applied the methods that had succeeded in natural philosophy to questions of government, religion, and society. That transfer of method is what made the movement politically dangerous to established authority."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-1-4",
     question: "Which best describes the Enlightenment's relationship to religion?",
     options: [
+      "Positions ranged from deism to open anticlericalism",
       "Thinkers defended the political authority of the established churches",
       "Religion was not discussed by Enlightenment writers",
-      "Thinkers uniformly demanded the abolition of all religion",
-      "Positions ranged from deism to open anticlericalism"
+      "Thinkers uniformly demanded the abolition of all religion"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Voltaire attacked clerical intolerance while remaining a deist, and most thinkers targeted the church's coercive power rather than belief itself. Treating the movement as uniformly atheist flattens real disagreement among its figures."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "5-1-6",
     question: "Mary Wollstonecraft's Vindication of the Rights of Woman argued that",
     options: [
-      "education for women would undermine family stability",
-      "women's apparent inferiority came from the education denied them",
       "women should be excluded from political life on natural grounds alone",
-      "Enlightenment reason applied only to men"
+      "Enlightenment reason applied only to men",
+      "education for women would undermine family stability",
+      "women's apparent inferiority came from the education denied them"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Wollstonecraft turned Enlightenment logic against its own practitioners: if reason is the ground of rights, it cannot be reserved for one sex. Her critique exposed how selectively universal principles were being applied."
   },
   {
     id: "5-1-7",
     question: "Enlightenment ideas contributed to abolitionist movements primarily by",
     options: [
-      "requiring all governments to adopt republican constitutions",
       "demonstrating that slavery was economically unprofitable",
       "making rights a principle that slavery plainly violated",
-      "proving that plantation agriculture was technically impossible to run"
+      "proving that plantation agriculture was technically impossible to run",
+      "requiring all governments to adopt republican constitutions"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Once liberty was framed as a natural right belonging to all people, defenders of slavery had to argue that enslaved people were somehow not fully human — a position abolitionists attacked directly. Slavery remained highly profitable during abolition debates."
   },
   {
     id: "5-1-8",
     question: "The salons and coffeehouses of eighteenth-century Europe mattered because they",
     options: [
-      "were open only to members of the hereditary titled nobility",
       "focused exclusively on religious devotion",
       "were controlled directly by royal censors",
-      "created a public sphere where new ideas crossed social ranks"
+      "created a public sphere where new ideas crossed social ranks",
+      "were open only to members of the hereditary titled nobility"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "These venues let nobles, writers, and professionals debate together, and women often hosted and directed salon conversation. The existence of discussion beyond state and church control is what made the public sphere politically significant."
   },
   {
     id: "5-1-9",
     question: "Which statement best explains why Enlightenment ideas spread beyond Europe?",
     options: [
+      "European states required colonies to adopt them by law",
       "Print, travel, and colonial elites carried them out",
       "The ideas were transmitted only after 1900",
-      "Colonial populations had no access at all to European publications",
-      "European states required colonies to adopt them by law"
+      "Colonial populations had no access at all to European publications"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Creole elites, enslaved and free people of color, and colonial students encountered these arguments and turned them against the empires that produced them. Toussaint Louverture's use of French revolutionary language is the sharpest example."
   },
   {
     id: "5-1-10",
     question: "A historian argues the Enlightenment was 'both revolutionary and limited.' The best evidence for the second half is that",
     options: [
+      "no Enlightenment writer discussed politics",
       "the movement was confined to a single country",
       "thinkers proclaiming universal rights excluded women and the enslaved",
-      "Enlightenment ideas had no influence on any revolution of the period",
-      "no Enlightenment writer discussed politics"
+      "Enlightenment ideas had no influence on any revolution of the period"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Declarations of universal rights coexisted with property qualifications, continued slaveholding, and the exclusion of women — the gap between principle and application. Revolutionaries in Haiti and elsewhere pressed exactly that contradiction."
   }
 ];

@@ -32,36 +32,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-9-3",
     question: "The most significant effect of both world wars on European global power was",
     options: [
-      "the expansion of European colonial holdings after 1945",
       "the strengthening of European empires worldwide",
       "European exhaustion and the rise of two superpowers",
-      "no measurable change at all in the global distribution of power"
+      "no measurable change at all in the global distribution of power",
+      "the expansion of European colonial holdings after 1945"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Britain and France emerged victorious but financially and militarily drained, unable to hold empires against determined nationalist movements. Two non-European superpowers replaced them at the center of world politics."
   },
   {
     id: "7-9-4",
     question: "Which causal chain best explains the connection between industrialization and total war?",
     options: [
-      "Industrialization made warfare less destructive by improving precision",
-      "Industrialization had no effect on the conduct of warfare",
       "Industrial economies were unable to sustain military conflict",
-      "Industry armed mass armies, making war long and total"
+      "Industry armed mass armies, making war long and total",
+      "Industrialization made warfare less destructive by improving precision",
+      "Industrialization had no effect on the conduct of warfare"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Factories could replace losses indefinitely, which turned wars into contests of production and made the civilian economy itself a target. The whole concept of total war depends on industrial capacity."
   },
   {
     id: "7-9-5",
     question: "Which effect of the world wars most directly enabled decolonization?",
     options: [
+      "The strengthening of colonial administrations during the war years",
       "weakened colonial powers meeting sharply raised expectations",
       "The complete absence of colonial participation in the wars",
-      "The expansion of European military capacity after 1945",
-      "The strengthening of colonial administrations during the war years"
+      "The expansion of European military capacity after 1945"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Colonial powers lacked the resources and often the will to suppress independence movements, while veterans and nationalist leaders pressed claims sharpened by wartime service. Both sides of that equation changed at once."
   },
   {
@@ -80,48 +80,48 @@ window.QUIZ_QUESTIONS = [
     id: "7-9-7",
     question: "Which pair of developments has the strongest causal relationship?",
     options: [
-      "Trench warfare and the Mexican Revolution",
-      "The Treaty of Versailles and the Russo-Japanese War of 1904",
       "The Depression and the rise of authoritarian regimes",
-      "The Armenian genocide and the Cambodian genocide"
+      "The Armenian genocide and the Cambodian genocide",
+      "Trench warfare and the Mexican Revolution",
+      "The Treaty of Versailles and the Russo-Japanese War of 1904"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Mass unemployment and the apparent failure of liberal democracy directly strengthened movements promising decisive national action. The other pairings link events with no causal connection, or reverse their chronology."
   },
   {
     id: "7-9-8",
     question: "The creation of the United Nations in 1945 is best understood as",
     options: [
+      "a fix for the League's flaws, with all great powers inside",
       "an organization identical in structure and power to the League",
       "a body designed to have no involvement in security matters",
-      "an entirely new idea unconnected to any previous international effort",
-      "a fix for the League's flaws, with all great powers inside"
+      "an entirely new idea unconnected to any previous international effort"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The Security Council with permanent members holding vetoes was designed to keep great powers inside the system and give it enforcement capability the League lacked. Learning from the predecessor's failure is the point."
   },
   {
     id: "7-9-9",
     question: "Which statement best explains why the twentieth century saw such unprecedented violence?",
     options: [
-      "industry, bureaucracy, and ideology together raised the scale",
       "International law encouraged rather than restrained armed conflict",
       "No effective weapons existed before the twentieth century",
-      "Human nature changed fundamentally after 1900"
+      "Human nature changed fundamentally after 1900",
+      "industry, bureaucracy, and ideology together raised the scale"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Nationalism and totalizing ideologies supplied motive, modern bureaucracies supplied organization, and industry supplied means. It is the combination rather than any single element that explains the scale."
   },
   {
     id: "7-9-10",
     question: "Which conclusion about causation in the period 1900-1945 is best supported by evidence?",
     options: [
-      "Ideology played no role in twentieth-century warfare",
       "crisis, ideology, and imperial rivalry interacted constantly",
       "Each major conflict had a single isolated cause",
-      "Economic factors alone explain all twentieth-century armed conflict"
+      "Economic factors alone explain all twentieth-century armed conflict",
+      "Ideology played no role in twentieth-century warfare"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The Depression empowered ideologies that pursued imperial expansion, which in turn produced further economic and political crisis — a set of mutually reinforcing processes. Isolating any one factor as the cause misrepresents how the period worked."
   }
 ];

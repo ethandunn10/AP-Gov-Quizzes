@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-1",
     question: "The Treaty of Versailles generated lasting German resentment because it",
     options: [
-      "divided Germany into occupation zones governed by the Allies",
       "required Germany to adopt a communist form of government",
       "assigned war guilt, imposed reparations, and stripped territory",
-      "granted Germany additional territory in eastern Europe"
+      "granted Germany additional territory in eastern Europe",
+      "divided Germany into occupation zones governed by the Allies"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "The war guilt clause, reparations, territorial losses, and army limits combined into a settlement Germans across the spectrum called a diktat. Occupation zones followed the Second World War, not the First."
   },
   {
     id: "8-4-2",
     question: "Wilson's Fourteen Points emphasized",
     options: [
+      "self-determination, open diplomacy, and a league of nations",
       "the partition of Germany among the victorious Allied powers",
       "the restoration of the prewar empires to their 1914 borders",
-      "reparations sufficient to cover the Allies' entire war costs",
-      "self-determination, open diplomacy, and a league of nations"
+      "reparations sufficient to cover the Allies' entire war costs"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Wilson sought a settlement based on principle rather than punishment, though French and British aims prevailed on most points. The League was the one element he largely secured."
   },
   {
     id: "8-4-3",
     question: "France's aims at the peace conference centered on",
     options: [
-      "security against future German attack through weakening Germany",
-      "restoring Germany quickly as a trading partner and ally",
       "extending self-determination to every European nationality",
-      "avoiding any territorial changes to the prewar map"
+      "avoiding any territorial changes to the prewar map",
+      "security against future German attack through weakening Germany",
+      "restoring Germany quickly as a trading partner and ally"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Twice invaded within fifty years, France pressed for reparations, demilitarization of the Rhineland, and the return of Alsace-Lorraine. Clemenceau regarded German weakness as France's only guarantee."
   },
   {
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-5",
     question: "Self-determination as applied at Paris generated resentment because it was",
     options: [
+      "applied immediately and universally to every colonized population",
       "rejected outright by all the statesmen attending the conference",
       "used to justify returning Germany's colonies to German control",
-      "extended to Europeans while colonized peoples stayed ruled",
-      "applied immediately and universally to every colonized population"
+      "extended to Europeans while colonized peoples stayed ruled"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "New states emerged in eastern Europe while Vietnamese, Indian, and Arab delegations were turned away. Ho Chi Minh's rebuff at Paris connects directly to later anticolonial revolution."
   },
   {
     id: "8-4-6",
     question: "The redrawing of eastern European borders created problems because",
     options: [
-      "the new states were each ethnically homogeneous and stable",
       "no new states were created anywhere in the region",
       "every affected population approved the new borders by referendum",
-      "new states contained substantial and resentful national minorities"
+      "new states contained substantial and resentful national minorities",
+      "the new states were each ethnically homogeneous and stable"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Czechoslovakia's German minority and Poland's mixed borderlands created grievances that Hitler later exploited directly. Ethnic geography was too intermixed for clean national lines."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-8",
     question: "Italy's dissatisfaction with the settlement arose because Italians believed",
     options: [
+      "Italy had been defeated and occupied by the Allied powers",
       "Italy had lost all of its overseas colonial possessions",
       "Italy got less territory than it had been promised",
-      "Italy had been excluded from attending the peace conference",
-      "Italy had been defeated and occupied by the Allied powers"
+      "Italy had been excluded from attending the peace conference"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Secret promises made to bring Italy into the war were not fully honored, and nationalist outrage over this 'mutilated victory' helped Mussolini's rise. Italy was a victor present at the conference."
   },
   {
     id: "8-4-9",
     question: "Reparations imposed on Germany contributed to instability because they",
     options: [
-      "were cancelled immediately and so raised no German objection",
       "were paid in full without any effect on the German economy",
       "strained German finances and became a standing grievance",
-      "were set at a level German negotiators had themselves proposed"
+      "were set at a level German negotiators had themselves proposed",
+      "were cancelled immediately and so raised no German objection"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Payment schedules fed the 1923 hyperinflation and the Ruhr occupation crisis, and nationalists made reparations a standing indictment of the republic. The sum was repeatedly renegotiated."
   },
   {

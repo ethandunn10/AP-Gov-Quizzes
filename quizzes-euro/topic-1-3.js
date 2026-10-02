@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-2",
     question: "Erasmus's scholarship contributed to later religious upheaval mainly because he",
     options: [
+      "publicly endorsed Luther's break with Rome and joined the Lutheran church",
       "argued that the sacraments should be abolished throughout Christendom",
       "produced a Greek New Testament that exposed errors in the Latin Vulgate",
-      "denied that the Bible held any authority in matters of Christian doctrine",
-      "publicly endorsed Luther's break with Rome and joined the Lutheran church"
+      "denied that the Bible held any authority in matters of Christian doctrine"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "His 1516 Greek edition showed that the standard Latin text mistranslated key passages, undermining doctrines built on them. Erasmus criticized abuses but remained Catholic and eventually broke with Luther over free will."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-4",
     question: "Northern Renaissance painting is distinguished from Italian work by its",
     options: [
+      "meticulous detail, with oil paint used to render surfaces",
       "complete rejection of religious subject matter in favor of portraiture",
       "reliance on fresco technique applied to large public church walls",
-      "avoidance of any attempt to depict everyday domestic objects",
-      "meticulous detail, with oil paint used to render surfaces"
+      "avoidance of any attempt to depict everyday domestic objects"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Artists such as Jan van Eyck exploited oil's slow drying to build luminous detail in fabric, metal, and glass. Fresco suited Italy's dry walls, while northern painters favored panel and loved domestic detail."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-6",
     question: "Which statement best describes northern humanists' view of the church before 1517?",
     options: [
-      "They demanded the immediate abolition of the papacy and monasticism",
       "They criticized clerical abuses while seeking reform from within",
       "They argued that religion should be removed entirely from public life",
-      "They regarded the institution as beyond criticism in every respect"
+      "They regarded the institution as beyond criticism in every respect",
+      "They demanded the immediate abolition of the papacy and monasticism"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Erasmus mocked ignorant monks and worldly prelates in The Praise of Folly but sought renewal, not schism. The demand to break with Rome came with Luther, and no humanist proposed a secular state."
   },
   {
     id: "1-3-7",
     question: "Dürer's engravings are significant partly because printmaking allowed him to",
     options: [
+      "work exclusively for a single royal patron on unique commissions",
       "avoid any influence from the Italian artistic developments of his day",
       "paint directly onto wet plaster in the Italian fresco tradition",
-      "produce images that could be reproduced and sold across Europe",
-      "work exclusively for a single royal patron on unique commissions"
+      "produce images that could be reproduced and sold across Europe"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Prints gave an artist a market beyond individual patrons and spread his reputation and style widely. Dürer travelled to Italy and absorbed its theories of proportion and perspective."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "1-3-10",
     question: "A historian arguing that the northern Renaissance prepared the ground for the Reformation would cite",
     options: [
+      "the papacy's decision to relocate permanently to the city of Avignon",
       "the growth of fresco painting in the churches of the Low Countries",
       "biblical scholarship, cheap printing, and anticlerical criticism",
-      "the political unification of the German states under a single monarch",
-      "the papacy's decision to relocate permanently to the city of Avignon"
+      "the political unification of the German states under a single monarch"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Erasmus's textual work, cheap printing, and widespread anticlerical satire gave Luther both tools and an audience. Germany remained politically fragmented, and the Avignon papacy ended in 1377."
   }
 ];

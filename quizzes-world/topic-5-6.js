@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-1",
     question: "Governments in late-industrializing states typically promoted industry by",
     options: [
-      "funding railroads and schools, raising tariffs, directing capital",
-      "eliminating all taxation on the population",
       "nationalizing agriculture while ignoring manufacturing industry entirely",
-      "prohibiting all foreign technology and investment"
+      "prohibiting all foreign technology and investment",
+      "funding railroads and schools, raising tariffs, directing capital",
+      "eliminating all taxation on the population"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Germany, Japan, and Russia all used tariffs, state banks, and infrastructure investment to build industries that could not have competed with British firms unaided. Importing foreign technology was central to these programs, not forbidden."
   },
   {
@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-3",
     question: "The Meiji Restoration's political reforms were aimed most directly at",
     options: [
-      "restoring the shogunate to power",
       "preserving the feudal privileges long enjoyed by the samurai class",
       "building a state able to tax, conscript, and industrialize",
-      "transferring governing authority to foreign advisers"
+      "transferring governing authority to foreign advisers",
+      "restoring the shogunate to power"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Abolishing domains, ending samurai stipends and sword rights, and creating a conscript army and national tax system were all steps toward a state that could mobilize resources. The reforms dismantled samurai privilege rather than protecting it."
   },
   {
     id: "5-6-4",
     question: "Muhammad Ali's reforms in Egypt were similar to Meiji reforms in that both",
     options: [
+      "state efforts to build strength against European domination",
       "were imposed by European colonial administrators",
       "rejected all foreign technology and expertise",
-      "succeeded in making both states leading industrial powers by 1900",
-      "state efforts to build strength against European domination"
+      "succeeded in making both states leading industrial powers by 1900"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Both regimes recognized that survival required matching European military and economic capacity and used state power to get there. Egypt's program was undermined by European intervention and debt, while Japan's succeeded — the outcomes diverged sharply."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-6",
     question: "Factory Acts and similar labor legislation in nineteenth-century Britain emerged primarily because",
     options: [
-      "factory owners voluntarily petitioned for restrictions on their own mills",
       "investigations and working-class pressure made conditions untenable",
       "industrial accidents had no measurable effect on public opinion",
-      "the state sought to eliminate manufacturing entirely"
+      "the state sought to eliminate manufacturing entirely",
+      "factory owners voluntarily petitioned for restrictions on their own mills"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Parliamentary reports on child labor and hours, combined with Chartist and trade union agitation, forced limits that employers generally resisted. The state was regulating industry, not trying to end it."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-6-10",
     question: "A historian argues that political sovereignty was 'a precondition for industrialization.' The strongest evidence is the contrast between",
     options: [
-      "Egypt and the Ottoman Empire, which both attempted reform",
-      "Japan, which set its own tariffs, and India, which could not",
       "Britain and Germany, which both industrialized successfully",
-      "Russia and Japan, which both industrialized during the same decade"
+      "Russia and Japan, which both industrialized during the same decade",
+      "Egypt and the Ottoman Empire, which both attempted reform",
+      "Japan, which set its own tariffs, and India, which could not"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The comparison isolates sovereignty as the variable: similar starting points in the mid-nineteenth century, opposite outcomes under independent versus colonial policy control. Comparing two sovereign states cannot test the claim."
   }
 ];

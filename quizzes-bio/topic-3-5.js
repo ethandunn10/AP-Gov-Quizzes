@@ -5,22 +5,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.5-1",
     question: "The overall process of cellular respiration converts glucose and oxygen into:",
-    options: ["Carbon dioxide, water, and ATP", "Glucose and oxygen again", "Only heat with no ATP produced", "Chlorophyll and light energy"],
-    correctIndex: 0,
+    options: ["Only heat with no ATP produced", "Chlorophyll and light energy", "Carbon dioxide, water, and ATP", "Glucose and oxygen again"],
+    correctIndex: 2,
     explanation: "Cellular respiration breaks down glucose in the presence of oxygen to produce carbon dioxide, water, and ATP: C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP."
   },
   {
     id: "3.5-2",
     question: "Glycolysis, the first stage of cellular respiration, occurs in the:",
-    options: ["Mitochondrial matrix", "Cytoplasm (cytosol)", "Inner mitochondrial membrane", "Nucleus"],
-    correctIndex: 1,
+    options: ["Cytoplasm (cytosol)", "Inner mitochondrial membrane", "Nucleus", "Mitochondrial matrix"],
+    correctIndex: 0,
     explanation: "Glycolysis takes place in the cytoplasm, splitting one glucose molecule into two pyruvate molecules while producing a small net gain of ATP and NADH."
   },
   {
     id: "3.5-3",
     question: "The citric acid cycle (Krebs cycle) occurs in the:",
-    options: ["The cytoplasm", "Mitochondrial matrix", "Thylakoid membrane", "The cell nucleus"],
-    correctIndex: 1,
+    options: ["Mitochondrial matrix", "Thylakoid membrane", "The cell nucleus", "The cytoplasm"],
+    correctIndex: 0,
     explanation: "The citric acid cycle takes place in the mitochondrial matrix, further breaking down the products of glycolysis and generating NADH, FADH2, ATP, and CO2."
   },
   {
@@ -33,15 +33,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.5-5",
     question: "NADH and FADH2 produced during glycolysis and the citric acid cycle contribute to ATP production by:",
-    options: ["Directly becoming ATP molecules themselves", "Donating electrons to the transport chain", "Breaking down glucose directly into ATP", "Splitting water molecules apart"],
-    correctIndex: 1,
+    options: ["Donating electrons to the transport chain", "Breaking down glucose directly into ATP", "Splitting water molecules apart", "Directly becoming ATP molecules themselves"],
+    correctIndex: 0,
     explanation: "NADH and FADH2 carry high-energy electrons to the electron transport chain; as electrons pass along the chain, energy is used to pump protons, creating a gradient that ATP synthase uses to generate ATP (chemiosmosis)."
   },
   {
     id: "3.5-6",
     question: "Oxygen's role in cellular respiration is to:",
-    options: ["Acting as the final electron acceptor", "Directly synthesizing ATP with no other steps", "Binding to glucose to start glycolysis", "Replacing NADH in the citric acid cycle"],
-    correctIndex: 0,
+    options: ["Directly synthesizing ATP with no other steps", "Binding to glucose to start glycolysis", "Replacing NADH in the citric acid cycle", "Acting as the final electron acceptor"],
+    correctIndex: 3,
     explanation: "Oxygen acts as the final electron acceptor in the electron transport chain, combining with electrons and protons to form water, which keeps the chain running by clearing away electrons."
   },
   {
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "3.5-10",
     question: "Cyanide poisoning is lethal because cyanide blocks a key protein complex in the electron transport chain, which would most directly result in:",
-    options: ["An increase in ATP production", "Electron transport halts, ATP falls", "Immediate increase in oxygen consumption", "No effect on cellular respiration at all"],
-    correctIndex: 1,
+    options: ["Electron transport halts, ATP falls", "Immediate increase in oxygen consumption", "No effect on cellular respiration at all", "An increase in ATP production"],
+    correctIndex: 0,
     explanation: "By blocking electron transport chain function, cyanide prevents the proton gradient from being maintained, halting ATP synthase activity and causing a life-threatening drop in cellular ATP production."
   },
 ];

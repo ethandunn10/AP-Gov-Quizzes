@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-1",
     question: "Women's educational attainment correlates with fertility because education",
     options: [
-      "increases the number of children women choose to have",
-      "prevents women from entering the paid labor force",
       "delays marriage while raising the opportunity cost",
-      "has no measurable relationship to family size decisions"
+      "has no measurable relationship to family size decisions",
+      "increases the number of children women choose to have",
+      "prevents women from entering the paid labor force"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Time in school postpones marriage and opens employment that makes each additional birth costlier in forgone earnings. The relationship holds across widely different societies."
   },
   {
     id: "2-8-2",
     question: "Access to contraception affects demographic change by allowing women to",
     options: [
-      "raise the crude birth rate within a population",
-      "increase the total number of children they bear",
       "eliminate all maternal mortality during childbirth",
-      "control the number and timing of their births"
+      "control the number and timing of their births",
+      "raise the crude birth rate within a population",
+      "increase the total number of children they bear"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Spacing and limiting births improves maternal and child health and lets women pursue education and employment. Unmet demand for contraception remains substantial in some regions."
   },
   {
     id: "2-8-3",
     question: "Women's participation in the paid labor force typically",
     options: [
-      "is associated with later marriage and lower fertility",
-      "has no effect on the timing of marriage or childbirth",
       "increases average family size across a population",
-      "prevents women from obtaining any formal education"
+      "prevents women from obtaining any formal education",
+      "is associated with later marriage and lower fertility",
+      "has no effect on the timing of marriage or childbirth"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Employment raises the opportunity cost of leaving work to raise children and shifts the timing of family formation. Countries with good childcare show a weaker tradeoff."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-5",
     question: "Maternal mortality rates are highest in regions with",
     options: [
-      "the highest average levels of female educational attainment",
-      "universal access to skilled birth attendance and emergency care",
       "limited health infrastructure and low rates of skilled attendance",
-      "the lowest total fertility rates anywhere in the world"
+      "the lowest total fertility rates anywhere in the world",
+      "the highest average levels of female educational attainment",
+      "universal access to skilled birth attendance and emergency care"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Deaths from hemorrhage, infection, and obstructed labor are largely preventable with trained attendants and transport to care. Sub-Saharan Africa and South Asia carry most of the global burden."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-7",
     question: "Women's status affects infant mortality because",
     options: [
+      "child health outcomes are determined entirely by genetics",
       "mothers with education and resources secure child health",
       "maternal education has no bearing on child survival rates",
-      "infant mortality depends solely on national income levels",
-      "child health outcomes are determined entirely by genetics"
+      "infant mortality depends solely on national income levels"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Maternal schooling predicts immunization, nutrition, and care-seeking better than household income alone. It is among the strongest predictors of child survival."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-8-10",
     question: "A geographer explaining differing fertility rates between two countries at similar income levels would emphasize",
     options: [
+      "differences in girls' schooling, work, and contraception",
       "differences in the total land area of the two countries",
       "the latitude at which each country is located",
-      "the number of international borders each country has",
-      "differences in girls' schooling, work, and contraception"
+      "the number of international borders each country has"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Income alone predicts fertility imperfectly, while women's education and autonomy explain much of the residual variation. Cultural and religious norms interact with those factors."
   }
 ];

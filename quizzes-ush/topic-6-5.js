@@ -7,55 +7,55 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-1",
     question: "The Bessemer process was significant because it",
     options: [
-      "allowed cheap mass production of steel from iron",
-      "refined crude oil into kerosene",
-      "transmitted messages across the Atlantic",
-      "preserved meat for long-distance shipment"
+      "refined crude petroleum into kerosene fuel",
+      "transmitted messages across the Atlantic Ocean",
+      "preserved fresh meat for long-distance rail shipment",
+      "allowed cheap mass production of steel from iron"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Blowing air through molten iron burned off impurities quickly, cutting steel's cost enough for rails, bridges, and skyscrapers. Oil refining and refrigeration were separate innovations with their own industries."
   },
   {
     id: "6-5-2",
     question: "Electric lighting and power systems developed by Edison and others most directly enabled",
     options: [
-      "the end of factory shift work",
-      "longer working hours, night shifts, and the growth of urban nightlife",
-      "the replacement of steam power in all industries by 1880",
-      "the decline of urban population"
+      "longer hours, night shifts, and the growth of urban nightlife",
+      "the complete replacement of steam power in every industry by 1880",
+      "the decline of urban population",
+      "the end of factory shift work"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Reliable artificial light detached production and city life from daylight. Steam remained dominant in industry for decades; electrification spread gradually after 1900."
   },
   {
     id: "6-5-3",
     question: "The telephone, patented by Alexander Graham Bell in 1876, changed business practice by",
     options: [
-      "eliminating the need for written contracts",
-      "allowing immediate coordination between offices, and creating large clerical employment for women",
-      "replacing the telegraph entirely within five years",
-      "ending the need for railroad scheduling"
+      "immediate coordination between offices and new clerical jobs",
+      "replacing the telegraph system entirely within just five years",
+      "ending the need for railroad scheduling",
+      "eliminating the need for written contracts"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Switchboard operation became a major field of women's employment as firms coordinated across distance. Telegraph traffic remained heavy well into the twentieth century."
   },
   {
     id: "6-5-4",
     question: "Refrigerated railcars, pioneered by Gustavus Swift, allowed",
     options: [
-      "meatpacking to centralize in Chicago and ship dressed beef nationwide",
+      "the complete elimination of canning as a preservation method",
+      "meatpacking to centralize in Chicago and ship beef widely",
       "wheat to be stored indefinitely without elevators",
-      "cotton to be shipped without baling",
-      "the elimination of canning as a preservation method"
+      "cotton to be shipped without baling"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Shipping dressed meat rather than live cattle cut costs and concentrated slaughter in a few giant plants. Local butchers resisted, but price won."
   },
   {
     id: "6-5-5",
     question: "Time zones were adopted in the United States in 1883 largely because",
     options: [
-      "Congress required uniform time for tax collection",
+      "Congress required a uniform time for all federal tax collection",
       "railroads needed standardized schedules across long distances",
       "telegraph companies could not operate without them",
       "farmers demanded uniform market hours"
@@ -68,7 +68,7 @@ window.QUIZ_QUESTIONS = [
     question: "Which innovation most directly enabled the vertical growth of cities?",
     options: [
       "The steel frame and the safety elevator",
-      "The internal combustion engine",
+      "The internal combustion automobile engine",
       "The telephone switchboard",
       "The Bessemer converter alone"
     ],
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-7",
     question: "Mechanized reapers, threshers, and combines affected American agriculture by",
     options: [
+      "eliminating the need for railroads and shipping entirely",
+      "ending tenancy in the South",
       "reducing total crop output",
-      "raising output per worker, encouraging larger farms and contributing to overproduction",
-      "eliminating the need for railroads",
-      "ending tenancy in the South"
+      "raising output per worker and causing overproduction"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Machinery let fewer hands farm more acres, which increased supply and pushed prices down — a key source of farmer grievance. Southern sharecropping, with little capital, mechanized far more slowly."
   },
   {
     id: "6-5-8",
     question: "Frederick Winslow Taylor's scientific management aimed to",
     options: [
-      "increase worker control over the pace of production",
-      "raise efficiency by timing tasks and dividing work into standardized steps",
       "shorten the workday to eight hours nationally",
-      "replace machinery with skilled craft labor"
+      "replace machinery with skilled craft labor",
+      "increase worker control over the pace of factory production",
+      "raise efficiency by timing tasks and standardizing work"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Time-and-motion study transferred knowledge of the job from craftsmen to management. Skilled workers resisted precisely because it reduced their autonomy."
   },
   {
     id: "6-5-9",
     question: "The patent system's role in this period is best described as",
     options: [
+      "granting all new inventions directly to the federal government",
+      "applying only to agricultural machinery",
       "discouraging invention through high fees",
-      "encouraging invention and enabling corporations to acquire and consolidate patent rights",
-      "granting inventions directly to the federal government",
-      "applying only to agricultural machinery"
+      "encouraging invention while letting firms consolidate patents"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Patent counts soared, and firms like General Electric and Bell built market power by buying and pooling patents. Individual inventors often sold out to the corporations that could commercialize their work."
   },
   {
     id: "6-5-10",
     question: "Technological change in this era affected skilled workers most significantly by",
     options: [
+      "guaranteeing higher wages through mechanization",
       "increasing the demand for traditional craft apprenticeships",
-      "deskilling many trades as machines and division of labor replaced craft knowledge",
-      "eliminating child labor from factories",
-      "guaranteeing higher wages through mechanization"
+      "deskilling trades as machines replaced craft knowledge",
+      "eliminating child labor from factories"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Machine production let employers substitute cheaper unskilled labor for trained craftsmen, which drove much union organizing. Child labor in fact expanded in mills and mines."
   }
 ];

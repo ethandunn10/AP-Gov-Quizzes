@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-11-1",
     question: "A catalyst increases the rate of a reaction by",
     options: [
+      "increasing the concentration of every one of the reactants",
+      "making the reaction more exothermic",
       "increasing the temperature",
-      "providing an alternative pathway with a lower activation energy",
-      "increasing the concentration of reactants",
-      "making the reaction more exothermic"
+      "providing another pathway with lower activation energy"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "A lower barrier means a larger fraction of collisions succeeds. Reactant and product energies are unchanged."
   },
   {
     id: "5-11-2",
     question: "A catalyst affects the equilibrium constant of a reaction by",
     options: [
+      "setting it to a value of precisely one always",
       "increasing it",
-      "not changing it, since forward and reverse rates are increased equally",
-      "decreasing it",
-      "setting it to one"
+      "not changing it; both rates increase equally",
+      "decreasing it"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Lowering the barrier speeds both directions by the same factor. Equilibrium is reached sooner but lies in the same place."
   },
   {
@@ -43,7 +43,7 @@ window.QUIZ_QUESTIONS = [
     id: "5-11-4",
     question: "In a catalytic converter, solid platinum and palladium catalyze gas-phase reactions. This is an example of",
     options: [
-      "homogeneous catalysis",
+      "homogeneous solution catalysis",
       "heterogeneous catalysis",
       "enzyme catalysis",
       "acid-base catalysis"
@@ -56,9 +56,9 @@ window.QUIZ_QUESTIONS = [
     question: "Enzymes are biological catalysts that are notable for their",
     options: [
       "lack of specificity",
-      "high specificity for particular substrates due to active site structure",
+      "high specificity for particular substrates",
       "consumption during reaction",
-      "requirement for high temperature"
+      "requirement for extremely high temperatures"
     ],
     correctIndex: 1,
     explanation: "The active site's shape and chemistry select a substrate precisely. Enzymes also work at mild temperatures where uncatalyzed rates would be negligible."
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
     question: "In a reaction mechanism, a catalyst appears",
     options: [
       "only in the products",
-      "as a reactant in an early step and as a product in a later step",
-      "only in the overall equation",
+      "as a reactant early and as a product later",
+      "only within the overall balanced chemical equation",
       "nowhere"
     ],
     correctIndex: 1,
@@ -79,22 +79,22 @@ window.QUIZ_QUESTIONS = [
     id: "5-11-7",
     question: "Which statement about a catalyzed reaction is correct?",
     options: [
-      "The catalyst lowers ΔH",
-      "The catalyst lowers Ea for both the forward and reverse reactions",
       "The catalyst is used up",
-      "The catalyst changes the products"
+      "The catalyst changes the identity of the products",
+      "The catalyst lowers ΔH",
+      "The catalyst lowers Ea for forward and reverse"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The same lowered barrier serves both directions along the new pathway. ΔH depends only on reactant and product energies."
   },
   {
     id: "5-11-8",
     question: "Heterogeneous catalysis typically involves the steps",
     options: [
-      "adsorption of reactants onto the surface, reaction, and desorption of products",
+      "adsorption, reaction, and then desorption",
       "dissolution of the catalyst",
       "evaporation of the catalyst",
-      "precipitation of the products"
+      "precipitation of the products out of solution"
     ],
     correctIndex: 0,
     explanation: "Adsorption weakens bonds in the reactants and holds them in favorable orientations. Catalyst poisoning occurs when a contaminant binds too strongly to desorb."
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-11-9",
     question: "Adding a catalyst to a reaction at equilibrium will",
     options: [
-      "shift the equilibrium toward products",
-      "have no effect on the position of equilibrium",
       "shift it toward reactants",
-      "stop the reaction"
+      "stop the reaction",
+      "shift the equilibrium position toward the products",
+      "have no effect on the position of equilibrium"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Both directions accelerate equally, so the ratio of concentrations is unchanged. Only a change in temperature alters K."
   },
   {
     id: "5-11-10",
     question: "A reaction is thermodynamically favorable but proceeds immeasurably slowly. Adding an effective catalyst would",
     options: [
-      "make it unfavorable",
-      "allow it to proceed at a measurable rate without changing its favorability",
-      "reverse the reaction",
-      "have no effect"
+      "let it proceed at a measurable rate",
+      "reverse the direction of the reaction entirely",
+      "have no effect",
+      "make it unfavorable"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Kinetics and thermodynamics are independent, and a catalyst addresses only the former. The conversion of diamond to graphite is the standard illustration."
   }
 ];

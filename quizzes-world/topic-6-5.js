@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-1",
     question: "Economic imperialism differs from formal colonization in that economic imperialism involves",
     options: [
-      "steering a nominally free state through debt and trade terms alone",
       "the complete absence of foreign influence",
       "military occupation of the entire country",
-      "the direct administration of territory by a foreign government"
+      "the direct administration of territory by a foreign government",
+      "steering a nominally free state through debt and trade terms alone"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "A country could keep its flag and government while foreign banks held its debt and foreign firms owned its railways and mines. Britain's position in Argentina and Egypt before 1882 illustrates the pattern."
   },
   {
     id: "6-5-2",
     question: "The British opium trade with China was pursued primarily to",
     options: [
-      "improve Chinese public health",
-      "close the tea deficit, since British goods sold poorly",
       "supply the Chinese imperial government with additional tax revenue",
-      "replace Chinese silk exports to Europe"
+      "replace Chinese silk exports to Europe",
+      "improve Chinese public health",
+      "close the tea deficit, since British goods sold poorly"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Britain was paying for tea in silver until opium grown in India gave it a commodity Chinese buyers wanted, reversing the bullion flow. Chinese attempts to stop the trade led directly to the Opium Wars."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-8",
     question: "Debt was an effective tool of economic imperialism because",
     options: [
-      "borrowing states faced no consequences at all for a default",
       "loans were offered without interest",
       "lenders forgave debts to build goodwill",
-      "creditors could seize customs revenue on default"
+      "creditors could seize customs revenue on default",
+      "borrowing states faced no consequences at all for a default"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Default gave creditors a legally and diplomatically respectable basis for seizing a state's revenue streams, as happened in Egypt and the Ottoman Empire. The leverage came from the threat of intervention as much as from the money."
   },
   {
     id: "6-5-9",
     question: "Which statement best explains why Japan avoided the fate of China and the Ottoman Empire?",
     options: [
-      "Japan industrialized quickly and then revised the treaties",
       "Japan received extensive foreign aid carrying no conditions at all",
       "Japan had no contact with Western powers",
-      "Japan was never subject to unequal treaties"
+      "Japan was never subject to unequal treaties",
+      "Japan industrialized quickly and then revised the treaties"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Japan did sign unequal treaties after Perry's arrival, but the Meiji state industrialized fast enough to revise them and join the imperial powers itself. Speed and state capacity, not isolation, made the difference."
   },
   {
     id: "6-5-10",
     question: "A historian argues that economic imperialism was 'often more effective than formal colonization.' The best supporting reasoning is that it",
     options: [
-      "was always resisted less than formal colonization",
       "secured the advantages without the cost of governing",
       "required far larger military garrisons than formal colonies did",
-      "generated no economic returns for the dominant power"
+      "generated no economic returns for the dominant power",
+      "was always resisted less than formal colonization"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Controlling trade terms and investment returns while leaving a local government to handle administration and unrest was cheap by comparison. Britain preferred informal arrangements precisely where they worked."
   }
 ];

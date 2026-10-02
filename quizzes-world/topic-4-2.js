@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-2",
     question: "Which best describes the relationship between state sponsorship and exploration in this period?",
     options: [
+      "Monarchs and chartered companies funded voyages expecting returns",
       "Exploration was funded exclusively by the papacy",
       "States refused to invest in exploration until the eighteenth century",
-      "Voyages were funded entirely by individual sailors out of personal savings",
-      "Monarchs and chartered companies funded voyages expecting returns"
+      "Voyages were funded entirely by individual sailors out of personal savings"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Columbus needed Castilian backing and the Dutch and English used chartered companies precisely because voyages were too costly and risky for individuals. The investment was expected to pay in trade rights, territory, and standing among rivals."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-4",
     question: "Columbus's voyages are best characterized as",
     options: [
-      "a deliberate search for a new continent",
       "a westward bid for Asia that instead opened lasting transatlantic contact",
       "the first arrival of human beings anywhere in the Western Hemisphere",
-      "a private venture with no state involvement"
+      "a private venture with no state involvement",
+      "a deliberate search for a new continent"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Columbus sought a western route to Asian markets and died insisting he had found Asia's outskirts; the enduring significance is the permanent contact that followed. Indigenous peoples had inhabited the Americas for millennia, and the Spanish crown sponsored the voyages."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-2-8",
     question: "The search for a Northwest Passage reflects which underlying motive?",
     options: [
-      "A desire to colonize the Arctic",
-      "finding a shorter northern route that avoided Iberian control",
       "The intent to establish missions among Arctic peoples",
-      "A plan to map the world's ocean currents for purely scientific purposes"
+      "A plan to map the world's ocean currents for purely scientific purposes",
+      "A desire to colonize the Arctic",
+      "finding a shorter northern route that avoided Iberian control"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "English, French, and Dutch navigators kept probing the North American coast because Spain and Portugal controlled the established southern routes to Asia. The goal was always commercial access, not Arctic settlement."
   },
   {
     id: "4-2-9",
     question: "Which combination of motives best explains European overseas expansion in this period?",
     options: [
-      "Scientific curiosity alone, with no state involvement",
       "Overpopulation at home, which made emigration necessary for survival",
       "Profit, state rivalry, and religious mission, plus better ships and charts",
-      "Religious mission alone, with no economic motive"
+      "Religious mission alone, with no economic motive",
+      "Scientific curiosity alone, with no state involvement"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Contemporaries described the mix themselves as 'God, gold, and glory,' and each motive reinforced the others in competitive states. Population pressure was not a significant driver in the fifteenth and sixteenth centuries."
   },
   {

@@ -7,72 +7,72 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-1",
     question: "Photovoltaic cells generate electricity by",
     options: [
-      "converting light directly into electric current",
       "storing solar heat in insulated water tanks",
       "burning collected solar radiation as a fuel",
-      "concentrating sunlight to boil water into steam"
+      "concentrating sunlight to boil water into steam",
+      "converting light directly into electric current"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Photons striking semiconductor material free electrons that flow as current. No moving parts and no working fluid are involved."
   },
   {
     id: "6-8-2",
     question: "Concentrated solar power differs from photovoltaics in that it",
     options: [
-      "converts sunlight directly into electrical current",
       "uses mirrors to focus heat that drives a turbine",
       "requires no sunlight to generate electricity",
-      "can only be installed on residential rooftops"
+      "can only be installed on residential rooftops",
+      "converts sunlight directly into electrical current"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Focused heat can be stored in molten salt, allowing generation after sunset. This gives CSP a dispatchability advantage over conventional panels."
   },
   {
     id: "6-8-3",
     question: "Passive solar design heats buildings by",
     options: [
+      "circulating heated fluid through mechanical pumps",
       "burning solar fuel produced on the building site",
       "installing photovoltaic panels on the building roof",
-      "orienting windows and mass to capture winter sun",
-      "circulating heated fluid through mechanical pumps"
+      "orienting windows and mass to capture winter sun"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "South-facing glazing, thermal mass, and overhangs require no mechanical systems. Active solar heating, by contrast, uses pumps and collectors."
   },
   {
     id: "6-8-4",
     question: "The primary limitation of solar energy is that it is",
     options: [
-      "unable to produce electricity at any useful scale",
       "responsible for more emissions than coal generation",
       "prohibitively expensive compared with all alternatives",
-      "intermittent, producing nothing at night or in cloud"
+      "intermittent, producing nothing at night or in cloud",
+      "unable to produce electricity at any useful scale"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Storage or complementary generation is needed to match demand. Solar panel costs have fallen roughly 90 percent over the past decade."
   },
   {
     id: "6-8-5",
     question: "Solar energy produces no emissions during operation, but lifecycle emissions arise from",
     options: [
-      "manufacturing, transporting, and installing the panels",
-      "carbon dioxide released as sunlight strikes the cells",
       "methane escaping from the panel mounting structures",
-      "fuel burned continuously during electricity generation"
+      "fuel burned continuously during electricity generation",
+      "manufacturing, transporting, and installing the panels",
+      "carbon dioxide released as sunlight strikes the cells"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Panel production is energy intensive, often using fossil-powered grids. Energy payback typically occurs within one to three years of operation."
   },
   {
     id: "6-8-6",
     question: "Utility scale solar farms raise land use concerns because they",
     options: [
+      "must be located within dense urban centers",
       "occupy far less land than equivalent fossil plants",
       "require large areas that may displace habitat",
-      "can only be built on previously developed sites",
-      "must be located within dense urban centers"
+      "can only be built on previously developed sites"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Siting on degraded land, rooftops, or alongside agriculture reduces the conflict. Agrivoltaics combines solar generation with crop production on the same land."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-8",
     question: "Net metering policies support residential solar by",
     options: [
-      "requiring all solar output to be used on site",
       "prohibiting any connection between homes and the grid",
       "charging homeowners extra for generating their own power",
-      "crediting owners for excess electricity sent to the grid"
+      "crediting owners for excess electricity sent to the grid",
+      "requiring all solar output to be used on site"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The grid effectively acts as storage for the homeowner. Utilities have contested how these credits should be valued as solar adoption grows."
   },
   {

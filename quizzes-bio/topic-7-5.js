@@ -12,15 +12,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.5-2",
     question: "The Hardy-Weinberg genotype equation p² + 2pq + q² = 1 represents the expected frequencies of:",
-    options: ["The three genotype frequencies", "Three different alleles at one locus", "Three separate small populations", "Three different types of mutations"],
-    correctIndex: 0,
+    options: ["Three different types of mutations", "The three genotype frequencies", "Three different alleles at one locus", "Three separate small populations"],
+    correctIndex: 1,
     explanation: "p² is the expected frequency of homozygous dominant individuals, 2pq is heterozygous individuals, and q² is homozygous recessive individuals, assuming the population is in Hardy-Weinberg equilibrium."
   },
   {
     id: "7.5-3",
     question: "Which of the following is NOT one of the conditions required for a population to be in true Hardy-Weinberg equilibrium?",
-    options: ["No mutation occurring at all", "Random mating throughout the population", "Ongoing natural selection on alleles", "No gene flow into or out of the population"],
-    correctIndex: 2,
+    options: ["Random mating throughout the population", "Ongoing natural selection on alleles", "No gene flow into or out of the population", "No mutation occurring at all"],
+    correctIndex: 1,
     explanation: "Hardy-Weinberg equilibrium assumes no selection is occurring (along with no mutation, no gene flow, random mating, and a very large population size); if selection is acting, allele frequencies are expected to change, violating equilibrium."
   },
   {
@@ -33,29 +33,29 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.5-5",
     question: "If a recessive allele has a frequency (q) of 0.2 in a population at Hardy-Weinberg equilibrium, what is the expected frequency of heterozygous individuals?",
-    options: ["0.04", "0.32", "0.64", "0.2"],
-    correctIndex: 1,
+    options: ["0.64", "0.2", "0.04", "0.32"],
+    correctIndex: 3,
     explanation: "With q = 0.2, p = 1 - 0.2 = 0.8. Heterozygote frequency = 2pq = 2(0.8)(0.2) = 0.32."
   },
   {
     id: "7.5-6",
     question: "In practice, most real populations do not perfectly satisfy Hardy-Weinberg assumptions because:",
-    options: ["Selection, migration, and mutation are common", "All real populations are infinitely large", "Natural selection never actually occurs", "Mating is completely random in every species"],
-    correctIndex: 0,
+    options: ["Natural selection never actually occurs", "Mating is completely random in every species", "Selection, migration, and mutation are common", "All real populations are infinitely large"],
+    correctIndex: 2,
     explanation: "Real populations typically experience some mutation, gene flow, natural selection, genetic drift (finite population size), or non-random mating, meaning true Hardy-Weinberg equilibrium is rarely, if ever, perfectly met in nature."
   },
   {
     id: "7.5-7",
     question: "Suppose observed genotype frequencies in a population differ significantly from those predicted by the Hardy-Weinberg equation. This is best interpreted as evidence that:",
-    options: ["The population is definitely going extinct", "Some evolutionary force may be acting on it", "The gene in question does not exist", "The population has zero genetic variation"],
-    correctIndex: 1,
+    options: ["The gene in question does not exist", "The population has zero genetic variation", "The population is definitely going extinct", "Some evolutionary force may be acting on it"],
+    correctIndex: 3,
     explanation: "A mismatch between observed and Hardy-Weinberg-expected genotype frequencies suggests that assumptions of the model are being violated — commonly because an evolutionary force like selection or non-random mating is influencing the population."
   },
   {
     id: "7.5-8",
     question: "If a recessive genetic disorder occurs in 1 out of every 10,000 individuals (q² = 0.0001) in a Hardy-Weinberg population, approximately what fraction of the population are carriers (heterozygotes)?",
-    options: ["About 0.01%", "About 2%", "About 50%", "About 99%"],
-    correctIndex: 1,
+    options: ["About 50%", "About 99%", "About 0.01%", "About 2%"],
+    correctIndex: 3,
     explanation: "q² = 0.0001, so q = 0.01 and p ≈ 0.99. Carrier frequency = 2pq ≈ 2(0.99)(0.01) ≈ 0.0198, or about 2% of the population."
   },
   {

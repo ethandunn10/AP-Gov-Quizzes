@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-11-1",
     question: "The temperance movement attracted wide support because reformers argued that alcohol",
     options: [
-      "reduced industrial productivity in southern agriculture",
-      "was being imported illegally from European nations",
       "caused poverty, violence, and disorder in families",
-      "prevented immigrants from attending religious services"
+      "prevented immigrants from attending religious services",
+      "reduced industrial productivity in southern agriculture",
+      "was being imported illegally from European nations"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Temperance linked drinking to family suffering and workplace disorder, drawing especially strong support from women. It became the era's largest reform movement by membership."
   },
   {
@@ -20,7 +20,7 @@ window.QUIZ_QUESTIONS = [
     question: "William Lloyd Garrison's abolitionism was distinctive because he demanded",
     options: [
       "gradual emancipation over several decades",
-      "colonization of freed people outside the United States",
+      "the colonization of freed people outside the United States",
       "compensation paid to enslavers for emancipated workers",
       "immediate emancipation without compensation to enslavers"
     ],
@@ -31,60 +31,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-11-3",
     question: "Frederick Douglass contributed to abolitionism most powerfully by",
     options: [
-      "organizing armed rebellions in the southern states",
+      "financing the American Colonization Society",
+      "organizing armed rebellions across the southern slave states",
       "testifying to slavery's realities from personal experience",
-      "lobbying Congress as an elected representative",
-      "financing the American Colonization Society"
+      "lobbying Congress as an elected representative"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "His narrative and oratory refuted proslavery claims about Black capacity and slavery's mildness. He later broke with Garrison over whether the Constitution could be used against slavery."
   },
   {
     id: "4-11-4",
     question: "The Seneca Falls Convention of 1848 is significant because it",
     options: [
+      "established the first national women's political party in America",
       "secured voting rights for women in New York State",
       "ended legal coverture throughout the northern states",
-      "produced a declaration demanding women's rights including suffrage",
-      "established the first national women's political party"
+      "produced a declaration demanding women's rights and suffrage"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The Declaration of Sentiments modeled itself on the Declaration of Independence, with suffrage its most contested demand. Legal change came only decades later."
   },
   {
     id: "4-11-5",
     question: "Many women entered reform work through abolitionism, which shaped the women's movement by",
     options: [
+      "providing them with formal leadership roles in all antislavery societies",
+      "separating their concerns entirely from questions of slavery",
       "convincing them that political activity was inappropriate",
-      "teaching organizing skills and exposing their own legal disabilities",
-      "providing them formal leadership roles in all antislavery societies",
-      "separating their concerns entirely from questions of slavery"
+      "teaching organizing skills and exposing their own legal disabilities"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Being excluded from the floor at the 1840 London antislavery convention pushed Mott and Stanton toward organizing for women. The parallel between chattel slavery and coverture became a common rhetorical tool."
   },
   {
     id: "4-11-6",
     question: "Dorothea Dix's reform efforts focused on",
     options: [
-      "humane treatment for people with mental illness",
       "abolishing capital punishment in northern states",
       "improving conditions in textile mills",
-      "expanding public education in the rural South"
+      "expanding public education in the rural South",
+      "humane treatment for people with mental illness"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Her documentation of conditions in jails and almshouses prompted states to build asylums. The reform reflected a broader belief that institutions could rehabilitate rather than merely confine."
   },
   {
     id: "4-11-7",
     question: "Prison reform in this era was guided by the belief that criminals could be",
     options: [
-      "reformed through discipline, labor, and isolation",
       "deterred only through public corporal punishment",
       "safely released without any period of confinement",
-      "rehabilitated exclusively through religious conversion"
+      "rehabilitated exclusively through religious conversion",
+      "reformed through discipline, labor, and isolation"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Penitentiaries were designed to produce penitence through regimented routine rather than simple punishment. The optimism about reshaping character mirrors other reforms of the period."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-11-9",
     question: "Which evidence best supports the claim that reform movements were interconnected?",
     options: [
+      "Temperance drew nearly all its support from wealthy southern planters",
+      "Abolitionists avoided cooperation with religious organizations",
       "Activists such as Stanton and Douglass worked across multiple causes",
-      "Reform societies operated independently in separate states",
-      "Temperance drew its largest support from southern planters",
-      "Abolitionists avoided cooperation with religious organizations"
+      "Reform societies operated independently in separate states"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Overlapping leadership and shared organizing methods tied abolition, temperance, and women's rights together. Douglass's support at Seneca Falls is a concrete example."
   },
   {
     id: "4-11-10",
     question: "Reform movements provoked opposition most often because critics believed they",
     options: [
-      "failed to attract any significant public support",
-      "threatened property rights and established hierarchies",
       "were funded entirely by foreign governments",
-      "advocated open violence as their primary method"
+      "advocated open violence as their primary method",
+      "failed to attract any significant amount of public support",
+      "threatened property rights and established hierarchies"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Abolition threatened enormous property interests, and women's rights challenged household authority. Antiabolition mobs, including the one that killed Elijah Lovejoy, show how fierce that opposition became."
   }
 ];

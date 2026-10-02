@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-4",
     question: "Beccaria's On Crimes and Punishments argued that punishment should be",
     options: [
-      "administered primarily through torture to secure reliable confessions",
-      "proportionate, certain, and aimed at deterrence not vengeance",
       "as severe and public as possible to maximize its deterrent effect",
-      "determined individually by judges without reference to written law"
+      "determined individually by judges without reference to written law",
+      "administered primarily through torture to secure reliable confessions",
+      "proportionate, certain, and aimed at deterrence not vengeance"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Beccaria attacked torture and capital punishment as both cruel and ineffective, arguing certainty deters better than severity. Several rulers reformed criminal codes in response."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-3-6",
     question: "Diderot's Encyclopédie was significant because it",
     options: [
-      "was commissioned and funded directly by the French royal government",
-      "confined itself strictly to technical subjects with no social commentary",
       "was published only in Latin for an audience of university scholars",
-      "gathered useful knowledge while criticizing authority"
+      "gathered useful knowledge while criticizing authority",
+      "was commissioned and funded directly by the French royal government",
+      "confined itself strictly to technical subjects with no social commentary"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Its articles on crafts and science carried implicit and explicit criticism of church and privilege, which is why authorities repeatedly suppressed it. It appeared in French for a broad readership."
   },
   {
     id: "4-3-7",
     question: "Mary Wollstonecraft's Vindication of the Rights of Woman argued that",
     options: [
-      "women's apparent inferiority came from denied education",
-      "Enlightenment principles of reason applied to men alone",
       "women should be excluded from public life on natural grounds",
-      "education for women would undermine the stability of the family"
+      "education for women would undermine the stability of the family",
+      "women's apparent inferiority came from denied education",
+      "Enlightenment principles of reason applied to men alone"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Wollstonecraft turned Enlightenment logic against its own practitioners: if reason grounds rights, it cannot be reserved for one sex. Her critique exposed how selectively universal principles were applied."
   },
   {
     id: "4-3-8",
     question: "Salons contributed to the Enlightenment by",
     options: [
-      "training clergy in the doctrines of the established Catholic church",
-      "creating spaces, often hosted by women, where ideas circulated freely",
       "restricting philosophical discussion to members of the titled nobility",
-      "publishing the official positions approved by the French monarchy"
+      "publishing the official positions approved by the French monarchy",
+      "training clergy in the doctrines of the established Catholic church",
+      "creating spaces, often hosted by women, where ideas circulated freely"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Salonnières such as Madame Geoffrin convened writers, nobles, and officials, shaping reputations and spreading arguments. They were a key institution of the public sphere."
   },
   {
     id: "4-3-9",
     question: "The Enlightenment's treatment of slavery and colonialism is best described as",
     options: [
-      "unanimous defense of slavery as consistent with natural law",
       "uniform and immediate condemnation by every Enlightenment writer",
       "growing criticism alongside continued acceptance by many thinkers",
-      "complete silence, since no writer addressed the subject at all"
+      "complete silence, since no writer addressed the subject at all",
+      "unanimous defense of slavery as consistent with natural law"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Natural rights arguments furnished abolitionists with powerful tools, yet several major figures invested in or excused colonial slavery. Haitian revolutionaries pressed that contradiction directly."
   },
   {
     id: "4-3-10",
     question: "A historian assessing the Enlightenment's limits would point most strongly to",
     options: [
-      "its failure to produce any writing on politics or on religion",
-      "its confinement to a single country with no influence elsewhere",
       "the absence of any printed circulation of its major works",
-      "universal rights proclaimed while excluding most people"
+      "universal rights proclaimed while excluding most people",
+      "its failure to produce any writing on politics or on religion",
+      "its confinement to a single country with no influence elsewhere"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Declarations of universal reason coexisted with property qualifications, continued slaveholding, and the exclusion of women. That gap between principle and application is the standard critique."
   }
 ];

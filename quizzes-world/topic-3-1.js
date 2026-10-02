@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "3-1-2",
     question: "The Ottoman capture of Constantinople in 1453 is significant primarily because it",
     options: [
-      "eliminated all trade between Europe and Asia on a permanent basis",
-      "ended Byzantium and gave the Ottomans a strategic crossroads",
       "converted the Ottoman state to Christianity",
-      "marked the beginning of Ottoman naval decline"
+      "marked the beginning of Ottoman naval decline",
+      "eliminated all trade between Europe and Asia on a permanent basis",
+      "ended Byzantium and gave the Ottomans a strategic crossroads"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The city's fall ended the last Roman successor state and gave the Ottomans a capital commanding the straits between the Mediterranean and Black Sea. Trade continued under Ottoman taxation, and Ottoman naval power grew in the following century."
   },
   {
     id: "3-1-3",
     question: "The devshirme system in the Ottoman Empire involved",
     options: [
+      "the sale of government offices to the highest bidder",
       "the hereditary transfer of military commands within established noble families",
       "the election of officials by provincial assemblies",
-      "levying Christian boys as converted soldiers and palace administrators",
-      "the sale of government offices to the highest bidder"
+      "levying Christian boys as converted soldiers and palace administrators"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Boys taken from Balkan Christian villages became janissaries or administrators whose loyalty ran to the sultan alone, since they had no independent power base. This deliberately bypassed hereditary nobility rather than reinforcing it."
   },
   {
@@ -55,72 +55,72 @@ window.QUIZ_QUESTIONS = [
     id: "3-1-5",
     question: "Babur's founding of the Mughal Empire illustrates which broader pattern in this period?",
     options: [
-      "Turkic-Mongol military elites using gunpowder to conquer farming societies",
-      "European colonists establishing permanent overseas settlement colonies",
       "Maritime states conquering inland agricultural empires",
-      "Peasant revolts overthrowing established dynasties"
+      "Peasant revolts overthrowing established dynasties",
+      "Turkic-Mongol military elites using gunpowder to conquer farming societies",
+      "European colonists establishing permanent overseas settlement colonies"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Babur descended from Timur and Genghis Khan, brought artillery and matchlocks to the field at Panipat in 1526, and conquered the densely populated Indo-Gangetic plain. The same steppe-elite-plus-gunpowder pattern produced the Ottoman and Safavid states."
   },
   {
     id: "3-1-6",
     question: "The Russian Empire's expansion eastward across Siberia was driven most directly by",
     options: [
+      "the need to escape Ottoman military pressure",
       "the search for agricultural land suitable for large-scale grain farming",
       "the fur trade and the revenue it brought the tsarist state",
-      "the desire to spread Islam into Central Asia",
-      "the need to escape Ottoman military pressure"
+      "the desire to spread Islam into Central Asia"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Sable and other furs were enormously valuable in European markets, and Cossacks and traders pushed east to secure them, extracting tribute in pelts from indigenous Siberian peoples. Siberian agriculture was marginal, and Russia expanded as an Orthodox state."
   },
   {
     id: "3-1-7",
     question: "Which statement best explains the frequent conflict between the Ottomans and Safavids?",
     options: [
+      "Disagreement over the control of Atlantic shipping lanes and their ports",
       "A dispute over the succession to the Mughal throne",
       "Rivalry for colonies in the Americas",
-      "Rivalry over territory and trade routes, sharpened by the Sunni-Shi'a divide",
-      "Disagreement over the control of Atlantic shipping lanes and their ports"
+      "Rivalry over territory and trade routes, sharpened by the Sunni-Shi'a divide"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The two empires fought repeatedly over Mesopotamia and the Caucasus, with sectarian difference sharpening what were also contests over land and commerce. Neither had Atlantic or American interests."
   },
   {
     id: "3-1-8",
     question: "The Qing conquest of China is best characterized as",
     options: [
-      "a European colonization of the Chinese mainland",
       "a peaceful transfer of power negotiated between the Ming and Manchu courts",
       "an internal peasant rebellion that replaced the Ming with a native dynasty",
-      "a Manchu conquest that then governed through Chinese institutions"
+      "a Manchu conquest that then governed through Chinese institutions",
+      "a European colonization of the Chinese mainland"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Manchus were an outside people who took advantage of Ming collapse and then preserved the examination system and Confucian bureaucracy to rule Han Chinese. A peasant rebellion helped topple the Ming, but the Manchus, not the rebels, took the throne."
   },
   {
     id: "3-1-9",
     question: "Which factor most directly enabled these empires to field large, expensive standing armies?",
     options: [
-      "Systems for taxing settled farming populations and the trade they supplied",
-      "Income from Atlantic plantation colonies",
       "The elimination of all military expenditure",
-      "Voluntary donations offered by religious institutions and their endowments"
+      "Voluntary donations offered by religious institutions and their endowments",
+      "Systems for taxing settled farming populations and the trade they supplied",
+      "Income from Atlantic plantation colonies"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Gunpowder armies were costly, and only states able to assess and collect revenue from farmers and merchants could sustain them — which is why land empires invested so heavily in tax administration. None of these empires held Atlantic plantations."
   },
   {
     id: "3-1-10",
     question: "A historian argues that gunpowder weapons caused political centralization. The strongest evidence for this argument is that",
     options: [
-      "the spread of firearms coincided with the fragmentation of all large states",
       "cannon made fortified strongholds indefensible against large states",
       "gunpowder weapons were cheap and available to every landholder",
-      "empires with gunpowder consistently lost to those without it"
+      "empires with gunpowder consistently lost to those without it",
+      "the spread of firearms coincided with the fragmentation of all large states"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Artillery shifted the balance toward whoever could pay for guns, foundries, and trained crews, which favored central treasuries over regional lords. The other options state the opposite of the observed pattern."
   }
 ];

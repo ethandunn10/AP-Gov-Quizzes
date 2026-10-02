@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-3",
     question: "The storming of the Bastille in July 1789 is significant chiefly because it",
     options: [
-      "showed that popular force could decide the Revolution's direction",
-      "was ordered by the National Assembly as an official military action",
       "ended the Revolution by satisfying the demands of the Paris crowd",
-      "freed hundreds of political prisoners held there by the monarchy"
+      "freed hundreds of political prisoners held there by the monarchy",
+      "showed that popular force could decide the Revolution's direction",
+      "was ordered by the National Assembly as an official military action"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The crowd's intervention saved the Assembly from royal troops and made the Paris populace a permanent political actor. Only a handful of prisoners were actually inside."
   },
   {
     id: "5-4-4",
     question: "The Declaration of the Rights of Man and of the Citizen proclaimed",
     options: [
-      "that sovereignty belonged permanently to the hereditary monarch",
-      "liberty, equality before the law, and rights to property and expression",
       "immediate voting rights for all adults including women and servants",
-      "the restoration of noble and clerical privilege under royal protection"
+      "the restoration of noble and clerical privilege under royal protection",
+      "that sovereignty belonged permanently to the hereditary monarch",
+      "liberty, equality before the law, and rights to property and expression"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Its universal language was quickly invoked by groups it had not covered, including women, free people of color, and the enslaved. The Assembly nonetheless limited active citizenship to taxpaying men."
   },
   {
     id: "5-4-5",
     question: "The Civil Constitution of the Clergy (1790) proved divisive because it",
     options: [
-      "restored monastic landholdings that had been seized in 1789",
       "abolished Christianity as a permitted religion throughout France",
       "made clergy salaried officials subject to an oath",
-      "transferred all French church appointments to the papacy in Rome"
+      "transferred all French church appointments to the papacy in Rome",
+      "restored monastic landholdings that had been seized in 1789"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Requiring an oath split the clergy and turned many devout Catholics against the Revolution, fueling revolt in the Vendée. Church lands had already been nationalized to back the assignats."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-7",
     question: "The sans-culottes were significant to the Revolution because they",
     options: [
-      "were urban working people whose pressure pushed politics leftward",
-      "were provincial nobles who financed the counter-revolutionary armies",
       "formed the officer corps that led revolutionary armies to victory",
-      "were clergy who refused to swear the constitutional oath"
+      "were clergy who refused to swear the constitutional oath",
+      "were urban working people whose pressure pushed politics leftward",
+      "were provincial nobles who financed the counter-revolutionary armies"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Parisian artisans and shopkeepers demanded price controls and radical measures, and their mobilization repeatedly forced the Convention's hand. Their support underpinned Jacobin dominance."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-9",
     question: "The Thermidorian Reaction of 1794 resulted in",
     options: [
-      "the extension of the Terror to every province in France",
       "the abolition of the Republic in favor of a Jacobin dictatorship",
       "the execution of Robespierre and a turn from radicalism",
-      "the restoration of Louis XVI to the French throne"
+      "the restoration of Louis XVI to the French throne",
+      "the extension of the Terror to every province in France"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Deputies fearing for their own lives overthrew Robespierre, dismantled the Terror's machinery, and installed the more conservative Directory. The monarchy was not restored until 1814."
   },
   {
     id: "5-4-10",
     question: "A historian assessing the French Revolution's significance would emphasize that it",
     options: [
-      "was confined to France and had no influence beyond its borders",
       "restored the society of orders that had existed before 1789",
       "left the legal and social structure of France essentially unchanged",
-      "destroyed privilege and made popular sovereignty a permanent claim"
+      "destroyed privilege and made popular sovereignty a permanent claim",
+      "was confined to France and had no influence beyond its borders"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Abolishing feudal dues, noble privilege, and provincial exemptions remade French society, and the claim that sovereignty belongs to the nation spread across Europe. Later regimes could not simply undo it."
   }
 ];

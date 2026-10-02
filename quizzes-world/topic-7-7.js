@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-1",
     question: "Blitzkrieg tactics succeeded early in the war because they",
     options: [
-      "fast armor with air support that broke through and then encircled",
-      "used only infantry without mechanized forces",
       "depended on naval superiority in the Atlantic",
-      "relied on static defensive positions and on prolonged siege warfare"
+      "relied on static defensive positions and on prolonged siege warfare",
+      "fast armor with air support that broke through and then encircled",
+      "used only infantry without mechanized forces"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Concentrating tanks and aircraft at a narrow point allowed penetration and encirclement before defenders could react, which is why France fell in six weeks. The approach was the deliberate opposite of 1914-1918 attrition."
   },
   {
     id: "7-7-2",
     question: "The Eastern Front is significant to understanding World War II because",
     options: [
-      "it saw relatively little fighting compared with the other theaters",
       "it absorbed most German strength and produced the heaviest losses",
       "it involved no civilian populations",
-      "it was decided entirely by naval engagements"
+      "it was decided entirely by naval engagements",
+      "it saw relatively little fighting compared with the other theaters"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The majority of German divisions and losses were on this front, and Soviet deaths reached roughly twenty-seven million including civilians. Any account that treats the Western Front as decisive misstates the war's scale."
   },
   {
     id: "7-7-3",
     question: "Strategic bombing of cities during World War II reflected which feature of total war?",
     options: [
+      "The limitation of warfare to battlefield engagements",
       "The absence of any air forces in the conflict",
       "Strict adherence to the distinction between combatants and civilians",
-      "treating enemy industry and civilian morale alike as targets",
-      "The limitation of warfare to battlefield engagements"
+      "treating enemy industry and civilian morale alike as targets"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Campaigns against Coventry, Hamburg, Dresden, and Tokyo targeted production and will to fight, killing enormous numbers of civilians. Total war dissolved the combatant-civilian distinction in practice."
   },
   {
     id: "7-7-4",
     question: "The Pacific war's 'island hopping' strategy involved",
     options: [
+      "taking useful islands and bypassing the strongest ones",
       "avoiding all amphibious operations",
       "concentrating exclusively on operations on the Chinese mainland",
-      "capturing every Japanese-held island in sequence",
-      "taking useful islands and bypassing the strongest ones"
+      "capturing every Japanese-held island in sequence"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Taking islands that could support airfields while cutting off strongholds like Rabaul saved time and lives on the advance toward Japan. Bypassed garrisons were left to wither without resupply."
   },
   {
     id: "7-7-5",
     question: "Colonial troops and resources in World War II",
     options: [
-      "contributed heavily, strengthening postwar claims to independence",
       "were used only in their home territories",
       "were granted full political rights voluntarily in return for service",
-      "played no role in the conflict"
+      "played no role in the conflict",
+      "contributed heavily, strengthening postwar claims to independence"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Indian, African, and Caribbean forces fought across multiple theaters, and colonial economies were mobilized for the war. The claim that they had fought for freedom became a central argument for decolonization."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-7-8",
     question: "Which best explains the Allied victory in World War II?",
     options: [
+      "industrial output, Soviet manpower, and coalition coordination",
       "The complete absence of significant Axis military capability anywhere",
       "Axis refusal to mobilize their economies at all",
-      "Superior tactical doctrine in every engagement",
-      "industrial output, Soviet manpower, and coalition coordination"
+      "Superior tactical doctrine in every engagement"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "American production, Soviet endurance, and coordinated Allied strategy outweighed Axis forces that were often tactically formidable. Explanations resting on Axis incompetence understate what the Allies had to overcome."
   },
   {
     id: "7-7-9",
     question: "Resistance movements in occupied territories were significant because they",
     options: [
-      "they gathered intelligence, sabotaged, and tied down occupation troops",
       "had no effect on military operations",
       "existed only in western Europe",
-      "they single-handedly defeated the occupying forces in most countries"
+      "they single-handedly defeated the occupying forces in most countries",
+      "they gathered intelligence, sabotaged, and tied down occupation troops"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Partisans in Yugoslavia, France, Poland, and Southeast Asia diverted occupation forces and produced leaders and legitimacy that shaped postwar governments. Tito's and Ho Chi Minh's postwar positions came directly from wartime resistance."
   },
   {

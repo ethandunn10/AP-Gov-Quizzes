@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-2",
     question: "The primary environmental concern with CAFO waste is that it",
     options: [
-      "decomposes too slowly to affect nearby ecosystems",
       "exceeds what nearby land can absorb, polluting water",
       "contains no nutrients that could affect waterways",
-      "is always fully treated before any release occurs"
+      "is always fully treated before any release occurs",
+      "decomposes too slowly to affect nearby ecosystems"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Manure lagoons can leak or overflow, sending nitrogen, phosphorus, and pathogens into surface and groundwater. Hurricane flooding of lagoons has caused major contamination events."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-4",
     question: "Meat production is energy inefficient compared with plant agriculture because",
     options: [
-      "livestock require no feed inputs to grow",
       "grain cannot be digested by human consumers",
       "plants contain fewer calories per unit of weight",
-      "energy is lost converting feed into animal tissue"
+      "energy is lost converting feed into animal tissue",
+      "livestock require no feed inputs to grow"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Adding a trophic level loses roughly 90 percent of the available energy. Beef is the least efficient common meat by this measure."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-7-7",
     question: "Livestock production contributes to deforestation most directly through",
     options: [
+      "reducing the demand for agricultural land overall",
       "replacing crop fields with regenerating forest",
       "harvesting timber to build livestock housing",
-      "clearing forest for pasture and feed crops",
-      "reducing the demand for agricultural land overall"
+      "clearing forest for pasture and feed crops"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Cattle ranching and soy for animal feed drive much of Amazon deforestation. The feed connection makes indirect land use a significant factor."
   },
   {
     id: "5-7-8",
     question: "Water use in meat production is high primarily because water is needed for",
     options: [
-      "transporting the finished product to distant markets",
-      "refrigerating the meat during retail display",
       "processing the meat after the animal is slaughtered",
-      "growing the feed crops the animals consume"
+      "growing the feed crops the animals consume",
+      "transporting the finished product to distant markets",
+      "refrigerating the meat during retail display"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Feed production accounts for the large majority of livestock water footprints. Direct drinking water is a small fraction of the total."
   },
   {
     id: "5-7-9",
     question: "Overgrazing on rangeland occurs when",
     options: [
-      "animals consume vegetation faster than it regrows",
       "pastures are rotated frequently among several fields",
       "livestock are removed during the dry season",
-      "stocking rates remain well below what land supports"
+      "stocking rates remain well below what land supports",
+      "animals consume vegetation faster than it regrows"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Loss of plant cover leads to erosion, soil compaction, and invasion by unpalatable species. Rotational grazing is the standard preventive management."
   },
   {
     id: "5-7-10",
     question: "Reducing meat consumption is often proposed as an environmental strategy because it would",
     options: [
-      "increase the land and water needed for food production",
       "lower land use, water use, and greenhouse emissions",
       "eliminate the need for any agricultural land at all",
-      "have no measurable effect on environmental impact"
+      "have no measurable effect on environmental impact",
+      "increase the land and water needed for food production"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Shifting calories down the food chain reduces resource demand substantially. Shifting from beef to poultry or plants captures most of the benefit."
   }
 ];

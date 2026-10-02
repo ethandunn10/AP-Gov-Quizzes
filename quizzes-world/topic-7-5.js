@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-5-1",
     question: "The Treaty of Versailles created lasting German resentment primarily because it",
     options: [
-      "assigned war guilt, reparations, and lost territory",
-      "required Germany to adopt a monarchy",
       "granted Germany additional territory in eastern Europe",
-      "divided Germany into occupation zones governed by the Allied powers"
+      "divided Germany into occupation zones governed by the Allied powers",
+      "assigned war guilt, reparations, and lost territory",
+      "required Germany to adopt a monarchy"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The war guilt clause, reparations, territorial losses, and army limits combined into a settlement Germans across the political spectrum called a diktat. Occupation zones came after the Second World War, not the First."
   },
   {
     id: "7-5-2",
     question: "The mandate system established after World War I is best described as",
     options: [
-      "immediate independence for the former Ottoman and German territories",
-      "Allied rule under League oversight, colonial in everything but name",
       "a system of self-government by local elected assemblies",
-      "the return of these territories to their prewar rulers"
+      "the return of these territories to their prewar rulers",
+      "immediate independence for the former Ottoman and German territories",
+      "Allied rule under League oversight, colonial in everything but name"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Mandates were justified as preparation for eventual self-rule but functioned as colonies administered by Britain and France. The gap between self-determination rhetoric and mandate reality fueled nationalist anger."
   },
   {
     id: "7-5-3",
     question: "Self-determination as promoted by Woodrow Wilson generated resentment in colonized regions because it",
     options: [
-      "was rejected by all European statesmen",
       "concerned only economic rather than political arrangements",
       "it applied to Europeans while colonies stayed ruled",
-      "it was applied immediately and universally to all colonized peoples"
+      "it was applied immediately and universally to all colonized peoples",
+      "was rejected by all European statesmen"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "New states emerged in eastern Europe while Vietnamese, Indian, and Arab delegations were turned away at Paris. Ho Chi Minh's rebuff there is a direct line to later anticolonial revolution."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-5-8",
     question: "Which best explains why the interwar settlement proved unstable?",
     options: [
-      "It included no territorial provisions of any kind",
       "It was never formally signed by any state",
       "It fully satisfied every participant's territorial and political demands",
-      "punitive enough to anger, too weak to be enforced"
+      "punitive enough to anger, too weak to be enforced",
+      "It included no territorial provisions of any kind"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The settlement humiliated Germany without permanently disabling it, and the powers that imposed it lacked the will to enforce it in the 1930s. That combination is the standard explanation for its collapse."
   },
   {
     id: "7-5-9",
     question: "Anticolonial nationalism intensified after World War I because",
     options: [
+      "colonial powers voluntarily offered independence to all their colonies",
       "war service and rhetoric raised hopes, then denied",
       "colonized peoples had no involvement in the war",
-      "European colonial empires were dissolved in 1919",
-      "colonial powers voluntarily offered independence to all their colonies"
+      "European colonial empires were dissolved in 1919"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Soldiers and laborers who had served expected political recognition, and European claims to civilizational superiority looked thin after the trenches. The gap between expectation and outcome produced movements led by figures such as Gandhi and Ho Chi Minh."
   },
   {

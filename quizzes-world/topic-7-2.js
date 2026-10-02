@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-3",
     question: "Militarism as a cause of World War I refers to",
     options: [
-      "arms buildup, generals' influence, and rigid mobilization timetables",
       "the absence of any standing armies",
       "the exclusion of military advisers from government decision-making",
-      "the complete disarmament of European powers"
+      "the complete disarmament of European powers",
+      "arms buildup, generals' influence, and rigid mobilization timetables"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Arms races, glorification of military values, and rigid timetables like the Schlieffen Plan meant that mobilizing was nearly indistinguishable from declaring war. Generals' schedules narrowed the window for negotiation."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-7",
     question: "Which statement best explains why the war became global rather than European?",
     options: [
-      "colonial empires drew troops and battlefields across three continents",
-      "The United States entered the war in its opening months of 1914",
       "The war was fought entirely at sea",
-      "Only European territory saw any fighting"
+      "Only European territory saw any fighting",
+      "colonial empires drew troops and battlefields across three continents",
+      "The United States entered the war in its opening months of 1914"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Indian, African, and Vietnamese troops and laborers served in Europe and elsewhere, and campaigns were fought in Africa, Mesopotamia, and the Pacific. Empire is what made a European quarrel a world war."
   },
   {
     id: "7-2-8",
     question: "The naval arms race between Britain and Germany mattered because it",
     options: [
+      "resulted in German naval superiority by 1910",
       "it was resolved peacefully through a naval limitation treaty before 1914",
       "it threatened a naval supremacy Britain thought existential",
-      "had no effect on British foreign policy",
-      "resulted in German naval superiority by 1910"
+      "had no effect on British foreign policy"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Germany's dreadnought program forced Britain to treat it as the primary threat, ending Britain's traditional distance from continental alliances. No limitation treaty was reached before the war."
   },
   {
     id: "7-2-9",
     question: "Which best explains why the July Crisis escalated rather than being contained like earlier crises?",
     options: [
-      "The crisis involved only two states",
-      "Diplomats had no means of communication with one another at all",
       "timetables, alliances, and prestige together removed every off-ramp",
-      "No power had any interest in avoiding war"
+      "No power had any interest in avoiding war",
+      "The crisis involved only two states",
+      "Diplomats had no means of communication with one another at all"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Earlier crises had been defused, but by 1914 the perceived costs of retreat and the rigidity of military planning made escalation the path of least resistance. Communication continued throughout; the constraint was on what leaders felt able to do."
   },
   {
     id: "7-2-10",
     question: "A historian argues that 'no single power caused World War I.' The strongest support for this argument is that",
     options: [
-      "no power had any military forces in 1914",
       "the war began accidentally, with no political decisions involved at all",
       "all powers were entirely unaware of the crisis until war began",
-      "many powers built the commitments that made general war likely"
+      "many powers built the commitments that made general war likely",
+      "no power had any military forces in 1914"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The system itself — alliances, arms races, and mobilization plans built by all the major powers — made general war a likely outcome of any serious crisis. Decisions were deliberate; the argument concerns distributed rather than absent responsibility."
   }
 ];

@@ -19,84 +19,84 @@ window.QUIZ_QUESTIONS = [
     id: "9-3-2",
     question: "The doctrine of containment held that",
     options: [
+      "Soviet expansion should be resisted wherever it was attempted",
       "communism should be permitted to spread freely in Europe",
       "the United States should invade and occupy the Soviet Union",
-      "western states should withdraw from all overseas commitments",
-      "Soviet expansion should be resisted wherever it was attempted"
+      "western states should withdraw from all overseas commitments"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Kennan argued that firm resistance at the perimeter would eventually force Soviet change without direct war. The Truman Doctrine, Marshall Plan, and NATO all applied that logic."
   },
   {
     id: "9-3-3",
     question: "The Berlin Blockade and Airlift of 1948-1949 demonstrated that",
     options: [
-      "the superpowers would press hard while avoiding direct combat",
-      "western powers lacked the capacity to supply the city",
       "the division of Germany had already been formally abandoned",
-      "the Soviet Union would permit free western access to Berlin"
+      "the Soviet Union would permit free western access to Berlin",
+      "the superpowers would press hard while avoiding direct combat",
+      "western powers lacked the capacity to supply the city"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Stalin cut ground access rather than attacking, and the West flew supplies rather than forcing the roads. That pattern of pressure short of shooting defined the entire Cold War."
   },
   {
     id: "9-3-4",
     question: "The Hungarian uprising of 1956 ended with",
     options: [
-      "a negotiated settlement granting Hungary neutral status",
-      "Soviet military intervention that crushed the reform movement",
       "Hungarian withdrawal from the Warsaw Pact accepted by Moscow",
-      "western military intervention on behalf of the Hungarian rebels"
+      "western military intervention on behalf of the Hungarian rebels",
+      "a negotiated settlement granting Hungary neutral status",
+      "Soviet military intervention that crushed the reform movement"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Soviet tanks ended the rising after Nagy announced withdrawal from the Warsaw Pact, and the West did not intervene. The episode showed the practical limits of rollback rhetoric."
   },
   {
     id: "9-3-5",
     question: "The Berlin Wall was built in 1961 in order to",
     options: [
-      "mark the agreed permanent border between two German states",
       "provide a controlled crossing point for expanded trade",
       "stop the flow of East Germans escaping to the West",
-      "protect East Berlin from a planned western military attack"
+      "protect East Berlin from a planned western military attack",
+      "mark the agreed permanent border between two German states"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Skilled workers were leaving through Berlin in numbers that threatened East Germany's viability. The wall stabilized the regime while becoming the Cold War's defining symbol."
   },
   {
     id: "9-3-6",
     question: "The Prague Spring of 1968 is significant because it",
     options: [
-      "led the Soviet Union to abandon control over eastern Europe",
-      "successfully established a democratic government in Czechoslovakia",
       "received direct military support from the NATO alliance",
-      "attempted reform within communism, crushed by invasion"
+      "attempted reform within communism, crushed by invasion",
+      "led the Soviet Union to abandon control over eastern Europe",
+      "successfully established a democratic government in Czechoslovakia"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Dubcek's 'socialism with a human face' ended under invasion, and the Brezhnev Doctrine formalized Moscow's claimed right to intervene. Satellite states learned how narrow their autonomy was."
   },
   {
     id: "9-3-7",
     question: "Détente in the 1970s involved",
     options: [
+      "the withdrawal of both superpowers from European territory",
       "arms limitation, expanded trade, and the Helsinki Accords",
       "the formal end of the Cold War and dissolution of both alliances",
-      "direct military conflict between American and Soviet forces",
-      "the withdrawal of both superpowers from European territory"
+      "direct military conflict between American and Soviet forces"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "SALT and Helsinki managed the rivalry without resolving it, and the human rights provisions of Helsinki later aided eastern dissidents. Tension returned sharply after Afghanistan in 1979."
   },
   {
     id: "9-3-8",
     question: "Nuclear weapons shaped the Cold War by",
     options: [
+      "being possessed equally by every European state after 1949",
       "preventing any armed conflict anywhere in the world after 1945",
       "making direct war unthinkable and diverting rivalry",
-      "eliminating the need for conventional armies in Europe",
-      "being possessed equally by every European state after 1949"
+      "eliminating the need for conventional armies in Europe"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Deterrence made a direct clash suicidal, so competition ran through proxies, propaganda, and arms racing. Conventional forces in Europe remained essential precisely because nuclear weapons could not be used."
   },
   {

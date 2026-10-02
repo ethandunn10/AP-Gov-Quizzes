@@ -7,72 +7,72 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-1",
     question: "By 1860, which comparison of North and South is accurate?",
     options: [
-      "The North had more miles of railroad and far more factory output",
       "The South had a larger free population than the North",
       "The two sections had roughly equal industrial capacity",
-      "The North exported more agricultural goods than the South"
+      "The North exported far more agricultural products than the South did",
+      "The North had more miles of railroad and far more factory output"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Northern rail mileage and manufacturing dwarfed the South's, an imbalance that shaped the coming war. Cotton alone made the South the leading exporter of agricultural goods."
   },
   {
     id: "5-5-2",
     question: "Southern defenders of slavery in the 1830s-1850s shifted from calling it a necessary evil to calling it",
     options: [
-      "a temporary arrangement that would end with industrialization",
       "a positive good that benefited both races",
       "an institution best regulated by Congress",
-      "a violation of states' rights"
+      "a violation of states' rights",
+      "a temporary arrangement that would end with industrialization"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Calhoun and others argued slavery was a positive good grounded in scripture, history, and racial hierarchy. That hardening is itself evidence of how the sectional debate escalated."
   },
   {
     id: "5-5-3",
     question: "Which best describes free-soil ideology in the North?",
     options: [
+      "Support for colonizing free Black Americans in Africa",
       "Immediate abolition of slavery everywhere, including where it existed",
-      "Opposition to slavery's expansion into territories, partly to protect free white labor",
-      "Acceptance of slavery anywhere settlers voted for it",
-      "Support for colonizing free Black Americans in Africa"
+      "Opposition to slavery's expansion, partly to protect free labor",
+      "Acceptance of slavery anywhere settlers voted for it"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Free-soilers wanted the territories reserved for free labor and often held racist views about Black settlement, which distinguishes them from abolitionists. This broader coalition is what made the Republican Party viable."
   },
   {
     id: "5-5-4",
     question: "Enslaved people resisted bondage most commonly through",
     options: [
+      "purchasing their own freedom through paid wage labor",
       "armed rebellion on a large scale",
-      "day-to-day acts such as slowing work, breaking tools, and preserving family and faith",
-      "legal suits in southern state courts",
-      "purchasing freedom through wage labor"
+      "daily acts such as slowing work and breaking tools",
+      "legal suits in southern state courts"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Open revolt was rare and brutally punished; persistent everyday resistance and the maintenance of kin networks and religion were the ordinary forms. Some did buy freedom, but the law and the odds made it exceptional."
   },
   {
     id: "5-5-5",
     question: "The internal slave trade of the 1800s-1850s most directly resulted in",
     options: [
-      "the forced separation of families as people were sold to the Deep South",
       "a decline in the enslaved population of the United States",
       "the legal end of slavery in Virginia and Maryland",
-      "higher wages for free workers in the Deep South"
+      "higher wages for free workers in the Deep South",
+      "the forced separation of families sold to the Deep South"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Roughly a million people were moved from the Upper South to the cotton states, and sale routinely broke up families. The enslaved population grew through natural increase across the period."
   },
   {
     id: "5-5-6",
     question: "Northern industrial growth in the 1850s depended significantly on",
     options: [
-      "enslaved labor rented from southern planters",
       "immigrant labor and a national market linked by rail",
       "federal ownership of textile mills",
-      "the absence of any tariff protection"
+      "the absence of any tariff protection",
+      "enslaved labor rented directly from large southern planters"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Irish and German immigrants supplied labor while railroads connected producers to distant buyers. Northern manufacturers generally favored protective tariffs rather than opposing them."
   },
   {
@@ -105,7 +105,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "Most expected to be compensated by the federal government",
       "They were legally required to serve in slave patrols or lose citizenship",
-      "Racial hierarchy guaranteed their social standing and many hoped to buy in",
+      "Racial hierarchy secured their standing and many hoped to buy in",
       "They depended on wages paid by planters"
     ],
     correctIndex: 2,
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-5-10",
     question: "The growing use of 'states' rights' arguments in the South before 1860 was most often aimed at",
     options: [
+      "expanding the power of the federal judiciary",
       "protecting slavery from federal interference",
       "securing federal funding for internal improvements",
-      "limiting state control over public education",
-      "expanding the power of the federal judiciary"
+      "limiting state control over public education"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "From nullification through secession, the doctrine was deployed in defense of the slave system. Notably, the same politicians demanded strong federal power when it served slavery, as in the Fugitive Slave Act."
   }
 ];

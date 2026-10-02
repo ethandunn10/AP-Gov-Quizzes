@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-2",
     question: "Malthus's predictions have not been borne out globally largely because",
     options: [
-      "governments prohibited families from having children",
-      "food production ceased to be necessary for human survival",
       "population growth stopped entirely in the nineteenth century",
-      "agricultural productivity rose faster than he anticipated"
+      "agricultural productivity rose faster than he anticipated",
+      "governments prohibited families from having children",
+      "food production ceased to be necessary for human survival"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Mechanization, fertilizer, and the Green Revolution multiplied yields far beyond the arithmetic growth he assumed. Fertility also fell in developed countries rather than expanding without limit."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-5",
     question: "Critics of Malthusian thinking often argue that famine results primarily from",
     options: [
+      "population growth exceeding the earth's carrying capacity",
       "the complete failure of agricultural technology",
       "an absolute global shortage of available food",
-      "distribution, poverty, and politics rather than total supply",
-      "population growth exceeding the earth's carrying capacity"
+      "distribution, poverty, and politics rather than total supply"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Amartya Sen showed that famines have occurred amid adequate food supplies when people lacked the means to obtain it. Entitlement rather than production explains many modern famines."
   },
   {
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-7",
     question: "A contemporary argument supporting neo-Malthusian concern points to",
     options: [
+      "the discovery that ecosystems face no human pressure",
       "aquifer depletion, soil degradation, and climate change",
       "the steady decline of global population since the year 1970",
-      "the elimination of water scarcity in all world regions",
-      "the discovery that ecosystems face no human pressure"
+      "the elimination of water scarcity in all world regions"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Groundwater drawdown and degraded soils suggest current food production may not be sustainable indefinitely. Supporters argue the limits are real even if earlier timing was wrong."
   },
   {
     id: "2-6-8",
     question: "Which evidence most directly challenges Malthusian predictions?",
     options: [
+      "The persistence of famine in some world regions",
       "Rising food prices during periods of poor harvest",
       "Falling fertility in countries as they grow wealthier",
-      "The continued growth of global population since 1800",
-      "The persistence of famine in some world regions"
+      "The continued growth of global population since 1800"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Malthus assumed people would always reproduce to the limit of subsistence, but the demographic transition shows fertility falling voluntarily with development. That mechanism was outside his model."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-10",
     question: "A geographer assessing the Malthusian debate today would most defensibly conclude that",
     options: [
-      "Malthus was entirely correct and global famine is imminent",
-      "resource limits are irrelevant given technological progress",
       "population size alone determines environmental outcomes",
-      "consumption patterns matter as much as population numbers"
+      "consumption patterns matter as much as population numbers",
+      "Malthus was entirely correct and global famine is imminent",
+      "resource limits are irrelevant given technological progress"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "A small high-consuming population can exert more environmental pressure than a large low-consuming one. That shifts the question from how many people to how they live."
   }
 ];

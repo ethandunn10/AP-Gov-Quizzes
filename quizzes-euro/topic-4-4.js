@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-1",
     question: "European population growth in the eighteenth century was caused chiefly by",
     options: [
-      "falling mortality from famine and epidemic disease",
       "a sharp rise in birth rates produced by earlier marriage",
       "large-scale immigration from Asia and from the Americas",
-      "government subsidies paid to families for each additional child"
+      "government subsidies paid to families for each additional child",
+      "falling mortality from famine and epidemic disease"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Fewer subsistence crises, the retreat of plague, and better nutrition lowered death rates while birth rates moved little. The resulting imbalance produced sustained growth."
   },
   {
     id: "4-4-2",
     question: "The 'illegitimacy explosion' of the later eighteenth century is generally linked to",
     options: [
-      "the disappearance of wage labor from the European countryside",
-      "greater mobility and wage work loosening community supervision",
       "church campaigns that promoted childbearing outside of marriage",
-      "new laws that encouraged couples to marry at much younger ages"
+      "new laws that encouraged couples to marry at much younger ages",
+      "the disappearance of wage labor from the European countryside",
+      "greater mobility and wage work loosening community supervision"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Young people working away from home escaped the village and parental oversight that had enforced marriage before childbirth. Rates of births outside marriage rose sharply across western Europe."
   },
   {
     id: "4-4-3",
     question: "Which change in family life is associated with the eighteenth century?",
     options: [
-      "A move toward arranging all marriages through village councils",
-      "The replacement of nuclear households by extended multigenerational ones",
       "Growing emphasis on affection between spouses and on nurturing children",
-      "The disappearance of marriage as a recognized legal institution"
+      "The disappearance of marriage as a recognized legal institution",
+      "A move toward arranging all marriages through village councils",
+      "The replacement of nuclear households by extended multigenerational ones"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Historians trace a shift toward companionate marriage and greater attention to childhood among the middling and upper ranks. Household structure in the west remained largely nuclear."
   },
   {
@@ -55,12 +55,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-5",
     question: "Improvements in diet during the eighteenth century came mainly from",
     options: [
-      "the spread of the potato and of maize alongside better grain yields",
-      "the widespread adoption of refrigeration for storing perishable food",
       "government distribution of free grain to rural laboring households",
-      "a shift of most European farmland from crops to livestock pasture"
+      "a shift of most European farmland from crops to livestock pasture",
+      "the spread of the potato and of maize alongside better grain yields",
+      "the widespread adoption of refrigeration for storing perishable food"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "American crops yielded more calories per acre on land unsuited to grain, and rotation systems raised overall output. Refrigeration belongs to the industrial era."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-4-9",
     question: "The condition of the European peasantry in the eighteenth century varied such that",
     options: [
-      "western peasants were generally freer while eastern serfdom persisted",
       "eastern peasants enjoyed greater personal freedom than western ones",
       "serfdom had been abolished across the whole of Europe before 1700",
-      "peasants everywhere held their land in full and unrestricted ownership"
+      "peasants everywhere held their land in full and unrestricted ownership",
+      "western peasants were generally freer while eastern serfdom persisted"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Serfdom had largely disappeared west of the Elbe while remaining entrenched in Prussia, Poland, and Russia. That east-west divergence shaped later revolutionary and reform politics."
   },
   {

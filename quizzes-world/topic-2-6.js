@@ -43,60 +43,60 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-4",
     question: "Which environmental consequence of urbanization is best documented for this period?",
     options: [
+      "Deforestation and soil exhaustion near fast-growing cities",
       "The complete reforestation of Eurasia",
       "The elimination of all agricultural production near urban centers",
-      "The disappearance of long-distance food transport",
-      "Deforestation and soil exhaustion near fast-growing cities"
+      "The disappearance of long-distance food transport"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Growing cities consumed enormous quantities of wood for construction, fuel, and shipbuilding, stripping nearby forests and pushing cultivation onto marginal land. Intensive farming near cities expanded rather than disappeared."
   },
   {
     id: "2-6-5",
     question: "The Mongol role in the transmission of the Black Death illustrates most clearly that",
     options: [
-      "integrating the trade routes could carry pathogens just as well as goods",
       "the Mongols were immune to plague",
       "the plague originated in western Europe",
-      "epidemic disease spreads independently of any human movement at all"
+      "epidemic disease spreads independently of any human movement at all",
+      "integrating the trade routes could carry pathogens just as well as goods"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Pax Mongolica sped travel along the same corridors that moved infected fleas and rodents from Central Asian reservoirs to Black Sea ports and onward. The Mongols suffered from the disease themselves, and its origin lay in inner Eurasia."
   },
   {
     id: "2-6-6",
     question: "The Little Ice Age's onset in the fourteenth century is significant to this period chiefly because cooling",
     options: [
-      "eliminated agriculture across Afro-Eurasia",
-      "shortened growing seasons and caused famines before the plague",
       "made Mongol expansion impossible",
-      "caused the immediate collapse of trade across the whole Indian Ocean"
+      "caused the immediate collapse of trade across the whole Indian Ocean",
+      "eliminated agriculture across Afro-Eurasia",
+      "shortened growing seasons and caused famines before the plague"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Cooler, wetter conditions produced crop failures and the Great Famine in Europe in the 1310s, leaving populations more vulnerable when plague arrived decades later. Agriculture continued, and Mongol expansion peaked in this era."
   },
   {
     id: "2-6-7",
     question: "The spread of cotton cultivation and cotton textile production across Afro-Eurasia in this period most directly required",
     options: [
-      "the prohibition of wool and silk production",
-      "the abandonment of food crops in every region that took up cotton",
       "land, water, and labor shifted toward a commercial crop for market",
-      "the invention of mechanized spinning machinery"
+      "the invention of mechanized spinning machinery",
+      "the prohibition of wool and silk production",
+      "the abandonment of food crops in every region that took up cotton"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Cotton is water- and labor-intensive, so its spread reallocated land and work toward production for market — a real environmental and social cost. Mechanized spinning came with industrialization centuries later, and other textiles continued to be made."
   },
   {
     id: "2-6-8",
     question: "Which of the following best explains why epidemic disease had such severe effects in this period?",
     options: [
-      "Medical knowledge had declined sharply from that of earlier centuries",
-      "Cities had no contact with rural food supplies",
       "People deliberately avoided all sanitation measures",
-      "Growing, urbanizing populations met pathogens carried by trade"
+      "Growing, urbanizing populations met pathogens carried by trade",
+      "Medical knowledge had declined sharply from that of earlier centuries",
+      "Cities had no contact with rural food supplies"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Larger, denser cities linked by busy trade routes gave pathogens both transport and fuel — connectivity plus concentration. Medicine had not regressed; the problem was that no medical tradition of the time could counter plague."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-10",
     question: "A student argues that increased connectivity in this period was 'entirely beneficial.' The strongest counterevidence is",
     options: [
-      "the growth of Timbuktu as a center of learning",
-      "the Black Death travelling the routes that carried goods",
       "the spread of papermaking from China into the cities of the Islamic world",
-      "the diffusion of Champa rice into China"
+      "the diffusion of Champa rice into China",
+      "the growth of Timbuktu as a center of learning",
+      "the Black Death travelling the routes that carried goods"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Plague killed tens of millions and traveled precisely because the routes worked so well — the clearest case that connection carried costs as well as benefits. The other three options are examples of benefits and so support rather than challenge the claim."
   }
 ];

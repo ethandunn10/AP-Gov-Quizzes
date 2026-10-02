@@ -12,8 +12,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.7-2",
     question: "Human-caused disturbances that commonly disrupt ecosystems include:",
-    options: ["Deforestation, pollution, and climate change", "Only naturally occurring seasonal changes", "The normal life cycles of native species", "Undisturbed, pristine wilderness with no human contact"],
-    correctIndex: 0,
+    options: ["Only naturally occurring seasonal changes", "The normal life cycles of native species", "Undisturbed, pristine wilderness with no human contact", "Deforestation, pollution, and climate change"],
+    correctIndex: 3,
     explanation: "Human activities such as deforestation, various forms of pollution, and human-driven climate change are major sources of ecosystem disruption around the world."
   },
   {
@@ -26,8 +26,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.7-4",
     question: "An ecosystem's resilience refers to its ability to:",
-    options: ["Never experience any disturbance at all", "Recover its original state after disturbance", "Permanently collapse after any disturbance", "Prevent all species from ever going extinct"],
-    correctIndex: 1,
+    options: ["Permanently collapse after any disturbance", "Prevent all species from ever going extinct", "Never experience any disturbance at all", "Recover its original state after disturbance"],
+    correctIndex: 3,
     explanation: "Ecological resilience describes how effectively an ecosystem can recover and return toward its prior state or function after experiencing a disturbance."
   },
   {
@@ -40,29 +40,29 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.7-6",
     question: "Eutrophication, often caused by excess nutrient runoff (like fertilizer) into a body of water, typically disrupts an aquatic ecosystem by:",
-    options: ["Increasing oxygen levels for all organisms", "Algal blooms that deplete oxygen", "Having no effect on aquatic organisms", "Only affecting organisms that live on land"],
-    correctIndex: 1,
+    options: ["Having no effect on aquatic organisms", "Only affecting organisms that live on land", "Increasing oxygen levels for all organisms", "Algal blooms that deplete oxygen"],
+    correctIndex: 3,
     explanation: "Excess nutrients can cause algal blooms; when the algae eventually die and decompose, the decomposition process consumes large amounts of dissolved oxygen, often creating oxygen-depleted 'dead zones' that harm fish and other aquatic organisms."
   },
   {
     id: "8.7-7",
     question: "Habitat fragmentation, where a large continuous habitat is broken into smaller, isolated patches, can negatively affect species by:",
-    options: ["Increasing gene flow between populations", "Isolating populations and reducing gene flow", "Having no effect on genetics or survival", "Always increasing the usable habitat area"],
-    correctIndex: 1,
+    options: ["Having no effect on genetics or survival", "Always increasing the usable habitat area", "Increasing gene flow between populations", "Isolating populations and reducing gene flow"],
+    correctIndex: 3,
     explanation: "Habitat fragmentation isolates populations into smaller patches, which can reduce gene flow between them, increase vulnerability to local extinction, and make it more difficult for individuals to access resources, mates, or new territory."
   },
   {
     id: "8.7-8",
     question: "An ecological tipping point refers to a threshold beyond which:",
-    options: ["An ecosystem shows no further change at all", "A small disturbance triggers a large shift", "All disturbances instantly become harmless", "Ecosystems become fully immune to disturbance"],
-    correctIndex: 1,
+    options: ["All disturbances instantly become harmless", "Ecosystems become fully immune to disturbance", "An ecosystem shows no further change at all", "A small disturbance triggers a large shift"],
+    correctIndex: 3,
     explanation: "A tipping point marks a critical threshold where continued stress or disturbance can push an ecosystem into an abrupt, and sometimes difficult to reverse, shift into a substantially different state."
   },
   {
     id: "8.7-9",
     question: "Restoration ecology focuses on:",
-    options: ["Actively damaging ecosystems even further", "Repairing degraded or destroyed ecosystems", "Ignoring damaged ecosystems entirely", "Studying only ecosystems never disturbed"],
-    correctIndex: 1,
+    options: ["Repairing degraded or destroyed ecosystems", "Ignoring damaged ecosystems entirely", "Studying only ecosystems never disturbed", "Actively damaging ecosystems even further"],
+    correctIndex: 0,
     explanation: "Restoration ecology is the scientific practice of repairing damaged or degraded ecosystems, often through actions like replanting native vegetation, reintroducing native species, or removing pollutants and invasive species."
   },
   {

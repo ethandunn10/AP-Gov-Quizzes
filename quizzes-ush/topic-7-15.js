@@ -9,8 +9,8 @@ window.QUIZ_QUESTIONS = [
     id: "7-15-1",
     question: "Compared with World War I mobilization, World War II mobilization",
     options: [
-      "relied less on federal coordination of industry",
-      "was larger and longer, with more extensive rationing, taxation, and workforce change",
+      "relied much less on federal coordination of war industry",
+      "was larger and longer, with more rationing and taxation",
       "avoided any restrictions on civil liberties",
       "excluded women from industrial employment"
     ],
@@ -21,60 +21,60 @@ window.QUIZ_QUESTIONS = [
     id: "7-15-2",
     question: "Compared with the Progressive era, the New Deal",
     options: [
-      "relied more on state and local action",
-      "expanded federal responsibility for economic security in ways Progressives had not attempted",
-      "avoided regulating banking or securities",
-      "opposed collective bargaining"
+      "expanded federal responsibility for economic security",
+      "entirely avoided regulating banking or securities markets",
+      "opposed collective bargaining",
+      "relied more on state and local action"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Progressives regulated business and cleaned up government; the New Deal added social insurance and labor rights. The two share a faith in expert administration, which is the real continuity."
   },
   {
     id: "7-15-3",
     question: "Compared with the debate over the Philippines in 1899, the debate over entering World War II",
     options: [
-      "involved no organized opposition",
-      "again pitted interventionists against those warning of entanglement, but ended with near-unanimity after Pearl Harbor",
       "was settled by the Supreme Court",
-      "concerned only economic questions"
+      "concerned only economic and trade questions at the time",
+      "involved no organized opposition",
+      "again pitted interventionists against isolationists"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Anti-imperialists and America Firsters both invoked the danger of foreign commitments. The attack on Pearl Harbor collapsed that debate in a way no argument had."
   },
   {
     id: "7-15-4",
     question: "Compared with the Great Migration during World War I, Black migration during World War II",
     options: [
+      "resulted in no racial conflict at all in receiving cities",
       "was smaller and confined to the South",
-      "was larger and reached West Coast defense centers as well as northern cities",
-      "was organized by the federal government",
-      "resulted in no racial conflict in receiving cities"
+      "was larger and reached West Coast defense centers too",
+      "was organized by the federal government"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Shipyards in Oakland, Portland, and Los Angeles drew a new stream westward. Housing and job competition produced serious violence in both eras, including Detroit in 1943."
   },
   {
     id: "7-15-5",
     question: "Compared with Hoover's response to the Depression, Roosevelt's",
     options: [
+      "reduced federal spending substantially",
       "rejected all federal involvement",
-      "accepted direct federal relief, employment, and permanent regulatory institutions",
-      "relied entirely on voluntary business cooperation",
-      "reduced federal spending substantially"
+      "accepted direct federal relief, jobs, and permanent regulation",
+      "relied entirely upon voluntary cooperation from private business"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Hoover's RFC shows the difference is one of degree and principle rather than action versus inaction. His refusal of direct relief is the clearest dividing line."
   },
   {
     id: "7-15-6",
     question: "Compared with the 1920s, federal economic policy in the 1930s",
     options: [
-      "cut taxes on high incomes and reduced regulation",
-      "raised taxes on higher incomes and greatly expanded regulation of banking, labor, and agriculture",
-      "abandoned the income tax",
-      "eliminated tariffs entirely"
+      "eliminated tariffs entirely",
+      "cut taxes on the highest incomes and reduced all regulation",
+      "raised taxes on higher incomes and expanded regulation",
+      "abandoned the income tax"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Mellon's program and the New Deal are near mirror images in their treatment of taxation and regulation. That reversal defines the decade's political realignment."
   },
   {
@@ -82,9 +82,9 @@ window.QUIZ_QUESTIONS = [
     question: "Compared with the Red Scare of 1919-1920, the wartime restrictions of 1917-1918",
     options: [
       "targeted only foreign governments",
-      "were rooted in explicit war legislation, while the later scare continued the hunt for radicals after the war ended",
+      "rested on war legislation; the later scare outlasted the war",
       "involved no prosecutions",
-      "were struck down immediately by the Supreme Court"
+      "were struck down almost immediately by the U.S. Supreme Court"
     ],
     correctIndex: 1,
     explanation: "The Espionage and Sedition Acts supplied the legal basis, and Palmer extended that machinery to peacetime deportations. The Court upheld rather than struck down the wartime convictions."
@@ -93,36 +93,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-15-8",
     question: "Compared with the Fourteen Points, the Atlantic Charter",
     options: [
-      "abandoned the idea of self-determination",
-      "restated similar liberal principles, and this time the postwar institutions included the United States",
-      "required immediate American entry into the war",
-      "proposed reparations against Germany"
+      "restated similar principles, and this time the U.S. joined",
+      "required an immediate American entry into the European war",
+      "proposed reparations against Germany",
+      "abandoned the idea of self-determination"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Wilson's program failed at home; Roosevelt's framing carried into the UN and Bretton Woods. The lesson of 1919 shaped how 1945 was handled."
   },
   {
     id: "7-15-9",
     question: "Compared with women's wartime employment in World War I, women's work in World War II",
     options: [
-      "was smaller in scale and shorter in duration",
-      "involved more married women and more industrial jobs, though most positions were lost after the war",
       "resulted in permanent equal pay legislation",
-      "was restricted to clerical work"
+      "was restricted to clerical work",
+      "was much smaller in scale and far shorter in duration",
+      "involved more married women and more industrial jobs"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The scale and the inclusion of married women marked a real change in expectations even as the jobs disappeared. Equal pay legislation did not arrive until 1963."
   },
   {
     id: "7-15-10",
     question: "A historian comparing 1890 and 1945 would most likely emphasize that the United States had moved from",
     options: [
-      "a limited federal state and regional power to an activist federal state and global superpower",
+      "an aggressively interventionist foreign policy to strict neutrality",
+      "a limited federal state and regional power to a global superpower",
       "a global empire to a continental republic",
-      "an industrial economy to an agricultural one",
-      "an interventionist foreign policy to strict neutrality"
+      "an industrial economy to an agricultural one"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Both transformations — in the size of government and in world position — happened across this single period. Each was driven by the same sequence of crises: war, depression, war."
   }
 ];

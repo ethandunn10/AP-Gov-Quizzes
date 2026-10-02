@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-1",
     question: "In any electrochemical cell, oxidation occurs at the",
     options: [
+      "external circuit",
       "cathode",
       "anode",
-      "salt bridge",
-      "external circuit"
+      "salt bridge"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "This holds for both galvanic and electrolytic cells. Only the sign assigned to the electrodes differs between the two."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-3",
     question: "The purpose of a salt bridge is to",
     options: [
-      "carry electrons between half-cells",
-      "maintain charge balance by allowing ion migration between half-cells",
       "supply reactants",
-      "increase the voltage"
+      "increase the voltage",
+      "carry all of the electrons between the two half-cells",
+      "maintain charge balance by allowing ion migration"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Without it, charge buildup would halt the reaction almost immediately. Electrons travel through the wire, not the bridge."
   },
   {
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-5",
     question: "An electrolytic cell differs from a galvanic cell in that it",
     options: [
-      "produces electricity from a spontaneous reaction",
-      "uses an external power source to drive a nonspontaneous reaction",
       "has no electrodes",
-      "requires no electrolyte"
+      "requires no electrolyte",
+      "produces electricity from an entirely spontaneous reaction",
+      "uses external power to drive a nonspontaneous reaction"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Electroplating and aluminum production are industrial examples. The applied voltage must exceed the magnitude of the negative E°cell."
   },
   {
     id: "9-8-6",
     question: "In the cell notation Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s), the species being reduced is",
     options: [
-      "Zn",
-      "Zn²⁺",
       "Cu²⁺",
-      "Cu"
+      "Cu",
+      "Zn",
+      "Zn²⁺"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "The right side of the double line is the cathode, where reduction occurs. Zinc metal is oxidized at the anode on the left."
   },
   {
@@ -82,7 +82,7 @@ window.QUIZ_QUESTIONS = [
       "from cathode to anode through the wire",
       "from anode to cathode through the external circuit",
       "through the salt bridge",
-      "from the solution to the electrode only"
+      "from the solution over to the electrodes only, never out"
     ],
     correctIndex: 1,
     explanation: "Oxidation releases electrons at the anode, and they travel to the cathode where reduction consumes them. Anions in the salt bridge move toward the anode."
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-8",
     question: "During operation of a Zn/Cu galvanic cell, the mass of the zinc electrode",
     options: [
+      "doubles",
       "increases",
       "decreases as zinc is oxidized to Zn²⁺",
-      "stays the same",
-      "doubles"
+      "stays exactly the same the entire time"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "The copper cathode gains mass as Cu²⁺ plates out. Tracking electrode mass is a common way to verify which half-reaction is occurring."
   },
   {
     id: "9-8-9",
     question: "In electroplating silver onto a spoon, the spoon must be connected as the",
     options: [
-      "anode, where oxidation occurs",
       "cathode, where Ag⁺ is reduced onto its surface",
       "salt bridge",
-      "power source"
+      "power source",
+      "anode, where the oxidation half-reaction occurs"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Deposition requires reduction, which occurs at the cathode. A silver anode dissolves to replenish the Ag⁺ in solution."
   },
   {
     id: "9-8-10",
     question: "A galvanic cell stops producing current when",
     options: [
-      "the salt bridge is removed or the reaction reaches equilibrium",
-      "the temperature changes",
-      "the electrodes touch the solution",
-      "the wire is connected"
+      "the electrodes merely touch the surface of the solution",
+      "the wire is connected",
+      "the salt bridge is removed or equilibrium is reached",
+      "the temperature changes"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "At equilibrium E becomes zero and no further work can be extracted. This is what it means for a battery to be dead."
   }
 ];

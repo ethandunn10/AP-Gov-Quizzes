@@ -7,36 +7,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-1",
     question: "Women gained the vote in most European states",
     options: [
-      "in the aftermath of the two world wars",
       "only after the year 1990 in every European country",
       "simultaneously across the continent in the year 1900",
-      "during the nineteenth century before any war had occurred"
+      "during the nineteenth century before any war had occurred",
+      "in the aftermath of the two world wars"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Britain and Germany extended suffrage after the First World War and France and Italy after the Second, reflecting wartime contributions. Switzerland did not grant it federally until 1971."
   },
   {
     id: "9-8-2",
     question: "Simone de Beauvoir's The Second Sex argued that",
     options: [
-      "women had already achieved complete equality in postwar France",
-      "women are made rather than born, through social construction",
       "feminism should confine itself to securing voting rights alone",
-      "biological difference fully determines women's social position"
+      "biological difference fully determines women's social position",
+      "women had already achieved complete equality in postwar France",
+      "women are made rather than born, through social construction"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Her claim that femininity is produced by social conditioning rather than nature underpinned much later feminist theory. The book appeared in 1949 and became foundational for the movement."
   },
   {
     id: "9-8-3",
     question: "Second-wave feminism from the 1960s focused on",
     options: [
-      "issues confined entirely to a single European country",
-      "securing the vote, which remained unwon across Europe",
       "workplace equality, reproductive rights, and family law",
-      "restricting women's participation in paid employment"
+      "restricting women's participation in paid employment",
+      "issues confined entirely to a single European country",
+      "securing the vote, which remained unwon across Europe"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "With suffrage largely achieved, attention shifted to equal pay, discrimination, contraception, abortion, and divorce law. The movement was transnational with different national priorities."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "9-8-6",
     question: "Feminism in eastern Europe under communism differed from the west because states there",
     options: [
+      "prohibited women from taking any form of paid employment",
       "granted women full equality in both public and domestic life",
       "proclaimed equality and high employment, but a double burden",
-      "permitted independent feminist organizations to campaign freely",
-      "prohibited women from taking any form of paid employment"
+      "permitted independent feminist organizations to campaign freely"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Communist states legislated equality and drew women into the workforce, but the 'double burden' of job and household persisted and independent organizing was forbidden. Official equality masked continued inequality at home."
   },
   {
     id: "9-8-7",
     question: "Abortion law reform in western Europe during the 1970s",
     options: [
+      "resulted in prohibition of the procedure across the continent",
       "occurred without any organized campaigning by women's groups",
       "produced uniform legislation adopted simultaneously in all states",
-      "proceeded unevenly amid intense political and religious conflict",
-      "resulted in prohibition of the procedure across the continent"
+      "proceeded unevenly amid intense political and religious conflict"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Britain liberalized in 1967 and France in 1975, while Ireland and Poland maintained restrictions for decades. Catholic teaching made the issue especially contested in some countries."
   },
   {
     id: "9-8-8",
     question: "Feminist movements affected European political institutions by",
     options: [
-      "achieving equal numbers of men and women in every parliament",
       "having no measurable effect on the composition of legislatures",
       "leading women to withdraw from formal political participation",
-      "raising women's representation while parity went unachieved"
+      "raising women's representation while parity went unachieved",
+      "achieving equal numbers of men and women in every parliament"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Quotas and changing party practice raised women's share of seats substantially, especially in Scandinavia. No European legislature achieved full parity, and progress varied widely."
   },
   {
     id: "9-8-9",
     question: "Which factor most shaped the timing of feminist advances in Europe?",
     options: [
-      "Economic change, education, and the chance to organize",
       "The refusal of women to participate in any political movement",
       "The complete absence of religious institutions in public life",
-      "Uniform European legislation imposed on all member states"
+      "Uniform European legislation imposed on all member states",
+      "Economic change, education, and the chance to organize"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Expanding women's education and wage work created both grievance and capacity, and open political systems allowed campaigning. Religious and party structures shaped how far and how fast change went."
   },
   {
     id: "9-8-10",
     question: "A historian assessing twentieth-century European feminism would conclude that it",
     options: [
-      "was confined to Britain and had no parallel movements elsewhere",
-      "achieved formal legal equality while substantive inequality persisted",
       "failed to change any law affecting women's status in Europe",
-      "eliminated all differences in pay, work, and domestic responsibility"
+      "eliminated all differences in pay, work, and domestic responsibility",
+      "was confined to Britain and had no parallel movements elsewhere",
+      "achieved formal legal equality while substantive inequality persisted"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Suffrage, property, employment, and family law were transformed, yet pay gaps and unequal domestic labor endure. That gap between formal and substantive equality frames current debate."
   }
 ];

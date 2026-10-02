@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-13-1",
     question: "Globalization in the late twentieth century is best described as",
     options: [
+      "the withdrawal of states from all international economic activity",
       "the return of national economies to complete self-sufficiency",
       "a process confined entirely to the European continent",
-      "the deepening integration of markets and communication",
-      "the withdrawal of states from all international economic activity"
+      "the deepening integration of markets and communication"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Falling transport and communication costs plus liberalized trade tied production and finance together across continents. Europe was one participant in a worldwide process."
   },
   {
     id: "9-13-2",
     question: "European manufacturing was affected by globalization through",
     options: [
-      "the complete elimination of European industrial output",
       "a sharp rise in European factory employment after 1980",
       "the closure of European markets to all imported goods",
-      "the relocation of production toward lower-cost countries"
+      "the relocation of production toward lower-cost countries",
+      "the complete elimination of European industrial output"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Firms moved assembly to lower-wage economies while keeping design and high-value work in Europe. Output often held up even as industrial employment fell."
   },
   {
@@ -43,36 +43,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-13-4",
     question: "The 2008 financial crisis affected Europe by",
     options: [
-      "confirming that financial markets require no regulation at all",
-      "exposing banking weakness and triggering the eurozone debt crisis",
       "leaving European banks and economies entirely unaffected",
-      "producing immediate and sustained growth across the continent"
+      "producing immediate and sustained growth across the continent",
+      "confirming that financial markets require no regulation at all",
+      "exposing banking weakness and triggering the eurozone debt crisis"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Integrated finance transmitted the American mortgage collapse to European banks, and sovereign debt problems followed in Greece and southern Europe. Austerity politics dominated the following decade."
   },
   {
     id: "9-13-5",
     question: "Critics of globalization in Europe have argued that it",
     options: [
+      "eliminated all economic inequality within European states",
       "prevented any European state from trading internationally",
       "produced identical outcomes for every social group in Europe",
-      "distributes gains unevenly and weakens democratic control",
-      "eliminated all economic inequality within European states"
+      "distributes gains unevenly and weakens democratic control"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Deindustrialized regions saw wages stagnate while capital and skilled workers gained, and treaty obligations constrained national policy. Those arguments fed both left and right critiques."
   },
   {
     id: "9-13-6",
     question: "Global cultural exchange has affected Europe by",
     options: [
-      "leaving European culture entirely unchanged since 1945",
       "confining cultural influence to flows out of Europe only",
       "eliminating all distinctively national cultural practices",
-      "producing hybrid forms while prompting concern over identity"
+      "producing hybrid forms while prompting concern over identity",
+      "leaving European culture entirely unchanged since 1945"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Food, music, and film show sustained mixing, while French cultural exception policies illustrate the anxiety that accompanied it. Influence has flowed into Europe as well as outward."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-13-8",
     question: "European states' economic sovereignty under globalization has been",
     options: [
-      "unaffected by any international economic development",
-      "constrained by capital mobility and international agreements",
       "expanded, giving governments greater control over their economies",
-      "eliminated entirely, with no national economic policy remaining"
+      "eliminated entirely, with no national economic policy remaining",
+      "unaffected by any international economic development",
+      "constrained by capital mobility and international agreements"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Capital that can relocate limits what any government can tax or require, and EU and trade rules formally constrain policy. States retain real authority but exercise it under those constraints."
   },
   {
     id: "9-13-9",
     question: "Which development best illustrates Europe's integration into global supply chains?",
     options: [
-      "The production of goods entirely within single national borders",
-      "The elimination of European participation in international trade",
       "One product built from components made in many countries",
-      "The refusal of European firms to invest outside Europe"
+      "The refusal of European firms to invest outside Europe",
+      "The production of goods entirely within single national borders",
+      "The elimination of European participation in international trade"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "A car or phone assembled in Europe typically contains parts designed and made across several continents. That dispersal depends on cheap shipping and instant coordination."
   },
   {
     id: "9-13-10",
     question: "A historian assessing globalization's effect on Europe would conclude that it",
     options: [
+      "raised aggregate prosperity while widening internal divisions",
       "left European economies and societies fundamentally unchanged",
       "benefited every European region and social group equally",
-      "was resisted successfully by all European governments",
-      "raised aggregate prosperity while widening internal divisions"
+      "was resisted successfully by all European governments"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Europe grew wealthier overall while deindustrialized regions fell behind, which shaped the politics of the last two decades. European governments largely promoted integration rather than resisting it."
   }
 ];

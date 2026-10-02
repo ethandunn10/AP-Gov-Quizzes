@@ -7,20 +7,20 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-1",
     question: "The GI Bill (1944) contributed to postwar prosperity by",
     options: [
-      "providing veterans with college tuition, job training, and low-interest home and business loans",
-      "guaranteeing federal jobs to all veterans",
-      "granting veterans western farmland",
-      "exempting veterans from income taxes"
+      "exempting veterans from income taxes",
+      "college tuition, job training, and low-interest home loans",
+      "guaranteeing permanent federal jobs to all returning veterans",
+      "granting veterans western farmland"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "It expanded the college-educated workforce and fueled homeownership. Black veterans often could not use the benefits fully because local administration and segregated institutions blocked them."
   },
   {
     id: "8-4-2",
     question: "Levittown and similar developments represented",
     options: [
-      "publicly owned housing for low-income families",
-      "mass-produced affordable suburban housing, sold with racially restrictive practices",
+      "publicly owned housing built for low-income families in cities",
+      "mass-produced suburban housing sold with racial restrictions",
       "urban apartment complexes",
       "cooperative housing owned by unions"
     ],
@@ -31,8 +31,8 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-3",
     question: "The Interstate Highway Act of 1956 was justified largely as",
     options: [
-      "a public works program to reduce unemployment",
-      "a national defense measure, while in practice accelerating suburbanization and trucking",
+      "a large public works program to reduce national unemployment",
+      "a national defense measure that accelerated suburbanization",
       "a means of funding urban mass transit",
       "a program to preserve rural farmland"
     ],
@@ -43,8 +43,8 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-4",
     question: "Organized labor in the 1950s was characterized by",
     options: [
-      "declining membership and defeat in major strikes",
-      "high membership, pattern bargaining, and contracts trading wage and benefit gains for labor peace",
+      "sharply declining membership and defeat in all major strikes",
+      "high membership and contracts trading gains for labor peace",
       "the elimination of collective bargaining rights",
       "the merger of all unions into the CIO alone"
     ],
@@ -55,20 +55,20 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-5",
     question: "The Taft-Hartley Act (1947) restricted unions by",
     options: [
+      "abolishing the entire National Labor Relations Board system",
+      "requiring employers to recognize any union",
       "banning strikes entirely",
-      "outlawing closed shops, permitting state right-to-work laws, and allowing injunctions in national emergencies",
-      "abolishing the National Labor Relations Board",
-      "requiring employers to recognize any union"
+      "outlawing closed shops and permitting right-to-work laws"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Passed over Truman's veto, it checked the Wagner Act's protections and helped limit union growth in the South and West. Labor called it the slave labor act."
   },
   {
     id: "8-4-6",
     question: "The baby boom of 1946-1964 affected the economy by",
     options: [
-      "reducing demand for housing and schools",
-      "driving demand for housing, schools, consumer goods, and later youth-oriented markets",
+      "sharply reducing demand for new housing and for new schools",
+      "driving demand for housing, schools, and consumer goods",
       "shrinking the labor force permanently",
       "ending suburban growth"
     ],
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-8",
     question: "Nixon's decision in 1971 to end dollar convertibility to gold",
     options: [
-      "restored the gold standard",
-      "effectively ended the Bretton Woods fixed exchange rate system",
-      "eliminated inflation",
-      "created the euro"
+      "created the euro",
+      "restored the classical international gold standard system",
+      "effectively ended the Bretton Woods exchange rate system",
+      "eliminated inflation"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Deficits from Vietnam and domestic spending had made the peg unsustainable. Floating exchange rates have governed international finance since."
   },
   {
     id: "8-4-9",
     question: "Deindustrialization in the 1970s meant",
     options: [
-      "the growth of manufacturing employment in the Northeast",
-      "factory closures in the Rust Belt as production moved to the Sun Belt and overseas",
-      "the end of American automobile production",
-      "a federal program to reduce industrial output"
+      "a federal program to reduce industrial output",
+      "the rapid growth of manufacturing employment in the Northeast",
+      "factory closures as production moved south and overseas",
+      "the end of American automobile production"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Steel and auto towns lost their economic base, and union membership fell with it. This is the economic backdrop to the political realignment of the late 1970s."
   },
   {
     id: "8-4-10",
     question: "Despite postwar prosperity, poverty persisted, as documented in",
     options: [
+      "Ralph Nader's Unsafe at Any Speed",
       "Michael Harrington's The Other America (1962)",
-      "Betty Friedan's The Feminine Mystique",
-      "Rachel Carson's Silent Spring",
-      "Ralph Nader's Unsafe at Any Speed"
+      "Betty Friedan's book The Feminine Mystique (1963)",
+      "Rachel Carson's Silent Spring"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Harrington estimated 40-50 million poor Americans invisible to affluent readers, influencing the War on Poverty. The other three books were equally influential on different issues."
   }
 ];

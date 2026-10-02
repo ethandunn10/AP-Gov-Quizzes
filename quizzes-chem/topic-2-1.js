@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "2-1-1",
     question: "A bond between two atoms with an electronegativity difference of 2.1 is best described as",
     options: [
-      "nonpolar covalent",
-      "polar covalent",
       "ionic",
-      "metallic"
+      "metallic",
+      "nonpolar covalent",
+      "polar covalent"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Differences above roughly 1.7-2.0 indicate essentially complete electron transfer. These cutoffs are guidelines on a continuum rather than sharp boundaries."
   },
   {
     id: "2-1-2",
     question: "Which compound contains a nonpolar covalent bond?",
     options: [
-      "HCl",
       "Cl₂",
       "NaCl",
-      "H₂O"
+      "H₂O",
+      "HCl"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Identical atoms share electrons equally, so the difference is zero. HCl and H₂O are polar covalent and NaCl is ionic."
   },
   {
     id: "2-1-3",
     question: "Metallic bonding is best described as",
     options: [
-      "electrons transferred completely from one atom to another",
-      "cations in a sea of delocalized valence electrons",
       "electrons shared between two specific atoms",
-      "attraction between temporary dipoles"
+      "attraction between temporary dipoles",
+      "electrons transferred completely from one atom to another",
+      "cations in a sea of delocalized valence electrons"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Delocalization explains conductivity, malleability, and luster all at once. Localized shared pairs would make metals brittle insulators."
   },
   {
     id: "2-1-4",
     question: "Which property best indicates that a solid is ionic rather than molecular?",
     options: [
+      "High solubility in a wide range of nonpolar solvents",
       "Low melting point",
       "High melting point and conductivity when molten",
-      "Softness and flexibility",
-      "Solubility in nonpolar solvents"
+      "Softness and flexibility"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Breaking a three-dimensional lattice of full charges requires a great deal of energy, and the freed ions carry current. Molecular solids melt low because only intermolecular forces must be overcome."
   },
   {
@@ -58,7 +58,7 @@ window.QUIZ_QUESTIONS = [
       "shared equally between H and F",
       "shifted toward F because it is more electronegative",
       "transferred completely to H",
-      "delocalized over both atoms equally"
+      "delocalized evenly over both atoms within the molecule"
     ],
     correctIndex: 1,
     explanation: "Fluorine's high electronegativity creates a partial negative charge on F and partial positive on H. This polarity is why HF hydrogen bonds strongly."
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-1-6",
     question: "Which statement about bond type is most accurate?",
     options: [
+      "Metallic bonds occur only in pure elements",
       "Bonds are strictly either ionic or covalent",
-      "Bond character lies on a continuum from nonpolar covalent through polar covalent to ionic",
-      "All bonds between different elements are ionic",
-      "Metallic bonds occur only in pure elements"
+      "Bond character forms a continuum from covalent to ionic",
+      "All bonds formed between two different elements are ionic"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Even NaCl retains some covalent character and HF some ionic character. Alloys show that metallic bonding is not limited to pure elements."
   },
   {
@@ -80,8 +80,8 @@ window.QUIZ_QUESTIONS = [
     question: "Why are metals malleable while ionic solids are brittle?",
     options: [
       "Metal atoms are larger",
-      "Metal cations can slide past one another within the electron sea, while shifting an ionic lattice brings like charges together",
-      "Ionic solids contain no charged particles",
+      "Metal cations slide in the electron sea; ionic layers repel",
+      "Ionic solids contain no charged particles of any kind at all",
       "Metals have stronger bonds"
     ],
     correctIndex: 1,
@@ -93,7 +93,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "an ionic compound",
       "a metallic solid solution of copper and zinc",
-      "a covalent network solid",
+      "a covalent network solid much like diamond is",
       "a molecular compound"
     ],
     correctIndex: 1,
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-1-10",
     question: "Two solids melt at 801 °C and −57 °C. The most reasonable conclusion is that",
     options: [
-      "both are ionic",
       "the first is ionic and the second is molecular",
       "the first is molecular and the second is ionic",
-      "both are metallic"
+      "both are metallic",
+      "both are ionic"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Full ionic charges in a lattice require far more thermal energy to separate than weak intermolecular attractions. Melting point is one of the most reliable clues to bonding type."
   }
 ];

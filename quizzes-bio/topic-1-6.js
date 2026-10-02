@@ -5,36 +5,36 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.6-1",
     question: "The monomer unit of a nucleic acid is called a:",
-    options: ["Amino acid", "Nucleotide", "Monosaccharide", "Fatty acid"],
-    correctIndex: 1,
+    options: ["Monosaccharide", "Fatty acid", "Amino acid", "Nucleotide"],
+    correctIndex: 3,
     explanation: "Nucleotides, each composed of a sugar, phosphate group, and nitrogenous base, are the repeating monomers that link to form DNA and RNA polymers."
   },
   {
     id: "1.6-2",
     question: "A single nucleotide is composed of which three components?",
-    options: ["An amino acid, a phosphate, a fatty acid", "A five-carbon sugar, phosphate, and base", "A glucose, a base, and a small protein", "Two sugars joined to one phosphate"],
-    correctIndex: 1,
+    options: ["A five-carbon sugar, phosphate, and base", "A glucose, a base, and a small protein", "Two sugars joined to one phosphate", "An amino acid, a phosphate, a fatty acid"],
+    correctIndex: 0,
     explanation: "Every nucleotide has a pentose (five-carbon) sugar, a phosphate group, and one of several nitrogenous bases."
   },
   {
     id: "1.6-3",
     question: "DNA differs chemically from RNA in that DNA contains:",
-    options: ["Ribose sugar along with uracil", "Deoxyribose sugar and thymine", "No phosphate in its backbone", "Purine bases and nothing else"],
-    correctIndex: 1,
+    options: ["Purine bases and nothing else", "Ribose sugar along with uracil", "Deoxyribose sugar and thymine", "No phosphate in its backbone"],
+    correctIndex: 2,
     explanation: "DNA's sugar is deoxyribose (lacking an oxygen RNA's ribose has), and DNA uses thymine where RNA uses uracil."
   },
   {
     id: "1.6-4",
     question: "In the double helix structure of DNA, adenine pairs with thymine via:",
-    options: ["Three hydrogen bonds", "Two hydrogen bonds", "A covalent bond", "No bond; they are simply adjacent"],
-    correctIndex: 1,
+    options: ["No bond; they are simply adjacent", "Three hydrogen bonds", "Two hydrogen bonds", "A covalent bond"],
+    correctIndex: 2,
     explanation: "Adenine and thymine form two hydrogen bonds between complementary strands, while guanine and cytosine form three hydrogen bonds."
   },
   {
     id: "1.6-5",
     question: "The two strands of a DNA double helix run in opposite directions, a property described as:",
-    options: ["Antiparallel", "Homologous", "Semiconservative", "Isomeric"],
-    correctIndex: 0,
+    options: ["Homologous", "Semiconservative", "Isomeric", "Antiparallel"],
+    correctIndex: 3,
     explanation: "The two DNA strands are antiparallel, meaning one strand runs 5' to 3' while the complementary strand runs 3' to 5'."
   },
   {
@@ -47,8 +47,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "1.6-7",
     question: "The sugar-phosphate backbone of a DNA strand is held together by which type of bond?",
-    options: ["Hydrogen bonding", "Phosphodiester bonds", "Peptide linkages", "Ionic attractions"],
-    correctIndex: 1,
+    options: ["Peptide linkages", "Ionic attractions", "Hydrogen bonding", "Phosphodiester bonds"],
+    correctIndex: 3,
     explanation: "Adjacent nucleotides in a strand are covalently linked by phosphodiester bonds between the phosphate group of one nucleotide and the sugar of the next."
   },
   {

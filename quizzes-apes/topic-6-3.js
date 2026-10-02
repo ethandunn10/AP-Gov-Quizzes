@@ -19,48 +19,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-2",
     question: "Petroleum is most heavily used in the",
     options: [
-      "residential heating sector across northern Europe",
-      "industrial sector for making steel and cement",
       "electricity generation sector of most economies",
-      "transportation sector as gasoline and diesel"
+      "transportation sector as gasoline and diesel",
+      "residential heating sector across northern Europe",
+      "industrial sector for making steel and cement"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Liquid fuels have the energy density transportation requires. This is why decarbonizing transport is harder than decarbonizing electricity."
   },
   {
     id: "6-3-3",
     question: "Natural gas produces less carbon dioxide per unit energy than coal because it",
     options: [
-      "has a higher ratio of hydrogen to carbon",
       "burns at a substantially lower temperature",
       "is extracted from much shallower rock formations",
-      "contains no carbon atoms in its chemical structure"
+      "contains no carbon atoms in its chemical structure",
+      "has a higher ratio of hydrogen to carbon"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Methane is CH₄, so more energy comes from hydrogen oxidation. Leaked methane, however, is itself a potent greenhouse gas."
   },
   {
     id: "6-3-4",
     question: "Coal is ranked by grade, with anthracite distinguished by its",
     options: [
+      "formation over a much shorter geological period",
       "very low carbon content and high moisture level",
       "high carbon content and high energy density",
-      "tendency to produce the most sulfur emissions",
-      "formation over a much shorter geological period"
+      "tendency to produce the most sulfur emissions"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Anthracite is the highest grade, followed by bituminous, subbituminous, and lignite. Higher grades burn cleaner and yield more energy per ton."
   },
   {
     id: "6-3-5",
     question: "Crude oil must be refined because it",
     options: [
-      "must be chemically converted into solid coal first",
       "contains no usable hydrocarbons in its raw state",
       "is a mixture separated into distinct usable products",
-      "would otherwise release no energy when it is burned"
+      "would otherwise release no energy when it is burned",
+      "must be chemically converted into solid coal first"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Fractional distillation separates components by boiling point into gasoline, diesel, and other products. Each fraction serves a different application."
   },
   {
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-8",
     question: "Tar sands and oil shale are considered unconventional fossil fuels because they",
     options: [
-      "contain no hydrocarbons that can be used as fuel",
       "require intensive processing to yield usable fuel",
       "are found only beneath deep ocean sediments",
-      "produce fewer emissions than any conventional oil"
+      "produce fewer emissions than any conventional oil",
+      "contain no hydrocarbons that can be used as fuel"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Extraction and upgrading consume large amounts of energy and water. Their lifecycle emissions substantially exceed those of conventional crude."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-3-10",
     question: "Natural gas is sometimes described as a bridge fuel because it",
     options: [
-      "can be produced from renewable sources indefinitely",
-      "requires no pipeline or distribution infrastructure",
       "produces absolutely no greenhouse gas emissions",
-      "emits less carbon than coal while renewables scale"
+      "emits less carbon than coal while renewables scale",
+      "can be produced from renewable sources indefinitely",
+      "requires no pipeline or distribution infrastructure"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Switching from coal to gas cuts power sector emissions substantially. Critics argue it locks in infrastructure and that methane leaks erode the benefit."
   }
 ];

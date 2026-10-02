@@ -31,24 +31,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-3",
     question: "Women's labor force participation tends to rise with development because",
     options: [
-      "service sector growth creates jobs outside the household",
       "legal restrictions on female employment become stricter",
       "fertility rates increase as national incomes grow",
-      "manual agricultural work expands in developed economies"
+      "manual agricultural work expands in developed economies",
+      "service sector growth creates jobs outside the household"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Expanding office, retail, health, and education employment draws women into paid work. Falling fertility and rising education reinforce the shift."
   },
   {
     id: "7-4-4",
     question: "The term double burden as applied to working women refers to",
     options: [
-      "holding two separate jobs to earn a sufficient income",
-      "combining paid employment with unpaid household labor",
       "facing both income and property taxation on earnings",
-      "working in industries with unusually hazardous conditions"
+      "working in industries with unusually hazardous conditions",
+      "holding two separate jobs to earn a sufficient income",
+      "combining paid employment with unpaid household labor"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Paid work rarely displaces the domestic and caregiving labor still expected of women. Time-use surveys document the gap consistently across countries."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-7",
     question: "Gender gaps in land ownership affect development because land title determines",
     options: [
+      "which crops a region's soil and climate can support",
       "access to credit, investment incentives, and security",
       "the distance a household lives from the nearest market",
-      "the international price a harvested crop will command",
-      "which crops a region's soil and climate can support"
+      "the international price a harvested crop will command"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Without title, women cannot use land as collateral or safely invest in improving it. Reforming inheritance and titling law is a standard development intervention."
   },
   {
     id: "7-4-8",
     question: "Income controlled by women is significant to development because it is",
     options: [
-      "typically saved rather than spent on any goods",
-      "spent disproportionately on food, health, and schooling",
       "taxed at substantially lower rates in most countries",
-      "excluded from national income accounting measures"
+      "excluded from national income accounting measures",
+      "typically saved rather than spent on any goods",
+      "spent disproportionately on food, health, and schooling"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Household spending patterns shift toward children's wellbeing when women control resources. This multiplier is why many programs target women directly."
   },
   {
     id: "7-4-9",
     question: "Political empowerment of women is measured in development indices mainly through",
     options: [
-      "the age at which women gain full legal voting rights",
-      "the total number of women eligible to cast a vote",
       "the share of parliamentary seats women actually hold",
-      "the number of women's organizations operating nationally"
+      "the number of women's organizations operating nationally",
+      "the age at which women gain full legal voting rights",
+      "the total number of women eligible to cast a vote"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Legislative representation is a comparable, measurable proxy for influence over policy. Quota systems have raised these shares substantially in several countries."
   },
   {

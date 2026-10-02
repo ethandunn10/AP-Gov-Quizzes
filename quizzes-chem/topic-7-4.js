@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-1",
     question: "At equilibrium, a 1.00 L vessel contains 0.20 mol A, 0.30 mol B, and 0.60 mol C for A + B ⇌ C. The value of K is",
     options: [
-      "10.",
-      "0.10",
       "1.1",
-      "3.0"
+      "3.0",
+      "10.",
+      "0.10"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "K = 0.60/[(0.20)(0.30)] = 0.60/0.060 = 10. In a 1.00 L container, moles and molarity are numerically identical."
   },
   {
     id: "7-4-2",
     question: "An ICE table is used to",
     options: [
-      "track initial, change, and equilibrium concentrations",
-      "measure temperature",
       "calculate enthalpy",
-      "determine reaction rate"
+      "determine the overall rate of the given reaction",
+      "track initial, change, and equilibrium amounts",
+      "measure temperature"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Changes are related through the stoichiometric coefficients. Setting up the table correctly is most of the work in these problems."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-4",
     question: "In an ICE table, the change row entries are always",
     options: [
-      "equal for all species",
-      "in the ratio of the stoichiometric coefficients, negative for reactants and positive for products",
       "positive for all species",
-      "zero"
+      "zero",
+      "exactly equal for every single one of the species involved",
+      "in the ratio of coefficients, negative for reactants"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "This is what ties the unknowns together into one variable x. Signs distinguish what is consumed from what is formed."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-7",
     question: "If K is calculated as a very large number, this indicates that at equilibrium",
     options: [
+      "the reaction is slow",
       "reactants predominate",
       "products predominate",
-      "concentrations are equal",
-      "the reaction is slow"
+      "concentrations are equal"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "A large numerator relative to denominator means product-favored. Speed is a separate, kinetic question."
   },
   {
@@ -92,9 +92,9 @@ window.QUIZ_QUESTIONS = [
     question: "A student calculates K using initial rather than equilibrium concentrations. The result will",
     options: [
       "be correct",
-      "be incorrect, since K is defined only at equilibrium",
+      "be incorrect, since K holds only at equilibrium",
       "equal 1",
-      "be the reciprocal of K"
+      "be exactly the reciprocal of the true value of K"
     ],
     correctIndex: 1,
     explanation: "That calculation gives Q at the starting instant, not K. Q and K coincide only at equilibrium."
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-9",
     question: "Two students start the same reaction with different initial amounts at the same temperature. Their calculated K values should be",
     options: [
+      "zero",
       "different",
       "the same within experimental error",
-      "reciprocals of each other",
-      "zero"
+      "the exact reciprocals of each other"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "K depends only on temperature for a given reaction. This independence is a good check on experimental work."
   },
   {
     id: "7-4-10",
     question: "When setting up an ICE table for a gas-phase reaction, it is acceptable to use partial pressures instead of concentrations provided that",
     options: [
+      "all of the species present are solids",
+      "the volume is 1 L",
       "the temperature is 0 K",
-      "the equilibrium constant used is Kp",
-      "all species are solids",
-      "the volume is 1 L"
+      "the equilibrium constant used is Kp"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Kp and Kc generally differ in value, so they cannot be mixed. Consistency between the table's units and the constant is essential."
   }
 ];

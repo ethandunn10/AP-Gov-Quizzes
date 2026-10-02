@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-1",
     question: "Under normal conditions in the Pacific, trade winds push warm surface water toward",
     options: [
+      "the northern Pacific near the Aleutian Islands",
       "the central Pacific directly along the equator",
       "the eastern Pacific along the South American coast",
-      "the western Pacific near Indonesia and Australia",
-      "the northern Pacific near the Aleutian Islands"
+      "the western Pacific near Indonesia and Australia"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Easterly trade winds pile warm water in the west, allowing cold upwelling in the east. This east-west temperature contrast is the baseline state."
   },
   {
     id: "4-9-2",
     question: "During an El Niño event, the trade winds",
     options: [
-      "shift entirely into the Atlantic Ocean basin",
       "stop blowing across every ocean on the planet",
       "strengthen, intensifying upwelling off South America",
-      "weaken or reverse, allowing warm water to move east"
+      "weaken or reverse, allowing warm water to move east",
+      "shift entirely into the Atlantic Ocean basin"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Weakened winds let the warm pool slosh eastward across the Pacific. This suppresses the cold upwelling that normally occurs off Peru."
   },
   {
     id: "4-9-3",
     question: "El Niño harms Peruvian fisheries because warm surface water",
     options: [
-      "suppresses upwelling, cutting off the nutrient supply",
-      "raises oxygen levels beyond what fish can tolerate",
       "causes fish to reproduce far more rapidly than usual",
-      "increases upwelling of nutrient rich deep water"
+      "increases upwelling of nutrient rich deep water",
+      "suppresses upwelling, cutting off the nutrient supply",
+      "raises oxygen levels beyond what fish can tolerate"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Without nutrients reaching the photic zone, phytoplankton production collapses. The anchovy fishery that depends on it collapses with it."
   },
   {
     id: "4-9-4",
     question: "La Niña represents",
     options: [
+      "warming of the entire Pacific Ocean uniformly",
       "an intensification of normal Pacific conditions",
       "the same conditions as El Niño but in the Atlantic",
-      "a complete absence of any ocean circulation",
-      "warming of the entire Pacific Ocean uniformly"
+      "a complete absence of any ocean circulation"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Stronger than usual trade winds produce unusually cold eastern Pacific water. La Niña is often described as the opposite phase of El Niño."
   },
   {
     id: "4-9-5",
     question: "El Niño typically brings which conditions to Indonesia and Australia?",
     options: [
-      "No change from their normal climate patterns",
-      "Heavier than normal rainfall and widespread flooding",
       "Drought conditions and increased wildfire risk",
-      "Unusually cold temperatures and frequent snowfall"
+      "Unusually cold temperatures and frequent snowfall",
+      "No change from their normal climate patterns",
+      "Heavier than normal rainfall and widespread flooding"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "The warm water and associated rainfall shift eastward, leaving the western Pacific dry. Major Indonesian wildfire years often coincide with El Niño."
   },
   {
@@ -79,12 +79,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-7",
     question: "The El Niño Southern Oscillation is best described as",
     options: [
-      "a recurring coupled ocean and atmosphere cycle",
-      "a permanent change in Pacific Ocean circulation",
       "a phenomenon confined entirely to the atmosphere",
-      "a one time event that occurred in the last century"
+      "a one time event that occurred in the last century",
+      "a recurring coupled ocean and atmosphere cycle",
+      "a permanent change in Pacific Ocean circulation"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "ENSO recurs irregularly every two to seven years and involves both ocean and atmosphere. The Southern Oscillation refers to the linked pressure seesaw."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-9",
     question: "Coral bleaching events frequently coincide with strong El Niño years because",
     options: [
-      "ocean salinity drops to levels corals cannot survive",
-      "corals receive substantially less sunlight during them",
       "ocean temperatures rise beyond corals' thermal tolerance",
-      "nutrient concentrations fall below what corals require"
+      "nutrient concentrations fall below what corals require",
+      "ocean salinity drops to levels corals cannot survive",
+      "corals receive substantially less sunlight during them"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Prolonged warm water causes corals to expel their symbiotic algae. The 2015-16 El Niño triggered the most severe global bleaching event recorded."
   },
   {
@@ -117,7 +117,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "complete prevention of the events from occurring",
       "elimination of all climate variability worldwide",
-      "precise prediction of weather on any specific day",
+      "precise prediction of the weather on any specific future day",
       "advance planning for drought, flood, and fishery impacts"
     ],
     correctIndex: 3,

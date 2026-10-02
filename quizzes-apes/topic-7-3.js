@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-3-3",
     question: "Inversions form most readily on nights that are",
     options: [
+      "stormy with heavy precipitation and strong winds",
       "overcast with a thick layer of low level cloud",
       "cloudy, windy, and unusually warm for the season",
-      "clear and calm, allowing rapid ground cooling",
-      "stormy with heavy precipitation and strong winds"
+      "clear and calm, allowing rapid ground cooling"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Clear skies let the ground radiate heat away rapidly, chilling the air above it. Wind or cloud cover prevents the layer from forming."
   },
   {
@@ -55,24 +55,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-3-5",
     question: "The Donora, Pennsylvania smog disaster of 1948 illustrates that inversions can",
     options: [
-      "trap pollution at concentrations that kill people",
-      "occur only in tropical regions near the equator",
       "form exclusively during the warmest summer months",
-      "improve air quality by diluting industrial emissions"
+      "improve air quality by diluting industrial emissions",
+      "trap pollution at concentrations that kill people",
+      "occur only in tropical regions near the equator"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Twenty people died and thousands fell ill during a multiday inversion. The event helped build support for federal air quality legislation."
   },
   {
     id: "7-3-6",
     question: "An inversion typically breaks when",
     options: [
+      "atmospheric pressure at the surface decreases sharply",
       "nighttime temperatures fall to their lowest point",
       "solar heating warms the surface or wind mixes the air",
-      "additional pollutants are emitted into the trapped layer",
-      "atmospheric pressure at the surface decreases sharply"
+      "additional pollutants are emitted into the trapped layer"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Warming the ground restores the normal temperature gradient and allows convection. An approaching weather front can also scour the layer out."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-3-8",
     question: "During an inversion, health authorities commonly advise residents to",
     options: [
-      "open all windows to ventilate indoor spaces fully",
       "burn wood indoors to warm their homes efficiently",
       "increase outdoor exercise to strengthen lung capacity",
-      "limit outdoor activity, especially sensitive groups"
+      "limit outdoor activity, especially sensitive groups",
+      "open all windows to ventilate indoor spaces fully"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Exertion increases the volume of polluted air inhaled. Many cities also restrict wood burning during inversion episodes."
   },
   {
     id: "7-3-9",
     question: "Mixing height refers to the",
     options: [
+      "altitude at which the stratosphere begins",
       "vertical depth in which pollutants can disperse",
       "height of the tallest smokestack in an area",
-      "elevation above sea level of a monitoring site",
-      "altitude at which the stratosphere begins"
+      "elevation above sea level of a monitoring site"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "A low mixing height concentrates the same emissions into a smaller volume. Inversions dramatically reduce mixing height."
   },
   {

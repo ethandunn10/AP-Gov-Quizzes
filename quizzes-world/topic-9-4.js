@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-4-2",
     question: "The World Trade Organization's primary function is to",
     options: [
+      "administer trade rules and settle disputes between member states",
       "provide development loans to poor countries",
       "regulate international currency exchange rates",
-      "set the domestic economic policy of each of its member states",
-      "administer trade rules and settle disputes between member states"
+      "set the domestic economic policy of each of its member states"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The WTO negotiates and enforces trade agreements and adjudicates complaints between members. Development lending is the World Bank's role, and currency matters fall to the IMF."
   },
   {
     id: "9-4-3",
     question: "IMF and World Bank structural adjustment programs in the 1980s and 1990s typically required borrowers to",
     options: [
-      "cut spending, privatize, devalue, and open the markets",
       "withdraw from all international trade",
       "nationalize foreign-owned companies",
-      "expand public spending and extend state ownership of industry"
+      "expand public spending and extend state ownership of industry",
+      "cut spending, privatize, devalue, and open the markets"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "These conditions reflected a market-oriented development orthodoxy, and critics argued the austerity components deepened poverty and cut health and education. The programs remain among the most contested episodes in development policy."
   },
   {
     id: "9-4-4",
     question: "The economic rise of China after 1978 resulted most directly from",
     options: [
-      "strict adherence to central planning without any market mechanisms",
       "market reform and export manufacturing under continued party control",
       "the complete privatization of all state enterprises",
-      "withdrawal from global trade networks"
+      "withdrawal from global trade networks",
+      "strict adherence to central planning without any market mechanisms"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Deng's reforms opened coastal zones to foreign capital and let market prices operate while the state retained major enterprises and political control. Hundreds of millions were lifted out of poverty in the following decades."
   },
   {
@@ -79,36 +79,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-4-7",
     question: "The 2008 global financial crisis demonstrated",
     options: [
+      "the complete isolation of national financial systems from one another",
       "how integrated finance spread one country's housing crash worldwide",
       "that financial regulation is unnecessary",
-      "that only one country was affected by the crisis",
-      "the complete isolation of national financial systems from one another"
+      "that only one country was affected by the crisis"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Securitized US mortgage debt held by banks worldwide meant an American housing collapse froze credit globally. The episode prompted coordinated central bank action and renewed regulatory debate."
   },
   {
     id: "9-4-8",
     question: "Which statement best describes globalization's effect on economic inequality?",
     options: [
+      "No change in any measure of inequality occurred",
       "Inequality was eliminated worldwide",
       "global poverty fell sharply while internal inequality rose",
-      "Inequality declined uniformly within every country in the world",
-      "No change in any measure of inequality occurred"
+      "Inequality declined uniformly within every country in the world"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Chinese and Indian growth lifted hundreds of millions out of extreme poverty, narrowing gaps between countries, while wage stagnation for less-skilled workers in wealthy countries widened gaps within them. Between-country and within-country trends moved in opposite directions."
   },
   {
     id: "9-4-9",
     question: "The offshoring of manufacturing from industrialized to developing countries was driven primarily by",
     options: [
+      "government prohibitions on domestic manufacturing",
       "the complete absence of any manufacturing capability abroad",
       "higher labor costs in developing countries",
-      "cheaper labor and looser rules, plus cheap transport",
-      "government prohibitions on domestic manufacturing"
+      "cheaper labor and looser rules, plus cheap transport"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Wage differentials only become exploitable when coordination and shipping are cheap, which containerization and telecommunications provided. Political decisions to liberalize trade completed the picture."
   },
   {

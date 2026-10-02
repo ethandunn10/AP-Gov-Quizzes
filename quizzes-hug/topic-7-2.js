@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-2",
     question: "Which activity belongs to the secondary sector?",
     options: [
+      "Assembling automobiles in a manufacturing plant",
       "Selling insurance policies to household customers",
       "Conducting pharmaceutical research in a laboratory",
-      "Harvesting timber from a managed commercial forest",
-      "Assembling automobiles in a manufacturing plant"
+      "Harvesting timber from a managed commercial forest"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The secondary sector manufactures and processes, turning inputs into goods. Timber harvesting is primary, insurance is tertiary, and research is quaternary."
   },
   {
     id: "7-2-3",
     question: "The quaternary sector is distinguished by its focus on",
     options: [
-      "information processing, research, and knowledge work",
-      "routine retail and personal service employment",
       "the assembly of components into finished products",
-      "extraction of minerals from underground deposits"
+      "extraction of minerals from underground deposits",
+      "information processing, research, and knowledge work",
+      "routine retail and personal service employment"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Quaternary work handles data, education, finance, and research rather than physical goods. The quinary sector is sometimes split off for top-level decision making."
   },
   {
@@ -56,7 +56,7 @@ window.QUIZ_QUESTIONS = [
     question: "Deindustrialization in developed countries refers to",
     options: [
       "a return of agricultural employment to former levels",
-      "the rapid construction of new manufacturing facilities",
+      "the very rapid construction of many new manufacturing facilities",
       "declining manufacturing employment as production shifts abroad",
       "the movement of service jobs into industrial districts"
     ],
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-6",
     question: "A footloose industry is one that",
     options: [
+      "can operate in many locations without cost penalty",
       "depends entirely on access to deepwater port facilities",
       "requires a large supply of unskilled manual labor",
-      "must locate immediately adjacent to its raw materials",
-      "can operate in many locations without cost penalty"
+      "must locate immediately adjacent to its raw materials"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "When transport costs are minor relative to product value, as with electronics or software, location becomes flexible. Such firms weigh labor, taxes, and amenity instead."
   },
   {
     id: "7-2-7",
     question: "Weber's least cost theory holds that industries locate to minimize",
     options: [
+      "government taxation on corporate profits earned",
       "transportation, labor, and agglomeration costs",
       "the environmental impact of the production process",
-      "the distance between managers and their employees",
-      "government taxation on corporate profits earned"
+      "the distance between managers and their employees"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Weber treated transport cost as primary, adjusted by cheap labor and the savings of clustering. The framework still underlies much industrial location analysis."
   },
   {
     id: "7-2-8",
     question: "A bulk reducing industry tends to locate near",
     options: [
+      "population centers regardless of input source",
       "the market where the finished product is sold",
       "the source of the raw materials it consumes",
-      "the geographic center of national territory",
-      "population centers regardless of input source"
+      "the geographic center of national territory"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "When the product weighs less than its inputs, as in copper smelting, shipping the ore is the expensive step. Bulk-gaining industries such as bottling locate near markets instead."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-2-10",
     question: "The informal economy consists of economic activity that is",
     options: [
+      "unregulated, untaxed, and outside official statistics",
       "limited to agricultural production for household use",
       "carried out only by large multinational corporations",
-      "conducted by government agencies without public reporting",
-      "unregulated, untaxed, and outside official statistics"
+      "conducted by government agencies without public reporting"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Street vending, day labor, and unlicensed repair work employ a large share of workers in developing cities. Its invisibility in official data leads to systematic underestimation of economic activity."
   }
 ];

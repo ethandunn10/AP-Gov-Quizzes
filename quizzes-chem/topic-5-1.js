@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-1-1",
     question: "For the reaction 2N₂O₅ → 4NO₂ + O₂, the rate of formation of NO₂ compared with the rate of disappearance of N₂O₅ is",
     options: [
-      "equal",
       "twice as fast",
       "half as fast",
-      "four times as fast"
+      "four times as fast",
+      "equal"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Rates relate through the coefficients: 4 NO₂ form for every 2 N₂O₅ consumed. Dividing each rate by its coefficient gives one common reaction rate."
   },
   {
     id: "5-1-2",
     question: "The average rate of a reaction over an interval is calculated as",
     options: [
-      "the change in concentration divided by the change in time",
-      "the concentration at the end of the interval",
-      "the slope of the tangent at a single point",
-      "the total amount of product formed"
+      "the total amount of product formed",
+      "the change in concentration over the change in time",
+      "the concentration measured at the end of the interval",
+      "the slope of the tangent at a single point"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "A tangent slope gives the instantaneous rate instead. Average rates over long intervals can hide substantial changes in speed."
   },
   {
@@ -32,8 +32,8 @@ window.QUIZ_QUESTIONS = [
     question: "Why does the rate of most reactions decrease as the reaction proceeds?",
     options: [
       "The temperature drops",
-      "Reactant concentrations fall, so collisions become less frequent",
-      "The activation energy increases",
+      "Reactant concentrations fall, so collisions are rarer",
+      "The activation energy steadily increases as it proceeds",
       "Products are destroyed"
     ],
     correctIndex: 1,
@@ -56,7 +56,7 @@ window.QUIZ_QUESTIONS = [
     question: "For A → B, [A] falls from 0.500 M to 0.400 M in 20.0 s. The average rate of disappearance of A is",
     options: [
       "0.00500 M/s",
-      "0.0200 M/s",
+      "0.0200 M per s",
       "0.100 M/s",
       "5.00 M/s"
     ],
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-1-7",
     question: "Which factor does NOT generally affect the rate of a reaction?",
     options: [
-      "Temperature",
-      "Concentration of reactants",
       "The overall enthalpy change of the reaction",
-      "Presence of a catalyst"
+      "The presence of a suitable catalyst material",
+      "Temperature",
+      "Concentration of reactants"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Thermodynamics tells you whether a reaction is favorable, not how fast it goes. Diamond converting to graphite is favorable yet immeasurably slow."
   },
   {
     id: "5-1-8",
     question: "Increasing the surface area of a solid reactant increases the rate because",
     options: [
-      "the activation energy is lowered",
-      "more reactant particles are exposed and available for collisions",
+      "more particles are exposed and available to collide",
       "the temperature rises",
-      "the reaction becomes exothermic"
+      "the reaction becomes exothermic",
+      "the activation energy is substantially lowered by it"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Reaction occurs only at the solid's surface, so subdividing it exposes more sites. Powdered materials can react explosively for this reason."
   },
   {
@@ -104,8 +104,8 @@ window.QUIZ_QUESTIONS = [
     question: "On a graph of [reactant] versus time, the reaction rate at any moment is given by",
     options: [
       "the y-intercept",
-      "the magnitude of the slope of the tangent at that point",
-      "the area under the curve",
+      "the magnitude of the slope of the tangent line",
+      "the total area lying underneath the plotted curve",
       "the x-intercept"
     ],
     correctIndex: 1,

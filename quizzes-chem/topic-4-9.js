@@ -7,72 +7,72 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-1",
     question: "Oxidation is best defined as",
     options: [
-      "gain of electrons",
-      "loss of electrons, corresponding to an increase in oxidation number",
-      "gain of oxygen only",
-      "loss of protons"
+      "loss of electrons, raising the oxidation number",
+      "the gain of oxygen atoms and nothing more than that",
+      "loss of protons",
+      "gain of electrons"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The electron-based definition covers reactions with no oxygen at all. The mnemonic OIL RIG keeps the direction straight."
   },
   {
     id: "4-9-2",
     question: "The oxidation number of sulfur in H₂SO₄ is",
     options: [
-      "+2",
-      "+4",
       "+6",
-      "−2"
+      "−2",
+      "+2",
+      "+4"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "With H at +1 and O at −2, sulfur must be +6 for the sum to reach zero. Sulfur commonly shows +4 and +6 in oxyacids."
   },
   {
     id: "4-9-3",
     question: "In the reaction Zn + 2HCl → ZnCl₂ + H₂, the reducing agent is",
     options: [
-      "Zn",
       "HCl",
       "H₂",
-      "Cl⁻"
+      "Cl⁻",
+      "Zn"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Zinc is oxidized and therefore supplies the electrons that reduce hydrogen. The species that is oxidized is always the reducing agent."
   },
   {
     id: "4-9-4",
     question: "The oxidation number of an element in its standard state is",
     options: [
+      "equal to its charge in compounds",
       "always +1",
       "always 0",
-      "equal to its group number",
-      "equal to its charge in compounds"
+      "equal to its group number"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "This holds for Na(s), O₂(g), and P₄(s) alike. Identical atoms cannot draw electrons away from one another."
   },
   {
     id: "4-9-5",
     question: "In the half-reaction Fe³⁺ + e⁻ → Fe²⁺, iron is",
     options: [
+      "acting as a reducing agent",
       "oxidized",
       "reduced",
-      "unchanged",
-      "acting as a reducing agent"
+      "unchanged"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Gaining an electron lowers the oxidation number from +3 to +2. Fe³⁺ is therefore the oxidizing agent in the overall reaction."
   },
   {
     id: "4-9-6",
     question: "When balancing a redox reaction in acidic solution, oxygen is typically balanced by adding",
     options: [
+      "OH⁻ ions added to both sides of the equation first",
+      "electrons",
       "O₂ molecules",
-      "H₂O to the side needing oxygen, then H⁺ to balance hydrogen",
-      "OH⁻ ions first",
-      "electrons"
+      "H₂O to the oxygen-poor side, then H⁺ for hydrogen"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Water and protons are freely available in acidic solution. In basic solution, OH⁻ is used and the procedure differs."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-9-8",
     question: "Which statement about a redox reaction is always true?",
     options: [
-      "Oxidation occurs without reduction",
+      "Only metals are oxidized",
+      "Oxidation can take place without any reduction occurring",
       "The number of electrons lost equals the number gained",
-      "Oxidation numbers always increase",
-      "Only metals are oxidized"
+      "Oxidation numbers always increase"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Electrons have to go somewhere, so the two half-reactions must balance. This requirement is what drives the half-reaction balancing method."
   },
   {
     id: "4-9-9",
     question: "In the reaction 2Na + Cl₂ → 2NaCl, the oxidizing agent is",
     options: [
-      "Na",
-      "Cl₂",
       "NaCl",
-      "Neither"
+      "Neither",
+      "Na",
+      "Cl₂"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Chlorine is reduced from 0 to −1, so it takes the electrons sodium releases. The species reduced is always the oxidizing agent."
   },
   {

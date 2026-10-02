@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "5-4-6",
     question: "Hallucinations, delusions, and disorganized speech are considered positive symptoms of schizophrenia because they",
     options: [
+      "are viewed positively by those who experience them",
       "represent additions to normal experience and behavior",
       "predict a favorable response to available treatment",
-      "appear only during the earliest phase of the illness",
-      "are viewed positively by those who experience them"
+      "appear only during the very earliest phase of the illness"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Positive means present but not normally there; negative symptoms such as flat affect and withdrawal are absences of normal functioning. The term carries no evaluative meaning."
   },
   {
     id: "5-4-7",
     question: "Flashbacks, hypervigilance, and avoidance of reminders following a life-threatening event best describe",
     options: [
-      "post-traumatic stress disorder",
-      "generalized anxiety disorder",
       "dissociative identity disorder",
-      "obsessive-compulsive disorder"
+      "obsessive-compulsive disorder",
+      "post-traumatic stress disorder",
+      "generalized anxiety disorder"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "PTSD requires a qualifying traumatic exposure plus intrusion, avoidance, and arousal symptoms. Generalized anxiety lacks the specific traumatic trigger and the re-experiencing symptoms."
   },
   {
     id: "5-4-8",
     question: "A pattern of disregard for others' rights, deceitfulness, and absence of remorse beginning in adolescence is characteristic of",
     options: [
-      "borderline personality disorder",
       "narcissistic personality disorder",
       "antisocial personality disorder",
-      "a dissociative disorder"
+      "a dissociative disorder",
+      "borderline personality disorder"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Chronic rule violation without remorse defines antisocial personality disorder. Borderline personality disorder centers instead on instability in relationships, self-image, and emotion."
   },
   {
     id: "5-4-9",
     question: "Which statement about the relationship between psychological disorders and violence is best supported?",
     options: [
-      "Disorders are the leading cause of violent crime in most countries",
-      "Most people with disorders are not violent and are more often victims",
+      "Most people with disorders are not violent at all",
       "Violence risk is identical across all diagnostic categories",
-      "People with disorders are never at increased risk of any harm"
+      "People with disorders are never at increased risk of any harm",
+      "Disorders are the leading cause of violent crime in most countries"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Research consistently finds that people with mental illness are far more likely to be victimized than to victimize others. The popular association between disorder and violence is largely a product of media coverage."
   },
   {
     id: "5-4-10",
     question: "A clinician is careful to distinguish culturally normative behavior from symptoms of a disorder. This caution matters most because",
     options: [
-      "cultural background determines which treatment will succeed",
       "behavior typical in one culture may be misread as pathological",
       "disorders occur at identical rates in all cultural groups",
-      "diagnostic criteria are written differently for each culture"
+      "diagnostic criteria are written quite differently for each culture",
+      "cultural background determines which treatment will succeed"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Practices that are ordinary within a community can look like symptoms to an outside observer, producing overdiagnosis. The criteria themselves are not rewritten per culture, which is exactly why clinical judgment about context is required."
   }
 ];

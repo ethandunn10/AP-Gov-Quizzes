@@ -19,36 +19,36 @@ window.QUIZ_QUESTIONS = [
     id: "8-1-2",
     question: "The conjugate acid of NH₃ is",
     options: [
+      "NH₃",
       "NH₂⁻",
       "NH₄⁺",
-      "N₂",
-      "NH₃"
+      "N₂"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Adding a proton to the base gives its conjugate acid. Removing one would give the amide ion, NH₂⁻."
   },
   {
     id: "8-1-3",
     question: "Water is amphoteric, meaning it",
     options: [
-      "cannot react with acids",
+      "does not ionize",
+      "cannot react with any acids whatsoever",
       "can act as either an acid or a base",
-      "is always neutral",
-      "does not ionize"
+      "is always neutral"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "It donates a proton to bases and accepts one from acids. Autoionization, 2H₂O ⇌ H₃O⁺ + OH⁻, shows both roles at once."
   },
   {
     id: "8-1-4",
     question: "At 25 °C, Kw = [H⁺][OH⁻] equals",
     options: [
+      "14",
       "1.0 × 10⁻⁷",
       "1.0 × 10⁻¹⁴",
-      "1.0 × 10⁷",
-      "14"
+      "1.0 × 10⁷ exactly"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "In pure water each ion is 1.0 × 10⁻⁷ M, and their product is 10⁻¹⁴. Kw increases with temperature, so neutral pH is below 7 in hot water."
   },
   {
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-1-7",
     question: "A Lewis acid is defined as a species that",
     options: [
-      "donates a proton",
-      "accepts an electron pair",
       "donates an electron pair",
-      "produces OH⁻"
+      "produces OH⁻",
+      "donates a proton",
+      "accepts an electron pair"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "BF₃ is a Lewis acid even though it has no proton to donate. The Lewis definition is the broadest of the three."
   },
   {
     id: "8-1-8",
     question: "In the reaction HCO₃⁻ + H₂O ⇌ H₂CO₃ + OH⁻, bicarbonate acts as",
     options: [
+      "a spectator",
       "an acid",
       "a base",
-      "a catalyst",
-      "a spectator"
+      "a catalyst"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "It accepts a proton from water in this reaction. In a different reaction it can donate a proton, which makes it amphiprotic."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-1-10",
     question: "Strong acids in water are considered to be leveled because",
     options: [
-      "they all have the same concentration",
-      "they all ionize completely, so the strongest acid present is effectively H₃O⁺",
-      "they have the same molar mass",
-      "they are all diprotic"
+      "they are all diprotic",
+      "they all have precisely the same molar concentration value",
+      "all ionize completely, so H₃O⁺ is the strongest acid",
+      "they have the same molar mass"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Water cannot distinguish acids stronger than hydronium. Differences among strong acids show up only in less basic solvents."
   }
 ];

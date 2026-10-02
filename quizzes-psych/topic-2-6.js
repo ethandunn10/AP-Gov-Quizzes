@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-2",
     question: "Returning to a childhood home triggers memories that had not surfaced in years. This is best explained by",
     options: [
-      "the spacing effect strengthening those memories over decades",
+      "the spacing effect strengthening those memories over many decades",
       "proactive interference releasing older material",
       "context-dependent retrieval cues present in the original setting",
       "automatic encoding of the home's physical layout"
@@ -31,48 +31,48 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-3",
     question: "A person in a low mood more readily recalls past disappointments than past successes. This illustrates",
     options: [
-      "mood-congruent memory",
-      "the serial position effect",
       "source amnesia",
-      "the misinformation effect"
+      "the misinformation effect",
+      "mood-congruent memory",
+      "the serial position effect"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Current emotional state acts as a retrieval cue, biasing which memories come to mind. Source amnesia is a different failure — recalling content correctly but misremembering where it came from."
   },
   {
     id: "2-6-4",
     question: "Asked to recall a 15-item list, participants remember the first and last items best. The advantage for the earliest items is attributed to",
     options: [
-      "rehearsal that moved them into long-term memory",
       "their still being active in short-term memory at test",
       "the emotional salience of list beginnings",
-      "reduced interference from items presented later"
+      "reduced interference from items presented later",
+      "rehearsal that moved them into long-term memory"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Early items get more rehearsal time and reach durable storage — the primacy half of the serial position effect. Items still active in short-term memory account for the recency advantage at the end of the list."
   },
   {
     id: "2-6-5",
     question: "A witness recalls a stop sign after being asked a question that mentioned a stop sign, though the scene contained a yield sign. This is",
     options: [
-      "the misinformation effect altering the reconstructed memory",
-      "source amnesia about where the memory originated",
       "retroactive interference from a later event",
-      "motivated forgetting of an unpleasant detail"
+      "motivated forgetting of an unpleasant detail",
+      "the misinformation effect altering the reconstructed memory",
+      "source amnesia about where exactly the memory originally came from"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Post-event information becomes woven into the memory itself during reconstruction, as Loftus demonstrated repeatedly. Source amnesia would mean remembering the sign accurately while misattributing where the information came from."
   },
   {
     id: "2-6-6",
     question: "The tip-of-the-tongue experience is best understood as evidence that",
     options: [
-      "memories decay steadily unless they are rehearsed",
       "encoding failure is the main source of forgetting",
       "recognition and recall use identical retrieval paths",
-      "retrieval can fail even when storage is intact"
+      "retrieval can fail even when storage is intact",
+      "memories decay steadily unless they are rehearsed"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Partial access — knowing the first letter or the number of syllables — shows the memory is there but momentarily unreachable. That is a retrieval failure rather than a loss of the stored material."
   },
   {
@@ -81,7 +81,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "Studying in as many different rooms as possible",
       "Reviewing material immediately before sleeping",
-      "Rereading notes until they feel completely familiar",
+      "Rereading all the notes until they feel completely familiar to you",
       "Practicing under conditions resembling the testing situation"
     ],
     correctIndex: 3,
@@ -91,12 +91,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-8",
     question: "A person confidently recalls hearing a fact from a professor when it actually came from a podcast. This is",
     options: [
-      "the misinformation effect",
-      "source amnesia",
       "retroactive interference",
-      "state-dependent memory"
+      "state-dependent memory",
+      "the misinformation effect",
+      "source amnesia"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The content is remembered accurately but its origin is misattributed. The misinformation effect differs in that the remembered content itself has been altered by later input."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-6-10",
     question: "Eyewitness confidence is a poor guide to accuracy primarily because",
     options: [
-      "witnesses generally encode less information than they believe",
       "repeated retelling increases certainty without improving accuracy",
       "recognition tasks are inherently harder than recall tasks",
-      "long-term memory has a strict capacity limit for faces"
+      "long-term memory has a strict capacity limit for faces",
+      "witnesses generally encode far less information than they believe they do"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Each retelling rehearses the reconstructed version, inflating confidence even where errors have crept in. This is why courts treat confident testimony with more caution than juries typically do."
   }
 ];

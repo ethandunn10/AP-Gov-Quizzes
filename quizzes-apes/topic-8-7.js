@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-1",
     question: "Persistent organic pollutants are characterized by being",
     options: [
-      "long lived, fat soluble, and able to travel far",
       "naturally occurring minerals found in ordinary soil",
       "harmless to organisms at almost any concentration",
-      "rapidly biodegradable and water soluble compounds"
+      "rapidly biodegradable and water soluble compounds",
+      "long lived, fat soluble, and able to travel far"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Their stability, lipid solubility, and mobility make them a global problem. These same properties drive bioaccumulation up food chains."
   },
   {
     id: "8-7-2",
     question: "The Stockholm Convention is an international treaty that",
     options: [
+      "phases out all of the ozone depleting chlorofluorocarbon compounds",
       "regulates greenhouse gas emissions among signatories",
       "restricts or bans production of persistent organic pollutants",
-      "governs the international trade of endangered species",
-      "phases out ozone depleting chlorofluorocarbon compounds"
+      "governs the international trade of endangered species"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "It originally targeted twelve compounds sometimes called the dirty dozen. The Montreal Protocol addresses ozone-depleting substances separately."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-4",
     question: "Polychlorinated biphenyls were widely used before their ban primarily in",
     options: [
+      "electrical transformers, capacitors, and coolants",
       "pharmaceutical products prescribed to patients",
       "packaging materials for consumer food products",
-      "agricultural pesticides applied to food crops",
-      "electrical transformers, capacitors, and coolants"
+      "agricultural pesticides applied to food crops"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Their chemical stability made them ideal insulating fluids. That same stability is why they persist in sediments decades after the ban."
   },
   {
@@ -56,7 +56,7 @@ window.QUIZ_QUESTIONS = [
     question: "Dioxins are produced mainly as",
     options: [
       "unintended byproducts of combustion and chlorine processes",
-      "naturally occurring compounds in most healthy soils",
+      "naturally occurring compounds found in nearly all healthy soils",
       "the primary active ingredient in modern herbicides",
       "a deliberately manufactured industrial product"
     ],
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-7",
     question: "Human exposure to POPs occurs primarily through",
     options: [
-      "drinking municipal tap water in most cities",
-      "breathing outdoor air in industrialized regions",
       "eating contaminated fatty foods such as fish",
-      "direct skin contact with treated soil surfaces"
+      "direct skin contact with treated soil surfaces",
+      "drinking municipal tap water in most cities",
+      "breathing outdoor air in industrialized regions"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Diet accounts for the large majority of exposure. Fish consumption advisories exist in many regions for exactly this reason."
   },
   {
     id: "8-7-8",
     question: "DDT remains in limited use in some countries because it",
     options: [
-      "breaks down harmlessly within a few weeks",
       "has been proven completely safe for human health",
       "poses no documented risk to wildlife or people",
-      "is effective and inexpensive for malaria control"
+      "is effective and inexpensive for malaria control",
+      "breaks down harmlessly within a few weeks"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The Stockholm Convention permits indoor residual spraying for disease vectors. This reflects a genuine tradeoff between malaria deaths and environmental harm."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-7-10",
     question: "Remediating POP contamination is difficult primarily because these compounds",
     options: [
-      "decompose too quickly to be captured and treated",
-      "are widely dispersed and resist natural breakdown",
       "exist only within sealed industrial containers",
-      "pose no risk once they enter the environment"
+      "pose no risk once they enter the environment",
+      "decompose too quickly to be captured and treated",
+      "are widely dispersed and resist natural breakdown"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Dredging contaminated sediment is expensive and disruptive. Preventing release is far more effective than any available cleanup."
   }
 ];

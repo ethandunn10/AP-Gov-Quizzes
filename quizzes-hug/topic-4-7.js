@@ -7,84 +7,84 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-1",
     question: "A unitary state is one in which",
     options: [
+      "no central government exists at any level",
       "power is concentrated in a central government",
       "authority is divided between national and regional governments",
-      "each region operates as a fully sovereign entity",
-      "no central government exists at any level"
+      "each region operates as a fully sovereign entity"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "France and Japan administer through subdivisions that exercise only delegated authority. Unitary systems suit compact, culturally homogeneous states."
   },
   {
     id: "4-7-2",
     question: "A federal state is characterized by",
     options: [
-      "complete concentration of authority in the capital city",
-      "constitutionally divided power between national and regional",
       "the absence of any regional administrative units",
-      "regional governments holding full international sovereignty"
+      "regional governments holding full international sovereignty",
+      "complete concentration of authority in the capital city",
+      "constitutionally divided power between national and regional"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Germany, India, and the United States assign protected powers to constituent units. Federalism suits large or culturally diverse states."
   },
   {
     id: "4-7-3",
     question: "Federalism is often adopted by states that are",
     options: [
+      "located entirely within a single global climate zone",
       "small, compact, and culturally homogeneous",
       "governed by a single dominant political party",
-      "large or contain multiple distinct national groups",
-      "located entirely within a single climate zone"
+      "large or contain multiple distinct national groups"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Distributing power accommodates regional differences and reduces secessionist pressure. Belgium adopted federalism specifically to manage linguistic division."
   },
   {
     id: "4-7-4",
     question: "Devolution refers to the transfer of",
     options: [
-      "sovereignty from a state to an international organization",
-      "authority from regional governments to the central state",
       "power between two neighboring sovereign countries",
-      "power from a central government to regional authorities"
+      "power from a central government to regional authorities",
+      "sovereignty from a state to an international organization",
+      "authority from regional governments to the central state"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Scotland and Wales gained devolved parliaments while remaining within the United Kingdom. Devolution is reversible in principle, unlike federal division of powers."
   },
   {
     id: "4-7-5",
     question: "Centripetal forces in a state are those that",
     options: [
-      "unify a population and strengthen support for the state",
       "divide a population and weaken state cohesion",
       "have no effect on political stability in any state",
-      "operate only in federal rather than unitary systems"
+      "operate only within federal systems rather than unitary ones",
+      "unify a population and strengthen support for the state"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Shared language, national symbols, and external threat can bind populations together. Centrifugal forces pull in the opposite direction."
   },
   {
     id: "4-7-6",
     question: "Centrifugal forces include",
     options: [
+      "a widely shared national language and common history",
       "effective transportation linking all regions of a state",
       "ethnic division, economic inequality, and regional anger",
-      "a strong national education system reaching all citizens",
-      "a widely shared national language and common history"
+      "a strong national education system reaching all citizens"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Groups that feel unrecognized or economically disadvantaged may seek autonomy or independence. Catalonia and Quebec illustrate the pattern in wealthy democracies."
   },
   {
     id: "4-7-7",
     question: "A confederation differs from a federation because in a confederation",
     options: [
+      "all power is concentrated in a single national government",
       "regional units have no governmental authority at all",
       "member units cannot withdraw under any circumstances",
-      "the central authority is weak and members retain sovereignty",
-      "all power is concentrated in a single national government"
+      "the central authority is weak and members retain sovereignty"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Members delegate limited functions while keeping ultimate authority, as under the Articles of Confederation. Such arrangements often prove too weak to endure."
   },
   {
@@ -93,7 +93,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "full sovereignty recognized under international law",
       "no distinct governing institutions of their own",
-      "the same status as ordinary administrative districts",
+      "precisely the same status as ordinary administrative districts",
       "self-government over set areas while remaining in the state"
     ],
     correctIndex: 3,
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-7-10",
     question: "A geographer explaining why a state adopted federalism would emphasize",
     options: [
+      "the goal of concentrating all authority in the capital",
       "an international legal requirement applying to large states",
       "the need to accommodate territorial diversity in one state",
-      "the desire to eliminate all regional political institutions",
-      "the goal of concentrating all authority in the capital"
+      "the desire to eliminate all regional political institutions"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Large territories and multiple national groups make centralized rule impractical and politically risky. Federalism trades administrative simplicity for legitimacy across regions."
   }
 ];

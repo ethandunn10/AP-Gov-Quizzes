@@ -5,22 +5,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.5-1",
     question: "The cell cycle is generally divided into which two major phases?",
-    options: ["Interphase and the M phase", "Only prophase and metaphase", "Only the G1 and G2 gaps", "Meiosis I and meiosis II"],
-    correctIndex: 0,
+    options: ["Only the G1 and G2 gaps", "Meiosis I and meiosis II", "Interphase and the M phase", "Only prophase and metaphase"],
+    correctIndex: 2,
     explanation: "The cell cycle consists of interphase (G1, S, and G2 phases, where the cell grows and replicates DNA) and the mitotic (M) phase (where the cell divides its nucleus and cytoplasm)."
   },
   {
     id: "4.5-2",
     question: "DNA replication occurs during which phase of the cell cycle?",
-    options: ["G1 phase", "S phase", "G2 phase", "Anaphase"],
-    correctIndex: 1,
+    options: ["Anaphase", "G1 phase", "S phase", "G2 phase"],
+    correctIndex: 2,
     explanation: "The S (synthesis) phase of interphase is when the cell replicates its entire genome, ensuring each daughter cell will receive a complete copy of the DNA."
   },
   {
     id: "4.5-3",
     question: "During prophase of mitosis, which key event occurs?",
-    options: ["Sister chromatids separate toward the poles", "Chromatin condenses and the spindle forms", "The nuclear envelope reforms around two nuclei", "Cytokinesis divides the cytoplasm"],
-    correctIndex: 1,
+    options: ["Chromatin condenses and the spindle forms", "The nuclear envelope reforms around two nuclei", "Cytokinesis divides the cytoplasm", "Sister chromatids separate toward the poles"],
+    correctIndex: 0,
     explanation: "During prophase, chromatin condenses into distinct chromosomes, the mitotic spindle begins forming from the centrosomes, and the nuclear envelope starts to break down."
   },
   {
@@ -33,15 +33,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.5-5",
     question: "During anaphase, what critical event occurs?",
-    options: ["DNA replication begins again", "Sister chromatids are pulled apart", "The nuclear envelope re-forms", "Chromosomes condense for the first time"],
-    correctIndex: 1,
+    options: ["The nuclear envelope re-forms", "Chromosomes condense for the first time", "DNA replication begins again", "Sister chromatids are pulled apart"],
+    correctIndex: 3,
     explanation: "Anaphase is marked by the splitting of sister chromatids at the centromere, with spindle fibers pulling each chromatid toward opposite poles of the dividing cell."
   },
   {
     id: "4.5-6",
     question: "Cytokinesis, the final step of cell division, refers to:",
-    options: ["The replication of DNA before mitosis", "Division of the cytoplasm into two cells", "The condensation of the chromosomes", "Alignment of chromosomes at the metaphase plate"],
-    correctIndex: 1,
+    options: ["The condensation of the chromosomes", "Alignment of chromosomes at the metaphase plate", "The replication of DNA before mitosis", "Division of the cytoplasm into two cells"],
+    correctIndex: 3,
     explanation: "Cytokinesis is the process that physically splits the parent cell's cytoplasm into two separate daughter cells, typically occurring during or immediately after telophase."
   },
   {
@@ -54,8 +54,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.5-8",
     question: "In telophase, the mitotic events largely reverse those of prophase, including:",
-    options: ["Chromosome condensation and spindle formation", "Nuclear envelopes reform and chromatin unwinds", "Sister chromatids separating for the first time", "DNA replication occurring for a second time"],
-    correctIndex: 1,
+    options: ["Nuclear envelopes reform and chromatin unwinds", "Sister chromatids separating for the first time", "DNA replication occurring for a second time", "Chromosome condensation and spindle formation"],
+    correctIndex: 0,
     explanation: "During telophase, nuclear envelopes re-form around each separated set of chromosomes at opposite poles, and the chromosomes begin decondensing back into chromatin, essentially reversing the changes seen in prophase."
   },
   {
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.5-10",
     question: "A cell that is not actively dividing and has exited the cell cycle is often described as being in which phase?",
-    options: ["S phase", "M phase", "G0 phase", "Anaphase"],
-    correctIndex: 2,
+    options: ["Anaphase", "S phase", "M phase", "G0 phase"],
+    correctIndex: 3,
     explanation: "G0 is a resting state outside the active cell cycle, where cells (such as most mature neurons) may remain indefinitely without dividing, unless signaled to re-enter the cycle."
   },
 ];

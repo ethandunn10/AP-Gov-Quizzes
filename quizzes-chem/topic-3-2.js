@@ -7,20 +7,20 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-1",
     question: "A solid that is hard, has a very high melting point, and does not conduct electricity in any state is most likely",
     options: [
-      "ionic",
-      "covalent network",
-      "metallic",
-      "molecular"
+      "metallic solid",
+      "molecular solid",
+      "ionic crystalline solid",
+      "covalent network"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Diamond and quartz fit this profile because every atom is covalently bonded with no mobile charges. Ionic solids would conduct once molten."
   },
   {
     id: "3-2-2",
     question: "Molecular solids typically have low melting points because",
     options: [
-      "their covalent bonds are weak",
-      "melting requires overcoming only intermolecular forces, not covalent bonds",
+      "their internal covalent bonds are unusually weak",
+      "melting overcomes only intermolecular forces",
       "they contain no bonds",
       "they are always nonpolar"
     ],
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-3",
     question: "Graphite conducts electricity while diamond does not because graphite",
     options: [
+      "has a considerably lower melting point than diamond",
       "contains ionic bonds",
       "has delocalized pi electrons within its layers",
-      "is a metal",
-      "has a lower melting point"
+      "is a metal"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Each carbon in graphite bonds to three others, leaving one electron delocalized across the sheet. Diamond's carbons are all sp³, with every electron localized in sigma bonds."
   },
   {
@@ -55,60 +55,60 @@ window.QUIZ_QUESTIONS = [
     id: "3-2-5",
     question: "A solid conducts electricity in the solid state and is malleable. It is most likely",
     options: [
-      "ionic",
-      "metallic",
       "covalent network",
-      "molecular"
+      "molecular",
+      "ionic",
+      "metallic"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Conduction as a solid plus deformability points to delocalized electrons with nondirectional bonding. Ionic solids conduct only when ions can move."
   },
   {
     id: "3-2-6",
     question: "The strong directional bonding in a covalent network solid explains why such solids are",
     options: [
-      "ductile and conductive",
-      "hard and brittle with extremely high melting points",
       "soluble in water",
-      "gases at room temperature"
+      "gases at ordinary room temperature and normal pressure",
+      "ductile and conductive",
+      "hard and brittle with extremely high melting points"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Deforming the solid requires breaking covalent bonds rather than sliding layers. Silicon carbide's use as an abrasive follows directly from this."
   },
   {
     id: "3-2-7",
     question: "Which statement about ionic solids is correct?",
     options: [
-      "They conduct in the solid state",
-      "They are typically brittle and conduct only when molten or dissolved",
       "They have low melting points",
-      "They consist of discrete molecules"
+      "They consist entirely of discrete neutral molecules",
+      "They conduct in the solid state",
+      "brittle, conducting only when molten or dissolved"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Charge carriers exist but are immobilized in the lattice. Sliding layers align like charges, which causes cleavage rather than bending."
   },
   {
     id: "3-2-8",
     question: "Comparing the melting points of Ne, Ar, and Kr, the order is",
     options: [
-      "Ne > Ar > Kr",
       "Kr > Ar > Ne",
       "Ar > Kr > Ne",
-      "All are equal"
+      "All are equal",
+      "Ne > Ar > Kr"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Dispersion forces strengthen with more electrons and greater polarizability down the group. For noble gases, this is the only force at work."
   },
   {
     id: "3-2-9",
     question: "Which pair of solids would you expect to have the most similar physical properties?",
     options: [
-      "NaCl and diamond",
       "KCl and NaBr",
       "Copper and sucrose",
-      "Ice and quartz"
+      "Ice and quartz",
+      "NaCl and diamond"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Both are 1+/1− ionic solids of similar ionic sizes. Ice and quartz differ sharply despite both containing oxygen, since one is molecular and one is a network."
   },
   {

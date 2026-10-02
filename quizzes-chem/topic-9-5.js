@@ -7,19 +7,19 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-1",
     question: "The relationship between standard free energy change and the equilibrium constant is",
     options: [
-      "ΔG° = RT ln K",
       "ΔG° = −RT ln K",
       "ΔG° = K/RT",
-      "ΔG° = −K ln(RT)"
+      "ΔG° = −K ln(RT)",
+      "ΔG° = RT ln K"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The negative sign makes a large K correspond to a negative ΔG°. Temperature must be in kelvins."
   },
   {
     id: "9-5-2",
     question: "If ΔG° is negative, then K is",
     options: [
-      "less than 1",
+      "clearly less than 1",
       "greater than 1",
       "equal to 1",
       "negative"
@@ -31,84 +31,84 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-3",
     question: "When ΔG° = 0, the equilibrium constant equals",
     options: [
-      "0",
       "1",
       "infinity",
-      "14"
+      "14",
+      "0"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "ln K = 0 gives K = 1. Neither reactants nor products are favored under standard conditions."
   },
   {
     id: "9-5-4",
     question: "The difference between ΔG and ΔG° is that ΔG",
     options: [
-      "applies only at 298 K",
-      "reflects the actual, nonstandard conditions of the system at a given moment",
       "is always zero",
-      "is always negative"
+      "is always negative",
+      "applies only at exactly 298 K and at no other temperature",
+      "reflects the actual nonstandard conditions present"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "ΔG = ΔG° + RT ln Q connects the two. At equilibrium, ΔG is zero while ΔG° generally is not."
   },
   {
     id: "9-5-5",
     question: "At equilibrium, ΔG for the reaction equals",
     options: [
-      "ΔG°",
-      "zero",
       "−RT ln K",
-      "the activation energy"
+      "the activation energy",
+      "ΔG°",
+      "zero"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "No net change is favored in either direction. Confusing ΔG with ΔG° at this point is a common error."
   },
   {
     id: "9-5-6",
     question: "A reaction has K = 1 × 10⁻⁵. Its ΔG° is",
     options: [
+      "equal to K",
       "large and negative",
       "positive",
-      "zero",
-      "equal to K"
+      "zero"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "ln of a number below 1 is negative, and the leading minus sign makes ΔG° positive. The reaction is reactant favored under standard conditions."
   },
   {
     id: "9-5-7",
     question: "If Q < K at a given moment, then ΔG for the reaction is",
     options: [
-      "negative, and the reaction proceeds forward",
       "positive",
       "zero",
-      "equal to ΔG°"
+      "exactly equal to the standard ΔG° for the reaction",
+      "negative, and the reaction proceeds forward"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "The ln Q term is small enough to keep ΔG negative. The reaction moves forward until Q rises to K and ΔG reaches zero."
   },
   {
     id: "9-5-8",
     question: "For an exothermic reaction, raising the temperature causes K to decrease. This is consistent with",
     options: [
-      "ΔG° becoming more negative",
-      "ΔG° becoming less negative as the −TΔS term changes",
+      "ΔG° becoming less negative as −TΔS changes",
       "K becoming negative",
-      "ΔH changing sign"
+      "ΔH changing sign",
+      "ΔG° becoming considerably more negative instead"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "For exothermic reactions ΔS° is often negative, so raising T makes −TΔS° more positive. Le Chatelier's prediction and the thermodynamic relationship agree."
   },
   {
     id: "9-5-9",
     question: "A reaction with a very large K, such as 10²⁰, has a ΔG° that is",
     options: [
-      "large and positive",
       "large and negative",
       "zero",
-      "equal to 20"
+      "equal to 20",
+      "large and positive"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The logarithmic relationship means even enormous K values give moderate ΔG° magnitudes. At 298 K this corresponds to roughly −114 kJ/mol."
   },
   {
@@ -117,7 +117,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "ΔG values for the combined process add",
       "K values add",
-      "activation energies cancel",
+      "the activation energies simply cancel out",
       "entropy is conserved"
     ],
     correctIndex: 0,

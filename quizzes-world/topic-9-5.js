@@ -19,12 +19,12 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-2",
     question: "Women's movements in the later twentieth century achieved which significant changes?",
     options: [
+      "Produced legal change confined to western Europe with little effect elsewhere",
       "Left employment, property, and marriage law substantially unchanged in most countries",
       "Expanded legal equality in employment, property, and marriage across many countries",
-      "Narrowed women's access to public life and formal politics across most world regions",
-      "Produced legal change confined to western Europe with little effect elsewhere"
+      "Narrowed women's access to public life and formal politics across most world regions"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Equal pay laws, anti-discrimination statutes, and reformed family law spread across many countries, and women's share of higher education and legislative seats rose substantially. Progress was uneven and remains incomplete."
   },
   {
@@ -55,72 +55,72 @@ window.QUIZ_QUESTIONS = [
     id: "9-5-5",
     question: "Liberation theology in Latin America is best described as",
     options: [
-      "a Catholic current demanding solidarity with the poor against injustice",
       "a movement rejecting religious belief in favor of secular revolutionary politics",
       "a political party that governed several Latin American states during the 1970s",
-      "a clerical movement organized in support of the region's military governments"
+      "a clerical movement organized in support of the region's military governments",
+      "a Catholic current demanding solidarity with the poor against injustice"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Clergy and lay activists organized base communities and confronted regimes over poverty and repression, drawing criticism from Vatican authorities and violence from governments. The assassination of Archbishop Romero is its emblematic episode."
   },
   {
     id: "9-5-6",
     question: "Global labor movements in the twentieth century faced which significant challenge after 1970?",
     options: [
-      "the disappearance of industrial workers from every manufacturing economy on earth",
-      "capital mobility, which let firms relocate and weakened union bargaining",
       "government mandates that required universal union membership by statute",
-      "the elimination of manufacturing employment across the entire world economy"
+      "the elimination of manufacturing employment across the entire world economy",
+      "the disappearance of industrial workers from every manufacturing economy on earth",
+      "capital mobility, which let firms relocate and weakened union bargaining"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "A credible threat to move a factory abroad changed the balance in wage negotiations, and union density fell in many industrialized countries. Manufacturing employment grew substantially elsewhere, often without comparable union protection."
   },
   {
     id: "9-5-7",
     question: "The anti-globalization or global justice movement that emerged in the 1990s criticized",
     options: [
-      "all forms of international cooperation, including treaties and aid programs alike",
       "the existence of cross-border trade in any form between any two countries",
       "trade rules and IMF policies as favoring corporations over labor",
-      "tariff reductions of any size undertaken by any industrialized government"
+      "tariff reductions of any size undertaken by any industrialized government",
+      "all forms of international cooperation, including treaties and aid programs alike"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Protesters at Seattle in 1999 and elsewhere targeted specific institutional rules and their distributive effects, and many advocated alternative forms of international cooperation. Characterizing the movement as opposed to all cross-border connection misstates its claims."
   },
   {
     id: "9-5-8",
     question: "Which best explains the growth of international human rights advocacy after 1945?",
     options: [
-      "the absence of documented abuses, which made monitoring institutions unnecessary",
       "governments voluntarily inviting outside scrutiny without any external pressure",
       "the invention of human rights concepts for the first time during the 1990s",
-      "wartime atrocities prompting legal frameworks, and media making abuses visible"
+      "wartime atrocities prompting legal frameworks, and media making abuses visible",
+      "the absence of documented abuses, which made monitoring institutions unnecessary"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Nuremberg and the Genocide Convention established that states could be held accountable, and television and later the internet made distant abuses vivid. Advocacy grew where evidence could travel."
   },
   {
     id: "9-5-9",
     question: "State responses to reform movements have historically ranged from",
     options: [
-      "accommodation and reform at one end, co-optation and repression at the other",
-      "immediate and full acceptance of movement demands in essentially every case",
       "uniform violent suppression regardless of regime type or international exposure",
-      "complete indifference, with governments making no response of any kind"
+      "complete indifference, with governments making no response of any kind",
+      "accommodation and reform at one end, co-optation and repression at the other",
+      "immediate and full acceptance of movement demands in essentially every case"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "The same decade saw negotiated transitions in South Africa and Tiananmen in China, which shows how much regime type and international exposure mattered. Partial concessions designed to defuse movements were also common."
   },
   {
     id: "9-5-10",
     question: "A historian argues that twentieth-century reform movements were 'increasingly transnational.' The strongest evidence is",
     options: [
-      "movements confined within single countries, with no contact across borders",
-      "activists coordinating through NGOs, UN conferences, and shared coverage",
       "the absence of any communication among activists working in different states",
-      "identical outcomes achieved by every movement regardless of national context"
+      "identical outcomes achieved by every movement regardless of national context",
+      "movements confined within single countries, with no contact across borders",
+      "activists coordinating through NGOs, UN conferences, and shared coverage"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "UN world conferences on women and the environment, cross-border NGO networks, and internationally coordinated boycotts all show movements operating above the national level. Their targets increasingly were international institutions as well."
   }
 ];

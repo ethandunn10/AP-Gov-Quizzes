@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-1",
     question: "The Second Great Awakening differed from Calvinist orthodoxy by teaching that",
     options: [
-      "salvation was predetermined and could not be influenced",
-      "individuals could choose salvation through their own decision",
       "church attendance alone guaranteed eternal salvation",
-      "only ordained clergy could interpret scripture"
+      "only ordained clergy could interpret scripture",
+      "salvation was entirely predetermined and could not be influenced",
+      "individuals could choose salvation through their own decision"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Revivalists preached that anyone could repent and be saved, a democratic theology fitting the era's politics. That doctrine of free will is what made social reform seem both possible and obligatory."
   },
   {
     id: "4-10-2",
     question: "Charles Grandison Finney's revival methods were notable for",
     options: [
-      "quiet study of theological texts in small groups",
-      "emotional preaching and techniques designed to produce conversions",
-      "rejecting participation by women in religious meetings",
-      "limiting revivals to rural southern communities"
+      "emotional preaching and techniques designed to win converts",
+      "firmly rejecting any participation by women in religious meetings",
+      "limiting revivals to rural southern communities",
+      "quiet study of theological texts in small groups"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Finney used protracted meetings, the anxious bench, and direct emotional appeals. His revivals in upstate New York burned so intensely the region was called the burned-over district."
   },
   {
@@ -46,7 +46,7 @@ window.QUIZ_QUESTIONS = [
       "gave them public roles that led into reform organizations",
       "was forbidden by most revivalist preachers",
       "replaced their responsibilities within the household",
-      "granted them formal authority within church hierarchies"
+      "granted them formal authority within all church hierarchies"
     ],
     correctIndex: 0,
     explanation: "Women often outnumbered men at revivals and moved from religious activity into temperance, abolition, and moral reform societies. Formal ordination remained closed to them in most denominations."
@@ -55,48 +55,48 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-5",
     question: "Black churches that grew during this era served their communities by",
     options: [
-      "avoiding all involvement in political questions",
-      "operating exclusively within southern plantation districts",
+      "operating exclusively within southern plantation districts alone",
       "providing worship, education, and centers of organized activism",
-      "accepting the doctrine that slavery was divinely ordained"
+      "accepting the doctrine that slavery was divinely ordained",
+      "avoiding all involvement in political questions"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Congregations like the AME Church became institutional bases for education and antislavery organizing. Independent Black churches formed partly in response to segregation in white congregations."
   },
   {
     id: "4-10-6",
     question: "Enslaved people's religious practice in this period often involved",
     options: [
+      "attending revivals organized by northern abolitionists",
       "full participation in white-led congregations as equal members",
       "rejecting Christianity entirely across the plantation South",
-      "blending Christian teaching with African traditions in secret gatherings",
-      "attending revivals organized by northern abolitionists"
+      "blending Christian teaching with African traditions in secret"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Hush harbors allowed enslaved communities to worship outside white supervision, emphasizing Exodus and deliverance. Enslavers preached obedience, which is exactly what those gatherings resisted."
   },
   {
     id: "4-10-7",
     question: "Denominations that grew most rapidly during the Second Great Awakening were",
     options: [
-      "Methodists and Baptists, with their accessible and mobile ministries",
-      "Congregationalists and Anglicans, with established clergy",
+      "Congregationalists and Anglicans, with their well-established clergy",
       "Quakers and Unitarians, with quiet meeting traditions",
-      "Catholics and Lutherans, through immigration alone"
+      "Catholics and Lutherans, through immigration alone",
+      "Methodists and Baptists, with accessible and mobile ministries"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Circuit riders and lay preachers reached scattered populations that settled clergy could not. Their organizational flexibility matched the mobility of a rapidly expanding country."
   },
   {
     id: "4-10-8",
     question: "The Awakening's effect on the West was most visible in",
     options: [
+      "camp meetings that drew thousands of frontier settlers",
       "the construction of large urban cathedrals",
       "the establishment of state-supported churches",
-      "declining religious participation among settlers",
-      "camp meetings that drew thousands of frontier settlers"
+      "steadily declining religious participation among settlers"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Camp meetings like Cane Ridge combined worship with social gathering in thinly settled regions. They provided community as much as theology on the frontier."
   },
   {
@@ -106,7 +106,7 @@ window.QUIZ_QUESTIONS = [
       "Camp meetings attracted large crowds in frontier regions",
       "Abolitionists framed slavery as a sin requiring immediate repentance",
       "Methodist membership grew rapidly after 1800",
-      "Revivals emphasized emotional rather than intellectual appeals"
+      "Revivals emphasized emotional rather than purely intellectual appeals"
     ],
     correctIndex: 1,
     explanation: "Casting slavery as sin transformed a political dispute into a moral absolute, hardening antislavery demands. Growth figures and revival style describe the movement without demonstrating political effect."
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-10-10",
     question: "Southern Christianity diverged from northern Christianity in this period chiefly over",
     options: [
+      "whether churches should operate schools for young children",
+      "whether scripture sanctioned or condemned slaveholding",
       "whether revivals should include emotional preaching",
-      "whether women could attend religious services",
-      "whether churches should operate schools for children",
-      "whether scripture sanctioned or condemned slaveholding"
+      "whether women could attend religious services"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Southern clergy developed biblical defenses of slavery while northern reformers called it sin. That split divided major denominations years before the nation itself divided."
   }
 ];

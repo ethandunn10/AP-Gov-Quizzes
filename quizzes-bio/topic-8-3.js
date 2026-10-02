@@ -12,36 +12,36 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.3-2",
     question: "Population density refers to:",
-    options: ["The total number of species in an area", "Individuals per unit area or volume", "The physical size of the organisms", "The rate at which a population grows"],
-    correctIndex: 1,
+    options: ["The rate at which a population grows", "The total number of species in an area", "Individuals per unit area or volume", "The physical size of the organisms"],
+    correctIndex: 2,
     explanation: "Population density measures how many individuals of a population exist within a specific area or volume, distinct from simply the total population size."
   },
   {
     id: "8.3-3",
     question: "Exponential population growth occurs when:",
-    options: ["Resources are extremely limited and scarce", "Resources are abundant and nearly unlimited", "A population's size stays completely constant", "A population is shrinking rapidly"],
-    correctIndex: 1,
+    options: ["A population is shrinking rapidly", "Resources are extremely limited and scarce", "Resources are abundant and nearly unlimited", "A population's size stays completely constant"],
+    correctIndex: 2,
     explanation: "Exponential growth happens under ideal conditions with abundant resources and no significant limiting factors, producing a J-shaped growth curve as the population grows faster and faster over time."
   },
   {
     id: "8.3-4",
     question: "The logistic growth model describes population growth that:",
-    options: ["Increases indefinitely with no limit", "Levels off near carrying capacity", "Immediately crashes to zero", "Has no relationship to available resources"],
-    correctIndex: 1,
+    options: ["Levels off near carrying capacity", "Immediately crashes to zero", "Has no relationship to available resources", "Increases indefinitely with no limit"],
+    correctIndex: 0,
     explanation: "The logistic growth model produces an S-shaped curve, where population growth slows as resources become limited and the population approaches the carrying capacity (K) of its environment."
   },
   {
     id: "8.3-5",
     question: "Which of the following factors directly influence a population's growth rate?",
-    options: ["Birth, death, immigration, emigration", "Only the size of the organism's brain", "Only the color of the organism", "The organism's scientific name"],
-    correctIndex: 0,
+    options: ["Only the color of the organism", "The organism's scientific name", "Birth, death, immigration, emigration", "Only the size of the organism's brain"],
+    correctIndex: 2,
     explanation: "A population's growth rate is determined by the balance between births and deaths, plus the movement of individuals into (immigration) and out of (emigration) the population."
   },
   {
     id: "8.3-6",
     question: "'K-selected' species typically have which of the following life history traits?",
-    options: ["Very high reproduction and no parental care", "Low reproduction, long life, parental care", "No ability to reproduce at all", "Extremely rapid growth in all conditions"],
-    correctIndex: 1,
+    options: ["No ability to reproduce at all", "Extremely rapid growth in all conditions", "Very high reproduction and no parental care", "Low reproduction, long life, parental care"],
+    correctIndex: 3,
     explanation: "K-selected species tend to have fewer offspring, invest more in parental care, mature more slowly, and are adapted to stable environments near carrying capacity, in contrast to r-selected species which prioritize rapid reproduction."
   },
   {
@@ -61,15 +61,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.3-9",
     question: "A limiting factor in population ecology is any resource or condition that:",
-    options: ["Has no effect on population size at all", "Restricts growth or abundance", "Affects one individual, not the population", "Always increases a population's growth"],
-    correctIndex: 1,
+    options: ["Affects one individual, not the population", "Always increases a population's growth", "Has no effect on population size at all", "Restricts growth or abundance"],
+    correctIndex: 3,
     explanation: "Limiting factors — such as food, water, space, or predators — restrict how large a population can grow, ultimately helping determine an environment's carrying capacity."
   },
   {
     id: "8.3-10",
     question: "As a population's growth rate is calculated, which combination of factors would result in the fastest population growth?",
-    options: ["High births and immigration, low deaths", "Low birth rate and high death rate", "Equal birth and death rates, no migration", "High emigration and low immigration"],
-    correctIndex: 0,
+    options: ["Equal birth and death rates, no migration", "High emigration and low immigration", "High births and immigration, low deaths", "Low birth rate and high death rate"],
+    correctIndex: 2,
     explanation: "A population grows fastest when births and immigration (additions) substantially exceed deaths and emigration (losses), maximizing the net increase in individuals."
   },
 ];

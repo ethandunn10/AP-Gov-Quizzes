@@ -12,8 +12,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.2-2",
     question: "A trophic level refers to:",
-    options: ["An organism's species classification", "Its feeding position in a food chain", "The temperature of its habitat", "The organism's total lifespan"],
-    correctIndex: 1,
+    options: ["Its feeding position in a food chain", "The temperature of its habitat", "The organism's total lifespan", "An organism's species classification"],
+    correctIndex: 0,
     explanation: "Trophic levels categorize organisms based on their role/position in the flow of energy through a food chain, such as producers, primary consumers (herbivores), secondary consumers, and so on."
   },
   {
@@ -26,8 +26,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.2-4",
     question: "A food web differs from a simple food chain in that a food web:",
-    options: ["Shows a single, linear pathway of energy", "Shows many interconnected feeding links", "It contains no producers at all", "Only applies to aquatic ecosystems"],
-    correctIndex: 1,
+    options: ["It contains no producers at all", "Only applies to aquatic ecosystems", "Shows a single, linear pathway of energy", "Shows many interconnected feeding links"],
+    correctIndex: 3,
     explanation: "While a food chain shows a single linear sequence of energy transfer, a food web illustrates the more complex, interconnected feeding relationships among many different organisms within an ecosystem."
   },
   {
@@ -47,15 +47,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.2-7",
     question: "Decomposers play a critical ecological role by:",
-    options: ["Preventing nutrients from being recycled", "Breaking down dead matter for nutrients", "Only consuming living plant tissue", "Producing their own energy by photosynthesis"],
-    correctIndex: 1,
+    options: ["Breaking down dead matter for nutrients", "Only consuming living plant tissue", "Producing their own energy by photosynthesis", "Preventing nutrients from being recycled"],
+    correctIndex: 0,
     explanation: "Decomposers (like fungi and bacteria) break down dead organisms and waste products, recycling essential nutrients back into the soil or water where they become available again for producers."
   },
   {
     id: "8.2-8",
     question: "Food chains rarely extend beyond about four or five trophic levels primarily because:",
-    options: ["There is unlimited energy at every level", "So much energy is lost as heat each transfer", "Predators refuse to eat past a certain level", "Producers stop reproducing after four rounds"],
-    correctIndex: 1,
+    options: ["Producers stop reproducing after four rounds", "There is unlimited energy at every level", "So much energy is lost as heat each transfer", "Predators refuse to eat past a certain level"],
+    correctIndex: 2,
     explanation: "Because only about 10% of energy transfers to the next trophic level, the available energy dwindles quickly, generally limiting the number of trophic levels an ecosystem can support before there's not enough energy left to sustain another level."
   },
   {
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "8.2-10",
     question: "Unlike the cycling of nutrients through an ecosystem, the flow of energy through an ecosystem is generally described as:",
-    options: ["Cyclical, since energy is reused indefinitely", "One-directional, since energy is lost as heat", "Completely absent in most ecosystems", "Identical to nutrient cycling in every way"],
-    correctIndex: 1,
+    options: ["One-directional, since energy is lost as heat", "Completely absent in most ecosystems", "Identical to nutrient cycling in every way", "Cyclical, since energy is reused indefinitely"],
+    correctIndex: 0,
     explanation: "While nutrients (like carbon and nitrogen) are cycled and reused within ecosystems, energy flows one-directionally through a food chain, eventually being lost from the system primarily as heat, requiring a constant new input (usually sunlight) to sustain the ecosystem."
   },
 ];

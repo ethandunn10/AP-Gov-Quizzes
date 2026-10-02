@@ -19,15 +19,15 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.6-3",
     question: "The spindle assembly checkpoint (during M phase) ensures that:",
-    options: ["DNA has been correctly replicated in S phase", "All chromosomes are attached to the spindle", "The cell has reached an adequate size", "Cytokinesis begins before metaphase"],
-    correctIndex: 1,
+    options: ["All chromosomes are attached to the spindle", "The cell has reached an adequate size", "Cytokinesis begins before metaphase", "DNA has been correctly replicated in S phase"],
+    correctIndex: 0,
     explanation: "This checkpoint prevents the cell from proceeding to anaphase until every chromosome is correctly attached to spindle fibers from both poles, preventing errors in chromosome segregation."
   },
   {
     id: "4.6-4",
     question: "Cyclins and cyclin-dependent kinases (CDKs) regulate the cell cycle by:",
-    options: ["Directly replicating the cell's DNA themselves", "Forming complexes that drive cycle transitions", "Preventing all cell division permanently", "Functioning only in interphase, never mitosis"],
-    correctIndex: 1,
+    options: ["Functioning only in interphase, never mitosis", "Directly replicating the cell's DNA themselves", "Forming complexes that drive cycle transitions", "Preventing all cell division permanently"],
+    correctIndex: 2,
     explanation: "Cyclin protein levels rise and fall throughout the cycle, binding to and activating specific CDKs; these cyclin-CDK complexes phosphorylate target proteins that drive the cell through key transitions like G1 to S or G2 to M."
   },
   {
@@ -40,8 +40,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.6-6",
     question: "Mutations that inactivate tumor suppressor genes like p53 can contribute to cancer because they:",
-    options: ["Cause the cell cycle to be overly regulated", "They remove a key checkpoint control", "Prevent all cell division entirely", "Only affect cells outside the cell cycle"],
-    correctIndex: 1,
+    options: ["Only affect cells outside the cell cycle", "Cause the cell cycle to be overly regulated", "They remove a key checkpoint control", "Prevent all cell division entirely"],
+    correctIndex: 2,
     explanation: "Without functional p53 to halt division or trigger apoptosis in damaged cells, cells with DNA mutations can continue proliferating unchecked, accumulating further mutations and potentially becoming cancerous."
   },
   {
@@ -54,22 +54,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "4.6-8",
     question: "Apoptosis, or programmed cell death, serves as a regulatory mechanism in the cell cycle by:",
-    options: ["Repairing all DNA damage automatically", "Eliminating damaged or unneeded cells", "Causing uncontrolled cell division", "Occurring only in single-celled organisms"],
-    correctIndex: 1,
+    options: ["Eliminating damaged or unneeded cells", "Causing uncontrolled cell division", "Occurring only in single-celled organisms", "Repairing all DNA damage automatically"],
+    correctIndex: 0,
     explanation: "Apoptosis is a controlled process that safely eliminates damaged, abnormal, or unneeded cells, acting as a critical safeguard against the survival and proliferation of cells that could become cancerous."
   },
   {
     id: "4.6-9",
     question: "Cancer is often described as a disease of the cell cycle because cancer cells typically:",
-    options: ["Divide at the same rate as normal cells do", "Lose control and ignore checkpoints", "They never undergo mitosis at all", "Always undergo apoptosis before dividing"],
-    correctIndex: 1,
+    options: ["Lose control and ignore checkpoints", "They never undergo mitosis at all", "Always undergo apoptosis before dividing", "Divide at the same rate as normal cells do"],
+    correctIndex: 0,
     explanation: "Cancer cells frequently have mutations disabling checkpoint controls and normal growth regulation, allowing them to divide continuously and inappropriately, unlike normal, tightly regulated cells."
   },
   {
     id: "4.6-10",
     question: "Growth factors influence the cell cycle by:",
-    options: ["Directly destroying any damaged DNA", "Binding receptors that trigger cycle progression", "Preventing any signal transduction from occurring", "Only functioning during cytokinesis"],
-    correctIndex: 1,
+    options: ["Only functioning during cytokinesis", "Directly destroying any damaged DNA", "Binding receptors that trigger cycle progression", "Preventing any signal transduction from occurring"],
+    correctIndex: 2,
     explanation: "Growth factors are signaling molecules that bind specific cell-surface receptors, activating transduction pathways (often involving cyclin-CDK activity) that can push a cell past the G1 checkpoint and into the rest of the cell cycle."
   },
 ];

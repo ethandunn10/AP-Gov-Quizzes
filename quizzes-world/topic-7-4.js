@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-1",
     question: "The Great Depression became a global crisis primarily because",
     options: [
-      "a single international bank controlled all world finance",
       "governments immediately abandoned all international trade by choice",
       "trade, credit, and gold tied economies tightly together",
-      "all countries experienced simultaneous crop failures"
+      "all countries experienced simultaneous crop failures",
+      "a single international bank controlled all world finance"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "American credit withdrawal, collapsing commodity prices, and gold standard constraints spread contraction from country to country. Interconnection carried the crisis the same way it had carried prosperity."
   },
   {
@@ -31,12 +31,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-3",
     question: "The Depression's effect on commodity-exporting regions was to",
     options: [
+      "raise commodity prices and increase their total export earnings",
       "collapse commodity prices, wrecking single-export economies outright",
       "leave these economies unaffected",
-      "prompt immediate industrialization everywhere",
-      "raise commodity prices and increase their total export earnings"
+      "prompt immediate industrialization everywhere"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Coffee, rubber, and copper prices fell catastrophically, wrecking the colonial and Latin American economies built around them. Some governments did respond with import-substitution industrialization, but only after severe dislocation."
   },
   {
@@ -67,36 +67,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-6",
     question: "Stalin's Five-Year Plans aimed to",
     options: [
-      "reduce Soviet industrial output",
       "integrate the Soviet economy into world markets",
       "transition the Soviet Union to a fully functioning market economy",
-      "force industrialization, paid for by collectivized farming"
+      "force industrialization, paid for by collectivized farming",
+      "reduce Soviet industrial output"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "The plans set production targets for heavy industry and extracted grain from a collectivized peasantry to pay for it, at the cost of famine that killed millions. Soviet autarky insulated the economy from the Depression."
   },
   {
     id: "7-4-7",
     question: "The Depression contributed to the rise of authoritarian movements because",
     options: [
+      "economic prosperity made populations complacent",
       "mass unemployment made radical alternatives look attractive",
       "authoritarian movements had no economic programs",
-      "democratic governments solved the economic crisis almost immediately",
-      "economic prosperity made populations complacent"
+      "democratic governments solved the economic crisis almost immediately"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Fascist and communist movements offered decisive action and national renewal when parliamentary governments appeared paralyzed. Germany's Nazi vote share tracked unemployment closely."
   },
   {
     id: "7-4-8",
     question: "Import substitution industrialization, adopted in parts of Latin America, involved",
     options: [
-      "sharply increasing imports of manufactured goods from abroad",
       "building domestic industry behind protective tariff walls at home",
       "eliminating all domestic industry",
-      "exporting only raw commodities"
+      "exporting only raw commodities",
+      "sharply increasing imports of manufactured goods from abroad"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "When export earnings collapsed and imports became unaffordable, states such as Brazil and Argentina protected and promoted domestic manufacturing. The crisis made the strategy both necessary and politically possible."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-4-10",
     question: "A historian argues that the Depression 'permanently changed the relationship between states and economies.' The strongest evidence is",
     options: [
-      "the complete withdrawal of governments from economic affairs after 1945",
-      "the abolition of all central banks",
       "the return to nineteenth-century laissez-faire policies after the war",
-      "postwar states accepted duty for jobs and welfare"
+      "postwar states accepted duty for jobs and welfare",
+      "the complete withdrawal of governments from economic affairs after 1945",
+      "the abolition of all central banks"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "After 1945 governments across the democratic world accepted obligations for full employment and social insurance that would have been unthinkable in 1928. The Depression made economic management a permanent state function."
   }
 ];

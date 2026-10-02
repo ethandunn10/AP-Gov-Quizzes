@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-9-1",
     question: "Hydroelectric dams generate electricity by",
     options: [
-      "converting sunlight reflected off the water",
       "burning organic sediment from the reservoir",
       "using falling water to spin turbines",
-      "capturing heat stored in reservoir water"
+      "capturing heat stored in reservoir water",
+      "converting sunlight reflected off the water"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Potential energy from the height difference converts to kinetic energy and then electricity. Output depends on both flow volume and head height."
   },
   {
     id: "6-9-2",
     question: "A major environmental impact of large dams is that they",
     options: [
+      "trap sediment, starving downstream floodplains and deltas",
       "have no measurable effect on river ecosystems",
       "raise water temperature throughout the entire river",
-      "increase sediment delivery to downstream river deltas",
-      "trap sediment, starving downstream floodplains and deltas"
+      "greatly increase sediment delivery to downstream river deltas"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "The Nile delta has eroded substantially since the Aswan High Dam was built. Reservoirs also gradually fill with sediment, reducing storage capacity."
   },
   {
@@ -43,12 +43,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-9-4",
     question: "Reservoirs created by dams can emit greenhouse gases because",
     options: [
-      "the water surface absorbs and reradiates solar heat",
       "flooded vegetation decomposes and releases methane",
       "turbines burn fossil fuel during electricity generation",
-      "concrete in the dam continuously releases carbon dioxide"
+      "concrete in the dam continuously releases carbon dioxide",
+      "the water surface absorbs and reradiates solar heat"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Tropical reservoirs with large flooded biomass emit the most. This complicates the claim that hydropower is entirely emissions free."
   },
   {
@@ -56,7 +56,7 @@ window.QUIZ_QUESTIONS = [
     question: "Pumped storage hydroelectricity functions by",
     options: [
       "diverting river flow permanently into a new channel",
-      "generating electricity continuously at a constant rate",
+      "generating electricity continuously at a perfectly constant rate",
       "pumping water uphill when power is cheap, releasing it later",
       "storing electricity directly in large battery banks"
     ],
@@ -67,48 +67,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-9-6",
     question: "Run of river hydroelectric systems differ from conventional dams in that they",
     options: [
-      "generate substantially more power per installation",
       "block fish passage far more completely than dams",
       "create much larger reservoirs behind the structure",
-      "use natural flow with little or no water storage"
+      "use natural flow with little or no water storage",
+      "generate substantially more power per installation"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Smaller footprint means less habitat flooding and displacement. The tradeoff is output that varies with seasonal river flow."
   },
   {
     id: "6-9-7",
     question: "Large dam projects often displace people, which raises concerns about",
     options: [
+      "increased population density in the flooded valley",
       "loss of homes, farmland, and cultural sites",
       "improved living standards for every affected resident",
-      "the complete absence of any social consequences",
-      "increased population density in the flooded valley"
+      "the complete absence of any social consequences"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "China's Three Gorges Dam displaced well over a million people. Resettlement rarely restores livelihoods fully."
   },
   {
     id: "6-9-8",
     question: "Hydroelectric power is considered renewable because",
     options: [
+      "turbines produce more energy than they consume overall",
       "dams can operate indefinitely without any maintenance",
       "the water cycle continuously replenishes river flow",
-      "reservoirs generate new water through chemical reactions",
-      "turbines produce more energy than they consume overall"
+      "reservoirs generate new water through chemical reactions"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Solar energy drives evaporation and precipitation that refills rivers. Drought and climate change can still reduce generation substantially."
   },
   {
     id: "6-9-9",
     question: "Downstream water temperature below a dam is often altered because",
     options: [
-      "dams prevent any water from flowing downstream",
       "turbines heat the water as it passes through them",
       "water released from reservoir depths is colder",
-      "reservoirs eliminate all seasonal temperature change"
+      "reservoirs eliminate all seasonal temperature change",
+      "dams prevent any water from flowing downstream"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cold hypolimnetic releases can make rivers unsuitable for native warm-water species. Multi-level intake structures can moderate this effect."
   },
   {

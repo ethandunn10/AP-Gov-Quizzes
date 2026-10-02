@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-1-2",
     question: "Industrialization began in Britain rather than elsewhere because Britain had",
     options: [
-      "state ownership of all mines and manufacturing from the outset",
-      "no involvement in overseas colonial trade to distract investment",
       "the largest population and the most fertile farmland in Europe",
-      "accessible coal and iron, farm surplus, capital, and law"
+      "accessible coal and iron, farm surplus, capital, and law",
+      "state ownership of all mines and manufacturing from the outset",
+      "no involvement in overseas colonial trade to distract investment"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Coal near water transport, productive farms, commercial capital, and patent protection combined as they did nowhere else. Colonial markets and raw materials helped rather than hindered."
   },
   {
     id: "6-1-3",
     question: "The most important social consequence of industrialization was",
     options: [
-      "the rise of an industrial working and business middle class",
-      "the return of most Europeans from towns to rural agricultural work",
       "the disappearance of social class as a way of organizing society",
-      "a decline in Europe's total population over the nineteenth century"
+      "a decline in Europe's total population over the nineteenth century",
+      "the rise of an industrial working and business middle class",
+      "the return of most Europeans from towns to rural agricultural work"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Two classes defined by their relationship to industrial production had no clear equivalent in the agrarian order. Population grew rapidly and moved toward cities."
   },
   {
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-1-6",
     question: "The ideologies of liberalism, socialism, and conservatism in this era were",
     options: [
-      "confined to academic discussion with no organized political following",
-      "already discredited and abandoned by the middle of the century",
       "identical programs differing only in the vocabulary each employed",
-      "competing responses to industrial and revolutionary social change"
+      "competing responses to industrial and revolutionary social change",
+      "confined to academic discussion with no organized political following",
+      "already discredited and abandoned by the middle of the century"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Each offered a different account of what industrial society owed its members and how much the old order should be preserved. All three built parties and mass followings."
   },
   {
     id: "6-1-7",
     question: "The Concert of Europe shaped the political context of this period by",
     options: [
-      "working to suppress liberal and nationalist movements after 1815",
       "transferring authority over borders to an elected European assembly",
       "guaranteeing constitutional government in every European state",
-      "eliminating warfare among European powers for the entire century"
+      "eliminating warfare among European powers for the entire century",
+      "working to suppress liberal and nationalist movements after 1815"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Great-power congresses coordinated intervention against revolutions in Spain, Italy, and elsewhere. Limited wars still occurred, notably in Crimea and over German and Italian unification."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-1-10",
     question: "A historian assessing industrialization's significance would argue that it",
     options: [
+      "transformed work, class, politics, and Europe's world position",
       "left European political and social structures essentially unchanged",
       "affected only Britain and had no consequences for the continent",
-      "improved living standards immediately and equally for all workers",
-      "transformed work, class, politics, and Europe's world position"
+      "improved living standards immediately and equally for all workers"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Industrial capacity remade daily life, created new political constituencies, and gave European states decisive advantages abroad. Early living standards are debated, but the transformation itself is not."
   }
 ];

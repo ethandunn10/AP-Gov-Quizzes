@@ -31,72 +31,72 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-3",
     question: "Which watershed characteristic would most increase the speed of runoff?",
     options: [
-      "Deep permeable soils with high infiltration rates",
-      "Dense forest cover across most of the watershed",
       "Steep slopes combined with impervious surfaces",
-      "Extensive wetlands distributed through the basin"
+      "Extensive wetlands distributed through the basin",
+      "Deep permeable soils with high infiltration rates",
+      "Dense forest cover across most of the watershed"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Steepness adds energy and pavement prevents infiltration, producing flashy high peak flows. The other features all slow and absorb water."
   },
   {
     id: "4-6-4",
     question: "Land use in the upper portion of a watershed affects downstream areas because",
     options: [
+      "pollutants and sediment travel downstream with water",
       "watersheds are isolated from one another entirely",
       "downstream areas have no hydrologic connection upstream",
-      "water flows upstream from the mouth to the source",
-      "pollutants and sediment travel downstream with water"
+      "water flows upstream from the mouth to the source"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Fertilizer applied in Iowa contributes to the Gulf of Mexico dead zone. This connectivity is why watershed-scale management is necessary."
   },
   {
     id: "4-6-5",
     question: "Riparian buffer zones improve water quality by",
     options: [
-      "trapping sediment and absorbing nutrients",
-      "increasing the water temperature of the stream",
       "removing all vegetation from the stream bank",
-      "channeling runoff directly into the stream"
+      "channeling runoff directly into the stream",
+      "trapping sediment and absorbing nutrients",
+      "increasing the water temperature of the stream"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Vegetated strips filter runoff, stabilize banks, and shade the water. Restoring buffers is among the most cost-effective water quality practices."
   },
   {
     id: "4-6-6",
     question: "Urbanization within a watershed typically results in",
     options: [
+      "increased baseflow in streams during dry periods",
       "reduced flood peaks and increased infiltration",
       "higher flood peaks and reduced groundwater recharge",
-      "no measurable change in the watershed hydrology",
-      "increased baseflow in streams during dry periods"
+      "no measurable change in the watershed hydrology"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Impervious cover sends water to streams quickly instead of into the ground. Streams become flashier during storms and lower between them."
   },
   {
     id: "4-6-7",
     question: "Watershed discharge is best defined as the",
     options: [
-      "quantity of pollution entering the stream yearly",
-      "total area of land the watershed drains",
       "volume of water passing a point per unit time",
-      "depth of water measured at the stream bank"
+      "depth of water measured at the stream bank",
+      "quantity of pollution entering the stream yearly",
+      "total area of land the watershed drains"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Discharge is typically expressed in cubic meters or cubic feet per second. It combines channel cross-section with water velocity."
   },
   {
     id: "4-6-8",
     question: "Dams affect watershed function primarily by",
     options: [
+      "trapping sediment and altering natural flow regimes",
       "eliminating all flooding throughout the watershed",
       "raising water temperatures in the upstream reservoir",
-      "increasing the sediment reaching downstream deltas",
-      "trapping sediment and altering natural flow regimes"
+      "increasing the sediment reaching downstream deltas"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Sediment settles in the reservoir instead of nourishing downstream floodplains and deltas. Altered flow timing also disrupts fish migration and spawning."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "4-6-10",
     question: "Managing water quality at the watershed scale is preferred because it",
     options: [
-      "focuses only on the segment nearest a single city",
-      "addresses all sources affecting a shared water body",
       "ignores upstream activities that affect water quality",
-      "requires cooperation from only one local government"
+      "requires cooperation from only one local government",
+      "focuses only on the segment nearest a single city",
+      "addresses all sources affecting a shared water body"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Treating the drainage basin as one unit captures cumulative effects that segment-by-segment rules miss. The difficulty is that watersheds usually cross many jurisdictions."
   }
 ];

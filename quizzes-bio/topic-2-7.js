@@ -5,22 +5,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.7-1",
     question: "Osmosis refers specifically to the diffusion of:",
-    options: ["Any solute across a cell membrane", "Water across a selective membrane", "Ions moved by active transport", "Oxygen and carbon dioxide gases"],
-    correctIndex: 1,
+    options: ["Ions moved by active transport", "Oxygen and carbon dioxide gases", "Any solute across a cell membrane", "Water across a selective membrane"],
+    correctIndex: 3,
     explanation: "Osmosis is the passive movement of water across a selectively permeable membrane toward the side with higher solute concentration (lower water concentration)."
   },
   {
     id: "2.7-2",
     question: "A cell placed in a hypertonic solution (higher solute concentration outside than inside) will tend to:",
-    options: ["Swell and possibly burst", "Lose water and shrink (crenate)", "Remain completely unchanged", "Immediately undergo mitosis"],
-    correctIndex: 1,
+    options: ["Remain completely unchanged", "Immediately undergo mitosis", "Swell and possibly burst", "Lose water and shrink (crenate)"],
+    correctIndex: 3,
     explanation: "In a hypertonic environment, water moves out of the cell (down its own concentration gradient, toward the higher solute concentration outside), causing the cell to shrink."
   },
   {
     id: "2.7-3",
     question: "A plant cell placed in a hypotonic solution (lower solute concentration outside than inside) will:",
-    options: ["Lose water and plasmolyze", "Take in water and become turgid", "Remain unaffected by the solution", "Immediately die from the water intake"],
-    correctIndex: 1,
+    options: ["Immediately die from the water intake", "Lose water and plasmolyze", "Take in water and become turgid", "Remain unaffected by the solution"],
+    correctIndex: 2,
     explanation: "Water moves into the plant cell in a hypotonic environment, increasing internal (turgor) pressure against the rigid cell wall, keeping the cell firm rather than bursting."
   },
   {
@@ -33,22 +33,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.7-5",
     question: "A solution that has the same solute concentration as the inside of a cell is described as:",
-    options: ["Hypertonic", "Hypotonic", "Isotonic", "Osmotic"],
-    correctIndex: 2,
+    options: ["Isotonic", "Osmotic", "Hypertonic", "Hypotonic"],
+    correctIndex: 0,
     explanation: "An isotonic solution has an equal solute concentration to the cell's interior, so there is no net movement of water into or out of the cell."
   },
   {
     id: "2.7-6",
     question: "Freshwater fish live in a hypotonic environment relative to their body fluids. To osmoregulate, they must primarily:",
-    options: ["Drink heavily and excrete concentrated urine", "Excrete dilute urine and take up salts", "Let water move freely without regulation", "Stop producing urine entirely"],
-    correctIndex: 1,
+    options: ["Excrete dilute urine and take up salts", "Let water move freely without regulation", "Stop producing urine entirely", "Drink heavily and excrete concentrated urine"],
+    correctIndex: 0,
     explanation: "Because water constantly diffuses into a freshwater fish's body (hypotonic surroundings), it must excrete large amounts of dilute urine and actively absorb salts through its gills to maintain internal balance."
   },
   {
     id: "2.7-7",
     question: "Contractile vacuoles in freshwater protists like Paramecium function to:",
-    options: ["Store the cell's genetic material", "Pump out water gained by osmosis", "Absorb sunlight for photosynthesis", "Break down ingested food particles"],
-    correctIndex: 1,
+    options: ["Pump out water gained by osmosis", "Absorb sunlight for photosynthesis", "Break down ingested food particles", "Store the cell's genetic material"],
+    correctIndex: 0,
     explanation: "Because freshwater protists live in a hypotonic environment, water constantly enters by osmosis; contractile vacuoles actively expel this excess water to prevent the cell from bursting."
   },
   {
@@ -61,8 +61,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.7-9",
     question: "Why do red blood cells placed in distilled (pure) water eventually burst?",
-    options: ["Distilled water is hypertonic to the cells", "Water flows in until the membrane ruptures", "Distilled water pumps solutes into the cell", "Red blood cells have a wall that cannot expand"],
-    correctIndex: 1,
+    options: ["Red blood cells have a wall that cannot expand", "Distilled water is hypertonic to the cells", "Water flows in until the membrane ruptures", "Distilled water pumps solutes into the cell"],
+    correctIndex: 2,
     explanation: "Distilled water contains essentially no solutes, making it strongly hypotonic relative to the cell's cytoplasm; water rushes in by osmosis, and without a cell wall, the red blood cell eventually lyses."
   },
   {

@@ -7,55 +7,55 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-1",
     question: "Wetlands provide flood control by",
     options: [
-      "increasing the peak flow of nearby rivers",
       "channeling water rapidly toward downstream areas",
       "storing floodwater and releasing it slowly",
-      "preventing any precipitation from reaching the ground"
+      "preventing any precipitation from reaching the ground",
+      "increasing the peak flow of nearby rivers"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "A wetland acts as a natural detention basin during storms. Draining wetlands measurably increases downstream flood damage."
   },
   {
     id: "8-4-2",
     question: "Wetlands improve water quality primarily by",
     options: [
+      "trapping sediment and taking up excess nutrients",
       "raising the temperature of water flowing through",
       "concentrating pollutants into a smaller volume",
-      "adding nutrients to the water passing through",
-      "trapping sediment and taking up excess nutrients"
+      "adding nutrients to the water passing through"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Dense vegetation slows water so particles settle out. Constructed wetlands are used deliberately to treat wastewater."
   },
   {
     id: "8-4-3",
     question: "The primary historic cause of wetland loss in the United States has been",
     options: [
+      "natural succession converting wetlands into forest",
       "draining and filling for agriculture and development",
       "sea level rise flooding coastal wetland areas",
-      "invasive species outcompeting native wetland plants",
-      "natural succession converting wetlands into forest"
+      "invasive species outcompeting native wetland plants"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "More than half of the contiguous states' original wetlands have been lost. Federal policy actively encouraged drainage for much of the nation's history."
   },
   {
     id: "8-4-4",
     question: "Mangrove forests protect coastlines by",
     options: [
+      "raising the salinity of adjacent coastal soils",
       "increasing the energy of incoming storm waves",
       "absorbing wave energy and trapping sediment",
-      "preventing any sediment from reaching the shore",
-      "raising the salinity of adjacent coastal soils"
+      "preventing any sediment from reaching the shore"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Dense prop roots dissipate wave energy before it reaches land. Communities behind intact mangroves suffered far less damage in major tsunamis."
   },
   {
     id: "8-4-5",
     question: "Mangroves serve as nursery habitat, meaning they",
     options: [
-      "provide habitat exclusively for terrestrial birds",
+      "provide habitat exclusively for terrestrial bird species",
       "support only adult fish of commercial species",
       "shelter juvenile fish and invertebrates from predators",
       "prevent any fish from entering the root system"
@@ -79,24 +79,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-7",
     question: "Wetlands and mangroves are significant carbon sinks because they",
     options: [
-      "store large amounts of carbon in waterlogged soils",
       "contain no organic matter in their sediments",
       "decompose organic material faster than any biome",
-      "release stored carbon rapidly into the atmosphere"
+      "release stored carbon rapidly into the atmosphere",
+      "store large amounts of carbon in waterlogged soils"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Waterlogged anaerobic conditions slow decomposition dramatically. This blue carbon is released when wetlands are drained or cleared."
   },
   {
     id: "8-4-8",
     question: "Loss of coastal wetlands in Louisiana has been driven largely by",
     options: [
-      "increased sediment delivery from the Mississippi River",
       "levees cutting off sediment plus canal dredging",
       "the expansion of protected wildlife refuge areas",
-      "declining sea levels exposing new coastal land"
+      "declining sea levels exposing new coastal land",
+      "increased sediment delivery from the Mississippi River"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Levees send Mississippi sediment into deep water instead of onto marshes. Subsidence and sea level rise then drown the sediment-starved wetlands."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-4-10",
     question: "The economic value of wetland ecosystem services is often underestimated because",
     options: [
-      "wetland services have been precisely priced for decades",
-      "all wetland benefits accrue to a single landowner",
       "wetlands provide no benefits humans actually use",
-      "flood control and filtration are not traded in markets"
+      "flood control and filtration are not traded in markets",
+      "wetland services have been precisely priced for decades",
+      "all wetland benefits accrue to a single landowner"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Without a market price, these services are invisible in conventional accounting. Replacement cost studies show the values are substantial."
   }
 ];

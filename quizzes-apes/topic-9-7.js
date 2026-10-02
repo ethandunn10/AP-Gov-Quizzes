@@ -8,7 +8,7 @@ window.QUIZ_QUESTIONS = [
     question: "Ocean acidification occurs when",
     options: [
       "carbon dioxide dissolves in seawater forming carbonic acid",
-      "industrial acids are discharged into coastal waters",
+      "industrial acids being discharged directly into coastal waters",
       "ocean temperature rises above a critical threshold",
       "acid rain falls directly onto the ocean surface"
     ],
@@ -19,7 +19,7 @@ window.QUIZ_QUESTIONS = [
     id: "9-7-2",
     question: "Ocean pH has fallen from about 8.2 to 8.1 since preindustrial times, which represents",
     options: [
-      "a negligible change with no biological significance",
+      "an entirely negligible change with no biological significance",
       "roughly a 30 percent increase in hydrogen ion concentration",
       "the ocean becoming acidic rather than alkaline",
       "a 0.1 percent change in ocean chemistry overall"
@@ -43,36 +43,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-7-4",
     question: "Organisms most vulnerable to ocean acidification include",
     options: [
-      "marine mammals such as whales and dolphins",
-      "seaweeds and kelp photosynthesizing in shallows",
       "large predatory fish near the top of food webs",
-      "corals, oysters, and pteropods that build shells"
+      "corals, oysters, and pteropods that build shells",
+      "marine mammals such as whales and dolphins",
+      "seaweeds and kelp photosynthesizing in shallows"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Any organism building calcium carbonate structures is at risk. Pteropods are a critical food source in polar marine food webs."
   },
   {
     id: "9-7-5",
     question: "Pacific Northwest oyster hatcheries experienced failures in the 2000s because",
     options: [
-      "upwelled acidified water dissolved developing larval shells",
-      "an invasive predator species entered the hatcheries",
       "excessive nutrients triggered blooms that killed larvae",
-      "warming water raised temperatures above oyster tolerance"
+      "warming water raised temperatures above oyster tolerance",
+      "upwelled acidified water dissolved developing larval shells",
+      "an invasive predator species entered the hatcheries"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "This was among the first documented economic impacts of acidification. Hatcheries now monitor water chemistry and buffer intake water."
   },
   {
     id: "9-7-6",
     question: "Ocean acidification is sometimes called the other CO₂ problem because it",
     options: [
-      "is caused by a completely different set of pollutants",
       "stems from the same emissions that cause warming",
       "affects only the atmosphere rather than the ocean",
-      "can be solved without reducing carbon emissions"
+      "can be solved without reducing carbon emissions",
+      "is caused by a completely different set of pollutants"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Both problems trace to the same root cause. Solar geoengineering could address warming while leaving acidification entirely unchecked."
   },
   {
@@ -91,36 +91,36 @@ window.QUIZ_QUESTIONS = [
     id: "9-7-8",
     question: "Acidification threatens fisheries indirectly by",
     options: [
+      "disrupting shell forming organisms at food web bases",
       "raising ocean temperatures beyond fish tolerance",
       "increasing the total oxygen dissolved in seawater",
-      "making fish flesh unsafe for human consumption",
-      "disrupting shell forming organisms at food web bases"
+      "making fish flesh unsafe for human consumption"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Losing pteropods and other calcifiers would ripple upward through food webs. The economic consequences for fisheries could be substantial."
   },
   {
     id: "9-7-9",
     question: "The only effective long term solution to ocean acidification is",
     options: [
-      "reducing carbon dioxide emissions to the atmosphere",
       "relocating vulnerable species to protected areas",
       "cooling ocean water through engineered interventions",
-      "adding alkaline material to the world's oceans"
+      "adding alkaline material to the world's oceans",
+      "reducing carbon dioxide emissions to the atmosphere"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Local alkalinity addition may protect small areas temporarily. Only cutting emissions addresses the problem at global scale."
   },
   {
     id: "9-7-10",
     question: "Acidification and warming together are especially damaging to coral reefs because",
     options: [
-      "the two stressors cancel each other out entirely",
       "bleaching and weakened skeletons compound the harm",
       "only one stressor can affect a reef at any time",
-      "corals adapt easily to both changes simultaneously"
+      "corals adapt easily to both changes simultaneously",
+      "the two stressors cancel each other out entirely"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Heat stress expels the algae while acidification slows skeleton building. Recovery between bleaching events becomes progressively harder."
   }
 ];

@@ -8,12 +8,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-9-1",
     question: "Which causal chain best explains German unification?",
     options: [
+      "A liberal national assembly drafted a constitution that all rulers accepted",
       "Austria voluntarily surrendered leadership of the German states to Prussia",
       "French support for German unity persuaded the southern states to join",
-      "Prussian economic weight and Bismarck's wars excluded Austria",
-      "A liberal national assembly drafted a constitution that all rulers accepted"
+      "Prussian economic weight and Bismarck's wars excluded Austria"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "The Zollverein tied the states to Prussia economically, and three wars settled the political question by force. The 1848 parliamentary route had already failed."
   },
   {
@@ -32,60 +32,60 @@ window.QUIZ_QUESTIONS = [
     id: "7-9-3",
     question: "The relationship between industrialization and imperialism is best described as",
     options: [
+      "imperialism preventing industrial growth wherever it was pursued",
       "industry created both the demand for colonies and the means",
       "imperialism causing industrialization in the European metropoles",
-      "the two processes proceeding with no connection to each other",
-      "imperialism preventing industrial growth wherever it was pursued"
+      "the two processes proceeding with no connection to each other"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Factories needed materials and markets while steamers, quinine, and machine guns made conquest cheap. Neither the motive nor the capability alone explains the scramble."
   },
   {
     id: "7-9-4",
     question: "Which pair of developments has the strongest causal relationship?",
     options: [
-      "The Reform Act of 1832 and Italian unification under Piedmont",
-      "Nationalism in the Balkans and great-power crisis before 1914",
       "Impressionist painting and the German Zollverein customs union",
-      "Pasteur's germ theory and the partition of the African continent"
+      "Pasteur's germ theory and the partition of the African continent",
+      "The Reform Act of 1832 and Italian unification under Piedmont",
+      "Nationalism in the Balkans and great-power crisis before 1914"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Serbian ambitions threatened Austria-Hungary while Russia backed Slavic claims, so Balkan nationalism repeatedly produced great-power confrontation. The other pairings link unconnected developments."
   },
   {
     id: "7-9-5",
     question: "A student argues that nationalism alone caused the First World War. The best refinement is that",
     options: [
-      "nationalism played no part in the outbreak of the conflict",
       "the war resulted entirely from economic competition over colonies",
       "nationalism interacted with alliances and imperial rivalry",
-      "the war was an accident in which no political decisions were made"
+      "the war was an accident in which no political decisions were made",
+      "nationalism played no part in the outbreak of the conflict"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Balkan nationalism supplied the spark, but alliance obligations and mobilization timetables turned a regional dispute into a continental war. Isolating a single cause misrepresents the period."
   },
   {
     id: "7-9-6",
     question: "The most significant effect of Social Darwinism on European politics was that it",
     options: [
-      "led governments to abandon all colonial territorial claims",
-      "had no measurable influence on policy in any European state",
       "encouraged cooperation and arbitration among the European powers",
-      "made conquest and inequality appear natural rather than chosen"
+      "made conquest and inequality appear natural rather than chosen",
+      "led governments to abandon all colonial territorial claims",
+      "had no measurable influence on policy in any European state"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Casting competition as natural law insulated imperial and racial policy from moral challenge. The vocabulary shaped how statesmen and publics understood rivalry before 1914."
   },
   {
     id: "7-9-7",
     question: "Which factor best explains why Italy and Germany unified when they did?",
     options: [
-      "1848's failure taught nationalists that force would be needed",
-      "The great powers jointly sponsored unification in both territories",
       "Popular assemblies in both regions voted unanimously for union",
-      "Austria actively promoted unification in Italy and in Germany alike"
+      "Austria actively promoted unification in Italy and in Germany alike",
+      "1848's failure taught nationalists that force would be needed",
+      "The great powers jointly sponsored unification in both territories"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Cavour and Bismarck drew the lesson that liberal assemblies without armies achieve nothing, and both used war deliberately. Austria was the obstacle each had to remove."
   },
   {
@@ -116,12 +116,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-9-10",
     question: "Which conclusion about 1815 to 1914 is best supported by evidence across the unit?",
     options: [
+      "Industrial power, nationalism, and rivalry reinforced each other",
       "Political and economic developments proceeded in complete isolation",
       "European states grew steadily more cooperative across the century",
-      "The period saw no significant change in Europe's global position",
-      "Industrial power, nationalism, and rivalry reinforced each other"
+      "The period saw no significant change in Europe's global position"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Industry funded armies, nationalism supplied motive and manpower, and empire became the measure of standing among states. Those strands converged on the crisis of 1914."
   }
 ];

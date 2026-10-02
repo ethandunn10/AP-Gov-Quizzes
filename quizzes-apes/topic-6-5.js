@@ -7,48 +7,48 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-1",
     question: "Fossil fuels formed from",
     options: [
-      "carbon dioxide dissolving into deep groundwater",
-      "minerals precipitating out of ancient ocean water",
       "buried organic matter altered by heat and pressure",
-      "volcanic gases condensing deep within Earth's crust"
+      "volcanic gases condensing deep within Earth's crust",
+      "carbon dioxide dissolving into deep groundwater",
+      "minerals precipitating out of ancient ocean water"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Coal formed from plant material in swamps; oil and gas from marine plankton. The process required millions of years under specific conditions."
   },
   {
     id: "6-5-2",
     question: "Burning fossil fuels affects the carbon cycle mainly by",
     options: [
-      "converting atmospheric carbon into sedimentary rock",
       "having no measurable effect on atmospheric carbon",
       "permanently removing carbon from the atmosphere",
-      "releasing long buried carbon into the air rapidly"
+      "releasing long buried carbon into the air rapidly",
+      "converting atmospheric carbon into sedimentary rock"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Carbon stored over hundreds of millions of years is released in centuries. The rate of transfer is what overwhelms natural sinks."
   },
   {
     id: "6-5-3",
     question: "A coal fired power plant converts chemical energy to electricity through the sequence",
     options: [
+      "coal to electricity directly with no intermediate steps",
       "coal to heat, steam, turbine rotation, then electricity",
       "coal to sunlight, then to heat, then to electricity",
-      "coal to nuclear energy, then to heat, then electricity",
-      "coal to electricity directly with no intermediate steps"
+      "coal to nuclear energy, then to heat, then electricity"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Each conversion step loses energy as waste heat. Typical coal plant efficiency is only about 33 to 40 percent."
   },
   {
     id: "6-5-4",
     question: "Which pollutant released by coal combustion is most associated with acid deposition?",
     options: [
+      "Mercury vapor released from trace coal impurities",
       "Carbon dioxide released during complete combustion",
       "Sulfur dioxide and nitrogen oxide emissions",
-      "Water vapor released from the cooling towers",
-      "Mercury vapor released from trace coal impurities"
+      "Water vapor released from the cooling towers"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "These gases form sulfuric and nitric acid in the atmosphere. Mercury is a serious coal pollutant but causes bioaccumulation rather than acidity."
   },
   {
@@ -67,12 +67,12 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-6",
     question: "Oil spills cause ecological damage primarily by",
     options: [
+      "coating organisms and smothering coastal habitats",
       "raising the oxygen content of affected seawater",
       "lowering water temperature in the spill area",
-      "increasing the nutrients available to marine algae",
-      "coating organisms and smothering coastal habitats"
+      "increasing the nutrients available to marine algae"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Oil destroys the insulating properties of fur and feathers and poisons organisms. Marshes and mangroves recover especially slowly."
   },
   {
@@ -91,24 +91,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-5-8",
     question: "Carbon capture and storage aims to",
     options: [
-      "prevent the combustion of any fossil fuels at all",
       "trap CO₂ from exhaust and store it underground",
       "convert carbon dioxide directly into usable fuel",
-      "remove sulfur compounds before the fuel is burned"
+      "remove sulfur compounds before the fuel is burned",
+      "prevent the combustion of any fossil fuels at all"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Captured CO₂ is compressed and injected into deep geological formations. High cost and energy penalty have limited deployment so far."
   },
   {
     id: "6-5-9",
     question: "Fossil fuel subsidies are criticized by economists because they",
     options: [
+      "apply only to renewable energy technologies",
       "have been eliminated in nearly every country",
       "reflect the full environmental cost of burning fuel",
-      "lower prices and encourage greater consumption",
-      "apply only to renewable energy technologies"
+      "lower prices and encourage greater consumption"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Subsidies push consumption above what unsubsidized prices would support. Reforming them is widely seen as among the cheapest climate policies available."
   },
   {

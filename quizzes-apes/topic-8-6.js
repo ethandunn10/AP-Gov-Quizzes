@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-6-1",
     question: "Thermal pollution is best defined as",
     options: [
+      "the accumulation of excess heat within the atmosphere",
       "warming of surface air over urban areas",
       "the release of toxic chemicals into warm water",
-      "a change in water temperature that harms ecosystems",
-      "the accumulation of heat within the atmosphere"
+      "a change in water temperature that harms ecosystems"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Both heating and cooling can qualify as thermal pollution. Cold releases below dams are a recognized form of it."
   },
   {
     id: "8-6-2",
     question: "The largest source of thermal pollution in waterways is",
     options: [
+      "cooling water discharged by power plants",
       "municipal sewage released after treatment",
       "stormwater running off heated urban pavement",
-      "agricultural irrigation return flow from farm fields",
-      "cooling water discharged by power plants"
+      "agricultural irrigation return flow from farm fields"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Thermoelectric plants withdraw enormous volumes for condenser cooling. Both fossil and nuclear plants contribute substantially."
   },
   {
@@ -33,7 +33,7 @@ window.QUIZ_QUESTIONS = [
     options: [
       "holds less dissolved oxygen while raising metabolic demand",
       "contains higher concentrations of toxic heavy metals",
-      "prevents any photosynthesis from occurring underwater",
+      "prevents any photosynthesis at all from occurring underwater",
       "holds more dissolved oxygen than cold water does"
     ],
     correctIndex: 0,
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-6-6",
     question: "Once through cooling systems differ from closed loop systems in that once through systems",
     options: [
+      "withdraw water, use it once, and return it heated",
       "use no water at all in the cooling process",
       "cool water below its original ambient temperature",
-      "recirculate the same water repeatedly through the plant",
-      "withdraw water, use it once, and return it heated"
+      "recirculate the same water repeatedly through the plant"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Once through systems also kill organisms through impingement and entrainment. Regulations have pushed many plants toward closed loop cooling."
   },
   {
     id: "8-6-7",
     question: "Thermal pollution can shift a stream community by",
     options: [
+      "favoring cold water species such as trout",
       "replacing cold water species with warm tolerant ones",
       "eliminating every species from the affected reach",
-      "having no effect on which species are present",
-      "favoring cold water species such as trout"
+      "having no effect on which species are present"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Trout and salmon give way to carp and catfish as water warms. The community persists but its composition and value change."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-6-9",
     question: "Urban stormwater causes thermal pollution when rain",
     options: [
+      "soaks into shaded soil before reaching a channel",
       "evaporates before it can reach any waterway",
       "falls directly into streams during cool weather",
-      "runs across hot pavement before entering streams",
-      "soaks into shaded soil before reaching a channel"
+      "runs across hot pavement before entering streams"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Summer runoff from asphalt can arrive many degrees above ambient. Green infrastructure that promotes infiltration reduces this effect."
   },
   {

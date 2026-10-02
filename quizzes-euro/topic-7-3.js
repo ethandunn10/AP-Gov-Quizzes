@@ -7,12 +7,12 @@ window.QUIZ_QUESTIONS = [
     id: "7-3-1",
     question: "Italian unification was achieved primarily through",
     options: [
-      "a papal decree uniting the Italian states under Rome",
       "a spontaneous popular rising with no state or military leadership",
       "Piedmontese diplomacy and war combined with Garibaldi's campaigns",
-      "Austrian sponsorship of a unified Italian kingdom"
+      "Austrian sponsorship of a unified Italian kingdom",
+      "a papal decree uniting the Italian states under Rome"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Cavour secured French help against Austria while Garibaldi's Thousand took the south, and the pieces were joined under Piedmont. The papacy resisted unification and lost Rome in 1870."
   },
   {
@@ -31,36 +31,36 @@ window.QUIZ_QUESTIONS = [
     id: "7-3-3",
     question: "German unification under Bismarck was accomplished by",
     options: [
-      "three successful wars against Denmark, Austria, and France",
       "Austrian leadership of a federation including all German states",
       "a national assembly drafting and adopting a liberal constitution",
-      "the voluntary agreement of all German rulers without conflict"
+      "the voluntary agreement of all German rulers without conflict",
+      "three successful wars against Denmark, Austria, and France"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Each war advanced Prussian leadership and excluded Austria, culminating in the empire proclaimed at Versailles in 1871. Bismarck had dismissed the 1848 parliamentary route explicitly."
   },
   {
     id: "7-3-4",
     question: "Bismarck's phrase 'blood and iron' expressed his belief that",
     options: [
+      "Germany should avoid all use of force in foreign affairs",
       "unification required the approval of the other great powers",
       "German unity would come through military and industrial power",
-      "parliamentary debate would decide the German question peacefully",
-      "Germany should avoid all use of force in foreign affairs"
+      "parliamentary debate would decide the German question peacefully"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "He told the Prussian parliament that the great questions of the day would be settled by force rather than by speeches and majority votes. Events largely bore him out."
   },
   {
     id: "7-3-5",
     question: "The Franco-Prussian War of 1870-1871 resulted in",
     options: [
+      "French annexation of the German Rhineland provinces",
       "a negotiated settlement leaving all borders unchanged",
       "Austrian leadership of a newly unified German state",
-      "German unification and French loss of Alsace-Lorraine",
-      "French annexation of the German Rhineland provinces"
+      "German unification and French loss of Alsace-Lorraine"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Southern German states joined Prussia against France, and the empire was proclaimed at Versailles. The seizure of Alsace-Lorraine left a grievance that shaped French policy until 1918."
   },
   {
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "7-3-9",
     question: "The Balkan crises before 1914 were dangerous because they",
     options: [
-      "had been resolved permanently by the Congress of Berlin",
       "concerned only economic disputes over trade and tariffs",
       "set Austrian and Russian interests against each other directly",
-      "involved no great power interests in the region whatsoever"
+      "involved no great power interests in the region whatsoever",
+      "had been resolved permanently by the Congress of Berlin"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Austria-Hungary feared Serbian nationalism while Russia claimed a protective role over Slavic peoples, so each Balkan dispute risked a great-power confrontation. Sarajevo triggered exactly that sequence."
   },
   {
     id: "7-3-10",
     question: "A historian comparing Italian and German unification would note that both",
     options: [
-      "resulted from liberal assemblies drafting national constitutions",
-      "occurred without any foreign war or great-power involvement",
       "produced federal republics with universal adult suffrage",
-      "were achieved by a dominant state using war and diplomacy"
+      "were achieved by a dominant state using war and diplomacy",
+      "resulted from liberal assemblies drafting national constitutions",
+      "occurred without any foreign war or great-power involvement"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Piedmont and Prussia each supplied the army and statecraft that turned cultural nationalism into a state. Both new states were monarchies with limited franchises, not liberal republics."
   }
 ];

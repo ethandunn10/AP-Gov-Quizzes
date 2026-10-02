@@ -7,60 +7,60 @@ window.QUIZ_QUESTIONS = [
     id: "5-12-1",
     question: "In much of Sub-Saharan Africa and South Asia, women's agricultural labor is characterized by",
     options: [
-      "ownership of most farmland alongside most of the labor",
       "work confined to commercial export crops for foreign sale",
       "exclusion from farming by longstanding legal prohibition",
-      "a large share of food production with limited land rights"
+      "a large share of food production with limited land rights",
+      "ownership of most farmland alongside most of the labor"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Women commonly supply much of the labor for subsistence food crops while formal title and inheritance pass through men. That gap between contribution and control is the central pattern."
   },
   {
     id: "5-12-2",
     question: "The gender division of labor in subsistence agriculture often assigns women",
     options: [
+      "management of large commercial livestock ranches",
       "operation of heavy mechanized harvesting equipment",
       "planting, weeding, processing, and water collection",
-      "negotiation of export contracts with foreign buyers",
-      "management of large commercial livestock ranches"
+      "negotiation of export contracts with foreign buyers"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Tasks that are labor-intensive, repetitive, and close to the household tend to fall to women, along with food preparation and fuel and water gathering. Mechanized and commercial roles are more often male-dominated."
   },
   {
     id: "5-12-3",
     question: "Limited access to credit affects women farmers most directly by",
     options: [
-      "guaranteeing them priority in agricultural training",
-      "increasing the acreage they are able to cultivate",
       "restricting purchase of seed, fertilizer, and tools",
-      "requiring them to sell output at higher market prices"
+      "requiring them to sell output at higher market prices",
+      "guaranteeing them priority in agricultural training",
+      "increasing the acreage they are able to cultivate"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Without collateral, which usually means land title, women cannot borrow for the inputs that raise yields. Microfinance programs were designed largely to address this specific barrier."
   },
   {
     id: "5-12-4",
     question: "Agricultural extension services have historically underserved women because programs often",
     options: [
-      "operated only in countries with commercial agriculture",
       "focused exclusively on crops grown by women farmers",
       "targeted the registered landholder, who was usually male",
-      "required participants to hold a university level degree"
+      "required participants to hold a university level degree",
+      "operated only in countries with commercial agriculture"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Outreach followed formal ownership records, so the person actually working the field was frequently bypassed. Redesigning delivery to reach women directly has measurably improved yields."
   },
   {
     id: "5-12-5",
     question: "Research suggests that closing the gender gap in agricultural inputs would",
     options: [
+      "leave total agricultural output essentially unchanged",
       "raise yields on women's farms and reduce hunger",
       "shift all food production toward export commodities",
-      "reduce the number of people employed in farming",
-      "leave total agricultural output essentially unchanged"
+      "reduce the number of people employed in farming"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "FAO estimates that equal access to inputs would raise women's farm yields substantially, enough to reduce the number of undernourished people worldwide. The gap reflects access, not ability."
   },
   {
@@ -79,48 +79,48 @@ window.QUIZ_QUESTIONS = [
     id: "5-12-7",
     question: "Green Revolution technologies affected women farmers unevenly because the new inputs",
     options: [
-      "reduced the total labor women contributed to farming",
-      "were distributed first to those with capital and title",
       "were designed specifically for the crops women grew",
-      "required no purchase and were freely available to all"
+      "required no purchase and were freely available to all",
+      "reduced the total labor women contributed to farming",
+      "were distributed first to those with capital and title"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Seed, fertilizer, and irrigation went to those who could pay and could borrow, which meant male landholders. Mechanization also displaced some paid tasks that women had performed."
   },
   {
     id: "5-12-8",
     question: "In commercial plantation agriculture, women workers are frequently concentrated in",
     options: [
+      "seasonal and lower paid harvesting and sorting work",
       "roles operating and maintaining heavy farm machinery",
       "positions negotiating prices with international buyers",
-      "supervisory and management positions on the estate",
-      "seasonal and lower paid harvesting and sorting work"
+      "supervisory and management positions on the estate"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Tea picking, flower cutting, and produce packing draw heavily on women's labor at low wages with little security. Supervisory and technical roles remain disproportionately male."
   },
   {
     id: "5-12-9",
     question: "Land inheritance customs matter to women in agriculture because they determine",
     options: [
-      "whether women can own, use, and borrow against land",
       "the international price a harvested commodity will earn",
       "the distance a village lies from the nearest urban market",
-      "which crops the local climate is capable of supporting"
+      "which crops the local climate is capable of supporting",
+      "whether women can own, use, and borrow against land"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Customary rules that pass land through male lines leave women's access dependent on marriage or male relatives. Secure tenure is what converts labor into investment and creditworthiness."
   },
   {
     id: "5-12-10",
     question: "Improving women's status in agriculture is considered a development priority because it",
     options: [
+      "eliminates the need for any agricultural extension programs",
       "shifts subsistence farming toward export crop production",
       "raises household nutrition, income, and children's schooling",
-      "reduces the number of people working in the farm sector",
-      "eliminates the need for any agricultural extension programs"
+      "reduces the number of people working in the farm sector"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Income controlled by women is disproportionately spent on food, health, and education, so gains propagate through the household. This multiplier effect is why gender equity is treated as a development lever rather than only a rights question."
   }
 ];

@@ -8,24 +8,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-1",
     question: "Which causal chain best explains the acceleration of European imperialism after 1870?",
     options: [
+      "European population decline forced states to seek new land for settlement",
       "Colonized societies invited European administration to develop their economies",
       "The end of the Atlantic slave trade eliminated all economic interest in Africa",
-      "Industrial demand, new technology, and great-power rivalry",
-      "European population decline forced states to seek new land for settlement"
+      "Industrial demand, new technology, and great-power rivalry"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Three converging causes — economic demand, technological capability, and competitive pressure — explain why conquest accelerated so sharply in these decades. European populations were growing, not declining."
   },
   {
     id: "6-8-2",
     question: "The most direct cause of the massive firepower gap between European and African forces after 1870 was",
     options: [
-      "the absence of any military organization at all in African societies",
-      "European numerical superiority in soldiers",
       "African rejection of firearms technology",
-      "mass-produced rifles and machine guns others could not make"
+      "mass-produced rifles and machine guns others could not make",
+      "the absence of any military organization at all in African societies",
+      "European numerical superiority in soldiers"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Industrial arsenals turned out weapons with rates of fire that non-industrial societies could neither match nor produce, and arms embargoes limited their purchase. African armies eagerly acquired firearms where they could — Ethiopia's success at Adwa depended on it."
   },
   {
@@ -56,60 +56,60 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-5",
     question: "Which effect of imperialism proved most consequential for the twentieth century?",
     options: [
+      "The introduction of European cuisine to the colonized regions",
       "The construction of a small number of colonial monuments",
       "The temporary presence of European administrators",
-      "borders that grouped or split peoples without regard to them",
-      "The introduction of European cuisine to the colonized regions"
+      "borders that grouped or split peoples without regard to them"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Borders inherited at independence produced states whose populations had no shared political history, contributing to conflicts that persist. Among imperialism's many legacies, this one shaped the structure of the postcolonial state system itself."
   },
   {
     id: "6-8-6",
     question: "A student claims that 'technology caused imperialism.' The best refinement of this claim is that technology",
     options: [
-      "had no role in imperial expansion",
       "was the only factor that mattered in every case",
       "was developed specifically and only for the purpose of colonial conquest",
-      "made conquest cheap, but interest and rivalry gave the motive"
+      "made conquest cheap, but interest and rivalry gave the motive",
+      "had no role in imperial expansion"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Capability and motive are different things: quinine and machine guns lowered the cost of conquest, but they do not explain why states wanted territory. Confusing enabling conditions with causes is a common analytical error."
   },
   {
     id: "6-8-7",
     question: "Which pair of developments has the strongest causal relationship?",
     options: [
+      "The Suez Canal and the Chinese Exclusion Act",
       "Abolition of slavery and the rise of indentured migration",
       "The Berlin Conference and the invention of the steam engine in Britain",
-      "The Taiping Rebellion and the Irish potato famine",
-      "The Suez Canal and the Chinese Exclusion Act"
+      "The Taiping Rebellion and the Irish potato famine"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Plantation owners who lost enslaved labor turned directly to indentured recruitment in India and China — one caused the other. The other pairings involve events connected only by occurring in the same century."
   },
   {
     id: "6-8-8",
     question: "The most significant cause of economic divergence between industrialized and colonized regions was",
     options: [
-      "innate differences between populations",
-      "compounding industrial gains plus curbs on colonial industry",
       "differences in climate alone",
-      "the complete absence of any trade at all between the two sets of regions"
+      "the complete absence of any trade at all between the two sets of regions",
+      "innate differences between populations",
+      "compounding industrial gains plus curbs on colonial industry"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Compounding industrial advantage plus deliberate restriction of colonial manufacturing — India's textile sector is the clearest case — together produced the gap. Trade between these regions was intense, and it was structured to reinforce the divergence."
   },
   {
     id: "6-8-9",
     question: "Which statement best explains why some states resisted colonization successfully while others did not?",
     options: [
-      "No state successfully resisted colonization",
-      "Resistance succeeded only where colonizers made no serious attempt at all",
       "central authority, modern weapons, and favorable timing",
-      "Success depended entirely on population size"
+      "Success depended entirely on population size",
+      "No state successfully resisted colonization",
+      "Resistance succeeded only where colonizers made no serious attempt at all"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Ethiopia under Menelik II and Japan after the Meiji Restoration both had centralizing states that acquired modern arms in time. Population alone explains nothing — China and India were the most populous societies and were subordinated."
   },
   {

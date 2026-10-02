@@ -7,43 +7,43 @@ window.QUIZ_QUESTIONS = [
     id: "2-10-1",
     question: "Push factors in migration are conditions that",
     options: [
-      "drive people away from their place of origin",
-      "attract people toward a particular destination",
       "prevent any movement between two regions",
-      "determine the route a migrant chooses to travel"
+      "determine the route a migrant chooses to travel",
+      "drive people away from their place of origin",
+      "attract people toward a particular destination"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "War, unemployment, persecution, and environmental degradation push people out. Pull factors such as jobs and safety operate at the destination instead."
   },
   {
     id: "2-10-2",
     question: "Which is best classified as a pull factor?",
     options: [
-      "Crop failure caused by prolonged regional drought",
-      "Available employment and higher wages in a destination country",
       "Armed conflict occurring in one's home region",
-      "Political persecution by the government of one's home country"
+      "Political persecution by the government of one's home country",
+      "Crop failure caused by prolonged regional drought",
+      "Available employment and higher wages in a destination country"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Pull factors draw migrants toward a place, and economic opportunity is the most common. The other three options describe conditions people are fleeing."
   },
   {
     id: "2-10-3",
     question: "Intervening obstacles in migration refer to",
     options: [
-      "conditions that attract migrants toward a destination",
-      "opportunities that cause migrants to settle short of their goal",
       "barriers such as borders, cost, or terrain encountered en route",
-      "the reasons a migrant decided to leave in the first place"
+      "the reasons a migrant decided to leave in the first place",
+      "conditions that attract migrants toward a destination",
+      "opportunities that cause migrants to settle short of their goal"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Visa requirements, deserts, seas, and the price of passage can halt or divert a journey. Intervening opportunities are the separate concept of chances taken along the way."
   },
   {
     id: "2-10-4",
     question: "Ravenstein's laws of migration proposed that most migrants",
     options: [
-      "travel only over very long international distances",
+      "tend to travel only over very long international distances",
       "are elderly people moving after retirement",
       "move without any economic motivation whatsoever",
       "move short distances, with long-distance moves to cities"
@@ -67,24 +67,24 @@ window.QUIZ_QUESTIONS = [
     id: "2-10-6",
     question: "Environmental push factors include",
     options: [
-      "abundant rainfall and consistently fertile agricultural soils",
-      "drought, flooding, soil degradation, and sea-level rise",
       "moderate climate and reliable access to fresh water",
-      "the discovery of valuable mineral deposits in a region"
+      "the discovery of valuable mineral deposits in a region",
+      "abundant rainfall and consistently fertile agricultural soils",
+      "drought, flooding, soil degradation, and sea-level rise"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "Degraded or hazardous environments make livelihoods untenable and push people to move. Climate change is expected to intensify these pressures substantially."
   },
   {
     id: "2-10-7",
     question: "Chain migration refers to the process by which",
     options: [
-      "governments select migrants through a points-based system",
       "migrants are forcibly relocated by state authorities",
       "earlier migrants help relatives and neighbors follow them",
-      "migrants move repeatedly between several countries"
+      "migrants move repeatedly between several countries",
+      "governments select migrants through a points-based system"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Established migrants provide housing, jobs, and information that make the move far easier for those who follow. It explains why particular villages send people to particular destinations."
   },
   {
@@ -103,12 +103,12 @@ window.QUIZ_QUESTIONS = [
     id: "2-10-9",
     question: "The gravity model predicts that migration between two places increases with",
     options: [
+      "the number of international borders between them",
       "larger populations and shorter distance between them",
       "greater distance and smaller population sizes",
-      "smaller populations regardless of the distance involved",
-      "the number of international borders between them"
+      "smaller populations regardless of the distance involved"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Interaction rises with size and falls with distance, echoing the physics analogy. The model predicts flows reasonably well while ignoring policy and culture."
   },
   {

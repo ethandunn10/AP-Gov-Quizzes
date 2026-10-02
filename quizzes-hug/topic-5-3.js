@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-2",
     question: "A hearth of agricultural innovation is best understood as a region where",
     options: [
-      "farming output currently exceeds all domestic demand",
       "a particular crop or technique first developed and spread",
       "government subsidies concentrate modern farm production",
-      "soil fertility remains highest after centuries of farming"
+      "soil fertility remains highest after centuries of farming",
+      "farming output currently exceeds all domestic demand"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "A hearth is a point of origin from which an innovation diffuses outward. Present-day output, subsidy, or fertility say nothing about where a practice actually began."
   },
   {
     id: "5-3-3",
     question: "The Fertile Crescent is significant in agricultural history as an early hearth of",
     options: [
-      "potato cultivation on steep terraced mountain slopes",
-      "maize and bean cultivation across highland valleys",
       "wheat and barley cultivation with sheep and goats",
-      "rice paddy cultivation in seasonally flooded lowlands"
+      "rice paddy cultivation in seasonally flooded lowlands",
+      "potato cultivation on steep terraced mountain slopes",
+      "maize and bean cultivation across highland valleys"
     ],
-    correctIndex: 2,
+    correctIndex: 0,
     explanation: "Southwest Asia domesticated wheat, barley, sheep, and goats. Maize and beans originated in Mesoamerica, rice in East and South Asia, and the potato in the Andes."
   },
   {
@@ -55,36 +55,36 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-5",
     question: "Agricultural innovations spread from their hearths primarily through",
     options: [
-      "migration and trade carrying seeds, stock, and knowledge",
       "official decrees issued by centralized imperial governments",
       "shifts in global climate that moved the crops themselves",
-      "simultaneous invention occurring in unconnected places"
+      "simultaneous invention occurring in unconnected places",
+      "migration and trade carrying seeds, stock, and knowledge"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "People moving along trade and migration routes carried domesticates and techniques with them, the classic relocation and contagious diffusion pattern. Independent invention did occur in several hearths but explains origins, not spread."
   },
   {
     id: "5-3-6",
     question: "The Columbian Exchange reshaped global agriculture most dramatically by",
     options: [
+      "standardizing land survey methods across colonized regions",
       "ending subsistence farming throughout the Eastern Hemisphere",
       "moving staple crops between the hemispheres for the first time",
-      "introducing mechanized plows to farmers in the Americas",
-      "standardizing land survey methods across colonized regions"
+      "introducing mechanized plows to farmers in the Americas"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Potatoes and maize went east while wheat, sugarcane, and livestock went west, transforming diets and populations on both sides. Mechanization came centuries later, and subsistence farming persisted widely."
   },
   {
     id: "5-3-7",
     question: "Animal domestication most directly enabled early farmers to",
     options: [
-      "produce surplus grain without cultivating additional land",
       "eliminate the risk of crop failure in any given season",
       "gain traction power, manure, and a stored protein supply",
-      "abandon permanent settlement in favor of seasonal movement"
+      "abandon permanent settlement in favor of seasonal movement",
+      "produce surplus grain without cultivating additional land"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Draft animals pulled plows, their manure fertilized fields, and herds banked protein against lean times. Domestication supported settlement rather than ending it, and it did not remove the risk of a failed harvest."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "5-3-10",
     question: "The shift from foraging to agriculture most directly allowed human societies to",
     options: [
-      "improve individual nutrition and health almost immediately",
       "support larger, denser, and more permanent settlements",
       "reduce the total hours of labor an adult worked each week",
-      "spread evenly across every climate zone on the planet"
+      "spread evenly across every climate zone on the planet",
+      "improve individual nutrition and health almost immediately"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Food surpluses freed some people from food production and made cities possible. Evidence from skeletal remains suggests early farmers often worked longer hours and had poorer nutrition than the foragers they replaced."
   }
 ];

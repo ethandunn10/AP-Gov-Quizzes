@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-1",
     question: "The standard enthalpy of formation of an element in its standard state is",
     options: [
+      "equal to its atomic mass",
       "always negative",
       "zero by definition",
-      "always positive",
-      "equal to its atomic mass"
+      "always positive"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Forming an element from itself involves no change. This convention sets the reference point for all other compounds."
   },
   {
     id: "6-8-2",
     question: "ΔH°_rxn is calculated from formation enthalpies as",
     options: [
-      "Σ ΔH°f(reactants) − Σ ΔH°f(products)",
       "Σ ΔH°f(products) − Σ ΔH°f(reactants)",
       "the sum of all ΔH°f values",
-      "the average of all ΔH°f values"
+      "the average of all ΔH°f values",
+      "Σ ΔH°f(reactants) − Σ ΔH°f(products)"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Products minus reactants, each weighted by its coefficient. Reversing the order is the most frequent error and flips the sign."
   },
   {
@@ -43,32 +43,32 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-4",
     question: "A formation reaction produces",
     options: [
-      "any amount of a compound from any reactants",
-      "exactly one mole of a compound from its elements in their standard states",
+      "exactly one mole of a compound from its elements",
       "elements from a compound",
-      "two moles of product"
+      "two moles of product",
+      "any amount of a compound from any reactants at all"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The one-mole requirement sometimes forces fractional coefficients on the reactant side. That is acceptable in a formation equation."
   },
   {
     id: "6-8-5",
     question: "Which equation correctly represents the formation of NH₃(g)?",
     options: [
+      "NH₃(g) → ½N₂(g) + (3/2)H₂(g)",
       "N₂(g) + 3H₂(g) → 2NH₃(g)",
       "½N₂(g) + (3/2)H₂(g) → NH₃(g)",
-      "N(g) + 3H(g) → NH₃(g)",
-      "NH₃(g) → ½N₂(g) + (3/2)H₂(g)"
+      "N(g) + 3H(g) → NH₃(g)"
     ],
-    correctIndex: 1,
+    correctIndex: 2,
     explanation: "Exactly one mole of product forms from elements in their standard states, which are diatomic gases. Atomic N and H are not standard states."
   },
   {
     id: "6-8-6",
     question: "A compound with a large negative ΔH°f is",
     options: [
-      "unstable relative to its elements",
-      "energetically stable relative to its constituent elements",
+      "quite unstable relative to its constituent elements",
+      "energetically stable relative to its elements",
       "always a gas",
       "always reactive"
     ],
@@ -79,20 +79,20 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-7",
     question: "Standard conditions for enthalpies of formation specify",
     options: [
-      "1 bar pressure and a stated temperature, commonly 298 K",
       "0 K and zero pressure",
-      "any convenient conditions",
-      "1 M concentration only"
+      "any convenient laboratory conditions at all",
+      "1 M concentration only",
+      "1 bar pressure and a stated temperature"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Aqueous species additionally use 1 M concentration. Without a fixed reference, tabulated values could not be combined."
   },
   {
     id: "6-8-8",
     question: "Why is ΔH°f for H₂O(l) different from ΔH°f for H₂O(g)?",
     options: [
-      "They are different compounds",
-      "Enthalpy depends on physical state, and condensing the vapor releases additional energy",
+      "They are two entirely different chemical compounds altogether",
+      "Enthalpy depends on state; condensing releases energy",
       "One value is incorrect",
       "Gases have no enthalpy"
     ],
@@ -103,24 +103,24 @@ window.QUIZ_QUESTIONS = [
     id: "6-8-9",
     question: "Using formation enthalpies is generally more accurate than using bond enthalpies because formation values",
     options: [
-      "are averages over many compounds",
-      "are measured for specific compounds in specific physical states",
+      "are measured for specific compounds in specific states",
       "apply only to gases",
-      "require no data tables"
+      "require no data tables",
+      "are only averages taken over a great many different compounds"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Bond enthalpies average across molecular environments and assume gas phase. Formation data avoids both approximations."
   },
   {
     id: "6-8-10",
     question: "For the reaction 2SO₂(g) + O₂(g) → 2SO₃(g), the calculation requires that formation enthalpies be",
     options: [
-      "used without coefficients",
-      "multiplied by their stoichiometric coefficients before summing",
+      "multiplied by their coefficients before summing",
       "averaged",
-      "converted to bond enthalpies"
+      "converted into the equivalent bond enthalpy values",
+      "used without coefficients"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Two moles of SO₃ contribute twice its ΔH°f. Omitting coefficients is a common and consequential error."
   }
 ];

@@ -12,29 +12,29 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.7-2",
     question: "The near-universality of the genetic code across nearly all known organisms suggests:",
-    options: ["Each species evolved an identical code by chance", "The code was inherited from a common ancestor", "The genetic code differs in every species", "The genetic code has no evolutionary meaning"],
-    correctIndex: 1,
+    options: ["The genetic code has no evolutionary meaning", "Each species evolved an identical code by chance", "The code was inherited from a common ancestor", "The genetic code differs in every species"],
+    correctIndex: 2,
     explanation: "The fact that the same codons specify the same amino acids in the vast majority of organisms is strong evidence that this code arose once, early in life's history, and was passed down to nearly all descendant lineages."
   },
   {
     id: "7.7-3",
     question: "Highly conserved proteins, such as cytochrome c, are found with only minor sequence differences across a huge range of species. This pattern suggests:",
-    options: ["These proteins evolved separately in each species", "The gene came from a shared ancestor", "This protein has no important function", "This is evidence against evolution"],
-    correctIndex: 1,
+    options: ["This protein has no important function", "This is evidence against evolution", "These proteins evolved separately in each species", "The gene came from a shared ancestor"],
+    correctIndex: 3,
     explanation: "Because cytochrome c performs an essential function in cellular respiration, strong natural selection has preserved its sequence across widely diverged lineages, reflecting inheritance from a distant common ancestor."
   },
   {
     id: "7.7-4",
     question: "A phylogenetic tree is used to represent:",
-    options: ["The geographic range of a single species", "Relationships among organisms", "The chemical structure of the DNA", "The steps of protein synthesis"],
-    correctIndex: 1,
+    options: ["The chemical structure of the DNA", "The steps of protein synthesis", "The geographic range of a single species", "Relationships among organisms"],
+    correctIndex: 3,
     explanation: "Phylogenetic trees are diagrams that depict the inferred evolutionary relationships among organisms, showing how and when different lineages diverged from shared common ancestors."
   },
   {
     id: "7.7-5",
     question: "In general, species that share more anatomical, developmental, and molecular similarities are considered to be:",
-    options: ["More distantly related species", "More closely related to each other", "Members of the same exact species", "Completely unrelated groups"],
-    correctIndex: 1,
+    options: ["Members of the same exact species", "Completely unrelated groups", "More distantly related species", "More closely related to each other"],
+    correctIndex: 3,
     explanation: "The general principle in constructing evolutionary trees is that greater shared similarity (especially in derived traits) usually indicates a more recent common ancestor and a closer evolutionary relationship."
   },
   {
@@ -47,22 +47,22 @@ window.QUIZ_QUESTIONS = [
   {
     id: "7.7-7",
     question: "Homologous structures across different species are considered strong evidence of common ancestry because they:",
-    options: ["Always serve the same function in every species", "Share structure inherited from an ancestor", "They never appear in related species", "Occur randomly with no evolutionary basis"],
-    correctIndex: 1,
+    options: ["Occur randomly with no evolutionary basis", "Always serve the same function in every species", "Share structure inherited from an ancestor", "They never appear in related species"],
+    correctIndex: 2,
     explanation: "Homologous structures retain the same fundamental architecture across species because they were inherited from a common ancestor, even as they've been modified over time to serve different specific functions."
   },
   {
     id: "7.7-8",
     question: "A 'molecular clock' is a technique used to:",
-    options: ["Measure what time of day an organism was born", "Estimate when two lineages diverged", "Determine an organism's metabolic rate", "Track daily circadian rhythms"],
-    correctIndex: 1,
+    options: ["Determine an organism's metabolic rate", "Track daily circadian rhythms", "Measure what time of day an organism was born", "Estimate when two lineages diverged"],
+    correctIndex: 3,
     explanation: "Molecular clocks use the relatively steady rate at which mutations accumulate over time to estimate how long ago two species or lineages diverged from a common ancestor."
   },
   {
     id: "7.7-9",
     question: "Horizontal gene transfer, especially common among prokaryotes, complicates the study of common ancestry because it:",
-    options: ["Prevents genetic material from being exchanged", "Genes can move between unrelated organisms", "Only happens in eukaryotic organisms", "Has no impact on evolutionary relationships"],
-    correctIndex: 1,
+    options: ["Has no impact on evolutionary relationships", "Prevents genetic material from being exchanged", "Genes can move between unrelated organisms", "Only happens in eukaryotic organisms"],
+    correctIndex: 2,
     explanation: "Horizontal gene transfer allows genetic material to pass between organisms outside of normal reproduction (common in bacteria), which can make simple tree-based ancestry harder to reconstruct since genes may not all share the same inheritance history."
   },
   {

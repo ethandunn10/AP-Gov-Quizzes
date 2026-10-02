@@ -19,24 +19,24 @@ window.QUIZ_QUESTIONS = [
     id: "8-10-2",
     question: "Einstein's theory of relativity affected wider European thought by",
     options: [
+      "unsettling assumptions about absolute space, time, and certainty",
       "proving that scientific knowledge is entirely a matter of opinion",
       "confirming that Newtonian physics described reality completely",
-      "demonstrating that the physical world cannot be studied at all",
-      "unsettling assumptions about absolute space, time, and certainty"
+      "demonstrating that the physical world cannot be studied at all"
     ],
-    correctIndex: 3,
+    correctIndex: 0,
     explanation: "Relativity displaced the Newtonian framework that had underpinned confidence in a fixed, knowable universe. Popular interpretation often exaggerated its implications for morality and knowledge."
   },
   {
     id: "8-10-3",
     question: "Freud's psychoanalytic theory challenged nineteenth-century confidence by arguing that",
     options: [
-      "unconscious drives shape much of human thought and conduct",
       "human behavior follows entirely from conscious rational deliberation",
       "the mind cannot be investigated by any systematic method",
-      "emotion plays no part in ordinary human decision-making"
+      "emotion plays no part in ordinary human decision-making",
+      "unconscious drives shape much of human thought and conduct"
     ],
-    correctIndex: 0,
+    correctIndex: 3,
     explanation: "Locating powerful motives outside awareness undercut the assumption that people are rational agents. His ideas spread rapidly into literature, art, and popular culture."
   },
   {
@@ -55,48 +55,48 @@ window.QUIZ_QUESTIONS = [
     id: "8-10-5",
     question: "Mass culture in the interwar period was shaped principally by",
     options: [
-      "government prohibition of all commercial popular entertainment",
       "the decline of literacy across industrial European societies",
       "radio, cinema, and illustrated newspapers reaching mass audiences",
-      "the restriction of entertainment to aristocratic private venues"
+      "the restriction of entertainment to aristocratic private venues",
+      "government prohibition of all commercial popular entertainment"
     ],
-    correctIndex: 2,
+    correctIndex: 1,
     explanation: "Broadcasting and film created shared national audiences for the first time, which both entertained and served propaganda. Hitler and Roosevelt alike understood radio's political power."
   },
   {
     id: "8-10-6",
     question: "Totalitarian regimes treated art and culture as",
     options: [
-      "irrelevant to the political goals the regimes were pursuing",
-      "matters of purely private taste requiring no state attention",
       "fields in which complete artistic freedom should be guaranteed",
-      "instruments of state policy subject to censorship and direction"
+      "instruments of state policy subject to censorship and direction",
+      "irrelevant to the political goals the regimes were pursuing",
+      "matters of purely private taste requiring no state attention"
     ],
-    correctIndex: 3,
+    correctIndex: 1,
     explanation: "Socialist realism and the Nazi campaign against 'degenerate art' both subordinated aesthetics to ideology. Artists who would not conform emigrated, fell silent, or were persecuted."
   },
   {
     id: "8-10-7",
     question: "Existentialist thought after the Second World War emphasized",
     options: [
+      "the impossibility of any individual making meaningful choices",
       "individual responsibility for meaning in a purposeless world",
       "the certainty that history moves toward a predetermined goal",
-      "obedience to inherited religious and social authority",
-      "the impossibility of any individual making meaningful choices"
+      "obedience to inherited religious and social authority"
     ],
-    correctIndex: 0,
+    correctIndex: 1,
     explanation: "Sartre and Camus wrote for a generation that had seen occupation, resistance, and genocide destroy inherited certainties. Their emphasis on choice under absurd conditions spoke directly to that experience."
   },
   {
     id: "8-10-8",
     question: "Women's cultural position in the interwar years was marked by",
     options: [
-      "the removal of women from higher education in most countries",
-      "greater visibility in work, dress, and public life amid backlash",
       "the complete exclusion of women from all artistic production",
-      "the achievement of full legal and social equality across Europe"
+      "the achievement of full legal and social equality across Europe",
+      "the removal of women from higher education in most countries",
+      "greater visibility in work, dress, and public life amid backlash"
     ],
-    correctIndex: 1,
+    correctIndex: 3,
     explanation: "The 'new woman' with shorter hair, employment, and the vote in several countries coexisted with pressure to return to domestic roles. Fascist regimes were explicit about reversing those changes."
   },
   {
@@ -115,12 +115,12 @@ window.QUIZ_QUESTIONS = [
     id: "8-10-10",
     question: "A historian using twentieth-century culture as evidence would argue that artistic change",
     options: [
-      "was identical across every European country in this period",
       "had no audience beyond a small circle of wealthy patrons",
       "occurred independently of war, politics, and scientific ideas",
-      "registered the collapse of nineteenth-century certainty"
+      "registered the collapse of nineteenth-century certainty",
+      "was identical across every European country in this period"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Fragmented forms, absurdity, and existential anxiety followed directly from war, genocide, and scientific upheaval. Mass media meanwhile gave culture audiences of unprecedented size."
   }
 ];

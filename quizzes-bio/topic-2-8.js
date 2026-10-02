@@ -5,8 +5,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.8-1",
     question: "Endocytosis is a process in which a cell:",
-    options: ["Releases material by fusing vesicles outward", "Takes in material by engulfing it in a vesicle", "Moves small ions through channel proteins", "Synthesizes new membrane phospholipids"],
-    correctIndex: 1,
+    options: ["Synthesizes new membrane phospholipids", "Releases material by fusing vesicles outward", "Takes in material by engulfing it in a vesicle", "Moves small ions through channel proteins"],
+    correctIndex: 2,
     explanation: "In endocytosis, the plasma membrane folds inward to engulf material from outside the cell, pinching off to form an internal vesicle."
   },
   {
@@ -19,43 +19,43 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.8-3",
     question: "Phagocytosis, a specific type of endocytosis, involves a cell engulfing:",
-    options: ["Only dissolved ions and salts", "Large particles or whole cells", "Only single water molecules", "Small gas molecules like oxygen"],
-    correctIndex: 1,
+    options: ["Only single water molecules", "Small gas molecules like oxygen", "Only dissolved ions and salts", "Large particles or whole cells"],
+    correctIndex: 3,
     explanation: "Phagocytosis ('cell eating') is the process by which cells (like white blood cells) engulf large particles or entire microorganisms into a vesicle called a phagosome."
   },
   {
     id: "2.8-4",
     question: "Pinocytosis differs from phagocytosis in that pinocytosis involves the cell taking in:",
-    options: ["Whole bacterial cells", "Small droplets of outside fluid", "Only large solid particles", "Nothing; pinocytosis does not exist"],
-    correctIndex: 1,
+    options: ["Only large solid particles", "Nothing; pinocytosis does not exist", "Whole bacterial cells", "Small droplets of outside fluid"],
+    correctIndex: 3,
     explanation: "Pinocytosis ('cell drinking') is the nonspecific uptake of small amounts of extracellular fluid and dissolved molecules, rather than large solid particles."
   },
   {
     id: "2.8-5",
     question: "Receptor-mediated endocytosis increases efficiency compared to pinocytosis because it:",
-    options: ["Receptors bind and concentrate cargo", "It requires no cellular energy", "It only works with water molecules", "It removes the need for vesicle formation"],
-    correctIndex: 0,
+    options: ["It requires no cellular energy", "It only works with water molecules", "It removes the need for vesicle formation", "Receptors bind and concentrate cargo"],
+    correctIndex: 3,
     explanation: "In receptor-mediated endocytosis, specific receptors on the membrane bind particular target molecules, concentrating them before the membrane invaginates, making uptake more selective and efficient than nonspecific pinocytosis."
   },
   {
     id: "2.8-6",
     question: "Both endocytosis and exocytosis require the cell to expend energy primarily because they involve:",
-    options: ["Simple diffusion of water molecules", "Budding and fusing vesicles, which needs ATP", "Facilitated diffusion through channel proteins", "Changes in osmotic pressure only"],
-    correctIndex: 1,
+    options: ["Budding and fusing vesicles, which needs ATP", "Facilitated diffusion through channel proteins", "Changes in osmotic pressure only", "Simple diffusion of water molecules"],
+    correctIndex: 0,
     explanation: "Forming, moving, and fusing vesicles involves cytoskeletal motor proteins and membrane remodeling, all of which require ATP, making both processes forms of active transport (bulk transport)."
   },
   {
     id: "2.8-7",
     question: "White blood cells engulfing and destroying invading bacteria is a specific example of:",
-    options: ["Pinocytosis", "Exocytosis", "Phagocytosis", "Facilitated diffusion"],
-    correctIndex: 2,
+    options: ["Phagocytosis", "Facilitated diffusion", "Pinocytosis", "Exocytosis"],
+    correctIndex: 0,
     explanation: "White blood cells engulf entire bacterial cells into a vesicle (phagosome), which is then fused with a lysosome for digestion — a classic example of phagocytosis."
   },
   {
     id: "2.8-8",
     question: "Secretion of insulin by pancreatic cells into the bloodstream occurs through:",
-    options: ["Phagocytosis of glucose", "Exocytosis of secretory vesicles", "Simple diffusion through the membrane", "Receptor-mediated endocytosis"],
-    correctIndex: 1,
+    options: ["Exocytosis of secretory vesicles", "Simple diffusion through the membrane", "Receptor-mediated endocytosis", "Phagocytosis of glucose"],
+    correctIndex: 0,
     explanation: "Insulin is packaged into vesicles that move to the plasma membrane and fuse with it, releasing insulin outside the cell via exocytosis."
   },
   {
@@ -68,8 +68,8 @@ window.QUIZ_QUESTIONS = [
   {
     id: "2.8-10",
     question: "Bulk transport processes like endocytosis and exocytosis are necessary because they allow cells to move:",
-    options: ["Only single ions across the membrane", "Large molecules or volumes of fluid", "Small nonpolar gases like oxygen", "Nothing; real cells do not use them"],
-    correctIndex: 1,
+    options: ["Large molecules or volumes of fluid", "Small nonpolar gases like oxygen", "Nothing; real cells do not use them", "Only single ions across the membrane"],
+    correctIndex: 0,
     explanation: "Channel and carrier proteins can only move ions or single molecules; bulk transport is needed to move large macromolecules, particles, or large volumes of fluid into or out of the cell."
   },
 ];

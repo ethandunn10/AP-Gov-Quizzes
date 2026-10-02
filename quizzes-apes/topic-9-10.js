@@ -7,24 +7,24 @@ window.QUIZ_QUESTIONS = [
     id: "9-10-1",
     question: "Current extinction rates are estimated to exceed background rates by",
     options: [
-      "a factor of one hundred to one thousand times",
-      "no measurable amount above natural extinction",
       "less than ten percent above historic levels",
-      "a factor of roughly two to three times"
+      "a factor of roughly two to three times",
+      "a factor of one hundred to one thousand times",
+      "no measurable amount above natural extinction"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "This has led many scientists to describe a sixth mass extinction. Background rates are estimated from the fossil record."
   },
   {
     id: "9-10-2",
     question: "The greatest driver of current biodiversity loss is",
     options: [
-      "direct overharvesting of wild plant and animal species",
       "habitat loss from agriculture and development",
       "pollution entering terrestrial and aquatic ecosystems",
-      "climate change altering temperature and precipitation"
+      "climate change altering temperature and precipitation",
+      "direct overharvesting of wild plant and animal species"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Land conversion remains the dominant threat by a wide margin. Climate change is projected to become increasingly important over coming decades."
   },
   {
@@ -67,60 +67,60 @@ window.QUIZ_QUESTIONS = [
     id: "9-10-6",
     question: "Biodiversity hotspots are prioritized for conservation funding because they",
     options: [
-      "contain the largest total land area available",
       "hold many endemic species and face severe threat",
       "have experienced no habitat loss whatsoever",
-      "are located entirely within wealthy developed nations"
+      "are located entirely within wealthy developed nations",
+      "contain the largest total land area available"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "Concentrating effort where endemism is high maximizes species saved per dollar. Most hotspots lie in tropical developing countries."
   },
   {
     id: "9-10-7",
     question: "The economic argument for conserving biodiversity emphasizes that species provide",
     options: [
+      "value only through tourism revenue in wealthy countries",
       "benefits realized exclusively by future generations",
       "no tangible benefits that can be valued economically",
-      "medicines, crop genetic resources, and ecosystem services",
-      "value only through tourism revenue in wealthy countries"
+      "medicines, crop genetic resources, and ecosystem services"
     ],
-    correctIndex: 2,
+    correctIndex: 3,
     explanation: "Wild crop relatives supply genes for disease resistance in agriculture. Many important drugs were first isolated from wild organisms."
   },
   {
     id: "9-10-8",
     question: "Rewilding as a conservation strategy involves",
     options: [
-      "converting wild land into managed agricultural production",
       "excluding every form of human activity permanently",
       "removing all native species from a degraded area",
-      "restoring ecological processes, often by returning key species"
+      "restoring ecological processes, often by returning key species",
+      "converting wild land into intensively managed agricultural production"
     ],
-    correctIndex: 3,
+    correctIndex: 2,
     explanation: "Wolf reintroduction to Yellowstone restored a trophic cascade. Rewilding emphasizes restoring function rather than a fixed historic composition."
   },
   {
     id: "9-10-9",
     question: "Community based conservation succeeds when local people",
     options: [
-      "receive benefits and have a stake in conservation",
-      "have no knowledge of the local ecosystem",
       "are relocated away from the protected area",
-      "are excluded entirely from protected area management"
+      "are excluded entirely from protected area management",
+      "receive benefits and have a stake in conservation",
+      "have no knowledge of the local ecosystem"
     ],
-    correctIndex: 0,
+    correctIndex: 2,
     explanation: "Conservation imposed against local interests is rarely durable. Community forest and wildlife programs in Namibia and Nepal show the alternative working."
   },
   {
     id: "9-10-10",
     question: "Addressing biodiversity loss ultimately requires",
     options: [
-      "protecting a small number of charismatic species",
       "reducing habitat conversion, emissions, and consumption",
       "relying solely on captive breeding and seed banks",
-      "waiting for species to adapt to changing conditions"
+      "waiting for species to adapt to the changing conditions",
+      "protecting a small number of charismatic species"
     ],
-    correctIndex: 1,
+    correctIndex: 0,
     explanation: "The underlying drivers are land use, climate, and resource demand. Species-by-species intervention cannot substitute for addressing those causes."
   }
 ];

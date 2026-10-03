@@ -1,11 +1,9 @@
-# Quizzr — AP® Practice Quizzes
+# Kovrio — AP® Practice Quizzes
 
 A free, static website with AP® practice quizzes. Plain HTML/CSS/JavaScript
 -- no build step, no framework, no backend.
 
-Nine AP® subjects are registered. Six are complete; the last three have
-their full unit/topic outlines in place but are still missing question
-files.
+Nine AP® subjects are registered, and all nine are complete.
 
 | Subject | Data folder | Registry globals | Units / topics | Status |
 | --- | --- | --- | --- | --- |
@@ -15,14 +13,14 @@ files.
 | AP Psychology | `quizzes-psych/` | `PSYCH_QUIZ_LIST`, `PSYCH_UNITS` | 5 / 35 | complete |
 | AP Chemistry | `quizzes-chem/` | `CHEM_QUIZ_LIST`, `CHEM_UNITS` | 9 / 91 | complete |
 | AP World History | `quizzes-world/` | `WORLD_QUIZ_LIST`, `WORLD_UNITS` | 9 / 71 | complete |
-| AP European History | `quizzes-euro/` | `EURO_QUIZ_LIST`, `EURO_UNITS` | 9 / 88 | 19 of 88 topic files written |
-| AP Human Geography | `quizzes-hug/` | `HUG_QUIZ_LIST`, `HUG_UNITS` | 7 / 68 | outline only, no topic files yet |
-| AP Environmental Science | `quizzes-apes/` | `APES_QUIZ_LIST`, `APES_UNITS` | 9 / 99 | outline only, no topic files yet |
+| AP European History | `quizzes-euro/` | `EURO_QUIZ_LIST`, `EURO_UNITS` | 9 / 88 | complete |
+| AP Human Geography | `quizzes-hug/` | `HUG_QUIZ_LIST`, `HUG_UNITS` | 7 / 68 | complete |
+| AP Environmental Science | `quizzes-apes/` | `APES_QUIZ_LIST`, `APES_UNITS` | 9 / 99 | complete |
 
-Every topic file holds 10 questions, so the six complete subjects are about
-4,200 questions. A registry entry whose topic file is missing still renders
-a card, but its quiz fails to load -- see `GENERATE-SUBJECTS.md` for
-generating the remaining files.
+Every topic file holds 10 questions: 70 units, 677 topics, 6,770 questions
+in total. A registry entry whose topic file is missing still renders a card
+but its quiz fails to load, so keep `index.js`, `units.js`, and the topic
+files in step when adding more.
 
 Each subject keeps its registries under its **own** global names so they all
 can load on the same page without overwriting each other.
